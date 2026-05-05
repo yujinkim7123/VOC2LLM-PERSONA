@@ -1,0 +1,193 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP5_LDA_KMeans",
+  "method": "LDA_KMEANS",
+  "lang": "en",
+  "judge": {
+    "judge_matrix": [
+      [
+        0.4,
+        0.42,
+        0.0,
+        0.06
+      ],
+      [
+        0.0,
+        0.0,
+        0.52,
+        0.12
+      ],
+      [
+        0.2,
+        0.26,
+        0.14,
+        0.64
+      ],
+      [
+        0.1,
+        0.12,
+        0.0,
+        0.5
+      ]
+    ],
+    "best_mapping": [
+      {
+        "gen_name": "Cost-Conscious Value Seeker",
+        "gt_name": "Price-Sensitive Bargain Hunter",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.4,
+        "validity_score": 1.0,
+        "reasoning": "Mismatch in sentiment, partial alignment on values and behaviors; grounded in domain topics.",
+        "success": false
+      },
+      {
+        "gen_name": "Style-Oriented Aesthetic Enthusiast",
+        "gt_name": "Design-Driven Aesthetic Consumer",
+        "keyword_alignment": 0.7,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.7,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.52,
+        "validity_score": 0.7,
+        "reasoning": "Keywords mostly match; sentiment alignment off; grounded in valid topics.",
+        "success": true
+      },
+      {
+        "gen_name": "Service-Savvy Technical Buyer",
+        "gt_name": "Trust-Seeking After-Service Prioritizer",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.7,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 1.0,
+        "matching_score": 0.64,
+        "validity_score": 1.0,
+        "reasoning": "Generated persona addresses service focus, lacks some reference specifics.",
+        "success": true
+      },
+      {
+        "gen_name": "Warranty-Conscious Long-Term Planner",
+        "gt_name": "Performance-Focused Spec Evaluator",
+        "keyword_alignment": 0.0,
+        "value_alignment": 0.0,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.0,
+        "sentiment_alignment": 0.3,
+        "matching_score": 0.12,
+        "validity_score": 0.5,
+        "reasoning": "Generated persona differs in focus and lacks domain-aligned keywords.",
+        "success": false
+      }
+    ],
+    "matching_score": 0.42,
+    "validity_score": 0.8,
+    "mean_all_matching": 0.2175,
+    "dim_averages": {
+      "keyword_alignment": 0.425,
+      "value_alignment": 0.475,
+      "pain_alignment": 0.5,
+      "behavioral_alignment": 0.375,
+      "sentiment_alignment": 0.325
+    },
+    "n_success": 2,
+    "mapping_success_rate": 0.5
+  },
+  "topic_sim_result": {
+    "topic_sim": 0.417,
+    "pair_details": [
+      {
+        "gen_name": "Cost-Conscious Value Seeker",
+        "gt_name": "Price-Sensitive Bargain Hunter",
+        "gen_aspects": [
+          "price",
+          "spec",
+          "performance",
+          "cost",
+          "brand"
+        ],
+        "gt_aspects": [
+          "Price/Cost",
+          "Performance/Specs",
+          "Design/Appearance",
+          "Shipping/Service",
+          "Ease of Use"
+        ],
+        "topic_sim": 0.5242
+      },
+      {
+        "gen_name": "Style-Oriented Aesthetic Enthusiast",
+        "gt_name": "Design-Driven Aesthetic Consumer",
+        "gen_aspects": [
+          "color",
+          "pretty",
+          "design",
+          "look",
+          "beautiful"
+        ],
+        "gt_aspects": [
+          "Design/Appearance",
+          "Ease of Use",
+          "Price/Cost",
+          "Shipping/Service",
+          "Performance/Specs"
+        ],
+        "topic_sim": 0.4228
+      },
+      {
+        "gen_name": "Service-Savvy Technical Buyer",
+        "gt_name": "Trust-Seeking After-Service Prioritizer",
+        "gen_aspects": [
+          "service",
+          "exchange",
+          "defect",
+          "issue",
+          "request"
+        ],
+        "gt_aspects": [
+          "Shipping/Service",
+          "Price/Cost",
+          "Ease of Use",
+          "Performance/Specs",
+          "Design/Appearance"
+        ],
+        "topic_sim": 0.3564
+      },
+      {
+        "gen_name": "Warranty-Conscious Long-Term Planner",
+        "gt_name": "Performance-Focused Spec Evaluator",
+        "gen_aspects": [
+          "warranty",
+          "service",
+          "brand",
+          "app",
+          "material"
+        ],
+        "gt_aspects": [
+          "Performance/Specs",
+          "Ease of Use",
+          "Design/Appearance",
+          "Shipping/Service",
+          "Price/Cost"
+        ],
+        "topic_sim": 0.3647
+      }
+    ]
+  },
+  "summary": {
+    "matching_score": 0.42,
+    "validity_score": 0.8,
+    "topic_sim": 0.417,
+    "dim_averages": {
+      "keyword_alignment": 0.425,
+      "value_alignment": 0.475,
+      "pain_alignment": 0.5,
+      "behavioral_alignment": 0.375,
+      "sentiment_alignment": 0.325
+    }
+  }
+}

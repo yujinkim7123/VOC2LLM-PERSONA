@@ -1,0 +1,182 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP4_SNA_LDA",
+  "method": "SNA_LDA",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2370,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Music-Centric Alexa Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP4_SNA_LDA",
+      "keywords": [
+        "music",
+        "play",
+        "alexa",
+        "echo",
+        "amazon"
+      ],
+      "core_value": "This persona values seamless music integration and Alexa's capabilities.",
+      "description": "Music-Centric Alexa Enthusiasts are tech-savvy individuals who enjoy integrating music streaming with smart home devices. They often engage with Alexa and Amazon Echo for their daily auditory needs.",
+      "motivation": "The ability to control music through voice commands and a strong ecosystem with other Alexa-enabled devices drives their purchase decisions.",
+      "pain_points": "Occasional connectivity or compatibility issues with different music services can be frustrating.",
+      "quote": "I love using Alexa to play my favorite songs throughout the house effortlessly.",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.3,
+        "Negative": 0.0,
+        "_inference_note": "Positive signals include 'want', 'work well', 'great'. Neutral signals include 'alexa', 'music'."
+      },
+      "top_aspects": [
+        "music",
+        "alexa",
+        "play",
+        "echo",
+        "amazon"
+      ],
+      "co_aspects": {
+        "music": [
+          "play",
+          "alexa",
+          "echo"
+        ],
+        "alexa": [
+          "music",
+          "play",
+          "echo"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Sound Quality Seeker",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP4_SNA_LDA",
+      "keywords": [
+        "great",
+        "good",
+        "sound",
+        "quality",
+        "product"
+      ],
+      "core_value": "This user values superior sound quality and product reliability in smart devices.",
+      "description": "Sound Quality Seekers are focused on achieving the best sound experience with their smart speakers. They appreciate high-quality audio output and generally praise products that deliver on these fronts.",
+      "motivation": "They are driven by their desire for immersive sound experiences and good overall product quality.",
+      "pain_points": "If the sound quality does not meet expectations, it could lead to dissatisfaction.",
+      "quote": "The sound quality is superb and it fits perfectly with my setup!",
+      "sentiment_ratio": {
+        "Positive": 0.8,
+        "Neutral": 0.2,
+        "Negative": 0.0,
+        "_inference_note": "Positive words include 'great', 'good', and 'love'. Neutral includes 'product', 'quality'."
+      },
+      "top_aspects": [
+        "sound",
+        "quality",
+        "work",
+        "clock",
+        "product"
+      ],
+      "co_aspects": {
+        "sound": [
+          "quality",
+          "work",
+          "good"
+        ],
+        "quality": [
+          "sound",
+          "work",
+          "product"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Multi-Functional Device User",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP4_SNA_LDA",
+      "keywords": [
+        "clock",
+        "charge",
+        "smart",
+        "alarm",
+        "screen"
+      ],
+      "core_value": "This user prioritizes the multi-functionality of devices, integrating smart features into daily routines.",
+      "description": "Multi-Functional Device Users are interested in versatile devices that offer multiple features like alarms, charging, and display screens. They appreciate a single device doing multiple tasks.",
+      "motivation": "They are motivated by the convenience of having multiple functions in one device.",
+      "pain_points": "Limited battery life and complex setups can be inconvenient.",
+      "quote": "It's great to have a device that not only charges my phone but also works as an alarm clock.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Positive signals are 'great', 'smart'. Neutral signals are 'clock', 'charge'. 'Charge' issues may cause negativity."
+      },
+      "top_aspects": [
+        "clock",
+        "charge",
+        "smart",
+        "alarm",
+        "screen"
+      ],
+      "co_aspects": {
+        "clock": [
+          "charge",
+          "screen",
+          "alarm"
+        ],
+        "charge": [
+          "clock",
+          "smart",
+          "screen"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Technical Issue Pragmatist",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP4_SNA_LDA",
+      "keywords": [
+        "work",
+        "return",
+        "connect",
+        "issue",
+        "stop"
+      ],
+      "core_value": "Emphasizing practicality, this consumer values functionality and smooth operation.",
+      "description": "Technical Issue Pragmatists prioritize devices that work efficiently without frequent technical problems. They are often practical and look for reliability in their devices to avoid disruptions.",
+      "motivation": "Their main motivation is finding reliable products that require minimal downtime and solve connectivity issues.",
+      "pain_points": "Frequent returns and connection issues are major frustrations for them.",
+      "quote": "I need a device that just works without all these connectivity issues!",
+      "sentiment_ratio": {
+        "Positive": 0.1,
+        "Neutral": 0.2,
+        "Negative": 0.7,
+        "_inference_note": "Negative signals include 'return', 'issue', 'stop'. 'Work' tends towards neutral."
+      },
+      "top_aspects": [
+        "work",
+        "return",
+        "connect",
+        "issue",
+        "stop"
+      ],
+      "co_aspects": {
+        "work": [
+          "return",
+          "connect",
+          "issue"
+        ],
+        "return": [
+          "work",
+          "issue",
+          "stop"
+        ]
+      }
+    }
+  ]
+}

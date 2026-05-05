@@ -1,0 +1,262 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP6_SNA_KMeans",
+  "method": "SNA_KMEANS",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_docs": 868,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Specification-Focused Bargain Seeker",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "spec",
+        "measure",
+        "price",
+        "measurement",
+        "performance",
+        "standard",
+        "actual",
+        "buy",
+        "match",
+        "get"
+      ],
+      "core_value": "This consumer values precise specifications and competitive pricing.",
+      "description": "This persona is keenly focused on product specifications and how well they match the promised standards. They are driven by performance metrics and price competitiveness, ensuring their purchase offers value for money.",
+      "motivation": "They are driven to make a purchase only if the product specifications match their expectations and the price is right.",
+      "pain_points": "Inaccurate specifications or performance that doesn't meet standards can lead to dissatisfaction.",
+      "quote": "I always check if the specs and price match before buying.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.6,
+        "Negative": 0.2,
+        "_inference_note": "Neutral keywords dominate, with focus on 'spec', 'measure', 'performance' which are factual. Positive from words like 'actual', negative from discrepancies indicated by 'match'."
+      },
+      "top_aspects": [
+        "spec",
+        "measure",
+        "price",
+        "performance",
+        "standard"
+      ],
+      "co_aspects": {
+        "spec": [
+          "measure",
+          "price",
+          "performance"
+        ],
+        "measure": [
+          "spec",
+          "price",
+          "standard"
+        ],
+        "price": [
+          "spec",
+          "performance",
+          "standard"
+        ],
+        "performance": [
+          "spec",
+          "price",
+          "standard"
+        ],
+        "standard": [
+          "spec",
+          "measure",
+          "performance"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Aesthetic-Oriented Consumer",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "color",
+        "buy",
+        "choose",
+        "want",
+        "pretty",
+        "match",
+        "look",
+        "setup",
+        "make",
+        "arrive"
+      ],
+      "core_value": "This consumer prioritizes aesthetics and the visual appeal of home appliances.",
+      "description": "This persona is motivated by the visual aspects of products, seeking items that match their home design and personal style. They are particular about color and overall appearance.",
+      "motivation": "They purchase products that enhance the aesthetic harmony of their space.",
+      "pain_points": "Delayed arrivals or items that don't match their expected look can be frustrating.",
+      "quote": "I need my appliances to be not only functional but also complement the look of my home.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.4,
+        "Negative": 0.1,
+        "_inference_note": "The presence of positive words like 'pretty', 'want' suggests aesthetic satisfaction. Neutral words like 'buy', focusing on factual transactions, minimize negativity."
+      },
+      "top_aspects": [
+        "color",
+        "buy",
+        "choose",
+        "pretty",
+        "look"
+      ],
+      "co_aspects": {
+        "color": [
+          "choose",
+          "pretty",
+          "look"
+        ],
+        "buy": [
+          "choose",
+          "want",
+          "arrive"
+        ],
+        "choose": [
+          "color",
+          "pretty",
+          "look"
+        ],
+        "pretty": [
+          "color",
+          "choose",
+          "look"
+        ],
+        "look": [
+          "color",
+          "choose",
+          "pretty"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Brand-Trusting Maintenance Seeker",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "service",
+        "brand",
+        "trust",
+        "warranty",
+        "product",
+        "time",
+        "buy",
+        "repair",
+        "app",
+        "defect"
+      ],
+      "core_value": "This consumer values reliability and trusted brands, seeking products with strong service and warranty offerings.",
+      "description": "This persona prioritizes products from well-known brands, emphasizing service and warranty assurances. They trust brands to provide durable products and responsive maintenance.",
+      "motivation": "They desire peace of mind, assured by warranty and brand reputation.",
+      "pain_points": "Defects and poor service from trusted brands lead to significant disappointment.",
+      "quote": "I always go for brands I trust, with good service and warranty included.",
+      "sentiment_ratio": {
+        "Positive": 0.3,
+        "Neutral": 0.4,
+        "Negative": 0.3,
+        "_inference_note": "Brand loyalty and trust imply positivity. Neutral balance with 'time', factual purchase processes. Negativity stems from 'repair', 'defect'."
+      },
+      "top_aspects": [
+        "service",
+        "brand",
+        "trust",
+        "warranty",
+        "repair"
+      ],
+      "co_aspects": {
+        "service": [
+          "brand",
+          "trust",
+          "warranty"
+        ],
+        "brand": [
+          "service",
+          "trust",
+          "warranty"
+        ],
+        "trust": [
+          "service",
+          "brand",
+          "warranty"
+        ],
+        "warranty": [
+          "service",
+          "brand",
+          "trust"
+        ],
+        "repair": [
+          "service",
+          "warranty",
+          "defect"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Value-Conscious Design Enthusiast",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "price",
+        "design",
+        "buy",
+        "look",
+        "pay",
+        "charge",
+        "performance",
+        "pretty",
+        "use",
+        "month"
+      ],
+      "core_value": "This consumer looks for well-designed appliances that provide excellent value for money.",
+      "description": "This persona finds a balance between cost and design appeal, aiming to buy appliances that are both visually pleasing and reasonably priced. They consider both the practical and aesthetic aspects in their decisions.",
+      "motivation": "To purchase products that provide satisfaction in both design and cost-effectiveness.",
+      "pain_points": "High prices or designs that fail to deliver expected performance can lead to dissatisfaction.",
+      "quote": "I need my appliance to be stylish and reasonably priced without compromising on performance.",
+      "sentiment_ratio": {
+        "Positive": 0.4,
+        "Neutral": 0.5,
+        "Negative": 0.1,
+        "_inference_note": "Positivity from 'design', 'pretty', balance in neutrality with practical 'use', 'price'. Minimal negativity noted in 'charge'."
+      },
+      "top_aspects": [
+        "price",
+        "design",
+        "buy",
+        "look",
+        "performance"
+      ],
+      "co_aspects": {
+        "price": [
+          "design",
+          "buy",
+          "performance"
+        ],
+        "design": [
+          "price",
+          "buy",
+          "look"
+        ],
+        "buy": [
+          "price",
+          "design",
+          "look"
+        ],
+        "look": [
+          "design",
+          "buy",
+          "performance"
+        ],
+        "performance": [
+          "price",
+          "design",
+          "look"
+        ]
+      }
+    }
+  ]
+}

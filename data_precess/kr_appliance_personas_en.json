@@ -1,0 +1,142 @@
+[
+  {
+    "persona_id": "KR_P1",
+    "persona_name": "Price-Sensitive Bargain Hunter",
+    "category": "Home Appliances (Korean-English Mixed VOC)",
+    "data_source": "kr_synthetic_S1",
+    "keywords": ["lowest price", "value for money", "discount", "price drop", "deal", "not worth it", "price-to-performance"],
+    "core_value": "Maximizing utility per dollar spent, with price as the primary — and often only — purchase trigger.",
+    "description": "This consumer habitually compares prices across platforms before purchasing and is acutely sensitive to discount timing and lowest-price availability. They evaluate price before performance or design. Among 225 total reviews, the Price/Cost topic accounts for 69 entries (30.7%) — the highest topic concentration in this segment. Negative sentiment runs uniformly high across all five topics (36–40%), while positive sentiment stays at just 26–31%, indicating a recurring post-purchase disappointment rooted in price-value misalignment.",
+    "motivation": "The expectation of securing a product below its perceived fair value drives the purchase decision. This consumer actively tracks flash sales, bundle discounts, and price-alert notifications before committing.",
+    "pain_points": "Price drops immediately after purchase, the sudden release of cheaper competing products, and performance that fails to justify the paid price are the dominant frustrations. The Performance/Specs topic carries the highest negative rate at 40%, reflecting a 'I paid too much for what I got' sentiment loop.",
+    "quote": "Grabbed these at the lowest price on Amazon and honestly the quality blew me away. No reason to spend twice as much on a brand name. — But two days later the price dropped again. I hate when that happens.",
+    "sentiment_ratio": {
+      "Positive": 0.28,
+      "Neutral": 0.34,
+      "Negative": 0.38
+    },
+    "top_topics": ["Price/Cost", "Performance/Specs", "Design/Appearance", "Shipping/Service", "Ease of Use"],
+    "topic_distribution": {
+      "Price/Cost": 69,
+      "Performance/Specs": 53,
+      "Design/Appearance": 44,
+      "Shipping/Service": 36,
+      "Ease of Use": 23
+    },
+    "topic_sentiment": {
+      "Price/Cost": {"Positive": 0.29, "Negative": 0.36},
+      "Performance/Specs": {"Positive": 0.26, "Negative": 0.40},
+      "Design/Appearance": {"Positive": 0.27, "Negative": 0.36},
+      "Shipping/Service": {"Positive": 0.31, "Negative": 0.39},
+      "Ease of Use": {"Positive": 0.26, "Negative": 0.39}
+    },
+    "co_topics": {
+      "Price/Cost": ["Performance/Specs", "Design/Appearance", "Shipping/Service"]
+    }
+  },
+  {
+    "persona_id": "KR_P2",
+    "persona_name": "Performance-Focused Spec Evaluator",
+    "category": "Home Appliances (Korean-English Mixed VOC)",
+    "data_source": "kr_synthetic_S2",
+    "keywords": ["performance", "specs", "benchmark", "real-world measurement", "specifications", "processing speed", "value ratio"],
+    "core_value": "Numerically verified performance is the non-negotiable purchase criterion; ease of use amplifies satisfaction when performance expectations are met.",
+    "description": "This consumer is a data-driven buyer who reviews benchmark results, official spec sheets, and real-world measurement reports before purchasing. Performance/Specs and Ease of Use topics each account for 53 and 44 entries respectively. Notably, Ease of Use carries the highest positive rate of 43% across all four segments — indicating that when specs deliver, usability satisfaction follows naturally. However, Shipping/Service has the highest negative rate at 41%, showing that poor logistics erodes an otherwise strong product experience. Overall positive sentiment of 40% is the highest among the four segments.",
+    "motivation": "The primary goal is to validate that publicly advertised spec numbers hold up under real operating conditions. If confirmed, a higher price point is fully acceptable. Rational justification of spend is central to purchase confidence.",
+    "pain_points": "Real-world performance falling below official specs, and the release of a higher-spec competitor product shortly after purchase, generate the strongest frustration. Damaged packaging or delayed delivery is disproportionately damaging because it taints the unboxing moment before the product is even evaluated.",
+    "quote": "Ran benchmarks first and only bought after confirming the performance. At this spec level, the price makes complete sense. The shipping was slower than expected though — took the edge off the excitement.",
+    "sentiment_ratio": {
+      "Positive": 0.40,
+      "Neutral": 0.24,
+      "Negative": 0.36
+    },
+    "top_topics": ["Performance/Specs", "Ease of Use", "Design/Appearance", "Shipping/Service", "Price/Cost"],
+    "topic_distribution": {
+      "Performance/Specs": 53,
+      "Shipping/Service": 44,
+      "Ease of Use": 44,
+      "Design/Appearance": 43,
+      "Price/Cost": 41
+    },
+    "topic_sentiment": {
+      "Price/Cost": {"Positive": 0.39, "Negative": 0.37},
+      "Performance/Specs": {"Positive": 0.42, "Negative": 0.38},
+      "Design/Appearance": {"Positive": 0.40, "Negative": 0.37},
+      "Shipping/Service": {"Positive": 0.39, "Negative": 0.41},
+      "Ease of Use": {"Positive": 0.43, "Negative": 0.25}
+    },
+    "co_topics": {
+      "Performance/Specs": ["Ease of Use", "Price/Cost", "Shipping/Service"]
+    }
+  },
+  {
+    "persona_id": "KR_P3",
+    "persona_name": "Design-Driven Aesthetic Consumer",
+    "category": "Home Appliances (Korean-English Mixed VOC)",
+    "data_source": "kr_synthetic_S3",
+    "keywords": ["color", "beautiful", "interior", "finish quality", "appearance", "premium look", "design"],
+    "core_value": "A product must integrate aesthetically into everyday living spaces; visual harmony and finish quality are non-negotiable.",
+    "description": "This is the largest segment with 290 total reviews — the highest among all four personas. Design/Appearance leads with 74 entries (25.5%), and color, finish, and interior-coordination keywords dominate the review language. Despite strong design intent at purchase, this segment records the highest overall negative sentiment at 45% and the worst Shipping/Service negative rate in the entire dataset at 60%. Ease of Use negative rate also reaches 43%, creating a compound disappointment pattern: 'beautiful on paper, frustrating in reality, and damaged on arrival.'",
+    "motivation": "Initial purchase intent is triggered by visual appeal discovered through social media or interior design communities. The product is framed as an investment in the aesthetic completeness of a personal space, which justifies a moderate price premium.",
+    "pain_points": "The gap between product photography and actual finish quality is the most cited disappointment. Physical damage during shipping — scratches, dented packaging — directly destroys the aesthetic expectation that motivated the purchase. Shipping/Service's 60% negative rate is the single highest negative rate across all topics in all segments.",
+    "quote": "Can't believe this design comes at this price. The color is beautiful and the case finish looks way more premium than what you'd expect. — But the box arrived dented and there was a scratch on the edge. If it looks this cheap in real life, why did I pay for the aesthetic?",
+    "sentiment_ratio": {
+      "Positive": 0.34,
+      "Neutral": 0.21,
+      "Negative": 0.45
+    },
+    "top_topics": ["Design/Appearance", "Ease of Use", "Price/Cost", "Shipping/Service", "Performance/Specs"],
+    "topic_distribution": {
+      "Design/Appearance": 74,
+      "Ease of Use": 56,
+      "Price/Cost": 56,
+      "Shipping/Service": 53,
+      "Performance/Specs": 51
+    },
+    "topic_sentiment": {
+      "Price/Cost": {"Positive": 0.30, "Negative": 0.45},
+      "Performance/Specs": {"Positive": 0.31, "Negative": 0.45},
+      "Design/Appearance": {"Positive": 0.38, "Negative": 0.36},
+      "Shipping/Service": {"Positive": 0.32, "Negative": 0.60},
+      "Ease of Use": {"Positive": 0.38, "Negative": 0.43}
+    },
+    "co_topics": {
+      "Design/Appearance": ["Ease of Use", "Price/Cost", "Shipping/Service"]
+    }
+  },
+  {
+    "persona_id": "KR_P4",
+    "persona_name": "Trust-Seeking After-Service Prioritizer",
+    "category": "Home Appliances (Korean-English Mixed VOC)",
+    "data_source": "kr_synthetic_S4",
+    "keywords": ["after-sales service", "brand trust", "warranty", "repair", "reliability", "post-purchase support", "free service"],
+    "core_value": "A brand's ability and willingness to honor its after-sales commitments is the deciding factor in purchase trust and long-term loyalty.",
+    "description": "This consumer purchases with a long-term usage horizon in mind, thoroughly reviewing the brand's after-sales policy and warranty coverage before committing. Shipping/Service is the dominant topic at 60 entries (26.7%), with brand trust, warranty terms, and repair experience keywords appearing consistently. Shipping/Service negative rate reaches 43%, and Design/Appearance negative rate hits 47% — the second highest across all segments — suggesting that when brands fall short on service promises, dissatisfaction extends even to how the product looks. The recurring narrative structure is: 'trusted the brand, paid the premium, got betrayed.'",
+    "motivation": "The consumer is willing to pay a price premium if it is justified by demonstrably reliable after-sales support. They purchase to minimize the anxiety of long-term ownership risk — hardware failure, repair cost uncertainty — by anchoring trust in the brand's service reputation.",
+    "pain_points": "The most damaging experience is discovering that the actual scope of free warranty repair is narrower than what was communicated at the time of purchase. Brand promise misalignment generates the strongest negative reviews in this segment, often escalating from disappointment to active warning to other buyers.",
+    "quote": "It's on the pricier side, but this brand has a solid reputation for after-sales support so I bought with confidence. — Accepted the premium price for the service policy, but when I actually used it nearly everything fell under paid repair. If this is how they treat loyal customers, I should have just bought the cheaper one.",
+    "sentiment_ratio": {
+      "Positive": 0.32,
+      "Neutral": 0.25,
+      "Negative": 0.43
+    },
+    "top_topics": ["Shipping/Service", "Price/Cost", "Ease of Use", "Performance/Specs", "Design/Appearance"],
+    "topic_distribution": {
+      "Shipping/Service": 60,
+      "Price/Cost": 44,
+      "Ease of Use": 42,
+      "Performance/Specs": 41,
+      "Design/Appearance": 38
+    },
+    "topic_sentiment": {
+      "Price/Cost": {"Positive": 0.32, "Negative": 0.43},
+      "Performance/Specs": {"Positive": 0.24, "Negative": 0.39},
+      "Design/Appearance": {"Positive": 0.26, "Negative": 0.47},
+      "Shipping/Service": {"Positive": 0.35, "Negative": 0.43},
+      "Ease of Use": {"Positive": 0.40, "Negative": 0.40}
+    },
+    "co_topics": {
+      "Shipping/Service": ["Price/Cost", "Performance/Specs", "Ease of Use"]
+    }
+  }
+]

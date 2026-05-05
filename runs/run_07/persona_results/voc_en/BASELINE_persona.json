@@ -1,0 +1,230 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "BASELINE",
+  "method": "LLM_STANDALONE",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_docs": null,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Efficiency-Driven Tech Enthusiast",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_BASELINE",
+      "keywords": [
+        "smart",
+        "features",
+        "automation",
+        "efficient",
+        "integrate",
+        "control",
+        "modern"
+      ],
+      "core_value": "This consumer segment values cutting-edge technology and seamless integration.",
+      "description": "These consumers are tech enthusiasts who seek the latest features and smart functionalities in home appliances. They are often early adopters who enjoy the convenience that advanced technology brings to their daily routines.",
+      "motivation": "They are driven by the desire for efficiency and the ability to control devices remotely via smart home systems.",
+      "pain_points": "They get frustrated with products that are not compatible with their existing smart home ecosystem or have poor connectivity issues.",
+      "quote": "I love how I can control my appliances from anywhere using my phone.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Tech enthusiasts are usually satisfied with new smart features but may have minor connectivity issues."
+      },
+      "top_aspects": [
+        "smart features",
+        "automation",
+        "efficiency",
+        "integration",
+        "control"
+      ],
+      "co_aspects": {
+        "smart features": [
+          "automation",
+          "integration"
+        ],
+        "automation": [
+          "efficiency",
+          "control"
+        ],
+        "efficiency": [
+          "smart features",
+          "control"
+        ],
+        "integration": [
+          "smart features",
+          "automation"
+        ],
+        "control": [
+          "smart features",
+          "efficiency"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Value-Oriented Bargain Hunter",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_BASELINE",
+      "keywords": [
+        "affordable",
+        "budget",
+        "deal",
+        "reliable",
+        "price",
+        "value",
+        "durable"
+      ],
+      "core_value": "This segment prioritizes cost-effectiveness and durability.",
+      "description": "Value-oriented consumers are always on the lookout for the best deals and prioritize getting the most for their money. They are practical buyers who focus on functionality over fancy features.",
+      "motivation": "They are motivated by the desire to stretch their budget while ensuring the product meets their basic needs.",
+      "pain_points": "They are disappointed by products that don't last as long as expected or do not deliver the promised functionality.",
+      "quote": "I need an appliance that's worth every penny and won't break down after a year.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.3,
+        "Negative": 0.2,
+        "_inference_note": "Bargain hunters often find satisfaction in good deals but can be let down by product durability."
+      },
+      "top_aspects": [
+        "affordability",
+        "reliability",
+        "durability",
+        "price",
+        "value"
+      ],
+      "co_aspects": {
+        "affordability": [
+          "value",
+          "price"
+        ],
+        "reliability": [
+          "durability",
+          "value"
+        ],
+        "durability": [
+          "reliability",
+          "affordability"
+        ],
+        "price": [
+          "affordability",
+          "value"
+        ],
+        "value": [
+          "price",
+          "affordability"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Design-Conscious Homemaker",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_BASELINE",
+      "keywords": [
+        "design",
+        "aesthetic",
+        "modern",
+        "style",
+        "match",
+        "appearance",
+        "elegant"
+      ],
+      "core_value": "This consumer segment values aesthetics and how products complement their home decor.",
+      "description": "Design-conscious homemakers appreciate appliances that not only function well but also enhance the visual appeal of their homes. They carefully select appliances that match or elevate their interior design.",
+      "motivation": "Their main driver is ensuring their home looks cohesive and stylish with every appliance.",
+      "pain_points": "They become frustrated with products that clash with their decor or look outdated.",
+      "quote": "I want appliances that are both functional and add a touch of elegance to my home.",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Design-focused buyers are generally satisfied if aesthetic needs are met but can be let down by clashing designs."
+      },
+      "top_aspects": [
+        "design",
+        "aesthetic",
+        "style",
+        "appearance",
+        "match"
+      ],
+      "co_aspects": {
+        "design": [
+          "aesthetic",
+          "style"
+        ],
+        "aesthetic": [
+          "design",
+          "appearance"
+        ],
+        "style": [
+          "design",
+          "appearance"
+        ],
+        "appearance": [
+          "style",
+          "aesthetic"
+        ],
+        "match": [
+          "design",
+          "appearance"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Eco-Conscious Buyer",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_BASELINE",
+      "keywords": [
+        "eco-friendly",
+        "energy-saving",
+        "sustainable",
+        "environment",
+        "green",
+        "efficient",
+        "eco"
+      ],
+      "core_value": "This segment prioritizes environmental sustainability and energy efficiency.",
+      "description": "Eco-conscious buyers seek products that are both environmentally friendly and efficient. They are driven by the impact of their purchases on the world around them.",
+      "motivation": "They are motivated by the desire to reduce their carbon footprint and live sustainably.",
+      "pain_points": "They are frustrated by misleading claims about eco-friendliness and products that waste energy.",
+      "quote": "I want to make sure my appliances are contributing to a sustainable future.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Eco-conscious individuals are generally satisfied if the product delivers on eco-friendly features but wary of greenwashing."
+      },
+      "top_aspects": [
+        "eco-friendly",
+        "energy-saving",
+        "sustainable",
+        "efficient",
+        "environment"
+      ],
+      "co_aspects": {
+        "eco-friendly": [
+          "sustainable",
+          "environment"
+        ],
+        "energy-saving": [
+          "efficient",
+          "sustainable"
+        ],
+        "sustainable": [
+          "eco-friendly",
+          "energy-saving"
+        ],
+        "efficient": [
+          "energy-saving",
+          "eco-friendly"
+        ],
+        "environment": [
+          "eco-friendly",
+          "sustainable"
+        ]
+      }
+    }
+  ]
+}

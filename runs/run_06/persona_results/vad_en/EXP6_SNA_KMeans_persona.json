@@ -1,0 +1,182 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP6_SNA_KMeans",
+  "method": "SNA_KMEANS",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2138,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Easy Setup Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "charge",
+        "buy",
+        "time",
+        "easy",
+        "set",
+        "product",
+        "use",
+        "like",
+        "love",
+        "good"
+      ],
+      "core_value": "This segment values the simplicity and ease of setting up and using their devices.",
+      "description": "These consumers prioritize an easy setup process and enjoy using their devices regularly. They appreciate straightforward functionality and find the products to be practical and reliable.",
+      "motivation": "Motivated by the convenience and quick setup, they are likely to recommend the product to others who value ease of use.",
+      "pain_points": "Issues arise if the setup process becomes complicated or does not meet their expectations of simplicity.",
+      "quote": "I love how easy it was to set up and start using the device right away!",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "The presence of words like 'easy', 'love', 'good' indicates a positive sentiment, with some neutral usage words such as 'use' and 'set'."
+      },
+      "top_aspects": [
+        "charge",
+        "buy",
+        "time",
+        "easy",
+        "set"
+      ],
+      "co_aspects": {
+        "easy": [
+          "charge",
+          "set",
+          "love"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Smart Home Integrator",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "thermostat",
+        "nest",
+        "work",
+        "easy",
+        "buy",
+        "google",
+        "good",
+        "home",
+        "year",
+        "smart"
+      ],
+      "core_value": "This segment values the integration of smart devices for an efficient home.",
+      "description": "These consumers are focused on creating a connected home through smart devices. They often purchase new products to enhance their smart home ecosystem and value seamless integration.",
+      "motivation": "Driven by the vision of a fully integrated smart home, they prioritize devices that function well within their existing systems.",
+      "pain_points": "Frustrations occur if the devices do not integrate well or require troubleshooting.",
+      "quote": "It's great to see my Nest thermostat work seamlessly with Google's smart home system.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Positive words like 'good', 'easy', 'work' show satisfaction, with neutral keywords being association words like 'thermostat' and 'home'."
+      },
+      "top_aspects": [
+        "thermostat",
+        "nest",
+        "work",
+        "easy",
+        "google"
+      ],
+      "co_aspects": {
+        "nest": [
+          "thermostat",
+          "home",
+          "google"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Efficiency Seeker",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "clock",
+        "smart",
+        "great",
+        "alarm",
+        "charge",
+        "google",
+        "love",
+        "work",
+        "phone",
+        "good"
+      ],
+      "core_value": "This segment values efficiency and time management through smart devices.",
+      "description": "These consumers use technology as a tool to streamline their daily routines. They particularly appreciate features like alarms and clocks that help manage their schedules.",
+      "motivation": "They are motivated by products that enhance productivity and fit into a fast-paced lifestyle.",
+      "pain_points": "Dissatisfaction arises when features are unreliable or not user-friendly.",
+      "quote": "I love how this smart clock helps me stay on top of my schedule every day!",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Keywords 'love', 'great', 'good' imply positive sentiment, with neutral terms including 'smart' and 'clock' indicating usage intents."
+      },
+      "top_aspects": [
+        "clock",
+        "smart",
+        "alarm",
+        "charge",
+        "google"
+      ],
+      "co_aspects": {
+        "clock": [
+          "smart",
+          "alarm",
+          "google"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Quality Value Shopper",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "good",
+        "sound",
+        "quality",
+        "great",
+        "price",
+        "picture",
+        "love",
+        "product",
+        "easy",
+        "well"
+      ],
+      "core_value": "This segment values high-quality features at a good price.",
+      "description": "These consumers are keen on finding products that offer the best value for money, focusing particularly on sound and picture quality. They seek out items that enhance their entertainment experience.",
+      "motivation": "They are driven by the combination of quality features and reasonable pricing, leading them to recommend devices that meet these criteria.",
+      "pain_points": "They become dissatisfied if the quality does not meet their expectations or if pricing is unjustified.",
+      "quote": "I love the sound quality at such a great price, it was definitely a worthwhile purchase!",
+      "sentiment_ratio": {
+        "Positive": 0.8,
+        "Neutral": 0.15,
+        "Negative": 0.05,
+        "_inference_note": "Overall very positive with words like 'good', 'great', 'love', and slight neutral presence in 'quality', 'price'."
+      },
+      "top_aspects": [
+        "good",
+        "sound",
+        "quality",
+        "great",
+        "price"
+      ],
+      "co_aspects": {
+        "good": [
+          "sound",
+          "quality",
+          "great"
+        ]
+      }
+    }
+  ]
+}

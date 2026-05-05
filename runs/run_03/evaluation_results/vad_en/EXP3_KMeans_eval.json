@@ -1,0 +1,193 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP3_KMeans",
+  "method": "KMEANS_TFIDF",
+  "lang": "en",
+  "judge": {
+    "judge_matrix": [
+      [
+        0.4,
+        0.06,
+        0.12,
+        0.0
+      ],
+      [
+        0.0,
+        0.28,
+        0.58,
+        0.12
+      ],
+      [
+        0.28,
+        0.06,
+        0.0,
+        0.68
+      ],
+      [
+        0.06,
+        0.62,
+        0.16,
+        0.0
+      ]
+    ],
+    "best_mapping": [
+      {
+        "gen_name": "Sound-Loving Bargain Hunter",
+        "gt_name": "The Wireless Audio Pursuer",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.4,
+        "validity_score": 0.7,
+        "reasoning": "Some overlap in keywords and values; sentiment completely mismatches.",
+        "success": false
+      },
+      {
+        "gen_name": "Functionality-Driven Clock Enthusiast",
+        "gt_name": "The Practical Value Seeker",
+        "keyword_alignment": 0.7,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.7,
+        "matching_score": 0.58,
+        "validity_score": 0.7,
+        "reasoning": "Generated aligns on clock/alarm but misses price/value focus.",
+        "success": true
+      },
+      {
+        "gen_name": "Frustrated Early Adopter",
+        "gt_name": "The Disillusioned Early Adopter",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.7,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 1.0,
+        "matching_score": 0.68,
+        "validity_score": 1.0,
+        "reasoning": "Keywords partially overlap; sentiment and pain align well; valid domain topics.",
+        "success": true
+      },
+      {
+        "gen_name": "Smart Home Integrator",
+        "gt_name": "The Smart Home Integrator",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.7,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.7,
+        "matching_score": 0.62,
+        "validity_score": 0.7,
+        "reasoning": "Generated persona lacks specific keywords and detailed behavior but edges sentiment.",
+        "success": true
+      }
+    ],
+    "matching_score": 0.57,
+    "validity_score": 0.775,
+    "mean_all_matching": 0.2137,
+    "dim_averages": {
+      "keyword_alignment": 0.55,
+      "value_alignment": 0.65,
+      "pain_alignment": 0.55,
+      "behavioral_alignment": 0.5,
+      "sentiment_alignment": 0.6
+    },
+    "n_success": 3,
+    "mapping_success_rate": 0.75
+  },
+  "topic_sim_result": {
+    "topic_sim": 0.4155,
+    "pair_details": [
+      {
+        "gen_name": "Sound-Loving Bargain Hunter",
+        "gt_name": "The Wireless Audio Pursuer",
+        "gen_aspects": [
+          "great",
+          "sound",
+          "quality",
+          "price",
+          "easy"
+        ],
+        "gt_aspects": [
+          "Sound",
+          "Connectivity",
+          "Price",
+          "Configuration",
+          "Size"
+        ],
+        "topic_sim": 0.5501
+      },
+      {
+        "gen_name": "Functionality-Driven Clock Enthusiast",
+        "gt_name": "The Practical Value Seeker",
+        "gen_aspects": [
+          "clock",
+          "smart",
+          "alarm",
+          "charge",
+          "google"
+        ],
+        "gt_aspects": [
+          "Price",
+          "Clock",
+          "Configuration",
+          "Convenience",
+          "Smart Assistant"
+        ],
+        "topic_sim": 0.4706
+      },
+      {
+        "gen_name": "Frustrated Early Adopter",
+        "gt_name": "The Disillusioned Early Adopter",
+        "gen_aspects": [
+          "work",
+          "buy",
+          "charge",
+          "airpod",
+          "stop"
+        ],
+        "gt_aspects": [
+          "Durability",
+          "Defective",
+          "Charging",
+          "Connectivity",
+          "Quality"
+        ],
+        "topic_sim": 0.315
+      },
+      {
+        "gen_name": "Smart Home Integrator",
+        "gt_name": "The Smart Home Integrator",
+        "gen_aspects": [
+          "nest",
+          "thermostat",
+          "google",
+          "hub",
+          "work"
+        ],
+        "gt_aspects": [
+          "Smart Assistant",
+          "Clock",
+          "Connectivity",
+          "Configuration",
+          "Convenience"
+        ],
+        "topic_sim": 0.3261
+      }
+    ]
+  },
+  "summary": {
+    "matching_score": 0.57,
+    "validity_score": 0.775,
+    "topic_sim": 0.4155,
+    "dim_averages": {
+      "keyword_alignment": 0.55,
+      "value_alignment": 0.65,
+      "pain_alignment": 0.55,
+      "behavioral_alignment": 0.5,
+      "sentiment_alignment": 0.6
+    }
+  }
+}

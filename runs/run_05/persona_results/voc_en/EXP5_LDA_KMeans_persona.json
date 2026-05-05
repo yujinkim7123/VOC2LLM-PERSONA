@@ -1,0 +1,202 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP5_LDA_KMeans",
+  "method": "LDA_KMEANS",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_docs": 965,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Practical Budget-Conscious Buyer",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP5_LDA_KMeans",
+      "keywords": [
+        "price",
+        "spec",
+        "buy",
+        "service",
+        "performance"
+      ],
+      "core_value": "Getting the best value for their money.",
+      "description": "These consumers focus on the balance between price and performance. They are interested in detailed specifications and often compare products to ensure they are making cost-effective purchases.",
+      "motivation": "The need to maximize value and functionality within their budget drives their purchase decisions.",
+      "pain_points": "Anything that increases the cost without adding tangible benefits frustrates them.",
+      "quote": "I want the best specs for the money I spend.",
+      "sentiment_ratio": {
+        "Positive": 0.3,
+        "Neutral": 0.5,
+        "Negative": 0.2,
+        "_inference_note": "Keywords like 'price', 'spec', and 'performance' suggest a practical focus, with 'service' indicating potential issues or aid, giving a slightly more neutral sentiment."
+      },
+      "top_aspects": [
+        "price",
+        "spec",
+        "buy",
+        "service",
+        "performance"
+      ],
+      "co_aspects": {
+        "price": [
+          "spec",
+          "buy",
+          "service"
+        ],
+        "spec": [
+          "price",
+          "performance",
+          "brand"
+        ],
+        "service": [
+          "buy",
+          "product",
+          "performance"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Aesthetic-Driven Decorator",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP5_LDA_KMeans",
+      "keywords": [
+        "color",
+        "pretty",
+        "look",
+        "buy",
+        "design"
+      ],
+      "core_value": "The appearance and design of the product.",
+      "description": "These consumers prioritize aesthetics and style, seeking appliances that complement their home decor. They are highly influenced by product appearance and design.",
+      "motivation": "Their desire to enhance the visual appeal of their living space drives their purchasing decisions.",
+      "pain_points": "Lack of appealing design options or unpleasing aesthetics frustrate them.",
+      "quote": "I need something that looks beautiful and fits my home's style.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Keywords like 'pretty', 'beautiful', and 'design' denote positive signals, with 'buy' reflecting neutral intent."
+      },
+      "top_aspects": [
+        "color",
+        "pretty",
+        "look",
+        "design",
+        "beautiful"
+      ],
+      "co_aspects": {
+        "color": [
+          "design",
+          "look",
+          "beautiful"
+        ],
+        "design": [
+          "color",
+          "pretty",
+          "make"
+        ],
+        "look": [
+          "color",
+          "pretty",
+          "want"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Cautious Warranty Seeker",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP5_LDA_KMeans",
+      "keywords": [
+        "warranty",
+        "service",
+        "brand",
+        "app",
+        "spec"
+      ],
+      "core_value": "Reliability and post-purchase support.",
+      "description": "These consumers value strong warranty policies and reliable service. They want assurance in case something goes wrong with their purchase.",
+      "motivation": "The need for security and long-term support drives them to consider warranty details.",
+      "pain_points": "Insufficient warranty coverage or unreliable customer service are significant concerns.",
+      "quote": "I want a brand I can trust with a solid warranty in place.",
+      "sentiment_ratio": {
+        "Positive": 0.4,
+        "Neutral": 0.4,
+        "Negative": 0.2,
+        "_inference_note": "Keywords like 'warranty', 'service', and 'brand' suggest caution and potential issues, giving a balanced sentiment."
+      },
+      "top_aspects": [
+        "warranty",
+        "service",
+        "brand",
+        "app",
+        "spec"
+      ],
+      "co_aspects": {
+        "warranty": [
+          "service",
+          "brand",
+          "spec"
+        ],
+        "service": [
+          "warranty",
+          "use",
+          "product"
+        ],
+        "brand": [
+          "warranty",
+          "service",
+          "app"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Problem Solver",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP5_LDA_KMeans",
+      "keywords": [
+        "service",
+        "exchange",
+        "trust",
+        "defect",
+        "issue"
+      ],
+      "core_value": "Timely and effective problem resolution.",
+      "description": "These consumers often deal with product issues and seek reliable customer service solutions. They are quick to request exchanges or fixes for defective items.",
+      "motivation": "Problems with purchases motivate them to focus on responsive service and resolution speed.",
+      "pain_points": "Defects and poor service response times deeply frustrate them.",
+      "quote": "When there's an issue, I need quick and effective service!",
+      "sentiment_ratio": {
+        "Positive": 0.1,
+        "Neutral": 0.3,
+        "Negative": 0.6,
+        "_inference_note": "Keywords like 'defect', 'issue', and 'exchange' signal mostly negative experiences."
+      },
+      "top_aspects": [
+        "service",
+        "exchange",
+        "trust",
+        "defect",
+        "issue"
+      ],
+      "co_aspects": {
+        "service": [
+          "exchange",
+          "defect",
+          "brand"
+        ],
+        "defect": [
+          "service",
+          "exchange",
+          "issue"
+        ],
+        "exchange": [
+          "service",
+          "defect",
+          "request"
+        ]
+      }
+    }
+  ]
+}

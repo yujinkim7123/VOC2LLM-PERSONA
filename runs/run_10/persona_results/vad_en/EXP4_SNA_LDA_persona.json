@@ -1,0 +1,250 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP4_SNA_LDA",
+  "method": "SNA_LDA",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2370,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Music-Loving Alexa User",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP4_SNA_LDA",
+      "keywords": [
+        "music",
+        "play",
+        "alexa",
+        "echo",
+        "work",
+        "well",
+        "home"
+      ],
+      "core_value": "This consumer values a seamless music streaming experience controlled by Alexa.",
+      "description": "These users are avid music enthusiasts who enjoy playing music through their smart speakers. They appreciate Alexa's integration with music services and the convenience it offers at home.",
+      "motivation": "Their primary motivation is to use Alexa for easy access to their favorite music and to enhance their home environment with sound.",
+      "pain_points": "They may be frustrated if the device does not integrate well with their home setup or if the music streaming is interrupted.",
+      "quote": "I love how I can just ask Alexa to play my favorite tunes throughout my home.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.4,
+        "Negative": 0.0,
+        "_inference_note": "Positive signals inferred from words like 'well', 'home', and usage mentions, indicating satisfaction with Alexa and Echo. Neutral from general usage terms like 'work' and 'play'."
+      },
+      "top_aspects": [
+        "music",
+        "play",
+        "alexa",
+        "echo",
+        "work"
+      ],
+      "co_aspects": {
+        "music": [
+          "play",
+          "alexa",
+          "echo"
+        ],
+        "alexa": [
+          "music",
+          "play",
+          "echo"
+        ],
+        "echo": [
+          "alexa",
+          "music",
+          "play"
+        ],
+        "play": [
+          "music",
+          "alexa",
+          "echo"
+        ],
+        "work": [
+          "music",
+          "alexa",
+          "play"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Sound Quality Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP4_SNA_LDA",
+      "keywords": [
+        "great",
+        "good",
+        "sound",
+        "work",
+        "quality",
+        "like",
+        "love"
+      ],
+      "core_value": "This consumer values the superior sound quality provided by their smart speaker.",
+      "description": "These individuals have a keen ear for sound quality and rave about how good the audio experience is. They often express love for the product because of its great audio fidelity.",
+      "motivation": "They are driven by their passion for high-quality sound, seeking devices that can deliver an excellent auditory experience.",
+      "pain_points": "Disappointment can arise if the sound quality does not meet their expectations or if technical issues hinder performance.",
+      "quote": "The sound quality is amazing; I absolutely love it for playing music.",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.3,
+        "Negative": 0.0,
+        "_inference_note": "Positive signals include 'great', 'good', 'sound', and 'love' which show high satisfaction with sound quality. Neutral words like 'work' indicate general usage contexts."
+      },
+      "top_aspects": [
+        "great",
+        "sound",
+        "quality",
+        "product",
+        "love"
+      ],
+      "co_aspects": {
+        "great": [
+          "sound",
+          "quality",
+          "product"
+        ],
+        "sound": [
+          "great",
+          "quality",
+          "love"
+        ],
+        "quality": [
+          "sound",
+          "great",
+          "product"
+        ],
+        "product": [
+          "great",
+          "sound",
+          "quality"
+        ],
+        "love": [
+          "sound",
+          "great",
+          "quality"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Clock-Dependent Gadget Fan",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP4_SNA_LDA",
+      "keywords": [
+        "clock",
+        "charge",
+        "smart",
+        "alarm",
+        "work",
+        "phone",
+        "light"
+      ],
+      "core_value": "They value a multifunctional gadget that integrates well with daily routines.",
+      "description": "These consumers are tech-savvy and appreciate their device's versatility, using it as a clock, alarm, and for phone charging. They enjoy the added features that enhance their daily routines.",
+      "motivation": "They are motivated by the convenience of having multiple functions integrated into one device, enhancing their productivity.",
+      "pain_points": "If functions like charging or alarms fail, it disrupts their routine and causes dissatisfaction.",
+      "quote": "I use my smart display as an alarm, clock, and to charge my phone; it’s so convenient.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.5,
+        "Negative": 0.0,
+        "_inference_note": "Neutral signals from utility keywords like 'work', 'charge', and 'phone'. Positive inferred from 'smart', 'alarm', and complementing life routines."
+      },
+      "top_aspects": [
+        "clock",
+        "alarm",
+        "charge",
+        "phone",
+        "smart"
+      ],
+      "co_aspects": {
+        "clock": [
+          "charge",
+          "alarm",
+          "smart"
+        ],
+        "alarm": [
+          "clock",
+          "charge",
+          "phone"
+        ],
+        "charge": [
+          "clock",
+          "alarm",
+          "phone"
+        ],
+        "phone": [
+          "charge",
+          "clock",
+          "smart"
+        ],
+        "smart": [
+          "clock",
+          "alarm",
+          "light"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Technical Issue Sufferer",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP4_SNA_LDA",
+      "keywords": [
+        "work",
+        "buy",
+        "month",
+        "time",
+        "return",
+        "stop",
+        "connect"
+      ],
+      "core_value": "They seek reliable and persistent functionality from their devices.",
+      "description": "These users often face technical difficulties that disrupt their product experience. They are usually focused on the functionality and reliability of the device over a longer duration.",
+      "motivation": "Their purchase decisions are driven by the need for a dependable device that provides consistent service over time.",
+      "pain_points": "Frequent technical issues that require a return or troubleshooting are major frustrations.",
+      "quote": "After a few months, my smart speaker stopped connecting, and I had to return it.",
+      "sentiment_ratio": {
+        "Positive": 0.1,
+        "Neutral": 0.2,
+        "Negative": 0.7,
+        "_inference_note": "Negative signals are strong from words like 'return', 'stop', 'issue', indicating dissatisfaction. Some neutral from 'work' and 'buy'."
+      },
+      "top_aspects": [
+        "work",
+        "return",
+        "connect",
+        "issue",
+        "time"
+      ],
+      "co_aspects": {
+        "work": [
+          "buy",
+          "connect",
+          "return"
+        ],
+        "return": [
+          "stop",
+          "connect",
+          "issue"
+        ],
+        "connect": [
+          "stop",
+          "issue",
+          "work"
+        ],
+        "issue": [
+          "work",
+          "return",
+          "stop"
+        ],
+        "time": [
+          "month",
+          "buy",
+          "work"
+        ]
+      }
+    }
+  ]
+}

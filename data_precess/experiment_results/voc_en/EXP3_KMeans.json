@@ -1,0 +1,72 @@
+{
+  "exp_id": "EXP-3",
+  "method": "KMEANS_TFIDF",
+  "file": "voc_en",
+  "lang": "en",
+  "n_docs": 965,
+  "k": 4,
+  "silhouette_mean": 0.0486,
+  "silhouette_std": 0.0015,
+  "coherence_cv": 0.5126,
+  "cluster_distribution": {
+    "0": 310,
+    "1": 114,
+    "2": 294,
+    "3": 247
+  },
+  "topic_words": {
+    "cluster_0": [
+      "price",
+      "pay",
+      "performance",
+      "cost",
+      "buy",
+      "budget",
+      "charge",
+      "high",
+      "cheap",
+      "month"
+    ],
+    "cluster_1": [
+      "spec",
+      "measure",
+      "price",
+      "measurement",
+      "performance",
+      "advertise",
+      "say",
+      "standard",
+      "benchmark",
+      "actual"
+    ],
+    "cluster_2": [
+      "color",
+      "pretty",
+      "look",
+      "design",
+      "want",
+      "setup",
+      "buy",
+      "choose",
+      "beautiful",
+      "make"
+    ],
+    "cluster_3": [
+      "service",
+      "brand",
+      "trust",
+      "datum",
+      "warranty",
+      "app",
+      "issue",
+      "product",
+      "support",
+      "defect"
+    ]
+  },
+  "used_params": {
+    "k": 4,
+    "tfidf_feats": 200
+  },
+  "paper_ref": "MacQueen (1967) / Grid-Search Tuned"
+}

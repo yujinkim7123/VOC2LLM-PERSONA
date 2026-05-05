@@ -1,0 +1,222 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "BASELINE",
+  "method": "LLM_STANDALONE",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_docs": null,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Efficient Home Manager",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_BASELINE",
+      "keywords": [
+        "energy-saving",
+        "durability",
+        "easy to use",
+        "value for money",
+        "practical"
+      ],
+      "core_value": "This consumer values efficiency and practicality in their home appliances.",
+      "description": "The Efficient Home Manager is someone who prioritizes functionality and long-term savings. They often look for appliances that promise durability and easy maintenance.",
+      "motivation": "Their primary motivation is to find products that offer energy efficiency and long-term utility within a reasonable budget.",
+      "pain_points": "They are frustrated by appliances that break frequently or have hidden costs.",
+      "quote": "I just want an appliance that gets the job done without a hassle and helps save on my bills.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Consumers in this segment are generally satisfied with functional and reliable appliances but have slight concerns about product longevity."
+      },
+      "top_aspects": [
+        "efficiency",
+        "durability",
+        "usability",
+        "cost",
+        "practicality"
+      ],
+      "co_aspects": {
+        "efficiency": [
+          "energy-saving",
+          "durability"
+        ],
+        "durability": [
+          "practicality",
+          "value for money"
+        ],
+        "usability": [
+          "easy to use",
+          "practicality"
+        ],
+        "cost": [
+          "value for money",
+          "durability"
+        ],
+        "practicality": [
+          "efficiency",
+          "usability"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Tech Enthusiast",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_BASELINE",
+      "keywords": [
+        "smart features",
+        "integration",
+        "cutting-edge",
+        "innovative",
+        "latest model"
+      ],
+      "core_value": "This consumer seeks the latest technology and innovation in home appliances.",
+      "description": "The Tech Enthusiast is always on the lookout for the newest appliances that offer innovative smart features and seamless integration with their existing systems.",
+      "motivation": "They are driven by the desire to have the most advanced and feature-rich appliances that can enhance their lifestyle.",
+      "pain_points": "They experience frustration with compatibility issues and the complex setup of some smart appliances.",
+      "quote": "I love having the latest tech in my home, but it needs to work smoothly with everything else I have.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.3,
+        "Negative": 0.2,
+        "_inference_note": "While generally excited about new features, consumers in this category may face compatibility and setup challenges, creating some dissatisfaction."
+      },
+      "top_aspects": [
+        "technology",
+        "integration",
+        "innovation",
+        "features",
+        "compatibility"
+      ],
+      "co_aspects": {
+        "technology": [
+          "smart features",
+          "latest model"
+        ],
+        "integration": [
+          "compatibility",
+          "innovation"
+        ],
+        "innovation": [
+          "cutting-edge",
+          "latest model"
+        ],
+        "features": [
+          "technology",
+          "smart features"
+        ],
+        "compatibility": [
+          "integration",
+          "features"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Budget-Conscious Buyer",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_BASELINE",
+      "keywords": [
+        "affordable",
+        "discount",
+        "basic features",
+        "value",
+        "cost-effective"
+      ],
+      "core_value": "This consumer prioritizes finding affordable appliances that meet their basic needs.",
+      "description": "Budget-Conscious Buyers focus on getting the most value for their money, seeking appliances that are not too pricey but meet their essential requirements.",
+      "motivation": "Their purchase decisions are primarily driven by price and bargain deals, often prioritizing cost over features.",
+      "pain_points": "Limited functionality or lack of advanced features compared to more expensive models can be a letdown.",
+      "quote": "For me, it's all about finding a good deal without sacrificing too much in terms of functionality.",
+      "sentiment_ratio": {
+        "Positive": 0.4,
+        "Neutral": 0.5,
+        "Negative": 0.1,
+        "_inference_note": "This segment generally values affordability and expects reasonable quality; however, they maintain a pragmatic outlook that sometimes leads to accepting limitations."
+      },
+      "top_aspects": [
+        "cost",
+        "value",
+        "basic features",
+        "affordability",
+        "discount"
+      ],
+      "co_aspects": {
+        "cost": [
+          "value",
+          "affordable"
+        ],
+        "value": [
+          "cost-effective",
+          "basic features"
+        ],
+        "basic features": [
+          "affordability",
+          "value"
+        ],
+        "affordability": [
+          "discount",
+          "cost-effective"
+        ],
+        "discount": [
+          "affordable",
+          "cost"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Design-Conscious Homeowner",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_BASELINE",
+      "keywords": [
+        "aesthetic",
+        "design",
+        "modern",
+        "style",
+        "appearance"
+      ],
+      "core_value": "This consumer values aesthetics and the visual impact of appliances in their home.",
+      "description": "Design-Conscious Homeowners emphasize the look and feel of their appliances, focusing on how well these items integrate into their home's style.",
+      "motivation": "Their driving force is to find appliances that complement their home's aesthetics, often favoring brands known for modern design.",
+      "pain_points": "Frustrations can arise from a lack of choices that combine both style and functionality.",
+      "quote": "I want my appliances to be as stylish as the rest of my home, without compromising on quality.",
+      "sentiment_ratio": {
+        "Positive": 0.4,
+        "Neutral": 0.4,
+        "Negative": 0.2,
+        "_inference_note": "Consumers in this category have mixed feelings: they are pleased by attractive designs but often encounter limitations in options that balance look with performance."
+      },
+      "top_aspects": [
+        "design",
+        "style",
+        "aesthetics",
+        "appearance",
+        "modernity"
+      ],
+      "co_aspects": {
+        "design": [
+          "aesthetics",
+          "modern"
+        ],
+        "style": [
+          "appearance",
+          "modernity"
+        ],
+        "aesthetics": [
+          "style",
+          "design"
+        ],
+        "appearance": [
+          "design",
+          "aesthetics"
+        ],
+        "modernity": [
+          "style",
+          "appearance"
+        ]
+      }
+    }
+  ]
+}

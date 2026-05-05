@@ -1,0 +1,243 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP6_SNA_KMeans",
+  "method": "SNA_KMEANS",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2138,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Appreciative Starter",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "charge",
+        "buy",
+        "time",
+        "easy",
+        "set",
+        "product",
+        "use"
+      ],
+      "core_value": "Ease of setup and initial use.",
+      "description": "This persona values the simplicity of getting started with a device. They often mention how easy it was to set up their purchase, indicating satisfaction with the initial experience.",
+      "motivation": "They are driven by the need for a hassle-free product that they can start using immediately.",
+      "pain_points": "Occasional issues might include uncertainty about product features beyond the initial setup.",
+      "quote": "I loved how easy it was to set up the device and start using it right away!",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Keywords like 'easy', 'set', and 'love' suggest a positive sentiment, while 'use' and 'buy' are neutral. Lack of major complaints gives it a minor negative ratio."
+      },
+      "top_aspects": [
+        "charge",
+        "buy",
+        "time",
+        "easy",
+        "set"
+      ],
+      "co_aspects": {
+        "charge": [
+          "buy",
+          "time",
+          "easy"
+        ],
+        "buy": [
+          "charge",
+          "time",
+          "set"
+        ],
+        "time": [
+          "charge",
+          "buy",
+          "use"
+        ],
+        "easy": [
+          "set",
+          "product"
+        ],
+        "set": [
+          "easy",
+          "use"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Smart Home Integrator",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "thermostat",
+        "nest",
+        "work",
+        "easy",
+        "buy",
+        "google",
+        "home"
+      ],
+      "core_value": "Integration with smart home systems.",
+      "description": "This persona focuses on incorporating smart devices into their home environment. They value products that seamlessly integrate and improve their smart home experience.",
+      "motivation": "Their main drive is enhancing their home automation, aiming for convenience and efficiency.",
+      "pain_points": "They may face occasional challenges with compatibility or setup across different devices.",
+      "quote": "The Nest thermostat connected easily to my Google Home and works perfectly.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Words like 'easy', 'good', and 'work' offer a sense of satisfaction, while terms like 'buy' and 'home' are neutral. Few signs of dissatisfaction were found."
+      },
+      "top_aspects": [
+        "thermostat",
+        "nest",
+        "work",
+        "easy",
+        "buy"
+      ],
+      "co_aspects": {
+        "thermostat": [
+          "nest",
+          "work",
+          "google"
+        ],
+        "nest": [
+          "thermostat",
+          "google",
+          "smart"
+        ],
+        "work": [
+          "thermostat",
+          "nest",
+          "easy"
+        ],
+        "easy": [
+          "work",
+          "buy"
+        ],
+        "buy": [
+          "easy",
+          "home"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Sound Quality Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "good",
+        "sound",
+        "quality",
+        "great",
+        "price",
+        "picture"
+      ],
+      "core_value": "High-quality audio experience.",
+      "description": "This consumer prioritizes the auditory aspects of devices. They often discuss the sound quality and appreciate it when it meets or exceeds their expectations.",
+      "motivation": "Driven by the desire for rich audio performance and aesthetic satisfaction from images.",
+      "pain_points": "Can be disappointed by devices that fall short in sound quality or are overpriced for what they deliver.",
+      "quote": "The sound quality is excellent for the price, and the picture quality is a bonus.",
+      "sentiment_ratio": {
+        "Positive": 0.8,
+        "Neutral": 0.15,
+        "Negative": 0.05,
+        "_inference_note": "Positive sentiment indicated by 'good', 'sound', 'quality', 'great', and 'love'. Very few negative words are present."
+      },
+      "top_aspects": [
+        "good",
+        "sound",
+        "quality",
+        "great",
+        "price"
+      ],
+      "co_aspects": {
+        "good": [
+          "sound",
+          "quality",
+          "price"
+        ],
+        "sound": [
+          "good",
+          "quality",
+          "great"
+        ],
+        "quality": [
+          "sound",
+          "great",
+          "price"
+        ],
+        "great": [
+          "sound",
+          "quality",
+          "picture"
+        ],
+        "price": [
+          "good",
+          "quality",
+          "picture"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Tech Issue Resolver",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "work",
+        "stop",
+        "month",
+        "buy",
+        "good",
+        "return",
+        "issue"
+      ],
+      "core_value": "Functionality and reliability over time.",
+      "description": "Engages in ongoing evaluation of their device, noticing and communicating issues that arise with time. They weigh their experience heavily on the device's reliability.",
+      "motivation": "Motivated by the desire for consistent performance and long-term reliability from their devices.",
+      "pain_points": "Frustration arises from devices stopping to work properly over time, requiring returns or repairs.",
+      "quote": "It worked great at first, but then it stopped after a few months, which was disappointing.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.3,
+        "Negative": 0.5,
+        "_inference_note": "Negative keywords like 'issue', 'stop', 'return', and 'month'. Few positive mentions with 'good' and 'buy' being mostly neutral."
+      },
+      "top_aspects": [
+        "work",
+        "stop",
+        "month",
+        "buy",
+        "issue"
+      ],
+      "co_aspects": {
+        "work": [
+          "stop",
+          "issue",
+          "month"
+        ],
+        "stop": [
+          "work",
+          "return",
+          "issue"
+        ],
+        "month": [
+          "work",
+          "buy"
+        ],
+        "buy": [
+          "month",
+          "good"
+        ],
+        "issue": [
+          "work",
+          "stop",
+          "return"
+        ]
+      }
+    }
+  ]
+}

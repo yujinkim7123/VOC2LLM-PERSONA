@@ -1,0 +1,193 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "BASELINE",
+  "method": "LLM_STANDALONE",
+  "lang": "en",
+  "judge": {
+    "judge_matrix": [
+      [
+        0.0,
+        0.12,
+        0.0,
+        0.0
+      ],
+      [
+        0.36,
+        0.18,
+        0.0,
+        0.06
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.06,
+        0.0,
+        0.36
+      ]
+    ],
+    "best_mapping": [
+      {
+        "gen_name": "Tech-Savvy Innovator",
+        "gt_name": "Performance-Focused Spec Evaluator",
+        "keyword_alignment": 0.0,
+        "value_alignment": 0.0,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.12,
+        "validity_score": 0.3,
+        "reasoning": "Generated content lacks alignment with the provided domain topics.",
+        "success": false
+      },
+      {
+        "gen_name": "Budget-Conscious Family Planner",
+        "gt_name": "Price-Sensitive Bargain Hunter",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.36,
+        "validity_score": 0.5,
+        "reasoning": "Keywords diverge; sentiment misaligned; some value overlap.",
+        "success": false
+      },
+      {
+        "gen_name": "Eco-Conscious Minimalist",
+        "gt_name": "Design-Driven Aesthetic Consumer",
+        "keyword_alignment": 0.0,
+        "value_alignment": 0.0,
+        "pain_alignment": 0.0,
+        "behavioral_alignment": 0.0,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.0,
+        "validity_score": 0.0,
+        "reasoning": "The generated persona is unrelated to the reference and domain topics.",
+        "success": false
+      },
+      {
+        "gen_name": "Reliability-Focused Traditionalist",
+        "gt_name": "Trust-Seeking After-Service Prioritizer",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.3,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.36,
+        "validity_score": 0.7,
+        "reasoning": "Core focus differs; sentiment vastly misaligned; keywords mix aligned.",
+        "success": false
+      }
+    ],
+    "matching_score": 0.21,
+    "validity_score": 0.375,
+    "mean_all_matching": 0.0713,
+    "dim_averages": {
+      "keyword_alignment": 0.25,
+      "value_alignment": 0.25,
+      "pain_alignment": 0.275,
+      "behavioral_alignment": 0.275,
+      "sentiment_alignment": 0.0
+    },
+    "n_success": 0,
+    "mapping_success_rate": 0.0
+  },
+  "topic_sim_result": {
+    "topic_sim": 0.3745,
+    "pair_details": [
+      {
+        "gen_name": "Tech-Savvy Innovator",
+        "gt_name": "Performance-Focused Spec Evaluator",
+        "gen_aspects": [
+          "connectivity",
+          "smart features",
+          "usability",
+          "app integration",
+          "setup process"
+        ],
+        "gt_aspects": [
+          "Performance/Specs",
+          "Ease of Use",
+          "Design/Appearance",
+          "Shipping/Service",
+          "Price/Cost"
+        ],
+        "topic_sim": 0.4107
+      },
+      {
+        "gen_name": "Budget-Conscious Family Planner",
+        "gt_name": "Price-Sensitive Bargain Hunter",
+        "gen_aspects": [
+          "cost",
+          "energy efficiency",
+          "durability",
+          "value",
+          "brand"
+        ],
+        "gt_aspects": [
+          "Price/Cost",
+          "Performance/Specs",
+          "Design/Appearance",
+          "Shipping/Service",
+          "Ease of Use"
+        ],
+        "topic_sim": 0.4183
+      },
+      {
+        "gen_name": "Eco-Conscious Minimalist",
+        "gt_name": "Design-Driven Aesthetic Consumer",
+        "gen_aspects": [
+          "sustainability",
+          "efficiency",
+          "materials",
+          "compactness",
+          "brand commitment"
+        ],
+        "gt_aspects": [
+          "Design/Appearance",
+          "Ease of Use",
+          "Price/Cost",
+          "Shipping/Service",
+          "Performance/Specs"
+        ],
+        "topic_sim": 0.3105
+      },
+      {
+        "gen_name": "Reliability-Focused Traditionalist",
+        "gt_name": "Trust-Seeking After-Service Prioritizer",
+        "gen_aspects": [
+          "durability",
+          "quality",
+          "service",
+          "warranty",
+          "brand"
+        ],
+        "gt_aspects": [
+          "Shipping/Service",
+          "Price/Cost",
+          "Ease of Use",
+          "Performance/Specs",
+          "Design/Appearance"
+        ],
+        "topic_sim": 0.3587
+      }
+    ]
+  },
+  "summary": {
+    "matching_score": 0.21,
+    "validity_score": 0.375,
+    "topic_sim": 0.3745,
+    "dim_averages": {
+      "keyword_alignment": 0.25,
+      "value_alignment": 0.25,
+      "pain_alignment": 0.275,
+      "behavioral_alignment": 0.275,
+      "sentiment_alignment": 0.0
+    }
+  }
+}

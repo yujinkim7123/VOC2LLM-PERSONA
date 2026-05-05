@@ -1,0 +1,191 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP_RAW",
+  "method": "RAW_REVIEW_INJECTION",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_reviews_injected": 200,
+  "run_seed": 98,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Tech Enthusiast with Buyer’s Remorse",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP_RAW",
+      "keywords": [
+        "WiFi issues",
+        "connectivity problems",
+        "compatibility",
+        "warranty",
+        "customer support"
+      ],
+      "core_value": "Reliability and continuous functionality of devices.",
+      "description": "These consumers are tech-savvy and initially excited about integrating the devices with their smart home systems. However, they often encounter technological limitations or failures like connectivity and compatibility issues, leading them to feel frustrated and expressing regret over their purchase.",
+      "motivation": "Interest in cutting-edge technology and integration capabilities with existing systems.",
+      "pain_points": "Frequent connectivity issues and insufficient technical support frustrate them. They also dislike receiving refurbished replacements.",
+      "quote": "After spending over $200, it breaks just out of warranty. Will not purchase a Nest device again.",
+      "sentiment_ratio": {
+        "Positive": 0.1,
+        "Neutral": 0.2,
+        "Negative": 0.7,
+        "_inference_note": "Mostly negative due to repeated complaints about product failures and inadequate after-sales support."
+      },
+      "top_aspects": [
+        "WiFi",
+        "customer support",
+        "warranty",
+        "compatibility",
+        "device failure"
+      ],
+      "co_aspects": {
+        "WiFi": [
+          "compatibility",
+          "connectivity problems"
+        ],
+        "customer support": [
+          "warranty",
+          "device failure"
+        ],
+        "compatibility": [
+          "WiFi",
+          "integration"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Practical User Seeking Simplicity",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP_RAW",
+      "keywords": [
+        "easy setup",
+        "basic functions",
+        "amazon echo",
+        "Google home",
+        "simple usage"
+      ],
+      "core_value": "Simple, reliable functionality over advanced, unproven features.",
+      "description": "These users are not looking for high-tech capabilities but prefer devices that perform basic functions reliably. They value ease of setup and operation, focusing on using virtual assistants for straightforward tasks.",
+      "motivation": "Desire for devices that work seamlessly for daily activities like music, alarms, and basic home control.",
+      "pain_points": "Complex setups and advanced, unnecessary features they do not use or find difficult to manage.",
+      "quote": "The Amazon Echo is easy to set up and is so much fun to have! It's great for people who enjoy listening to music and for doing other simple tasks.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Largely positive with some neutrality towards advanced but unwanted features."
+      },
+      "top_aspects": [
+        "ease of use",
+        "setup",
+        "basic functions",
+        "compatibility",
+        "music"
+      ],
+      "co_aspects": {
+        "ease of use": [
+          "setup",
+          "basic functions"
+        ],
+        "setup": [
+          "ease of use",
+          "Google home"
+        ],
+        "basic functions": [
+          "music",
+          "Amazon echo"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Style-Conscious Aesthetic Buyer",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP_RAW",
+      "keywords": [
+        "fashionable",
+        "design",
+        "environment",
+        "decor",
+        "photo display"
+      ],
+      "core_value": "Device aesthetics and how they integrate with personal style and home decor.",
+      "description": "These buyers are driven by the appearance of the devices. They prefer aesthetically pleasing products that enhance their home environment or fit their personal style.",
+      "motivation": "Devices that provide both functional benefits and visual appeal, enhancing the overall look of their surroundings.",
+      "pain_points": "Devices that do not fit well aesthetically into their environment or feel outdated.",
+      "quote": "My favorite part about it is how clean it looks on my kitchen counter!",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Highly positive feedback, often praising design and aesthetic integration."
+      },
+      "top_aspects": [
+        "design",
+        "appearance",
+        "environment",
+        "photo display",
+        "integration"
+      ],
+      "co_aspects": {
+        "design": [
+          "appearance",
+          "environment"
+        ],
+        "photo display": [
+          "design",
+          "integration"
+        ],
+        "appearance": [
+          "fashionable",
+          "design"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Cost-Conscious Value Seeker",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP_RAW",
+      "keywords": [
+        "price",
+        "value",
+        "deal",
+        "cost",
+        "affordable"
+      ],
+      "core_value": "Maximizing utility from devices while minimizing cost.",
+      "description": "These consumers are driven by value propositions. They often purchase products on sale or as part of a package deal, focusing on receiving more features for less money.",
+      "motivation": "Finding products that offer significant savings or are fitting within a budget, without compromising on too many features.",
+      "pain_points": "Products that are perceived as overpriced or do not deliver adequate value for their cost.",
+      "quote": "Got this for my parents, it turns out all the techy features frustrates them more than old school thermostats. I can see why it's cool but not the best gift idea for non-technical people.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.3,
+        "Negative": 0.2,
+        "_inference_note": "Balanced sentiment with some frustration towards unexpected technical complexities."
+      },
+      "top_aspects": [
+        "price",
+        "value",
+        "features",
+        "sale",
+        "functionality"
+      ],
+      "co_aspects": {
+        "price": [
+          "value",
+          "affordable"
+        ],
+        "value": [
+          "features",
+          "deal"
+        ],
+        "features": [
+          "functionality",
+          "cost"
+        ]
+      }
+    }
+  ]
+}

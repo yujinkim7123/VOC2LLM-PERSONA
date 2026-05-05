@@ -1,0 +1,194 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP_RAW",
+  "method": "RAW_REVIEW_INJECTION",
+  "lang": "en",
+  "n_reviews_injected": 200,
+  "judge": {
+    "judge_matrix": [
+      [
+        0.28,
+        0.34,
+        0.34,
+        0.12
+      ],
+      [
+        0.42,
+        0.22,
+        0.12,
+        0.48
+      ],
+      [
+        0.24,
+        0.38,
+        0.28,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.5,
+        0.06
+      ]
+    ],
+    "best_mapping": [
+      {
+        "gen_name": "Tech Optimizer",
+        "gt_name": "The Wireless Audio Pursuer",
+        "keyword_alignment": 0.3,
+        "value_alignment": 0.3,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.28,
+        "validity_score": 0.7,
+        "reasoning": "Generated content lacks alignment and sentiment contrast, some domain grounds.",
+        "success": false
+      },
+      {
+        "gen_name": "Frustrated Technophile",
+        "gt_name": "The Disillusioned Early Adopter",
+        "keyword_alignment": 0.3,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 1.0,
+        "matching_score": 0.48,
+        "validity_score": 0.7,
+        "reasoning": "Descriptions and keywords differ; sentiment matches well.",
+        "success": false
+      },
+      {
+        "gen_name": "Feature Enthusiast",
+        "gt_name": "The Smart Home Integrator",
+        "keyword_alignment": 0.3,
+        "value_alignment": 0.3,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.7,
+        "matching_score": 0.38,
+        "validity_score": 0.5,
+        "reasoning": "Generated barely matches topics; some sentiment alignment, lacks grounding.",
+        "success": false
+      },
+      {
+        "gen_name": "Budget Conscious Shopper",
+        "gt_name": "The Practical Value Seeker",
+        "keyword_alignment": 0.7,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.3,
+        "matching_score": 0.5,
+        "validity_score": 0.7,
+        "reasoning": "Generated persona partially overlaps; lacks specificity in pains and sentiment.",
+        "success": true
+      }
+    ],
+    "matching_score": 0.41,
+    "validity_score": 0.65,
+    "mean_all_matching": 0.2363,
+    "dim_averages": {
+      "keyword_alignment": 0.4,
+      "value_alignment": 0.45,
+      "pain_alignment": 0.35,
+      "behavioral_alignment": 0.35,
+      "sentiment_alignment": 0.5
+    },
+    "n_success": 1,
+    "mapping_success_rate": 0.25
+  },
+  "topic_sim_result": {
+    "topic_sim": 0.4744,
+    "pair_details": [
+      {
+        "gen_name": "Tech Optimizer",
+        "gt_name": "The Wireless Audio Pursuer",
+        "gen_aspects": [
+          "setup",
+          "features",
+          "value",
+          "interface",
+          "user-friendly"
+        ],
+        "gt_aspects": [
+          "Sound",
+          "Connectivity",
+          "Price",
+          "Configuration",
+          "Size"
+        ],
+        "topic_sim": 0.4827
+      },
+      {
+        "gen_name": "Frustrated Technophile",
+        "gt_name": "The Disillusioned Early Adopter",
+        "gen_aspects": [
+          "connectivity",
+          "support",
+          "reliability",
+          "Wi-Fi",
+          "troubleshooting"
+        ],
+        "gt_aspects": [
+          "Durability",
+          "Defective",
+          "Charging",
+          "Connectivity",
+          "Quality"
+        ],
+        "topic_sim": 0.4892
+      },
+      {
+        "gen_name": "Feature Enthusiast",
+        "gt_name": "The Smart Home Integrator",
+        "gen_aspects": [
+          "features",
+          "multifunctional",
+          "display",
+          "entertainment",
+          "experience"
+        ],
+        "gt_aspects": [
+          "Smart Assistant",
+          "Clock",
+          "Connectivity",
+          "Configuration",
+          "Convenience"
+        ],
+        "topic_sim": 0.3816
+      },
+      {
+        "gen_name": "Budget Conscious Shopper",
+        "gt_name": "The Practical Value Seeker",
+        "gen_aspects": [
+          "value",
+          "price",
+          "quality",
+          "features",
+          "deal"
+        ],
+        "gt_aspects": [
+          "Price",
+          "Clock",
+          "Configuration",
+          "Convenience",
+          "Smart Assistant"
+        ],
+        "topic_sim": 0.544
+      }
+    ]
+  },
+  "summary": {
+    "matching_score": 0.41,
+    "validity_score": 0.65,
+    "topic_sim": 0.4744,
+    "dim_averages": {
+      "keyword_alignment": 0.4,
+      "value_alignment": 0.45,
+      "pain_alignment": 0.35,
+      "behavioral_alignment": 0.35,
+      "sentiment_alignment": 0.5
+    }
+  }
+}

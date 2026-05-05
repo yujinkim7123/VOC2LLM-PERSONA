@@ -1,0 +1,250 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP7_Full",
+  "method": "SNA_LDA_KMEANS",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_docs": 868,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Brand-Conscious Quality Seeker",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP7_Full",
+      "keywords": [
+        "premium",
+        "brand",
+        "quality",
+        "spec",
+        "performance",
+        "trust",
+        "beautiful"
+      ],
+      "core_value": "This group esteems quality and premium features, linking brand reputation with trust and satisfaction.",
+      "description": "These consumers are attracted to high-quality home appliances and premium brands. They seek detailed specifications and trust established brands for reliable performance.",
+      "motivation": "They are driven by the desire to own products that offer superior quality and match their aesthetic preferences.",
+      "pain_points": "Despite their preference for quality, they may experience issues related to warranty or defects.",
+      "quote": "I always choose premium brands because I know I can trust their performance and quality.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Keywords like 'premium', 'quality', 'beautiful' imply positive sentiment, while 'warranty', 'defects' hint at potential issues."
+      },
+      "top_aspects": [
+        "brand",
+        "quality",
+        "spec",
+        "performance",
+        "trust"
+      ],
+      "co_aspects": {
+        "quality": [
+          "performance",
+          "brand",
+          "spec"
+        ],
+        "brand": [
+          "quality",
+          "trust",
+          "premium"
+        ],
+        "spec": [
+          "performance",
+          "quality",
+          "brand"
+        ],
+        "performance": [
+          "quality",
+          "spec",
+          "brand"
+        ],
+        "trust": [
+          "brand",
+          "quality",
+          "premium"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Design-Conscious Shopper",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP7_Full",
+      "keywords": [
+        "design",
+        "look",
+        "color",
+        "match",
+        "day",
+        "beautiful",
+        "carry"
+      ],
+      "core_value": "This segment values products that integrate seamlessly into their home's aesthetic.",
+      "description": "These consumers are primarily interested in how home appliances fit into their interior design. The visual aspect of products is crucial, and they often seek appliances that match the style of their home.",
+      "motivation": "They are driven by the need for visually appealing products that complement their home's decor.",
+      "pain_points": "Frustrations may arise if the appliance doesn't integrate as expected or the color options are limited.",
+      "quote": "I always consider the design and color to ensure my appliances enhance my home decor.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.4,
+        "Negative": 0.1,
+        "_inference_note": "Positive signals from words like 'beautiful', 'design', and 'match'. Neutral and negative signals are balanced by factual terms like 'look' and potential mismatch concerns."
+      },
+      "top_aspects": [
+        "design",
+        "look",
+        "color",
+        "match",
+        "beautiful"
+      ],
+      "co_aspects": {
+        "design": [
+          "look",
+          "color",
+          "match"
+        ],
+        "look": [
+          "design",
+          "color",
+          "match"
+        ],
+        "color": [
+          "design",
+          "look",
+          "match"
+        ],
+        "match": [
+          "design",
+          "look",
+          "color"
+        ],
+        "beautiful": [
+          "design",
+          "look",
+          "color"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Value-Oriented Pragmatist",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP7_Full",
+      "keywords": [
+        "price",
+        "product",
+        "spec",
+        "service",
+        "support",
+        "choose",
+        "real"
+      ],
+      "core_value": "This group prioritizes cost-effectiveness and practicality over brand prestige or high-end features.",
+      "description": "These consumers are driven by the practicality and affordability of home appliances. They seek out solid specifications and good customer service, with a focus on getting real value for their money.",
+      "motivation": "They aim to find the best balance between price and functionality, ensuring their needs are met without overspending.",
+      "pain_points": "Potential challenges include service issues or products that do not meet advertised specifications.",
+      "quote": "I need a good balance between price and quality, as long as the product meets my basic needs.",
+      "sentiment_ratio": {
+        "Positive": 0.4,
+        "Neutral": 0.5,
+        "Negative": 0.1,
+        "_inference_note": "Keywords 'price', 'product', 'real' suggest a neutral stance focused on practicality, with minor positive signals from 'service' and potential negative from 'support' challenges."
+      },
+      "top_aspects": [
+        "price",
+        "product",
+        "spec",
+        "service",
+        "choose"
+      ],
+      "co_aspects": {
+        "price": [
+          "product",
+          "spec",
+          "service"
+        ],
+        "product": [
+          "price",
+          "spec",
+          "service"
+        ],
+        "spec": [
+          "price",
+          "product",
+          "service"
+        ],
+        "service": [
+          "price",
+          "product",
+          "spec"
+        ],
+        "choose": [
+          "price",
+          "product",
+          "spec"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Tech-Savvy Early Adopter",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP7_Full",
+      "keywords": [
+        "technology",
+        "feature",
+        "app",
+        "setup",
+        "datum",
+        "experience",
+        "innovation"
+      ],
+      "core_value": "This segment is enthused by the latest technology and innovative features in home appliances.",
+      "description": "These consumers are quick to embrace the latest tech in home appliances, prioritizing innovative features and integration with apps. They are knowledgeable and seek efficient setups to enhance their overall experience.",
+      "motivation": "They are motivated by the excitement of new technology and the potential improvements it brings to their lifestyle.",
+      "pain_points": "Challenges can arise from complex setup processes or when tech features do not perform as expected.",
+      "quote": "I love exploring the latest technologies in home appliances, especially those that enhance my daily life through smart features.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Positive sentiment driven by words 'innovation', 'feature', 'experience', with slight negative from setup challenges."
+      },
+      "top_aspects": [
+        "technology",
+        "feature",
+        "app",
+        "setup",
+        "experience"
+      ],
+      "co_aspects": {
+        "technology": [
+          "feature",
+          "app",
+          "experience"
+        ],
+        "feature": [
+          "technology",
+          "app",
+          "experience"
+        ],
+        "app": [
+          "technology",
+          "feature",
+          "experience"
+        ],
+        "setup": [
+          "technology",
+          "feature",
+          "experience"
+        ],
+        "experience": [
+          "technology",
+          "feature",
+          "app"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP7_Full",
+  "method": "SNA_LDA_KMEANS",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2138,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Feature-Enthused Techie",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP7_Full",
+      "keywords": [
+        "smart",
+        "feature",
+        "easy",
+        "nice",
+        "connect",
+        "love"
+      ],
+      "core_value": "This segment values functionality and the ease of integrating new technologies into their daily routines.",
+      "description": "These consumers are tech enthusiasts who are excited about smart technology and its features. They appreciate easy integration and are pleased when devices work smoothly with other smart home products.",
+      "motivation": "They are driven by a desire to enhance their home with intelligent features that simplify life.",
+      "pain_points": "Complex setups or devices that don't integrate well with existing systems can be a source of frustration.",
+      "quote": "I love how this device connects seamlessly with my other smart products.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Keywords like 'smart,' 'feature,' 'easy,' 'nice,' and 'love' indicate positive sentiment, whereas any negative connotations are minimal."
+      },
+      "top_aspects": [
+        "smart",
+        "feature",
+        "easy",
+        "connect",
+        "love"
+      ],
+      "co_aspects": {
+        "smart": [
+          "feature",
+          "easy",
+          "connect"
+        ],
+        "feature": [
+          "smart",
+          "easy"
+        ],
+        "easy": [
+          "smart",
+          "connect"
+        ],
+        "connect": [
+          "smart",
+          "easy"
+        ],
+        "love": [
+          "smart",
+          "feature"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Value-Seeking Pragmatist",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP7_Full",
+      "keywords": [
+        "price",
+        "quality",
+        "buy",
+        "purchase",
+        "good"
+      ],
+      "core_value": "This group prioritizes getting good quality devices at reasonable prices.",
+      "description": "These consumers are practical buyers who assess the value proposition of smart devices. They pay attention to prices and the quality they receive for the money spent.",
+      "motivation": "They are motivated by value for money and making informed purchasing decisions.",
+      "pain_points": "Overpriced products or those that don't deliver promised quality are significant concerns.",
+      "quote": "I am happy with the purchase because the quality is good for the price.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.4,
+        "Negative": 0.1,
+        "_inference_note": "Words such as 'good,' 'buy,' and 'purchase' suggest a positive view, while 'price' and 'quality' have neutral to slightly negative connotations depending on context."
+      },
+      "top_aspects": [
+        "price",
+        "quality",
+        "buy",
+        "purchase",
+        "good"
+      ],
+      "co_aspects": {
+        "price": [
+          "quality",
+          "buy"
+        ],
+        "quality": [
+          "price",
+          "purchase"
+        ],
+        "buy": [
+          "price",
+          "purchase"
+        ],
+        "purchase": [
+          "buy",
+          "quality"
+        ],
+        "good": [
+          "price",
+          "quality"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Sound-Savvy Audio Lover",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP7_Full",
+      "keywords": [
+        "music",
+        "sound",
+        "good",
+        "nice",
+        "love",
+        "speaker"
+      ],
+      "core_value": "They prioritize audio quality and the immersive experience of smart speakers.",
+      "description": "These consumers are highly focused on sound quality, using their devices primarily for music and audio experiences. They seek superior audio performance and appreciate well-balanced sound.",
+      "motivation": "The desire for an enriching auditory experience drives their purchasing choices.",
+      "pain_points": "Poor sound quality or a lack of depth in music reproduction is disappointing.",
+      "quote": "I love using this speaker for music— the sound is just unbeatable.",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Positive sentiment is inferred from 'music,' 'sound,' 'good,' 'love,' whereas 'nice' and 'speaker' indicate neutral or positive experiences."
+      },
+      "top_aspects": [
+        "music",
+        "sound",
+        "good",
+        "nice",
+        "love"
+      ],
+      "co_aspects": {
+        "music": [
+          "sound",
+          "speaker"
+        ],
+        "sound": [
+          "music",
+          "good"
+        ],
+        "good": [
+          "sound",
+          "love"
+        ],
+        "nice": [
+          "music",
+          "speaker"
+        ],
+        "love": [
+          "sound",
+          "music"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Functionality-Frustrated User",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP7_Full",
+      "keywords": [
+        "problem",
+        "stop",
+        "issue",
+        "return",
+        "work"
+      ],
+      "core_value": "They want reliable technology that works without issues.",
+      "description": "These users often encounter technical problems that hinder the functionality of their devices. Their reviews frequently note issues that led to dissatisfaction or even product returns.",
+      "motivation": "They are motivated by finding reliable devices that consistently perform as expected.",
+      "pain_points": "Technical issues and the need to return defective products are major sources of frustration.",
+      "quote": "I'm facing constant issues, which makes me consider returning it.",
+      "sentiment_ratio": {
+        "Positive": 0.1,
+        "Neutral": 0.2,
+        "Negative": 0.7,
+        "_inference_note": "Keywords like 'problem,' 'stop,' 'issue,' and 'return' signal negative experience, reflecting a sentiment predominantly skewed towards dissatisfaction."
+      },
+      "top_aspects": [
+        "problem",
+        "stop",
+        "issue",
+        "return",
+        "work"
+      ],
+      "co_aspects": {
+        "problem": [
+          "issue",
+          "return"
+        ],
+        "stop": [
+          "problem",
+          "work"
+        ],
+        "issue": [
+          "problem",
+          "return"
+        ],
+        "return": [
+          "problem",
+          "issue"
+        ],
+        "work": [
+          "problem",
+          "stop"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP6_SNA_KMeans",
+  "method": "SNA_KMEANS",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_docs": 868,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Value-Conscious Spec Checker",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "spec",
+        "measure",
+        "price",
+        "performance",
+        "buy"
+      ],
+      "core_value": "This consumer values precise specifications and performance at a reasonable price.",
+      "description": "This persona meticulously checks product specifications and measurements before purchasing, ensuring that the performance matches the advertised standards. They are discerning shoppers who prioritize getting the best value for their money.",
+      "motivation": "Their purchasing decision is driven by a need for assurance that the product's specifications and performance align with their expectations.",
+      "pain_points": "Inconsistencies between advertised and actual specifications frustrate them.",
+      "quote": "I always check the specs to make sure what I buy performs as advertised.",
+      "sentiment_ratio": {
+        "Positive": 0.4,
+        "Neutral": 0.4,
+        "Negative": 0.2,
+        "_inference_note": "Keywords like 'performance', 'standard', and 'actual' indicate a neutral to slightly positive sentiment, focused on precision and reliability. The word 'match' suggests satisfaction when expectations align."
+      },
+      "top_aspects": [
+        "spec",
+        "measure",
+        "price",
+        "performance",
+        "actual"
+      ],
+      "co_aspects": {
+        "spec": [
+          "measure",
+          "price",
+          "performance"
+        ],
+        "measure": [
+          "spec",
+          "performance",
+          "actual"
+        ],
+        "price": [
+          "spec",
+          "performance"
+        ],
+        "performance": [
+          "spec",
+          "measure",
+          "price"
+        ],
+        "actual": [
+          "measure",
+          "performance"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Aesthetic-Oriented Shopper",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "color",
+        "buy",
+        "choose",
+        "want",
+        "pretty"
+      ],
+      "core_value": "This persona values aesthetics and visual appeal in home appliances.",
+      "description": "They focus on the design and color of the product, often searching for options that match their style and home decor. Their purchases are influenced by how well a product fits into their envisioned look.",
+      "motivation": "The visual appeal and ability to complement their home's aesthetics drive their decisions.",
+      "pain_points": "Challenges in finding the right match for their style can be disappointing.",
+      "quote": "I'm always on the hunt for appliances that look good and suit my home decor.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.3,
+        "Negative": 0.2,
+        "_inference_note": "Keywords like 'choose', 'want', and 'pretty' strongly indicate a positive sentiment focused on aesthetic pleasure, while 'match' can cause frustration if unmet."
+      },
+      "top_aspects": [
+        "color",
+        "buy",
+        "choose",
+        "want",
+        "pretty"
+      ],
+      "co_aspects": {
+        "color": [
+          "buy",
+          "choose",
+          "pretty"
+        ],
+        "buy": [
+          "color",
+          "choose"
+        ],
+        "choose": [
+          "color",
+          "buy"
+        ],
+        "want": [
+          "color",
+          "choose"
+        ],
+        "pretty": [
+          "color",
+          "buy"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Brand-Loyal Service Seeker",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "service",
+        "brand",
+        "trust",
+        "warranty",
+        "repair"
+      ],
+      "core_value": "This consumer values reliable service and brand trust, often seeking warranties for assurance.",
+      "description": "They tend to purchase from brands they trust and place high importance on customer service and warranties. They expect repair services to be available when needed, which reinforces their loyalty to the brand.",
+      "motivation": "Their decisions are driven by trust in brand reputation and assurance of service.",
+      "pain_points": "Poor customer service and defective products can erode their trust.",
+      "quote": "I stick to brands that I can rely on for good service and solid warranties.",
+      "sentiment_ratio": {
+        "Positive": 0.3,
+        "Neutral": 0.3,
+        "Negative": 0.4,
+        "_inference_note": "Words like 'trust', 'brand', and 'warranty' suggest a positive aspect of security and reliability, but the presence of 'repair' and 'defect' points to negative experiences influencing their sentiment."
+      },
+      "top_aspects": [
+        "service",
+        "brand",
+        "trust",
+        "warranty",
+        "repair"
+      ],
+      "co_aspects": {
+        "service": [
+          "brand",
+          "trust"
+        ],
+        "brand": [
+          "service",
+          "trust",
+          "warranty"
+        ],
+        "trust": [
+          "service",
+          "brand"
+        ],
+        "warranty": [
+          "brand",
+          "repair"
+        ],
+        "repair": [
+          "warranty",
+          "service"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Cost-Effective Utility User",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "price",
+        "design",
+        "buy",
+        "use",
+        "performance"
+      ],
+      "core_value": "This persona values the balance between price and utility, ensuring efficient design.",
+      "description": "They focus on acquiring appliances that are cost-effective, offering good design and usability. They often weigh price against performance and are keen on practical use.",
+      "motivation": "Practicality and affordability are key to their purchase decisions, ensuring they get the most out of their investment.",
+      "pain_points": "High costs without corresponding functionality are a major deterrent for them.",
+      "quote": "I always look for appliances that are affordable and deliver good performance.",
+      "sentiment_ratio": {
+        "Positive": 0.4,
+        "Neutral": 0.4,
+        "Negative": 0.2,
+        "_inference_note": "Keywords such as 'performance', 'design', and 'use' indicate a balance between function and form, generally positive about value-for-money. 'Price' might reflect cost concerns if high."
+      },
+      "top_aspects": [
+        "price",
+        "design",
+        "buy",
+        "use",
+        "performance"
+      ],
+      "co_aspects": {
+        "price": [
+          "design",
+          "performance"
+        ],
+        "design": [
+          "price",
+          "use"
+        ],
+        "buy": [
+          "design",
+          "price"
+        ],
+        "use": [
+          "design",
+          "performance"
+        ],
+        "performance": [
+          "price",
+          "use"
+        ]
+      }
+    }
+  ]
+}

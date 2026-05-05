@@ -1,0 +1,180 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP2_LDA",
+  "method": "LDA",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_docs": 965,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Quality-Concerned Pragmatist",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP2_LDA",
+      "keywords": [
+        "service",
+        "exchange",
+        "trust",
+        "defect",
+        "issue"
+      ],
+      "core_value": "They value reliable product quality and trustworthy customer service.",
+      "description": "This consumer is focused on product quality and reliability. They often experience issues with defects and are in frequent contact with customer service for exchanges or repairs.",
+      "motivation": "Their purchase decision is driven by the need for trustworthy and durable products.",
+      "pain_points": "Frequent defects and the necessity of product exchanges frustrate them.",
+      "quote": "I need a product that lasts and a brand I can trust for quick service if something goes wrong.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.3,
+        "Negative": 0.5,
+        "_inference_note": "Keywords like 'defect', 'issue', and 'exchange' imply significant negative sentiment, while 'trust' and 'service' suggest some positive aspect but largely neutral in usage context."
+      },
+      "top_aspects": [
+        "service",
+        "exchange",
+        "trust",
+        "defect",
+        "issue"
+      ],
+      "co_aspects": {
+        "service": [
+          "exchange",
+          "trust",
+          "defect"
+        ],
+        "exchange": [
+          "measurement",
+          "product"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Aesthetic-Focused Decor Enthusiast",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP2_LDA",
+      "keywords": [
+        "color",
+        "pretty",
+        "design",
+        "choose",
+        "beautiful"
+      ],
+      "core_value": "They prioritize aesthetics and stylish design in product selection.",
+      "description": "This consumer is interested in how products look within their home decor. They are likely to be influenced by the design and visual appeal of the appliances.",
+      "motivation": "They are driven by the desire to enhance their living space with visually appealing appliances.",
+      "pain_points": "Limited color choices or unattractive designs are major setbacks.",
+      "quote": "The color and design of my appliances must complement my home's style.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Keywords like 'pretty', 'beautiful', and 'design' indicate a positive sentiment focused on aesthetics, with minimal negative signals."
+      },
+      "top_aspects": [
+        "color",
+        "pretty",
+        "design",
+        "choose",
+        "beautiful"
+      ],
+      "co_aspects": {
+        "color": [
+          "pretty",
+          "design",
+          "choose"
+        ],
+        "design": [
+          "color",
+          "beautiful"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Cost-Conscious Value Seeker",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP2_LDA",
+      "keywords": [
+        "price",
+        "spec",
+        "buy",
+        "performance",
+        "cost"
+      ],
+      "core_value": "They seek the best value for their money, balancing cost with features.",
+      "description": "Price-sensitive consumers, they are attentive to product specifications and performance to ensure they get good value for their purchase.",
+      "motivation": "They prioritize getting the best possible features for their budget.",
+      "pain_points": "Overpriced products without matching performance frustrate them.",
+      "quote": "I need a product that offers great features without breaking the bank.",
+      "sentiment_ratio": {
+        "Positive": 0.3,
+        "Neutral": 0.5,
+        "Negative": 0.2,
+        "_inference_note": "The focus on 'price', 'spec', and 'performance' is mostly neutral or factual, with mild positive inclination towards getting a good deal."
+      },
+      "top_aspects": [
+        "price",
+        "spec",
+        "performance",
+        "cost",
+        "buy"
+      ],
+      "co_aspects": {
+        "price": [
+          "spec",
+          "performance",
+          "cost"
+        ],
+        "performance": [
+          "price",
+          "buy",
+          "service"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Service-Savvy Warranty Seeker",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP2_LDA",
+      "keywords": [
+        "warranty",
+        "service",
+        "app",
+        "material",
+        "use"
+      ],
+      "core_value": "They prioritize strong warranties and reliable service post-purchase.",
+      "description": "This consumer is well-informed about service options and the importance of having a solid warranty, often valuing long-term support over initial cost.",
+      "motivation": "Their decisions are driven by the assurance of durable, serviceable products that come with a dependable backup plan.",
+      "pain_points": "Complex or unhelpful service processes and unclear warranty terms are disliked.",
+      "quote": "I want to know that my purchase is protected, should anything go wrong.",
+      "sentiment_ratio": {
+        "Positive": 0.4,
+        "Neutral": 0.4,
+        "Negative": 0.2,
+        "_inference_note": "Keywords like 'warranty', 'service', and 'app' suggest an interest in coverage and support, indicating positive and neutral sentiments."
+      },
+      "top_aspects": [
+        "warranty",
+        "service",
+        "brand",
+        "app",
+        "material"
+      ],
+      "co_aspects": {
+        "warranty": [
+          "service",
+          "period",
+          "material"
+        ],
+        "service": [
+          "warranty",
+          "app",
+          "use"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP2_LDA",
+  "method": "LDA",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2370,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Tech-Savvy Troubleshooter",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP2_LDA",
+      "keywords": [
+        "thermostat",
+        "charge",
+        "support",
+        "wireless",
+        "issue"
+      ],
+      "core_value": "This consumer values devices that integrate smoothly with their tech ecosystem.",
+      "description": "Tech-savvy and detail-oriented, they focus on integrating smart devices like thermostats and wireless systems into their home. They rely heavily on customer support and troubleshooting resources.",
+      "motivation": "They are driven by a desire to maintain a seamless smart home environment.",
+      "pain_points": "Technical issues and lack of customer support options frustrate them.",
+      "quote": "I need my thermostat to connect seamlessly with my other devices, but I'm facing issues and the support has been lacking.",
+      "sentiment_ratio": {
+        "Positive": 0.1,
+        "Neutral": 0.5,
+        "Negative": 0.4,
+        "_inference_note": "Keywords like 'issue' and 'support' signal negative sentiment, while 'work' is neutral and 'thermostat' is factual."
+      },
+      "top_aspects": [
+        "thermostat",
+        "support",
+        "charge",
+        "wireless",
+        "issue"
+      ],
+      "co_aspects": {
+        "thermostat": [
+          "charge",
+          "support",
+          "wireless",
+          "issue"
+        ],
+        "support": [
+          "thermostat",
+          "charge",
+          "wireless",
+          "issue"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Active Lifestyle User",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP2_LDA",
+      "keywords": [
+        "ear",
+        "stay",
+        "fit",
+        "connect",
+        "headphone"
+      ],
+      "core_value": "They value the comfort and reliability of headphones during physical activities.",
+      "description": "This consumer leads an active lifestyle and uses technology to enhance their outdoor and workout experiences. They prioritize comfort and connectivity in headphones.",
+      "motivation": "The need for headphones that stay in place and have a reliable connection while on the move drives their purchases.",
+      "pain_points": "Difficulty in maintaining a good fit and connectivity issues are major concerns.",
+      "quote": "I love how these headphones fit and stay in my ear during my runs, though sometimes connecting them is a hassle.",
+      "sentiment_ratio": {
+        "Positive": 0.4,
+        "Neutral": 0.3,
+        "Negative": 0.3,
+        "_inference_note": "Words like 'great' and 'fit' have positive sentiment, 'connect' is sometimes problematic, indicating mixed feelings."
+      },
+      "top_aspects": [
+        "ear",
+        "stay",
+        "fit",
+        "connect",
+        "headphone"
+      ],
+      "co_aspects": {
+        "ear": [
+          "stay",
+          "fit",
+          "connect",
+          "headphone"
+        ],
+        "fit": [
+          "ear",
+          "stay",
+          "connect",
+          "headphone"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Audio Quality Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP2_LDA",
+      "keywords": [
+        "sound",
+        "music",
+        "quality",
+        "speaker",
+        "play"
+      ],
+      "core_value": "They highly value quality sound and a rich music experience.",
+      "description": "This persona is enthusiastic about music and appreciates devices that can deliver excellent sound quality. They often use their devices for entertainment.",
+      "motivation": "Driven by a passion for music, they seek out devices that will enhance their listening experience.",
+      "pain_points": "Sound quality that doesn't meet their high standards can be disappointing.",
+      "quote": "The speaker delivers amazing sound quality, which completely elevates my music experience.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.4,
+        "Negative": 0.0,
+        "_inference_note": "'Quality' and 'great' indicate positive reactions; 'sound' and 'play' are neutral."
+      },
+      "top_aspects": [
+        "sound",
+        "music",
+        "quality",
+        "speaker",
+        "play"
+      ],
+      "co_aspects": {
+        "sound": [
+          "music",
+          "quality",
+          "speaker",
+          "play"
+        ],
+        "quality": [
+          "sound",
+          "music",
+          "speaker",
+          "play"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Value-Conscious Shopper",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP2_LDA",
+      "keywords": [
+        "quality",
+        "price",
+        "buy",
+        "perfect",
+        "purchase"
+      ],
+      "core_value": "This segment seeks the best balance between quality and price.",
+      "description": "These shoppers are focused on maximizing value for money. They conduct meticulous research to ensure their purchases strike the right balance of quality and affordability.",
+      "motivation": "They are motivated by a desire to make cost-effective purchases that do not compromise on quality.",
+      "pain_points": "Concerns arise when cost doesn't reflect perceived quality.",
+      "quote": "This was a perfect purchase — great quality without breaking the bank.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.4,
+        "Negative": 0.1,
+        "_inference_note": "Positive signals from 'great', 'perfect', and 'quality', while 'price' keeps tone neutral."
+      },
+      "top_aspects": [
+        "quality",
+        "price",
+        "buy",
+        "perfect",
+        "purchase"
+      ],
+      "co_aspects": {
+        "quality": [
+          "price",
+          "buy",
+          "perfect",
+          "purchase"
+        ],
+        "price": [
+          "quality",
+          "buy",
+          "perfect",
+          "purchase"
+        ]
+      }
+    }
+  ]
+}

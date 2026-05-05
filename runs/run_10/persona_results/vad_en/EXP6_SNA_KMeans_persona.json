@@ -1,0 +1,242 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP6_SNA_KMeans",
+  "method": "SNA_KMEANS",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2138,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Efficiency-Oriented Convenience Seeker",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "charge",
+        "buy",
+        "easy",
+        "set",
+        "product"
+      ],
+      "core_value": "This consumer segment values devices that are easy to set up and use.",
+      "description": "These individuals prioritize convenience and efficiency when purchasing virtual assistant devices. They appreciate products that are straightforward to integrate into their daily routines.",
+      "motivation": "They are driven by the need for hassle-free products that enhance daily tasks.",
+      "pain_points": "Complex setup processes or devices that do not deliver on ease of use.",
+      "quote": "I love how easy it was to set this up; exactly what I need in my busy life.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.4,
+        "Negative": 0.1,
+        "_inference_note": "Keywords like 'easy', 'set', 'love', and 'good' signal positive sentiments, while a lack of negative keywords keeps negative sentiments low."
+      },
+      "top_aspects": [
+        "charge",
+        "buy",
+        "easy",
+        "set",
+        "use"
+      ],
+      "co_aspects": {
+        "charge": [
+          "buy",
+          "easy",
+          "set"
+        ],
+        "buy": [
+          "easy",
+          "set",
+          "product"
+        ],
+        "easy": [
+          "set",
+          "use",
+          "like"
+        ],
+        "set": [
+          "easy",
+          "use",
+          "product"
+        ],
+        "use": [
+          "easy",
+          "product",
+          "like"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Smart Home Integrator",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "thermostat",
+        "nest",
+        "work",
+        "google",
+        "home"
+      ],
+      "core_value": "This consumer values seamlessly integrated smart home solutions.",
+      "description": "These customers are focused on building a cohesive smart home ecosystem and look for devices that work well together, preferably from the same brand.",
+      "motivation": "Their main drive is to expand and enhance their smart homes with compatible devices.",
+      "pain_points": "Devices that do not integrate well with their existing systems frustrate them.",
+      "quote": "It connects perfectly with my other Nest devices; my home automation is finally complete.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Positive keywords include 'work', 'easy', 'good', and 'smart', while the presence of system compatibility needs keep some neutrality."
+      },
+      "top_aspects": [
+        "thermostat",
+        "nest",
+        "work",
+        "google",
+        "home"
+      ],
+      "co_aspects": {
+        "thermostat": [
+          "nest",
+          "work",
+          "google"
+        ],
+        "nest": [
+          "work",
+          "google",
+          "home"
+        ],
+        "work": [
+          "nest",
+          "google",
+          "home"
+        ],
+        "google": [
+          "nest",
+          "work",
+          "home"
+        ],
+        "home": [
+          "nest",
+          "google",
+          "work"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Audio and Visual Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "good",
+        "sound",
+        "quality",
+        "picture",
+        "price"
+      ],
+      "core_value": "This segment values high-quality sound and visuals from their devices.",
+      "description": "These consumers are focused on the auditory and visual output of their smart devices, often emphasizing the need for clear sound and high-resolution displays.",
+      "motivation": "They are driven by a desire for devices that offer premium media experiences.",
+      "pain_points": "Poor sound quality or inferior pictures are major disappointments for them.",
+      "quote": "The sound and picture quality on this device is worth every penny!",
+      "sentiment_ratio": {
+        "Positive": 0.65,
+        "Neutral": 0.25,
+        "Negative": 0.1,
+        "_inference_note": "Keywords like 'good', 'great', 'quality', and 'love' suggest high satisfaction, with minimal negative indicators."
+      },
+      "top_aspects": [
+        "sound",
+        "quality",
+        "picture",
+        "good",
+        "price"
+      ],
+      "co_aspects": {
+        "sound": [
+          "quality",
+          "picture",
+          "price"
+        ],
+        "quality": [
+          "sound",
+          "picture",
+          "good"
+        ],
+        "picture": [
+          "sound",
+          "quality",
+          "price"
+        ],
+        "good": [
+          "sound",
+          "quality",
+          "price"
+        ],
+        "price": [
+          "sound",
+          "quality",
+          "picture"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Reliable Performance Seeker",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "work",
+        "stop",
+        "month",
+        "issue",
+        "return"
+      ],
+      "core_value": "This consumer segment prioritizes reliability and performance above all else.",
+      "description": "They are wary of devices that might fail or face issues during operation, often basing their satisfaction on consistent performance.",
+      "motivation": "Their purchase decisions are driven by the promise of long-term reliability and consistent functioning.",
+      "pain_points": "Frequent breakdowns or unreliable performance lead to frustration.",
+      "quote": "After a month, it just stopped working—disappointing for something with such great initial reviews.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.3,
+        "Negative": 0.5,
+        "_inference_note": "The presence of 'stop', 'month', 'issue', and 'return' indicate strong negative sentiments, highlighting reliability concerns."
+      },
+      "top_aspects": [
+        "work",
+        "stop",
+        "month",
+        "issue",
+        "return"
+      ],
+      "co_aspects": {
+        "work": [
+          "stop",
+          "month",
+          "issue"
+        ],
+        "stop": [
+          "work",
+          "month",
+          "issue"
+        ],
+        "month": [
+          "work",
+          "stop",
+          "issue"
+        ],
+        "issue": [
+          "work",
+          "stop",
+          "month"
+        ],
+        "return": [
+          "work",
+          "stop",
+          "issue"
+        ]
+      }
+    }
+  ]
+}

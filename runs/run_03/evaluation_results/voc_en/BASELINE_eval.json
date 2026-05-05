@@ -1,0 +1,193 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "BASELINE",
+  "method": "LLM_STANDALONE",
+  "lang": "en",
+  "judge": {
+    "judge_matrix": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.06
+      ],
+      [
+        0.72,
+        0.16,
+        0.1,
+        0.22
+      ],
+      [
+        0.12,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.06,
+        0.2,
+        0.06,
+        0.5
+      ]
+    ],
+    "best_mapping": [
+      {
+        "gen_name": "Technology Enthusiast",
+        "gt_name": "Design-Driven Aesthetic Consumer",
+        "keyword_alignment": 0.0,
+        "value_alignment": 0.0,
+        "pain_alignment": 0.0,
+        "behavioral_alignment": 0.0,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.0,
+        "validity_score": 0.3,
+        "reasoning": "No overlap with reference; focus on technology not aesthetics.",
+        "success": false
+      },
+      {
+        "gen_name": "Cost-Conscious Homemaker",
+        "gt_name": "Price-Sensitive Bargain Hunter",
+        "keyword_alignment": 0.7,
+        "value_alignment": 1.0,
+        "pain_alignment": 0.7,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.7,
+        "matching_score": 0.72,
+        "validity_score": 1.0,
+        "reasoning": "Partial overlap in pain points, sentiment inferences aligned, strong domain alignment.",
+        "success": true
+      },
+      {
+        "gen_name": "Eco-Conscious Consumer",
+        "gt_name": "Performance-Focused Spec Evaluator",
+        "keyword_alignment": 0.0,
+        "value_alignment": 0.0,
+        "pain_alignment": 0.0,
+        "behavioral_alignment": 0.0,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.0,
+        "validity_score": 0.3,
+        "reasoning": "No overlap in focus; generated lacks grounding in provided domain topics.",
+        "success": false
+      },
+      {
+        "gen_name": "Durability-Oriented Buyer",
+        "gt_name": "Trust-Seeking After-Service Prioritizer",
+        "keyword_alignment": 0.3,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.7,
+        "matching_score": 0.5,
+        "validity_score": 0.7,
+        "reasoning": "Generated lacks focus on after-sales; partly traces domain topics.",
+        "success": true
+      }
+    ],
+    "matching_score": 0.305,
+    "validity_score": 0.575,
+    "mean_all_matching": 0.1375,
+    "dim_averages": {
+      "keyword_alignment": 0.25,
+      "value_alignment": 0.375,
+      "pain_alignment": 0.3,
+      "behavioral_alignment": 0.25,
+      "sentiment_alignment": 0.35
+    },
+    "n_success": 2,
+    "mapping_success_rate": 0.5
+  },
+  "topic_sim_result": {
+    "topic_sim": 0.3946,
+    "pair_details": [
+      {
+        "gen_name": "Technology Enthusiast",
+        "gt_name": "Design-Driven Aesthetic Consumer",
+        "gen_aspects": [
+          "smart technology",
+          "compatibility",
+          "features",
+          "integration",
+          "automation"
+        ],
+        "gt_aspects": [
+          "Design/Appearance",
+          "Ease of Use",
+          "Price/Cost",
+          "Shipping/Service",
+          "Performance/Specs"
+        ],
+        "topic_sim": 0.3834
+      },
+      {
+        "gen_name": "Cost-Conscious Homemaker",
+        "gt_name": "Price-Sensitive Bargain Hunter",
+        "gen_aspects": [
+          "budget",
+          "value for money",
+          "price",
+          "durability",
+          "reliability"
+        ],
+        "gt_aspects": [
+          "Price/Cost",
+          "Performance/Specs",
+          "Design/Appearance",
+          "Shipping/Service",
+          "Ease of Use"
+        ],
+        "topic_sim": 0.4482
+      },
+      {
+        "gen_name": "Eco-Conscious Consumer",
+        "gt_name": "Performance-Focused Spec Evaluator",
+        "gen_aspects": [
+          "energy efficiency",
+          "sustainability",
+          "eco-friendliness",
+          "performance",
+          "cost"
+        ],
+        "gt_aspects": [
+          "Performance/Specs",
+          "Ease of Use",
+          "Design/Appearance",
+          "Shipping/Service",
+          "Price/Cost"
+        ],
+        "topic_sim": 0.43
+      },
+      {
+        "gen_name": "Durability-Oriented Buyer",
+        "gt_name": "Trust-Seeking After-Service Prioritizer",
+        "gen_aspects": [
+          "durability",
+          "reliability",
+          "low maintenance",
+          "longevity",
+          "brand reputation"
+        ],
+        "gt_aspects": [
+          "Shipping/Service",
+          "Price/Cost",
+          "Ease of Use",
+          "Performance/Specs",
+          "Design/Appearance"
+        ],
+        "topic_sim": 0.3168
+      }
+    ]
+  },
+  "summary": {
+    "matching_score": 0.305,
+    "validity_score": 0.575,
+    "topic_sim": 0.3946,
+    "dim_averages": {
+      "keyword_alignment": 0.25,
+      "value_alignment": 0.375,
+      "pain_alignment": 0.3,
+      "behavioral_alignment": 0.25,
+      "sentiment_alignment": 0.35
+    }
+  }
+}

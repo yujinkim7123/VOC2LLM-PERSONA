@@ -1,0 +1,193 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP4_SNA_LDA",
+  "method": "SNA_LDA",
+  "lang": "en",
+  "judge": {
+    "judge_matrix": [
+      [
+        0.48,
+        0.46,
+        0.16,
+        0.0
+      ],
+      [
+        0.44,
+        0.0,
+        0.06,
+        0.06
+      ],
+      [
+        0.06,
+        0.5,
+        0.42,
+        0.06
+      ],
+      [
+        0.3,
+        0.12,
+        0.18,
+        0.36
+      ]
+    ],
+    "best_mapping": [
+      {
+        "gen_name": "Music-Centric Home Enthusiast",
+        "gt_name": "The Smart Home Integrator",
+        "keyword_alignment": 0.3,
+        "value_alignment": 0.3,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.7,
+        "matching_score": 0.46,
+        "validity_score": 0.5,
+        "reasoning": "Different focus; REFERENCE on ecosystem, GENERATED on music.",
+        "success": false
+      },
+      {
+        "gen_name": "Sound Quality Seeker",
+        "gt_name": "The Wireless Audio Pursuer",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.44,
+        "validity_score": 0.7,
+        "reasoning": "Generated persona is grounded but differs in sentiment and pain points.",
+        "success": false
+      },
+      {
+        "gen_name": "Tech-Savvy Gadget Collector",
+        "gt_name": "The Practical Value Seeker",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.3,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.7,
+        "matching_score": 0.42,
+        "validity_score": 0.7,
+        "reasoning": "Generated content partially matches Keywords; minimal overlap in Values and Behavior.",
+        "success": false
+      },
+      {
+        "gen_name": "Pragmatic Problem Solver",
+        "gt_name": "The Disillusioned Early Adopter",
+        "keyword_alignment": 0.3,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.36,
+        "validity_score": 0.7,
+        "reasoning": "Keywords mismatch; misaligned sentiment; grounded in domain topics.",
+        "success": false
+      }
+    ],
+    "matching_score": 0.42,
+    "validity_score": 0.65,
+    "mean_all_matching": 0.2287,
+    "dim_averages": {
+      "keyword_alignment": 0.4,
+      "value_alignment": 0.5,
+      "pain_alignment": 0.45,
+      "behavioral_alignment": 0.4,
+      "sentiment_alignment": 0.35
+    },
+    "n_success": 0,
+    "mapping_success_rate": 0.0
+  },
+  "topic_sim_result": {
+    "topic_sim": 0.4001,
+    "pair_details": [
+      {
+        "gen_name": "Music-Centric Home Enthusiast",
+        "gt_name": "The Smart Home Integrator",
+        "gen_aspects": [
+          "music",
+          "alexa",
+          "echo",
+          "home",
+          "play"
+        ],
+        "gt_aspects": [
+          "Smart Assistant",
+          "Clock",
+          "Connectivity",
+          "Configuration",
+          "Convenience"
+        ],
+        "topic_sim": 0.3391
+      },
+      {
+        "gen_name": "Sound Quality Seeker",
+        "gt_name": "The Wireless Audio Pursuer",
+        "gen_aspects": [
+          "sound",
+          "quality",
+          "great",
+          "product",
+          "love"
+        ],
+        "gt_aspects": [
+          "Sound",
+          "Connectivity",
+          "Price",
+          "Configuration",
+          "Size"
+        ],
+        "topic_sim": 0.4571
+      },
+      {
+        "gen_name": "Tech-Savvy Gadget Collector",
+        "gt_name": "The Practical Value Seeker",
+        "gen_aspects": [
+          "clock",
+          "charge",
+          "smart",
+          "alarm",
+          "screen"
+        ],
+        "gt_aspects": [
+          "Price",
+          "Clock",
+          "Configuration",
+          "Convenience",
+          "Smart Assistant"
+        ],
+        "topic_sim": 0.4876
+      },
+      {
+        "gen_name": "Pragmatic Problem Solver",
+        "gt_name": "The Disillusioned Early Adopter",
+        "gen_aspects": [
+          "work",
+          "buy",
+          "time",
+          "return",
+          "issue"
+        ],
+        "gt_aspects": [
+          "Durability",
+          "Defective",
+          "Charging",
+          "Connectivity",
+          "Quality"
+        ],
+        "topic_sim": 0.3167
+      }
+    ]
+  },
+  "summary": {
+    "matching_score": 0.42,
+    "validity_score": 0.65,
+    "topic_sim": 0.4001,
+    "dim_averages": {
+      "keyword_alignment": 0.4,
+      "value_alignment": 0.5,
+      "pain_alignment": 0.45,
+      "behavioral_alignment": 0.4,
+      "sentiment_alignment": 0.35
+    }
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP1_SNA",
+  "method": "SNA_LOUVAIN",
+  "lang": "en",
+  "judge": {
+    "judge_matrix": [
+      [
+        0.44,
+        0.38,
+        0.06,
+        0.0
+      ],
+      [
+        0.28,
+        0.24,
+        0.18,
+        0.22
+      ],
+      [
+        0.06,
+        0.54,
+        0.5,
+        0.12
+      ],
+      [
+        0.18,
+        0.68,
+        0.2,
+        0.0
+      ]
+    ],
+    "best_mapping": [
+      {
+        "gen_name": "Music-Focused Alexa Enthusiast",
+        "gt_name": "The Wireless Audio Pursuer",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.7,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.44,
+        "validity_score": 0.7,
+        "reasoning": "Generated lacks focus on sound; emphasis on Alexa. Sentiment mismatched.",
+        "success": false
+      },
+      {
+        "gen_name": "Practical Quality Seeker",
+        "gt_name": "The Disillusioned Early Adopter",
+        "keyword_alignment": 0.0,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.22,
+        "validity_score": 0.7,
+        "reasoning": "Generated persona lacks defectiveness focus, wrong sentiment.",
+        "success": false
+      },
+      {
+        "gen_name": "Feature-Oriented Smart Home User",
+        "gt_name": "The Practical Value Seeker",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.3,
+        "pain_alignment": 0.7,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.7,
+        "matching_score": 0.5,
+        "validity_score": 1.0,
+        "reasoning": "Keywords partially match; generated emphasizes smart home, lacks focus on affordability.",
+        "success": true
+      },
+      {
+        "gen_name": "Tech-Savvy Smart Home Integrator",
+        "gt_name": "The Smart Home Integrator",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.7,
+        "sentiment_alignment": 1.0,
+        "matching_score": 0.68,
+        "validity_score": 0.7,
+        "reasoning": "Keywords partially match; sentiment aligns; mostly covers domain.",
+        "success": true
+      }
+    ],
+    "matching_score": 0.46,
+    "validity_score": 0.775,
+    "mean_all_matching": 0.255,
+    "dim_averages": {
+      "keyword_alignment": 0.375,
+      "value_alignment": 0.5,
+      "pain_alignment": 0.5,
+      "behavioral_alignment": 0.5,
+      "sentiment_alignment": 0.425
+    },
+    "n_success": 2,
+    "mapping_success_rate": 0.5
+  },
+  "topic_sim_result": {
+    "topic_sim": 0.4059,
+    "pair_details": [
+      {
+        "gen_name": "Music-Focused Alexa Enthusiast",
+        "gt_name": "The Wireless Audio Pursuer",
+        "gen_aspects": [
+          "music",
+          "play",
+          "alexa",
+          "echo",
+          "amazon"
+        ],
+        "gt_aspects": [
+          "Sound",
+          "Connectivity",
+          "Price",
+          "Configuration",
+          "Size"
+        ],
+        "topic_sim": 0.3421
+      },
+      {
+        "gen_name": "Practical Quality Seeker",
+        "gt_name": "The Disillusioned Early Adopter",
+        "gen_aspects": [
+          "sound",
+          "product",
+          "use",
+          "quality",
+          "easy"
+        ],
+        "gt_aspects": [
+          "Durability",
+          "Defective",
+          "Charging",
+          "Connectivity",
+          "Quality"
+        ],
+        "topic_sim": 0.4472
+      },
+      {
+        "gen_name": "Feature-Oriented Smart Home User",
+        "gt_name": "The Practical Value Seeker",
+        "gen_aspects": [
+          "clock",
+          "smart",
+          "phone",
+          "light",
+          "alarm"
+        ],
+        "gt_aspects": [
+          "Price",
+          "Clock",
+          "Configuration",
+          "Convenience",
+          "Smart Assistant"
+        ],
+        "topic_sim": 0.4822
+      },
+      {
+        "gen_name": "Tech-Savvy Smart Home Integrator",
+        "gt_name": "The Smart Home Integrator",
+        "gen_aspects": [
+          "google",
+          "nest",
+          "home",
+          "device",
+          "camera"
+        ],
+        "gt_aspects": [
+          "Smart Assistant",
+          "Clock",
+          "Connectivity",
+          "Configuration",
+          "Convenience"
+        ],
+        "topic_sim": 0.3519
+      }
+    ]
+  },
+  "summary": {
+    "matching_score": 0.46,
+    "validity_score": 0.775,
+    "topic_sim": 0.4059,
+    "dim_averages": {
+      "keyword_alignment": 0.375,
+      "value_alignment": 0.5,
+      "pain_alignment": 0.5,
+      "behavioral_alignment": 0.5,
+      "sentiment_alignment": 0.425
+    }
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP5_LDA_KMeans",
+  "method": "LDA_KMEANS",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2370,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Tech-Savvy Home Integrator",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP5_LDA_KMeans",
+      "keywords": [
+        "thermostat",
+        "charge",
+        "nest",
+        "work",
+        "google",
+        "clock",
+        "support"
+      ],
+      "core_value": "They value seamless integration with their smart home ecosystem.",
+      "description": "These users are keen on integrating their virtual assistant devices with other smart home systems they own, like thermostats and wireless speakers.",
+      "motivation": "They are driven by the desire to create a connected and efficient living environment.",
+      "pain_points": "They often face technical issues that require support, which can disrupt the integration process.",
+      "quote": "I love how my Google device connects seamlessly with my Nest thermostat.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.2,
+        "Negative": 0.2,
+        "_inference_note": "Keywords like 'nest', 'google', and 'work' suggest positive interactions, while 'issue' and 'support' imply occasional negatives."
+      },
+      "top_aspects": [
+        "thermostat",
+        "charge",
+        "nest",
+        "work",
+        "google"
+      ],
+      "co_aspects": {
+        "thermostat": [
+          "charge",
+          "nest",
+          "work"
+        ],
+        "google": [
+          "nest",
+          "clock",
+          "support"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Active Lifestyle Ear-Fitters",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP5_LDA_KMeans",
+      "keywords": [
+        "ear",
+        "stay",
+        "fall",
+        "headphone",
+        "fit",
+        "connect",
+        "earpod"
+      ],
+      "core_value": "They prioritize secure fit and connectivity during their active routines.",
+      "description": "These consumers are active and often use their devices during exercise, focusing on the fit and performance of headphones and earpods.",
+      "motivation": "Ensuring their devices stay in place during movement is their main concern.",
+      "pain_points": "Devices that lose connectivity or fit poorly during activities frustrate them.",
+      "quote": "Finding headphones that don't fall out during my workouts is a game-changer.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.3,
+        "Negative": 0.2,
+        "_inference_note": "Positive sentiments from 'great', 'connect'; negative from 'fall', 'lose'."
+      },
+      "top_aspects": [
+        "ear",
+        "headphone",
+        "fit",
+        "connect",
+        "earpod"
+      ],
+      "co_aspects": {
+        "ear": [
+          "stay",
+          "fall",
+          "headphone"
+        ],
+        "fit": [
+          "connect",
+          "earpod"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Sound Quality Enthusiasts",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP5_LDA_KMeans",
+      "keywords": [
+        "sound",
+        "music",
+        "like",
+        "play",
+        "quality",
+        "echo",
+        "speaker"
+      ],
+      "core_value": "They value exceptional sound quality for an immersive music experience.",
+      "description": "These individuals are passionate about music and prioritize sound quality when selecting devices.",
+      "motivation": "They strive to obtain high-quality sound to enhance their listening experiences.",
+      "pain_points": "Subpar sound performance significantly diminishes their device satisfaction.",
+      "quote": "The sound quality is incredible; it's like having a live concert in my room.",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Positive sentiment from 'great', 'music'; slight negatives implied by 'want', which may suggest unmet expectations."
+      },
+      "top_aspects": [
+        "sound",
+        "music",
+        "play",
+        "quality",
+        "speaker"
+      ],
+      "co_aspects": {
+        "sound": [
+          "music",
+          "play",
+          "quality"
+        ],
+        "speaker": [
+          "echo",
+          "quality"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Budget-Conscious Value Seekers",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP5_LDA_KMeans",
+      "keywords": [
+        "quality",
+        "great",
+        "good",
+        "price",
+        "sound",
+        "samsung",
+        "purchase"
+      ],
+      "core_value": "They look for high value at an affordable price.",
+      "description": "These consumers focus on getting the most value for their money, often choosing devices with good price-to-quality ratios.",
+      "motivation": "Their purchase decisions are driven by the balance between cost and quality, aiming to make smart financial choices.",
+      "pain_points": "They may feel frustrated when devices don't live up to their perceived value or expectations.",
+      "quote": "I found a great deal on a Samsung speaker that delivers awesome quality for the price.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Positive signals from 'great', 'good', 'quality'; slight negatives implicit from price concerns."
+      },
+      "top_aspects": [
+        "quality",
+        "price",
+        "sound",
+        "samsung",
+        "purchase"
+      ],
+      "co_aspects": {
+        "quality": [
+          "great",
+          "price"
+        ],
+        "sound": [
+          "samsung",
+          "purchase"
+        ]
+      }
+    }
+  ]
+}

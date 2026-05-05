@@ -1,0 +1,193 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP7_Full",
+  "method": "SNA_LDA_KMEANS",
+  "lang": "en",
+  "judge": {
+    "judge_matrix": [
+      [
+        0.24,
+        0.56,
+        0.46,
+        0.0
+      ],
+      [
+        0.12,
+        0.16,
+        0.54,
+        0.06
+      ],
+      [
+        0.4,
+        0.06,
+        0.0,
+        0.0
+      ],
+      [
+        0.28,
+        0.22,
+        0.32,
+        0.68
+      ]
+    ],
+    "best_mapping": [
+      {
+        "gen_name": "Feature-Enthused Techie",
+        "gt_name": "The Smart Home Integrator",
+        "keyword_alignment": 0.3,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 1.0,
+        "matching_score": 0.56,
+        "validity_score": 0.7,
+        "reasoning": "General themes less specific; sentiment direction matches well.",
+        "success": true
+      },
+      {
+        "gen_name": "Value-Seeking Pragmatist",
+        "gt_name": "The Practical Value Seeker",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.7,
+        "matching_score": 0.54,
+        "validity_score": 0.7,
+        "reasoning": "Keywords and values partially match, some content grounded in domain.",
+        "success": true
+      },
+      {
+        "gen_name": "Sound-Savvy Audio Lover",
+        "gt_name": "The Wireless Audio Pursuer",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.4,
+        "validity_score": 0.5,
+        "reasoning": "Domain topics partially used; sentiment off; pain points differ.",
+        "success": false
+      },
+      {
+        "gen_name": "Functionality-Frustrated User",
+        "gt_name": "The Disillusioned Early Adopter",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.7,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 1.0,
+        "matching_score": 0.68,
+        "validity_score": 1.0,
+        "reasoning": "Keywords cover similar issues; sentiment matches; value/pain somewhat aligned.",
+        "success": true
+      }
+    ],
+    "matching_score": 0.545,
+    "validity_score": 0.725,
+    "mean_all_matching": 0.2562,
+    "dim_averages": {
+      "keyword_alignment": 0.45,
+      "value_alignment": 0.65,
+      "pain_alignment": 0.45,
+      "behavioral_alignment": 0.5,
+      "sentiment_alignment": 0.675
+    },
+    "n_success": 3,
+    "mapping_success_rate": 0.75
+  },
+  "topic_sim_result": {
+    "topic_sim": 0.4294,
+    "pair_details": [
+      {
+        "gen_name": "Feature-Enthused Techie",
+        "gt_name": "The Smart Home Integrator",
+        "gen_aspects": [
+          "smart",
+          "feature",
+          "easy",
+          "connect",
+          "love"
+        ],
+        "gt_aspects": [
+          "Smart Assistant",
+          "Clock",
+          "Connectivity",
+          "Configuration",
+          "Convenience"
+        ],
+        "topic_sim": 0.4082
+      },
+      {
+        "gen_name": "Value-Seeking Pragmatist",
+        "gt_name": "The Practical Value Seeker",
+        "gen_aspects": [
+          "price",
+          "quality",
+          "buy",
+          "purchase",
+          "good"
+        ],
+        "gt_aspects": [
+          "Price",
+          "Clock",
+          "Configuration",
+          "Convenience",
+          "Smart Assistant"
+        ],
+        "topic_sim": 0.493
+      },
+      {
+        "gen_name": "Sound-Savvy Audio Lover",
+        "gt_name": "The Wireless Audio Pursuer",
+        "gen_aspects": [
+          "music",
+          "sound",
+          "good",
+          "nice",
+          "love"
+        ],
+        "gt_aspects": [
+          "Sound",
+          "Connectivity",
+          "Price",
+          "Configuration",
+          "Size"
+        ],
+        "topic_sim": 0.4929
+      },
+      {
+        "gen_name": "Functionality-Frustrated User",
+        "gt_name": "The Disillusioned Early Adopter",
+        "gen_aspects": [
+          "problem",
+          "stop",
+          "issue",
+          "return",
+          "work"
+        ],
+        "gt_aspects": [
+          "Durability",
+          "Defective",
+          "Charging",
+          "Connectivity",
+          "Quality"
+        ],
+        "topic_sim": 0.3234
+      }
+    ]
+  },
+  "summary": {
+    "matching_score": 0.545,
+    "validity_score": 0.725,
+    "topic_sim": 0.4294,
+    "dim_averages": {
+      "keyword_alignment": 0.45,
+      "value_alignment": 0.65,
+      "pain_alignment": 0.45,
+      "behavioral_alignment": 0.5,
+      "sentiment_alignment": 0.675
+    }
+  }
+}

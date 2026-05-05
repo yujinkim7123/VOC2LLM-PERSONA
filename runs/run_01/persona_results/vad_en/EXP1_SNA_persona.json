@@ -1,0 +1,190 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP1_SNA",
+  "method": "SNA_LOUVAIN",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2370,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Music-Focused Alexa Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP1_SNA",
+      "keywords": [
+        "music",
+        "want",
+        "play",
+        "echo",
+        "alexa",
+        "amazon",
+        "listen"
+      ],
+      "core_value": "This consumer values seamless integration with their music streaming and smart speaker capabilities.",
+      "description": "This consumer frequently uses their virtual assistant device to stream music and enjoys interacting with Alexa and Amazon's ecosystem. They are tech-savvy and appreciate devices that can cater to their auditory entertainment needs.",
+      "motivation": "Driven by a desire to easily access and control music playback through voice commands on their smart devices.",
+      "pain_points": "May face frustration if the music playback or Alexa integration is not smooth or intuitive.",
+      "quote": "I love asking Alexa to play my favorite songs effortlessly!",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Keywords like 'alexa', 'play', 'amazon', and 'love' suggest a positive sentiment, while 'ask' and 'hear' are neutral. A small negative proportion might reflect occasional command issues."
+      },
+      "top_aspects": [
+        "music",
+        "play",
+        "alexa",
+        "echo",
+        "amazon"
+      ],
+      "co_aspects": {
+        "music": [
+          "want",
+          "play",
+          "alexa"
+        ],
+        "play": [
+          "echo",
+          "alexa",
+          "amazon"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Practical Quality Seeker",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP1_SNA",
+      "keywords": [
+        "great",
+        "sound",
+        "product",
+        "use",
+        "like",
+        "easy",
+        "quality"
+      ],
+      "core_value": "Reliability and quality of sound and overall device functionality are paramount for this consumer.",
+      "description": "This consumer appreciates products that work well consistently and deliver high-quality sound. They prioritize ease of use and good build quality in their purchasing decisions.",
+      "motivation": "Attracted to virtual assistant devices that promise excellent performance and easy operation.",
+      "pain_points": "They could be dissatisfied if the device doesn't meet expectations in sound quality or ease of use.",
+      "quote": "I'm very pleased with how great the sound quality is and how easy it is to use.",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Keywords like 'great', 'sound', 'love', and 'quality' denote strong positivity. Neutrality is captured by 'product' and 'use', with slight negativity from 'need' if unmet."
+      },
+      "top_aspects": [
+        "sound",
+        "product",
+        "use",
+        "quality",
+        "easy"
+      ],
+      "co_aspects": {
+        "sound": [
+          "great",
+          "product",
+          "use"
+        ],
+        "quality": [
+          "great",
+          "use",
+          "easy"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Feature-Oriented Smart Home User",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP1_SNA",
+      "keywords": [
+        "clock",
+        "charge",
+        "smart",
+        "phone",
+        "screen",
+        "light",
+        "alarm"
+      ],
+      "core_value": "This consumer seeks out features that enhance their smart home environment while valuing versatility.",
+      "description": "They are interested in utilizing their devices as multifunctional tools, integrating features like smart lighting and alarms with displays for convenience around the home.",
+      "motivation": "They desire devices that offer a comprehensive set of features, acting as an all-in-one hub for their smart home needs.",
+      "pain_points": "Frustration when advertised features do not perform as expected or are challenging to set up.",
+      "quote": "I like having a smart display that combines my clock, alarm, and phone features in one place.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.4,
+        "Negative": 0.1,
+        "_inference_note": "Positivity from 'smart', 'nice', and 'feature'. Neutrality from 'phone', 'screen', and 'light'. Minor negativity might occur if a feature like an 'alarm' fails."
+      },
+      "top_aspects": [
+        "clock",
+        "smart",
+        "phone",
+        "light",
+        "alarm"
+      ],
+      "co_aspects": {
+        "smart": [
+          "clock",
+          "phone",
+          "screen"
+        ],
+        "alarm": [
+          "light",
+          "display",
+          "smart"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Tech-Savvy Smart Home Integrator",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP1_SNA",
+      "keywords": [
+        "google",
+        "nest",
+        "home",
+        "device",
+        "hub",
+        "camera",
+        "control"
+      ],
+      "core_value": "Seamless control of various smart home gadgets through a unified platform is crucial for this user.",
+      "description": "This consumer integrates various smart home devices using platforms like Google and Nest. They value connectivity and the ability to control home functions like cameras and hubs efficiently.",
+      "motivation": "Driven by a need to manage and control smart devices effortlessly from a central system.",
+      "pain_points": "Potential issues with apps or connectivity that could disrupt the harmony of their smart home setup.",
+      "quote": "Connecting all my smart devices through Google and Nest makes managing my home so much easier.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.3,
+        "Negative": 0.2,
+        "_inference_note": "Positive sentiment inferred from 'google', 'nest', 'home'. Neutral from 'app', 'device'. Negative sentiment due to potential 'issue' with 'connect'."
+      },
+      "top_aspects": [
+        "google",
+        "nest",
+        "home",
+        "device",
+        "camera"
+      ],
+      "co_aspects": {
+        "google": [
+          "nest",
+          "hub",
+          "control"
+        ],
+        "device": [
+          "app",
+          "home",
+          "camera"
+        ]
+      }
+    }
+  ]
+}

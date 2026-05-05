@@ -1,0 +1,162 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP3_KMeans",
+  "method": "KMEANS_TFIDF",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_docs": 965,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Price-Conscious Pragmatist",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP3_KMeans",
+      "keywords": [
+        "price",
+        "pay",
+        "performance",
+        "cost",
+        "budget"
+      ],
+      "core_value": "This consumer segment values affordability without sacrificing performance.",
+      "description": "They are diligent shoppers who evaluate price against the performance of the home appliances. They seek the best budget options and are mindful of costs.",
+      "motivation": "Their primary motive is to find high-performing appliances that meet their budget constraints.",
+      "pain_points": "High prices for perceived low performance frustrate them.",
+      "quote": "I always compare the price with the performance before making a purchase.",
+      "sentiment_ratio": {
+        "Positive": 0.4,
+        "Neutral": 0.4,
+        "Negative": 0.2,
+        "_inference_note": "Positive sentiment inferred from 'performance', 'budget'; neutral from 'pay', 'price'; slight negative from 'high', 'cheap' indicating price concerns."
+      },
+      "top_aspects": [
+        "price",
+        "pay",
+        "performance",
+        "cost",
+        "budget"
+      ],
+      "co_aspects": {
+        "price": [
+          "pay",
+          "performance",
+          "cost"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Perfection-Seeking Analyst",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP3_KMeans",
+      "keywords": [
+        "spec",
+        "measure",
+        "price",
+        "measurement",
+        "performance"
+      ],
+      "core_value": "Accuracy and alignment with advertised specifications are crucial.",
+      "description": "This segment consists of detail-oriented individuals who closely examine product specifications and expect them to match the advertised claims.",
+      "motivation": "They are driven by the need for appliances that perform exactly as promised in technical specifications.",
+      "pain_points": "Discrepancies between advertised and actual performance specifications are highly frustrating.",
+      "quote": "I always check if the specs match what was advertised before deciding on a purchase.",
+      "sentiment_ratio": {
+        "Positive": 0.3,
+        "Neutral": 0.4,
+        "Negative": 0.3,
+        "_inference_note": "Neutral sentiment from 'measure', 'standard', 'benchmark'; positive from 'performance'; negative from 'actual' when suggesting discrepancies."
+      },
+      "top_aspects": [
+        "spec",
+        "measure",
+        "price",
+        "measurement",
+        "performance"
+      ],
+      "co_aspects": {
+        "spec": [
+          "measure",
+          "performance",
+          "price"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Style-Oriented Decorator",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP3_KMeans",
+      "keywords": [
+        "color",
+        "pretty",
+        "look",
+        "design",
+        "beautiful"
+      ],
+      "core_value": "This segment prioritizes aesthetics and design in their appliance choices.",
+      "description": "These consumers are focused on the visual appeal and design harmony of appliances within their home environments.",
+      "motivation": "They are driven by the desire to enhance the aesthetic appeal of their living spaces.",
+      "pain_points": "Lack of design options or aesthetic mismatches frustrate them.",
+      "quote": "I always want my appliances to complement the look and feel of my home.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Positive sentiment from 'color', 'pretty', 'beautiful'; neutral tones from 'design', 'look'; minimal negative."
+      },
+      "top_aspects": [
+        "color",
+        "pretty",
+        "look",
+        "design",
+        "beautiful"
+      ],
+      "co_aspects": {
+        "color": [
+          "pretty",
+          "design",
+          "look"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Brand-Faithful Problem Solver",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP3_KMeans",
+      "keywords": [
+        "service",
+        "brand",
+        "trust",
+        "warranty",
+        "support"
+      ],
+      "core_value": "Reliability and support from brands they trust are paramount.",
+      "description": "These consumers place a high value on brand reputation and the reliability of service and warranty support when choosing appliances.",
+      "motivation": "They are driven to purchase from brands they trust and seek strong post-purchase support.",
+      "pain_points": "Issues that require service and defects in products are significant frustrations.",
+      "quote": "I stick with brands I trust because I know they offer good service when issues arise.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.4,
+        "Negative": 0.4,
+        "_inference_note": "Neutral from 'trust', 'brand', 'product'; positive from 'service', 'support'; negative from 'issue', 'defect'."
+      },
+      "top_aspects": [
+        "service",
+        "brand",
+        "trust",
+        "warranty",
+        "support"
+      ],
+      "co_aspects": {
+        "service": [
+          "brand",
+          "warranty",
+          "support"
+        ]
+      }
+    }
+  ]
+}

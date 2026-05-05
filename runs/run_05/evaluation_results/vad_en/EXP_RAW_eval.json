@@ -1,0 +1,194 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP_RAW",
+  "method": "RAW_REVIEW_INJECTION",
+  "lang": "en",
+  "n_reviews_injected": 200,
+  "judge": {
+    "judge_matrix": [
+      [
+        0.5,
+        0.3,
+        0.0,
+        0.06
+      ],
+      [
+        0.32,
+        0.12,
+        0.38,
+        0.12
+      ],
+      [
+        0.0,
+        0.22,
+        0.46,
+        0.06
+      ],
+      [
+        0.46,
+        0.22,
+        0.12,
+        0.18
+      ]
+    ],
+    "best_mapping": [
+      {
+        "gen_name": "Quality Seeker",
+        "gt_name": "The Smart Home Integrator",
+        "keyword_alignment": 0.3,
+        "value_alignment": 0.3,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.3,
+        "matching_score": 0.3,
+        "validity_score": 0.7,
+        "reasoning": "Generated focuses on sound, misaligns with smart home ecosystem goals.",
+        "success": false
+      },
+      {
+        "gen_name": "Cautious Critics",
+        "gt_name": "The Disillusioned Early Adopter",
+        "keyword_alignment": 0.0,
+        "value_alignment": 0.3,
+        "pain_alignment": 0.0,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.12,
+        "validity_score": 0.7,
+        "reasoning": "Generated persona diverges in focus; lacks clear grounding in domain.",
+        "success": false
+      },
+      {
+        "gen_name": "Discount Devotees",
+        "gt_name": "The Practical Value Seeker",
+        "keyword_alignment": 0.3,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.7,
+        "matching_score": 0.46,
+        "validity_score": 0.7,
+        "reasoning": "Generated persona is deal-focused, lacking specific clock/alarm emphasis.",
+        "success": false
+      },
+      {
+        "gen_name": "Techie Troubleshooters",
+        "gt_name": "The Wireless Audio Pursuer",
+        "keyword_alignment": 0.3,
+        "value_alignment": 0.3,
+        "pain_alignment": 0.7,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.7,
+        "matching_score": 0.46,
+        "validity_score": 0.7,
+        "reasoning": "Generated focus is on tech troubleshooting vs. audio experience.",
+        "success": false
+      }
+    ],
+    "matching_score": 0.335,
+    "validity_score": 0.7,
+    "mean_all_matching": 0.22,
+    "dim_averages": {
+      "keyword_alignment": 0.225,
+      "value_alignment": 0.35,
+      "pain_alignment": 0.325,
+      "behavioral_alignment": 0.35,
+      "sentiment_alignment": 0.425
+    },
+    "n_success": 0,
+    "mapping_success_rate": 0.0
+  },
+  "topic_sim_result": {
+    "topic_sim": 0.4642,
+    "pair_details": [
+      {
+        "gen_name": "Quality Seeker",
+        "gt_name": "The Smart Home Integrator",
+        "gen_aspects": [
+          "sound quality",
+          "ease of use",
+          "connectivity",
+          "features",
+          "installation"
+        ],
+        "gt_aspects": [
+          "Smart Assistant",
+          "Clock",
+          "Connectivity",
+          "Configuration",
+          "Convenience"
+        ],
+        "topic_sim": 0.5385
+      },
+      {
+        "gen_name": "Cautious Critics",
+        "gt_name": "The Disillusioned Early Adopter",
+        "gen_aspects": [
+          "functionality",
+          "usability",
+          "sound issues",
+          "design",
+          "interface"
+        ],
+        "gt_aspects": [
+          "Durability",
+          "Defective",
+          "Charging",
+          "Connectivity",
+          "Quality"
+        ],
+        "topic_sim": 0.3938
+      },
+      {
+        "gen_name": "Discount Devotees",
+        "gt_name": "The Practical Value Seeker",
+        "gen_aspects": [
+          "value for money",
+          "deals",
+          "affordability",
+          "recommendation",
+          "functionality"
+        ],
+        "gt_aspects": [
+          "Price",
+          "Clock",
+          "Configuration",
+          "Convenience",
+          "Smart Assistant"
+        ],
+        "topic_sim": 0.4275
+      },
+      {
+        "gen_name": "Techie Troubleshooters",
+        "gt_name": "The Wireless Audio Pursuer",
+        "gen_aspects": [
+          "connectivity",
+          "troubleshooting",
+          "tech support",
+          "setup",
+          "glitches"
+        ],
+        "gt_aspects": [
+          "Sound",
+          "Connectivity",
+          "Price",
+          "Configuration",
+          "Size"
+        ],
+        "topic_sim": 0.4972
+      }
+    ]
+  },
+  "summary": {
+    "matching_score": 0.335,
+    "validity_score": 0.7,
+    "topic_sim": 0.4642,
+    "dim_averages": {
+      "keyword_alignment": 0.225,
+      "value_alignment": 0.35,
+      "pain_alignment": 0.325,
+      "behavioral_alignment": 0.35,
+      "sentiment_alignment": 0.425
+    }
+  }
+}

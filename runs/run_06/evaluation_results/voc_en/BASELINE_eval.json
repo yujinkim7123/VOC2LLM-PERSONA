@@ -1,0 +1,155 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "BASELINE",
+  "method": "LLM_STANDALONE",
+  "lang": "en",
+  "judge": {
+    "judge_matrix": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.28,
+        0.0,
+        0.18
+      ],
+      [
+        0.0,
+        0.32,
+        0.36,
+        0.0
+      ]
+    ],
+    "best_mapping": [
+      {
+        "gen_name": "Eco-conscious Tech Enthusiast",
+        "gt_name": "Price-Sensitive Bargain Hunter",
+        "keyword_alignment": 0.0,
+        "value_alignment": 0.0,
+        "pain_alignment": 0.0,
+        "behavioral_alignment": 0.0,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.0,
+        "validity_score": 0.5,
+        "reasoning": "Completely different persona; keywords not in domain topics.",
+        "success": false
+      },
+      {
+        "gen_name": "Busy Family Manager",
+        "gt_name": "Performance-Focused Spec Evaluator",
+        "keyword_alignment": 0.3,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.28,
+        "validity_score": 0.5,
+        "reasoning": "Generated persona differs in target focus and sentiment; partial keyword/topic match.",
+        "success": false
+      },
+      {
+        "gen_name": "Style-conscious Urban Dweller",
+        "gt_name": "Design-Driven Aesthetic Consumer",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.36,
+        "validity_score": 0.7,
+        "reasoning": "Style focus aligns; lacks shipping/material detail; sentiment off.",
+        "success": false
+      }
+    ],
+    "matching_score": 0.2133,
+    "validity_score": 0.5667,
+    "mean_all_matching": 0.095,
+    "dim_averages": {
+      "keyword_alignment": 0.2667,
+      "value_alignment": 0.3333,
+      "pain_alignment": 0.2,
+      "behavioral_alignment": 0.2667,
+      "sentiment_alignment": 0.0
+    },
+    "n_success": 0,
+    "mapping_success_rate": 0.0
+  },
+  "topic_sim_result": {
+    "topic_sim": 0.4292,
+    "pair_details": [
+      {
+        "gen_name": "Eco-conscious Tech Enthusiast",
+        "gt_name": "Price-Sensitive Bargain Hunter",
+        "gen_aspects": [
+          "energy efficiency",
+          "technology",
+          "sustainability",
+          "smart home integration",
+          "connectivity"
+        ],
+        "gt_aspects": [
+          "Price/Cost",
+          "Performance/Specs",
+          "Design/Appearance",
+          "Shipping/Service",
+          "Ease of Use"
+        ],
+        "topic_sim": 0.3349
+      },
+      {
+        "gen_name": "Busy Family Manager",
+        "gt_name": "Performance-Focused Spec Evaluator",
+        "gen_aspects": [
+          "reliability",
+          "durability",
+          "capacity",
+          "family-friendly features",
+          "ease of use"
+        ],
+        "gt_aspects": [
+          "Performance/Specs",
+          "Ease of Use",
+          "Design/Appearance",
+          "Shipping/Service",
+          "Price/Cost"
+        ],
+        "topic_sim": 0.4643
+      },
+      {
+        "gen_name": "Style-conscious Urban Dweller",
+        "gt_name": "Design-Driven Aesthetic Consumer",
+        "gen_aspects": [
+          "design",
+          "aesthetic appeal",
+          "compactness",
+          "performance",
+          "modern look"
+        ],
+        "gt_aspects": [
+          "Design/Appearance",
+          "Ease of Use",
+          "Price/Cost",
+          "Shipping/Service",
+          "Performance/Specs"
+        ],
+        "topic_sim": 0.4883
+      }
+    ]
+  },
+  "summary": {
+    "matching_score": 0.2133,
+    "validity_score": 0.5667,
+    "topic_sim": 0.4292,
+    "dim_averages": {
+      "keyword_alignment": 0.2667,
+      "value_alignment": 0.3333,
+      "pain_alignment": 0.2,
+      "behavioral_alignment": 0.2667,
+      "sentiment_alignment": 0.0
+    }
+  }
+}

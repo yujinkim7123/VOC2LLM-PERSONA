@@ -1,0 +1,199 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP3_KMeans",
+  "method": "KMEANS_TFIDF",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2370,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Value-Oriented Audiophile",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP3_KMeans",
+      "keywords": [
+        "great",
+        "good",
+        "sound",
+        "quality",
+        "love",
+        "price",
+        "samsung"
+      ],
+      "core_value": "This consumer segment values high-quality audio at an affordable price.",
+      "description": "They are enthusiastic about sound quality and believe they are getting great value for their money. They appreciate the brand's products, particularly when it exceeds their expectations for the price.",
+      "motivation": "They are driven by a passion for music and a desire to get the best audio experience without breaking the bank.",
+      "pain_points": "If the product fails to meet sound quality expectations, they may express dissatisfaction.",
+      "quote": "I love the sound quality of my Samsung device, especially at this price!",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.3,
+        "Negative": 0.0,
+        "_inference_note": "Positive sentiment is suggested by words like 'great', 'good', 'sound', 'quality', and 'love'. Price mention implies a deal satisfaction."
+      },
+      "top_aspects": [
+        "sound",
+        "quality",
+        "price",
+        "picture",
+        "samsung"
+      ],
+      "co_aspects": {
+        "sound": [
+          "quality",
+          "great",
+          "good"
+        ],
+        "price": [
+          "samsung",
+          "product"
+        ],
+        "quality": [
+          "sound",
+          "picture"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Multifunctional Gadget Lover",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP3_KMeans",
+      "keywords": [
+        "clock",
+        "smart",
+        "alarm",
+        "charge",
+        "google",
+        "lenovo",
+        "love"
+      ],
+      "core_value": "This persona values the integration of multiple functions in a single device.",
+      "description": "They appreciate smart gadgets that can handle multiple tasks like setting alarms, charging devices, and more. They often opt for well-integrated brands like Google and Lenovo.",
+      "motivation": "Their buying decisions are driven by the versatility and functionality of the device in everyday life.",
+      "pain_points": "Complex setups or inadequate performance in one of the functions could lead to dissatisfaction.",
+      "quote": "I love how my Google device works as an alarm clock and a wireless charger!",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.4,
+        "Negative": 0.0,
+        "_inference_note": "The presence of positive words like 'great', 'smart', and 'love' implies positive sentiment, while 'alarm' and 'charge' are functional words suggesting neutral effects."
+      },
+      "top_aspects": [
+        "clock",
+        "smart",
+        "alarm",
+        "google",
+        "lenovo"
+      ],
+      "co_aspects": {
+        "clock": [
+          "alarm",
+          "smart"
+        ],
+        "google": [
+          "smart",
+          "work"
+        ],
+        "lenovo": [
+          "charge",
+          "wireless"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Frustrated Tech User",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP3_KMeans",
+      "keywords": [
+        "work",
+        "buy",
+        "charge",
+        "airpod",
+        "stop",
+        "return",
+        "month"
+      ],
+      "core_value": "These consumers prioritize reliability and consistent functionality in their tech devices.",
+      "description": "They experience frustration with tech products that stop working properly prematurely, leading to returns or frequent exchanges.",
+      "motivation": "They seek devices that can reliably and consistently meet their needs over time.",
+      "pain_points": "Frequent technical failures, such as connection issues or battery failures, drive these users to seek alternatives.",
+      "quote": "I've had to return my device after just a month because it stopped working.",
+      "sentiment_ratio": {
+        "Positive": 0.0,
+        "Neutral": 0.2,
+        "Negative": 0.8,
+        "_inference_note": "Negative sentiment is evident from words like 'stop', 'return', and 'month', indicating dissatisfaction and frustration, while 'work' and 'buy' are used neutrally."
+      },
+      "top_aspects": [
+        "work",
+        "charge",
+        "airpod",
+        "product",
+        "time"
+      ],
+      "co_aspects": {
+        "work": [
+          "charge",
+          "return"
+        ],
+        "product": [
+          "buy",
+          "month"
+        ],
+        "charge": [
+          "work",
+          "airpod"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Smart Home Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP3_KMeans",
+      "keywords": [
+        "nest",
+        "thermostat",
+        "google",
+        "hub",
+        "home",
+        "camera",
+        "buy"
+      ],
+      "core_value": "This segment seeks to create a seamlessly integrated smart home environment.",
+      "description": "They invest in devices like Google Nest to enhance home automation and improve home efficiency. Cameras and hubs are crucial for their connected homes.",
+      "motivation": "The desire to increase their home's functionality and security drives their purchases.",
+      "pain_points": "Interoperability issues or difficulty in setting up integrated systems can be frustrating.",
+      "quote": "I really enjoy how my Nest devices make my home so much smarter and more efficient.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.5,
+        "Negative": 0.0,
+        "_inference_note": "The use of positive words like 'great', 'google', and 'nest' reflects satisfaction, while 'work' and 'home' are generally neutral when describing function."
+      },
+      "top_aspects": [
+        "nest",
+        "thermostat",
+        "google",
+        "hub",
+        "camera"
+      ],
+      "co_aspects": {
+        "nest": [
+          "thermostat",
+          "hub"
+        ],
+        "google": [
+          "nest",
+          "work"
+        ],
+        "hub": [
+          "camera",
+          "home"
+        ]
+      }
+    }
+  ]
+}

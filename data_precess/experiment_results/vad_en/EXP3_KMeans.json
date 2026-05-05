@@ -1,0 +1,98 @@
+{
+  "exp_id": "EXP-3",
+  "method": "KMEANS_TFIDF",
+  "file": "vad_en",
+  "lang": "en",
+  "n_docs": 2370,
+  "k": 6,
+  "silhouette_mean": 0.0474,
+  "silhouette_std": 0.001,
+  "coherence_cv": 0.6051,
+  "cluster_distribution": {
+    "0": 235,
+    "1": 505,
+    "2": 312,
+    "3": 787,
+    "4": 253,
+    "5": 278
+  },
+  "topic_words": {
+    "cluster_0": [
+      "thermostat",
+      "nest",
+      "work",
+      "learn",
+      "easy",
+      "instal",
+      "install",
+      "buy",
+      "google",
+      "home"
+    ],
+    "cluster_1": [
+      "great",
+      "good",
+      "sound",
+      "quality",
+      "love",
+      "price",
+      "picture",
+      "easy",
+      "samsung",
+      "perfect"
+    ],
+    "cluster_2": [
+      "clock",
+      "smart",
+      "alarm",
+      "great",
+      "charge",
+      "wireless",
+      "lenovo",
+      "google",
+      "charger",
+      "love"
+    ],
+    "cluster_3": [
+      "charge",
+      "product",
+      "ear",
+      "time",
+      "buy",
+      "airpod",
+      "like",
+      "good",
+      "apple",
+      "return"
+    ],
+    "cluster_4": [
+      "hub",
+      "google",
+      "camera",
+      "nest",
+      "home",
+      "wyze",
+      "work",
+      "great",
+      "love",
+      "cam"
+    ],
+    "cluster_5": [
+      "work",
+      "stop",
+      "month",
+      "buy",
+      "week",
+      "return",
+      "good",
+      "great",
+      "fine",
+      "day"
+    ]
+  },
+  "used_params": {
+    "k": 6,
+    "tfidf_feats": 200
+  },
+  "paper_ref": "MacQueen (1967) / Grid-Search Tuned"
+}

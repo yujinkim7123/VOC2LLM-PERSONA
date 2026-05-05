@@ -1,0 +1,163 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP_RAW",
+  "method": "RAW_REVIEW_INJECTION",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_reviews_injected": 200,
+  "run_seed": 63,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Value-Driven Quality Seekers",
+      "category": "Home Appliances",
+      "data_source": "voc_en_EXP_RAW",
+      "keywords": [
+        "bulk purchase",
+        "durable",
+        "value for money",
+        "consistent",
+        "budget",
+        "reliable"
+      ],
+      "core_value": "Value for money is paramount but without compromising quality.",
+      "description": "These consumers focus on finding the best value in their purchases, prioritizing deals and bulk discounts but ultimately seek reliable and durable products.",
+      "motivation": "They are driven by the need to stretch their dollars further while ensuring they don't compromise on their product's quality and reliability.",
+      "pain_points": "Their primary dissatisfaction comes from products that fail prematurely, offsetting the initial perceived savings.",
+      "quote": "I thought I was saving money by buying in bulk, but two-thirds failed within months, erasing all savings.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.3,
+        "Negative": 0.5,
+        "_inference_note": "The tone indicates significant frustration with failed bulk purchases, though some positive reinforcement when products meet quality standards."
+      },
+      "top_aspects": [
+        "bulk purchasing",
+        "quality",
+        "reliability",
+        "durability",
+        "value"
+      ],
+      "co_aspects": {
+        "quality": [
+          "reliability",
+          "durability"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Design Enthusiasts",
+      "category": "Home Appliances",
+      "data_source": "voc_en_EXP_RAW",
+      "keywords": [
+        "色상",
+        "예쁜",
+        "디자인",
+        "인테리어",
+        "패션",
+        "색감"
+      ],
+      "core_value": "Aesthetics and design quality are central to their purchasing decisions.",
+      "description": "These consumers are driven by the visual appeal of the products they purchase. They often factor in how the product complements their home decor or fashion style.",
+      "motivation": "Their purchases are motivated by the desire to elevate the aesthetic appeal of their living spaces or personal style without compromising too much on functionality.",
+      "pain_points": "Dissatisfaction arises from discrepancies between product images and actual appearance, as well as design features that are impractical in use.",
+      "quote": "I bought it for its beautiful design, but the discrepancy in color from the photos to real life was disappointing.",
+      "sentiment_ratio": {
+        "Positive": 0.3,
+        "Neutral": 0.4,
+        "Negative": 0.3,
+        "_inference_note": "The reviews show an equal mix of positive reaction to design aspects and negativity when expectations aren't met."
+      },
+      "top_aspects": [
+        "design",
+        "color",
+        "appearance",
+        "compatibility",
+        "fashion"
+      ],
+      "co_aspects": {
+        "design": [
+          "color",
+          "appearance"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Tech-Savvy Feature Maximizers",
+      "category": "Home Appliances",
+      "data_source": "voc_en_EXP_RAW",
+      "keywords": [
+        "specs",
+        "features",
+        "benchmark",
+        "performance",
+        "app setup",
+        "monitoring"
+      ],
+      "core_value": "Product functionality and innovation are highly valued, often pushing them to maximize the use of technology.",
+      "description": "Tech enthusiasts who explore every feature of a product to achieve optimum performance and are heavy users of technology integrations like apps.",
+      "motivation": "They seek out products that offer a wealth of features and robust technical specifications that align with their tech-centric lifestyles.",
+      "pain_points": "Frustrations emerge when advertised features don't perform as expected or when claimed specs are misleading.",
+      "quote": "The specifications looked promising, but the actual performance fell short, leaving me disappointed.",
+      "sentiment_ratio": {
+        "Positive": 0.4,
+        "Neutral": 0.3,
+        "Negative": 0.3,
+        "_inference_note": "There's a balance of positive engagement with technology and frustration when expectations of technical performance aren't met."
+      },
+      "top_aspects": [
+        "features",
+        "performance",
+        "specifications",
+        "setup",
+        "functionality"
+      ],
+      "co_aspects": {
+        "specifications": [
+          "performance",
+          "features"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Service and Support Advocates",
+      "category": "Home Appliances",
+      "data_source": "voc_en_EXP_RAW",
+      "keywords": [
+        "AS",
+        "customer service",
+        "exchange",
+        "refund",
+        "warranty",
+        "brand trust"
+      ],
+      "core_value": "Reliable after-service and strong customer support significantly influence brand loyalty.",
+      "description": "These consumers place high value on the support services provided by brands, including customer service responsiveness and warranties.",
+      "motivation": "They are motivated by the assurance of support and service post-purchase, often making buying decisions based on the quality of the brand's customer service.",
+      "pain_points": "Negative experiences stem from poor customer service, unwarranted refusals for refunds or exchanges, and misleading warranty promises.",
+      "quote": "The product failed within the warranty period, but the service was quick to respond, restoring my faith in the brand.",
+      "sentiment_ratio": {
+        "Positive": 0.3,
+        "Neutral": 0.3,
+        "Negative": 0.4,
+        "_inference_note": "Reviews show a balance of satisfaction with efficient service and dissatisfaction when service fails to meet their expectations."
+      },
+      "top_aspects": [
+        "customer service",
+        "warranty",
+        "refund",
+        "exchange",
+        "trust"
+      ],
+      "co_aspects": {
+        "warranty": [
+          "customer service",
+          "trust"
+        ]
+      }
+    }
+  ]
+}

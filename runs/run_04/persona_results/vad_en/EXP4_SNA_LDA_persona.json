@@ -1,0 +1,202 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP4_SNA_LDA",
+  "method": "SNA_LDA",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2370,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Music-Loving Alexa User",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP4_SNA_LDA",
+      "keywords": [
+        "music",
+        "play",
+        "alexa",
+        "echo",
+        "amazon"
+      ],
+      "core_value": "This consumer values seamless music playback and integrates it with their smart home through Alexa.",
+      "description": "These users are keen on using their Alexa-enabled devices primarily for playing music, and appreciate Amazon's ecosystem that allows for a harmonious smart home experience.",
+      "motivation": "Their motivation is to utilize voice commands for music control, enhancing their home ambiance effortlessly.",
+      "pain_points": "Any disruptions in connectivity or issues with Alexa's music functionality frustrate these users.",
+      "quote": "I love how my Echo plays my favorite tunes on command without a hitch!",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.4,
+        "Negative": 0.1,
+        "_inference_note": "The presence of 'play', 'well', and positive brand association ('amazon') indicates a generally positive sentiment, with some neutral usage words ('home') and fewer negative signals."
+      },
+      "top_aspects": [
+        "music",
+        "alexa",
+        "home",
+        "play",
+        "echo"
+      ],
+      "co_aspects": {
+        "music": [
+          "play",
+          "alexa",
+          "echo"
+        ],
+        "alexa": [
+          "play",
+          "music",
+          "echo"
+        ],
+        "home": [
+          "echo",
+          "amazon",
+          "music"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Sound Quality Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP4_SNA_LDA",
+      "keywords": [
+        "great",
+        "sound",
+        "quality",
+        "love",
+        "product"
+      ],
+      "core_value": "This persona values high-quality sound output from their devices.",
+      "description": "Consumers in this segment focus heavily on the sound quality of their virtual assistant devices, frequently praising products that meet their audio standards.",
+      "motivation": "They are driven by the need for excellent audio quality for entertainment, making the sound aspect a high priority in their purchases.",
+      "pain_points": "They would be dissatisfied with any device that fails to live up to their sound quality expectations.",
+      "quote": "The sound quality of this speaker is just amazing, exactly what I need for my home setup.",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "The frequent use of words like 'great', 'good', 'love' signals a predominantly positive sentiment, supplemented by neutral usage terms like 'work'."
+      },
+      "top_aspects": [
+        "sound",
+        "quality",
+        "product",
+        "great",
+        "love"
+      ],
+      "co_aspects": {
+        "sound": [
+          "quality",
+          "great",
+          "product"
+        ],
+        "quality": [
+          "sound",
+          "product",
+          "love"
+        ],
+        "product": [
+          "sound",
+          "quality",
+          "like"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Smart Display Utilitarian",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP4_SNA_LDA",
+      "keywords": [
+        "clock",
+        "charge",
+        "alarm",
+        "screen",
+        "smart"
+      ],
+      "core_value": "This segment values the multifunctionality of smart devices, particularly for practical features like alarms and displays.",
+      "description": "This consumer uses their smart display primarily for practical household functions, enjoying how these devices integrate features like clocks and alarms.",
+      "motivation": "Driven by the convenience of having multiple features in one device, they appreciate tools that streamline their daily routine.",
+      "pain_points": "If functionality like charging or screen performance lags, it compromises their experience.",
+      "quote": "Using my smart display as an alarm clock is just so convenient!",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Positive signals from 'great', 'smart', and practical aspects 'alarm', 'clock' suggest a favorable view, with some neutral aspects from usage context like 'screen'."
+      },
+      "top_aspects": [
+        "clock",
+        "smart",
+        "screen",
+        "alarm",
+        "charge"
+      ],
+      "co_aspects": {
+        "clock": [
+          "alarm",
+          "smart",
+          "screen"
+        ],
+        "charge": [
+          "clock",
+          "phone",
+          "smart"
+        ],
+        "alarm": [
+          "clock",
+          "screen",
+          "smart"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Frustrated Connectivity Seeker",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP4_SNA_LDA",
+      "keywords": [
+        "work",
+        "return",
+        "issue",
+        "connect",
+        "stop"
+      ],
+      "core_value": "This consumer prioritizes reliable connectivity and consistent functionality in their virtual assistant devices.",
+      "description": "Often encountering issues with their devices, these consumers express frustration when products fail to maintain stable operation, leading to potential returns.",
+      "motivation": "Their primary drive is ensuring their virtual devices work seamlessly without interruptions or connection drops.",
+      "pain_points": "Connectivity issues and frequent malfunctions are their biggest frustrations.",
+      "quote": "I've had to return it twice because it keeps losing connection!",
+      "sentiment_ratio": {
+        "Positive": 0.1,
+        "Neutral": 0.3,
+        "Negative": 0.6,
+        "_inference_note": "Keywords like 'return', 'stop', 'issue' indicate significant negative sentiment, with minor positive ('good') and neutral usage ('work') signals."
+      },
+      "top_aspects": [
+        "work",
+        "connect",
+        "issue",
+        "return",
+        "stop"
+      ],
+      "co_aspects": {
+        "work": [
+          "connect",
+          "issue",
+          "return"
+        ],
+        "connect": [
+          "issue",
+          "work",
+          "month"
+        ],
+        "issue": [
+          "connect",
+          "work",
+          "stop"
+        ]
+      }
+    }
+  ]
+}

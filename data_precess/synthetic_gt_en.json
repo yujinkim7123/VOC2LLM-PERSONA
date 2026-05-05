@@ -1,0 +1,461 @@
+{
+  "meta": {
+    "domain": "Electronics / Home Appliance Reviews",
+    "total_reviews": 965,
+    "n_segments": 4,
+    "lda_n_topics": 5,
+    "lda_topics": {
+      "Price/Cost": {
+        "ratio": 0.3,
+        "topic_id": "T1"
+      },
+      "Performance/Specs": {
+        "ratio": 0.25,
+        "topic_id": "T2"
+      },
+      "Design/Appearance": {
+        "ratio": 0.2,
+        "topic_id": "T3"
+      },
+      "Shipping/Service": {
+        "ratio": 0.15,
+        "topic_id": "T4"
+      },
+      "Ease of Use": {
+        "ratio": 0.1,
+        "topic_id": "T5"
+      }
+    },
+    "note": "GT specification is based on pre-designed personas. Stats are calculated from the actual synthetic VOC data."
+  },
+  "segments": {
+    "S1": {
+      "spec": {
+        "segment_id": "S1",
+        "segment_name": "Price-Sensitive",
+        "description": "Prioritizes value for money, discounts, and lowest price above all else. Chooses cheaper options when specs are comparable.",
+        "core_keywords": [
+          "value for money",
+          "discount",
+          "lowest price",
+          "affordable",
+          "price-to-performance"
+        ],
+        "rating_range": "3.0 ~ 4.0 / 5.0",
+        "core_topic": "Price/Cost"
+      },
+      "stats": {
+        "total": 225,
+        "lang_count": {
+          "en": 225,
+          "ko": 225
+        },
+        "polarity_count": {
+          "POS": 110,
+          "NEG": 115
+        },
+        "sentiment_count": {
+          "Positive": 63,
+          "Neutral": 77,
+          "Negative": 85
+        },
+        "sentiment_dist": {
+          "Positive": 0.28,
+          "Neutral": 0.3422,
+          "Negative": 0.3778
+        },
+        "topic_dist": {
+          "Price/Cost": {
+            "count": 69,
+            "ratio": 0.3067
+          },
+          "Performance/Specs": {
+            "count": 53,
+            "ratio": 0.2356
+          },
+          "Design/Appearance": {
+            "count": 44,
+            "ratio": 0.1956
+          },
+          "Shipping/Service": {
+            "count": 36,
+            "ratio": 0.16
+          },
+          "Ease of Use": {
+            "count": 23,
+            "ratio": 0.1022
+          }
+        },
+        "topic_sentiment": {
+          "Price/Cost": {
+            "count": 69,
+            "dist": {
+              "Positive": 0.2899,
+              "Neutral": 0.3478,
+              "Negative": 0.3623
+            }
+          },
+          "Performance/Specs": {
+            "count": 53,
+            "dist": {
+              "Positive": 0.2642,
+              "Neutral": 0.3396,
+              "Negative": 0.3962
+            }
+          },
+          "Design/Appearance": {
+            "count": 44,
+            "dist": {
+              "Positive": 0.2727,
+              "Neutral": 0.3636,
+              "Negative": 0.3636
+            }
+          },
+          "Shipping/Service": {
+            "count": 36,
+            "dist": {
+              "Positive": 0.3056,
+              "Neutral": 0.3056,
+              "Negative": 0.3889
+            }
+          },
+          "Ease of Use": {
+            "count": 23,
+            "dist": {
+              "Positive": 0.2609,
+              "Neutral": 0.3478,
+              "Negative": 0.3913
+            }
+          }
+        },
+        "rating_stats": {
+          "min": 1.0,
+          "max": 5.0,
+          "mean": 3.0556,
+          "std": 1.0395
+        }
+      }
+    },
+    "S2": {
+      "spec": {
+        "segment_id": "S2",
+        "segment_name": "Performance-Focused",
+        "description": "Carefully evaluates specs, processing speed, durability, and features. Prioritizes performance over price.",
+        "core_keywords": [
+          "performance",
+          "specs",
+          "speed",
+          "durability",
+          "features"
+        ],
+        "rating_range": "3.5 ~ 5.0 / 5.0",
+        "core_topic": "Performance/Specs"
+      },
+      "stats": {
+        "total": 225,
+        "lang_count": {
+          "en": 225,
+          "ko": 225
+        },
+        "polarity_count": {
+          "POS": 110,
+          "NEG": 115
+        },
+        "sentiment_count": {
+          "Positive": 91,
+          "Neutral": 54,
+          "Negative": 80
+        },
+        "sentiment_dist": {
+          "Positive": 0.4044,
+          "Neutral": 0.24,
+          "Negative": 0.3556
+        },
+        "topic_dist": {
+          "Performance/Specs": {
+            "count": 53,
+            "ratio": 0.2356
+          },
+          "Shipping/Service": {
+            "count": 44,
+            "ratio": 0.1956
+          },
+          "Ease of Use": {
+            "count": 44,
+            "ratio": 0.1956
+          },
+          "Design/Appearance": {
+            "count": 43,
+            "ratio": 0.1911
+          },
+          "Price/Cost": {
+            "count": 41,
+            "ratio": 0.1822
+          }
+        },
+        "topic_sentiment": {
+          "Price/Cost": {
+            "count": 41,
+            "dist": {
+              "Positive": 0.3902,
+              "Neutral": 0.2439,
+              "Negative": 0.3659
+            }
+          },
+          "Performance/Specs": {
+            "count": 53,
+            "dist": {
+              "Positive": 0.4151,
+              "Neutral": 0.2075,
+              "Negative": 0.3774
+            }
+          },
+          "Design/Appearance": {
+            "count": 43,
+            "dist": {
+              "Positive": 0.3953,
+              "Neutral": 0.2326,
+              "Negative": 0.3721
+            }
+          },
+          "Shipping/Service": {
+            "count": 44,
+            "dist": {
+              "Positive": 0.3864,
+              "Neutral": 0.2045,
+              "Negative": 0.4091
+            }
+          },
+          "Ease of Use": {
+            "count": 44,
+            "dist": {
+              "Positive": 0.4318,
+              "Neutral": 0.3182,
+              "Negative": 0.25
+            }
+          }
+        },
+        "rating_stats": {
+          "min": 1.0,
+          "max": 5.0,
+          "mean": 3.2867,
+          "std": 1.2022
+        }
+      }
+    },
+    "S3": {
+      "spec": {
+        "segment_id": "S3",
+        "segment_name": "Design-Oriented",
+        "description": "Values aesthetics — appearance, color, size, and portability. Ease of use is also a key consideration.",
+        "core_keywords": [
+          "design",
+          "beautiful",
+          "color",
+          "size",
+          "portability"
+        ],
+        "rating_range": "3.5 ~ 4.5 / 5.0",
+        "core_topic": "Design/Appearance"
+      },
+      "stats": {
+        "total": 290,
+        "lang_count": {
+          "en": 290,
+          "ko": 290
+        },
+        "polarity_count": {
+          "POS": 110,
+          "NEG": 180
+        },
+        "sentiment_count": {
+          "Positive": 99,
+          "Neutral": 60,
+          "Negative": 131
+        },
+        "sentiment_dist": {
+          "Positive": 0.3414,
+          "Neutral": 0.2069,
+          "Negative": 0.4517
+        },
+        "topic_dist": {
+          "Design/Appearance": {
+            "count": 74,
+            "ratio": 0.2552
+          },
+          "Price/Cost": {
+            "count": 56,
+            "ratio": 0.1931
+          },
+          "Ease of Use": {
+            "count": 56,
+            "ratio": 0.1931
+          },
+          "Shipping/Service": {
+            "count": 53,
+            "ratio": 0.1828
+          },
+          "Performance/Specs": {
+            "count": 51,
+            "ratio": 0.1759
+          }
+        },
+        "topic_sentiment": {
+          "Price/Cost": {
+            "count": 56,
+            "dist": {
+              "Positive": 0.3036,
+              "Neutral": 0.25,
+              "Negative": 0.4464
+            }
+          },
+          "Performance/Specs": {
+            "count": 51,
+            "dist": {
+              "Positive": 0.3137,
+              "Neutral": 0.2353,
+              "Negative": 0.451
+            }
+          },
+          "Design/Appearance": {
+            "count": 74,
+            "dist": {
+              "Positive": 0.3784,
+              "Neutral": 0.2568,
+              "Negative": 0.3649
+            }
+          },
+          "Shipping/Service": {
+            "count": 53,
+            "dist": {
+              "Positive": 0.3208,
+              "Neutral": 0.0755,
+              "Negative": 0.6038
+            }
+          },
+          "Ease of Use": {
+            "count": 56,
+            "dist": {
+              "Positive": 0.375,
+              "Neutral": 0.1964,
+              "Negative": 0.4286
+            }
+          }
+        },
+        "rating_stats": {
+          "min": 1.0,
+          "max": 5.0,
+          "mean": 3.0069,
+          "std": 1.1765
+        }
+      }
+    },
+    "S4": {
+      "spec": {
+        "segment_id": "S4",
+        "segment_name": "Service & Trust",
+        "description": "Focuses on delivery, customer support, brand reliability, and repurchase intent. After-sales service and stability are the top priorities.",
+        "core_keywords": [
+          "delivery",
+          "after-sales service",
+          "customer support",
+          "repurchase",
+          "trust"
+        ],
+        "rating_range": "2.5 ~ 4.0 / 5.0",
+        "core_topic": "Shipping/Service"
+      },
+      "stats": {
+        "total": 225,
+        "lang_count": {
+          "en": 225,
+          "ko": 225
+        },
+        "polarity_count": {
+          "POS": 110,
+          "NEG": 115
+        },
+        "sentiment_count": {
+          "Positive": 72,
+          "Neutral": 57,
+          "Negative": 96
+        },
+        "sentiment_dist": {
+          "Positive": 0.32,
+          "Neutral": 0.2533,
+          "Negative": 0.4267
+        },
+        "topic_dist": {
+          "Shipping/Service": {
+            "count": 60,
+            "ratio": 0.2667
+          },
+          "Price/Cost": {
+            "count": 44,
+            "ratio": 0.1956
+          },
+          "Ease of Use": {
+            "count": 42,
+            "ratio": 0.1867
+          },
+          "Performance/Specs": {
+            "count": 41,
+            "ratio": 0.1822
+          },
+          "Design/Appearance": {
+            "count": 38,
+            "ratio": 0.1689
+          }
+        },
+        "topic_sentiment": {
+          "Price/Cost": {
+            "count": 44,
+            "dist": {
+              "Positive": 0.3182,
+              "Neutral": 0.25,
+              "Negative": 0.4318
+            }
+          },
+          "Performance/Specs": {
+            "count": 41,
+            "dist": {
+              "Positive": 0.2439,
+              "Neutral": 0.3659,
+              "Negative": 0.3902
+            }
+          },
+          "Design/Appearance": {
+            "count": 38,
+            "dist": {
+              "Positive": 0.2632,
+              "Neutral": 0.2632,
+              "Negative": 0.4737
+            }
+          },
+          "Shipping/Service": {
+            "count": 60,
+            "dist": {
+              "Positive": 0.35,
+              "Neutral": 0.2167,
+              "Negative": 0.4333
+            }
+          },
+          "Ease of Use": {
+            "count": 42,
+            "dist": {
+              "Positive": 0.4048,
+              "Neutral": 0.1905,
+              "Negative": 0.4048
+            }
+          }
+        },
+        "rating_stats": {
+          "min": 1.0,
+          "max": 5.0,
+          "mean": 3.0044,
+          "std": 1.113
+        }
+      }
+    }
+  }
+}

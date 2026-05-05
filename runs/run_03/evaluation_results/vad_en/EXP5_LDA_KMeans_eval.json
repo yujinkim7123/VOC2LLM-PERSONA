@@ -1,0 +1,193 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP5_LDA_KMeans",
+  "method": "LDA_KMEANS",
+  "lang": "en",
+  "judge": {
+    "judge_matrix": [
+      [
+        0.36,
+        0.28,
+        0.28,
+        0.0
+      ],
+      [
+        0.38,
+        0.2,
+        0.14,
+        0.18
+      ],
+      [
+        0.18,
+        0.0,
+        0.06,
+        0.68
+      ],
+      [
+        0.06,
+        0.46,
+        0.16,
+        0.0
+      ]
+    ],
+    "best_mapping": [
+      {
+        "gen_name": "Google-Smart Sound Enthusiast",
+        "gt_name": "The Practical Value Seeker",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.0,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.3,
+        "matching_score": 0.28,
+        "validity_score": 0.7,
+        "reasoning": "Generated diverges significantly in purpose and values, but aligns in sound and smart assistant domains.",
+        "success": false
+      },
+      {
+        "gen_name": "Practical Battery-Conscious User",
+        "gt_name": "The Wireless Audio Pursuer",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.3,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.5,
+        "matching_score": 0.38,
+        "validity_score": 0.7,
+        "reasoning": "Generated persona diverges in focus on battery, weak alignment with wireless audio values.",
+        "success": false
+      },
+      {
+        "gen_name": "Apple Loyalty Dissenter",
+        "gt_name": "The Disillusioned Early Adopter",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.7,
+        "behavioral_alignment": 0.7,
+        "sentiment_alignment": 1.0,
+        "matching_score": 0.68,
+        "validity_score": 1.0,
+        "reasoning": "Good sentiment match, some overlap in keywords/pain points, fully grounded.",
+        "success": true
+      },
+      {
+        "gen_name": "Tech-Savvy Home Automator",
+        "gt_name": "The Smart Home Integrator",
+        "keyword_alignment": 0.3,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.7,
+        "matching_score": 0.46,
+        "validity_score": 0.7,
+        "reasoning": "Generated persona lacks focus on smart assistants, weak match overall.",
+        "success": false
+      }
+    ],
+    "matching_score": 0.45,
+    "validity_score": 0.775,
+    "mean_all_matching": 0.2137,
+    "dim_averages": {
+      "keyword_alignment": 0.45,
+      "value_alignment": 0.325,
+      "pain_alignment": 0.45,
+      "behavioral_alignment": 0.4,
+      "sentiment_alignment": 0.625
+    },
+    "n_success": 1,
+    "mapping_success_rate": 0.25
+  },
+  "topic_sim_result": {
+    "topic_sim": 0.3569,
+    "pair_details": [
+      {
+        "gen_name": "Google-Smart Sound Enthusiast",
+        "gt_name": "The Practical Value Seeker",
+        "gen_aspects": [
+          "sound",
+          "quality",
+          "smart",
+          "google",
+          "work"
+        ],
+        "gt_aspects": [
+          "Price",
+          "Clock",
+          "Configuration",
+          "Convenience",
+          "Smart Assistant"
+        ],
+        "topic_sim": 0.3388
+      },
+      {
+        "gen_name": "Practical Battery-Conscious User",
+        "gt_name": "The Wireless Audio Pursuer",
+        "gen_aspects": [
+          "airpod",
+          "battery",
+          "charge",
+          "sound",
+          "quality"
+        ],
+        "gt_aspects": [
+          "Sound",
+          "Connectivity",
+          "Price",
+          "Configuration",
+          "Size"
+        ],
+        "topic_sim": 0.4709
+      },
+      {
+        "gen_name": "Apple Loyalty Dissenter",
+        "gt_name": "The Disillusioned Early Adopter",
+        "gen_aspects": [
+          "apple",
+          "work",
+          "return",
+          "month",
+          "buy"
+        ],
+        "gt_aspects": [
+          "Durability",
+          "Defective",
+          "Charging",
+          "Connectivity",
+          "Quality"
+        ],
+        "topic_sim": 0.2703
+      },
+      {
+        "gen_name": "Tech-Savvy Home Automator",
+        "gt_name": "The Smart Home Integrator",
+        "gen_aspects": [
+          "thermostat",
+          "nest",
+          "google",
+          "home",
+          "easy"
+        ],
+        "gt_aspects": [
+          "Smart Assistant",
+          "Clock",
+          "Connectivity",
+          "Configuration",
+          "Convenience"
+        ],
+        "topic_sim": 0.3478
+      }
+    ]
+  },
+  "summary": {
+    "matching_score": 0.45,
+    "validity_score": 0.775,
+    "topic_sim": 0.3569,
+    "dim_averages": {
+      "keyword_alignment": 0.45,
+      "value_alignment": 0.325,
+      "pain_alignment": 0.45,
+      "behavioral_alignment": 0.4,
+      "sentiment_alignment": 0.625
+    }
+  }
+}

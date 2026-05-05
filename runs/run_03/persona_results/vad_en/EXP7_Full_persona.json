@@ -1,0 +1,224 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP7_Full",
+  "method": "SNA_LDA_KMEANS",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2138,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Quality Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP7_Full",
+      "keywords": [
+        "quality",
+        "feature",
+        "product",
+        "sound",
+        "smart"
+      ],
+      "core_value": "This consumer segment values high-quality features and performance.",
+      "description": "These consumers focus on the quality of products and their features. They seek high performance and smart capabilities in their virtual assistant devices.",
+      "motivation": "They are driven by a desire for high-end features and superior sound quality.",
+      "pain_points": "They are frustrated by any subpar performance or issues with smart functionalities.",
+      "quote": "I'm always on the lookout for top-notch features in smart devices.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Keywords like 'quality', 'feature', and 'smart' suggest positive sentiment towards product features, with less emphasis on negative words."
+      },
+      "top_aspects": [
+        "quality",
+        "feature",
+        "product",
+        "sound",
+        "smart"
+      ],
+      "co_aspects": {
+        "quality": [
+          "feature",
+          "product",
+          "sound"
+        ],
+        "feature": [
+          "quality",
+          "smart",
+          "sound"
+        ],
+        "product": [
+          "quality",
+          "feature"
+        ],
+        "sound": [
+          "quality",
+          "feature"
+        ],
+        "smart": [
+          "feature",
+          "product"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Value Seeking Buyer",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP7_Full",
+      "keywords": [
+        "price",
+        "purchase",
+        "use",
+        "home",
+        "easy"
+      ],
+      "core_value": "This segment values affordability and ease of use.",
+      "description": "These consumers are price-conscious and prioritize finding good deals. They desire ease of use and straightforward integration into their homes.",
+      "motivation": "They are driven by a combination of affordable pricing and the simplicity of use for their daily routines at home.",
+      "pain_points": "They dislike complex installation processes or unexpected costs.",
+      "quote": "I want a reliable device that doesn't break the bank and is easy to set up.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.4,
+        "Negative": 0.1,
+        "_inference_note": "Positive signals come from 'price', 'easy', and 'use', with less negativity implied by the absence of complaint words."
+      },
+      "top_aspects": [
+        "price",
+        "purchase",
+        "use",
+        "home",
+        "easy"
+      ],
+      "co_aspects": {
+        "price": [
+          "purchase",
+          "use"
+        ],
+        "purchase": [
+          "price",
+          "easy"
+        ],
+        "use": [
+          "home",
+          "easy"
+        ],
+        "home": [
+          "use",
+          "easy"
+        ],
+        "easy": [
+          "price",
+          "purchase",
+          "use"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Integration-Focused User",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP7_Full",
+      "keywords": [
+        "connect",
+        "app",
+        "device",
+        "problem",
+        "support"
+      ],
+      "core_value": "They prioritize reliability and seamless integration with existing devices.",
+      "description": "These users are fixated on ensuring that their devices integrate well with other technology. They proactively troubleshoot and seek support when needed.",
+      "motivation": "Their focus is on maintaining connectivity and resolving issues promptly to enhance their tech ecosystem.",
+      "pain_points": "They are frustrated by connectivity issues and the need for frequent support.",
+      "quote": "I need my devices to connect effortlessly and without interruptions.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.5,
+        "Negative": 0.3,
+        "_inference_note": "Neutral words like 'connect' and 'app' are balanced with some negative words such as 'problem' and 'support' indicating issues."
+      },
+      "top_aspects": [
+        "connect",
+        "app",
+        "device",
+        "problem",
+        "support"
+      ],
+      "co_aspects": {
+        "connect": [
+          "app",
+          "device"
+        ],
+        "app": [
+          "connect",
+          "device"
+        ],
+        "device": [
+          "connect",
+          "app"
+        ],
+        "problem": [
+          "support"
+        ],
+        "support": [
+          "problem",
+          "app"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Tech-Savvy Home Automator",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP7_Full",
+      "keywords": [
+        "home",
+        "hub",
+        "turn",
+        "light",
+        "nest"
+      ],
+      "core_value": "They value full-fledged home automation for a modern lifestyle.",
+      "description": "These individuals are adept at using smart home technologies to automate their living spaces. They invest in comprehensive hub systems to control their environment seamlessly.",
+      "motivation": "Their aim is to create an efficient and technologically advanced home using smart devices.",
+      "pain_points": "They may struggle with compatibility issues between different smart systems.",
+      "quote": "I love having the ability to control my entire home environment with smart devices.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Positive sentiment is driven by words like 'home', 'hub', and 'light', with minimal negative aspects suggested by the lack of dissent words."
+      },
+      "top_aspects": [
+        "home",
+        "hub",
+        "turn",
+        "light",
+        "nest"
+      ],
+      "co_aspects": {
+        "home": [
+          "hub",
+          "light"
+        ],
+        "hub": [
+          "home",
+          "turn"
+        ],
+        "turn": [
+          "hub",
+          "light"
+        ],
+        "light": [
+          "home",
+          "turn"
+        ],
+        "nest": [
+          "home",
+          "hub"
+        ]
+      }
+    }
+  ]
+}

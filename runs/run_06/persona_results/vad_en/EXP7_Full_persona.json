@@ -1,0 +1,232 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP7_Full",
+  "method": "SNA_LDA_KMEANS",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2138,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Smart Home Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP7_Full",
+      "keywords": [
+        "nest",
+        "device",
+        "thermostat",
+        "home",
+        "light",
+        "smart",
+        "connect"
+      ],
+      "core_value": "This consumer segment values seamless integration with other smart home devices.",
+      "description": "These consumers are enthusiastic about automating their homes and often look for devices that can effortlessly connect with other smart home technologies. They appreciate features that enhance home convenience.",
+      "motivation": "Their purchase decisions are driven by the desire to create a cohesive smart home ecosystem.",
+      "pain_points": "They are frustrated when devices do not easily connect or face compatibility issues with other systems.",
+      "quote": "I love how this device integrates with my Nest thermostat and smart lights, making my home smarter.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Keywords like 'love', 'connect', 'smart' indicate positivity, while mention of issues like 'compatibility' signal minor negativity."
+      },
+      "top_aspects": [
+        "home",
+        "device",
+        "light",
+        "connect",
+        "thermostat"
+      ],
+      "co_aspects": {
+        "home": [
+          "device",
+          "connect",
+          "light"
+        ],
+        "device": [
+          "home",
+          "thermostat",
+          "smart"
+        ],
+        "light": [
+          "home",
+          "connect"
+        ],
+        "connect": [
+          "home",
+          "device"
+        ],
+        "thermostat": [
+          "device",
+          "home"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Audio-Visual Aficionado",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP7_Full",
+      "keywords": [
+        "music",
+        "sound",
+        "display",
+        "picture",
+        "screen",
+        "quality",
+        "app"
+      ],
+      "core_value": "This segment values high-quality sound and display features for an immersive experience.",
+      "description": "These consumers prioritize audio and visual quality in their devices, looking for products that can double as entertainment hubs.",
+      "motivation": "They seek products that provide excellent entertainment value with superior sound and picture quality.",
+      "pain_points": "They are discontented when sound quality is poor or display resolutions do not meet expectations.",
+      "quote": "The sound quality is incredible, and the display resolution makes watching anything a joy!",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Words like 'incredible', 'quality', and 'joy' denote positive sentiment, but there are occasional mentions of issues with 'resolution'."
+      },
+      "top_aspects": [
+        "music",
+        "sound",
+        "display",
+        "picture",
+        "quality"
+      ],
+      "co_aspects": {
+        "music": [
+          "sound",
+          "quality"
+        ],
+        "sound": [
+          "music",
+          "quality"
+        ],
+        "display": [
+          "screen",
+          "picture"
+        ],
+        "picture": [
+          "display",
+          "quality"
+        ],
+        "quality": [
+          "sound",
+          "picture"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Value-Seeking Pragmatist",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP7_Full",
+      "keywords": [
+        "price",
+        "purchase",
+        "need",
+        "use",
+        "buy",
+        "want",
+        "product"
+      ],
+      "core_value": "This group seeks reliable devices at a good value.",
+      "description": "They are practical shoppers who focus on the cost-benefit ratio, looking for reliable products that meet their basic needs at an affordable price.",
+      "motivation": "Price and functionality drive their decisions; they want products that provide essential features without breaking the bank.",
+      "pain_points": "They feel let down by products that do not deliver promised value or features that affect usability.",
+      "quote": "For the price, this device meets my needs and is a great purchase. It just works!",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.4,
+        "Negative": 0.1,
+        "_inference_note": "Positive sentiment from words like 'great', 'value', with some neutral words like 'purchase' and fewer negative signals."
+      },
+      "top_aspects": [
+        "price",
+        "purchase",
+        "use",
+        "product",
+        "buy"
+      ],
+      "co_aspects": {
+        "price": [
+          "purchase",
+          "product"
+        ],
+        "purchase": [
+          "price",
+          "use"
+        ],
+        "use": [
+          "product",
+          "need"
+        ],
+        "product": [
+          "buy",
+          "use"
+        ],
+        "buy": [
+          "price",
+          "product"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Tech-Savvy Problem Solver",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP7_Full",
+      "keywords": [
+        "issue",
+        "support",
+        "problem",
+        "stop",
+        "fix",
+        "return",
+        "get"
+      ],
+      "core_value": "They value devices that work smoothly and reliably, with good support when issues arise.",
+      "description": "These consumers are tech-savvy and tend to troubleshoot problems themselves but expect swift support from the company if problems persist.",
+      "motivation": "Their need for reliable technology that doesn't disrupt their daily life and comes with strong customer support.",
+      "pain_points": "Frequent technical issues or unresponsive customer service frustrate them significantly.",
+      "quote": "I appreciate the device features, but the recurring issues and lack of quick support make it hard to recommend.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.3,
+        "Negative": 0.5,
+        "_inference_note": "Negative words like 'issue', 'problem', 'return' dominate, suggesting frustration despite some neutral and positive aspects."
+      },
+      "top_aspects": [
+        "issue",
+        "support",
+        "problem",
+        "return",
+        "fix"
+      ],
+      "co_aspects": {
+        "issue": [
+          "support",
+          "problem"
+        ],
+        "support": [
+          "issue",
+          "problem"
+        ],
+        "problem": [
+          "support",
+          "fix"
+        ],
+        "return": [
+          "issue",
+          "problem"
+        ],
+        "fix": [
+          "problem",
+          "return"
+        ]
+      }
+    }
+  ]
+}

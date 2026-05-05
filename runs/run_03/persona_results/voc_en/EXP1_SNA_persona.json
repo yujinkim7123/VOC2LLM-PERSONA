@@ -1,0 +1,191 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP1_SNA",
+  "method": "SNA_LOUVAIN",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_docs": 965,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Budget-Conscious Evaluator",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP1_SNA",
+      "keywords": [
+        "price",
+        "pay",
+        "month",
+        "premium",
+        "year",
+        "cost",
+        "expect",
+        "expensive"
+      ],
+      "core_value": "This consumer segment values affordability and cost-effectiveness in home appliances.",
+      "description": "The Budget-Conscious Evaluator closely monitors pricing, seeking deals that align with their financial expectations. They critically assess the value for money, often debating the cost-effectiveness of their purchase.",
+      "motivation": "They are driven by the need to balance quality with budget, ensuring they get the most value out of their investment.",
+      "pain_points": "They are frustrated by high-cost items that do not match their expectations or seem overpriced.",
+      "quote": "I always weigh the price against the quality to ensure I'm not overpaying for home appliances.",
+      "sentiment_ratio": {
+        "Positive": 0.3,
+        "Neutral": 0.4,
+        "Negative": 0.3,
+        "_inference_note": "Positive sentiment from 'premium', neutral from 'price', 'pay', 'cost', negative from 'expensive', 'expect'."
+      },
+      "top_aspects": [
+        "price",
+        "cost",
+        "premium",
+        "year",
+        "expect"
+      ],
+      "co_aspects": {
+        "price": [
+          "pay",
+          "month",
+          "premium"
+        ],
+        "premium": [
+          "year",
+          "expect"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Quality-Seeking Brand Loyalist",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP1_SNA",
+      "keywords": [
+        "service",
+        "brand",
+        "product",
+        "defect",
+        "trust",
+        "quality",
+        "standard",
+        "exchange",
+        "repair"
+      ],
+      "core_value": "This segment places a premium on trusted brands and high-quality products.",
+      "description": "The Quality-Seeking Brand Loyalist is committed to brands they trust, valuing consistent quality and reliable service. They often speak about after-sales service and rely on brand reputation to guide their choices.",
+      "motivation": "Their purchase decisions are driven by brand loyalty and the desire for dependable, long-lasting appliances.",
+      "pain_points": "They become frustrated with defects or when service does not meet their high standards.",
+      "quote": "I rely on trusted brands to deliver the quality and service I expect.",
+      "sentiment_ratio": {
+        "Positive": 0.4,
+        "Neutral": 0.3,
+        "Negative": 0.3,
+        "_inference_note": "Positive from 'trust', 'quality', neutral from 'product', 'standard', negative from 'defect', 'repair'."
+      },
+      "top_aspects": [
+        "service",
+        "brand",
+        "product",
+        "quality",
+        "trust"
+      ],
+      "co_aspects": {
+        "brand": [
+          "product",
+          "quality",
+          "trust"
+        ],
+        "service": [
+          "repair",
+          "exchange"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Design-Conscious Stylist",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP1_SNA",
+      "keywords": [
+        "pretty",
+        "look",
+        "charge",
+        "design",
+        "make",
+        "want",
+        "use",
+        "setup"
+      ],
+      "core_value": "This group values aesthetics and design alongside functionality.",
+      "description": "Design-Conscious Stylists are highly focused on the appearance of products, seeking items that complement their interior spaces. They appreciate sleek designs and stylish looks, often considering aesthetics as important as functionality.",
+      "motivation": "They are motivated by the desire to enhance their living spaces with beautiful and functional appliances.",
+      "pain_points": "They find it challenging when design does not meet practical needs or if products are aesthetically pleasing but lack durability.",
+      "quote": "For me, an appliance must look good and work well at the same time.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.4,
+        "Negative": 0.1,
+        "_inference_note": "Positive from 'pretty', 'design', neutral from 'use', 'setup', negative is minimal with 'charge'."
+      },
+      "top_aspects": [
+        "look",
+        "design",
+        "make",
+        "use",
+        "setup"
+      ],
+      "co_aspects": {
+        "design": [
+          "pretty",
+          "look",
+          "use"
+        ],
+        "make": [
+          "want",
+          "charge"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Precision-Tech Enthusiast",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP1_SNA",
+      "keywords": [
+        "spec",
+        "performance",
+        "actual",
+        "measurement",
+        "measure",
+        "output",
+        "material",
+        "efficiency"
+      ],
+      "core_value": "This group values precise specifications and high performance in appliances.",
+      "description": "Precision-Tech Enthusiasts are focused on the technical aspects and performance metrics of appliances. They analyze specifications and measurements closely, valuing products that meet high-efficiency standards.",
+      "motivation": "They seek cutting-edge technology and performance that align with precise needs and expectations.",
+      "pain_points": "They become disappointed when the actual performance deviates from advertised specifications.",
+      "quote": "I thoroughly evaluate the specs and performance details to ensure I'm getting the best efficiency and output.",
+      "sentiment_ratio": {
+        "Positive": 0.4,
+        "Neutral": 0.5,
+        "Negative": 0.1,
+        "_inference_note": "Positive from 'performance', 'efficiency', neutral from 'spec', 'measurement', negative is limited to 'actual'."
+      },
+      "top_aspects": [
+        "spec",
+        "performance",
+        "actual",
+        "measurement",
+        "efficiency"
+      ],
+      "co_aspects": {
+        "spec": [
+          "performance",
+          "actual",
+          "efficiency"
+        ],
+        "measurement": [
+          "measure",
+          "output"
+        ]
+      }
+    }
+  ]
+}

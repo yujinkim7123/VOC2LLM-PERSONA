@@ -1,0 +1,240 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP7_Full",
+  "method": "SNA_LDA_KMEANS",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2138,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Value-Conscious Techie",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP7_Full",
+      "keywords": [
+        "quality",
+        "price",
+        "feature",
+        "buy",
+        "product",
+        "work",
+        "smart"
+      ],
+      "core_value": "They value a balance of features and affordability.",
+      "description": "This consumer is interested in getting the most out of their virtual assistant device for a reasonable price. They focus on the practicality and functionality of the product, often comparing features against the cost.",
+      "motivation": "They are driven by the desire to find a smart device that offers good quality and features justifying the monetary investment.",
+      "pain_points": "Their primary concern is when the product's performance does not match the price they paid.",
+      "quote": "I bought it because it had great features for the price, and it does work well overall.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Positive sentiment from words like 'great', 'work', and 'feature', neutral from 'buy', 'product', negative from 'issue'."
+      },
+      "top_aspects": [
+        "quality",
+        "price",
+        "feature",
+        "buy",
+        "product"
+      ],
+      "co_aspects": {
+        "quality": [
+          "price",
+          "feature",
+          "product"
+        ],
+        "price": [
+          "feature",
+          "buy"
+        ],
+        "feature": [
+          "price",
+          "product"
+        ],
+        "buy": [
+          "price",
+          "product"
+        ],
+        "product": [
+          "quality",
+          "feature"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Sound-Sensitive Music Lover",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP7_Full",
+      "keywords": [
+        "sound",
+        "music",
+        "easy",
+        "connect",
+        "app",
+        "love",
+        "listen"
+      ],
+      "core_value": "They prioritize excellent sound quality and easy connectivity for music streaming.",
+      "description": "This persona loves using their virtual assistant device primarily for music. They require high-quality sound and easy setup with their devices and apps.",
+      "motivation": "Their purchase is driven by the desire for an immersive music experience at home, facilitated by high-quality audio and seamless app integration.",
+      "pain_points": "They get frustrated with connectivity issues or sound quality that doesn't meet their expectations.",
+      "quote": "I love how easy it is to play music on it, and the sound quality is just superb!",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Positive sentiment from 'love', 'easy', 'music', neutral from 'connect', 'app', negative from 'issue'."
+      },
+      "top_aspects": [
+        "sound",
+        "music",
+        "connect",
+        "app",
+        "love"
+      ],
+      "co_aspects": {
+        "sound": [
+          "music",
+          "love",
+          "app"
+        ],
+        "music": [
+          "sound",
+          "connect",
+          "app"
+        ],
+        "connect": [
+          "app",
+          "sound"
+        ],
+        "app": [
+          "connect",
+          "music",
+          "sound"
+        ],
+        "love": [
+          "music",
+          "sound"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Smart Home Integrator",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP7_Full",
+      "keywords": [
+        "home",
+        "hub",
+        "connect",
+        "smart",
+        "nest",
+        "light",
+        "thermostat"
+      ],
+      "core_value": "They aim to seamlessly integrate their smart devices for a fully automated home environment.",
+      "description": "This consumer uses their device as a central hub for controlling various smart home components. They are technologically inclined and enjoy configuring home automation systems.",
+      "motivation": "Their motivation comes from a desire to enhance everyday convenience and control within their home environment.",
+      "pain_points": "They often face challenges related to device compatibility and connectivity issues.",
+      "quote": "I love using it to control all my smart lights and other gadgets, though sometimes connections can be tricky.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.4,
+        "Negative": 0.1,
+        "_inference_note": "Positive sentiment from 'love', 'smart', 'home', neutral from 'connect', 'hub', negative from 'issue'."
+      },
+      "top_aspects": [
+        "home",
+        "hub",
+        "connect",
+        "nest",
+        "thermostat"
+      ],
+      "co_aspects": {
+        "home": [
+          "hub",
+          "smart",
+          "connect"
+        ],
+        "hub": [
+          "home",
+          "connect",
+          "smart"
+        ],
+        "connect": [
+          "hub",
+          "home",
+          "smart"
+        ],
+        "nest": [
+          "thermostat",
+          "connect"
+        ],
+        "thermostat": [
+          "nest",
+          "home",
+          "connect"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Display-Driven Visual User",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP7_Full",
+      "keywords": [
+        "display",
+        "screen",
+        "picture",
+        "new",
+        "look",
+        "good",
+        "well"
+      ],
+      "core_value": "Visual clarity and aesthetics are crucial for their virtual assistant device experience.",
+      "description": "This persona uses the virtual assistant with a strong focus on its display capabilities. They appreciate a high-quality display for both function and aesthetics in their home.",
+      "motivation": "Their interest in buying is fueled by a focus on screen quality and the visual appeal of the device in their living space.",
+      "pain_points": "They become dissatisfied if the screen resolution or picture quality does not meet expectations.",
+      "quote": "The screen looks amazing in my living room and shows information very clearly.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Positive sentiment from 'good', 'amazing', 'well', neutral from 'new', 'look', negative from 'issue'."
+      },
+      "top_aspects": [
+        "display",
+        "screen",
+        "picture",
+        "look",
+        "new"
+      ],
+      "co_aspects": {
+        "display": [
+          "screen",
+          "picture",
+          "look"
+        ],
+        "screen": [
+          "display",
+          "picture"
+        ],
+        "picture": [
+          "screen",
+          "display"
+        ],
+        "look": [
+          "display",
+          "screen"
+        ],
+        "new": [
+          "look",
+          "display",
+          "screen"
+        ]
+      }
+    }
+  ]
+}

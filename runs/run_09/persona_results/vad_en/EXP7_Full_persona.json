@@ -1,0 +1,250 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP7_Full",
+  "method": "SNA_LDA_KMEANS",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2138,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Tech-Savvy Integrator",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP7_Full",
+      "keywords": [
+        "nest",
+        "thermostat",
+        "connect",
+        "smart",
+        "home",
+        "device",
+        "work"
+      ],
+      "core_value": "Seamless integration with smart home devices.",
+      "description": "Tech-Savvy Integrators are users who prioritize their devices smoothly working with other smart home systems. They are likely early adopters who enjoy exploring advanced features.",
+      "motivation": "Driven by the desire to create a cohesive smart home ecosystem.",
+      "pain_points": "Frustration arises from connectivity issues between devices.",
+      "quote": "I love how my smart speaker seamlessly connects with my thermostat and other devices!",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Keywords like 'love', 'connect', and 'smart' indicate mostly positive experiences, with minor issues hinted by 'work'."
+      },
+      "top_aspects": [
+        "device",
+        "connect",
+        "smart",
+        "home",
+        "work"
+      ],
+      "co_aspects": {
+        "device": [
+          "connect",
+          "smart",
+          "home"
+        ],
+        "connect": [
+          "device",
+          "smart",
+          "home"
+        ],
+        "smart": [
+          "device",
+          "connect",
+          "home"
+        ],
+        "home": [
+          "device",
+          "connect",
+          "smart"
+        ],
+        "work": [
+          "device",
+          "connect",
+          "smart"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Economy-Conscious Buyer",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP7_Full",
+      "keywords": [
+        "price",
+        "purchase",
+        "value",
+        "buy",
+        "year",
+        "new",
+        "product"
+      ],
+      "core_value": "Maximizing value from purchases.",
+      "description": "Economy-Conscious Buyers are focused on obtaining good value for their money. They are often budget-conscious and take time to compare prices and features before purchasing.",
+      "motivation": "Seeking cost-effectiveness and long-term reliability.",
+      "pain_points": "Discontentment with features and performance that don't reflect the price paid.",
+      "quote": "For the price, I expected more features and better quality.",
+      "sentiment_ratio": {
+        "Positive": 0.4,
+        "Neutral": 0.4,
+        "Negative": 0.2,
+        "_inference_note": "The balance of words hints at evaluating purchases ('price', 'value'), mixed with some dissatisfaction ('new', 'product') implying unmet expectations."
+      },
+      "top_aspects": [
+        "price",
+        "purchase",
+        "value",
+        "buy",
+        "product"
+      ],
+      "co_aspects": {
+        "price": [
+          "purchase",
+          "value",
+          "buy"
+        ],
+        "purchase": [
+          "price",
+          "value",
+          "buy"
+        ],
+        "value": [
+          "price",
+          "purchase",
+          "buy"
+        ],
+        "buy": [
+          "price",
+          "purchase",
+          "value"
+        ],
+        "product": [
+          "price",
+          "purchase",
+          "value"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Aesthetic-Focused Visual Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP7_Full",
+      "keywords": [
+        "display",
+        "screen",
+        "picture",
+        "look",
+        "nice",
+        "design",
+        "quality"
+      ],
+      "core_value": "Visual excellence and attractive design.",
+      "description": "These users place high importance on the aesthetic value and visual quality of their devices. They are drawn to sleek designs and crisp displays.",
+      "motivation": "Enhancing home decor with technologically advanced devices.",
+      "pain_points": "Disappointment arises from poor display quality or unattractive designs.",
+      "quote": "The screen quality is fantastic, and it looks great in my living room.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Terms like 'nice', 'look', and 'quality' suggest positive appreciation, though 'display' has a neutral tone, and 'quality' could imply mixed experiences."
+      },
+      "top_aspects": [
+        "display",
+        "screen",
+        "picture",
+        "look",
+        "design"
+      ],
+      "co_aspects": {
+        "display": [
+          "screen",
+          "picture",
+          "look"
+        ],
+        "screen": [
+          "display",
+          "picture",
+          "look"
+        ],
+        "picture": [
+          "display",
+          "screen",
+          "look"
+        ],
+        "look": [
+          "display",
+          "screen",
+          "picture"
+        ],
+        "design": [
+          "display",
+          "screen",
+          "look"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Functionality-Centric Utilitarian",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP7_Full",
+      "keywords": [
+        "feature",
+        "use",
+        "support",
+        "easy",
+        "function",
+        "reliable",
+        "set"
+      ],
+      "core_value": "Robust functionality and ease of use.",
+      "description": "Utilitarians are focused on the functionality and usability of their devices above all. They prefer straightforward set-up and reliable operation.",
+      "motivation": "Prioritizing practicality and ease of setup in their purchase decisions.",
+      "pain_points": "Frustration is experienced when expected features are difficult to use or unreliable.",
+      "quote": "Setting it up was a breeze, and it works just like I expected.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.3,
+        "Negative": 0.2,
+        "_inference_note": "Words like 'easy', 'reliable', and 'use' elicit a positive but practical sentiment, tempered by 'support' and 'feature' indicating some potential functionality concerns."
+      },
+      "top_aspects": [
+        "feature",
+        "use",
+        "support",
+        "easy",
+        "function"
+      ],
+      "co_aspects": {
+        "feature": [
+          "use",
+          "support",
+          "easy"
+        ],
+        "use": [
+          "feature",
+          "support",
+          "easy"
+        ],
+        "support": [
+          "feature",
+          "use",
+          "easy"
+        ],
+        "easy": [
+          "feature",
+          "use",
+          "support"
+        ],
+        "function": [
+          "feature",
+          "use",
+          "easy"
+        ]
+      }
+    }
+  ]
+}

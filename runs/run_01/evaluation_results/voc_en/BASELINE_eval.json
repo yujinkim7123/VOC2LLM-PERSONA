@@ -1,0 +1,193 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "BASELINE",
+  "method": "LLM_STANDALONE",
+  "lang": "en",
+  "judge": {
+    "judge_matrix": [
+      [
+        0.0,
+        0.12,
+        0.0,
+        0.06
+      ],
+      [
+        0.48,
+        0.06,
+        0.0,
+        0.0
+      ],
+      [
+        0.06,
+        0.06,
+        0.0,
+        0.12
+      ],
+      [
+        0.06,
+        0.06,
+        0.0,
+        0.44
+      ]
+    ],
+    "best_mapping": [
+      {
+        "gen_name": "High-Tech Enthusiast",
+        "gt_name": "Performance-Focused Spec Evaluator",
+        "keyword_alignment": 0.0,
+        "value_alignment": 0.0,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.12,
+        "validity_score": 0.3,
+        "reasoning": "Generated persona lacks alignment with domain topics and sentiment direction.",
+        "success": false
+      },
+      {
+        "gen_name": "Budget-Conscious Buyer",
+        "gt_name": "Price-Sensitive Bargain Hunter",
+        "keyword_alignment": 0.7,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.48,
+        "validity_score": 1.0,
+        "reasoning": "Keywords align, sentiment not aligned, well-grounded in domain.",
+        "success": false
+      },
+      {
+        "gen_name": "Eco-Conscious Consumer",
+        "gt_name": "Design-Driven Aesthetic Consumer",
+        "keyword_alignment": 0.0,
+        "value_alignment": 0.0,
+        "pain_alignment": 0.0,
+        "behavioral_alignment": 0.0,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.0,
+        "validity_score": 0.0,
+        "reasoning": "Generated persona does not reference any domain topics; mismatch in all dimensions.",
+        "success": false
+      },
+      {
+        "gen_name": "Reliability-Seeking Homeowner",
+        "gt_name": "Trust-Seeking After-Service Prioritizer",
+        "keyword_alignment": 0.7,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.44,
+        "validity_score": 0.7,
+        "reasoning": "Keywords align, sentiment misaligned. Limited warranty focus in generated persona.",
+        "success": false
+      }
+    ],
+    "matching_score": 0.26,
+    "validity_score": 0.5,
+    "mean_all_matching": 0.095,
+    "dim_averages": {
+      "keyword_alignment": 0.35,
+      "value_alignment": 0.3,
+      "pain_alignment": 0.325,
+      "behavioral_alignment": 0.325,
+      "sentiment_alignment": 0.0
+    },
+    "n_success": 0,
+    "mapping_success_rate": 0.0
+  },
+  "topic_sim_result": {
+    "topic_sim": 0.3299,
+    "pair_details": [
+      {
+        "gen_name": "High-Tech Enthusiast",
+        "gt_name": "Performance-Focused Spec Evaluator",
+        "gen_aspects": [
+          "innovation",
+          "smart features",
+          "connectivity",
+          "app control",
+          "latest models"
+        ],
+        "gt_aspects": [
+          "Performance/Specs",
+          "Ease of Use",
+          "Design/Appearance",
+          "Shipping/Service",
+          "Price/Cost"
+        ],
+        "topic_sim": 0.3331
+      },
+      {
+        "gen_name": "Budget-Conscious Buyer",
+        "gt_name": "Price-Sensitive Bargain Hunter",
+        "gen_aspects": [
+          "price",
+          "value",
+          "affordable",
+          "deal",
+          "quality"
+        ],
+        "gt_aspects": [
+          "Price/Cost",
+          "Performance/Specs",
+          "Design/Appearance",
+          "Shipping/Service",
+          "Ease of Use"
+        ],
+        "topic_sim": 0.4409
+      },
+      {
+        "gen_name": "Eco-Conscious Consumer",
+        "gt_name": "Design-Driven Aesthetic Consumer",
+        "gen_aspects": [
+          "energy-efficient",
+          "sustainability",
+          "eco-friendly",
+          "green",
+          "impact"
+        ],
+        "gt_aspects": [
+          "Design/Appearance",
+          "Ease of Use",
+          "Price/Cost",
+          "Shipping/Service",
+          "Performance/Specs"
+        ],
+        "topic_sim": 0.2608
+      },
+      {
+        "gen_name": "Reliability-Seeking Homeowner",
+        "gt_name": "Trust-Seeking After-Service Prioritizer",
+        "gen_aspects": [
+          "durability",
+          "reliable",
+          "quality",
+          "warranty",
+          "repair"
+        ],
+        "gt_aspects": [
+          "Shipping/Service",
+          "Price/Cost",
+          "Ease of Use",
+          "Performance/Specs",
+          "Design/Appearance"
+        ],
+        "topic_sim": 0.2849
+      }
+    ]
+  },
+  "summary": {
+    "matching_score": 0.26,
+    "validity_score": 0.5,
+    "topic_sim": 0.3299,
+    "dim_averages": {
+      "keyword_alignment": 0.35,
+      "value_alignment": 0.3,
+      "pain_alignment": 0.325,
+      "behavioral_alignment": 0.325,
+      "sentiment_alignment": 0.0
+    }
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP4_SNA_LDA",
+  "method": "SNA_LDA",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_docs": 965,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Cost-Conscious Pragmatist",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP4_SNA_LDA",
+      "keywords": [
+        "price",
+        "pay",
+        "month",
+        "cost",
+        "premium",
+        "buy",
+        "cheap"
+      ],
+      "core_value": "This consumer values affordable and cost-effective products.",
+      "description": "This persona is driven by the need to find the best value deal. They are pragmatic in their purchasing decisions and focus heavily on the cost aspect.",
+      "motivation": "They seek products that offer good service at a lower price point.",
+      "pain_points": "High prices and overpriced premiums frustrate this consumer.",
+      "quote": "I'm really looking for something that won't break the bank but still provides good service.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.6,
+        "Negative": 0.2,
+        "_inference_note": "Keywords like 'cheap' and 'buy' suggest a neutral to positive sentiment towards affordable pricing, while 'cost' and 'expense' can have a neutral or slightly negative connotation depending on context."
+      },
+      "top_aspects": [
+        "price",
+        "pay",
+        "cost",
+        "cheap",
+        "service"
+      ],
+      "co_aspects": {
+        "price": [
+          "pay",
+          "cost",
+          "premium"
+        ],
+        "service": [
+          "buy",
+          "premium",
+          "color"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Brand-Loyal Quality Seeker",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP4_SNA_LDA",
+      "keywords": [
+        "service",
+        "brand",
+        "trust",
+        "product",
+        "defect",
+        "repair"
+      ],
+      "core_value": "This consumer values brand reliability and product quality.",
+      "description": "This persona is loyal to trusted brands and prioritizes product quality and reliability in their purchase decisions.",
+      "motivation": "Their primary concern is finding durable and reliable products from reputable brands.",
+      "pain_points": "Experiencing defects or needing repair undermines their trust in the brand.",
+      "quote": "I always buy from brands I trust because I value product quality above all.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.3,
+        "Negative": 0.2,
+        "_inference_note": "Words like 'trust' and 'brand' suggest a positive sentiment towards reliable products, whereas 'defect' and 'repair' indicate negative experiences or concerns."
+      },
+      "top_aspects": [
+        "service",
+        "brand",
+        "trust",
+        "quality",
+        "repair"
+      ],
+      "co_aspects": {
+        "service": [
+          "brand",
+          "trust",
+          "product"
+        ],
+        "quality": [
+          "defect",
+          "repair",
+          "time"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Aesthetic Enthusiast",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP4_SNA_LDA",
+      "keywords": [
+        "color",
+        "buy",
+        "choose",
+        "match",
+        "look",
+        "beautiful"
+      ],
+      "core_value": "This consumer values aesthetics and product appearance.",
+      "description": "This persona prioritizes the visual appeal and believes that appliances should complement their home decor.",
+      "motivation": "They are driven by the desire to find products that not only function well but also look great in their homes.",
+      "pain_points": "Limited color options or mismatched aesthetics can be disappointing for this consumer.",
+      "quote": "I love it when my appliances not only work well but also look stunning in my home.",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "The presence of words like 'beautiful', 'match', and 'choose' imply positive sentiments towards aesthetics, whereas 'price' can bring slight negativity if it limits choices."
+      },
+      "top_aspects": [
+        "color",
+        "buy",
+        "choose",
+        "match",
+        "look"
+      ],
+      "co_aspects": {
+        "color": [
+          "buy",
+          "choose",
+          "match"
+        ],
+        "look": [
+          "real",
+          "photo",
+          "beautiful"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Tech-Savvy Health Monitor",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP4_SNA_LDA",
+      "keywords": [
+        "time",
+        "app",
+        "datum",
+        "health",
+        "adjustment",
+        "performance"
+      ],
+      "core_value": "This consumer values technology features that promote health and performance tracking.",
+      "description": "This persona is technologically inclined and monitors their health and the performance of their devices diligently. They appreciate products that offer advanced functionality and detailed data.",
+      "motivation": "They seek appliances with cutting-edge technology to keep track of health and enhance performance metrics.",
+      "pain_points": "Inaccurate health readings or lack of performance data can frustrate this user.",
+      "quote": "I love using the app to track my performance and ensure everything is running optimally.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Words like 'app', 'health', and 'performance' indicate a positive sentiment towards tech features, while 'adjustment' and 'datum' offer a neutral stance unless associated with errors."
+      },
+      "top_aspects": [
+        "time",
+        "app",
+        "datum",
+        "health",
+        "performance"
+      ],
+      "co_aspects": {
+        "time": [
+          "app",
+          "adjustment",
+          "performance"
+        ],
+        "health": [
+          "datum",
+          "app",
+          "mean"
+        ]
+      }
+    }
+  ]
+}

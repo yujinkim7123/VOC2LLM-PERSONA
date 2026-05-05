@@ -1,0 +1,206 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP4_SNA_LDA",
+  "method": "SNA_LDA",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_docs": 965,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Price-Savvy Budget Buyer",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP4_SNA_LDA",
+      "keywords": [
+        "price",
+        "pay",
+        "month",
+        "cost",
+        "premium",
+        "cheap"
+      ],
+      "core_value": "This segment values affordability and getting the best deal for their money.",
+      "description": "This persona is highly focused on finding affordable products within their budget range. They frequently compare prices and are drawn to advertisements and offers that highlight cost savings.",
+      "motivation": "The motivation for these consumers is to maximize the value of their purchase while minimizing costs.",
+      "pain_points": "They can be frustrated by hidden costs or premium features that do not align with their budgetary constraints.",
+      "quote": "I am always on the lookout for the best deal and prefer a product that offers good value over extravagant features.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.7,
+        "Negative": 0.1,
+        "_inference_note": "Keywords indicate a focus on price with fewer emotional words. 'Cheap' suggests some positive sentiment about affordability, 'cost' and 'pay' are neutral, while 'premium' has a slight negative connotation."
+      },
+      "top_aspects": [
+        "price",
+        "cost",
+        "month",
+        "premium",
+        "cheap"
+      ],
+      "co_aspects": {
+        "price": [
+          "cost",
+          "pay",
+          "cheap"
+        ],
+        "cost": [
+          "price",
+          "premium",
+          "month"
+        ],
+        "premium": [
+          "cost",
+          "buy",
+          "cheap"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Quality-Conscious Brand Believer",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP4_SNA_LDA",
+      "keywords": [
+        "service",
+        "brand",
+        "trust",
+        "product",
+        "quality",
+        "repair"
+      ],
+      "core_value": "This segment values high-quality products from trusted brands, focusing on reliability and durability.",
+      "description": "Individuals in this group are brand loyalists who rely on trusted brands for their high-quality products. They are willing to pay a premium for product reliability and excellent service.",
+      "motivation": "Their motivation is to invest in long-lasting products that represent reliability and trust.",
+      "pain_points": "Defective products and poor after-sales service can deter these consumers.",
+      "quote": "I trust this brand to consistently deliver high-quality and reliable products, and I'm willing to pay more for their service.",
+      "sentiment_ratio": {
+        "Positive": 0.4,
+        "Neutral": 0.4,
+        "Negative": 0.2,
+        "_inference_note": "Positive signals from 'trust', 'quality', 'brand'; neutrally focused on 'service', 'product'; negative from 'defect', 'repair'."
+      },
+      "top_aspects": [
+        "service",
+        "brand",
+        "trust",
+        "quality",
+        "repair"
+      ],
+      "co_aspects": {
+        "service": [
+          "brand",
+          "trust",
+          "repair"
+        ],
+        "brand": [
+          "trust",
+          "quality",
+          "product"
+        ],
+        "quality": [
+          "brand",
+          "defect",
+          "repair"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Aesthetic-Oriented Decor Enthusiast",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP4_SNA_LDA",
+      "keywords": [
+        "color",
+        "choose",
+        "match",
+        "look",
+        "photo",
+        "beautiful"
+      ],
+      "core_value": "This segment highly values the aesthetics and design of a product, aiming for visual harmony within their space.",
+      "description": "These consumers are driven by style and design, prioritizing how products fit into the aesthetic of their living spaces. They focus on colors and appearance.",
+      "motivation": "Their primary motivation is to purchase products that enhance the visual appeal of their home decor.",
+      "pain_points": "They are frustrated when the product does not match the advertised color or expectations based on photos.",
+      "quote": "I chose this appliance because it matches perfectly with my kitchen’s theme and looks stunning!",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.3,
+        "Negative": 0.2,
+        "_inference_note": "Positive from 'beautiful', 'match'; neutral from 'choose', 'look'; negative from 'real', 'photo' inconsistencies."
+      },
+      "top_aspects": [
+        "color",
+        "choose",
+        "match",
+        "look",
+        "photo"
+      ],
+      "co_aspects": {
+        "color": [
+          "match",
+          "look",
+          "choose"
+        ],
+        "match": [
+          "color",
+          "beautiful",
+          "choose"
+        ],
+        "look": [
+          "match",
+          "photo",
+          "choose"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Performance-Focused Tech User",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP4_SNA_LDA",
+      "keywords": [
+        "charge",
+        "setup",
+        "display",
+        "use",
+        "performance",
+        "want"
+      ],
+      "core_value": "This segment prioritizes tech specifications, setup ease, and performance efficiency.",
+      "description": "These consumers are tech-oriented and focus on the specifications, setup processes, and performance metrics. They have a clear preference for functionality and efficiency in their appliances.",
+      "motivation": "They are driven by the need for appliances to seamlessly integrate into their technological ecosystem and perform optimally.",
+      "pain_points": "Complicated setup processes or underperforming specifications can be discouraging.",
+      "quote": "I love how efficiently this appliance runs, and the setup was a breeze, just what I wanted for my home tech.",
+      "sentiment_ratio": {
+        "Positive": 0.3,
+        "Neutral": 0.5,
+        "Negative": 0.2,
+        "_inference_note": "Positive from 'want', 'pretty; neutral from 'use', 'setup'; negative aspects from difficulties not directly mentioned in words."
+      },
+      "top_aspects": [
+        "charge",
+        "setup",
+        "display",
+        "performance",
+        "use"
+      ],
+      "co_aspects": {
+        "setup": [
+          "display",
+          "use",
+          "performance"
+        ],
+        "performance": [
+          "use",
+          "charge",
+          "setup"
+        ],
+        "display": [
+          "setup",
+          "charge",
+          "use"
+        ]
+      }
+    }
+  ]
+}

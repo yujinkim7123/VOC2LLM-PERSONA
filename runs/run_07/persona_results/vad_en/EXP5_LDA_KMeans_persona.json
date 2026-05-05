@@ -1,0 +1,183 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP5_LDA_KMeans",
+  "method": "LDA_KMEANS",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2370,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Audio Enthusiast Sound Lover",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP5_LDA_KMeans",
+      "keywords": [
+        "sound",
+        "music",
+        "play",
+        "quality",
+        "echo",
+        "speaker",
+        "time"
+      ],
+      "core_value": "This consumer values high-quality audio and seamless music playback.",
+      "description": "Audio Enthusiasts are driven by their love for music and expect excellent sound quality from their virtual assistant devices. They often use these devices for playing music and are discerning about audio fidelity.",
+      "motivation": "Their purchase decisions are driven by the desire for a rich and immersive audio experience.",
+      "pain_points": "They may be frustrated by any lack of sound quality or audio performance issues.",
+      "quote": "I need my smart speaker to deliver top-notch sound quality whenever I play my favorite tracks.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Keywords such as 'sound', 'music', 'play', 'quality', 'great' are positive, indicating satisfaction with audio. Mild negatives in 'echo' suggest potential dissatisfaction."
+      },
+      "top_aspects": [
+        "sound",
+        "music",
+        "quality",
+        "speaker",
+        "play"
+      ],
+      "co_aspects": {
+        "sound": [
+          "music",
+          "quality",
+          "speaker"
+        ],
+        "music": [
+          "play",
+          "time"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Smart Home Integrator",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP5_LDA_KMeans",
+      "keywords": [
+        "thermostat",
+        "charge",
+        "nest",
+        "work",
+        "google",
+        "issue",
+        "phone"
+      ],
+      "core_value": "This consumer values seamless integration for smart home connectivity.",
+      "description": "Smart Home Integrators focus on how well their virtual assistant devices work with their existing home technology. They are concerned with compatibility and ease of connectivity with other smart devices.",
+      "motivation": "Their goal is to create an efficient smart home environment where all devices communicate effortlessly.",
+      "pain_points": "Frustrations arise when integration issues occur, preventing devices from working as intended.",
+      "quote": "I expect my smart speaker to easily sync with my Nest thermostat and other devices without hassle.",
+      "sentiment_ratio": {
+        "Positive": 0.3,
+        "Neutral": 0.4,
+        "Negative": 0.3,
+        "_inference_note": "Keywords like 'work', 'google', 'charge' are neutral or slightly positive, while 'issue' suggests negative experiences with connectivity."
+      },
+      "top_aspects": [
+        "thermostat",
+        "nest",
+        "work",
+        "google",
+        "issue"
+      ],
+      "co_aspects": {
+        "thermostat": [
+          "nest",
+          "google"
+        ],
+        "issue": [
+          "work",
+          "charge"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Value-Conscious Picture Viewer",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP5_LDA_KMeans",
+      "keywords": [
+        "quality",
+        "great",
+        "price",
+        "sound",
+        "picture",
+        "samsung",
+        "purchase"
+      ],
+      "core_value": "This segment prioritizes getting good quality at a reasonable price.",
+      "description": "These consumers are budget-conscious and seek a balance between quality and cost. They often evaluate the visual and audio quality of smart speakers and screens.",
+      "motivation": "They are motivated by high value for money, ensuring all features are worth the price.",
+      "pain_points": "Any discrepancy between advertised quality and price would lead to dissatisfaction.",
+      "quote": "I expect my smart display to offer excellent picture and sound quality without breaking the bank.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.4,
+        "Negative": 0.1,
+        "_inference_note": "Positive keywords include 'great', 'good', 'perfect' related to quality and price. Few negatives implied in 'purchase' dissatisfaction."
+      },
+      "top_aspects": [
+        "quality",
+        "price",
+        "sound",
+        "picture",
+        "samsung"
+      ],
+      "co_aspects": {
+        "price": [
+          "quality",
+          "purchase"
+        ],
+        "picture": [
+          "quality",
+          "sound"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Return-Wary Early Adopter",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP5_LDA_KMeans",
+      "keywords": [
+        "work",
+        "buy",
+        "charge",
+        "apple",
+        "return",
+        "stop",
+        "product"
+      ],
+      "core_value": "This consumer values cutting-edge technology but is cautious about reliability.",
+      "description": "Return-Wary Early Adopters are excited about new tech but have experienced issues leading to returns or exchanges. They are keen on Apple products and similar brands.",
+      "motivation": "They purchase to experience the latest technology, but make backups based on past reliability issues.",
+      "pain_points": "Disappointments often stem from devices stopping functioning properly, prompting the need to return products.",
+      "quote": "I love getting the latest gadgets, but I worry about having to return them if they stop working soon.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.3,
+        "Negative": 0.5,
+        "_inference_note": "Negative indicators include 'return', 'stop'. Neutral words like 'product', 'buy' provide balance. Limited positivity in 'apple', 'good'."
+      },
+      "top_aspects": [
+        "work",
+        "buy",
+        "charge",
+        "apple",
+        "return"
+      ],
+      "co_aspects": {
+        "return": [
+          "product",
+          "stop"
+        ],
+        "apple": [
+          "buy",
+          "charge"
+        ]
+      }
+    }
+  ]
+}

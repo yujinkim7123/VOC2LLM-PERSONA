@@ -1,0 +1,193 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP2_LDA",
+  "method": "LDA",
+  "lang": "en",
+  "judge": {
+    "judge_matrix": [
+      [
+        0.24,
+        0.42,
+        0.06,
+        0.18
+      ],
+      [
+        0.46,
+        0.1,
+        0.1,
+        0.12
+      ],
+      [
+        0.54,
+        0.06,
+        0.14,
+        0.0
+      ],
+      [
+        0.0,
+        0.06,
+        0.38,
+        0.0
+      ]
+    ],
+    "best_mapping": [
+      {
+        "gen_name": "Tech-Savvy Thermostat User",
+        "gt_name": "The Smart Home Integrator",
+        "keyword_alignment": 0.3,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.3,
+        "matching_score": 0.42,
+        "validity_score": 0.7,
+        "reasoning": "Generated persona lacks focus on reference's core use and sentiment direction.",
+        "success": false
+      },
+      {
+        "gen_name": "Active Lifestyle Music Lover",
+        "gt_name": "The Disillusioned Early Adopter",
+        "keyword_alignment": 0.0,
+        "value_alignment": 0.0,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.12,
+        "validity_score": 0.5,
+        "reasoning": "Generated persona diverges drastically from the reference in all dimensions.",
+        "success": false
+      },
+      {
+        "gen_name": "Sound Quality Prioritizer",
+        "gt_name": "The Wireless Audio Pursuer",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.7,
+        "matching_score": 0.54,
+        "validity_score": 0.7,
+        "reasoning": "Keywords partially overlap; core values align mostly; pain points diverge.",
+        "success": true
+      },
+      {
+        "gen_name": "Value-Conscious Shopper",
+        "gt_name": "The Practical Value Seeker",
+        "keyword_alignment": 0.3,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.5,
+        "matching_score": 0.38,
+        "validity_score": 0.5,
+        "reasoning": "Core focus differs; generated misses clock/alarm, vague value link.",
+        "success": false
+      }
+    ],
+    "matching_score": 0.365,
+    "validity_score": 0.6,
+    "mean_all_matching": 0.1788,
+    "dim_averages": {
+      "keyword_alignment": 0.275,
+      "value_alignment": 0.425,
+      "pain_alignment": 0.35,
+      "behavioral_alignment": 0.4,
+      "sentiment_alignment": 0.375
+    },
+    "n_success": 1,
+    "mapping_success_rate": 0.25
+  },
+  "topic_sim_result": {
+    "topic_sim": 0.4079,
+    "pair_details": [
+      {
+        "gen_name": "Tech-Savvy Thermostat User",
+        "gt_name": "The Smart Home Integrator",
+        "gen_aspects": [
+          "thermostat",
+          "charge",
+          "nest",
+          "google",
+          "issue"
+        ],
+        "gt_aspects": [
+          "Smart Assistant",
+          "Clock",
+          "Connectivity",
+          "Configuration",
+          "Convenience"
+        ],
+        "topic_sim": 0.35
+      },
+      {
+        "gen_name": "Active Lifestyle Music Lover",
+        "gt_name": "The Disillusioned Early Adopter",
+        "gen_aspects": [
+          "ear",
+          "stay",
+          "fit",
+          "connect",
+          "earpod"
+        ],
+        "gt_aspects": [
+          "Durability",
+          "Defective",
+          "Charging",
+          "Connectivity",
+          "Quality"
+        ],
+        "topic_sim": 0.3234
+      },
+      {
+        "gen_name": "Sound Quality Prioritizer",
+        "gt_name": "The Wireless Audio Pursuer",
+        "gen_aspects": [
+          "sound",
+          "music",
+          "play",
+          "quality",
+          "speaker"
+        ],
+        "gt_aspects": [
+          "Sound",
+          "Connectivity",
+          "Price",
+          "Configuration",
+          "Size"
+        ],
+        "topic_sim": 0.5201
+      },
+      {
+        "gen_name": "Value-Conscious Shopper",
+        "gt_name": "The Practical Value Seeker",
+        "gen_aspects": [
+          "quality",
+          "great",
+          "price",
+          "buy",
+          "perfect"
+        ],
+        "gt_aspects": [
+          "Price",
+          "Clock",
+          "Configuration",
+          "Convenience",
+          "Smart Assistant"
+        ],
+        "topic_sim": 0.4382
+      }
+    ]
+  },
+  "summary": {
+    "matching_score": 0.365,
+    "validity_score": 0.6,
+    "topic_sim": 0.4079,
+    "dim_averages": {
+      "keyword_alignment": 0.275,
+      "value_alignment": 0.425,
+      "pain_alignment": 0.35,
+      "behavioral_alignment": 0.4,
+      "sentiment_alignment": 0.375
+    }
+  }
+}

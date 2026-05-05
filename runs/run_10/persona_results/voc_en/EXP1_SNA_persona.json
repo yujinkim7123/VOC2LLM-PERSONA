@@ -1,0 +1,190 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP1_SNA",
+  "method": "SNA_LOUVAIN",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_docs": 965,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Cost-Conscious Pragmatist",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP1_SNA",
+      "keywords": [
+        "price",
+        "pay",
+        "premium",
+        "year",
+        "expensive"
+      ],
+      "core_value": "This consumer segment values getting the most for their money despite the product's cost.",
+      "description": "These are consumers who are very conscious about the price and the long-term cost of products. They often weigh the premium cost against the perceived benefits over time.",
+      "motivation": "Their primary motivation is ensuring that their investment is justified by the product's longevity and premium features.",
+      "pain_points": "They are frustrated by products that do not meet their expectations for the price paid, feeling that expensive items should guarantee premium quality.",
+      "quote": "I paid a lot for this appliance, so I expect it to last for years without issues.",
+      "sentiment_ratio": {
+        "Positive": 0.3,
+        "Neutral": 0.4,
+        "Negative": 0.3,
+        "_inference_note": "Keywords like 'premium' and 'expect' suggest a balanced sentiment focused on the value and cost, while 'expensive' and 'cost' indicate possible negative sentiment concerning price."
+      },
+      "top_aspects": [
+        "price",
+        "pay",
+        "month",
+        "premium",
+        "year"
+      ],
+      "co_aspects": {
+        "price": [
+          "pay",
+          "premium",
+          "expect",
+          "expensive"
+        ],
+        "pay": [
+          "price",
+          "premium",
+          "year",
+          "cost"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Quality-Seeking Loyalist",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP1_SNA",
+      "keywords": [
+        "service",
+        "brand",
+        "trust",
+        "quality",
+        "repair"
+      ],
+      "core_value": "This group is driven by reliability and trust in well-known brands.",
+      "description": "They tend to purchase from trusted brands, valuing consistent quality and excellent service. These consumers prioritize brand reputation and service reliability.",
+      "motivation": "They are motivated by trust in the brand and consistency in product quality.",
+      "pain_points": "Although trusting the brand, they often express disappointment when a product has defects or requires repair.",
+      "quote": "I always choose products from brands I trust because I know they will stand behind their quality.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.2,
+        "Negative": 0.3,
+        "_inference_note": "Positive sentiment inferred from 'trust', 'quality', and 'brand'; negative aspects include 'defect' and 'repair'."
+      },
+      "top_aspects": [
+        "service",
+        "brand",
+        "trust",
+        "quality",
+        "repair"
+      ],
+      "co_aspects": {
+        "service": [
+          "brand",
+          "product",
+          "defect",
+          "repair"
+        ],
+        "brand": [
+          "service",
+          "trust",
+          "quality",
+          "standard"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Aesthetic Enthusiast",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP1_SNA",
+      "keywords": [
+        "pretty",
+        "design",
+        "look",
+        "setup",
+        "display"
+      ],
+      "core_value": "They are primarily concerned with the appearance and style of the product.",
+      "description": "These consumers value products that have a strong visual appeal, focusing on the design and how it complements their space.",
+      "motivation": "Their purchase decisions are driven by the desire to maintain an aesthetically pleasing home environment.",
+      "pain_points": "They may be dissatisfied if the product lacks aesthetic appeal or does not fit well within their interior design plans.",
+      "quote": "I want my kitchen appliances to not only work well but also look great.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Positive sentiment is suggested by words like 'pretty', 'look', and 'design', with minimal negative sentiment."
+      },
+      "top_aspects": [
+        "pretty",
+        "design",
+        "look",
+        "setup",
+        "display"
+      ],
+      "co_aspects": {
+        "pretty": [
+          "look",
+          "design",
+          "setup",
+          "display"
+        ],
+        "design": [
+          "pretty",
+          "look",
+          "make",
+          "use"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Performance-Driven Analyst",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP1_SNA",
+      "keywords": [
+        "spec",
+        "performance",
+        "measurement",
+        "output",
+        "efficiency"
+      ],
+      "core_value": "This segment highly values measurable performance and efficiency in products.",
+      "description": "They are detail-oriented consumers who focus on the technical specifications and performance outputs of products. They often compare these attributes to determine the best fit for their needs.",
+      "motivation": "Their main motivation is achieving high efficiency and performance, ensuring the product meets all promised specifications.",
+      "pain_points": "Disappointment arises if the product's actual performance falls short of the specifications.",
+      "quote": "I need to know my appliances will perform as specified, with no compromises on efficiency.",
+      "sentiment_ratio": {
+        "Positive": 0.4,
+        "Neutral": 0.4,
+        "Negative": 0.2,
+        "_inference_note": "The sentiment ratio is balanced, with positive aspects highlighted by 'performance' and 'efficiency', and negative potential indicated by mismatches in 'measurement'."
+      },
+      "top_aspects": [
+        "spec",
+        "performance",
+        "measurement",
+        "output",
+        "efficiency"
+      ],
+      "co_aspects": {
+        "spec": [
+          "performance",
+          "actual",
+          "measurement",
+          "efficiency"
+        ],
+        "performance": [
+          "spec",
+          "measurement",
+          "output",
+          "actual"
+        ]
+      }
+    }
+  ]
+}

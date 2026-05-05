@@ -1,0 +1,242 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP4_SNA_LDA",
+  "method": "SNA_LDA",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_docs": 965,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Value-Conscious Price Shopper",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP4_SNA_LDA",
+      "keywords": [
+        "price",
+        "pay",
+        "month",
+        "cost",
+        "cheap"
+      ],
+      "core_value": "This consumer segment values affordability and cost-effectiveness most.",
+      "description": "These individuals are focused on getting the best value for their money. They tend to compare prices, seek budget-friendly options, and are cautious about their expenditures.",
+      "motivation": "Their purchase decisions are primarily driven by budget constraints and finding products that offer the best price-to-quality ratio.",
+      "pain_points": "Price drops and unexpected additional costs can frustrate them.",
+      "quote": "I always look for the best deal and compare prices before making a purchase.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.7,
+        "Negative": 0.1,
+        "_inference_note": "Keywords like 'price' and 'cheap' are neutral while 'premium' and 'cost' suggest slight frustration with pricing."
+      },
+      "top_aspects": [
+        "price",
+        "pay",
+        "month",
+        "cost",
+        "cheap"
+      ],
+      "co_aspects": {
+        "price": [
+          "pay",
+          "cost",
+          "buy"
+        ],
+        "pay": [
+          "price",
+          "month",
+          "premium"
+        ],
+        "month": [
+          "pay",
+          "price",
+          "service"
+        ],
+        "cost": [
+          "price",
+          "pay",
+          "premium"
+        ],
+        "cheap": [
+          "price",
+          "pay",
+          "buy"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Brand Loyalty Seeker",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP4_SNA_LDA",
+      "keywords": [
+        "service",
+        "brand",
+        "trust",
+        "product",
+        "quality"
+      ],
+      "core_value": "This consumer segment highly values brand reputation and quality service.",
+      "description": "These consumers seek reliability and trustworthiness in brands. They are loyal to brands that provide consistent quality and after-sales service.",
+      "motivation": "Their decision-making is influenced by brand reputation and the trust they have in the product's quality.",
+      "pain_points": "Encountering defects and needing repairs can undermine their trust.",
+      "quote": "I always choose brands I trust and rely on for quality service.",
+      "sentiment_ratio": {
+        "Positive": 0.4,
+        "Neutral": 0.4,
+        "Negative": 0.2,
+        "_inference_note": "Keywords like 'trust', 'quality', and 'service' are mixed with 'defect' and 'repair', indicating positive lean with notable concerns."
+      },
+      "top_aspects": [
+        "service",
+        "brand",
+        "trust",
+        "product",
+        "quality"
+      ],
+      "co_aspects": {
+        "service": [
+          "brand",
+          "trust",
+          "repair"
+        ],
+        "brand": [
+          "service",
+          "trust",
+          "quality"
+        ],
+        "trust": [
+          "service",
+          "brand",
+          "quality"
+        ],
+        "product": [
+          "service",
+          "brand",
+          "quality"
+        ],
+        "quality": [
+          "brand",
+          "trust",
+          "product"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Aesthetic-Conscious Style Chooser",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP4_SNA_LDA",
+      "keywords": [
+        "color",
+        "buy",
+        "choose",
+        "match",
+        "look"
+      ],
+      "core_value": "This consumer segment places high importance on aesthetics and design harmony.",
+      "description": "These individuals prioritize how products fit into their existing decor and prefer items that enhance their home aesthetics.",
+      "motivation": "Their purchasing decisions are driven by the desire to find visually appealing products that match their personal style.",
+      "pain_points": "Discrepancies between product appearance online and in real life can be disappointing.",
+      "quote": "I love finding appliances that perfectly match my home's decor.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.4,
+        "Negative": 0.1,
+        "_inference_note": "Keywords such as 'beautiful', 'match', and 'look' convey positivity, tempered by potential disappointment in 'real' appearance."
+      },
+      "top_aspects": [
+        "color",
+        "buy",
+        "choose",
+        "match",
+        "look"
+      ],
+      "co_aspects": {
+        "color": [
+          "buy",
+          "choose",
+          "match"
+        ],
+        "buy": [
+          "color",
+          "choose",
+          "match"
+        ],
+        "choose": [
+          "color",
+          "match",
+          "look"
+        ],
+        "match": [
+          "color",
+          "buy",
+          "look"
+        ],
+        "look": [
+          "choose",
+          "match",
+          "real"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Tech-Savvy Performance Evaluator",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP4_SNA_LDA",
+      "keywords": [
+        "charge",
+        "setup",
+        "cable",
+        "display",
+        "use"
+      ],
+      "core_value": "Performance and ease of setup are top priorities for this consumer segment.",
+      "description": "These individuals are focused on the technical aspects and performance efficiency of products. They value easy setup and reliable functionality.",
+      "motivation": "Their decisions lean heavily on technological performance and practical usability.",
+      "pain_points": "Complex setups and inefficient charging can be major issues for these consumers.",
+      "quote": "I appreciate devices that are straightforward to set up and perform well.",
+      "sentiment_ratio": {
+        "Positive": 0.3,
+        "Neutral": 0.5,
+        "Negative": 0.2,
+        "_inference_note": "Positive indicators like 'use' and 'want' are balanced by issues with 'charge' and 'setup'."
+      },
+      "top_aspects": [
+        "charge",
+        "setup",
+        "cable",
+        "display",
+        "use"
+      ],
+      "co_aspects": {
+        "charge": [
+          "setup",
+          "cable",
+          "display"
+        ],
+        "setup": [
+          "charge",
+          "cable",
+          "use"
+        ],
+        "cable": [
+          "charge",
+          "setup",
+          "use"
+        ],
+        "display": [
+          "charge",
+          "setup",
+          "use"
+        ],
+        "use": [
+          "setup",
+          "cable",
+          "display"
+        ]
+      }
+    }
+  ]
+}

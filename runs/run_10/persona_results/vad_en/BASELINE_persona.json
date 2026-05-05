@@ -1,0 +1,182 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "BASELINE",
+  "method": "LLM_STANDALONE",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": null,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Tech Enthusiast Innovator",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_BASELINE",
+      "keywords": [
+        "advanced",
+        "features",
+        "integration",
+        "technology",
+        "updates",
+        "control",
+        "smart home"
+      ],
+      "core_value": "They value cutting-edge technology and seamless integration with smart home devices.",
+      "description": "Tech Enthusiast Innovators are early adopters who eagerly explore new features and integrations. They actively use their devices for controlling smart homes and stay updated with technological advancements.",
+      "motivation": "They are driven by a passion for technology and the desire to enhance their living spaces with the latest features.",
+      "pain_points": "Complex setup processes or lack of functionality with other home devices frustrates them.",
+      "quote": "I love how my smart display controls all my home devices, from lights to security cameras!",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Enthusiasts typically express satisfaction with advanced features (Positive), occasional neutrality when features are adequate, and minor negativity when integration is limited."
+      },
+      "top_aspects": [
+        "technology",
+        "features",
+        "integration",
+        "updates",
+        "control"
+      ],
+      "co_aspects": {
+        "technology": [
+          "features",
+          "integration"
+        ],
+        "features": [
+          "technology",
+          "control"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Practical Family Organizer",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_BASELINE",
+      "keywords": [
+        "routine",
+        "family",
+        "calendar",
+        "reminder",
+        "simplify",
+        "helpful",
+        "day-to-day"
+      ],
+      "core_value": "They value ease of use and the ability to manage family schedules and tasks efficiently.",
+      "description": "Practical Family Organizers use their virtual assistants to streamline daily family activities. They appreciate features that help keep everyone on track, like reminders and calendar management.",
+      "motivation": "They seek simplification and better organization of hectic family routines through technology.",
+      "pain_points": "Inconsistent voice recognition or errors in task management features can be frustrating.",
+      "quote": "This device has become indispensable for organizing my family's busy schedule!",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Families are generally positive about the organizational help these devices provide, with some neutrality when systems work as expected, and minor negativity when errors occur."
+      },
+      "top_aspects": [
+        "routine",
+        "family",
+        "calendar",
+        "reminder",
+        "simplify"
+      ],
+      "co_aspects": {
+        "calendar": [
+          "reminder",
+          "routine"
+        ],
+        "family": [
+          "routine",
+          "simplify"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Value-Conscious User",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_BASELINE",
+      "keywords": [
+        "affordable",
+        "basic",
+        "useful",
+        "budget",
+        "sound quality",
+        "music",
+        "cost-effective"
+      ],
+      "core_value": "They prioritize affordability and the essential features that provide good value for money.",
+      "description": "Value-Conscious Users seek cost-effective solutions with basic functionalities. They use devices for simple tasks like playing music or checking weather updates.",
+      "motivation": "They are motivated by getting the most functionalities out of a reasonable investment without expensive add-ons.",
+      "pain_points": "Concerns over audio quality or limited features compared to higher-end models frustrate them.",
+      "quote": "For the price, this smart speaker does everything I need, like streaming music and setting alarms.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.4,
+        "Negative": 0.1,
+        "_inference_note": "Value-focused consumers are mostly positive when the product meets basic needs affordably, neutral for basic utility, and slightly negative for quality limitations."
+      },
+      "top_aspects": [
+        "affordable",
+        "basic",
+        "useful",
+        "sound quality",
+        "music"
+      ],
+      "co_aspects": {
+        "affordable": [
+          "basic",
+          "useful"
+        ],
+        "sound quality": [
+          "music",
+          "affordable"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Privacy-Conscious Skeptic",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_BASELINE",
+      "keywords": [
+        "privacy",
+        "secure",
+        "data",
+        "concern",
+        "monitoring",
+        "trust",
+        "control"
+      ],
+      "core_value": "They seek assurance that their personal information is secure and private.",
+      "description": "Privacy-Conscious Skeptics are cautious about adopting smart technology. Their primary concern is safeguarding data privacy and maintaining control over device functionality.",
+      "motivation": "They are driven by the need for security features and transparency in data usage.",
+      "pain_points": "Lack of clear privacy settings or suspicious data practices are major concerns.",
+      "quote": "I like the features, but I'm wary of how much my device is listening or collecting data.",
+      "sentiment_ratio": {
+        "Positive": 0.3,
+        "Neutral": 0.3,
+        "Negative": 0.4,
+        "_inference_note": "Privacy-focused individuals often view features positively but have a significant amount of concern and skepticism resulting in higher negativity."
+      },
+      "top_aspects": [
+        "privacy",
+        "secure",
+        "data",
+        "trust",
+        "control"
+      ],
+      "co_aspects": {
+        "privacy": [
+          "data",
+          "control"
+        ],
+        "secure": [
+          "trust",
+          "data"
+        ]
+      }
+    }
+  ]
+}

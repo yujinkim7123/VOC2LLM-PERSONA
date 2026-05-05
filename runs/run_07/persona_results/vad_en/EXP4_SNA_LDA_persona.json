@@ -1,0 +1,187 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP4_SNA_LDA",
+  "method": "SNA_LDA",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2370,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Music-Loving Alexa Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP4_SNA_LDA",
+      "keywords": [
+        "music",
+        "play",
+        "alexa",
+        "work",
+        "well"
+      ],
+      "core_value": "This consumer values a seamless music streaming experience.",
+      "description": "This persona frequently uses Alexa-enabled devices to enjoy music, placing a high priority on their performance in playing music and integrating with other devices.",
+      "motivation": "Their primary motivation is to have a reliable assistant that plays music effortlessly and integrates well into their home environment.",
+      "pain_points": "Challenges with device integration or music streaming interruptions can frustrate them.",
+      "quote": "I love using Alexa to play my favorite tunes; it works great!",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Positive signals include 'play', 'well', and 'music', indicating pleasure. 'Work' is neutral, while 'want' slightly reflects dissatisfaction if desires are unmet."
+      },
+      "top_aspects": [
+        "music",
+        "play",
+        "alexa",
+        "echo",
+        "home"
+      ],
+      "co_aspects": {
+        "music": [
+          "play",
+          "alexa",
+          "echo"
+        ],
+        "alexa": [
+          "music",
+          "play",
+          "home"
+        ],
+        "play": [
+          "music",
+          "alexa",
+          "work"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Quality-Conscious Tech Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP4_SNA_LDA",
+      "keywords": [
+        "great",
+        "good",
+        "sound",
+        "quality",
+        "love"
+      ],
+      "core_value": "This consumer prioritizes top-notch sound quality and product performance.",
+      "description": "This persona loves high-quality sound and product performance, often praising devices that meet their expectations effectively.",
+      "motivation": "Their purchases are driven by a desire for excellent sound quality and reliability of smart devices.",
+      "pain_points": "Any compromise in audio quality or functionality diminishes their experience.",
+      "quote": "The sound quality is fantastic; I absolutely love this product!",
+      "sentiment_ratio": {
+        "Positive": 0.8,
+        "Neutral": 0.2,
+        "Negative": 0.0,
+        "_inference_note": "Highly positive due to words like 'great', 'good', 'sound', 'quality', and 'love'. Neutral terms include 'work' and 'product'."
+      },
+      "top_aspects": [
+        "great",
+        "good",
+        "sound",
+        "quality",
+        "love"
+      ],
+      "co_aspects": {
+        "great": [
+          "good",
+          "sound",
+          "quality"
+        ],
+        "sound": [
+          "great",
+          "quality",
+          "love"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Smart Home Gadget Seeker",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP4_SNA_LDA",
+      "keywords": [
+        "nest",
+        "google",
+        "thermostat",
+        "home",
+        "device"
+      ],
+      "core_value": "Seamless integration with smart home technology is a core requirement.",
+      "description": "This persona invests in smart home devices for enhanced home automation and convenience, focusing on gadgets like smart thermostats.",
+      "motivation": "They seek devices that offer easy installation and superior control over home environments.",
+      "pain_points": "Issues with device installation or compatibility can be aggravating.",
+      "quote": "Nest thermostat is a great addition to my Google home setup!",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.3,
+        "Negative": 0.2,
+        "_inference_note": "Positive indicators include 'buy' and 'support', with neutral words like 'device' and 'home'. 'Issue' and 'year' reflect some dissatisfaction."
+      },
+      "top_aspects": [
+        "nest",
+        "google",
+        "thermostat",
+        "home",
+        "device"
+      ],
+      "co_aspects": {
+        "nest": [
+          "google",
+          "thermostat",
+          "home"
+        ],
+        "thermostat": [
+          "nest",
+          "google",
+          "unit"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Frustrated Reliability Seeker",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP4_SNA_LDA",
+      "keywords": [
+        "work",
+        "return",
+        "stop",
+        "issue",
+        "connect"
+      ],
+      "core_value": "Reliability and consistent connectivity are key for this consumer.",
+      "description": "This persona has faced challenges with devices failing unexpectedly and often seeks reliable solutions.",
+      "motivation": "They are motivated by a need for dependable devices that maintain connectivity without frequent issues.",
+      "pain_points": "Frequent connectivity issues and the need for returns are significant frustrations.",
+      "quote": "I had to return it after it stopped working properly.",
+      "sentiment_ratio": {
+        "Positive": 0.1,
+        "Neutral": 0.6,
+        "Negative": 0.3,
+        "_inference_note": "Negative sentiment from 'return', 'stop', and 'issue'. Neutral words include 'connect' and 'work'. 'New' slightly positive as it implies improvement."
+      },
+      "top_aspects": [
+        "work",
+        "return",
+        "stop",
+        "issue",
+        "connect"
+      ],
+      "co_aspects": {
+        "work": [
+          "return",
+          "stop",
+          "issue"
+        ],
+        "return": [
+          "work",
+          "issue",
+          "connect"
+        ]
+      }
+    }
+  ]
+}

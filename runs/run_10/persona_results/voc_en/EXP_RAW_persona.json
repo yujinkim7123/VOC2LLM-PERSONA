@@ -1,0 +1,181 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP_RAW",
+  "method": "RAW_REVIEW_INJECTION",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_reviews_injected": 200,
+  "run_seed": 112,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Frustrated Economizer",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP_RAW",
+      "keywords": [
+        "price",
+        "hidden cost",
+        "cheap",
+        "refund",
+        "return",
+        "postage",
+        "shipping"
+      ],
+      "core_value": "Maximizing value without compromising on service reliability.",
+      "description": "Frustrated Economizers are price-conscious buyers who often encounter issues with hidden costs and unreliable service. They seek budget-friendly options but face frustration due to poor after-sales service and unexpected expenses.",
+      "motivation": "Getting the lowest possible price and saving on upfront costs.",
+      "pain_points": "Hidden accessory costs, refund delays, unreliable shipping and return processes.",
+      "quote": "The price looked good until hidden costs piled up and service was non-existent.",
+      "sentiment_ratio": {
+        "Positive": 0.1,
+        "Neutral": 0.2,
+        "Negative": 0.7,
+        "_inference_note": "Most reviews reflect dissatisfaction with service issues and hidden costs despite seeking budget deals."
+      },
+      "top_aspects": [
+        "price",
+        "refund",
+        "return",
+        "postage",
+        "shipping"
+      ],
+      "co_aspects": {
+        "price": [
+          "hidden cost",
+          "cheap"
+        ],
+        "refund": [
+          "return",
+          "postage",
+          "shipping"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Tech-Savvy Bargain Hunter",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP_RAW",
+      "keywords": [
+        "specs",
+        "quality",
+        "value",
+        "performance",
+        "comparison",
+        "features"
+      ],
+      "core_value": "Balancing performance and cost-effectiveness with an emphasis on tech specs.",
+      "description": "Tech-Savvy Bargain Hunters are informed consumers who meticulously compare specifications to gain the best value. They often assess product benchmarks and compare with premium alternatives to justify budget purchases.",
+      "motivation": "Finding unbeatable value with sufficient performance to meet technical needs.",
+      "pain_points": "Performance not meeting expectations due to misleading specs, quality inconsistencies.",
+      "quote": "For this price, the specs are unbeatable and perform well enough compared to more expensive options.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Predominantly positive reviews focusing on comparing specs and finding great value, with minor dissatisfaction with misleading specs."
+      },
+      "top_aspects": [
+        "specs",
+        "performance",
+        "quality",
+        "value",
+        "features"
+      ],
+      "co_aspects": {
+        "specs": [
+          "performance",
+          "comparison"
+        ],
+        "quality": [
+          "value",
+          "comparison"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Design-Conscious Enthusiast",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP_RAW",
+      "keywords": [
+        "design",
+        "aesthetic",
+        "color",
+        "setup",
+        "appearance",
+        "interior"
+      ],
+      "core_value": "Prioritizing aesthetic appeal and design integration in home setups.",
+      "description": "Design-Conscious Enthusiasts place high importance on how products fit into their aesthetic vision. They often choose products based on design and color coordination with their existing setup or décor.",
+      "motivation": "Enhancing home aesthetics with visually appealing and cohesive designs.",
+      "pain_points": "Design elements not aligning with expectations or disrupting the aesthetic vision due to practical issues.",
+      "quote": "This design really ties my setup together, it's both beautiful and functional.",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Reviews emphasize positive sentiments on design satisfaction, with occasional mention of functional drawbacks impacting aesthetic integration."
+      },
+      "top_aspects": [
+        "design",
+        "color",
+        "appearance",
+        "aesthetic",
+        "setup"
+      ],
+      "co_aspects": {
+        "design": [
+          "color",
+          "appearance"
+        ],
+        "setup": [
+          "aesthetic",
+          "appearance"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Performance-Reliant Professional",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP_RAW",
+      "keywords": [
+        "reliability",
+        "performance",
+        "task",
+        "multitasking",
+        "consistency",
+        "dependable"
+      ],
+      "core_value": "Ensuring product performance and reliability for professional use.",
+      "description": "Performance-Reliant Professionals depend on products to perform consistently and reliably. They frequently encounter issues when products fail during crucial tasks, impacting their professional efficiency.",
+      "motivation": "Achieving reliable performance and consistency for demanding workflows.",
+      "pain_points": "Connection issues, inconsistent performance during multitasking, and product failures under stress.",
+      "quote": "Reliability is key, and any drop in performance directly affects my productivity.",
+      "sentiment_ratio": {
+        "Positive": 0.3,
+        "Neutral": 0.4,
+        "Negative": 0.3,
+        "_inference_note": "Reviews reflect balanced sentiment, with appreciation for potential performance tempered by frustrations from reliability issues."
+      },
+      "top_aspects": [
+        "reliability",
+        "performance",
+        "multitasking",
+        "consistency",
+        "task"
+      ],
+      "co_aspects": {
+        "performance": [
+          "reliability",
+          "multitasking"
+        ],
+        "consistency": [
+          "task",
+          "performance"
+        ]
+      }
+    }
+  ]
+}

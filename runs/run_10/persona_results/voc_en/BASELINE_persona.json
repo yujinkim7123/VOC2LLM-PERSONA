@@ -1,0 +1,198 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "BASELINE",
+  "method": "LLM_STANDALONE",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_docs": null,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Tech-Savvy Innovator",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_BASELINE",
+      "keywords": [
+        "smart",
+        "connectivity",
+        "voice control",
+        "app",
+        "update",
+        "feature",
+        "technology"
+      ],
+      "core_value": "This consumer values the latest technological advancements in home appliances.",
+      "description": "Tech-Savvy Innovators are always on the lookout for appliances that integrate the latest technologies. They frequently update their appliances to enjoy the newest features and often rely on connectivity and apps to enhance usability.",
+      "motivation": "Driven by the desire to have a smart home where all devices can be seamlessly controlled and managed.",
+      "pain_points": "Complex setup processes and unreliable software updates can cause significant frustration.",
+      "quote": "I love how my appliances integrate with my smart home system, but the app updates can be buggy sometimes.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Typically, this segment is excited by new features, but occasional tech issues might cause slight frustration."
+      },
+      "top_aspects": [
+        "connectivity",
+        "smart features",
+        "usability",
+        "app integration",
+        "setup process"
+      ],
+      "co_aspects": {
+        "connectivity": [
+          "smart features",
+          "app integration"
+        ],
+        "usability": [
+          "smart features",
+          "setup process"
+        ],
+        "app integration": [
+          "connectivity",
+          "setup process"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Budget-Conscious Family Planner",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_BASELINE",
+      "keywords": [
+        "economical",
+        "energy star",
+        "durable",
+        "affordable",
+        "value",
+        "budget",
+        "cost"
+      ],
+      "core_value": "This consumer prioritizes affordability and cost-effectiveness in their appliance purchases.",
+      "description": "Budget-Conscious Family Planners often have larger households and seek appliances that offer good value for money without compromising on essential features. They tend to stick to known brands that promise durability at an affordable price.",
+      "motivation": "Ensuring the best value for their money while managing household expenses efficiently.",
+      "pain_points": "High energy bills and needing frequent repairs can be major concerns for them.",
+      "quote": "I always look for Energy Star certified appliances to save on my monthly utility bills.",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "This segment typically reports satisfaction with value-oriented purchases but may voice slight concerns about durability."
+      },
+      "top_aspects": [
+        "cost",
+        "energy efficiency",
+        "durability",
+        "value",
+        "brand"
+      ],
+      "co_aspects": {
+        "cost": [
+          "value",
+          "brand"
+        ],
+        "energy efficiency": [
+          "cost",
+          "value"
+        ],
+        "durability": [
+          "brand",
+          "value"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Eco-Conscious Minimalist",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_BASELINE",
+      "keywords": [
+        "sustainability",
+        "compact",
+        "eco-friendly",
+        "minimalist",
+        "recycled materials",
+        "efficient",
+        "waste"
+      ],
+      "core_value": "This consumer segment is driven by environmental sustainability and minimalism.",
+      "description": "Eco-Conscious Minimalists prefer appliances that offer high functionality with minimal environmental impact. They appreciate products made from recycled materials and prioritize brands committed to sustainability.",
+      "motivation": "A strong desire to lessen their ecological footprint and support environmentally sustainable practices.",
+      "pain_points": "Lack of truly sustainable options and greenwashing can be frustrating.",
+      "quote": "It's important for me that my appliances are not only efficient but also have minimal environmental impact.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.4,
+        "Negative": 0.1,
+        "_inference_note": "This group appreciates sustainability but often remains cautious about brand claims, leading to a more neutral overall sentiment."
+      },
+      "top_aspects": [
+        "sustainability",
+        "efficiency",
+        "materials",
+        "compactness",
+        "brand commitment"
+      ],
+      "co_aspects": {
+        "sustainability": [
+          "materials",
+          "brand commitment"
+        ],
+        "efficiency": [
+          "compactness",
+          "sustainability"
+        ],
+        "materials": [
+          "sustainability",
+          "compactness"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Reliability-Focused Traditionalist",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_BASELINE",
+      "keywords": [
+        "reliable",
+        "traditional",
+        "durable",
+        "service",
+        "warranty",
+        "robust",
+        "quality"
+      ],
+      "core_value": "This consumer segment values reliability and longevity in their appliance investments.",
+      "description": "Reliability-Focused Traditionalists prefer well-established brands that promise longevity and practical service options. They highly regard brands with a proven track record for dependable appliances that last.",
+      "motivation": "Ensuring their appliances continue to perform well over the long term without frequent repairs.",
+      "pain_points": "Being let down by products that don't last as long as expected and inadequate customer service.",
+      "quote": "I always buy from brands that have proven their appliances are built to last.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "They generally express satisfaction with traditional reliable brands but can be wary of modern less durable options."
+      },
+      "top_aspects": [
+        "durability",
+        "quality",
+        "service",
+        "warranty",
+        "brand"
+      ],
+      "co_aspects": {
+        "durability": [
+          "quality",
+          "warranty"
+        ],
+        "quality": [
+          "brand",
+          "service"
+        ],
+        "service": [
+          "warranty",
+          "quality"
+        ]
+      }
+    }
+  ]
+}

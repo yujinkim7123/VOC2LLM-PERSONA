@@ -1,0 +1,246 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP7_Full",
+  "method": "SNA_LDA_KMEANS",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2138,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Precision-Oriented Setup Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP7_Full",
+      "keywords": [
+        "set",
+        "hub",
+        "smart",
+        "support",
+        "problem",
+        "connect",
+        "issue"
+      ],
+      "core_value": "This consumer values precise and problem-free device setup and connectivity.",
+      "description": "The Precision-Oriented Setup Enthusiast is someone who meticulously sets up their devices and experiences frustration when connectivity issues arise. They are tech-savvy but have high expectations for seamless support and integration.",
+      "motivation": "They are driven by a need for their smart home setup to work flawlessly, as their satisfaction hinges on efficient support and problem-solving capabilities.",
+      "pain_points": "Frequent connectivity problems and a lack of adequate support are major sources of frustration.",
+      "quote": "I love my smart hub, but setting it up was such a hassle due to connectivity issues.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.3,
+        "Negative": 0.5,
+        "_inference_note": "Keywords like 'support', 'problem', 'connect', and 'issue' indicate frustration with device setup."
+      },
+      "top_aspects": [
+        "set",
+        "hub",
+        "connect",
+        "support",
+        "issue"
+      ],
+      "co_aspects": {
+        "set": [
+          "hub",
+          "connect",
+          "support",
+          "issue"
+        ],
+        "hub": [
+          "set",
+          "connect",
+          "support"
+        ],
+        "connect": [
+          "set",
+          "hub",
+          "issue"
+        ],
+        "support": [
+          "set",
+          "hub",
+          "connect"
+        ],
+        "issue": [
+          "set",
+          "connect"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Value-Seeking Music Lover",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP7_Full",
+      "keywords": [
+        "music",
+        "alarm",
+        "feature",
+        "purchase",
+        "price",
+        "sound",
+        "love"
+      ],
+      "core_value": "This consumer prioritizes getting the best sound features at a reasonable price.",
+      "description": "The Value-Seeking Music Lover is enthusiastic about features like music and sound quality. They appreciate features like alarms and are price-conscious shoppers who love getting a good deal.",
+      "motivation": "They are motivated by finding products that offer great sound features at competitive prices, enhancing their day-to-day audio experience.",
+      "pain_points": "High prices can be a deterrent if the product does not meet their sound quality expectations.",
+      "quote": "I love the sound quality and features for music, but the price was just right for my budget.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Words like 'music', 'feature', 'purchase', and 'love' suggest a positive sentiment with features and value, while 'price' indicates a neutral emphasis on cost."
+      },
+      "top_aspects": [
+        "music",
+        "feature",
+        "price",
+        "sound",
+        "love"
+      ],
+      "co_aspects": {
+        "music": [
+          "sound",
+          "feature",
+          "love"
+        ],
+        "feature": [
+          "music",
+          "sound",
+          "purchase"
+        ],
+        "price": [
+          "feature",
+          "purchase"
+        ],
+        "sound": [
+          "music",
+          "feature",
+          "love"
+        ],
+        "love": [
+          "music",
+          "sound"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Efficiency-Focused Functional User",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP7_Full",
+      "keywords": [
+        "easy",
+        "use",
+        "home",
+        "control",
+        "device",
+        "work",
+        "clock"
+      ],
+      "core_value": "This consumer values ease of use and integration into daily routines.",
+      "description": "Efficient and straightforward usage is key for the Efficiency-Focused Functional User. They enjoy using their devices for controlling other home appliances and value intuitive interfaces.",
+      "motivation": "The drive comes from a need to make their daily routines more convenient through technology that 'just works' without complications.",
+      "pain_points": "Complicated interfaces or functionalities that disrupt their routines are major concerns.",
+      "quote": "I love how easy it is to control my home devices — it integrates seamlessly into my daily life.",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Positive keywords like 'easy', 'control', 'device', and 'work' suggest a satisfaction with ease of use, while 'clock' suggests routine integration."
+      },
+      "top_aspects": [
+        "easy",
+        "use",
+        "home",
+        "device",
+        "control"
+      ],
+      "co_aspects": {
+        "easy": [
+          "use",
+          "home",
+          "control"
+        ],
+        "use": [
+          "easy",
+          "device",
+          "work"
+        ],
+        "home": [
+          "easy",
+          "control",
+          "device"
+        ],
+        "device": [
+          "use",
+          "home",
+          "control"
+        ],
+        "control": [
+          "easy",
+          "home",
+          "device"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Visual-Quality-Oriented Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP7_Full",
+      "keywords": [
+        "display",
+        "screen",
+        "look",
+        "picture",
+        "nice",
+        "design",
+        "new"
+      ],
+      "core_value": "This consumer values high-quality visual displays and aesthetics.",
+      "description": "The Visual-Quality-Oriented Enthusiast is keen on the aesthetic appeal and screen quality of devices. They have an eye for detail and appreciate devices that enhance visual experiences.",
+      "motivation": "Their main drive is to find visually appealing devices with superior display features that complement their home decor.",
+      "pain_points": "Dull displays or unattractive device designs can be deal-breakers.",
+      "quote": "The display is stunning and fits perfectly with the aesthetics of my living room.",
+      "sentiment_ratio": {
+        "Positive": 0.65,
+        "Neutral": 0.25,
+        "Negative": 0.1,
+        "_inference_note": "Keywords such as 'display', 'nice', 'look', and 'design' carry a strong positive sentiment related to visual enjoyment and aesthetics."
+      },
+      "top_aspects": [
+        "display",
+        "screen",
+        "look",
+        "picture",
+        "design"
+      ],
+      "co_aspects": {
+        "display": [
+          "screen",
+          "look",
+          "picture"
+        ],
+        "screen": [
+          "display",
+          "look",
+          "nice"
+        ],
+        "look": [
+          "display",
+          "screen",
+          "design"
+        ],
+        "picture": [
+          "display",
+          "look"
+        ],
+        "design": [
+          "look",
+          "new"
+        ]
+      }
+    }
+  ]
+}

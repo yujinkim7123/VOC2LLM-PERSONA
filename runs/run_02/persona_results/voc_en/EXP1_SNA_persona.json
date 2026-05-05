@@ -1,0 +1,183 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP1_SNA",
+  "method": "SNA_LOUVAIN",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_docs": 965,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Price-Conscious Value Seeker",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP1_SNA",
+      "keywords": [
+        "price",
+        "premium",
+        "cheap",
+        "cost",
+        "expensive"
+      ],
+      "core_value": "They value getting the best deal possible.",
+      "description": "This persona is highly focused on the financial aspect of home appliances. They pay close attention to pricing, whether an item is cheap or expensive, and seek value for their money.",
+      "motivation": "They want to ensure their purchase is a financially sound decision.",
+      "pain_points": "High costs and pricing policies that don't align with their expectations.",
+      "quote": "I'm always looking for the best price, and I hate it when something becomes too expensive for what it's worth.",
+      "sentiment_ratio": {
+        "Positive": 0.1,
+        "Neutral": 0.5,
+        "Negative": 0.4,
+        "_inference_note": "Keywords such as 'cheap' and 'premium' hint at positive aspects when a deal is good, while 'expensive' and 'cost' imply negative feelings about high prices."
+      },
+      "top_aspects": [
+        "price",
+        "premium",
+        "cheap",
+        "cost",
+        "expensive"
+      ],
+      "co_aspects": {
+        "price": [
+          "premium",
+          "cheap",
+          "cost"
+        ],
+        "premium": [
+          "price",
+          "expensive",
+          "expect"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Brand Loyalist and Quality Seeker",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP1_SNA",
+      "keywords": [
+        "service",
+        "brand",
+        "quality",
+        "trust",
+        "exchange"
+      ],
+      "core_value": "They prioritize brand trust and high-quality products.",
+      "description": "This consumer looks for reputable brands and quality assurance. They trust brands that offer excellent service and are responsive to product defects or exchanges.",
+      "motivation": "Their decision is largely driven by their trust in a brand's quality and service standards.",
+      "pain_points": "Defective products and inadequate service that fail to meet their expectations.",
+      "quote": "I trust this brand for its quality and their customer service is top-notch when I need an exchange.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Keywords like 'trust', 'quality', and 'service' suggest positive sentiment, whereas 'defect' implies potential negative experiences."
+      },
+      "top_aspects": [
+        "service",
+        "brand",
+        "quality",
+        "trust",
+        "exchange"
+      ],
+      "co_aspects": {
+        "service": [
+          "brand",
+          "quality",
+          "trust",
+          "exchange"
+        ],
+        "brand": [
+          "service",
+          "quality",
+          "trust"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Design-Centric Aesthetic Buyer",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP1_SNA",
+      "keywords": [
+        "pretty",
+        "design",
+        "look",
+        "display",
+        "setup"
+      ],
+      "core_value": "Attracted to visually appealing and well-designed products.",
+      "description": "These consumers appreciate aesthetically pleasing products that complement their interior decor and prefer items that stand out because of their design.",
+      "motivation": "Their choice is influenced by the aesthetic appeal and how the product looks in their space.",
+      "pain_points": "Products that do not match the described aesthetics or become visually unappealing over time.",
+      "quote": "I love how this appliance looks in my kitchen, it's both functional and beautiful.",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Keywords such as 'pretty', 'design', and 'look' convey positive sentiment associated with aesthetics."
+      },
+      "top_aspects": [
+        "pretty",
+        "design",
+        "look",
+        "display",
+        "setup"
+      ],
+      "co_aspects": {
+        "pretty": [
+          "design",
+          "look",
+          "setup"
+        ],
+        "design": [
+          "pretty",
+          "look",
+          "use"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Performance-Oriented Technical User",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP1_SNA",
+      "keywords": [
+        "spec",
+        "performance",
+        "efficiency",
+        "output",
+        "measurement"
+      ],
+      "core_value": "Driven by the technical specifications and performance efficiency.",
+      "description": "This consumer closely scrutinizes the performance metrics and technical specifications of appliances. They seek high efficiency and actual output that aligns with the stated product capabilities.",
+      "motivation": "An appliance's performance and technical efficiency are their top priorities.",
+      "pain_points": "Misalignments between advertised specifications and actual product performance.",
+      "quote": "I chose this model because its specifications promised high efficiency, and it delivers exactly that.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.4,
+        "Negative": 0.1,
+        "_inference_note": "Keywords like 'performance', 'efficiency', and 'spec' denote positive perception when expectations are met, 'measurement' suggests a neutral technical focus."
+      },
+      "top_aspects": [
+        "spec",
+        "performance",
+        "efficiency",
+        "output",
+        "measurement"
+      ],
+      "co_aspects": {
+        "spec": [
+          "performance",
+          "efficiency",
+          "output"
+        ],
+        "performance": [
+          "spec",
+          "efficiency",
+          "output"
+        ]
+      }
+    }
+  ]
+}

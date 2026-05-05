@@ -1,0 +1,194 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP_RAW",
+  "method": "RAW_REVIEW_INJECTION",
+  "lang": "en",
+  "n_reviews_injected": 200,
+  "judge": {
+    "judge_matrix": [
+      [
+        0.52,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.32,
+        0.72,
+        0.1,
+        0.2
+      ],
+      [
+        0.06,
+        0.14,
+        0.58,
+        0.06
+      ],
+      [
+        0.12,
+        0.42,
+        0.0,
+        0.12
+      ]
+    ],
+    "best_mapping": [
+      {
+        "gen_name": "Deal-Driven Bargain Hunters",
+        "gt_name": "Price-Sensitive Bargain Hunter",
+        "keyword_alignment": 0.7,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.7,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.52,
+        "validity_score": 0.7,
+        "reasoning": "Good keyword, value, behavior match; poor sentiment alignment.",
+        "success": true
+      },
+      {
+        "gen_name": "Quality-Conscious Spec Checkers",
+        "gt_name": "Performance-Focused Spec Evaluator",
+        "keyword_alignment": 0.7,
+        "value_alignment": 0.7,
+        "pain_alignment": 1.0,
+        "behavioral_alignment": 0.7,
+        "sentiment_alignment": 0.5,
+        "matching_score": 0.72,
+        "validity_score": 1.0,
+        "reasoning": "Good keyword overlap, aligned pains/values, slight sentiment differences.",
+        "success": true
+      },
+      {
+        "gen_name": "Design-Sensitive Aesthetic Seekers",
+        "gt_name": "Design-Driven Aesthetic Consumer",
+        "keyword_alignment": 0.7,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.7,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.3,
+        "matching_score": 0.58,
+        "validity_score": 0.7,
+        "reasoning": "Mostly overlaps in themes, some sentiment difference present.",
+        "success": true
+      },
+      {
+        "gen_name": "Performance Demanding Tech Enthusiasts",
+        "gt_name": "Trust-Seeking After-Service Prioritizer",
+        "keyword_alignment": 0.0,
+        "value_alignment": 0.3,
+        "pain_alignment": 0.0,
+        "behavioral_alignment": 0.0,
+        "sentiment_alignment": 0.3,
+        "matching_score": 0.12,
+        "validity_score": 0.5,
+        "reasoning": "Generated content focuses on tech performance, not after-sales support.",
+        "success": false
+      }
+    ],
+    "matching_score": 0.485,
+    "validity_score": 0.725,
+    "mean_all_matching": 0.21,
+    "dim_averages": {
+      "keyword_alignment": 0.525,
+      "value_alignment": 0.6,
+      "pain_alignment": 0.55,
+      "behavioral_alignment": 0.475,
+      "sentiment_alignment": 0.275
+    },
+    "n_success": 3,
+    "mapping_success_rate": 0.75
+  },
+  "topic_sim_result": {
+    "topic_sim": 0.4246,
+    "pair_details": [
+      {
+        "gen_name": "Deal-Driven Bargain Hunters",
+        "gt_name": "Price-Sensitive Bargain Hunter",
+        "gen_aspects": [
+          "price",
+          "deal",
+          "quality",
+          "discount",
+          "purchase"
+        ],
+        "gt_aspects": [
+          "Price/Cost",
+          "Performance/Specs",
+          "Design/Appearance",
+          "Shipping/Service",
+          "Ease of Use"
+        ],
+        "topic_sim": 0.4432
+      },
+      {
+        "gen_name": "Quality-Conscious Spec Checkers",
+        "gt_name": "Performance-Focused Spec Evaluator",
+        "gen_aspects": [
+          "specs",
+          "performance",
+          "accuracy",
+          "test",
+          "speed"
+        ],
+        "gt_aspects": [
+          "Performance/Specs",
+          "Ease of Use",
+          "Design/Appearance",
+          "Shipping/Service",
+          "Price/Cost"
+        ],
+        "topic_sim": 0.4048
+      },
+      {
+        "gen_name": "Design-Sensitive Aesthetic Seekers",
+        "gt_name": "Design-Driven Aesthetic Consumer",
+        "gen_aspects": [
+          "design",
+          "aesthetic",
+          "color",
+          "style",
+          "appearance"
+        ],
+        "gt_aspects": [
+          "Design/Appearance",
+          "Ease of Use",
+          "Price/Cost",
+          "Shipping/Service",
+          "Performance/Specs"
+        ],
+        "topic_sim": 0.475
+      },
+      {
+        "gen_name": "Performance Demanding Tech Enthusiasts",
+        "gt_name": "Trust-Seeking After-Service Prioritizer",
+        "gen_aspects": [
+          "app",
+          "performance",
+          "setup",
+          "function",
+          "control"
+        ],
+        "gt_aspects": [
+          "Shipping/Service",
+          "Price/Cost",
+          "Ease of Use",
+          "Performance/Specs",
+          "Design/Appearance"
+        ],
+        "topic_sim": 0.3756
+      }
+    ]
+  },
+  "summary": {
+    "matching_score": 0.485,
+    "validity_score": 0.725,
+    "topic_sim": 0.4246,
+    "dim_averages": {
+      "keyword_alignment": 0.525,
+      "value_alignment": 0.6,
+      "pain_alignment": 0.55,
+      "behavioral_alignment": 0.475,
+      "sentiment_alignment": 0.275
+    }
+  }
+}

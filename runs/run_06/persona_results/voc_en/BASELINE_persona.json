@@ -1,0 +1,220 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "BASELINE",
+  "method": "LLM_STANDALONE",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_docs": null,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Eco-conscious Tech Enthusiast",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_BASELINE",
+      "keywords": [
+        "energy-efficient",
+        "smart features",
+        "connectivity",
+        "sustainability",
+        "app integration"
+      ],
+      "core_value": "This consumer segment values eco-friendly, tech-driven solutions.",
+      "description": "This consumer is highly aware of their household's environmental impact and eagerly adopts new technologies that promise energy savings and smart connectivity. They are always on the lookout for appliances that minimize carbon footprints while offering advanced features.",
+      "motivation": "Their purchase decisions are driven by a desire to reduce energy consumption and integrate their home with the latest smart solutions.",
+      "pain_points": "They are frustrated by limited availability of truly sustainable products and the compatibility of smart devices across platforms.",
+      "quote": "I love how my new dishwasher connects with my phone app and saves energy!",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Consumers who prioritize tech and eco-friendliness often report positive shopping experiences but may have some compatibility frustrations."
+      },
+      "top_aspects": [
+        "energy efficiency",
+        "technology",
+        "sustainability",
+        "smart home integration",
+        "connectivity"
+      ],
+      "co_aspects": {
+        "energy efficiency": [
+          "technology",
+          "sustainability"
+        ],
+        "technology": [
+          "smart home integration",
+          "connectivity"
+        ],
+        "sustainability": [
+          "energy efficiency",
+          "technology"
+        ],
+        "smart home integration": [
+          "technology",
+          "connectivity"
+        ],
+        "connectivity": [
+          "technology",
+          "smart home integration"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Busy Family Manager",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_BASELINE",
+      "keywords": [
+        "reliable",
+        "durable",
+        "capacity",
+        "family-friendly",
+        "easy to use"
+      ],
+      "core_value": "This segment values reliability and ease of use in appliances that can handle family needs.",
+      "description": "This consumer manages a busy household with multiple people and needs appliances that are dependable and easy to operate. They focus on products that can handle large loads and provide consistent performance.",
+      "motivation": "Their primary drive is ensuring that appliances can keep up with the demands of a family without frequent breakdowns.",
+      "pain_points": "They often face issues with appliance durability and finding solutions that accommodate large family needs effectively.",
+      "quote": "I need a fridge that can store enough for my family and never lets us down!",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "While reliability is often appreciated, some consumers express mild concerns about long-term durability."
+      },
+      "top_aspects": [
+        "reliability",
+        "durability",
+        "capacity",
+        "family-friendly features",
+        "ease of use"
+      ],
+      "co_aspects": {
+        "reliability": [
+          "durability",
+          "capacity"
+        ],
+        "durability": [
+          "reliability",
+          "family-friendly features"
+        ],
+        "capacity": [
+          "family-friendly features",
+          "ease of use"
+        ],
+        "family-friendly features": [
+          "capacity",
+          "ease of use"
+        ],
+        "ease of use": [
+          "family-friendly features",
+          "capacity"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Style-conscious Urban Dweller",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_BASELINE",
+      "keywords": [
+        "design",
+        "aesthetic",
+        "compact",
+        "modern",
+        "performance"
+      ],
+      "core_value": "This segment prioritizes style and design without compromising on performance.",
+      "description": "Living in urban spaces, these consumers prefer appliances that are not only high-performing but also aesthetically pleasing and compact. They value products that complement their modern lifestyle and home interiors.",
+      "motivation": "They are driven by the desire to maintain a stylish home environment that also functions efficiently.",
+      "pain_points": "Their frustrations lie in finding high-performance products that do not sacrifice design aesthetics.",
+      "quote": "I want my kitchen appliances to be as sleek as they are functional.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.4,
+        "Negative": 0.1,
+        "_inference_note": "Style and design usually lead to satisfaction, albeit with some neutral or mixed feelings about price or size constraints."
+      },
+      "top_aspects": [
+        "design",
+        "aesthetic appeal",
+        "compactness",
+        "performance",
+        "modern look"
+      ],
+      "co_aspects": {
+        "design": [
+          "aesthetic appeal",
+          "modern look"
+        ],
+        "aesthetic appeal": [
+          "design",
+          "modern look"
+        ],
+        "compactness": [
+          "design",
+          "performance"
+        ],
+        "performance": [
+          "compactness",
+          "modern look"
+        ],
+        "modern look": [
+          "design",
+          "aesthetic appeal"
+        ],
+        "persona_id": "P4",
+        "persona_name": "Value Seeker",
+        "category": "Home Appliance Products",
+        "data_source": "voc_en_BASELINE",
+        "keywords": [
+          "affordable",
+          "cost-effective",
+          "functionality",
+          "value for money",
+          "deals"
+        ],
+        "core_value": "This consumer segment places importance on cost-effectiveness and functionality.",
+        "description": "Price-sensitive shoppers who seek the best deals and ensure that every purchase maximizes utility and affordability. They research extensively to find appliances that offer good value without unnecessary frills.",
+        "motivation": "They aim to stretch their budget as far as possible by focusing on necessary features that fit within their financial constraints.",
+        "pain_points": "They are frustrated by high-priced models that do not offer significant feature advantages, and hidden costs in seemingly affordable options.",
+        "quote": "I always look for sales and discounts to make sure I get the best value for my money.",
+        "sentiment_ratio": {
+          "Positive": 0.4,
+          "Neutral": 0.4,
+          "Negative": 0.2,
+          "_inference_note": "Value seekers often feel neutrally or slightly positive about purchases, but negative when expenses feel unjustified."
+        },
+        "top_aspects": [
+          "affordability",
+          "cost-effectiveness",
+          "functionality",
+          "value for money",
+          "discounts"
+        ],
+        "co_aspects": {
+          "affordability": [
+            "cost-effectiveness",
+            "value for money"
+          ],
+          "cost-effectiveness": [
+            "affordability",
+            "functionality"
+          ],
+          "functionality": [
+            "cost-effectiveness",
+            "value for money"
+          ],
+          "value for money": [
+            "affordability",
+            "discounts"
+          ],
+          "discounts": [
+            "affordability",
+            "value for money"
+          ]
+        }
+      }
+    }
+  ]
+}

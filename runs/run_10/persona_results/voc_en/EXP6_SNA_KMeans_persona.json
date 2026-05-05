@@ -1,0 +1,242 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP6_SNA_KMeans",
+  "method": "SNA_KMEANS",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_docs": 868,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Spec-Savvy Bargain Hunter",
+      "category": "Home Appliance",
+      "data_source": "voc_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "spec",
+        "measure",
+        "price",
+        "measurement",
+        "performance"
+      ],
+      "core_value": "This consumer values precise specifications and competitive pricing.",
+      "description": "The Spec-Savvy Bargain Hunter diligently compares product specifications against price, making sure they receive performance that matches their expectations. They are methodical in their approach, focusing on getting actual value without overspending.",
+      "motivation": "They are driven by the need to maximize value for money, ensuring the product matches the promised performance and standards.",
+      "pain_points": "They experience frustration when product performance or specifications do not meet expectations or are inaccurately represented.",
+      "quote": "I always double-check that the features match the price before buying.",
+      "sentiment_ratio": {
+        "Positive": 0.1,
+        "Neutral": 0.7,
+        "Negative": 0.2,
+        "_inference_note": "Neutral perspective inferred from factual terms like 'measure', 'price', and 'standard', with slight negativity from potential mismatch concerns shown by 'actual'."
+      },
+      "top_aspects": [
+        "spec",
+        "measure",
+        "price",
+        "performance",
+        "standard"
+      ],
+      "co_aspects": {
+        "spec": [
+          "measure",
+          "price",
+          "measurement"
+        ],
+        "measure": [
+          "spec",
+          "price",
+          "performance"
+        ],
+        "price": [
+          "spec",
+          "measure",
+          "performance"
+        ],
+        "performance": [
+          "measure",
+          "price",
+          "actual"
+        ],
+        "standard": [
+          "measurement",
+          "price",
+          "actual"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Aesthetic-Oriented Buyer",
+      "category": "Home Appliance",
+      "data_source": "voc_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "color",
+        "buy",
+        "choose",
+        "want",
+        "pretty"
+      ],
+      "core_value": "This consumer places a high priority on aesthetic appeal and harmony in their purchases.",
+      "description": "The Aesthetic-Oriented Buyer chooses products based on how they look and match their existing decor. They derive satisfaction from colorful, visually pleasing products that complement their style.",
+      "motivation": "They are motivated by a desire to enhance their living space aesthetically, seeking items that are not only functional but visually appealing.",
+      "pain_points": "Their main frustration arises from products that do not meet their aesthetic expectations upon arrival.",
+      "quote": "I love picking colors that perfectly complement my home's theme.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Positive sentiment inferred from 'want', 'pretty', and 'choose', with minimal negativity from arrival mismatches suggested by 'match'."
+      },
+      "top_aspects": [
+        "color",
+        "choose",
+        "want",
+        "pretty",
+        "look"
+      ],
+      "co_aspects": {
+        "color": [
+          "choose",
+          "want",
+          "pretty"
+        ],
+        "choose": [
+          "color",
+          "want",
+          "look"
+        ],
+        "want": [
+          "color",
+          "choose",
+          "look"
+        ],
+        "pretty": [
+          "color",
+          "choose",
+          "look"
+        ],
+        "look": [
+          "color",
+          "choose",
+          "want"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Brand-Loyal Reliability Seeker",
+      "category": "Home Appliance",
+      "data_source": "voc_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "service",
+        "brand",
+        "trust",
+        "warranty",
+        "repair"
+      ],
+      "core_value": "Trust and loyalty to a reliable brand are paramount for this consumer.",
+      "description": "The Brand-Loyal Reliability Seeker looks for trustworthy brands and robust warranties. They emphasize dependable service and product reliability, often returning to brands they trust.",
+      "motivation": "Their motivation is to avoid future inconveniences by investing in products with strong brand reputations and support services.",
+      "pain_points": "Distress comes from defective products and problematic service experiences that betray their trust.",
+      "quote": "I always go with brands that I know will last and offer good service.",
+      "sentiment_ratio": {
+        "Positive": 0.3,
+        "Neutral": 0.4,
+        "Negative": 0.3,
+        "_inference_note": "Balanced sentiment as 'trust' suggests positivity, 'warranty' signals neutrality, while 'defect' and 'repair' signal negative experiences."
+      },
+      "top_aspects": [
+        "service",
+        "brand",
+        "trust",
+        "warranty",
+        "repair"
+      ],
+      "co_aspects": {
+        "service": [
+          "brand",
+          "trust",
+          "warranty"
+        ],
+        "brand": [
+          "service",
+          "trust",
+          "warranty"
+        ],
+        "trust": [
+          "service",
+          "brand",
+          "warranty"
+        ],
+        "warranty": [
+          "service",
+          "brand",
+          "trust"
+        ],
+        "repair": [
+          "service",
+          "brand",
+          "defect"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Pragmatic Cost-Conscious Buyer",
+      "category": "Home Appliance",
+      "data_source": "voc_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "price",
+        "design",
+        "buy",
+        "look",
+        "pay"
+      ],
+      "core_value": "Practicality and cost-effectiveness are crucial for this consumer.",
+      "description": "The Pragmatic Cost-Conscious Buyer evaluates products based on their cost versus design appeal. They aim for practical purchases that still provide aesthetic value at a reasonable price.",
+      "motivation": "They are driven by the need to make smart financial decisions without compromising on design.",
+      "pain_points": "They become frustrated when product designs are appealing but overly priced.",
+      "quote": "I need something that looks good without breaking the bank.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.6,
+        "Negative": 0.2,
+        "_inference_note": "Neutrality from 'buy', 'look', and 'design', with mixed sentiment from price-related keywords 'pay' and 'charge', suggesting budget concerns."
+      },
+      "top_aspects": [
+        "price",
+        "design",
+        "buy",
+        "look",
+        "performance"
+      ],
+      "co_aspects": {
+        "price": [
+          "design",
+          "buy",
+          "performance"
+        ],
+        "design": [
+          "price",
+          "buy",
+          "look"
+        ],
+        "buy": [
+          "price",
+          "design",
+          "look"
+        ],
+        "look": [
+          "price",
+          "design",
+          "buy"
+        ],
+        "performance": [
+          "price",
+          "design",
+          "buy"
+        ]
+      }
+    }
+  ]
+}

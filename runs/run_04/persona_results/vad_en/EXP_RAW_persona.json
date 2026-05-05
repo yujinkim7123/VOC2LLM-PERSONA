@@ -1,0 +1,178 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP_RAW",
+  "method": "RAW_REVIEW_INJECTION",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_reviews_injected": 200,
+  "run_seed": 70,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Tech Optimizer",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP_RAW",
+      "keywords": [
+        "easy setup",
+        "smart features",
+        "great value",
+        "user-friendly"
+      ],
+      "core_value": "A seamless and efficient smart home experience.",
+      "description": "Tech Optimizers prioritize devices that offer easy integration with their existing smart home ecosystem. They appreciate user-friendly interfaces and are motivated by the device's ability to simplify and enhance daily routines.",
+      "motivation": "They seek to optimize their daily routine with smart devices that are easy to use and offer significant value for money.",
+      "pain_points": "Occasional connectivity issues and lack of user-friendly manuals can cause frustration.",
+      "quote": "Super easy to setup and configure. Would definitely recommend. Makes changes and scheduling easy!",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Many reviews are positive about ease of use and value, with minor mentions of setup difficulties."
+      },
+      "top_aspects": [
+        "setup",
+        "features",
+        "value",
+        "interface",
+        "user-friendly"
+      ],
+      "co_aspects": {
+        "setup": [
+          "features",
+          "user-friendly",
+          "value"
+        ],
+        "features": [
+          "setup",
+          "interface",
+          "value"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Frustrated Technophile",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP_RAW",
+      "keywords": [
+        "connectivity issues",
+        "not recommended",
+        "Wi-Fi problems",
+        "customer support"
+      ],
+      "core_value": "Reliability and seamless connectivity.",
+      "description": "Frustrated Technophiles are tech-savvy consumers who expect high reliability from their smart devices. Connectivity issues and poor customer support are significant sources of dissatisfaction for them.",
+      "motivation": "They are looking for smart devices that integrate smoothly without connectivity problems and have reliable customer support.",
+      "pain_points": "Constant connectivity issues and unhelpful customer support are major frustrations.",
+      "quote": "Would not stay connected to wifi. Drops every few days, which can ruin your alarm if needing it for that.",
+      "sentiment_ratio": {
+        "Positive": 0.1,
+        "Neutral": 0.1,
+        "Negative": 0.8,
+        "_inference_note": "Multiple reviews express strong dissatisfaction with connectivity and support issues."
+      },
+      "top_aspects": [
+        "connectivity",
+        "support",
+        "reliability",
+        "Wi-Fi",
+        "troubleshooting"
+      ],
+      "co_aspects": {
+        "connectivity": [
+          "support",
+          "Wi-Fi",
+          "troubleshooting"
+        ],
+        "support": [
+          "connectivity",
+          "reliability",
+          "Wi-Fi"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Feature Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP_RAW",
+      "keywords": [
+        "amazing features",
+        "multifunctional",
+        "display",
+        "enhance experience"
+      ],
+      "core_value": "Incorporating diverse functionalities into one device.",
+      "description": "Feature Enthusiasts enjoy exploring the various features and functionalities of their devices. They love multifunctional gadgets that enhance their user experience through innovative features.",
+      "motivation": "They are driven by the potential of their devices to deliver a wide array of features that enhance entertainment and private life.",
+      "pain_points": "Complicated interfaces and lag can detract from their experience.",
+      "quote": "I love this google home device, it can play music, display photos from my google photos account, control my smart bulbs, and work as an alarm clock.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.2,
+        "Negative": 0.2,
+        "_inference_note": "Several reviews are positively amazed by the features, with minor mentions of interface and lag issues."
+      },
+      "top_aspects": [
+        "features",
+        "multifunctional",
+        "display",
+        "entertainment",
+        "experience"
+      ],
+      "co_aspects": {
+        "features": [
+          "display",
+          "multifunctional",
+          "entertainment"
+        ],
+        "display": [
+          "features",
+          "experience"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Budget Conscious Shopper",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP_RAW",
+      "keywords": [
+        "great deal",
+        "excellent value",
+        "price",
+        "affordable",
+        "savings"
+      ],
+      "core_value": "Getting the most value for money spent.",
+      "description": "Budget Conscious Shoppers are focused on finding cost-effective solutions without compromising on essential features. They seek affordable models and are attracted to sales and discounts.",
+      "motivation": "To find well-priced devices that offer a good set of features and longevity.",
+      "pain_points": "Some products may offer lower quality or durability than expected.",
+      "quote": "Great value for money! The TV works as advertised, with good picture and sound quality at an affordable price.",
+      "sentiment_ratio": {
+        "Positive": 0.8,
+        "Neutral": 0.1,
+        "Negative": 0.1,
+        "_inference_note": "Many reviews praise the excellent value and affordability, with fewer complaints about durability."
+      },
+      "top_aspects": [
+        "value",
+        "price",
+        "quality",
+        "features",
+        "deal"
+      ],
+      "co_aspects": {
+        "value": [
+          "price",
+          "deal",
+          "features"
+        ],
+        "price": [
+          "value",
+          "quality"
+        ]
+      }
+    }
+  ]
+}

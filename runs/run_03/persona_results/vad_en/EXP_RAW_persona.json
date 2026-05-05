@@ -1,0 +1,175 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP_RAW",
+  "method": "RAW_REVIEW_INJECTION",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_reviews_injected": 200,
+  "run_seed": 63,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Tech Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP_RAW",
+      "keywords": [
+        "great product",
+        "easy setup",
+        "love",
+        "amazing",
+        "recommend"
+      ],
+      "core_value": "Seeks seamless integration and superior performance.",
+      "description": "Tech Enthusiasts are quick to embrace the latest smart technologies. They appreciate products that enhance their daily lives with seamless integration and performance. Positive reviews often highlight ease of setup and great features.",
+      "motivation": "Driven by a love for technology and the benefits it brings to their lifestyle, seeking the latest gadgets.",
+      "pain_points": "Occasionally encounter issues with connectivity and setup which can tarnish their tech-savvy experience.",
+      "quote": "Amazing! I love this so much, makes life so much easier.",
+      "sentiment_ratio": {
+        "Positive": 0.8,
+        "Neutral": 0.1,
+        "Negative": 0.1,
+        "_inference_note": "Majority of reviews express high satisfaction with smart features and great user experiences."
+      },
+      "top_aspects": [
+        "easy setup",
+        "great product",
+        "features",
+        "performance",
+        "integration"
+      ],
+      "co_aspects": {
+        "easy setup": [
+          "features",
+          "performance"
+        ],
+        "features": [
+          "performance",
+          "integration"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Quality-Conscious Critic",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP_RAW",
+      "keywords": [
+        "disappointed",
+        "return",
+        "issues",
+        "not recommend",
+        "poor quality"
+      ],
+      "core_value": "Demands high-quality performance and reliability from their tech purchases.",
+      "description": "Quality-Conscious Critics are selective consumers who expect top-notch quality and performance from their devices. They are vocal about their dissatisfaction when products don’t meet expectations.",
+      "motivation": "Seeking reliable and high-performing products that last and provide value for money.",
+      "pain_points": "Frequent issues with reliability and customer support that lead to returns and dissatisfaction.",
+      "quote": "Very disappointed that we were unable to connect Alexa and our Bluetooth speaker to the Google Hub. We are returning the product due to this issue.",
+      "sentiment_ratio": {
+        "Positive": 0.1,
+        "Neutral": 0.2,
+        "Negative": 0.7,
+        "_inference_note": "Sentiment skewed negative due to frequent complaints about performance and reliability issues."
+      },
+      "top_aspects": [
+        "performance",
+        "reliability",
+        "customer support",
+        "connectivity",
+        "issues"
+      ],
+      "co_aspects": {
+        "performance": [
+          "reliability",
+          "issues"
+        ],
+        "reliability": [
+          "customer support",
+          "issues"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Bargain Hunter",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP_RAW",
+      "keywords": [
+        "price",
+        "value",
+        "deal",
+        "sale",
+        "bundle"
+      ],
+      "core_value": "Maximizes value by seeking products that deliver the best performance within budget constraints.",
+      "description": "Bargain Hunters are always on the lookout for deals and bundles that maximize value. They value features and performance but within a reasonable budget.",
+      "motivation": "Driven by the need to get the best deal possible, balancing cost with desired features and performance.",
+      "pain_points": "Can be disappointed when the product doesn’t perform as expected, despite being a good deal.",
+      "quote": "Just as I expected and more! Love the Gen 2! <3 Was so excited to get $40 off! Great price!",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.2,
+        "Negative": 0.2,
+        "_inference_note": "Reviews often mention deals and satisfaction with price-performance ratio, although limited negative notes on performance."
+      },
+      "top_aspects": [
+        "price",
+        "value",
+        "deal",
+        "offer",
+        "quality"
+      ],
+      "co_aspects": {
+        "price": [
+          "value",
+          "deal"
+        ],
+        "deal": [
+          "offer",
+          "quality"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Functionality Seeker",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP_RAW",
+      "keywords": [
+        "convenient",
+        "user-friendly",
+        "control",
+        "features",
+        "assistance"
+      ],
+      "core_value": "Prioritizes ease of use and functional integration with smart gadgets.",
+      "description": "Functionality Seekers seek out devices that offer enhanced control and ease of use, valuing the ability to integrate multiple features easily.",
+      "motivation": "Motivated by the desire for products that simplify and enhance home and lifestyle, with straightforward functionality.",
+      "pain_points": "Annoyed by complex setups or when devices fail to integrate as expected.",
+      "quote": "The Google assistance works well with this smart clock, you can set your morning and night routine on the app, so it will do a series of actions when you say certain words.",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Focus on positive experiences with functionality and ease of use, with minor mentions of integration issues."
+      },
+      "top_aspects": [
+        "functionality",
+        "ease of use",
+        "integration",
+        "control",
+        "user-friendly"
+      ],
+      "co_aspects": {
+        "functionality": [
+          "ease of use",
+          "integration"
+        ],
+        "user-friendly": [
+          "control",
+          "ease of use"
+        ]
+      }
+    }
+  ]
+}

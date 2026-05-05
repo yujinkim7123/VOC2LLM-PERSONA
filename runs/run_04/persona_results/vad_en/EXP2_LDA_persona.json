@@ -1,0 +1,179 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP2_LDA",
+  "method": "LDA",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2370,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Cautious Apple Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP2_LDA",
+      "keywords": [
+        "work",
+        "stop",
+        "return",
+        "buy",
+        "apple",
+        "pod"
+      ],
+      "core_value": "They value reliable performance and longevity in their devices.",
+      "description": "This consumer initially purchases Apple products like AirPods with high hopes but often encounters issues leading to returns. They are cautious and pay attention to performance over time.",
+      "motivation": "They are driven by a strong brand preference for Apple and the initial promise of superior performance.",
+      "pain_points": "Frequent issues with the device performance and the need to return products frustrate them.",
+      "quote": "I was really excited to buy the AirPods, but they stopped working after just a few months.",
+      "sentiment_ratio": {
+        "Positive": 0.1,
+        "Neutral": 0.3,
+        "Negative": 0.6,
+        "_inference_note": "Keywords like 'stop', 'return', and 'buy' indicate negative experiences and a transactional focus, whereas 'month' and 'work' are more neutral."
+      },
+      "top_aspects": [
+        "work",
+        "stop",
+        "return",
+        "apple",
+        "pod"
+      ],
+      "co_aspects": {
+        "work": [
+          "stop",
+          "return",
+          "buy"
+        ],
+        "apple": [
+          "pod",
+          "month"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Audio Quality Seeker",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP2_LDA",
+      "keywords": [
+        "airpod",
+        "charge",
+        "sound",
+        "battery",
+        "quality"
+      ],
+      "core_value": "They prioritize excellent audio quality and battery life in their devices.",
+      "description": "This user seeks devices that offer stellar sound quality and enduring battery performance. They are technology enthusiasts who appreciate good value.",
+      "motivation": "Driven by the desire for high-quality audio experiences and dependable use over longer periods.",
+      "pain_points": "Any shortcomings in battery life or audio performance are major disappointments.",
+      "quote": "The sound quality is excellent, but I'm always checking the battery level.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.3,
+        "Negative": 0.2,
+        "_inference_note": "Keywords like 'good', 'sound', and 'quality' suggest positive sentiments, while 'charge' and 'battery' introduce some caution (neutral/negative)."
+      },
+      "top_aspects": [
+        "airpod",
+        "charge",
+        "sound",
+        "battery",
+        "quality"
+      ],
+      "co_aspects": {
+        "airpod": [
+          "charge",
+          "sound",
+          "battery"
+        ],
+        "battery": [
+          "charge",
+          "good"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Smart Home Integrator",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP2_LDA",
+      "keywords": [
+        "thermostat",
+        "nest",
+        "google",
+        "home",
+        "easy"
+      ],
+      "core_value": "They value seamless integration and ease of use in smart home devices.",
+      "description": "This consumer prefers devices that integrate smoothly into their smart home ecosystem. They are tech-savvy and appreciate products that are easy to use and configure.",
+      "motivation": "Motivated by the convenience and efficiency that smart home technology offers.",
+      "pain_points": "Complex setup processes or connectivity issues with other devices can be frustrating.",
+      "quote": "Setting up the thermostat was straightforward, and it works great with my Google devices.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Positive sentiments are indicated by words like 'easy' and 'home', while 'unit' and 'set' are neutral."
+      },
+      "top_aspects": [
+        "thermostat",
+        "nest",
+        "google",
+        "home",
+        "easy"
+      ],
+      "co_aspects": {
+        "thermostat": [
+          "nest",
+          "google",
+          "easy"
+        ],
+        "home": [
+          "easy",
+          "google"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Value-Conscious Gadget Lover",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP2_LDA",
+      "keywords": [
+        "great",
+        "clock",
+        "smart",
+        "sound",
+        "price"
+      ],
+      "core_value": "They value getting the most features for the best price.",
+      "description": "This consumer loves gadgets and looks for products that offer great features at a competitive price. They appreciate quality but are also keenly aware of cost.",
+      "motivation": "They are motivated by perceived value and the allure of new technology.",
+      "pain_points": "When products do not meet their expected value propositions, they feel disappointed.",
+      "quote": "This smart clock has great features for the price, but I wish the sound was slightly better.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.4,
+        "Negative": 0.1,
+        "_inference_note": "Positive sentiments are signaled by 'great' and 'smart', while 'price' and 'sound' are evaluative, reflecting neutral/cautious tones."
+      },
+      "top_aspects": [
+        "great",
+        "clock",
+        "smart",
+        "sound",
+        "price"
+      ],
+      "co_aspects": {
+        "great": [
+          "clock",
+          "smart",
+          "price"
+        ],
+        "sound": [
+          "quality",
+          "price"
+        ]
+      }
+    }
+  ]
+}

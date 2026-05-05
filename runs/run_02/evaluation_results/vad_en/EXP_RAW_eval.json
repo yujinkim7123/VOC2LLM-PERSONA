@@ -1,0 +1,194 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP_RAW",
+  "method": "RAW_REVIEW_INJECTION",
+  "lang": "en",
+  "n_reviews_injected": 200,
+  "judge": {
+    "judge_matrix": [
+      [
+        0.18,
+        0.32,
+        0.36,
+        0.1
+      ],
+      [
+        0.4,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.1,
+        0.06,
+        0.06
+      ],
+      [
+        0.06,
+        0.26,
+        0.54,
+        0.06
+      ]
+    ],
+    "best_mapping": [
+      {
+        "gen_name": "Frustrated Set-up Challengers",
+        "gt_name": "The Smart Home Integrator",
+        "keyword_alignment": 0.3,
+        "value_alignment": 0.3,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.32,
+        "validity_score": 0.5,
+        "reasoning": "Generated focuses on setup issues, differing sentiment and values.",
+        "success": false
+      },
+      {
+        "gen_name": "Sound Enthusiasts",
+        "gt_name": "The Wireless Audio Pursuer",
+        "keyword_alignment": 0.7,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.4,
+        "validity_score": 0.7,
+        "reasoning": "Partial overlap in keywords, values; conflicting sentiments; grounded.",
+        "success": false
+      },
+      {
+        "gen_name": "Display Fanatics",
+        "gt_name": "The Disillusioned Early Adopter",
+        "keyword_alignment": 0.0,
+        "value_alignment": 0.0,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.0,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.06,
+        "validity_score": 0.5,
+        "reasoning": "Mismatch in core themes and sentiment; partial domain alignment.",
+        "success": false
+      },
+      {
+        "gen_name": "Tech Value Seekers",
+        "gt_name": "The Practical Value Seeker",
+        "keyword_alignment": 0.7,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.5,
+        "matching_score": 0.54,
+        "validity_score": 0.7,
+        "reasoning": "Keywords and value align mostly, but behavioral and pain points differ.",
+        "success": true
+      }
+    ],
+    "matching_score": 0.33,
+    "validity_score": 0.6,
+    "mean_all_matching": 0.1562,
+    "dim_averages": {
+      "keyword_alignment": 0.425,
+      "value_alignment": 0.375,
+      "pain_alignment": 0.4,
+      "behavioral_alignment": 0.325,
+      "sentiment_alignment": 0.125
+    },
+    "n_success": 1,
+    "mapping_success_rate": 0.25
+  },
+  "topic_sim_result": {
+    "topic_sim": 0.5051,
+    "pair_details": [
+      {
+        "gen_name": "Frustrated Set-up Challengers",
+        "gt_name": "The Smart Home Integrator",
+        "gen_aspects": [
+          "setup",
+          "instructions",
+          "support",
+          "integration",
+          "compatibility"
+        ],
+        "gt_aspects": [
+          "Smart Assistant",
+          "Clock",
+          "Connectivity",
+          "Configuration",
+          "Convenience"
+        ],
+        "topic_sim": 0.5019
+      },
+      {
+        "gen_name": "Sound Enthusiasts",
+        "gt_name": "The Wireless Audio Pursuer",
+        "gen_aspects": [
+          "sound quality",
+          "audio",
+          "volume",
+          "music",
+          "listening"
+        ],
+        "gt_aspects": [
+          "Sound",
+          "Connectivity",
+          "Price",
+          "Configuration",
+          "Size"
+        ],
+        "topic_sim": 0.5393
+      },
+      {
+        "gen_name": "Display Fanatics",
+        "gt_name": "The Disillusioned Early Adopter",
+        "gen_aspects": [
+          "screen",
+          "display",
+          "picture",
+          "quality",
+          "visual"
+        ],
+        "gt_aspects": [
+          "Durability",
+          "Defective",
+          "Charging",
+          "Connectivity",
+          "Quality"
+        ],
+        "topic_sim": 0.4044
+      },
+      {
+        "gen_name": "Tech Value Seekers",
+        "gt_name": "The Practical Value Seeker",
+        "gen_aspects": [
+          "price",
+          "value",
+          "affordable",
+          "budget",
+          "cost"
+        ],
+        "gt_aspects": [
+          "Price",
+          "Clock",
+          "Configuration",
+          "Convenience",
+          "Smart Assistant"
+        ],
+        "topic_sim": 0.5749
+      }
+    ]
+  },
+  "summary": {
+    "matching_score": 0.33,
+    "validity_score": 0.6,
+    "topic_sim": 0.5051,
+    "dim_averages": {
+      "keyword_alignment": 0.425,
+      "value_alignment": 0.375,
+      "pain_alignment": 0.4,
+      "behavioral_alignment": 0.325,
+      "sentiment_alignment": 0.125
+    }
+  }
+}

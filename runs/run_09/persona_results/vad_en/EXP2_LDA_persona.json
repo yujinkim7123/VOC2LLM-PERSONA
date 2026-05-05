@@ -1,0 +1,236 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP2_LDA",
+  "method": "LDA",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2370,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Tech-Savvy Thermostat User",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP2_LDA",
+      "keywords": [
+        "thermostat",
+        "charge",
+        "nest",
+        "google",
+        "clock"
+      ],
+      "core_value": "This consumer values integration with smart home systems.",
+      "description": "This persona is a tech-savvy individual who uses smart speakers primarily for integrating with their smart home devices, like thermostats. They are keen on ensuring compatibility and smooth operation with other gadgets.",
+      "motivation": "Their primary motivation is to enhance the functionality and convenience of their smart home setup.",
+      "pain_points": "Connectivity issues and lack of support for certain devices can be major frustrations.",
+      "quote": "I really need my smart speaker to work seamlessly with my Nest thermostat, but there are occasional issues.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.5,
+        "Negative": 0.3,
+        "_inference_note": "Positive sentiment from 'nest', 'google'. Neutral from 'thermostat', 'charge', 'clock'. Negative from 'issue'."
+      },
+      "top_aspects": [
+        "thermostat",
+        "charge",
+        "nest",
+        "google",
+        "clock"
+      ],
+      "co_aspects": {
+        "thermostat": [
+          "charge",
+          "nest",
+          "google"
+        ],
+        "nest": [
+          "thermostat",
+          "google",
+          "issue"
+        ],
+        "google": [
+          "thermostat",
+          "nest",
+          "clock"
+        ],
+        "issue": [
+          "thermostat",
+          "google"
+        ],
+        "charge": [
+          "thermostat",
+          "google"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Active Earbud Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP2_LDA",
+      "keywords": [
+        "ear",
+        "stay",
+        "fall",
+        "fit",
+        "connect",
+        "great",
+        "earpod"
+      ],
+      "core_value": "This consumer values secure fit and connectivity in their earbuds.",
+      "description": "This persona is an active user who enjoys listening to music or taking calls on the go. They prioritize earbuds that stay in place and have reliable connectivity.",
+      "motivation": "They are driven by the need for earbuds that fit perfectly and allow seamless connectivity during activities.",
+      "pain_points": "Issues with earbuds falling out and losing connectivity are their main concerns.",
+      "quote": "I love the sound quality, but I hate it when my earbuds fall out when I'm jogging.",
+      "sentiment_ratio": {
+        "Positive": 0.4,
+        "Neutral": 0.4,
+        "Negative": 0.2,
+        "_inference_note": "Positive sentiment from 'great', 'fit'. Neutral from 'ear', 'connect', 'earpod'. Negative from 'fall', 'lose'."
+      },
+      "top_aspects": [
+        "ear",
+        "stay",
+        "fall",
+        "fit",
+        "connect"
+      ],
+      "co_aspects": {
+        "ear": [
+          "stay",
+          "fall",
+          "fit"
+        ],
+        "stay": [
+          "ear",
+          "fit",
+          "connect"
+        ],
+        "fall": [
+          "ear",
+          "fit"
+        ],
+        "fit": [
+          "ear",
+          "stay",
+          "connect"
+        ],
+        "connect": [
+          "stay",
+          "earpod"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Sound Quality Seeker",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP2_LDA",
+      "keywords": [
+        "sound",
+        "music",
+        "play",
+        "quality",
+        "echo",
+        "speaker"
+      ],
+      "core_value": "This consumer values excellent sound quality in their devices.",
+      "description": "This individual is passionate about audio and seeks virtual assistant devices that provide high-quality sound for music and other media playback.",
+      "motivation": "Their main drive is finding devices that enhance their listening experience with rich and clear audio.",
+      "pain_points": "They are frustrated by devices that don't deliver on sound quality promises.",
+      "quote": "I want my virtual assistant to not only be smart but also deliver outstanding sound performance.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.3,
+        "Negative": 0.2,
+        "_inference_note": "Positive from 'sound', 'quality', 'music'. Neutral from 'play', 'speaker'. Negative from 'want', 'thing'."
+      },
+      "top_aspects": [
+        "sound",
+        "music",
+        "play",
+        "quality",
+        "echo"
+      ],
+      "co_aspects": {
+        "sound": [
+          "music",
+          "quality",
+          "echo"
+        ],
+        "music": [
+          "sound",
+          "play",
+          "quality"
+        ],
+        "play": [
+          "music",
+          "speaker"
+        ],
+        "quality": [
+          "sound",
+          "music",
+          "echo"
+        ],
+        "echo": [
+          "sound",
+          "quality",
+          "speaker"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Price-Conscious Buyer",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP2_LDA",
+      "keywords": [
+        "quality",
+        "great",
+        "good",
+        "price",
+        "buy",
+        "purchase"
+      ],
+      "core_value": "This consumer looks for a balance of cost and quality in their purchases.",
+      "description": "This persona is prudent with their spending on technology, seeking products that offer good value for money. They are not only interested in features but also in the overall purchase satisfaction.",
+      "motivation": "Their decision is driven by the need to find products that provide the best quality at a reasonable price.",
+      "pain_points": "They dislike spending money on products that do not meet expected quality standards.",
+      "quote": "I want a smart speaker that gives me great sound and features, but it also needs to be worth the price.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Positive sentiment from 'great', 'good', 'quality', 'perfect'. Neutral from 'price', 'purchase', 'buy'."
+      },
+      "top_aspects": [
+        "quality",
+        "great",
+        "good",
+        "price",
+        "buy"
+      ],
+      "co_aspects": {
+        "quality": [
+          "great",
+          "price"
+        ],
+        "great": [
+          "quality",
+          "good"
+        ],
+        "good": [
+          "great",
+          "buy"
+        ],
+        "price": [
+          "buy",
+          "purchase"
+        ],
+        "buy": [
+          "price",
+          "purchase"
+        ]
+      }
+    }
+  ]
+}

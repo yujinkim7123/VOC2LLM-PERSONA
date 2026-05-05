@@ -1,0 +1,262 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP5_LDA_KMeans",
+  "method": "LDA_KMEANS",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2370,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Budget-Conscious Quality Seeker",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP5_LDA_KMeans",
+      "keywords": [
+        "great",
+        "clock",
+        "good",
+        "work",
+        "love",
+        "smart",
+        "google",
+        "sound",
+        "quality",
+        "price"
+      ],
+      "core_value": "This segment values high-quality smart devices at an affordable price.",
+      "description": "These consumers are tech enthusiasts who seek high-quality performance from their devices, yet remain conscious of pricing. They appreciate devices that offer great functionality and sound quality, aligning their purchases with well-regarded brands like Google.",
+      "motivation": "Finding devices that balance quality, functionality, and cost-effectiveness is their primary goal.",
+      "pain_points": "Unexpected increases in price for similar functionality frustrate them.",
+      "quote": "I love the smart features and sound quality, especially for the price I paid!",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Keywords like 'great', 'good', 'love', and 'quality' signal positive sentiment, while 'work' and 'price' provide a neutral context."
+      },
+      "top_aspects": [
+        "sound",
+        "quality",
+        "price",
+        "smart",
+        "google"
+      ],
+      "co_aspects": {
+        "sound": [
+          "quality",
+          "google",
+          "smart"
+        ],
+        "quality": [
+          "sound",
+          "price",
+          "smart"
+        ],
+        "price": [
+          "quality",
+          "smart",
+          "google"
+        ],
+        "smart": [
+          "google",
+          "price",
+          "sound"
+        ],
+        "google": [
+          "sound",
+          "smart",
+          "price"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Frustrated Functionality Hound",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP5_LDA_KMeans",
+      "keywords": [
+        "work",
+        "stop",
+        "return",
+        "buy",
+        "month",
+        "apple",
+        "pod",
+        "time",
+        "airpod",
+        "week"
+      ],
+      "core_value": "Stability and consistent performance are crucial for this group.",
+      "description": "These users are often disappointed by device malfunctions and short-lived performance, leading them to frequently return products. They're eager for dependable technology but have faced issues with prominent brands leading to dissatisfaction.",
+      "motivation": "Their drive is to find a reliable device that performs consistently without interruptions.",
+      "pain_points": "Devices that stop functioning prematurely and the ensuing hassle of returns.",
+      "quote": "It stopped working after a month, and now I have to deal with the return process again.",
+      "sentiment_ratio": {
+        "Positive": 0.1,
+        "Neutral": 0.2,
+        "Negative": 0.7,
+        "_inference_note": "Keywords such as 'stop', 'return', and 'month' indicate negative experiences and frustrations."
+      },
+      "top_aspects": [
+        "work",
+        "return",
+        "apple",
+        "time",
+        "month"
+      ],
+      "co_aspects": {
+        "work": [
+          "stop",
+          "return",
+          "month"
+        ],
+        "return": [
+          "work",
+          "week",
+          "apple"
+        ],
+        "apple": [
+          "pod",
+          "month",
+          "buy"
+        ],
+        "time": [
+          "month",
+          "apple",
+          "return"
+        ],
+        "month": [
+          "work",
+          "stop",
+          "return"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Sound Quality Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP5_LDA_KMeans",
+      "keywords": [
+        "airpod",
+        "charge",
+        "ear",
+        "work",
+        "good",
+        "sound",
+        "buy",
+        "battery",
+        "case",
+        "quality"
+      ],
+      "core_value": "This segment places immense importance on exceptional sound quality.",
+      "description": "These consumers are critical of the sound quality offered by devices and are keen on those that deliver excellent audio performance. They make purchasing decisions based on sound clarity and battery life, often drawn to brands like Apple and their Airpods.",
+      "motivation": "The need for crisp sound and reliable charge times guides their choices.",
+      "pain_points": "Issues with charging and battery life can be significant dealbreakers.",
+      "quote": "The sound quality is amazing, but I wish the battery would last longer on a single charge.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.4,
+        "Negative": 0.1,
+        "_inference_note": "Words like 'good', 'sound', and 'quality' denote positive sentiment, while 'charge' and 'battery' can imply neutral to slightly negative when not performing well."
+      },
+      "top_aspects": [
+        "sound",
+        "quality",
+        "charge",
+        "battery",
+        "ear"
+      ],
+      "co_aspects": {
+        "sound": [
+          "quality",
+          "charge",
+          "ear"
+        ],
+        "quality": [
+          "sound",
+          "airpod",
+          "battery"
+        ],
+        "charge": [
+          "battery",
+          "case",
+          "ear"
+        ],
+        "battery": [
+          "charge",
+          "quality",
+          "case"
+        ],
+        "ear": [
+          "sound",
+          "charge",
+          "airpod"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Home Automation Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP5_LDA_KMeans",
+      "keywords": [
+        "thermostat",
+        "nest",
+        "work",
+        "google",
+        "set",
+        "buy",
+        "home",
+        "easy",
+        "wifi",
+        "unit"
+      ],
+      "core_value": "Ease of integrating smart devices into their home ecosystem is paramount for this segment.",
+      "description": "This segment consists of users passionate about creating a seamlessly integrated smart home environment. They are focused on devices that easily connect with other systems, emphasizing notable brands like Google Nest.",
+      "motivation": "Their pursuit is to develop a smoothly operating smart home that's easy to manage.",
+      "pain_points": "Complex setups and incompatible devices can disrupt their ideal home automation experience.",
+      "quote": "Setting up my Nest thermostat was simple and now my entire home is more efficient.",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Keywords such as 'easy', 'home', 'and 'work' convey satisfaction, while 'set' and 'unit' are neutrally factual for setup."
+      },
+      "top_aspects": [
+        "thermostat",
+        "nest",
+        "work",
+        "home",
+        "easy"
+      ],
+      "co_aspects": {
+        "thermostat": [
+          "nest",
+          "google",
+          "unit"
+        ],
+        "nest": [
+          "thermostat",
+          "work",
+          "easy"
+        ],
+        "work": [
+          "home",
+          "easy",
+          "google"
+        ],
+        "home": [
+          "nest",
+          "thermostat",
+          "easy"
+        ],
+        "easy": [
+          "home",
+          "set",
+          "unit"
+        ]
+      }
+    }
+  ]
+}

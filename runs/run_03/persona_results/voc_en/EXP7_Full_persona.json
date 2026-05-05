@@ -1,0 +1,202 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP7_Full",
+  "method": "SNA_LDA_KMEANS",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_docs": 868,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Quality-Conscious Perfectionist",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP7_Full",
+      "keywords": [
+        "quality",
+        "datum",
+        "measurement",
+        "premium",
+        "standard"
+      ],
+      "core_value": "This segment values precise measurements and premium quality.",
+      "description": "These consumers are meticulous and detail-oriented. They spend considerable time assessing the quality and specifications of home appliances to ensure they meet high standards. They appreciate when products align perfectly with their expectations.",
+      "motivation": "They are driven by the need for top-notch quality and precision in product specifications.",
+      "pain_points": "Inconsistencies in quality or deviations from expected standards frustrate them.",
+      "quote": "I chose this appliance because of its precise measurements and unbeatable quality.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "The keywords 'premium,' 'standard,' and 'quality' suggest a positive sentiment, whereas 'measurement' and 'datum' are more neutral. There is minimal negativity with the lack of complaint terms."
+      },
+      "top_aspects": [
+        "quality",
+        "measurement",
+        "premium",
+        "datum",
+        "standard"
+      ],
+      "co_aspects": {
+        "quality": [
+          "datum",
+          "measurement",
+          "premium"
+        ],
+        "measurement": [
+          "datum",
+          "premium",
+          "standard"
+        ],
+        "premium": [
+          "standard",
+          "quality",
+          "measurement"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Price-Savvy Buyer",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP7_Full",
+      "keywords": [
+        "price",
+        "discount",
+        "affordable",
+        "budget",
+        "purchase"
+      ],
+      "core_value": "These consumers prioritize affordability and value for money.",
+      "description": "They are focused on getting the best deals and are highly sensitive to pricing. They carefully compare prices across brands and look for discounts or promotions before making a purchase.",
+      "motivation": "They want to ensure they are making cost-effective decisions without compromising too much on quality.",
+      "pain_points": "High prices or a lack of discounts can deter them from purchasing.",
+      "quote": "I waited for a sale to buy this product at a better price.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.6,
+        "Negative": 0.2,
+        "_inference_note": "Keywords 'price' and 'budget' are neutral, focusing on financial aspects. The moderate positivity stems from 'affordable,' but 'discount' can indicate frustration when lacking, thus a bit of negative sentiment."
+      },
+      "top_aspects": [
+        "price",
+        "affordable",
+        "discount",
+        "budget",
+        "purchase"
+      ],
+      "co_aspects": {
+        "price": [
+          "discount",
+          "purchase",
+          "affordable"
+        ],
+        "affordable": [
+          "budget",
+          "price",
+          "purchase"
+        ],
+        "discount": [
+          "price",
+          "purchase",
+          "affordable"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Design-Focused Aesthete",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP7_Full",
+      "keywords": [
+        "design",
+        "color",
+        "style",
+        "look",
+        "aesthetic"
+      ],
+      "core_value": "This segment places high importance on the visual and stylistic appeal of appliances.",
+      "description": "They appreciate aesthetically pleasing appliances that complement their home decor. They are sensitive to color choices and sleek designs, often purchasing based on how well an item fits into their lifestyle aesthetic.",
+      "motivation": "Their drive is to enhance the visual harmony of their living space through their choice of appliances.",
+      "pain_points": "They get frustrated when appliances with the desired design are either unavailable or very expensive.",
+      "quote": "The stylish design of this appliance perfectly matches my home's interior.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.4,
+        "Negative": 0.1,
+        "_inference_note": "Keywords like 'design,' 'color,' and 'look' are neutral to positive, suggesting a focus on aesthetic appeal. Slight negativity could arise from wording around style mismatches."
+      },
+      "top_aspects": [
+        "design",
+        "color",
+        "style",
+        "look",
+        "aesthetic"
+      ],
+      "co_aspects": {
+        "design": [
+          "color",
+          "style",
+          "look"
+        ],
+        "color": [
+          "design",
+          "look",
+          "aesthetic"
+        ],
+        "style": [
+          "design",
+          "color",
+          "aesthetic"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Brand-Loyal Pragmatist",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP7_Full",
+      "keywords": [
+        "brand",
+        "warranty",
+        "trust",
+        "service",
+        "reliable"
+      ],
+      "core_value": "They prioritize trust in a brand and a reliable warranty.",
+      "description": "These consumers have a strong loyalty to specific brands they deem trustworthy. They value reliable service and warranty guarantees, making decisions based on brand reputation.",
+      "motivation": "Their buying choices are inspired by long-term reliability and trust in known brands.",
+      "pain_points": "They become frustrated when warranty claims are complicated or when a trusted brand fails them.",
+      "quote": "I only buy from brands I trust, as their warranties and services give me peace of mind.",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Positive sentiment comes from 'trust,' 'reliable,' and 'service.' 'Warranty' and 'brand' are neutral, while a slight negativity could come from 'complications' around service."
+      },
+      "top_aspects": [
+        "brand",
+        "warranty",
+        "trust",
+        "service",
+        "reliable"
+      ],
+      "co_aspects": {
+        "brand": [
+          "warranty",
+          "trust",
+          "reliable"
+        ],
+        "warranty": [
+          "brand",
+          "service",
+          "trust"
+        ],
+        "service": [
+          "trust",
+          "reliable",
+          "warranty"
+        ]
+      }
+    }
+  ]
+}

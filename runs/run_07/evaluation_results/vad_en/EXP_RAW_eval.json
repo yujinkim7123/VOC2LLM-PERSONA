@@ -1,0 +1,194 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP_RAW",
+  "method": "RAW_REVIEW_INJECTION",
+  "lang": "en",
+  "n_reviews_injected": 200,
+  "judge": {
+    "judge_matrix": [
+      [
+        0.46,
+        0.4,
+        0.12,
+        0.34
+      ],
+      [
+        0.18,
+        0.28,
+        0.46,
+        0.0
+      ],
+      [
+        0.12,
+        0.32,
+        0.16,
+        0.0
+      ],
+      [
+        0.42,
+        0.36,
+        0.24,
+        0.18
+      ]
+    ],
+    "best_mapping": [
+      {
+        "gen_name": "Frustrated Tech Enthusiast",
+        "gt_name": "The Disillusioned Early Adopter",
+        "keyword_alignment": 0.3,
+        "value_alignment": 0.3,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.3,
+        "matching_score": 0.34,
+        "validity_score": 0.7,
+        "reasoning": "Differences in themes; generated partly grounded in domain topics.",
+        "success": false
+      },
+      {
+        "gen_name": "Practical Value Seeker",
+        "gt_name": "The Practical Value Seeker",
+        "keyword_alignment": 0.7,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.3,
+        "matching_score": 0.46,
+        "validity_score": 0.7,
+        "reasoning": "Generated content is mostly grounded but lacks specific clock focus.",
+        "success": false
+      },
+      {
+        "gen_name": "Style and Aesthetics Lover",
+        "gt_name": "The Smart Home Integrator",
+        "keyword_alignment": 0.3,
+        "value_alignment": 0.0,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.7,
+        "matching_score": 0.32,
+        "validity_score": 0.7,
+        "reasoning": "Generated persona focuses on aesthetics, not home automation, overlaps limited.",
+        "success": false
+      },
+      {
+        "gen_name": "Skeptical Feature-Driven Buyer",
+        "gt_name": "The Wireless Audio Pursuer",
+        "keyword_alignment": 0.3,
+        "value_alignment": 0.3,
+        "pain_alignment": 0.7,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.5,
+        "matching_score": 0.42,
+        "validity_score": 0.5,
+        "reasoning": "Generated focuses on features, lacks alignment in sound focus.",
+        "success": false
+      }
+    ],
+    "matching_score": 0.385,
+    "validity_score": 0.65,
+    "mean_all_matching": 0.2525,
+    "dim_averages": {
+      "keyword_alignment": 0.4,
+      "value_alignment": 0.275,
+      "pain_alignment": 0.4,
+      "behavioral_alignment": 0.4,
+      "sentiment_alignment": 0.45
+    },
+    "n_success": 0,
+    "mapping_success_rate": 0.0
+  },
+  "topic_sim_result": {
+    "topic_sim": 0.4683,
+    "pair_details": [
+      {
+        "gen_name": "Frustrated Tech Enthusiast",
+        "gt_name": "The Disillusioned Early Adopter",
+        "gen_aspects": [
+          "connectivity",
+          "support",
+          "functionality",
+          "Wi-Fi",
+          "reliability"
+        ],
+        "gt_aspects": [
+          "Durability",
+          "Defective",
+          "Charging",
+          "Connectivity",
+          "Quality"
+        ],
+        "topic_sim": 0.5371
+      },
+      {
+        "gen_name": "Practical Value Seeker",
+        "gt_name": "The Practical Value Seeker",
+        "gen_aspects": [
+          "ease of use",
+          "setup",
+          "value",
+          "features",
+          "price"
+        ],
+        "gt_aspects": [
+          "Price",
+          "Clock",
+          "Configuration",
+          "Convenience",
+          "Smart Assistant"
+        ],
+        "topic_sim": 0.6135
+      },
+      {
+        "gen_name": "Style and Aesthetics Lover",
+        "gt_name": "The Smart Home Integrator",
+        "gen_aspects": [
+          "design",
+          "screen",
+          "appearance",
+          "aesthetics",
+          "display"
+        ],
+        "gt_aspects": [
+          "Smart Assistant",
+          "Clock",
+          "Connectivity",
+          "Configuration",
+          "Convenience"
+        ],
+        "topic_sim": 0.3413
+      },
+      {
+        "gen_name": "Skeptical Feature-Driven Buyer",
+        "gt_name": "The Wireless Audio Pursuer",
+        "gen_aspects": [
+          "features",
+          "performance",
+          "expectation",
+          "quality",
+          "reliability"
+        ],
+        "gt_aspects": [
+          "Sound",
+          "Connectivity",
+          "Price",
+          "Configuration",
+          "Size"
+        ],
+        "topic_sim": 0.3814
+      }
+    ]
+  },
+  "summary": {
+    "matching_score": 0.385,
+    "validity_score": 0.65,
+    "topic_sim": 0.4683,
+    "dim_averages": {
+      "keyword_alignment": 0.4,
+      "value_alignment": 0.275,
+      "pain_alignment": 0.4,
+      "behavioral_alignment": 0.4,
+      "sentiment_alignment": 0.45
+    }
+  }
+}

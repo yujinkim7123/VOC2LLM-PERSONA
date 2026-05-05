@@ -1,0 +1,178 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP_RAW",
+  "method": "RAW_REVIEW_INJECTION",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_reviews_injected": 200,
+  "run_seed": 105,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Tech Savvy Integrator",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP_RAW",
+      "keywords": [
+        "easy to install",
+        "user friendly",
+        "integrates",
+        "Google Home",
+        "smart devices"
+      ],
+      "core_value": "Seamless integration and user-friendly interface for a connected home.",
+      "description": "These consumers are highly motivated by the potential for seamless integration of new technology with their existing smart home setup. They value ease of installation and the ability to control various smart devices through a user-friendly interface.",
+      "motivation": "To enhance their smart home setup with minimal hassle and maximum connectivity.",
+      "pain_points": "Occasional connectivity issues that disrupt the smart home harmony.",
+      "quote": "I love that I can see my home camera from this item and control everything seamlessly with my Google Home system.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Reviews in this segment highlight positive experiences with integration and usability, but some mention minor connectivity hiccups."
+      },
+      "top_aspects": [
+        "installation",
+        "interface",
+        "integration",
+        "connectivity",
+        "Google Home"
+      ],
+      "co_aspects": {
+        "integration": [
+          "Google Home",
+          "smart devices",
+          "installation"
+        ],
+        "connectivity": [
+          "Google Home",
+          "integration"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Practical Value Seeker",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP_RAW",
+      "keywords": [
+        "value for money",
+        "quality",
+        "price",
+        "affordable",
+        "functional"
+      ],
+      "core_value": "Good quality at an affordable price.",
+      "description": "These consumers are driven by the desire to find the best value for their money. They seek out devices that offer solid functionality at a reasonable price and are less concerned with high-end features.",
+      "motivation": "To purchase functional devices that provide the most utility for a modest investment.",
+      "pain_points": "Limited features compared to higher-priced models or difficulty accessing some functions.",
+      "quote": "This is a great value for the $25 I paid, but there are some frustrating things about its limitations.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.4,
+        "Negative": 0.1,
+        "_inference_note": "Reviews are largely positive about the value and quality, with some frustrations expressed about feature limitations."
+      },
+      "top_aspects": [
+        "price",
+        "quality",
+        "value",
+        "functionality",
+        "affordable"
+      ],
+      "co_aspects": {
+        "value": [
+          "price",
+          "quality",
+          "affordable"
+        ],
+        "quality": [
+          "price",
+          "functionality"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Frustrated Functionality Chaser",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP_RAW",
+      "keywords": [
+        "connectivity issues",
+        "customer support",
+        "disappointed",
+        "unreliable",
+        "troubleshooting"
+      ],
+      "core_value": "Reliable and seamless user experience.",
+      "description": "These consumers often encounter frustration with device functionality, leading them to interact with customer support. They experience recurring issues that interfere with reliable use of the product.",
+      "motivation": "To have devices that work as advertised with minimal intervention required from tech support.",
+      "pain_points": "Frequent connectivity issues and unsatisfactory customer support experiences.",
+      "quote": "I've exchanged pleasantries with customer support numerous times due to recurring connectivity problems.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.3,
+        "Negative": 0.5,
+        "_inference_note": "Negative sentiment is prevalent due to recurring functionality issues and inadequate support, despite some appreciation for initial features."
+      },
+      "top_aspects": [
+        "connectivity",
+        "customer support",
+        "troubleshooting",
+        "functionality",
+        "reliability"
+      ],
+      "co_aspects": {
+        "connectivity": [
+          "troubleshooting",
+          "customer support"
+        ],
+        "functionality": [
+          "reliability",
+          "customer support"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Design Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP_RAW",
+      "keywords": [
+        "sleek design",
+        "modern",
+        "sleek",
+        "looks great",
+        "style"
+      ],
+      "core_value": "Aesthetic appeal and design quality in smart devices.",
+      "description": "These consumers are drawn to products with sleek and modern designs that complement their living spaces. They appreciate both aesthetic beauty and functionality.",
+      "motivation": "To invest in devices that add a modern touch to their home while providing practical functionality.",
+      "pain_points": "Occasionally style overshadows functionality, leading to minor usability complaints.",
+      "quote": "The sleek, modern look of the device integrates well with my home office and offers great functionality.",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Positive reviews emphasize appreciation for design and functionality, with occasional minor functionality complaints."
+      },
+      "top_aspects": [
+        "design",
+        "aesthetic",
+        "style",
+        "modern",
+        "sleek"
+      ],
+      "co_aspects": {
+        "design": [
+          "modern",
+          "sleek",
+          "functionality"
+        ],
+        "style": [
+          "design",
+          "aesthetic"
+        ]
+      }
+    }
+  ]
+}

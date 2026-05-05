@@ -1,0 +1,217 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP1_SNA",
+  "method": "SNA_LOUVAIN",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_docs": 965,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Budget-Conscious Shopper",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP1_SNA",
+      "keywords": [
+        "price",
+        "pay",
+        "month",
+        "premium",
+        "year"
+      ],
+      "core_value": "This consumer values affordability and cost-effectiveness in their purchases.",
+      "description": "They are meticulous about the cost, frequently comparing prices and looking for the best deals. They are mindful of budget constraints and value regular check-ins on price drops and offers.",
+      "motivation": "They are driven by the need to get the best value for their money without compromising too much on quality.",
+      "pain_points": "High costs and unexpected expenses frustrate them, especially when the price does not match their expectations.",
+      "quote": "I always wait for price drops before I make a purchase, and I hate overpaying for something I could get cheaper elsewhere.",
+      "sentiment_ratio": {
+        "Positive": 0.1,
+        "Neutral": 0.6,
+        "Negative": 0.3,
+        "_inference_note": "Keywords like 'expensive' and 'cheap' indicate concern over cost, suggesting negative sentiment about high prices and neutral sentiment about general price considerations."
+      },
+      "top_aspects": [
+        "price",
+        "pay",
+        "premium",
+        "year",
+        "cost"
+      ],
+      "co_aspects": {
+        "price": [
+          "pay",
+          "month",
+          "premium"
+        ],
+        "pay": [
+          "price",
+          "premium"
+        ],
+        "premium": [
+          "price",
+          "pay"
+        ],
+        "year": [
+          "price"
+        ],
+        "cost": [
+          "price"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Quality-Seeking Loyalist",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP1_SNA",
+      "keywords": [
+        "service",
+        "brand",
+        "product",
+        "defect",
+        "trust"
+      ],
+      "core_value": "They prioritize brand reliability and product quality above all else.",
+      "description": "This consumer is loyal to brands they trust, focusing heavily on service quality and product reliability. Defects and the ease of exchange or repair are key considerations.",
+      "motivation": "They want to ensure their investment lasts long and is supported by strong service.",
+      "pain_points": "Product defects and poor after-sales service are major sources of frustration for them.",
+      "quote": "I stick to brands I know will provide good service, but a defect is a dealbreaker for me.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.2,
+        "Negative": 0.3,
+        "_inference_note": "Positive sentiment is inferred from 'trust' and 'quality', with negative sentiments from 'defect' and 'repair'."
+      },
+      "top_aspects": [
+        "service",
+        "brand",
+        "quality",
+        "exchange",
+        "repair"
+      ],
+      "co_aspects": {
+        "service": [
+          "brand",
+          "product",
+          "defect"
+        ],
+        "brand": [
+          "service",
+          "product"
+        ],
+        "product": [
+          "brand"
+        ],
+        "defect": [
+          "trust",
+          "exchange",
+          "repair"
+        ],
+        "trust": [
+          "quality"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Design-Focused Decorator",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP1_SNA",
+      "keywords": [
+        "color",
+        "buy",
+        "choose",
+        "real",
+        "match"
+      ],
+      "core_value": "Aesthetics and color coordination are most important to this consumer.",
+      "description": "They are interested in how a product's appearance complements their home, making color and design key factors in their purchasing decision.",
+      "motivation": "They are driven by the need for visual appeal and matching existing home decor.",
+      "pain_points": "Disappointment arises when colors don't match expectations or when there is a lack of variety.",
+      "quote": "The color and look need to fit perfectly with my home style; otherwise, it's an instant no for me.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Positive sentiment from 'color', 'real', and 'match', indicating satisfaction when expectations are met, with neutrality from 'choose' and potential negativity if expectations are unmet."
+      },
+      "top_aspects": [
+        "color",
+        "buy",
+        "choose",
+        "real",
+        "match"
+      ],
+      "co_aspects": {
+        "color": [
+          "buy",
+          "choose",
+          "match"
+        ],
+        "buy": [
+          "color",
+          "choose"
+        ],
+        "choose": [
+          "color",
+          "buy"
+        ],
+        "real": [
+          "match"
+        ],
+        "match": [
+          "color"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Performance-Oriented Tech Enthusiast",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP1_SNA",
+      "keywords": [
+        "spec",
+        "performance",
+        "actual",
+        "measurement",
+        "output"
+      ],
+      "core_value": "Technical specs and high-performance capabilities are at the forefront of their interests.",
+      "description": "This consumer is highly interested in the specifications and performance metrics of their purchases to ensure top-tier quality and efficiency.",
+      "motivation": "They are motivated by the desire to have cutting-edge technology that maximizes functionality and efficiency.",
+      "pain_points": "Discrepancies between advertised specs and actual performance are significant sources of dissatisfaction.",
+      "quote": "I need products that deliver on their technical promises, otherwise, it's just wasted potential.",
+      "sentiment_ratio": {
+        "Positive": 0.4,
+        "Neutral": 0.4,
+        "Negative": 0.2,
+        "_inference_note": "Positive terms include 'performance' and 'high', with neutrality surrounding 'spec' and potential negativity from 'actual' if it doesn't meet expectations."
+      },
+      "top_aspects": [
+        "spec",
+        "performance",
+        "actual",
+        "measurement",
+        "output"
+      ],
+      "co_aspects": {
+        "spec": [
+          "performance",
+          "measurement"
+        ],
+        "performance": [
+          "spec",
+          "actual"
+        ],
+        "actual": [
+          "performance"
+        ],
+        "measurement": [
+          "spec"
+        ],
+        "output": [
+          "performance"
+        ]
+      }
+    }
+  ]
+}

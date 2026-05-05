@@ -1,0 +1,227 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP6_SNA_KMeans",
+  "method": "SNA_KMEANS",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2138,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Function-Focused Value Shopper",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "work",
+        "buy",
+        "month",
+        "charge",
+        "stop",
+        "return",
+        "issue"
+      ],
+      "core_value": "This consumer segment values a reliable product that provides consistent functionality.",
+      "description": "These individuals primarily focus on the functionality and reliability of their devices. They tend to buy products based on function and return them if they encounter issues within a few months.",
+      "motivation": "They are driven by the need for a product that works well over time without frequent technical issues.",
+      "pain_points": "Encountering connectivity issues or having to stop using the device due to malfunction.",
+      "quote": "I bought this last month, and it's already having connectivity issues; I might have to return it.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.3,
+        "Negative": 0.5,
+        "_inference_note": "Negative sentiment inferred from 'stop', 'return', 'issue'; some positivity from 'good'."
+      },
+      "top_aspects": [
+        "work",
+        "buy",
+        "month",
+        "charge",
+        "return"
+      ],
+      "co_aspects": {
+        "work": [
+          "buy",
+          "month",
+          "charge"
+        ],
+        "buy": [
+          "work",
+          "month"
+        ],
+        "month": [
+          "work",
+          "buy"
+        ],
+        "charge": [
+          "work",
+          "month"
+        ],
+        "return": [
+          "issue"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Smart Home Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "nest",
+        "thermostat",
+        "google",
+        "hub",
+        "home",
+        "great",
+        "use"
+      ],
+      "core_value": "Smart home integration and seamless use are paramount to this consumer.",
+      "description": "These users are deeply engaged with smart home setups, often using devices like Nest and other hubs to control their home environment. They seek products that enhance their home's connectivity and functionality.",
+      "motivation": "They desire smart devices that integrate well with Google and other systems to simplify their home life.",
+      "pain_points": "Lack of seamless integration or compatibility with existing smart home systems.",
+      "quote": "Integrating the Nest with my Google hub was great; it really streamlines managing home settings.",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Positive sentiment from 'great', 'use'; minimal negatives."
+      },
+      "top_aspects": [
+        "nest",
+        "thermostat",
+        "google",
+        "hub",
+        "home"
+      ],
+      "co_aspects": {
+        "nest": [
+          "thermostat",
+          "google",
+          "hub"
+        ],
+        "thermostat": [
+          "nest",
+          "google"
+        ],
+        "google": [
+          "nest",
+          "hub"
+        ],
+        "hub": [
+          "nest",
+          "google"
+        ],
+        "home": [
+          "google",
+          "hub"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Sound Quality Seeker",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "great",
+        "sound",
+        "quality",
+        "love",
+        "price",
+        "product"
+      ],
+      "core_value": "High sound quality and value for money are critical for these users.",
+      "description": "Consumers in this segment prioritize sound quality and often rave about the audio experience offered by their devices. They are satisfied when the price matches the quality they perceive.",
+      "motivation": "Driven by a desire for excellent audio experiences, they look for products that deliver on sound promises.",
+      "pain_points": "If the product doesn't deliver the expected sound quality, especially given the price.",
+      "quote": "Absolutely love the sound quality; it's great for the price.",
+      "sentiment_ratio": {
+        "Positive": 0.8,
+        "Neutral": 0.1,
+        "Negative": 0.1,
+        "_inference_note": "High positive signals from 'great', 'love', 'sound quality'; neutral aspect is 'price'."
+      },
+      "top_aspects": [
+        "sound",
+        "quality",
+        "great",
+        "price",
+        "product"
+      ],
+      "co_aspects": {
+        "sound": [
+          "quality",
+          "great"
+        ],
+        "quality": [
+          "sound",
+          "great"
+        ],
+        "great": [
+          "sound",
+          "quality"
+        ],
+        "price": [
+          "quality",
+          "product"
+        ],
+        "product": [
+          "quality",
+          "price"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Multifunction User",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "clock",
+        "smart",
+        "alarm",
+        "charge",
+        "phone",
+        "good"
+      ],
+      "core_value": "Versatility and efficient use are the key values for this consumer.",
+      "description": "These users seek devices that serve multiple purposes, like clocks, alarms, and connections to their phones. They appreciate smart features that enhance everyday tasks and reduce clutter.",
+      "motivation": "Motivated by multifunctionality and smart advancements that make daily life more efficient.",
+      "pain_points": "Too many functions can sometimes complicate ease of use or lead to charging issues.",
+      "quote": "Having a smart clock with alarm and phone connectivity features makes my mornings so seamless.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Predominantly positive with 'good', 'smart', 'love'; some neutral from 'clock', 'alarm'."
+      },
+      "top_aspects": [
+        "clock",
+        "smart",
+        "alarm",
+        "charge",
+        "phone"
+      ],
+      "co_aspects": {
+        "clock": [
+          "smart",
+          "alarm"
+        ],
+        "smart": [
+          "clock",
+          "alarm"
+        ],
+        "alarm": [
+          "clock",
+          "smart"
+        ],
+        "charge": [
+          "phone"
+        ],
+        "phone": [
+          "charge"
+        ]
+      }
+    }
+  ]
+}

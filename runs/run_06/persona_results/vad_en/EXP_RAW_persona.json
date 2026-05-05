@@ -1,0 +1,208 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP_RAW",
+  "method": "RAW_REVIEW_INJECTION",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_reviews_injected": 200,
+  "run_seed": 84,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Frustrated Tech Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP_RAW",
+      "keywords": [
+        "disappointed",
+        "used",
+        "issue",
+        "return",
+        "fake"
+      ],
+      "core_value": "Expectations for high quality and reliable technology.",
+      "description": "These consumers are looking for the latest tech gadgets and expect them to work as advertised without issues. They have a low tolerance for defective or misrepresentative products.",
+      "motivation": "They are driven by a passion for technology and frequently purchase new gadgets to enhance their smart home setups.",
+      "pain_points": "Common frustrations include receiving used products, items not functioning correctly, and poor customer service experiences.",
+      "quote": "I really would like an explanation as to why I was sold a used tv.",
+      "sentiment_ratio": {
+        "Positive": 0.1,
+        "Neutral": 0.1,
+        "Negative": 0.8,
+        "_inference_note": "There are multiple complaints of defective products and negative experiences, with a few neutral comments about the setup."
+      },
+      "top_aspects": [
+        "usability",
+        "customer service",
+        "quality",
+        "returns",
+        "brand"
+      ],
+      "co_aspects": {
+        "customer service": [
+          "returns",
+          "quality",
+          "issues"
+        ],
+        "usability": [
+          "issues",
+          "quality"
+        ],
+        "quality": [
+          "usability",
+          "issues"
+        ],
+        "brand": [
+          "expectations",
+          "dissatisfaction"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Value-Conscious Home Upgrader",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP_RAW",
+      "keywords": [
+        "good price",
+        "deal",
+        "recommend",
+        "bundle",
+        "satisfied"
+      ],
+      "core_value": "Finding good deals on smart upgrades for home convenience.",
+      "description": "These consumers focus on getting the most value for their money. They are pleased with their purchases, especially when products enhance their home setup affordably.",
+      "motivation": "They are motivated by promotional deals and bundle offers, seeking affordable and efficient upgrades to their homes.",
+      "pain_points": "Occasionally face issues with connectivity and setup, but these are secondary to the value they perceive they received.",
+      "quote": "I love it so much, & the speaker on it is actually pretty great for the price of it.",
+      "sentiment_ratio": {
+        "Positive": 0.75,
+        "Neutral": 0.15,
+        "Negative": 0.1,
+        "_inference_note": "Many reviews express satisfaction, especially concerning the value and deals, with some minor issues noted."
+      },
+      "top_aspects": [
+        "deal",
+        "price",
+        "quality",
+        "setup",
+        "features"
+      ],
+      "co_aspects": {
+        "price": [
+          "deal",
+          "quality"
+        ],
+        "deal": [
+          "recommend",
+          "features"
+        ],
+        "quality": [
+          "features",
+          "setup"
+        ],
+        "setup": [
+          "quality",
+          "issues"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Performance-Centric Audio Advocate",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP_RAW",
+      "keywords": [
+        "sound quality",
+        "bass",
+        "volume",
+        "connectivity",
+        "music"
+      ],
+      "core_value": "Premium sound quality and connectivity for audio experiences.",
+      "description": "This group of consumers values the audio performance of devices and looks for features that enhance music listening experiences.",
+      "motivation": "Driven by a passion for music, they seek devices that provide exceptional sound quality and seamless connectivity for their audio needs.",
+      "pain_points": "May experience connectivity issues and dissatisfaction with sound device compatibility.",
+      "quote": "The bass.. it makes everything sound better.",
+      "sentiment_ratio": {
+        "Positive": 0.65,
+        "Neutral": 0.2,
+        "Negative": 0.15,
+        "_inference_note": "Focus on sound quality-related positive comments with some neutral and a few negative instances of connectivity issues."
+      },
+      "top_aspects": [
+        "sound quality",
+        "music",
+        "bass",
+        "volume",
+        "connectivity"
+      ],
+      "co_aspects": {
+        "sound quality": [
+          "bass",
+          "music"
+        ],
+        "bass": [
+          "volume",
+          "quality"
+        ],
+        "connectivity": [
+          "sound quality",
+          "music"
+        ],
+        "music": [
+          "volume",
+          "quality"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Early Adopter of Smart Home Tech",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP_RAW",
+      "keywords": [
+        "features",
+        "smart home",
+        "integration",
+        "google",
+        "alexa"
+      ],
+      "core_value": "Embracing advanced features and seamless home integration.",
+      "description": "These individuals are enthusiastic about integrating technology into their homes and are early adopters of new smart home devices.",
+      "motivation": "They are motivated by cutting-edge features and the ability to control various aspects of their home environment easily.",
+      "pain_points": "Encounters occasional issues with integration and device compatibility within their ecosystems.",
+      "quote": "Just simply a must purchase, things are easier more efficiently done these days.",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Predominantly positive sentiment with appreciation for smart features, mixed with some neutral comments about integration challenges."
+      },
+      "top_aspects": [
+        "features",
+        "integration",
+        "smart home",
+        "compatibility",
+        "ecosystem"
+      ],
+      "co_aspects": {
+        "integration": [
+          "compatibility",
+          "ecosystem"
+        ],
+        "features": [
+          "smart home",
+          "alexa"
+        ],
+        "smart home": [
+          "integration",
+          "google"
+        ],
+        "ecosystem": [
+          "compatibility",
+          "features"
+        ]
+      }
+    }
+  ]
+}

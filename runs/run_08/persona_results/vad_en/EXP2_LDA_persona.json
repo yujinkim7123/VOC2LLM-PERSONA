@@ -1,0 +1,210 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP2_LDA",
+  "method": "LDA",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2370,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Tech-Savvy Troubleshooter",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP2_LDA",
+      "keywords": [
+        "thermostat",
+        "charge",
+        "nest",
+        "work",
+        "google",
+        "phone",
+        "issue"
+      ],
+      "core_value": "They value seamless integration and reliable tech support.",
+      "description": "These users are technically inclined and interact with a variety of smart home devices. They often face technical issues and seek reliable customer support and device interoperability.",
+      "motivation": "They are driven by the desire to manage their home environment efficiently using integrated smart devices.",
+      "pain_points": "Technical issues and insufficient customer support frustrate them.",
+      "quote": "I wish my Google devices would work smoothly without constant charging issues.",
+      "sentiment_ratio": {
+        "Positive": 0.1,
+        "Neutral": 0.5,
+        "Negative": 0.4,
+        "_inference_note": "The presence of 'issue', 'support', and 'work' indicate technical problems and a lack of satisfaction, whereas 'google' and 'nest' imply functional aspects."
+      },
+      "top_aspects": [
+        "thermostat",
+        "charge",
+        "nest",
+        "work",
+        "google"
+      ],
+      "co_aspects": {
+        "thermostat": [
+          "charge",
+          "nest",
+          "work"
+        ],
+        "nest": [
+          "thermostat",
+          "google",
+          "issue"
+        ],
+        "charge": [
+          "thermostat",
+          "work",
+          "phone"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Active Lifestyle Audiophile",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP2_LDA",
+      "keywords": [
+        "ear",
+        "stay",
+        "fit",
+        "headphone",
+        "phone",
+        "lose",
+        "connect"
+      ],
+      "core_value": "They prioritize secure and reliable audio connectivity during activities.",
+      "description": "These consumers are constantly on the move and rely heavily on headphones that remain secure and connected. Comfort and connectivity are critical to their experience.",
+      "motivation": "They choose devices that provide secure and enduring fit for an active lifestyle.",
+      "pain_points": "Instances where the headphones fall off or lose connection are particularly frustrating.",
+      "quote": "It's annoying when my headphones fall out during a workout.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.5,
+        "Negative": 0.3,
+        "_inference_note": "Words like 'fit', 'secure', and 'connect' suggest practical concerns, while 'lose' and 'fall' indicate dissatisfaction."
+      },
+      "top_aspects": [
+        "ear",
+        "fit",
+        "headphone",
+        "phone",
+        "connect"
+      ],
+      "co_aspects": {
+        "ear": [
+          "stay",
+          "fit",
+          "headphone"
+        ],
+        "fit": [
+          "ear",
+          "stay",
+          "connect"
+        ],
+        "connect": [
+          "phone",
+          "headphone",
+          "lose"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Home Entertainment Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP2_LDA",
+      "keywords": [
+        "sound",
+        "music",
+        "play",
+        "quality",
+        "echo",
+        "speaker",
+        "time"
+      ],
+      "core_value": "They value high-quality audio performance and versatility.",
+      "description": "This group loves to enhance their leisure time with excellent music and sound quality from their smart speakers. They focus on audio performance and functionality.",
+      "motivation": "They invest in devices that provide superior sound quality for an enriched listening experience.",
+      "pain_points": "Subpar sound quality or limited functionality dampen their enjoyment.",
+      "quote": "The sound quality from my Echo speaker really elevates my relaxation time.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Words like 'sound', 'music', 'quality', and 'play' stress positive audio experiences, despite some mention of 'issue'."
+      },
+      "top_aspects": [
+        "sound",
+        "music",
+        "play",
+        "quality",
+        "echo"
+      ],
+      "co_aspects": {
+        "sound": [
+          "music",
+          "quality",
+          "echo"
+        ],
+        "music": [
+          "sound",
+          "play",
+          "quality"
+        ],
+        "quality": [
+          "sound",
+          "music",
+          "echo"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Value-Conscious Shopper",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP2_LDA",
+      "keywords": [
+        "quality",
+        "great",
+        "price",
+        "samsung",
+        "picture",
+        "buy",
+        "perfect"
+      ],
+      "core_value": "They seek good value for money without compromising on quality.",
+      "description": "These consumers are budget-conscious yet desire high-quality devices. They weigh purchase decisions heavily based on value propositions.",
+      "motivation": "They are motivated by deals offering high-quality features at a reasonable price.",
+      "pain_points": "Excessive pricing without commensurate quality deters them from purchasing.",
+      "quote": "I found a great deal on a Samsung device that had all the features I wanted.",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Predominantly positive keywords such as 'great', 'perfect', and 'good', indicating satisfaction with price and quality."
+      },
+      "top_aspects": [
+        "quality",
+        "great",
+        "price",
+        "samsung",
+        "picture"
+      ],
+      "co_aspects": {
+        "quality": [
+          "great",
+          "price",
+          "picture"
+        ],
+        "price": [
+          "quality",
+          "buy",
+          "great"
+        ],
+        "samsung": [
+          "quality",
+          "picture",
+          "buy"
+        ]
+      }
+    }
+  ]
+}

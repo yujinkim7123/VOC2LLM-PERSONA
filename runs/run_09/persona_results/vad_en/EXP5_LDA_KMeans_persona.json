@@ -1,0 +1,162 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP5_LDA_KMeans",
+  "method": "LDA_KMEANS",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2370,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Audio Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP5_LDA_KMeans",
+      "keywords": [
+        "sound",
+        "music",
+        "quality",
+        "echo",
+        "speaker"
+      ],
+      "core_value": "This consumer values high-quality audio experiences.",
+      "description": "These individuals prioritize superior sound quality and often mention music and speakers in their reviews. They appreciate products that enhance their listening experience.",
+      "motivation": "They are motivated by the pursuit of high-quality sound, desiring devices that elevate their music enjoyment.",
+      "pain_points": "Low sound quality or any disruption to audio performance significantly frustrates them.",
+      "quote": "The sound quality on this speaker is just what I've been looking for.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Keywords like 'quality', 'great', and 'sound' suggest mostly positive experiences, with some neutral use context."
+      },
+      "top_aspects": [
+        "sound",
+        "music",
+        "quality",
+        "echo",
+        "speaker"
+      ],
+      "co_aspects": {
+        "sound": [
+          "music",
+          "quality",
+          "speaker"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Tech-Savvy Smart Home Integrator",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP5_LDA_KMeans",
+      "keywords": [
+        "thermostat",
+        "nest",
+        "google",
+        "wireless",
+        "support"
+      ],
+      "core_value": "Seamless integration with smart home ecosystems is their top priority.",
+      "description": "This group focuses on the compatibility and connectivity of devices with their existing smart home systems. They often discuss integration issues and resolutions.",
+      "motivation": "They aim to create a connected home experience, seeking devices that complement their smart home suite.",
+      "pain_points": "Issues with connectivity and compatibility with other devices are major frustrations.",
+      "quote": "The thermostat integrated seamlessly with my Google home setup.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.3,
+        "Negative": 0.2,
+        "_inference_note": "While 'support' and 'google' indicate positive integration experiences, 'issue' and 'work' suggest some challenges."
+      },
+      "top_aspects": [
+        "thermostat",
+        "nest",
+        "google",
+        "wireless",
+        "support"
+      ],
+      "co_aspects": {
+        "thermostat": [
+          "nest",
+          "google",
+          "wireless"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Practical Budget Buyer",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP5_LDA_KMeans",
+      "keywords": [
+        "quality",
+        "great",
+        "price",
+        "buy",
+        "purchase"
+      ],
+      "core_value": "They prioritize finding a balance between quality and cost.",
+      "description": "These consumers focus on achieving value for money. They often mention price and purchasing decisions in their narratives.",
+      "motivation": "Driving their purchases is the desire to get the best quality possible within a reasonable budget.",
+      "pain_points": "High costs without corresponding quality improvements frustrate them.",
+      "quote": "I found this speaker to be a great investment for the price.",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "The presence of 'great', 'quality', and 'price' indicates positive value assessments."
+      },
+      "top_aspects": [
+        "quality",
+        "great",
+        "price",
+        "buy",
+        "purchase"
+      ],
+      "co_aspects": {
+        "quality": [
+          "great",
+          "price",
+          "buy"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Frustrated Tech Adopter",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP5_LDA_KMeans",
+      "keywords": [
+        "work",
+        "buy",
+        "return",
+        "stop",
+        "apple"
+      ],
+      "core_value": "Reliability and ease of use are crucial for this segment.",
+      "description": "These users often face reliability issues with their devices, which results in them expressing frustration over product functionality.",
+      "motivation": "They desire functional devices that consistently meet expectations without technical hitches.",
+      "pain_points": "Frequent device failures and the need for returns significantly frustrate them.",
+      "quote": "I was disappointed that the product stopped working after just a month.",
+      "sentiment_ratio": {
+        "Positive": 0.1,
+        "Neutral": 0.3,
+        "Negative": 0.6,
+        "_inference_note": "Words like 'return', 'stop', and 'issue' indicate a predominance of negative experiences."
+      },
+      "top_aspects": [
+        "work",
+        "buy",
+        "return",
+        "stop",
+        "apple"
+      ],
+      "co_aspects": {
+        "work": [
+          "buy",
+          "return",
+          "stop"
+        ]
+      }
+    }
+  ]
+}

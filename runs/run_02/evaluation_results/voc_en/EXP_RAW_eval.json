@@ -1,0 +1,194 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP_RAW",
+  "method": "RAW_REVIEW_INJECTION",
+  "lang": "en",
+  "n_reviews_injected": 200,
+  "judge": {
+    "judge_matrix": [
+      [
+        0.54,
+        0.06,
+        0.0,
+        0.06
+      ],
+      [
+        0.06,
+        0.34,
+        0.1,
+        0.38
+      ],
+      [
+        0.28,
+        0.48,
+        0.0,
+        0.06
+      ],
+      [
+        0.0,
+        0.06,
+        0.62,
+        0.18
+      ]
+    ],
+    "best_mapping": [
+      {
+        "gen_name": "Price-Conscious Bargain Seekers",
+        "gt_name": "Price-Sensitive Bargain Hunter",
+        "keyword_alignment": 0.7,
+        "value_alignment": 1.0,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.7,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.54,
+        "validity_score": 1.0,
+        "reasoning": "Strong alignment except sentiment and pain points.",
+        "success": true
+      },
+      {
+        "gen_name": "Quality-Driven Realists",
+        "gt_name": "Trust-Seeking After-Service Prioritizer",
+        "keyword_alignment": 0.3,
+        "value_alignment": 0.3,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.7,
+        "matching_score": 0.38,
+        "validity_score": 0.7,
+        "reasoning": "Keywords and values differ; sentiment aligns more closely.",
+        "success": false
+      },
+      {
+        "gen_name": "Functional Tech Explorers",
+        "gt_name": "Performance-Focused Spec Evaluator",
+        "keyword_alignment": 0.7,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.7,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.48,
+        "validity_score": 0.7,
+        "reasoning": "Generated persona lacks depth and precise alignment with reference.",
+        "success": false
+      },
+      {
+        "gen_name": "Aesthetic Enthusiasts",
+        "gt_name": "Design-Driven Aesthetic Consumer",
+        "keyword_alignment": 0.7,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.7,
+        "behavioral_alignment": 0.7,
+        "sentiment_alignment": 0.3,
+        "matching_score": 0.62,
+        "validity_score": 1.0,
+        "reasoning": "The personas have similar focus on aesthetics but differ in sentiment.",
+        "success": true
+      }
+    ],
+    "matching_score": 0.505,
+    "validity_score": 0.85,
+    "mean_all_matching": 0.2012,
+    "dim_averages": {
+      "keyword_alignment": 0.6,
+      "value_alignment": 0.625,
+      "pain_alignment": 0.5,
+      "behavioral_alignment": 0.55,
+      "sentiment_alignment": 0.25
+    },
+    "n_success": 2,
+    "mapping_success_rate": 0.5
+  },
+  "topic_sim_result": {
+    "topic_sim": 0.4582,
+    "pair_details": [
+      {
+        "gen_name": "Price-Conscious Bargain Seekers",
+        "gt_name": "Price-Sensitive Bargain Hunter",
+        "gen_aspects": [
+          "price",
+          "deal",
+          "discount",
+          "promotion",
+          "value"
+        ],
+        "gt_aspects": [
+          "Price/Cost",
+          "Performance/Specs",
+          "Design/Appearance",
+          "Shipping/Service",
+          "Ease of Use"
+        ],
+        "topic_sim": 0.4377
+      },
+      {
+        "gen_name": "Quality-Driven Realists",
+        "gt_name": "Trust-Seeking After-Service Prioritizer",
+        "gen_aspects": [
+          "build quality",
+          "performance",
+          "durability",
+          "reliability",
+          "design"
+        ],
+        "gt_aspects": [
+          "Shipping/Service",
+          "Price/Cost",
+          "Ease of Use",
+          "Performance/Specs",
+          "Design/Appearance"
+        ],
+        "topic_sim": 0.456
+      },
+      {
+        "gen_name": "Functional Tech Explorers",
+        "gt_name": "Performance-Focused Spec Evaluator",
+        "gen_aspects": [
+          "specs",
+          "features",
+          "performance",
+          "compatibility",
+          "hardware"
+        ],
+        "gt_aspects": [
+          "Performance/Specs",
+          "Ease of Use",
+          "Design/Appearance",
+          "Shipping/Service",
+          "Price/Cost"
+        ],
+        "topic_sim": 0.4734
+      },
+      {
+        "gen_name": "Aesthetic Enthusiasts",
+        "gt_name": "Design-Driven Aesthetic Consumer",
+        "gen_aspects": [
+          "design",
+          "color",
+          "appearance",
+          "style",
+          "visuals"
+        ],
+        "gt_aspects": [
+          "Design/Appearance",
+          "Ease of Use",
+          "Price/Cost",
+          "Shipping/Service",
+          "Performance/Specs"
+        ],
+        "topic_sim": 0.4659
+      }
+    ]
+  },
+  "summary": {
+    "matching_score": 0.505,
+    "validity_score": 0.85,
+    "topic_sim": 0.4582,
+    "dim_averages": {
+      "keyword_alignment": 0.6,
+      "value_alignment": 0.625,
+      "pain_alignment": 0.5,
+      "behavioral_alignment": 0.55,
+      "sentiment_alignment": 0.25
+    }
+  }
+}

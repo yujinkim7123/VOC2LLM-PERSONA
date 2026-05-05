@@ -1,0 +1,167 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP6_SNA_KMeans",
+  "method": "SNA_KMEANS",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2138,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Persistent Tech Troubleshooter",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "work",
+        "buy",
+        "month",
+        "charge",
+        "stop",
+        "return",
+        "connect"
+      ],
+      "core_value": "They value reliability and seamless operation.",
+      "description": "This persona is someone who frequently encounters technical challenges with their devices. They are determined to make things work but are frustrated with recurring issues and the need for returns.",
+      "motivation": "They are driven by the necessity to maintain operational devices and avoid disruptions in their daily routine.",
+      "pain_points": "They are frustrated by connectivity issues and the frequent need for returns and repairs.",
+      "quote": "I've had to return and reconnect my device several times, which is quite frustrating.",
+      "sentiment_ratio": {
+        "Positive": 0.1,
+        "Neutral": 0.3,
+        "Negative": 0.6,
+        "_inference_note": "Neutral words like 'buy', 'time', and 'good' are overshadowed by negative words like 'stop', 'return', 'connect', and 'issue', indicating overall dissatisfaction."
+      },
+      "top_aspects": [
+        "work",
+        "buy",
+        "month",
+        "charge",
+        "stop"
+      ],
+      "co_aspects": {
+        "work": [
+          "buy",
+          "month",
+          "charge"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Home Integration Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "nest",
+        "thermostat",
+        "google",
+        "hub",
+        "work",
+        "home"
+      ],
+      "core_value": "They value the seamless integration of smart home technologies.",
+      "description": "This persona is dedicated to creating a smart home environment with their devices. They appreciate the innovations that enhance home convenience and automation.",
+      "motivation": "They are motivated by the desire to enhance their living space with cutting-edge technology and smart integrations.",
+      "pain_points": "Occasional compatibility issues can be a source of frustration.",
+      "quote": "Integrating my thermostat with Google Hub has made managing my home so much easier!",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Positive keywords like 'great', 'work', and 'product' dominate, with some neutral words like 'buy' and 'use'."
+      },
+      "top_aspects": [
+        "nest",
+        "thermostat",
+        "google",
+        "hub",
+        "work"
+      ],
+      "co_aspects": {
+        "nest": [
+          "thermostat",
+          "google",
+          "hub"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Value-For-Money Seeker",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "great",
+        "good",
+        "sound",
+        "quality",
+        "price",
+        "product"
+      ],
+      "core_value": "They seek quality products that offer great value for their price.",
+      "description": "This persona is careful with their spending but wants to ensure that they get the best quality for their investment. They often compare features and prices before making a purchase.",
+      "motivation": "They are motivated by a desire to balance cost and quality, ensuring they receive a good deal.",
+      "pain_points": "Encountering poor sound quality or feeling they could have gotten better for the same price.",
+      "quote": "The sound quality is great, especially for what I paid!",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Positive sentiment is evident with words such as 'great', 'good', 'love', and 'quality'."
+      },
+      "top_aspects": [
+        "great",
+        "good",
+        "sound",
+        "quality",
+        "price"
+      ],
+      "co_aspects": {
+        "great": [
+          "good",
+          "sound",
+          "quality"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Feature-Focused Early Adopter",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "clock",
+        "smart",
+        "great",
+        "alarm",
+        "phone",
+        "work"
+      ],
+      "core_value": "They value innovative and smart features that enhance daily life.",
+      "description": "An early adopter enamored with smart technology, this persona values new features and gadgets that can simplify and enhance their routine.",
+      "motivation": "They are driven by a love for technology and innovation, always looking for the next useful feature.",
+      "pain_points": "Bugs in new features or integrations can cause frustration.",
+      "quote": "The smart clock integrates well with my phone and keeps my day on track!",
+      "sentiment_ratio": {
+        "Positive": 0.8,
+        "Neutral": 0.15,
+        "Negative": 0.05,
+        "_inference_note": "Positive keywords like 'great', 'love', 'smart', and 'good' indicate strong satisfaction."
+      },
+      "top_aspects": [
+        "clock",
+        "smart",
+        "great",
+        "alarm",
+        "phone"
+      ],
+      "co_aspects": {
+        "clock": [
+          "smart",
+          "great",
+          "alarm"
+        ]
+      }
+    }
+  ]
+}

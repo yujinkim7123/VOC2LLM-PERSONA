@@ -1,0 +1,196 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP1_SNA",
+  "method": "SNA_LOUVAIN",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_docs": 965,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Budget-Conscious Evaluator",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP1_SNA",
+      "keywords": [
+        "price",
+        "pay",
+        "month",
+        "premium",
+        "cost"
+      ],
+      "core_value": "This consumer focuses on finding appliances that provide the best value for money.",
+      "description": "These consumers are highly concerned about the financial aspects of their purchases. They compare prices meticulously, seeking the juncture where cost meets quality, but are wary of both high prices and exceptionally low prices that drop.",
+      "motivation": "They aim to derive maximum value for their expenditures, seeking premium quality at fair prices.",
+      "pain_points": "They get frustrated when costs do not align with expectations, encountering prices that are either too high for their budget or suspiciously low.",
+      "quote": "I'm always looking for the best deal, but it’s frustrating when the prices fluctuate unexpectedly.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.6,
+        "Negative": 0.2,
+        "_inference_note": "Keywords like 'premium' suggest positivity, 'cheap' is neutral, while 'expensive' indicates negativity."
+      },
+      "top_aspects": [
+        "price",
+        "cost",
+        "premium",
+        "pay",
+        "expect"
+      ],
+      "co_aspects": {
+        "price": [
+          "pay",
+          "premium",
+          "month"
+        ],
+        "premium": [
+          "price",
+          "expect",
+          "year"
+        ],
+        "cost": [
+          "expect",
+          "expensive",
+          "cheap"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Brand-Driven Quality Seeker",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP1_SNA",
+      "keywords": [
+        "service",
+        "brand",
+        "product",
+        "defect",
+        "quality"
+      ],
+      "core_value": "Quality and brand reputation are paramount for these consumers.",
+      "description": "These consumers are loyal to brands they trust and prioritize purchasing branded products. They rely on service quality and product standards and are particularly sensitive to defects and exchanges.",
+      "motivation": "They are driven by a desire for reliability and assurances from well-known brands.",
+      "pain_points": "They become frustrated with any defects or service issues, which lead to exchanges or repairs.",
+      "quote": "I always stick with brands I trust, but any defects are a major letdown.",
+      "sentiment_ratio": {
+        "Positive": 0.3,
+        "Neutral": 0.4,
+        "Negative": 0.3,
+        "_inference_note": "Words like 'trust' and 'quality' imply positivity; 'defect' and 'repair' signal negativity."
+      },
+      "top_aspects": [
+        "service",
+        "brand",
+        "defect",
+        "quality",
+        "exchange"
+      ],
+      "co_aspects": {
+        "service": [
+          "brand",
+          "exchange",
+          "defect"
+        ],
+        "brand": [
+          "trust",
+          "service"
+        ],
+        "defect": [
+          "quality",
+          "exchange"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Aesthetic Home Decorator",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP1_SNA",
+      "keywords": [
+        "color",
+        "buy",
+        "choose",
+        "real",
+        "interior"
+      ],
+      "core_value": "The aesthetic harmony of appliances with home decor is their primary concern.",
+      "description": "These individuals prioritize the look and feel of their purchases, aiming to enhance their home's interior aesthetics. They require accurate color matching and are sensitive to design discrepancies.",
+      "motivation": "They are motivated by enhancing the visual and style aspects of their living spaces.",
+      "pain_points": "They are frustrated when the colors or designs do not match their expectations or their interiors.",
+      "quote": "I need everything to match perfectly with my home decor.",
+      "sentiment_ratio": {
+        "Positive": 0.4,
+        "Neutral": 0.4,
+        "Negative": 0.2,
+        "_inference_note": "'Real' and 'interior' imply neutral use, while 'color' and 'choose' slightly lean positive."
+      },
+      "top_aspects": [
+        "color",
+        "buy",
+        "choose",
+        "real",
+        "interior"
+      ],
+      "co_aspects": {
+        "color": [
+          "buy",
+          "choose",
+          "interior"
+        ],
+        "buy": [
+          "color",
+          "choose"
+        ],
+        "choose": [
+          "real",
+          "interior",
+          "different"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Efficient Performance Seeker",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP1_SNA",
+      "keywords": [
+        "spec",
+        "performance",
+        "actual",
+        "measurement",
+        "efficiency"
+      ],
+      "core_value": "This consumer segment prioritizes high performance and efficient functionality in their appliances.",
+      "description": "They focus heavily on performance metrics and actual measurements, interested in how appliances deliver in terms of output and efficiency.",
+      "motivation": "Efficiency and top-tier performance guide their decisions, seeking appliances that deliver as promised.",
+      "pain_points": "They become frustrated if the actual performance does not meet the specified or anticipated levels.",
+      "quote": "I need to know the appliance will perform efficiently and meet its specified claims.",
+      "sentiment_ratio": {
+        "Positive": 0.3,
+        "Neutral": 0.5,
+        "Negative": 0.2,
+        "_inference_note": "'Efficiency' and 'high' signal positivity, 'measure' and 'actual' are neutral, while absence of expected performance is negative."
+      },
+      "top_aspects": [
+        "spec",
+        "performance",
+        "actual",
+        "measurement",
+        "efficiency"
+      ],
+      "co_aspects": {
+        "spec": [
+          "performance",
+          "actual"
+        ],
+        "performance": [
+          "spec",
+          "efficiency"
+        ],
+        "efficiency": [
+          "measurement",
+          "actual"
+        ]
+      }
+    }
+  ]
+}

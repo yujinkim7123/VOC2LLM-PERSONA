@@ -1,0 +1,193 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP5_LDA_KMeans",
+  "method": "LDA_KMEANS",
+  "lang": "en",
+  "judge": {
+    "judge_matrix": [
+      [
+        0.46,
+        0.42,
+        0.0,
+        0.18
+      ],
+      [
+        0.0,
+        0.0,
+        0.4,
+        0.0
+      ],
+      [
+        0.0,
+        0.32,
+        0.06,
+        0.56
+      ],
+      [
+        0.12,
+        0.12,
+        0.12,
+        0.46
+      ]
+    ],
+    "best_mapping": [
+      {
+        "gen_name": "Practical Budget-Conscious Buyer",
+        "gt_name": "Price-Sensitive Bargain Hunter",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.3,
+        "matching_score": 0.46,
+        "validity_score": 0.7,
+        "reasoning": "Keywords miss key aspects, sentiment misaligned; mostly grounded in domain.",
+        "success": false
+      },
+      {
+        "gen_name": "Aesthetic-Driven Decorator",
+        "gt_name": "Design-Driven Aesthetic Consumer",
+        "keyword_alignment": 0.7,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.4,
+        "validity_score": 1.0,
+        "reasoning": "Generated persona lacks negative sentiment and detailed pain points.",
+        "success": false
+      },
+      {
+        "gen_name": "Cautious Warranty Seeker",
+        "gt_name": "Performance-Focused Spec Evaluator",
+        "keyword_alignment": 0.3,
+        "value_alignment": 0.0,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.7,
+        "matching_score": 0.32,
+        "validity_score": 0.5,
+        "reasoning": "Generated persona has warranty focus, deviates from specs emphasis.",
+        "success": false
+      },
+      {
+        "gen_name": "Problem Solver",
+        "gt_name": "Trust-Seeking After-Service Prioritizer",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.3,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.5,
+        "matching_score": 0.46,
+        "validity_score": 0.7,
+        "reasoning": "Some keyword overlap; missing core values; partial sentiment match.",
+        "success": false
+      }
+    ],
+    "matching_score": 0.41,
+    "validity_score": 0.725,
+    "mean_all_matching": 0.2012,
+    "dim_averages": {
+      "keyword_alignment": 0.5,
+      "value_alignment": 0.375,
+      "pain_alignment": 0.35,
+      "behavioral_alignment": 0.45,
+      "sentiment_alignment": 0.375
+    },
+    "n_success": 0,
+    "mapping_success_rate": 0.0
+  },
+  "topic_sim_result": {
+    "topic_sim": 0.4098,
+    "pair_details": [
+      {
+        "gen_name": "Practical Budget-Conscious Buyer",
+        "gt_name": "Price-Sensitive Bargain Hunter",
+        "gen_aspects": [
+          "price",
+          "spec",
+          "buy",
+          "service",
+          "performance"
+        ],
+        "gt_aspects": [
+          "Price/Cost",
+          "Performance/Specs",
+          "Design/Appearance",
+          "Shipping/Service",
+          "Ease of Use"
+        ],
+        "topic_sim": 0.4914
+      },
+      {
+        "gen_name": "Aesthetic-Driven Decorator",
+        "gt_name": "Design-Driven Aesthetic Consumer",
+        "gen_aspects": [
+          "color",
+          "pretty",
+          "look",
+          "design",
+          "beautiful"
+        ],
+        "gt_aspects": [
+          "Design/Appearance",
+          "Ease of Use",
+          "Price/Cost",
+          "Shipping/Service",
+          "Performance/Specs"
+        ],
+        "topic_sim": 0.4228
+      },
+      {
+        "gen_name": "Cautious Warranty Seeker",
+        "gt_name": "Performance-Focused Spec Evaluator",
+        "gen_aspects": [
+          "warranty",
+          "service",
+          "brand",
+          "app",
+          "spec"
+        ],
+        "gt_aspects": [
+          "Performance/Specs",
+          "Ease of Use",
+          "Design/Appearance",
+          "Shipping/Service",
+          "Price/Cost"
+        ],
+        "topic_sim": 0.3825
+      },
+      {
+        "gen_name": "Problem Solver",
+        "gt_name": "Trust-Seeking After-Service Prioritizer",
+        "gen_aspects": [
+          "service",
+          "exchange",
+          "trust",
+          "defect",
+          "issue"
+        ],
+        "gt_aspects": [
+          "Shipping/Service",
+          "Price/Cost",
+          "Ease of Use",
+          "Performance/Specs",
+          "Design/Appearance"
+        ],
+        "topic_sim": 0.3427
+      }
+    ]
+  },
+  "summary": {
+    "matching_score": 0.41,
+    "validity_score": 0.725,
+    "topic_sim": 0.4098,
+    "dim_averages": {
+      "keyword_alignment": 0.5,
+      "value_alignment": 0.375,
+      "pain_alignment": 0.35,
+      "behavioral_alignment": 0.45,
+      "sentiment_alignment": 0.375
+    }
+  }
+}

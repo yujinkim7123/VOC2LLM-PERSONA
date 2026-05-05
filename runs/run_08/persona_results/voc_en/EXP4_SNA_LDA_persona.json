@@ -1,0 +1,240 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP4_SNA_LDA",
+  "method": "SNA_LDA",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_docs": 965,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Price-Conscious Buyer",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP4_SNA_LDA",
+      "keywords": [
+        "price",
+        "pay",
+        "month",
+        "cost",
+        "premium"
+      ],
+      "core_value": "Seeking cost-effective purchases and deals.",
+      "description": "This consumer focuses heavily on the cost of home appliances, actively seeking out premium quality at affordable prices. They are meticulous about monthly expenses and bargain hunting.",
+      "motivation": "Driven by the desire to find cost-effective appliances without compromising on quality.",
+      "pain_points": "Frustrated by high costs and unexpected price drops post-purchase.",
+      "quote": "I am always on the lookout for the best deal but don't want to sacrifice quality for a lower price.",
+      "sentiment_ratio": {
+        "Positive": 0.3,
+        "Neutral": 0.5,
+        "Negative": 0.2,
+        "_inference_note": "Keywords like 'premium' and 'cheap' imply a mix of positive and neutral attitudes towards pricing, with some discontent at 'drop'."
+      },
+      "top_aspects": [
+        "price",
+        "pay",
+        "month",
+        "cost",
+        "premium"
+      ],
+      "co_aspects": {
+        "price": [
+          "pay",
+          "month",
+          "cost",
+          "premium",
+          "cheap"
+        ],
+        "pay": [
+          "price",
+          "month",
+          "cost"
+        ],
+        "month": [
+          "price",
+          "pay",
+          "cost"
+        ],
+        "cost": [
+          "price",
+          "pay",
+          "month"
+        ],
+        "premium": [
+          "price",
+          "pay"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Brand Reliability Seeker",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP4_SNA_LDA",
+      "keywords": [
+        "service",
+        "brand",
+        "trust",
+        "product",
+        "defect"
+      ],
+      "core_value": "Values reliability and trust in reputable brands.",
+      "description": "This consumer values reliable brands with strong after-sales support and minimal defects. They prioritize service quality and brand reputation when making purchasing decisions.",
+      "motivation": "Driven by the need to trust that their purchases will be durable and backed by good service.",
+      "pain_points": "Concerned about defects and inadequacies in product repairs.",
+      "quote": "I only buy from brands that I trust to provide quality products and excellent service.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.3,
+        "Negative": 0.5,
+        "_inference_note": "Negative sentiment from 'defect' and 'repair', slightly balanced by 'trust' and 'quality'."
+      },
+      "top_aspects": [
+        "service",
+        "brand",
+        "trust",
+        "product",
+        "defect"
+      ],
+      "co_aspects": {
+        "service": [
+          "brand",
+          "trust",
+          "product",
+          "defect"
+        ],
+        "brand": [
+          "service",
+          "trust",
+          "product",
+          "defect"
+        ],
+        "trust": [
+          "service",
+          "brand",
+          "product"
+        ],
+        "product": [
+          "service",
+          "brand",
+          "trust"
+        ],
+        "defect": [
+          "service",
+          "brand"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Style-Oriented Decorator",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP4_SNA_LDA",
+      "keywords": [
+        "color",
+        "buy",
+        "choose",
+        "match",
+        "beautiful"
+      ],
+      "core_value": "Prioritizes aesthetics and visual harmony in home appliances.",
+      "description": "This consumer is focused on the aesthetic appeal of appliances, ensuring that they choose items that match their decor and color schemes.",
+      "motivation": "Motivated by the desire to create a cohesive and stylish living space with their appliance choices.",
+      "pain_points": "Dissatisfied when product colors do not match online photos.",
+      "quote": "My appliances must complement my home décor perfectly—I won't settle for anything less.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Positive emphasis on 'beautiful' and 'match', with slight negativity towards unmet expectations in 'photo'."
+      },
+      "top_aspects": [
+        "color",
+        "buy",
+        "choose",
+        "match",
+        "beautiful"
+      ],
+      "co_aspects": {
+        "color": [
+          "buy",
+          "choose",
+          "match",
+          "beautiful"
+        ],
+        "buy": [
+          "color",
+          "choose",
+          "match"
+        ],
+        "choose": [
+          "color",
+          "buy",
+          "match"
+        ],
+        "match": [
+          "color",
+          "buy",
+          "choose"
+        ],
+        "beautiful": [
+          "color"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Performance-Driven Tech Enthusiast",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP4_SNA_LDA",
+      "keywords": [
+        "performance",
+        "output",
+        "spec",
+        "actual",
+        "efficiency"
+      ],
+      "core_value": "Focused on high performance and technical specifications.",
+      "description": "This type of consumer scrutinizes the technical performance and efficiency of home appliances, making sure they're getting maximum output.",
+      "motivation": "Driven by the need for high-performing and energy-efficient appliances that meet their technical standards.",
+      "pain_points": "Frustrated when the actual product performance diverges from advertised specifications.",
+      "quote": "I invest in appliances that deliver the promised performance and efficiency.",
+      "sentiment_ratio": {
+        "Positive": 0.4,
+        "Neutral": 0.4,
+        "Negative": 0.2,
+        "_inference_note": "While 'performance' and 'efficiency' are positive, 'actual' and 'spec' suggest attention to discrepancies."
+      },
+      "top_aspects": [
+        "performance",
+        "output",
+        "spec",
+        "actual",
+        "efficiency"
+      ],
+      "co_aspects": {
+        "performance": [
+          "output",
+          "spec",
+          "actual",
+          "efficiency"
+        ],
+        "output": [
+          "performance",
+          "spec",
+          "actual"
+        ],
+        "spec": [
+          "performance",
+          "output"
+        ],
+        "actual": [
+          "performance",
+          "output"
+        ],
+        "efficiency": [
+          "performance"
+        ]
+      }
+    }
+  ]
+}

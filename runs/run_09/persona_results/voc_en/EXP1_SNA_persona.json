@@ -1,0 +1,169 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP1_SNA",
+  "method": "SNA_LOUVAIN",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_docs": 965,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Cost-Conscious Shopper",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP1_SNA",
+      "keywords": [
+        "price",
+        "pay",
+        "month",
+        "premium",
+        "year",
+        "cost",
+        "expensive"
+      ],
+      "core_value": "This consumer segment values affordability and cost management.",
+      "description": "These consumers are meticulous about finances, weighing the cost against perceived benefits. They are likely to express concerns about ongoing costs and price expectations.",
+      "motivation": "They are driven by the need for budget-friendly options without compromising too much on value.",
+      "pain_points": "High recurring costs and unexpected price drops frustrate them.",
+      "quote": "I want to ensure I get the best value for the price I am paying over the months.",
+      "sentiment_ratio": {
+        "Positive": 0.1,
+        "Neutral": 0.5,
+        "Negative": 0.4,
+        "_inference_note": "Keywords like 'expensive' and 'cost' indicate cost sensitivity, with some dissatisfaction over pricing."
+      },
+      "top_aspects": [
+        "price",
+        "pay",
+        "month",
+        "premium",
+        "year"
+      ],
+      "co_aspects": {
+        "price": [
+          "pay",
+          "month",
+          "premium"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Quality-Focused Brand Loyalist",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP1_SNA",
+      "keywords": [
+        "service",
+        "brand",
+        "product",
+        "defect",
+        "trust",
+        "quality",
+        "repair"
+      ],
+      "core_value": "This segment prioritizes brand reputation and product quality.",
+      "description": "Consumers in this group value established brands and quality service. They often rely on brand trust as a guarantee of quality.",
+      "motivation": "They are motivated by the assurance of quality and the brand's promise of service.",
+      "pain_points": "Defects and repairs can damage trust and cause significant frustration.",
+      "quote": "I trust this brand because they have always provided quality products and service.",
+      "sentiment_ratio": {
+        "Positive": 0.4,
+        "Neutral": 0.3,
+        "Negative": 0.3,
+        "_inference_note": "Positive mentions of 'trust' and 'quality' are offset by concerns about 'defect' and 'repair'."
+      },
+      "top_aspects": [
+        "service",
+        "brand",
+        "product",
+        "defect",
+        "trust"
+      ],
+      "co_aspects": {
+        "brand": [
+          "product",
+          "trust",
+          "quality"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Stylish Home Decorator",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP1_SNA",
+      "keywords": [
+        "color",
+        "buy",
+        "choose",
+        "real",
+        "match",
+        "interior",
+        "accuracy"
+      ],
+      "core_value": "Complementing home aesthetics is their top priority.",
+      "description": "These customers focus on how a product fits and enhances their home's decor. They look for products that can harmonize with their interior design choices.",
+      "motivation": "Their main motivation is to find products that align aesthetically with their home environment.",
+      "pain_points": "Mismatch between expected and actual color or design can be frustrating.",
+      "quote": "Buying this appliance was mostly about how well it matched my interior decor.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.4,
+        "Negative": 0.1,
+        "_inference_note": "Words like 'choose' and 'real' reflect a neutral to positive sentiment towards color accuracy and interior matching."
+      },
+      "top_aspects": [
+        "color",
+        "buy",
+        "choose",
+        "interior",
+        "match"
+      ],
+      "co_aspects": {
+        "color": [
+          "buy",
+          "choose",
+          "match"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Tech-Savvy Performance Seeker",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP1_SNA",
+      "keywords": [
+        "spec",
+        "performance",
+        "measurement",
+        "output",
+        "high",
+        "efficiency"
+      ],
+      "core_value": "Performance and efficiency are crucial for these tech enthusiasts.",
+      "description": "This group values advanced specifications and cutting-edge performance. They scrutinize product capabilities and often compare them with technical benchmarks.",
+      "motivation": "Their purchases are driven by a desire for high-performance and efficient devices.",
+      "pain_points": "Discrepancies between expected and actual performance can lead to dissatisfaction.",
+      "quote": "The performance specs of this appliance were exactly what I was looking for.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "'High', 'performance', and 'efficiency' denote positive experiences, with little negativity."
+      },
+      "top_aspects": [
+        "spec",
+        "performance",
+        "measurement",
+        "output",
+        "efficiency"
+      ],
+      "co_aspects": {
+        "performance": [
+          "spec",
+          "output",
+          "efficiency"
+        ]
+      }
+    }
+  ]
+}

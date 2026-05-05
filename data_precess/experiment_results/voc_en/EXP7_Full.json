@@ -1,0 +1,119 @@
+{
+  "exp_id": "EXP-7",
+  "method": "SNA_LDA_KMEANS",
+  "file": "voc_en",
+  "lang": "en",
+  "n_docs": 868,
+  "n_docs_original": 965,
+  "k": 4,
+  "sna_filter_keywords": [
+    "month",
+    "case",
+    "mean",
+    "real",
+    "cable",
+    "day",
+    "ear",
+    "measurement",
+    "design",
+    "like",
+    "get",
+    "want",
+    "pay",
+    "time",
+    "issue",
+    "charge",
+    "arrive",
+    "spec",
+    "support",
+    "measure",
+    "match",
+    "file",
+    "color",
+    "display",
+    "pretty",
+    "make",
+    "premium",
+    "service",
+    "repair",
+    "price",
+    "buy",
+    "product",
+    "performance",
+    "setup",
+    "carry",
+    "standard",
+    "actual",
+    "quality",
+    "beautiful",
+    "brand",
+    "look",
+    "exchange",
+    "choose",
+    "feel",
+    "trust",
+    "defect",
+    "datum",
+    "warranty",
+    "use",
+    "app"
+  ],
+  "silhouette_mean": 0.7593,
+  "silhouette_std": 0.0001,
+  "coherence_cv": 0.4869,
+  "cluster_distribution": {
+    "0": 228,
+    "1": 256,
+    "2": 211,
+    "3": 173
+  },
+  "cluster_topic_dist": {
+    "cluster_0": {
+      "n_docs": 228,
+      "dominant_topic": 2,
+      "topic_dist": [
+        0.0903,
+        0.0589,
+        0.7817,
+        0.0691
+      ]
+    },
+    "cluster_1": {
+      "n_docs": 256,
+      "dominant_topic": 0,
+      "topic_dist": [
+        0.719,
+        0.0933,
+        0.1251,
+        0.0626
+      ]
+    },
+    "cluster_2": {
+      "n_docs": 211,
+      "dominant_topic": 1,
+      "topic_dist": [
+        0.0805,
+        0.7789,
+        0.0622,
+        0.0784
+      ]
+    },
+    "cluster_3": {
+      "n_docs": 173,
+      "dominant_topic": 3,
+      "topic_dist": [
+        0.0915,
+        0.1126,
+        0.0883,
+        0.7076
+      ]
+    }
+  },
+  "used_params": {
+    "k": 4,
+    "lda_passes": 30,
+    "lda_no_below": 2,
+    "lda_no_above": 0.9
+  },
+  "paper_ref": "Scientific Reports(2025) / Blondel(2008) / Blei(2003) / MacQueen(1967) / Grid-Search Tuned"
+}

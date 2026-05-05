@@ -1,0 +1,193 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "BASELINE",
+  "method": "LLM_STANDALONE",
+  "lang": "en",
+  "judge": {
+    "judge_matrix": [
+      [
+        0.24,
+        0.62,
+        0.18,
+        0.0
+      ],
+      [
+        0.06,
+        0.46,
+        0.32,
+        0.0
+      ],
+      [
+        0.06,
+        0.0,
+        0.06,
+        0.0
+      ],
+      [
+        0.16,
+        0.5,
+        0.5,
+        0.0
+      ]
+    ],
+    "best_mapping": [
+      {
+        "gen_name": "Tech Enthusiast Habitual User",
+        "gt_name": "The Wireless Audio Pursuer",
+        "keyword_alignment": 0.3,
+        "value_alignment": 0.3,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.24,
+        "validity_score": 0.5,
+        "reasoning": "Generated persona focuses on smart home integration, not audio experience.",
+        "success": false
+      },
+      {
+        "gen_name": "Busy Family Manager",
+        "gt_name": "The Smart Home Integrator",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.3,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.7,
+        "matching_score": 0.46,
+        "validity_score": 0.7,
+        "reasoning": "Keywords overlap partially, different core values, and different pain points.",
+        "success": false
+      },
+      {
+        "gen_name": "Privacy-Conscious Skeptic",
+        "gt_name": "The Disillusioned Early Adopter",
+        "keyword_alignment": 0.0,
+        "value_alignment": 0.0,
+        "pain_alignment": 0.0,
+        "behavioral_alignment": 0.0,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.0,
+        "validity_score": 0.0,
+        "reasoning": "Generated persona focuses on privacy, unrelated to provided domain.",
+        "success": false
+      },
+      {
+        "gen_name": "Elderly-Friendly ThatUser",
+        "gt_name": "The Practical Value Seeker",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.3,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.7,
+        "matching_score": 0.5,
+        "validity_score": 0.7,
+        "reasoning": "Keywords and pain points overlap partially; value is simpler.",
+        "success": true
+      }
+    ],
+    "matching_score": 0.3,
+    "validity_score": 0.475,
+    "mean_all_matching": 0.1975,
+    "dim_averages": {
+      "keyword_alignment": 0.325,
+      "value_alignment": 0.225,
+      "pain_alignment": 0.275,
+      "behavioral_alignment": 0.325,
+      "sentiment_alignment": 0.35
+    },
+    "n_success": 1,
+    "mapping_success_rate": 0.25
+  },
+  "topic_sim_result": {
+    "topic_sim": 0.4265,
+    "pair_details": [
+      {
+        "gen_name": "Tech Enthusiast Habitual User",
+        "gt_name": "The Wireless Audio Pursuer",
+        "gen_aspects": [
+          "integration",
+          "functionality",
+          "compatibility",
+          "smart home",
+          "assistant"
+        ],
+        "gt_aspects": [
+          "Sound",
+          "Connectivity",
+          "Price",
+          "Configuration",
+          "Size"
+        ],
+        "topic_sim": 0.4188
+      },
+      {
+        "gen_name": "Busy Family Manager",
+        "gt_name": "The Smart Home Integrator",
+        "gen_aspects": [
+          "scheduling",
+          "voice control",
+          "timers",
+          "reminders",
+          "kids"
+        ],
+        "gt_aspects": [
+          "Smart Assistant",
+          "Clock",
+          "Connectivity",
+          "Configuration",
+          "Convenience"
+        ],
+        "topic_sim": 0.4204
+      },
+      {
+        "gen_name": "Privacy-Conscious Skeptic",
+        "gt_name": "The Disillusioned Early Adopter",
+        "gen_aspects": [
+          "privacy",
+          "data collection",
+          "security",
+          "surveillance",
+          "trust"
+        ],
+        "gt_aspects": [
+          "Durability",
+          "Defective",
+          "Charging",
+          "Connectivity",
+          "Quality"
+        ],
+        "topic_sim": 0.3309
+      },
+      {
+        "gen_name": "Elderly-Friendly ThatUser",
+        "gt_name": "The Practical Value Seeker",
+        "gen_aspects": [
+          "ease of use",
+          "accessibility",
+          "voice commands",
+          "simple",
+          "setup"
+        ],
+        "gt_aspects": [
+          "Price",
+          "Clock",
+          "Configuration",
+          "Convenience",
+          "Smart Assistant"
+        ],
+        "topic_sim": 0.5361
+      }
+    ]
+  },
+  "summary": {
+    "matching_score": 0.3,
+    "validity_score": 0.475,
+    "topic_sim": 0.4265,
+    "dim_averages": {
+      "keyword_alignment": 0.325,
+      "value_alignment": 0.225,
+      "pain_alignment": 0.275,
+      "behavioral_alignment": 0.325,
+      "sentiment_alignment": 0.35
+    }
+  }
+}

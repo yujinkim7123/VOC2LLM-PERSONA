@@ -1,0 +1,190 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP7_Full",
+  "method": "SNA_LDA_KMEANS",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_docs": 868,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Warranty-Conscious Strategic Buyer",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP7_Full",
+      "keywords": [
+        "warranty",
+        "repair",
+        "exchange",
+        "defect",
+        "service",
+        "trust",
+        "premium"
+      ],
+      "core_value": "This consumer segment values reliability and post-purchase support.",
+      "description": "These consumers carefully evaluate warranties and seek assurance of product durability. They prefer brands they can trust to offer reliable and high-quality service.",
+      "motivation": "Their primary drive is the secure knowledge that their investment is protected through effective service and warranty.",
+      "pain_points": "Lingering concerns about defects and recurring repair needs frustrate them.",
+      "quote": "I always check the warranty details before making a major purchase.",
+      "sentiment_ratio": {
+        "Positive": 0.3,
+        "Neutral": 0.4,
+        "Negative": 0.3,
+        "_inference_note": "Keywords such as 'warranty', 'trust', and 'service' suggest a concern for reliability, with 'defect' and 'repair' indicating potential issues."
+      },
+      "top_aspects": [
+        "warranty",
+        "repair",
+        "exchange",
+        "defect",
+        "service"
+      ],
+      "co_aspects": {
+        "warranty": [
+          "repair",
+          "defect",
+          "service"
+        ],
+        "repair": [
+          "warranty",
+          "defect",
+          "exchange"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Feature-Savvy Value Hunter",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP7_Full",
+      "keywords": [
+        "spec",
+        "price",
+        "brand",
+        "value",
+        "choose",
+        "product",
+        "performance"
+      ],
+      "core_value": "They seek to maximize value by finding products with the best features for the price.",
+      "description": "These consumers are detail-oriented and thorough in their research, selecting appliances that boast superior specifications within their budget range.",
+      "motivation": "They aim to get the most advanced features without overspending.",
+      "pain_points": "Pricing that misaligns with perceived product performance causes frustration.",
+      "quote": "I'm always looking for the best specs for my budget when buying home appliances.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.3,
+        "Negative": 0.2,
+        "_inference_note": "The focus on 'spec', 'value', and 'performance' indicates a positive evaluation of product features, balanced with concern for fair 'price'."
+      },
+      "top_aspects": [
+        "spec",
+        "price",
+        "brand",
+        "value",
+        "performance"
+      ],
+      "co_aspects": {
+        "price": [
+          "spec",
+          "brand",
+          "value"
+        ],
+        "spec": [
+          "price",
+          "performance",
+          "brand"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Aesthetic Enthusiast",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP7_Full",
+      "keywords": [
+        "design",
+        "color",
+        "beautiful",
+        "look",
+        "feel",
+        "premium",
+        "quality"
+      ],
+      "core_value": "This segment values style and the aesthetic appeal of appliances in their living space.",
+      "description": "Aesthetically-driven consumers prioritize how an appliance complements their home decor and the visual impression it creates.",
+      "motivation": "Their choice is heavily influenced by the design and color schemes that align with their personal style.",
+      "pain_points": "Products that fail to match their design expectations or quality standards are disappointing.",
+      "quote": "The design of my appliances is just as important as their functionality.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Positive terms like 'beautiful', 'premium', and 'quality' suggest a strong appreciation for design, with minimal negatives implied."
+      },
+      "top_aspects": [
+        "design",
+        "color",
+        "beautiful",
+        "look",
+        "feel"
+      ],
+      "co_aspects": {
+        "design": [
+          "color",
+          "look",
+          "premium"
+        ],
+        "beautiful": [
+          "design",
+          "look",
+          "feel"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Practical Everyday User",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP7_Full",
+      "keywords": [
+        "use",
+        "setup",
+        "carry",
+        "datum",
+        "measure",
+        "actual",
+        "function"
+      ],
+      "core_value": "They prioritize functionality and practical use over other aspects.",
+      "description": "These consumers focus on practical utility and straightforward functionality in their appliance choices.",
+      "motivation": "Their main concern is ensuring the appliance fills its intended purpose effectively and efficiently.",
+      "pain_points": "Complex setups or usage difficulties cause them stress.",
+      "quote": "All I need is an appliance that works correctly without hassle.",
+      "sentiment_ratio": {
+        "Positive": 0.4,
+        "Neutral": 0.5,
+        "Negative": 0.1,
+        "_inference_note": "Keywords like 'use', 'setup', and 'function' show a mostly neutral, functional focus with some positive aspects reflecting ease of use."
+      },
+      "top_aspects": [
+        "use",
+        "setup",
+        "carry",
+        "datum",
+        "measure"
+      ],
+      "co_aspects": {
+        "use": [
+          "setup",
+          "function",
+          "actual"
+        ],
+        "setup": [
+          "use",
+          "measure",
+          "carry"
+        ]
+      }
+    }
+  ]
+}

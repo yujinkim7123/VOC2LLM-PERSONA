@@ -1,0 +1,193 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP5_LDA_KMeans",
+  "method": "LDA_KMEANS",
+  "lang": "en",
+  "judge": {
+    "judge_matrix": [
+      [
+        0.62,
+        0.54,
+        0.0,
+        0.18
+      ],
+      [
+        0.0,
+        0.0,
+        0.58,
+        0.0
+      ],
+      [
+        0.12,
+        0.18,
+        0.26,
+        0.68
+      ],
+      [
+        0.0,
+        0.28,
+        0.0,
+        0.48
+      ]
+    ],
+    "best_mapping": [
+      {
+        "gen_name": "Value-Oriented Shopper",
+        "gt_name": "Price-Sensitive Bargain Hunter",
+        "keyword_alignment": 0.7,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.7,
+        "behavioral_alignment": 0.7,
+        "sentiment_alignment": 0.3,
+        "matching_score": 0.62,
+        "validity_score": 0.7,
+        "reasoning": "Keywords and values mostly align, sentiment inference is inaccurate.",
+        "success": true
+      },
+      {
+        "gen_name": "Aesthetic-Focused Buyer",
+        "gt_name": "Design-Driven Aesthetic Consumer",
+        "keyword_alignment": 0.7,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.7,
+        "sentiment_alignment": 0.3,
+        "matching_score": 0.58,
+        "validity_score": 0.7,
+        "reasoning": "Keywords and values align decently, but sentiment direction is off.",
+        "success": true
+      },
+      {
+        "gen_name": "Service-Concerned Consumer",
+        "gt_name": "Trust-Seeking After-Service Prioritizer",
+        "keyword_alignment": 0.7,
+        "value_alignment": 0.7,
+        "pain_alignment": 1.0,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.5,
+        "matching_score": 0.68,
+        "validity_score": 1.0,
+        "reasoning": "Aligns on service focus and concerns, less on specifics and sentiment.",
+        "success": true
+      },
+      {
+        "gen_name": "Warranty-Conscious User",
+        "gt_name": "Performance-Focused Spec Evaluator",
+        "keyword_alignment": 0.3,
+        "value_alignment": 0.0,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.3,
+        "matching_score": 0.28,
+        "validity_score": 0.7,
+        "reasoning": "Keywords and values differ; warranty focus lacks grounding in performance specs.",
+        "success": false
+      }
+    ],
+    "matching_score": 0.54,
+    "validity_score": 0.775,
+    "mean_all_matching": 0.245,
+    "dim_averages": {
+      "keyword_alignment": 0.6,
+      "value_alignment": 0.525,
+      "pain_alignment": 0.675,
+      "behavioral_alignment": 0.55,
+      "sentiment_alignment": 0.35
+    },
+    "n_success": 3,
+    "mapping_success_rate": 0.75
+  },
+  "topic_sim_result": {
+    "topic_sim": 0.4121,
+    "pair_details": [
+      {
+        "gen_name": "Value-Oriented Shopper",
+        "gt_name": "Price-Sensitive Bargain Hunter",
+        "gen_aspects": [
+          "price",
+          "spec",
+          "performance",
+          "cost",
+          "brand"
+        ],
+        "gt_aspects": [
+          "Price/Cost",
+          "Performance/Specs",
+          "Design/Appearance",
+          "Shipping/Service",
+          "Ease of Use"
+        ],
+        "topic_sim": 0.5242
+      },
+      {
+        "gen_name": "Aesthetic-Focused Buyer",
+        "gt_name": "Design-Driven Aesthetic Consumer",
+        "gen_aspects": [
+          "color",
+          "design",
+          "look",
+          "setup",
+          "choose"
+        ],
+        "gt_aspects": [
+          "Design/Appearance",
+          "Ease of Use",
+          "Price/Cost",
+          "Shipping/Service",
+          "Performance/Specs"
+        ],
+        "topic_sim": 0.391
+      },
+      {
+        "gen_name": "Service-Concerned Consumer",
+        "gt_name": "Trust-Seeking After-Service Prioritizer",
+        "gen_aspects": [
+          "service",
+          "exchange",
+          "defect",
+          "issue",
+          "brand"
+        ],
+        "gt_aspects": [
+          "Shipping/Service",
+          "Price/Cost",
+          "Ease of Use",
+          "Performance/Specs",
+          "Design/Appearance"
+        ],
+        "topic_sim": 0.3674
+      },
+      {
+        "gen_name": "Warranty-Conscious User",
+        "gt_name": "Performance-Focused Spec Evaluator",
+        "gen_aspects": [
+          "warranty",
+          "service",
+          "brand",
+          "spec",
+          "period"
+        ],
+        "gt_aspects": [
+          "Performance/Specs",
+          "Ease of Use",
+          "Design/Appearance",
+          "Shipping/Service",
+          "Price/Cost"
+        ],
+        "topic_sim": 0.3659
+      }
+    ]
+  },
+  "summary": {
+    "matching_score": 0.54,
+    "validity_score": 0.775,
+    "topic_sim": 0.4121,
+    "dim_averages": {
+      "keyword_alignment": 0.6,
+      "value_alignment": 0.525,
+      "pain_alignment": 0.675,
+      "behavioral_alignment": 0.55,
+      "sentiment_alignment": 0.35
+    }
+  }
+}

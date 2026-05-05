@@ -1,0 +1,224 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP7_Full",
+  "method": "SNA_LDA_KMEANS",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2138,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Pragmatic Features Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP7_Full",
+      "keywords": [
+        "device",
+        "light",
+        "work",
+        "smart",
+        "feature",
+        "home"
+      ],
+      "core_value": "This consumer prioritizes functional and practical features in smart home devices.",
+      "description": "They are deeply interested in the technical capabilities of virtual assistants that enhance their home environment. Their reviews often focus on how well the device integrates with other technologies and its overall performance.",
+      "motivation": "Motivated by the desire for advanced functionalities that seamlessly integrate into their smart home setup.",
+      "pain_points": "They can be frustrated by devices that do not work consistently or have compatibility issues.",
+      "quote": "I love how this device controls my lights, but it struggles with connecting to other smart home devices.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.3,
+        "Negative": 0.2,
+        "_inference_note": "Keywords like 'smart', 'feature', and 'work' suggest a positive sentiment towards functionality, while 'issue' indicates some negative experiences."
+      },
+      "top_aspects": [
+        "device",
+        "feature",
+        "work",
+        "smart",
+        "light"
+      ],
+      "co_aspects": {
+        "device": [
+          "feature",
+          "work",
+          "smart"
+        ],
+        "light": [
+          "smart",
+          "home"
+        ],
+        "work": [
+          "feature",
+          "home"
+        ],
+        "smart": [
+          "feature",
+          "light"
+        ],
+        "feature": [
+          "device",
+          "smart"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "App Integration Guardian",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP7_Full",
+      "keywords": [
+        "app",
+        "connect",
+        "phone",
+        "google",
+        "support",
+        "use"
+      ],
+      "core_value": "This consumer is focused on seamless integration between apps and devices.",
+      "description": "They often discuss how well the device's app functions and interacts with other platforms. Their reviews highlight the ease of use and the level of support required for app integration.",
+      "motivation": "They desire hassle-free connectivity and efficient app performance.",
+      "pain_points": "Frustrations arise when the app fails to sync properly with the device or requires frequent technical support.",
+      "quote": "The app needs better support; sometimes it doesn't connect with my phone as expected.",
+      "sentiment_ratio": {
+        "Positive": 0.3,
+        "Neutral": 0.5,
+        "Negative": 0.2,
+        "_inference_note": "Positive words like 'use' and 'connect', with some frustration words like 'support' and 'issue'."
+      },
+      "top_aspects": [
+        "app",
+        "connect",
+        "phone",
+        "google",
+        "support"
+      ],
+      "co_aspects": {
+        "app": [
+          "connect",
+          "use",
+          "google"
+        ],
+        "phone": [
+          "connect",
+          "app"
+        ],
+        "connect": [
+          "app",
+          "support"
+        ],
+        "google": [
+          "app",
+          "use"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Aesthetic and Entertainment Seeker",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP7_Full",
+      "keywords": [
+        "screen",
+        "display",
+        "picture",
+        "nice",
+        "music",
+        "sound"
+      ],
+      "core_value": "This consumer values visual and audio quality, seeking devices that enhance their entertainment experience.",
+      "description": "They focus on the aesthetic appeal and multimedia capabilities of virtual assistants. Their reviews praise devices with superior sound and display qualities.",
+      "motivation": "Driven by a desire for devices that provide an immersive entertainment experience.",
+      "pain_points": "They are disappointed when the sound quality or display does not meet their expectations.",
+      "quote": "The sound and picture quality are nice, but could be better with a larger display.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Predominantly positive with 'nice', 'sound', 'picture'; minor negativity from 'could be better'."
+      },
+      "top_aspects": [
+        "screen",
+        "display",
+        "picture",
+        "music",
+        "sound"
+      ],
+      "co_aspects": {
+        "screen": [
+          "display",
+          "picture"
+        ],
+        "display": [
+          "screen",
+          "picture"
+        ],
+        "music": [
+          "sound",
+          "display"
+        ],
+        "sound": [
+          "music",
+          "picture"
+        ],
+        "picture": [
+          "display",
+          "sound"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Value-Oriented Skeptic",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP7_Full",
+      "keywords": [
+        "price",
+        "purchase",
+        "quality",
+        "return",
+        "problem",
+        "buy"
+      ],
+      "core_value": "They are cautious with spending and prioritize cost-effectiveness in their purchase decisions.",
+      "description": "This persona frequently evaluates the cost versus quality before purchasing. They are skeptical buyers who look for adequate returns on investment and are wary of defects.",
+      "motivation": "Motivated by reasonable pricing and product reliability to avoid unnecessary returns.",
+      "pain_points": "They are easily frustrated by overpriced products or ones that do not meet quality standards.",
+      "quote": "For the price, the quality didn't meet my expectations, and I might consider returning it.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.3,
+        "Negative": 0.5,
+        "_inference_note": "Significant negative sentiment from 'problem', 'return'; slight positivity from 'purchase' and 'quality'."
+      },
+      "top_aspects": [
+        "price",
+        "purchase",
+        "quality",
+        "return",
+        "problem"
+      ],
+      "co_aspects": {
+        "price": [
+          "purchase",
+          "quality"
+        ],
+        "purchase": [
+          "price",
+          "quality"
+        ],
+        "return": [
+          "problem",
+          "quality"
+        ],
+        "quality": [
+          "price",
+          "purchase"
+        ],
+        "problem": [
+          "return",
+          "purchase"
+        ]
+      }
+    }
+  ]
+}

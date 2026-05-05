@@ -1,0 +1,94 @@
+{
+  "exp_id": "EXP-2",
+  "method": "LDA",
+  "file": "vad_en",
+  "lang": "en",
+  "n_docs": 2370,
+  "n_topics": 6,
+  "coherence_cv": 0.5297,
+  "coherence_mean": 0.5045,
+  "coherence_std": 0.0201,
+  "perplexity": -6.8732,
+  "perplexity_mean": -6.8693,
+  "topic_words": {
+    "topic_0": [
+      "thermostat",
+      "charge",
+      "nest",
+      "work",
+      "google",
+      "clock",
+      "support",
+      "phone",
+      "wireless",
+      "issue"
+    ],
+    "topic_1": [
+      "ear",
+      "stay",
+      "fall",
+      "headphone",
+      "phone",
+      "lose",
+      "fit",
+      "connect",
+      "great",
+      "earpod"
+    ],
+    "topic_2": [
+      "sound",
+      "music",
+      "like",
+      "play",
+      "quality",
+      "echo",
+      "speaker",
+      "want",
+      "time",
+      "thing"
+    ],
+    "topic_3": [
+      "work",
+      "airpod",
+      "buy",
+      "charge",
+      "apple",
+      "return",
+      "stop",
+      "good",
+      "month",
+      "product"
+    ],
+    "topic_4": [
+      "great",
+      "clock",
+      "google",
+      "work",
+      "smart",
+      "good",
+      "easy",
+      "love",
+      "hub",
+      "use"
+    ],
+    "topic_5": [
+      "quality",
+      "great",
+      "good",
+      "price",
+      "sound",
+      "samsung",
+      "picture",
+      "buy",
+      "perfect",
+      "purchase"
+    ]
+  },
+  "used_params": {
+    "k": 6,
+    "passes": 30,
+    "no_below": 1,
+    "no_above": 0.9
+  },
+  "paper_ref": "Blei, Ng & Jordan (2003) / Röder et al. (2015) / Grid-Search Tuned"
+}

@@ -1,0 +1,175 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP_RAW",
+  "method": "RAW_REVIEW_INJECTION",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_reviews_injected": 200,
+  "run_seed": 105,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Budget-Conscious Bulk Buyer",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP_RAW",
+      "keywords": [
+        "bulk purchase",
+        "replacement",
+        "price",
+        "value",
+        "saving"
+      ],
+      "core_value": "Seeking cost savings through bulk purchasing, even at the risk of potential product issues.",
+      "description": "These consumers prioritize getting the most out of their budget by buying in bulk or looking for the cheapest options. They are willing to gamble on lower costs for potential issues, but if something goes wrong, it significantly affects their perception of the value gained.",
+      "motivation": "Buying in bulk to save money and achieve cost efficiency.",
+      "pain_points": "High failure rates in bulk purchases and misleading pricing resulting in unexpected costs or losses.",
+      "quote": "Bought twelve for a renovation project. Eight failed within two months, erasing every dollar I thought I'd saved.",
+      "sentiment_ratio": {
+        "Positive": 0.1,
+        "Neutral": 0.3,
+        "Negative": 0.6,
+        "_inference_note": "The majority of reviews mention significant dissatisfaction due to product failure or misleading costs, with only a small portion showing mild satisfaction with the initial savings."
+      },
+      "top_aspects": [
+        "price",
+        "reliability",
+        "cost",
+        "bulk purchase",
+        "replacement"
+      ],
+      "co_aspects": {
+        "price": [
+          "reliability",
+          "replacement"
+        ],
+        "bulk purchase": [
+          "replacement",
+          "cost"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Design-Oriented Aesthetic Lover",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP_RAW",
+      "keywords": [
+        "aesthetic",
+        "design",
+        "color",
+        "style",
+        "appearance"
+      ],
+      "core_value": "Seeking products with a strong design and aesthetic appeal to enhance their living spaces.",
+      "description": "These individuals are highly motivated by design and aesthetics, often choosing products based on how well they fit into their home decor. Visual appeal is crucial, even above technical performance, and they focus on the artistic contribution of the product.",
+      "motivation": "Creating a coherent and stylish setup with well-designed and visually pleasing products.",
+      "pain_points": "Disappointment when products that look good online appear cheap or unappealing in person.",
+      "quote": "Fabric exterior fits right in with my home decor, held its own next to a premium brand speaker visually.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.3,
+        "Negative": 0.2,
+        "_inference_note": "Reviews show a moderate level of satisfaction with design elements but some neutral and negative experiences regarding actual product appearance."
+      },
+      "top_aspects": [
+        "design",
+        "color",
+        "appearance",
+        "compatibility",
+        "setup"
+      ],
+      "co_aspects": {
+        "design": [
+          "compatibility",
+          "setup"
+        ],
+        "appearance": [
+          "color",
+          "design"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Performance-Focused Tech Enthusiast",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP_RAW",
+      "keywords": [
+        "performance",
+        "reliability",
+        "specs",
+        "accuracy",
+        "speed"
+      ],
+      "core_value": "Prioritizing the technical capabilities and real-world performance of devices.",
+      "description": "These consumers are driven by a need for high-performing and reliable devices, often checking specifications against claimed benchmarks. They expect their purchases to meet or exceed performance claims, and they value accuracy and efficiency.",
+      "motivation": "Ensuring the purchased technology meets high performance and reliability standards.",
+      "pain_points": "Frustration with products not meeting advertised specifications and performance expectations.",
+      "quote": "Benchmarks showed less than half the advertised read speed. It's a cheap drive, but lying about specs crosses a line.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.3,
+        "Negative": 0.5,
+        "_inference_note": "The tone leans more negative as most reviewers express dissatisfaction when performance does not match expectations or advertised specifications."
+      },
+      "top_aspects": [
+        "performance",
+        "reliability",
+        "accuracy",
+        "specifications",
+        "efficiency"
+      ],
+      "co_aspects": {
+        "performance": [
+          "accuracy",
+          "specifications"
+        ],
+        "reliability": [
+          "speed",
+          "accuracy"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Service-Oriented Hassle-Free Shopper",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP_RAW",
+      "keywords": [
+        "customer service",
+        "exchange",
+        "return",
+        "support",
+        "hassle-free"
+      ],
+      "core_value": "Looking for seamless and supportive post-purchase experiences.",
+      "description": "This group values the ease and efficiency of customer service processes, preferring brands that offer straightforward exchanges, quick responses, and strong support systems. They often comment on their purchasing experiences beyond the product itself.",
+      "motivation": "Ensuring a smooth and supportive buying experience with minimal complications.",
+      "pain_points": "Inefficient or unfriendly customer service that complicates product issues.",
+      "quote": "Reported a defect and they processed an exchange immediately. Bought something budget-priced and still got fast, hassle-free support.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.2,
+        "Negative": 0.2,
+        "_inference_note": "Positive sentiment is prevalent when service exceeds expectations; negatives point to specific pain points in rare cases."
+      },
+      "top_aspects": [
+        "customer service",
+        "exchange",
+        "support",
+        "return",
+        "hassle-free"
+      ],
+      "co_aspects": {
+        "customer service": [
+          "exchange",
+          "support"
+        ],
+        "return": [
+          "exchange",
+          "support"
+        ]
+      }
+    }
+  ]
+}

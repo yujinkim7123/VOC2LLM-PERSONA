@@ -1,0 +1,193 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP6_SNA_KMeans",
+  "method": "SNA_KMEANS",
+  "lang": "en",
+  "judge": {
+    "judge_matrix": [
+      [
+        0.12,
+        0.18,
+        0.5,
+        0.06
+      ],
+      [
+        0.06,
+        0.62,
+        0.36,
+        0.06
+      ],
+      [
+        0.0,
+        0.46,
+        0.42,
+        0.06
+      ],
+      [
+        0.32,
+        0.06,
+        0.34,
+        0.06
+      ]
+    ],
+    "best_mapping": [
+      {
+        "gen_name": "Easy Setup Enthusiast",
+        "gt_name": "The Practical Value Seeker",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.3,
+        "pain_alignment": 0.7,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.5,
+        "matching_score": 0.5,
+        "validity_score": 0.7,
+        "reasoning": "Keywords partially overlap; focus aspects diverge; simplicity links pain.",
+        "success": true
+      },
+      {
+        "gen_name": "Smart Home Integrator",
+        "gt_name": "The Smart Home Integrator",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.7,
+        "behavioral_alignment": 0.7,
+        "sentiment_alignment": 0.7,
+        "matching_score": 0.62,
+        "validity_score": 0.7,
+        "reasoning": "Generated persona aligns partially with keywords, values, and pain points.",
+        "success": true
+      },
+      {
+        "gen_name": "Efficiency Seeker",
+        "gt_name": "The Disillusioned Early Adopter",
+        "keyword_alignment": 0.0,
+        "value_alignment": 0.0,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.0,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.06,
+        "validity_score": 0.5,
+        "reasoning": "Generated persona is unrelated to reference; it lacks domain topic grounding.",
+        "success": false
+      },
+      {
+        "gen_name": "Quality Value Shopper",
+        "gt_name": "The Wireless Audio Pursuer",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.32,
+        "validity_score": 0.5,
+        "reasoning": "Keywords and values are partially aligned; sentiments differ significantly.",
+        "success": false
+      }
+    ],
+    "matching_score": 0.375,
+    "validity_score": 0.6,
+    "mean_all_matching": 0.23,
+    "dim_averages": {
+      "keyword_alignment": 0.375,
+      "value_alignment": 0.325,
+      "pain_alignment": 0.5,
+      "behavioral_alignment": 0.375,
+      "sentiment_alignment": 0.3
+    },
+    "n_success": 2,
+    "mapping_success_rate": 0.5
+  },
+  "topic_sim_result": {
+    "topic_sim": 0.4248,
+    "pair_details": [
+      {
+        "gen_name": "Easy Setup Enthusiast",
+        "gt_name": "The Practical Value Seeker",
+        "gen_aspects": [
+          "charge",
+          "buy",
+          "time",
+          "easy",
+          "set"
+        ],
+        "gt_aspects": [
+          "Price",
+          "Clock",
+          "Configuration",
+          "Convenience",
+          "Smart Assistant"
+        ],
+        "topic_sim": 0.457
+      },
+      {
+        "gen_name": "Smart Home Integrator",
+        "gt_name": "The Smart Home Integrator",
+        "gen_aspects": [
+          "thermostat",
+          "nest",
+          "work",
+          "easy",
+          "google"
+        ],
+        "gt_aspects": [
+          "Smart Assistant",
+          "Clock",
+          "Connectivity",
+          "Configuration",
+          "Convenience"
+        ],
+        "topic_sim": 0.3491
+      },
+      {
+        "gen_name": "Efficiency Seeker",
+        "gt_name": "The Disillusioned Early Adopter",
+        "gen_aspects": [
+          "clock",
+          "smart",
+          "alarm",
+          "charge",
+          "google"
+        ],
+        "gt_aspects": [
+          "Durability",
+          "Defective",
+          "Charging",
+          "Connectivity",
+          "Quality"
+        ],
+        "topic_sim": 0.3237
+      },
+      {
+        "gen_name": "Quality Value Shopper",
+        "gt_name": "The Wireless Audio Pursuer",
+        "gen_aspects": [
+          "good",
+          "sound",
+          "quality",
+          "great",
+          "price"
+        ],
+        "gt_aspects": [
+          "Sound",
+          "Connectivity",
+          "Price",
+          "Configuration",
+          "Size"
+        ],
+        "topic_sim": 0.5694
+      }
+    ]
+  },
+  "summary": {
+    "matching_score": 0.375,
+    "validity_score": 0.6,
+    "topic_sim": 0.4248,
+    "dim_averages": {
+      "keyword_alignment": 0.375,
+      "value_alignment": 0.325,
+      "pain_alignment": 0.5,
+      "behavioral_alignment": 0.375,
+      "sentiment_alignment": 0.3
+    }
+  }
+}

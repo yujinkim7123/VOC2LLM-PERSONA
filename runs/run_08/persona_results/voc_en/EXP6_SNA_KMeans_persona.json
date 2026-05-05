@@ -1,0 +1,224 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP6_SNA_KMeans",
+  "method": "SNA_KMEANS",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_docs": 868,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Performance-Conscious Pragmatist",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "spec",
+        "measure",
+        "performance",
+        "standard",
+        "actual"
+      ],
+      "core_value": "Precision in performance matching their expectations.",
+      "description": "These consumers are focused on the technical specifications and performance standards of the appliances they purchase. They value products that precisely meet advertised specs and perform as expected in real-world usage.",
+      "motivation": "They are driven by a need for accuracy and reliability in product specifications.",
+      "pain_points": "Discrepancies between advertised and actual performance standards frustrate them.",
+      "quote": "I need appliances that match the performance specs exactly as advertised.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.7,
+        "Negative": 0.1,
+        "_inference_note": "The presence of 'match', 'standard', and 'performance' suggests a focus on precision, mostly neutral but with some positive satisfaction when expectations are met."
+      },
+      "top_aspects": [
+        "spec",
+        "measure",
+        "price",
+        "performance",
+        "standard"
+      ],
+      "co_aspects": {
+        "spec": [
+          "measure",
+          "performance",
+          "standard"
+        ],
+        "measure": [
+          "spec",
+          "performance",
+          "standard"
+        ],
+        "price": [
+          "spec",
+          "measure"
+        ],
+        "performance": [
+          "spec",
+          "measure"
+        ],
+        "standard": [
+          "spec",
+          "performance"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Aesthetic Enthusiast",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "color",
+        "choose",
+        "want",
+        "pretty",
+        "look"
+      ],
+      "core_value": "The aesthetic appeal and design of home appliances.",
+      "description": "These consumers focus on the visual and design aspects of the appliances. They prioritize functionality that complements their home decor and aesthetics.",
+      "motivation": "They are driven by the desire for products that integrate stylishly into their home environments.",
+      "pain_points": "Arriving products that don't match their expectations or setup issues can be disappointing.",
+      "quote": "I always choose appliances that look great and fit seamlessly with my home's design.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Keywords like 'pretty', 'choose', and 'look' suggest a positive focus on aesthetics, with minor frustrations around matching and setup."
+      },
+      "top_aspects": [
+        "color",
+        "choose",
+        "look",
+        "setup",
+        "make"
+      ],
+      "co_aspects": {
+        "color": [
+          "choose",
+          "look"
+        ],
+        "choose": [
+          "color",
+          "look"
+        ],
+        "look": [
+          "color",
+          "choose"
+        ],
+        "setup": [
+          "choose",
+          "arrive"
+        ],
+        "make": [
+          "pretty",
+          "choose"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Brand-Loyal Warranty Seeker",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "service",
+        "brand",
+        "trust",
+        "warranty",
+        "repair"
+      ],
+      "core_value": "Trust in brands and assurance through warranties.",
+      "description": "These consumers are committed to reputable brands, often relying on warranties and trust in service as key purchase criteria. They are less inclined to switch brands once trust is established.",
+      "motivation": "Ensuring long-term reliability and service support drives their purchasing decisions.",
+      "pain_points": "Experiencing defects or inadequate service support can erode their trust in a brand.",
+      "quote": "I always stick to brands I trust, and warranty coverage is a must.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.2,
+        "Negative": 0.3,
+        "_inference_note": "Trust and warranty imply confidence (positive), but 'repair' and 'defect' highlight potential negative experiences."
+      },
+      "top_aspects": [
+        "service",
+        "brand",
+        "trust",
+        "warranty",
+        "repair"
+      ],
+      "co_aspects": {
+        "service": [
+          "warranty",
+          "repair"
+        ],
+        "brand": [
+          "trust",
+          "warranty"
+        ],
+        "trust": [
+          "brand",
+          "warranty"
+        ],
+        "warranty": [
+          "service",
+          "trust"
+        ],
+        "repair": [
+          "service",
+          "defect"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Cost-Conscious Designer",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "price",
+        "design",
+        "pay",
+        "charge",
+        "performance"
+      ],
+      "core_value": "Balancing cost with stylish design and performance.",
+      "description": "These consumers are price-sensitive yet unwilling to compromise on design and basic performance. They seek out well-designed products that offer good value for money.",
+      "motivation": "The primary goal is to find products that are both affordable and visually appealing, without sacrificing essential performance.",
+      "pain_points": "High costs or perceived overcharges can be a major deterrent.",
+      "quote": "I always try to find the best design within my budget that still performs well.",
+      "sentiment_ratio": {
+        "Positive": 0.4,
+        "Neutral": 0.4,
+        "Negative": 0.2,
+        "_inference_note": "Keywords like 'price', 'design', and 'performance' suggest a focus on balance between cost and quality, with mild concerns about pricing."
+      },
+      "top_aspects": [
+        "price",
+        "design",
+        "pay",
+        "performance",
+        "look"
+      ],
+      "co_aspects": {
+        "price": [
+          "design",
+          "pay"
+        ],
+        "design": [
+          "price",
+          "look"
+        ],
+        "pay": [
+          "price",
+          "charge"
+        ],
+        "performance": [
+          "design",
+          "pay"
+        ],
+        "look": [
+          "design",
+          "pretty"
+        ]
+      }
+    }
+  ]
+}

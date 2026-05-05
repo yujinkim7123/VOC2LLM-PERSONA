@@ -1,0 +1,224 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP2_LDA",
+  "method": "LDA",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_docs": 965,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Brand-Reputation Concerned Buyer",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP2_LDA",
+      "keywords": [
+        "service",
+        "exchange",
+        "trust",
+        "defect",
+        "issue"
+      ],
+      "core_value": "They prioritize brand reliability and customer support.",
+      "description": "This segment comprises consumers highly concerned with product reliability and the reputation of the brand. They carefully evaluate the service and support options available in case of defects or issues.",
+      "motivation": "Their purchase decision is driven by the brand's reputation for trustworthiness and its service track record.",
+      "pain_points": "They are frustrated by defects and service issues that lead to exchanges or returns.",
+      "quote": "I need to ensure the brand backs up their product with strong service support in case there's an issue.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.3,
+        "Negative": 0.5,
+        "_inference_note": "Keywords like 'exchange', 'defect', and 'issue' indicate negative sentiment due to service problems. 'Trust' and 'brand' are more neutral, with a slight positive inference regarding trust."
+      },
+      "top_aspects": [
+        "service",
+        "exchange",
+        "trust",
+        "defect",
+        "issue"
+      ],
+      "co_aspects": {
+        "service": [
+          "exchange",
+          "trust",
+          "defect"
+        ],
+        "exchange": [
+          "service",
+          "trust",
+          "defect"
+        ],
+        "trust": [
+          "service",
+          "exchange"
+        ],
+        "defect": [
+          "service",
+          "exchange"
+        ],
+        "issue": [
+          "service",
+          "exchange"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Design-Savvy Aesthetic Shopper",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP2_LDA",
+      "keywords": [
+        "color",
+        "pretty",
+        "look",
+        "buy",
+        "design"
+      ],
+      "core_value": "They value aesthetic appeal and visual design.",
+      "description": "This consumer type is drawn to appliances that are visually appealing and stylish. They are likely to prioritize design features and looks when making a purchase.",
+      "motivation": "Their buying decisions are heavily influenced by the design elements and the desire to have beautiful home surroundings.",
+      "pain_points": "They get frustrated if the available colors or design options do not meet their expectations.",
+      "quote": "I bought it because the design and color matched perfectly with my decor.",
+      "sentiment_ratio": {
+        "Positive": 0.8,
+        "Neutral": 0.2,
+        "Negative": 0.0,
+        "_inference_note": "Positive sentiment is inferred from keywords like 'pretty', 'beautiful', and 'design'. Neutral sentiment comes from 'buy' and 'look', which are factual."
+      },
+      "top_aspects": [
+        "color",
+        "pretty",
+        "look",
+        "buy",
+        "design"
+      ],
+      "co_aspects": {
+        "color": [
+          "pretty",
+          "look"
+        ],
+        "pretty": [
+          "color",
+          "look"
+        ],
+        "look": [
+          "color",
+          "design"
+        ],
+        "buy": [
+          "look",
+          "design"
+        ],
+        "design": [
+          "color",
+          "pretty"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Budget-Conscious Evaluator",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP2_LDA",
+      "keywords": [
+        "price",
+        "spec",
+        "buy",
+        "performance",
+        "cost"
+      ],
+      "core_value": "They focus on getting value for their money.",
+      "description": "These consumers are analytical and evaluate products based on price, specifications, and expected performance. They want to ensure they are making cost-effective purchases.",
+      "motivation": "Their decisions are motivated by the need to balance cost with product performance and specifications.",
+      "pain_points": "They may feel stressed when prices are high or when performance specs do not justify the cost.",
+      "quote": "I spent a lot of time comparing specs to make sure it was worth the price.",
+      "sentiment_ratio": {
+        "Positive": 0.3,
+        "Neutral": 0.5,
+        "Negative": 0.2,
+        "_inference_note": "Neutral sentiment is driven by words like 'spec', 'buy', 'performance' which denote evaluation, while 'price', 'pay', 'cost' slightly lean towards negative due to concerns over expense."
+      },
+      "top_aspects": [
+        "price",
+        "spec",
+        "buy",
+        "performance",
+        "cost"
+      ],
+      "co_aspects": {
+        "price": [
+          "spec",
+          "performance"
+        ],
+        "spec": [
+          "price",
+          "buy"
+        ],
+        "buy": [
+          "spec",
+          "performance"
+        ],
+        "performance": [
+          "price",
+          "spec"
+        ],
+        "cost": [
+          "price",
+          "performance"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Service-Oriented Long-Term User",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP2_LDA",
+      "keywords": [
+        "warranty",
+        "service",
+        "brand",
+        "app",
+        "use"
+      ],
+      "core_value": "They prioritize longevity and service assurance.",
+      "description": "This type of consumer is interested in long-term use and the support options available. They pay attention to warranty and the service reliability of the brand.",
+      "motivation": "They are driven by the desire for a hassle-free service experience and assurance of longevity through warranty support.",
+      "pain_points": "They can be frustrated if warranty periods are short or if service support is lacking.",
+      "quote": "I really value a good warranty and reliable service for peace of mind.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.4,
+        "Negative": 0.0,
+        "_inference_note": "Positive sentiment is found in keywords like 'warranty' and 'service' as they suggest assurances. Neutral sentiment comes from factual keywords like 'use', 'brand', and 'app'."
+      },
+      "top_aspects": [
+        "warranty",
+        "service",
+        "brand",
+        "app",
+        "use"
+      ],
+      "co_aspects": {
+        "warranty": [
+          "service",
+          "brand"
+        ],
+        "service": [
+          "warranty",
+          "use"
+        ],
+        "brand": [
+          "warranty",
+          "service"
+        ],
+        "app": [
+          "service",
+          "use"
+        ],
+        "use": [
+          "service",
+          "app"
+        ]
+      }
+    }
+  ]
+}

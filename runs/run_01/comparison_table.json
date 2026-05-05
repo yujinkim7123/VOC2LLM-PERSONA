@@ -1,0 +1,242 @@
+[
+  {
+    "file_key": "voc_en",
+    "exp_id": "EXP1_SNA",
+    "method": "SNA_LOUVAIN",
+    "matching_score": 0.575,
+    "validity_score": 0.925,
+    "topic_sim": 0.3999,
+    "dim_averages": {
+      "keyword_alignment": 0.7,
+      "value_alignment": 0.6,
+      "pain_alignment": 0.675,
+      "behavioral_alignment": 0.6,
+      "sentiment_alignment": 0.3
+    }
+  },
+  {
+    "file_key": "voc_en",
+    "exp_id": "EXP2_LDA",
+    "method": "LDA",
+    "matching_score": 0.505,
+    "validity_score": 0.8,
+    "topic_sim": 0.4135,
+    "dim_averages": {
+      "keyword_alignment": 0.55,
+      "value_alignment": 0.475,
+      "pain_alignment": 0.6,
+      "behavioral_alignment": 0.475,
+      "sentiment_alignment": 0.425
+    }
+  },
+  {
+    "file_key": "voc_en",
+    "exp_id": "EXP3_KMeans",
+    "method": "KMEANS_TFIDF",
+    "matching_score": 0.49,
+    "validity_score": 0.85,
+    "topic_sim": 0.4316,
+    "dim_averages": {
+      "keyword_alignment": 0.65,
+      "value_alignment": 0.6,
+      "pain_alignment": 0.55,
+      "behavioral_alignment": 0.5,
+      "sentiment_alignment": 0.15
+    }
+  },
+  {
+    "file_key": "voc_en",
+    "exp_id": "EXP4_SNA_LDA",
+    "method": "SNA_LDA",
+    "matching_score": 0.54,
+    "validity_score": 0.775,
+    "topic_sim": 0.3851,
+    "dim_averages": {
+      "keyword_alignment": 0.6,
+      "value_alignment": 0.6,
+      "pain_alignment": 0.6,
+      "behavioral_alignment": 0.55,
+      "sentiment_alignment": 0.35
+    }
+  },
+  {
+    "file_key": "voc_en",
+    "exp_id": "EXP5_LDA_KMeans",
+    "method": "LDA_KMEANS",
+    "matching_score": 0.42,
+    "validity_score": 0.8,
+    "topic_sim": 0.417,
+    "dim_averages": {
+      "keyword_alignment": 0.425,
+      "value_alignment": 0.475,
+      "pain_alignment": 0.5,
+      "behavioral_alignment": 0.375,
+      "sentiment_alignment": 0.325
+    }
+  },
+  {
+    "file_key": "voc_en",
+    "exp_id": "EXP6_SNA_KMeans",
+    "method": "SNA_KMEANS",
+    "matching_score": 0.525,
+    "validity_score": 0.85,
+    "topic_sim": 0.4061,
+    "dim_averages": {
+      "keyword_alignment": 0.6,
+      "value_alignment": 0.55,
+      "pain_alignment": 0.775,
+      "behavioral_alignment": 0.55,
+      "sentiment_alignment": 0.15
+    }
+  },
+  {
+    "file_key": "voc_en",
+    "exp_id": "EXP7_Full",
+    "method": "SNA_LDA_KMEANS",
+    "matching_score": 0.415,
+    "validity_score": 0.775,
+    "topic_sim": 0.4318,
+    "dim_averages": {
+      "keyword_alignment": 0.5,
+      "value_alignment": 0.425,
+      "pain_alignment": 0.4,
+      "behavioral_alignment": 0.45,
+      "sentiment_alignment": 0.3
+    }
+  },
+  {
+    "file_key": "voc_en",
+    "exp_id": "BASELINE",
+    "method": "LLM_STANDALONE",
+    "matching_score": 0.26,
+    "validity_score": 0.5,
+    "topic_sim": 0.3299,
+    "dim_averages": {
+      "keyword_alignment": 0.35,
+      "value_alignment": 0.3,
+      "pain_alignment": 0.325,
+      "behavioral_alignment": 0.325,
+      "sentiment_alignment": 0.0
+    }
+  },
+  {
+    "file_key": "vad_en",
+    "exp_id": "EXP1_SNA",
+    "method": "SNA_LOUVAIN",
+    "matching_score": 0.46,
+    "validity_score": 0.775,
+    "topic_sim": 0.4059,
+    "dim_averages": {
+      "keyword_alignment": 0.375,
+      "value_alignment": 0.5,
+      "pain_alignment": 0.5,
+      "behavioral_alignment": 0.5,
+      "sentiment_alignment": 0.425
+    }
+  },
+  {
+    "file_key": "vad_en",
+    "exp_id": "EXP2_LDA",
+    "method": "LDA",
+    "matching_score": 0.435,
+    "validity_score": 0.65,
+    "topic_sim": 0.3568,
+    "dim_averages": {
+      "keyword_alignment": 0.325,
+      "value_alignment": 0.425,
+      "pain_alignment": 0.575,
+      "behavioral_alignment": 0.4,
+      "sentiment_alignment": 0.45
+    }
+  },
+  {
+    "file_key": "vad_en",
+    "exp_id": "EXP3_KMeans",
+    "method": "KMEANS_TFIDF",
+    "matching_score": 0.5,
+    "validity_score": 0.7,
+    "topic_sim": 0.3898,
+    "dim_averages": {
+      "keyword_alignment": 0.5,
+      "value_alignment": 0.45,
+      "pain_alignment": 0.6,
+      "behavioral_alignment": 0.45,
+      "sentiment_alignment": 0.5
+    }
+  },
+  {
+    "file_key": "vad_en",
+    "exp_id": "EXP4_SNA_LDA",
+    "method": "SNA_LDA",
+    "matching_score": 0.395,
+    "validity_score": 0.65,
+    "topic_sim": 0.3619,
+    "dim_averages": {
+      "keyword_alignment": 0.325,
+      "value_alignment": 0.475,
+      "pain_alignment": 0.375,
+      "behavioral_alignment": 0.375,
+      "sentiment_alignment": 0.425
+    }
+  },
+  {
+    "file_key": "vad_en",
+    "exp_id": "EXP5_LDA_KMeans",
+    "method": "LDA_KMEANS",
+    "matching_score": 0.39,
+    "validity_score": 0.65,
+    "topic_sim": 0.3935,
+    "dim_averages": {
+      "keyword_alignment": 0.3,
+      "value_alignment": 0.325,
+      "pain_alignment": 0.5,
+      "behavioral_alignment": 0.45,
+      "sentiment_alignment": 0.375
+    }
+  },
+  {
+    "file_key": "vad_en",
+    "exp_id": "EXP6_SNA_KMeans",
+    "method": "SNA_KMEANS",
+    "matching_score": 0.5,
+    "validity_score": 0.775,
+    "topic_sim": 0.4478,
+    "dim_averages": {
+      "keyword_alignment": 0.55,
+      "value_alignment": 0.55,
+      "pain_alignment": 0.5,
+      "behavioral_alignment": 0.5,
+      "sentiment_alignment": 0.4
+    }
+  },
+  {
+    "file_key": "vad_en",
+    "exp_id": "EXP7_Full",
+    "method": "SNA_LDA_KMEANS",
+    "matching_score": 0.545,
+    "validity_score": 0.725,
+    "topic_sim": 0.4294,
+    "dim_averages": {
+      "keyword_alignment": 0.45,
+      "value_alignment": 0.65,
+      "pain_alignment": 0.45,
+      "behavioral_alignment": 0.5,
+      "sentiment_alignment": 0.675
+    }
+  },
+  {
+    "file_key": "vad_en",
+    "exp_id": "BASELINE",
+    "method": "LLM_STANDALONE",
+    "matching_score": 0.42,
+    "validity_score": 0.75,
+    "topic_sim": 0.4366,
+    "dim_averages": {
+      "keyword_alignment": 0.425,
+      "value_alignment": 0.425,
+      "pain_alignment": 0.45,
+      "behavioral_alignment": 0.375,
+      "sentiment_alignment": 0.425
+    }
+  }
+]

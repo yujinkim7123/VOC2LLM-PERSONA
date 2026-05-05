@@ -1,0 +1,163 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP_RAW",
+  "method": "RAW_REVIEW_INJECTION",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_reviews_injected": 200,
+  "run_seed": 98,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Design Enthusiast",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP_RAW",
+      "keywords": [
+        "design",
+        "color",
+        "aesthetic",
+        "visual interest",
+        "fashion"
+      ],
+      "core_value": "Prioritizes aesthetics and design in product choices.",
+      "description": "Design Enthusiasts are captivated by products that add visual interest to their environments. They often prioritize the aesthetic appeal and color coordination of items. While they enjoy the functionality, their primary motivation is finding products that look beautiful and complement their style.",
+      "motivation": "Their purchase decisions are driven by visual appeal and alignment with personal or home decor style.",
+      "pain_points": "They may face disappointment if the product's real-life appearance differs from images or if the design fails to meet their expectations.",
+      "quote": "I bought this for its color and design, but it's a letdown when the appearance doesn't match the photos.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.2,
+        "Negative": 0.3,
+        "_inference_note": "Positive sentiment inferred from appreciation for color and design; negative cues come from complaints about discrepancies in appearance or durability related to design."
+      },
+      "top_aspects": [
+        "design",
+        "color",
+        "aesthetic",
+        "fashion",
+        "appearance"
+      ],
+      "co_aspects": {
+        "design": [
+          "color",
+          "aesthetic",
+          "appearance"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Value Seeker",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP_RAW",
+      "keywords": [
+        "budget",
+        "price",
+        "deal",
+        "cost",
+        "money"
+      ],
+      "core_value": "Focused on getting the best value for money.",
+      "description": "Value Seekers aim to maximize their savings by waiting for the right deals and discounts. They are meticulous about comparing prices and often gauge the worth of a product based on the perceived value it provides over its cost.",
+      "motivation": "They are motivated by cost-effectiveness and often hunt for deals that allow them to pay significantly less than the usual price.",
+      "pain_points": "They feel cheated when budget products fail to meet expected quality or functionality standards.",
+      "quote": "Found a coupon on top of a discount and ended up paying half price — this is how shopping should feel!",
+      "sentiment_ratio": {
+        "Positive": 0.4,
+        "Neutral": 0.3,
+        "Negative": 0.3,
+        "_inference_note": "Positive cues from discovering great deals; negative from dissatisfaction when the savings lead to compromised product quality."
+      },
+      "top_aspects": [
+        "price",
+        "value",
+        "deal",
+        "cost",
+        "discount"
+      ],
+      "co_aspects": {
+        "price": [
+          "deal",
+          "discount",
+          "value"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Performance Validator",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP_RAW",
+      "keywords": [
+        "specs",
+        "performance",
+        "quality",
+        "benchmark",
+        "efficiency"
+      ],
+      "core_value": "Ensures advertised specifications match real-world performance.",
+      "description": "Performance Validators meticulously check whether the products meet the advertised specifications. They often rely on benchmarks and performance tests to validate their purchase decisions.",
+      "motivation": "Their aim is to confirm the product meets quality standards and performance expectations before and after purchase.",
+      "pain_points": "Feelings of frustration arise when the actual performance significantly deviates from what was advertised or expected.",
+      "quote": "Tested it right out of the box and the specs aren't what they claim to be — disappointed in the false advertising.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.2,
+        "Negative": 0.6,
+        "_inference_note": "Negative sentiments dominate due to frequent discovery of performance discrepancies between advertised and actual results."
+      },
+      "top_aspects": [
+        "specs",
+        "performance",
+        "quality",
+        "benchmark",
+        "efficiency"
+      ],
+      "co_aspects": {
+        "performance": [
+          "specs",
+          "quality",
+          "benchmark"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Annoyed Customer Service",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP_RAW",
+      "keywords": [
+        "customer service",
+        "AS",
+        "support",
+        "response",
+        "warranty"
+      ],
+      "core_value": "High expectations for responsive and efficient after-sales service.",
+      "description": "These customers are highly attentive to the level of support and service they receive post-purchase. They prioritize brands that offer reliable and transparent service.",
+      "motivation": "They are driven by a need for assurance that the brand will address defects or issues promptly and efficiently.",
+      "pain_points": "Experiences with slow or inefficient service, or a lack of satisfactory resolutions, lead to significant dissatisfaction.",
+      "quote": "Had to wait too long for a response, and the service was ineffective — not what I expect from a trusted brand.",
+      "sentiment_ratio": {
+        "Positive": 0.1,
+        "Neutral": 0.3,
+        "Negative": 0.6,
+        "_inference_note": "Negative references are consistent due to challenges with after-sales support and service responsiveness."
+      },
+      "top_aspects": [
+        "customer service",
+        "support",
+        "response",
+        "warranty",
+        "after-sales"
+      ],
+      "co_aspects": {
+        "customer service": [
+          "support",
+          "response",
+          "warranty"
+        ]
+      }
+    }
+  ]
+}

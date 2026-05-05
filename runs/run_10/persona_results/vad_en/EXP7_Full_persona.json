@@ -1,0 +1,250 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP7_Full",
+  "method": "SNA_LDA_KMEANS",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2138,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Smart Home Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP7_Full",
+      "keywords": [
+        "smart",
+        "home",
+        "control",
+        "device",
+        "easy",
+        "connect",
+        "feature"
+      ],
+      "core_value": "They value seamless integration of smart features in their home environment.",
+      "description": "This consumer is heavily invested in creating an interconnected smart home. They explore multiple features and prefer devices that integrate well with existing systems.",
+      "motivation": "The ease of controlling various home devices through one platform drives their purchase decisions.",
+      "pain_points": "They encounter frustration when devices fail to connect or integrate smoothly.",
+      "quote": "I love setting up my smart home devices, but I wish they'd sync more seamlessly.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Keywords like 'smart', 'home', 'easy', and 'feature' suggest a positive experience, while 'connect' hints at occasional issues."
+      },
+      "top_aspects": [
+        "smart",
+        "home",
+        "device",
+        "feature",
+        "connect"
+      ],
+      "co_aspects": {
+        "smart": [
+          "home",
+          "feature",
+          "connect"
+        ],
+        "home": [
+          "smart",
+          "device",
+          "feature"
+        ],
+        "device": [
+          "feature",
+          "smart",
+          "home"
+        ],
+        "feature": [
+          "smart",
+          "home",
+          "connect"
+        ],
+        "connect": [
+          "smart",
+          "feature",
+          "device"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Value-Seeking Buyer",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP7_Full",
+      "keywords": [
+        "price",
+        "quality",
+        "worth",
+        "purchase",
+        "budget",
+        "feature",
+        "function"
+      ],
+      "core_value": "A focus on getting the best value for money with purchases.",
+      "description": "This consumer is particularly concerned with evaluating the price versus the quality of the product. They often make purchase decisions based on budget considerations.",
+      "motivation": "Their main driver is receiving high functionality at a reasonable cost.",
+      "pain_points": "They are frustrated when products don't live up to the expectations set by their price.",
+      "quote": "I always look for good deals on smart devices; they need to justify their cost.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.4,
+        "Negative": 0.1,
+        "_inference_note": "Terms like 'price', 'quality', and 'purchase' are neutral, with 'worth' being slightly positive, and 'budget' indicating awareness of cost concerns."
+      },
+      "top_aspects": [
+        "price",
+        "quality",
+        "purchase",
+        "feature",
+        "function"
+      ],
+      "co_aspects": {
+        "price": [
+          "quality",
+          "feature",
+          "function"
+        ],
+        "quality": [
+          "price",
+          "purchase",
+          "feature"
+        ],
+        "purchase": [
+          "price",
+          "quality",
+          "budget"
+        ],
+        "feature": [
+          "price",
+          "quality",
+          "function"
+        ],
+        "function": [
+          "price",
+          "quality",
+          "feature"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Tech-Savvy Convenience Seeker",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP7_Full",
+      "keywords": [
+        "voice",
+        "control",
+        "ease",
+        "use",
+        "access",
+        "commands",
+        "interaction"
+      ],
+      "core_value": "They value the convenience and ease of interaction through voice commands.",
+      "description": "These consumers are technologically proficient and look for smart devices that streamline their daily routines through intuitive voice control.",
+      "motivation": "Their drive is to enhance convenience in daily tasks with minimal manual effort.",
+      "pain_points": "They dislike when voice recognition doesn't accurately understand commands or is cumbersome to set up.",
+      "quote": "I use voice commands for everything, but I want them to be more accurate and responsive.",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Positive sentiment from 'ease', 'use', and 'control', with some negative signals from concerns about command accuracy."
+      },
+      "top_aspects": [
+        "voice",
+        "control",
+        "ease",
+        "interaction",
+        "commands"
+      ],
+      "co_aspects": {
+        "voice": [
+          "control",
+          "commands",
+          "interaction"
+        ],
+        "control": [
+          "voice",
+          "ease",
+          "commands"
+        ],
+        "ease": [
+          "use",
+          "control",
+          "interaction"
+        ],
+        "interaction": [
+          "voice",
+          "ease",
+          "commands"
+        ],
+        "commands": [
+          "control",
+          "voice",
+          "ease"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Music-Loving Audiophile",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP7_Full",
+      "keywords": [
+        "music",
+        "sound",
+        "quality",
+        "speaker",
+        "listen",
+        "audio",
+        "play"
+      ],
+      "core_value": "They prioritize exceptional audio quality for music enjoyment.",
+      "description": "This segment is composed of music enthusiasts who prioritize sound quality in their smart devices. They often use these devices primarily as speakers.",
+      "motivation": "They are driven by the desire to achieve high-quality music playback and immersive audio experiences.",
+      "pain_points": "They become frustrated when sound quality does not meet their high expectations.",
+      "quote": "When I play my favorite tunes, I want my smart speaker to deliver top-notch sound quality.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.3,
+        "Negative": 0.2,
+        "_inference_note": "Dominant keywords like 'music', 'sound', and 'quality' reflect a positive interest, with negative signals arising from unmet expectations in audio performance."
+      },
+      "top_aspects": [
+        "music",
+        "sound",
+        "quality",
+        "speaker",
+        "audio"
+      ],
+      "co_aspects": {
+        "music": [
+          "sound",
+          "quality",
+          "audio"
+        ],
+        "sound": [
+          "music",
+          "quality",
+          "play"
+        ],
+        "quality": [
+          "music",
+          "sound",
+          "speaker"
+        ],
+        "speaker": [
+          "sound",
+          "audio",
+          "listen"
+        ],
+        "audio": [
+          "music",
+          "sound",
+          "quality"
+        ]
+      }
+    }
+  ]
+}

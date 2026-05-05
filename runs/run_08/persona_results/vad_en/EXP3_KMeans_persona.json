@@ -1,0 +1,251 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP3_KMeans",
+  "method": "KMEANS_TFIDF",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2370,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Home Automation Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP3_KMeans",
+      "keywords": [
+        "thermostat",
+        "nest",
+        "work",
+        "learn",
+        "easy",
+        "install",
+        "google"
+      ],
+      "core_value": "This consumer values the integration and automation of smart devices in their home.",
+      "description": "This persona is focused on enhancing their living environment through smart home technologies. They are proactive in learning about new devices and value ease of installation and seamless functionality.",
+      "motivation": "They are driven by the desire to create a smart, efficient home setup that simplifies everyday tasks.",
+      "pain_points": "They occasionally experience installation challenges and compatibility issues with new devices.",
+      "quote": "I love how easy it was to install my Nest thermostat and how well it integrates with my Google Home.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.4,
+        "Negative": 0.1,
+        "_inference_note": "Positive sentiment from 'easy', 'love'; Neutral from 'install', 'buy'; Negative from mild setup issues implied by 'work', 'learn'."
+      },
+      "top_aspects": [
+        "thermostat",
+        "nest",
+        "google",
+        "install",
+        "work"
+      ],
+      "co_aspects": {
+        "thermostat": [
+          "nest",
+          "google",
+          "install"
+        ],
+        "nest": [
+          "thermostat",
+          "install",
+          "google"
+        ],
+        "google": [
+          "thermostat",
+          "install",
+          "nest"
+        ],
+        "install": [
+          "thermostat",
+          "google",
+          "nest"
+        ],
+        "work": [
+          "thermostat",
+          "google",
+          "install"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Audiophile Bargain Hunter",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP3_KMeans",
+      "keywords": [
+        "great",
+        "good",
+        "sound",
+        "quality",
+        "love",
+        "price",
+        "samsung"
+      ],
+      "core_value": "They prioritize high sound quality at an affordable price.",
+      "description": "This consumer is focused on finding devices that offer exceptional sound and visual experiences without breaking the bank. They are keen to discover good deals on high-quality brands like Samsung.",
+      "motivation": "They aim to maximize value for money by finding products that meet high expectations in sound and picture quality.",
+      "pain_points": "Limited by budget, they sometimes have to compromise on brand or features.",
+      "quote": "This Samsung speaker has such great sound quality at a price that really works for me!",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Positive sentiment from 'great', 'love', 'sound', 'quality'; Neutral signals in 'price'; Minimal negative signals."
+      },
+      "top_aspects": [
+        "great",
+        "sound",
+        "quality",
+        "price",
+        "samsung"
+      ],
+      "co_aspects": {
+        "great": [
+          "sound",
+          "quality",
+          "price",
+          "samsung"
+        ],
+        "sound": [
+          "great",
+          "quality",
+          "price"
+        ],
+        "quality": [
+          "great",
+          "sound",
+          "price"
+        ],
+        "price": [
+          "great",
+          "sound",
+          "quality"
+        ],
+        "samsung": [
+          "great",
+          "sound",
+          "quality"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Smart Productivity Seeker",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP3_KMeans",
+      "keywords": [
+        "clock",
+        "smart",
+        "alarm",
+        "wireless",
+        "lenovo",
+        "charger",
+        "love"
+      ],
+      "core_value": "They value devices that enhance productivity through smart features and wireless connectivity.",
+      "description": "These consumers are tech-savvy individuals looking for products that improve their daily routines with ease of integration and smart functionalities like alarms and wireless charging.",
+      "motivation": "They are driven to find devices that streamline their daily activities and make multitasking more efficient.",
+      "pain_points": "Occasional difficulties with wireless connectivity or compatibility can be frustrating.",
+      "quote": "My Lenovo smart clock with wireless charging makes mornings so much smoother!",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Positive sentiment from 'love', 'smart', 'wireless'; Neutral from 'charger'; Negative implied in minor connectivity/compatibility challenges."
+      },
+      "top_aspects": [
+        "clock",
+        "smart",
+        "alarm",
+        "wireless",
+        "lenovo"
+      ],
+      "co_aspects": {
+        "clock": [
+          "smart",
+          "wireless",
+          "alarm"
+        ],
+        "smart": [
+          "clock",
+          "alarm",
+          "wireless"
+        ],
+        "alarm": [
+          "clock",
+          "smart",
+          "wireless"
+        ],
+        "wireless": [
+          "clock",
+          "smart",
+          "alarm"
+        ],
+        "lenovo": [
+          "clock",
+          "smart",
+          "wireless"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Budget-Conscious Reviewer",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP3_KMeans",
+      "keywords": [
+        "work",
+        "stop",
+        "month",
+        "return",
+        "good",
+        "great",
+        "day"
+      ],
+      "core_value": "They are cautious buyers who focus on product reliability over the longer term.",
+      "description": "These consumers carefully evaluate products based on perceived longevity and performance, often sharing feedback about products that didn't meet their expectations over time.",
+      "motivation": "They seek reliable products that offer consistent performance without regular replacements.",
+      "pain_points": "Frustration with products that malfunction or fail after a few months of use.",
+      "quote": "The speaker was great at first, but it stopped working after a month, so I had to return it.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.3,
+        "Negative": 0.5,
+        "_inference_note": "Negative sentiment from 'stop', 'return'; Neutral from 'month', 'day'; Positive from 'great', 'good'."
+      },
+      "top_aspects": [
+        "work",
+        "stop",
+        "return",
+        "good",
+        "great"
+      ],
+      "co_aspects": {
+        "work": [
+          "stop",
+          "return",
+          "good"
+        ],
+        "stop": [
+          "work",
+          "return",
+          "month"
+        ],
+        "month": [
+          "stop",
+          "work",
+          "good"
+        ],
+        "return": [
+          "stop",
+          "work",
+          "great"
+        ],
+        "great": [
+          "good",
+          "work",
+          "stop"
+        ]
+      }
+    }
+  ]
+}

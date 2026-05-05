@@ -1,0 +1,186 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP1_SNA",
+  "method": "SNA_LOUVAIN",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2370,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Music-Enthusiast Echo User",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP1_SNA",
+      "keywords": [
+        "music",
+        "want",
+        "play",
+        "echo",
+        "alexa",
+        "amazon"
+      ],
+      "core_value": "Seamless music streaming experience with voice control.",
+      "description": "This consumer enjoys listening to music and frequently utilizes their Echo device to play their favorite tunes through voice commands. They are deeply integrated into the Amazon ecosystem, using Alexa to expand their music listening experiences.",
+      "motivation": "Their primary drive is to easily access and control music while multitasking, relying on voice commands for convenience.",
+      "pain_points": "They may experience occasional misinterpretations by Alexa or limitations in music selection.",
+      "quote": "I just ask Alexa to play my favorite music and it's perfect every time!",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.4,
+        "Negative": 0.1,
+        "_inference_note": "Positive sentiment from keywords like 'want', 'play', and 'alexa'; neutral from 'music' and 'amazon'; slight negativity possible due to technological limitations."
+      },
+      "top_aspects": [
+        "music",
+        "play",
+        "echo",
+        "alexa",
+        "amazon"
+      ],
+      "co_aspects": {
+        "music": [
+          "want",
+          "play",
+          "alexa"
+        ],
+        "alexa": [
+          "music",
+          "play",
+          "amazon"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Quality-Conscious Pragmatist",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP1_SNA",
+      "keywords": [
+        "great",
+        "good",
+        "sound",
+        "product",
+        "use",
+        "quality"
+      ],
+      "core_value": "High-quality sound and ease of use in tech products.",
+      "description": "This user seeks products that provide great sound quality and are easy to use, appreciating the simplicity and effectiveness of their devices.",
+      "motivation": "Purchasing decisions are driven by a desire for superior quality and straightforward, hassle-free usage.",
+      "pain_points": "They may occasionally encounter products that fall short of their quality expectations.",
+      "quote": "This speaker has excellent sound quality, and it's so easy to use!",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.3,
+        "Negative": 0.0,
+        "_inference_note": "Heavily positive sentiment evident in words like 'great', 'good', 'love', with neutral aspects being factual usage terms."
+      },
+      "top_aspects": [
+        "sound",
+        "quality",
+        "product",
+        "use",
+        "great"
+      ],
+      "co_aspects": {
+        "sound": [
+          "quality",
+          "great",
+          "use"
+        ],
+        "quality": [
+          "sound",
+          "product",
+          "good"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "In-Home Tech Integrator",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP1_SNA",
+      "keywords": [
+        "google",
+        "nest",
+        "home",
+        "device",
+        "hub",
+        "control"
+      ],
+      "core_value": "Integrated smart home technology for optimized living.",
+      "description": "This consumer focuses on creating an interconnected smart home network using Google Nest devices for monitoring and control.",
+      "motivation": "They aim to streamline home management and enhance security through cohesive technology integration.",
+      "pain_points": "Connection issues or app malfunctions can disrupt their seamless experience.",
+      "quote": "With my Google Hub, I can control everything from lights to my security camera.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Positive due to words like 'home', 'hub', 'control', with some negativity inferred from potential 'device' issues."
+      },
+      "top_aspects": [
+        "google",
+        "nest",
+        "home",
+        "hub",
+        "control"
+      ],
+      "co_aspects": {
+        "google": [
+          "nest",
+          "home",
+          "hub"
+        ],
+        "home": [
+          "google",
+          "device",
+          "control"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Practical Problem Solver",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP1_SNA",
+      "keywords": [
+        "work",
+        "buy",
+        "issue",
+        "connect",
+        "purchase",
+        "return"
+      ],
+      "core_value": "Value in reliable and efficient device performance.",
+      "description": "This consumer values practicality and reliability in their purchases, focusing on how well a product performs over time.",
+      "motivation": "They are driven by the need for devices that consistently deliver on their promises without frequent issues.",
+      "pain_points": "Connecting devices and recurring issues that lead to returns are their main frustrations.",
+      "quote": "I've had to return this device because it just wouldn't connect properly.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.3,
+        "Negative": 0.5,
+        "_inference_note": "Negative sentiments are evidenced by 'return', 'issue', and 'connect'; neutral from 'purchase', 'buy'; slight positivity from 'work'."
+      },
+      "top_aspects": [
+        "work",
+        "issue",
+        "connect",
+        "purchase",
+        "return"
+      ],
+      "co_aspects": {
+        "issue": [
+          "connect",
+          "work",
+          "return"
+        ],
+        "connect": [
+          "issue",
+          "work",
+          "purchase"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP2_LDA",
+  "method": "LDA",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2370,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Google User with Technical Expectations",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP2_LDA",
+      "keywords": [
+        "thermostat",
+        "charge",
+        "nest",
+        "work",
+        "google",
+        "clock",
+        "issue"
+      ],
+      "core_value": "Reliable integration with their home automation system.",
+      "description": "These users are tech-savvy individuals who experiment with integrating virtual assistants into their smart home environment. They focus on functionality and technical performance.",
+      "motivation": "They seek a seamless experience with smart home devices, particularly focusing on Google's ecosystem.",
+      "pain_points": "Technical issues, such as connectivity and charging, frustrate them.",
+      "quote": "I expected the Google Nest to seamlessly integrate, but I keep running into connectivity issues.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.3,
+        "Negative": 0.5,
+        "_inference_note": "The presence of 'issue' and 'support' suggest prevalent frustrations, while 'google' and 'charge' are neutral, with few positive signals."
+      },
+      "top_aspects": [
+        "thermostat",
+        "charge",
+        "nest",
+        "work",
+        "google"
+      ],
+      "co_aspects": {
+        "thermostat": [
+          "charge",
+          "nest",
+          "work"
+        ],
+        "google": [
+          "clock",
+          "support",
+          "issue"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Active Listener and Music Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP2_LDA",
+      "keywords": [
+        "sound",
+        "music",
+        "like",
+        "play",
+        "quality",
+        "echo",
+        "speaker"
+      ],
+      "core_value": "High-quality sound for an immersive audio experience.",
+      "description": "This group is composed of audio enthusiasts who prioritize sound quality and music playback capabilities when choosing a virtual assistant device.",
+      "motivation": "Their primary concern is the speaker's sound quality to enhance their music listening experience.",
+      "pain_points": "They can sometimes be dissatisfied if the sound quality doesn't meet their high expectations.",
+      "quote": "I love playing music through this, the sound quality is just what I wanted!",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Keywords like 'sound', 'music', and 'quality' are predominantly positive, with few negatives."
+      },
+      "top_aspects": [
+        "sound",
+        "music",
+        "play",
+        "quality",
+        "echo"
+      ],
+      "co_aspects": {
+        "sound": [
+          "music",
+          "quality",
+          "speaker"
+        ],
+        "music": [
+          "play",
+          "echo",
+          "thing"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Value-Conscious Buyer",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP2_LDA",
+      "keywords": [
+        "quality",
+        "great",
+        "good",
+        "price",
+        "sound",
+        "buy",
+        "purchase"
+      ],
+      "core_value": "Getting the best value for a reasonable price.",
+      "description": "These consumers are focused on obtaining a product that balances quality with an affordable price. They are cost-conscious but still seek decent performance.",
+      "motivation": "Their purchases are driven by finding a good deal without sacrificing much on quality.",
+      "pain_points": "They are frustrated when the product doesn't deliver value for the price paid.",
+      "quote": "I was impressed by what I got for the price I paid, definitely a worthwhile purchase.",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "The emphasis on 'great', 'good', 'perfect', and 'price' suggests strong positive sentiments with low negatives."
+      },
+      "top_aspects": [
+        "quality",
+        "great",
+        "good",
+        "price",
+        "sound"
+      ],
+      "co_aspects": {
+        "quality": [
+          "great",
+          "price",
+          "buy"
+        ],
+        "sound": [
+          "price",
+          "purchase",
+          "samsung"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Apple Brand Loyalist",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP2_LDA",
+      "keywords": [
+        "work",
+        "airpod",
+        "buy",
+        "charge",
+        "apple",
+        "return",
+        "month"
+      ],
+      "core_value": "Consistency and brand reliability from Apple products.",
+      "description": "This segment consists of consumers loyal to Apple who seek assurance in product performance and long-term reliability. They value the seamless integration within the Apple ecosystem.",
+      "motivation": "Brand loyalty to Apple and the pursuit of reliable, well-integrated smart devices drive their decisions.",
+      "pain_points": "Returning or exchanging products due to defects or performance issues causes dissatisfaction.",
+      "quote": "I only buy Apple because of their integration, but sometimes the products need to be returned due to issues.",
+      "sentiment_ratio": {
+        "Positive": 0.3,
+        "Neutral": 0.4,
+        "Negative": 0.3,
+        "_inference_note": "Mixed sentiment with 'apple', 'work', and 'good' showing positive, but 'return' and 'stop' indicating negatives."
+      },
+      "top_aspects": [
+        "work",
+        "airpod",
+        "buy",
+        "charge",
+        "apple"
+      ],
+      "co_aspects": {
+        "apple": [
+          "charge",
+          "work",
+          "return"
+        ],
+        "buy": [
+          "airpod",
+          "month",
+          "product"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP1_SNA",
+  "method": "SNA_LOUVAIN",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2370,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Easygoing Music Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP1_SNA",
+      "keywords": [
+        "music",
+        "want",
+        "play",
+        "echo",
+        "alexa",
+        "amazon",
+        "listen"
+      ],
+      "core_value": "This consumer values the seamless integration of their device with music services.",
+      "description": "These users are passionate about listening to music and enjoy using voice commands with Alexa-enabled devices for an enhanced entertainment experience.",
+      "motivation": "The need for easy and hands-free access to their favorite music playlists and the convenience of voice commands drive their purchase decision.",
+      "pain_points": "Connectivity issues or music streaming lags can be frustrating for them.",
+      "quote": "I love using Alexa to play my favorite songs; it's smooth and makes my music experience so much better.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Positive signals from 'want', 'play', 'listen', 'love'; neutral from 'ask', 'hear'; slight negative from potential service issues."
+      },
+      "top_aspects": [
+        "music",
+        "play",
+        "echo",
+        "alexa",
+        "amazon"
+      ],
+      "co_aspects": {
+        "music": [
+          "want",
+          "play",
+          "echo",
+          "alexa"
+        ],
+        "play": [
+          "music",
+          "echo",
+          "alexa"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Quality-Seeking Tech User",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP1_SNA",
+      "keywords": [
+        "great",
+        "good",
+        "sound",
+        "product",
+        "use",
+        "like",
+        "quality"
+      ],
+      "core_value": "This consumer appreciates high-quality sound and overall product performance.",
+      "description": "These are tech-savvy users who expect superior sound quality and ease of use, often comparing to previous purchases or experiences.",
+      "motivation": "Their purchase decisions are driven by the product's promise of quality and the brand's reputation.",
+      "pain_points": "Compromises on sound quality and complex usability can be major turn-offs.",
+      "quote": "The sound quality of this speaker is superb; I love how easy it is to use each day.",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Positive signals from 'great', 'good', 'love', 'quality'; neutral from 'product', 'use'; some negative from unmet expectations."
+      },
+      "top_aspects": [
+        "sound",
+        "quality",
+        "product",
+        "use",
+        "like"
+      ],
+      "co_aspects": {
+        "great": [
+          "good",
+          "sound",
+          "product"
+        ],
+        "sound": [
+          "quality",
+          "product",
+          "use"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Critical Issue Resolver",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP1_SNA",
+      "keywords": [
+        "work",
+        "issue",
+        "connect",
+        "purchase",
+        "return",
+        "new"
+      ],
+      "core_value": "This consumer prioritizes the functionality and reliability of their devices.",
+      "description": "These users are practical and critical, often identifying and addressing performance issues in their devices. They focus on device reliability over novelty.",
+      "motivation": "They are driven by the need for consistent device performance and quick issue resolution.",
+      "pain_points": "Frequent connectivity problems or defects prompting returns are a significant source of frustration.",
+      "quote": "I had to return my device because of constant connectivity issues; I need something that works reliably.",
+      "sentiment_ratio": {
+        "Positive": 0.1,
+        "Neutral": 0.4,
+        "Negative": 0.5,
+        "_inference_note": "Negative signals from 'issue', 'return'; neutral from 'work', 'purchase', 'new'; minimal positive potential from functional devices."
+      },
+      "top_aspects": [
+        "work",
+        "issue",
+        "connect",
+        "purchase",
+        "return"
+      ],
+      "co_aspects": {
+        "work": [
+          "issue",
+          "connect"
+        ],
+        "purchase": [
+          "return",
+          "new"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Home Automation Advocate",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP1_SNA",
+      "keywords": [
+        "google",
+        "nest",
+        "control",
+        "home",
+        "device",
+        "hub",
+        "camera"
+      ],
+      "core_value": "This consumer enthusiastically integrates smart devices to create an automated home environment.",
+      "description": "These individuals are early adopters of smart technology who focus on integrating multiple devices within their home ecosystems.",
+      "motivation": "They are motivated by the cohesive control and enhanced security that smart devices offer, aiming for a fully connected home.",
+      "pain_points": "Inter-device compatibility issues and setup complexities can hinder their ideal smart home setup.",
+      "quote": "Integrating my Nest and Google devices has really streamlined the control in my home, despite a few setup hurdles.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.4,
+        "Negative": 0.1,
+        "_inference_note": "Positive signals from 'control', 'home'; neutral from 'device', 'hub', 'camera'; negative from setup issues."
+      },
+      "top_aspects": [
+        "google",
+        "nest",
+        "control",
+        "home",
+        "device"
+      ],
+      "co_aspects": {
+        "google": [
+          "nest",
+          "home",
+          "device"
+        ],
+        "control": [
+          "home",
+          "hub"
+        ]
+      }
+    }
+  ]
+}

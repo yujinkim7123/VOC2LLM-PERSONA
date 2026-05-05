@@ -1,0 +1,187 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP2_LDA",
+  "method": "LDA",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2370,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Apple Pod Disillusioned Buyer",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP2_LDA",
+      "keywords": [
+        "work",
+        "stop",
+        "return",
+        "buy",
+        "month",
+        "apple",
+        "pod"
+      ],
+      "core_value": "Reliability and longevity of smart devices.",
+      "description": "This persona tends to invest in Apple products but often faces disappointment when products like AirPods stop working within a few months. They are not hesitant to return products that fail expectations.",
+      "motivation": "Their purchase decision is driven by brand loyalty to Apple and the initial promise of product quality.",
+      "pain_points": "Frustration arises when products stop functioning as expected, leading to returns.",
+      "quote": "I was really hoping my AirPods would work longer than a couple of months, but now I'm contemplating a return.",
+      "sentiment_ratio": {
+        "Positive": 0.0,
+        "Neutral": 0.3,
+        "Negative": 0.7,
+        "_inference_note": "Keywords like 'stop', 'return', and 'month' suggest negative experiences with product functionality and satisfaction."
+      },
+      "top_aspects": [
+        "work",
+        "return",
+        "buy",
+        "month",
+        "apple"
+      ],
+      "co_aspects": {
+        "work": [
+          "stop",
+          "return",
+          "buy"
+        ],
+        "return": [
+          "buy",
+          "month",
+          "apple"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Practical Sound Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP2_LDA",
+      "keywords": [
+        "airpod",
+        "charge",
+        "ear",
+        "work",
+        "good",
+        "sound"
+      ],
+      "core_value": "High-quality sound and practicality in wireless devices.",
+      "description": "They are passionate about sound quality and convenience, prioritizing practicality in the use of AirPods. They appreciate when their gadgets work efficiently and deliver good audio experiences.",
+      "motivation": "Enhanced sound quality and user-friendly features drive their buying decisions.",
+      "pain_points": "Issues with charging or fit can be minor irritations.",
+      "quote": "The AirPods sound great and work well; just ensure they’re always charged.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.4,
+        "Negative": 0.0,
+        "_inference_note": "Positive keywords like 'good', 'sound', and 'work' dominate the cluster, reflecting satisfaction."
+      },
+      "top_aspects": [
+        "airpod",
+        "charge",
+        "ear",
+        "work",
+        "sound"
+      ],
+      "co_aspects": {
+        "airpod": [
+          "charge",
+          "ear",
+          "work"
+        ],
+        "charge": [
+          "sound",
+          "work",
+          "good"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Smart Home Integrator",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP2_LDA",
+      "keywords": [
+        "thermostat",
+        "nest",
+        "work",
+        "google",
+        "set",
+        "home"
+      ],
+      "core_value": "Seamless integration of smart home systems.",
+      "description": "These consumers are focused on creating a cohesive smart home environment, often using brands like Google's Nest for efficient home management.",
+      "motivation": "They seek devices that are easy to set up and integrate smoothly with existing smart home systems.",
+      "pain_points": "Technical glitches or connectivity issues may hamper their effort to maintain a smart home ecosystem.",
+      "quote": "Setting up the Nest was straightforward and it works well with my Google Home system.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.4,
+        "Negative": 0.1,
+        "_inference_note": "Positive context inferred from 'easy', 'set', and efficient integration despite potential minor 'work' concerns."
+      },
+      "top_aspects": [
+        "thermostat",
+        "nest",
+        "work",
+        "google",
+        "set"
+      ],
+      "co_aspects": {
+        "thermostat": [
+          "nest",
+          "work",
+          "home"
+        ],
+        "google": [
+          "set",
+          "home",
+          "wifi"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Value-Oriented Gadget Lover",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP2_LDA",
+      "keywords": [
+        "great",
+        "clock",
+        "smart",
+        "google",
+        "sound",
+        "price"
+      ],
+      "core_value": "Value for money in smart gadgets.",
+      "description": "They are savvy consumers who seek balance between cost and functionality, often choosing devices with high perceived value within their budgets.",
+      "motivation": "Smart devices with competitive pricing and desirable features appeal to them greatly.",
+      "pain_points": "Occasional trade-offs between price and performance could be a concern.",
+      "quote": "The smart clock was a great buy for the price, offering excellent sound and smart features.",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.3,
+        "Negative": 0.0,
+        "_inference_note": "Keywords 'great', 'love', and 'good' indicate strong positive sentiment regarding value and quality."
+      },
+      "top_aspects": [
+        "great",
+        "clock",
+        "google",
+        "sound",
+        "price"
+      ],
+      "co_aspects": {
+        "great": [
+          "clock",
+          "smart",
+          "price"
+        ],
+        "google": [
+          "sound",
+          "smart",
+          "quality"
+        ]
+      }
+    }
+  ]
+}

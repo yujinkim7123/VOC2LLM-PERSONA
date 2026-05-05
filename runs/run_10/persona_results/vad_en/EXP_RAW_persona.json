@@ -1,0 +1,182 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP_RAW",
+  "method": "RAW_REVIEW_INJECTION",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_reviews_injected": 200,
+  "run_seed": 112,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Tech Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP_RAW",
+      "keywords": [
+        "Google Assistant",
+        "Alexa",
+        "smart features",
+        "music",
+        "volume",
+        "control",
+        "WiFi"
+      ],
+      "core_value": "Seamless integration and advanced features",
+      "description": "These consumers are tech-savvy individuals who look for virtual assistants to improve their smart home ecosystem. They often have multiple smart devices and value robust functionalities such as music streaming, voice control, and integration with existing devices.",
+      "motivation": "They seek the latest features to enhance their smart home setup and ensure smooth interoperability between devices.",
+      "pain_points": "Frequent connectivity issues, poor integration with non-native apps, and sometimes unsatisfactory audio quality.",
+      "quote": "I love using it for music and my lists. Alexa is my favorite of all, and it definitely comes in handy.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.2,
+        "Negative": 0.2,
+        "_inference_note": "These reviews show a high satisfaction with features and integration but also mention issues like connectivity hurdles."
+      },
+      "top_aspects": [
+        "music",
+        "control",
+        "integration",
+        "features",
+        "sound"
+      ],
+      "co_aspects": {
+        "music": [
+          "control",
+          "sound",
+          "WiFi"
+        ],
+        "control": [
+          "features",
+          "integration"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Frustrated Functionality Seekers",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP_RAW",
+      "keywords": [
+        "disappointing",
+        "issues",
+        "support",
+        "technical",
+        "problems",
+        "connectivity",
+        "frustration"
+      ],
+      "core_value": "Reliable performance and effective support",
+      "description": "These consumers have faced ongoing technical difficulties and have been let down by customer support. They seek products that work as advertised and provide consistent functionality.",
+      "motivation": "They desire reliable products that perform as expected without frequent issues or the need for support.",
+      "pain_points": "Persistent connectivity problems, poor customer support, and devices not performing their intended function.",
+      "quote": "It stopped working and I can't get a hold of anyone to replace it under warranty.",
+      "sentiment_ratio": {
+        "Positive": 0.1,
+        "Neutral": 0.1,
+        "Negative": 0.8,
+        "_inference_note": "A majority of reviews reflect frustration with technical issues and lack of responsive support, leading to overwhelmingly negative sentiment."
+      },
+      "top_aspects": [
+        "issues",
+        "support",
+        "connectivity",
+        "performance",
+        "recommend"
+      ],
+      "co_aspects": {
+        "issues": [
+          "support",
+          "connectivity"
+        ],
+        "support": [
+          "recommend",
+          "performance"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Quality-Concerned Buyers",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP_RAW",
+      "keywords": [
+        "quality",
+        "durability",
+        "battery",
+        "design",
+        "performance",
+        "issues"
+      ],
+      "core_value": "Product longevity and build quality",
+      "description": "These consumers look for devices that offer lasting quality and dependability. They are critical of products that show signs of wear or malfunction soon after purchase.",
+      "motivation": "They invest in products expecting long-term reliability and sturdy construction.",
+      "pain_points": "Products failing shortly after purchase, durability issues, and poor material quality.",
+      "quote": "Stopped working less than a year in. Can't find anyone to talk to for support.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.2,
+        "Negative": 0.6,
+        "_inference_note": "Reviews are mainly negative with disappointments in durability and failure post-warranty highlighting quality concerns."
+      },
+      "top_aspects": [
+        "quality",
+        "durability",
+        "battery",
+        "design",
+        "performance"
+      ],
+      "co_aspects": {
+        "quality": [
+          "durability",
+          "design"
+        ],
+        "battery": [
+          "performance",
+          "issues"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Budget-Conscious Utilitarians",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP_RAW",
+      "keywords": [
+        "value",
+        "price",
+        "cost",
+        "function",
+        "basic",
+        "features"
+      ],
+      "core_value": "Affordable practicality and basic functionality",
+      "description": "These consumers aim to get the most value out of their purchases. They prioritize cost-effective options that fulfill essential functions without unnecessary frills.",
+      "motivation": "Finding cost-effective solutions that provide necessary functions without exceeding budget limits.",
+      "pain_points": "Limited features for advanced usage and occasional performance limitations at lower price points.",
+      "quote": "A great value for the price. Does what it needs to without breaking the bank.",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "A generally positive sentiment as users perceive a good balance between price and basic functionality, despite occasional limitations."
+      },
+      "top_aspects": [
+        "value",
+        "price",
+        "function",
+        "features",
+        "cost"
+      ],
+      "co_aspects": {
+        "value": [
+          "price",
+          "features"
+        ],
+        "function": [
+          "cost",
+          "basic"
+        ]
+      }
+    }
+  ]
+}

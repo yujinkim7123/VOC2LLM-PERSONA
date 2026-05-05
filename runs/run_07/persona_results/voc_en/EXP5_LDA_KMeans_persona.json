@@ -1,0 +1,161 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP5_LDA_KMeans",
+  "method": "LDA_KMEANS",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_docs": 965,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Cost-Conscious Shopper",
+      "category": "home_appliance",
+      "data_source": "voc_en_EXP5_LDA_KMeans",
+      "keywords": [
+        "price",
+        "spec",
+        "buy",
+        "service",
+        "performance"
+      ],
+      "core_value": "This consumer values getting the most out of their money when purchasing home appliances.",
+      "description": "The Cost-Conscious Shopper is always on the lookout for good deals and evaluates products based on their performance, specs, and price. They rely on brands with a reputation for offering value for money.",
+      "motivation": "They are driven by the desire to maximize their savings while ensuring their purchase performs up to expectations.",
+      "pain_points": "High prices and products that don't meet performance expectations frustrate them.",
+      "quote": "I paid a fair price for this appliance, and it performs just as well as more expensive brands.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.3,
+        "Negative": 0.2,
+        "_inference_note": "The keywords 'price', 'buy', 'performance' indicate a focus on value and satisfaction, while 'service' suggests mixed experiences that can be stressful at times."
+      },
+      "top_aspects": [
+        "price",
+        "spec",
+        "service",
+        "performance",
+        "brand"
+      ],
+      "co_aspects": {
+        "price": [
+          "spec",
+          "service",
+          "performance"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Aesthetic-Focused Buyer",
+      "category": "home_appliance",
+      "data_source": "voc_en_EXP5_LDA_KMeans",
+      "keywords": [
+        "color",
+        "pretty",
+        "look",
+        "design",
+        "beautiful"
+      ],
+      "core_value": "The aesthetic appeal of appliances is a top priority for this consumer.",
+      "description": "The Aesthetic-Focused Buyer is drawn to products that enhance the visual appeal of their home. They prioritize style and design when choosing appliances, often seeing these as extensions of their personal style.",
+      "motivation": "Their purchase decisions are primarily driven by design elements that match their home decor.",
+      "pain_points": "Limited design options or dated aesthetics can be a source of frustration.",
+      "quote": "This appliance fits perfectly with my home’s style and looks stunning.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Keywords like 'pretty', 'look', 'beautiful' suggest a strong positive experience, while 'buy', 'want' are more neutral, aligned with purchase intent."
+      },
+      "top_aspects": [
+        "color",
+        "pretty",
+        "design",
+        "look",
+        "buy"
+      ],
+      "co_aspects": {
+        "color": [
+          "pretty",
+          "look",
+          "design"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Warranty-Conscious User",
+      "category": "home_appliance",
+      "data_source": "voc_en_EXP5_LDA_KMeans",
+      "keywords": [
+        "warranty",
+        "service",
+        "brand",
+        "spec",
+        "use"
+      ],
+      "core_value": "Reliability and assurance through warranty are key for this consumer.",
+      "description": "The Warranty-Conscious User seeks peace of mind when purchasing appliances. They consider warranty and reliable service as critical components of their buying decision.",
+      "motivation": "They are motivated by the security that warranties provide against potential issues.",
+      "pain_points": "Issues with warranty claims or poor service experiences can deeply frustrate these consumers.",
+      "quote": "I chose this appliance because the warranty and brand reputation give me peace of mind.",
+      "sentiment_ratio": {
+        "Positive": 0.4,
+        "Neutral": 0.4,
+        "Negative": 0.2,
+        "_inference_note": "The presence of 'warranty', 'service', and 'brand' reflect neutral to positive attitudes, but 'issue' related keywords suggest occasional dissatisfaction."
+      },
+      "top_aspects": [
+        "warranty",
+        "service",
+        "brand",
+        "spec",
+        "use"
+      ],
+      "co_aspects": {
+        "warranty": [
+          "service",
+          "brand"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Practical Evaluator",
+      "category": "home_appliance",
+      "data_source": "voc_en_EXP5_LDA_KMeans",
+      "keywords": [
+        "service",
+        "exchange",
+        "defect",
+        "issue",
+        "measurement"
+      ],
+      "core_value": "This consumer values practical performance and reliability in function over time.",
+      "description": "The Practical Evaluator invests in products based on their functional value and durability. They are meticulous about product performance and any defects or issues.",
+      "motivation": "They are driven by the need for durable, issue-free appliances that meet their practical needs.",
+      "pain_points": "Defects, the need for exchanges, and inconsistent service quality are major concerns.",
+      "quote": "I need appliances that perform consistently without needing exchanges or dealing with defects.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.4,
+        "Negative": 0.4,
+        "_inference_note": "Keywords like 'defect', 'exchange', 'issue' suggest significant negative experiences, whereas 'service', 'measurement' are more neutral."
+      },
+      "top_aspects": [
+        "service",
+        "exchange",
+        "defect",
+        "issue",
+        "brand"
+      ],
+      "co_aspects": {
+        "service": [
+          "exchange",
+          "defect",
+          "issue"
+        ]
+      }
+    }
+  ]
+}

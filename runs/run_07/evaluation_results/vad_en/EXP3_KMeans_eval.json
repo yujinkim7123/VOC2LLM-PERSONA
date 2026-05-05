@@ -1,0 +1,193 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP3_KMeans",
+  "method": "KMEANS_TFIDF",
+  "lang": "en",
+  "judge": {
+    "judge_matrix": [
+      [
+        0.06,
+        0.54,
+        0.24,
+        0.0
+      ],
+      [
+        0.4,
+        0.0,
+        0.06,
+        0.0
+      ],
+      [
+        0.0,
+        0.34,
+        0.54,
+        0.0
+      ],
+      [
+        0.16,
+        0.18,
+        0.32,
+        0.5
+      ]
+    ],
+    "best_mapping": [
+      {
+        "gen_name": "Tech-Savvy Learner",
+        "gt_name": "The Smart Home Integrator",
+        "keyword_alignment": 0.3,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.7,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.7,
+        "matching_score": 0.54,
+        "validity_score": 0.7,
+        "reasoning": "Some topic overlap; motivations/pains partly align, good sentiment direction.",
+        "success": true
+      },
+      {
+        "gen_name": "Value-Conscious Audiophile",
+        "gt_name": "The Wireless Audio Pursuer",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.4,
+        "validity_score": 0.7,
+        "reasoning": "Keywords partially match; values align; pain and sentiment differ.",
+        "success": false
+      },
+      {
+        "gen_name": "Multifunctional Gadget Enthusiast",
+        "gt_name": "The Practical Value Seeker",
+        "keyword_alignment": 0.7,
+        "value_alignment": 0.3,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.7,
+        "matching_score": 0.54,
+        "validity_score": 0.7,
+        "reasoning": "Keywords and sentiment mostly align; core values diverge; grounded in domain.",
+        "success": true
+      },
+      {
+        "gen_name": "Cautious Shopper",
+        "gt_name": "The Disillusioned Early Adopter",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.3,
+        "matching_score": 0.5,
+        "validity_score": 0.7,
+        "reasoning": "Overlap in reliability focus, but missing depth in durability issues.",
+        "success": true
+      }
+    ],
+    "matching_score": 0.495,
+    "validity_score": 0.7,
+    "mean_all_matching": 0.2088,
+    "dim_averages": {
+      "keyword_alignment": 0.5,
+      "value_alignment": 0.55,
+      "pain_alignment": 0.5,
+      "behavioral_alignment": 0.5,
+      "sentiment_alignment": 0.425
+    },
+    "n_success": 3,
+    "mapping_success_rate": 0.75
+  },
+  "topic_sim_result": {
+    "topic_sim": 0.4096,
+    "pair_details": [
+      {
+        "gen_name": "Tech-Savvy Learner",
+        "gt_name": "The Smart Home Integrator",
+        "gen_aspects": [
+          "thermostat",
+          "nest",
+          "work",
+          "learn",
+          "easy"
+        ],
+        "gt_aspects": [
+          "Smart Assistant",
+          "Clock",
+          "Connectivity",
+          "Configuration",
+          "Convenience"
+        ],
+        "topic_sim": 0.3466
+      },
+      {
+        "gen_name": "Value-Conscious Audiophile",
+        "gt_name": "The Wireless Audio Pursuer",
+        "gen_aspects": [
+          "great",
+          "sound",
+          "quality",
+          "love",
+          "price"
+        ],
+        "gt_aspects": [
+          "Sound",
+          "Connectivity",
+          "Price",
+          "Configuration",
+          "Size"
+        ],
+        "topic_sim": 0.5541
+      },
+      {
+        "gen_name": "Multifunctional Gadget Enthusiast",
+        "gt_name": "The Practical Value Seeker",
+        "gen_aspects": [
+          "clock",
+          "smart",
+          "alarm",
+          "great",
+          "charge"
+        ],
+        "gt_aspects": [
+          "Price",
+          "Clock",
+          "Configuration",
+          "Convenience",
+          "Smart Assistant"
+        ],
+        "topic_sim": 0.4644
+      },
+      {
+        "gen_name": "Cautious Shopper",
+        "gt_name": "The Disillusioned Early Adopter",
+        "gen_aspects": [
+          "work",
+          "stop",
+          "month",
+          "buy",
+          "return"
+        ],
+        "gt_aspects": [
+          "Durability",
+          "Defective",
+          "Charging",
+          "Connectivity",
+          "Quality"
+        ],
+        "topic_sim": 0.2732
+      }
+    ]
+  },
+  "summary": {
+    "matching_score": 0.495,
+    "validity_score": 0.7,
+    "topic_sim": 0.4096,
+    "dim_averages": {
+      "keyword_alignment": 0.5,
+      "value_alignment": 0.55,
+      "pain_alignment": 0.5,
+      "behavioral_alignment": 0.5,
+      "sentiment_alignment": 0.425
+    }
+  }
+}

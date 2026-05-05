@@ -1,0 +1,193 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "BASELINE",
+  "method": "LLM_STANDALONE",
+  "lang": "en",
+  "judge": {
+    "judge_matrix": [
+      [
+        0.0,
+        0.06,
+        0.0,
+        0.06
+      ],
+      [
+        0.32,
+        0.0,
+        0.0,
+        0.06
+      ],
+      [
+        0.06,
+        0.12,
+        0.48,
+        0.06
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "best_mapping": [
+      {
+        "gen_name": "Efficiency-Seeking Tech Enthusiast",
+        "gt_name": "Performance-Focused Spec Evaluator",
+        "keyword_alignment": 0.0,
+        "value_alignment": 0.0,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.0,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.06,
+        "validity_score": 0.3,
+        "reasoning": "Generated persona focuses on energy efficiency, not performance specs.",
+        "success": false
+      },
+      {
+        "gen_name": "Cost-Conscious Homemaker",
+        "gt_name": "Price-Sensitive Bargain Hunter",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.32,
+        "validity_score": 0.7,
+        "reasoning": "Sentiments differ, focus more on reliability than price sensitivity.",
+        "success": false
+      },
+      {
+        "gen_name": "Style-Conscious Urban Dweller",
+        "gt_name": "Design-Driven Aesthetic Consumer",
+        "keyword_alignment": 0.7,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.48,
+        "validity_score": 1.0,
+        "reasoning": "Generated persona isn't aligned in sentiment but grounded in domain topics.",
+        "success": false
+      },
+      {
+        "gen_name": "Eco-Conscious Minimalist",
+        "gt_name": "Trust-Seeking After-Service Prioritizer",
+        "keyword_alignment": 0.0,
+        "value_alignment": 0.0,
+        "pain_alignment": 0.0,
+        "behavioral_alignment": 0.0,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.0,
+        "validity_score": 0.3,
+        "reasoning": "Generated persona lacks alignment with reference topics and focus.",
+        "success": false
+      }
+    ],
+    "matching_score": 0.215,
+    "validity_score": 0.575,
+    "mean_all_matching": 0.0762,
+    "dim_averages": {
+      "keyword_alignment": 0.3,
+      "value_alignment": 0.3,
+      "pain_alignment": 0.275,
+      "behavioral_alignment": 0.2,
+      "sentiment_alignment": 0.0
+    },
+    "n_success": 0,
+    "mapping_success_rate": 0.0
+  },
+  "topic_sim_result": {
+    "topic_sim": 0.328,
+    "pair_details": [
+      {
+        "gen_name": "Efficiency-Seeking Tech Enthusiast",
+        "gt_name": "Performance-Focused Spec Evaluator",
+        "gen_aspects": [
+          "smart",
+          "energy saving",
+          "integration",
+          "remote control",
+          "automated"
+        ],
+        "gt_aspects": [
+          "Performance/Specs",
+          "Ease of Use",
+          "Design/Appearance",
+          "Shipping/Service",
+          "Price/Cost"
+        ],
+        "topic_sim": 0.2944
+      },
+      {
+        "gen_name": "Cost-Conscious Homemaker",
+        "gt_name": "Price-Sensitive Bargain Hunter",
+        "gen_aspects": [
+          "affordable",
+          "durable",
+          "basic features",
+          "value",
+          "budget"
+        ],
+        "gt_aspects": [
+          "Price/Cost",
+          "Performance/Specs",
+          "Design/Appearance",
+          "Shipping/Service",
+          "Ease of Use"
+        ],
+        "topic_sim": 0.369
+      },
+      {
+        "gen_name": "Style-Conscious Urban Dweller",
+        "gt_name": "Design-Driven Aesthetic Consumer",
+        "gen_aspects": [
+          "design",
+          "modern",
+          "compact",
+          "aesthetic",
+          "innovation"
+        ],
+        "gt_aspects": [
+          "Design/Appearance",
+          "Ease of Use",
+          "Price/Cost",
+          "Shipping/Service",
+          "Performance/Specs"
+        ],
+        "topic_sim": 0.3717
+      },
+      {
+        "gen_name": "Eco-Conscious Minimalist",
+        "gt_name": "Trust-Seeking After-Service Prioritizer",
+        "gen_aspects": [
+          "eco-friendly",
+          "energy-efficient",
+          "sustainable",
+          "minimalist",
+          "green"
+        ],
+        "gt_aspects": [
+          "Shipping/Service",
+          "Price/Cost",
+          "Ease of Use",
+          "Performance/Specs",
+          "Design/Appearance"
+        ],
+        "topic_sim": 0.277
+      }
+    ]
+  },
+  "summary": {
+    "matching_score": 0.215,
+    "validity_score": 0.575,
+    "topic_sim": 0.328,
+    "dim_averages": {
+      "keyword_alignment": 0.3,
+      "value_alignment": 0.3,
+      "pain_alignment": 0.275,
+      "behavioral_alignment": 0.2,
+      "sentiment_alignment": 0.0
+    }
+  }
+}

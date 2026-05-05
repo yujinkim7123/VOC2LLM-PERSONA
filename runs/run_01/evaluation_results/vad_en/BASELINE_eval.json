@@ -1,0 +1,193 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "BASELINE",
+  "method": "LLM_STANDALONE",
+  "lang": "en",
+  "judge": {
+    "judge_matrix": [
+      [
+        0.18,
+        0.72,
+        0.16,
+        0.0
+      ],
+      [
+        0.0,
+        0.36,
+        0.34,
+        0.0
+      ],
+      [
+        0.0,
+        0.2,
+        0.14,
+        0.0
+      ],
+      [
+        0.62,
+        0.1,
+        0.06,
+        0.0
+      ]
+    ],
+    "best_mapping": [
+      {
+        "gen_name": "Tech-Forward Enthusiast",
+        "gt_name": "The Smart Home Integrator",
+        "keyword_alignment": 0.7,
+        "value_alignment": 0.7,
+        "pain_alignment": 1.0,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.7,
+        "matching_score": 0.72,
+        "validity_score": 1.0,
+        "reasoning": "Aligned on keywords and pain points; valid in domain topics. Limited behavior alignment.",
+        "success": true
+      },
+      {
+        "gen_name": "Practical Family Organizer",
+        "gt_name": "The Practical Value Seeker",
+        "keyword_alignment": 0.3,
+        "value_alignment": 0.3,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.5,
+        "matching_score": 0.34,
+        "validity_score": 0.7,
+        "reasoning": "Topics differ significantly; some sentiment and utility overlap.",
+        "success": false
+      },
+      {
+        "gen_name": "Privacy-Conscious Minimalist",
+        "gt_name": "The Disillusioned Early Adopter",
+        "keyword_alignment": 0.0,
+        "value_alignment": 0.0,
+        "pain_alignment": 0.0,
+        "behavioral_alignment": 0.0,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.0,
+        "validity_score": 0.3,
+        "reasoning": "Generated persona lacks alignment across all dimensions and weakly ties to domain topics.",
+        "success": false
+      },
+      {
+        "gen_name": "Sound Quality Aficionado",
+        "gt_name": "The Wireless Audio Pursuer",
+        "keyword_alignment": 0.7,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.7,
+        "sentiment_alignment": 0.5,
+        "matching_score": 0.62,
+        "validity_score": 1.0,
+        "reasoning": "Keywords align but miss wireless aspect; pain focus shifts from connectivity to features.",
+        "success": true
+      }
+    ],
+    "matching_score": 0.42,
+    "validity_score": 0.75,
+    "mean_all_matching": 0.18,
+    "dim_averages": {
+      "keyword_alignment": 0.425,
+      "value_alignment": 0.425,
+      "pain_alignment": 0.45,
+      "behavioral_alignment": 0.375,
+      "sentiment_alignment": 0.425
+    },
+    "n_success": 2,
+    "mapping_success_rate": 0.5
+  },
+  "topic_sim_result": {
+    "topic_sim": 0.4366,
+    "pair_details": [
+      {
+        "gen_name": "Tech-Forward Enthusiast",
+        "gt_name": "The Smart Home Integrator",
+        "gen_aspects": [
+          "innovation",
+          "convenience",
+          "voice control",
+          "home automation",
+          "compatibility"
+        ],
+        "gt_aspects": [
+          "Smart Assistant",
+          "Clock",
+          "Connectivity",
+          "Configuration",
+          "Convenience"
+        ],
+        "topic_sim": 0.5422
+      },
+      {
+        "gen_name": "Practical Family Organizer",
+        "gt_name": "The Practical Value Seeker",
+        "gen_aspects": [
+          "scheduling",
+          "reminders",
+          "user-friendly",
+          "family",
+          "voice recognition"
+        ],
+        "gt_aspects": [
+          "Price",
+          "Clock",
+          "Configuration",
+          "Convenience",
+          "Smart Assistant"
+        ],
+        "topic_sim": 0.3731
+      },
+      {
+        "gen_name": "Privacy-Conscious Minimalist",
+        "gt_name": "The Disillusioned Early Adopter",
+        "gen_aspects": [
+          "privacy",
+          "data security",
+          "control",
+          "minimalistic",
+          "trust"
+        ],
+        "gt_aspects": [
+          "Durability",
+          "Defective",
+          "Charging",
+          "Connectivity",
+          "Quality"
+        ],
+        "topic_sim": 0.3185
+      },
+      {
+        "gen_name": "Sound Quality Aficionado",
+        "gt_name": "The Wireless Audio Pursuer",
+        "gen_aspects": [
+          "sound quality",
+          "music",
+          "audio",
+          "speaker",
+          "performance"
+        ],
+        "gt_aspects": [
+          "Sound",
+          "Connectivity",
+          "Price",
+          "Configuration",
+          "Size"
+        ],
+        "topic_sim": 0.5128
+      }
+    ]
+  },
+  "summary": {
+    "matching_score": 0.42,
+    "validity_score": 0.75,
+    "topic_sim": 0.4366,
+    "dim_averages": {
+      "keyword_alignment": 0.425,
+      "value_alignment": 0.425,
+      "pain_alignment": 0.45,
+      "behavioral_alignment": 0.375,
+      "sentiment_alignment": 0.425
+    }
+  }
+}

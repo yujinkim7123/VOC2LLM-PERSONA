@@ -1,0 +1,2414 @@
+{
+  "meta": {
+    "domain": "Virtual Assistant Devices",
+    "total_reviews": 2370,
+    "sentiment_labels": [
+      "Positive",
+      "Neutral",
+      "Negative"
+    ],
+    "min_count": 30,
+    "n_groups": 14,
+    "note": "단일 Aspect 30건+ 기준 14개 그룹. 복합 조합은 30건 미만으로 제외."
+  },
+  "total_sentiment": {
+    "pos": 842,
+    "neu": 754,
+    "neg": 774,
+    "total": 2370,
+    "dist": {
+      "Positive": 0.3553,
+      "Neutral": 0.3181,
+      "Negative": 0.3266
+    }
+  },
+  "aspect_individual": {
+    "Connectivity": {
+      "pos": 69,
+      "neu": 138,
+      "neg": 196,
+      "total": 403,
+      "dist": {
+        "Positive": 0.1712,
+        "Neutral": 0.3424,
+        "Negative": 0.4864
+      }
+    },
+    "Sound": {
+      "pos": 153,
+      "neu": 123,
+      "neg": 58,
+      "total": 334,
+      "dist": {
+        "Positive": 0.4581,
+        "Neutral": 0.3683,
+        "Negative": 0.1737
+      }
+    },
+    "Clock": {
+      "pos": 165,
+      "neu": 78,
+      "neg": 55,
+      "total": 298,
+      "dist": {
+        "Positive": 0.5537,
+        "Neutral": 0.2617,
+        "Negative": 0.1846
+      }
+    },
+    "Price": {
+      "pos": 107,
+      "neu": 89,
+      "neg": 38,
+      "total": 234,
+      "dist": {
+        "Positive": 0.4573,
+        "Neutral": 0.3803,
+        "Negative": 0.1624
+      }
+    },
+    "Smart Assistant": {
+      "pos": 129,
+      "neu": 57,
+      "neg": 44,
+      "total": 230,
+      "dist": {
+        "Positive": 0.5609,
+        "Neutral": 0.2478,
+        "Negative": 0.1913
+      }
+    },
+    "Display": {
+      "pos": 109,
+      "neu": 51,
+      "neg": 31,
+      "total": 191,
+      "dist": {
+        "Positive": 0.5707,
+        "Neutral": 0.267,
+        "Negative": 0.1623
+      }
+    },
+    "Configuration": {
+      "pos": 115,
+      "neu": 46,
+      "neg": 29,
+      "total": 190,
+      "dist": {
+        "Positive": 0.6053,
+        "Neutral": 0.2421,
+        "Negative": 0.1526
+      }
+    },
+    "Durability": {
+      "pos": 15,
+      "neu": 36,
+      "neg": 135,
+      "total": 186,
+      "dist": {
+        "Positive": 0.0806,
+        "Neutral": 0.1935,
+        "Negative": 0.7258
+      }
+    },
+    "Size": {
+      "pos": 45,
+      "neu": 54,
+      "neg": 18,
+      "total": 117,
+      "dist": {
+        "Positive": 0.3846,
+        "Neutral": 0.4615,
+        "Negative": 0.1538
+      }
+    },
+    "Charging": {
+      "pos": 19,
+      "neu": 23,
+      "neg": 56,
+      "total": 98,
+      "dist": {
+        "Positive": 0.1939,
+        "Neutral": 0.2347,
+        "Negative": 0.5714
+      }
+    },
+    "compatability": {
+      "pos": 13,
+      "neu": 41,
+      "neg": 39,
+      "total": 93,
+      "dist": {
+        "Positive": 0.1398,
+        "Neutral": 0.4409,
+        "Negative": 0.4194
+      }
+    },
+    "Battery": {
+      "pos": 6,
+      "neu": 36,
+      "neg": 27,
+      "total": 69,
+      "dist": {
+        "Positive": 0.087,
+        "Neutral": 0.5217,
+        "Negative": 0.3913
+      }
+    },
+    "Defective": {
+      "pos": 1,
+      "neu": 9,
+      "neg": 55,
+      "total": 65,
+      "dist": {
+        "Positive": 0.0154,
+        "Neutral": 0.1385,
+        "Negative": 0.8462
+      }
+    },
+    "Temperature": {
+      "pos": 14,
+      "neu": 21,
+      "neg": 20,
+      "total": 55,
+      "dist": {
+        "Positive": 0.2545,
+        "Neutral": 0.3818,
+        "Negative": 0.3636
+      }
+    },
+    "Performance": {
+      "pos": 4,
+      "neu": 24,
+      "neg": 22,
+      "total": 50,
+      "dist": {
+        "Positive": 0.08,
+        "Neutral": 0.48,
+        "Negative": 0.44
+      }
+    },
+    "Applications": {
+      "pos": 13,
+      "neu": 20,
+      "neg": 16,
+      "total": 49,
+      "dist": {
+        "Positive": 0.2653,
+        "Neutral": 0.4082,
+        "Negative": 0.3265
+      }
+    },
+    "Quality": {
+      "pos": 16,
+      "neu": 21,
+      "neg": 11,
+      "total": 48,
+      "dist": {
+        "Positive": 0.3333,
+        "Neutral": 0.4375,
+        "Negative": 0.2292
+      }
+    },
+    "Interface": {
+      "pos": 8,
+      "neu": 20,
+      "neg": 18,
+      "total": 46,
+      "dist": {
+        "Positive": 0.1739,
+        "Neutral": 0.4348,
+        "Negative": 0.3913
+      }
+    },
+    "Convenience": {
+      "pos": 30,
+      "neu": 4,
+      "neg": 1,
+      "total": 35,
+      "dist": {
+        "Positive": 0.8571,
+        "Neutral": 0.1143,
+        "Negative": 0.0286
+      }
+    },
+    "Microphone": {
+      "pos": 3,
+      "neu": 15,
+      "neg": 12,
+      "total": 30,
+      "dist": {
+        "Positive": 0.1,
+        "Neutral": 0.5,
+        "Negative": 0.4
+      }
+    },
+    "Design": {
+      "pos": 11,
+      "neu": 7,
+      "neg": 3,
+      "total": 21,
+      "dist": {
+        "Positive": 0.5238,
+        "Neutral": 0.3333,
+        "Negative": 0.1429
+      }
+    },
+    "Remote": {
+      "pos": 3,
+      "neu": 8,
+      "neg": 2,
+      "total": 13,
+      "dist": {
+        "Positive": 0.2308,
+        "Neutral": 0.6154,
+        "Negative": 0.1538
+      }
+    },
+    "cost effectiveness": {
+      "pos": 8,
+      "neu": 2,
+      "neg": 2,
+      "total": 12,
+      "dist": {
+        "Positive": 0.6667,
+        "Neutral": 0.1667,
+        "Negative": 0.1667
+      }
+    },
+    "multi-tasking": {
+      "pos": 7,
+      "neu": 0,
+      "neg": 2,
+      "total": 9,
+      "dist": {
+        "Positive": 0.7778,
+        "Neutral": 0.0,
+        "Negative": 0.2222
+      }
+    },
+    "Functionality": {
+      "pos": 0,
+      "neu": 3,
+      "neg": 6,
+      "total": 9,
+      "dist": {
+        "Positive": 0.0,
+        "Neutral": 0.3333,
+        "Negative": 0.6667
+      }
+    },
+    "Sleep Tracking": {
+      "pos": 1,
+      "neu": 5,
+      "neg": 1,
+      "total": 7,
+      "dist": {
+        "Positive": 0.1429,
+        "Neutral": 0.7143,
+        "Negative": 0.1429
+      }
+    },
+    "camera": {
+      "pos": 0,
+      "neu": 5,
+      "neg": 2,
+      "total": 7,
+      "dist": {
+        "Positive": 0.0,
+        "Neutral": 0.7143,
+        "Negative": 0.2857
+      }
+    },
+    "Volume": {
+      "pos": 2,
+      "neu": 4,
+      "neg": 0,
+      "total": 6,
+      "dist": {
+        "Positive": 0.3333,
+        "Neutral": 0.6667,
+        "Negative": 0.0
+      }
+    },
+    "Speakers": {
+      "pos": 0,
+      "neu": 3,
+      "neg": 3,
+      "total": 6,
+      "dist": {
+        "Positive": 0.0,
+        "Neutral": 0.5,
+        "Negative": 0.5
+      }
+    },
+    "Utility": {
+      "pos": 2,
+      "neu": 2,
+      "neg": 1,
+      "total": 5,
+      "dist": {
+        "Positive": 0.4,
+        "Neutral": 0.4,
+        "Negative": 0.2
+      }
+    },
+    "Reliability": {
+      "pos": 1,
+      "neu": 0,
+      "neg": 3,
+      "total": 4,
+      "dist": {
+        "Positive": 0.25,
+        "Neutral": 0.0,
+        "Negative": 0.75
+      }
+    },
+    "Energy Saving": {
+      "pos": 4,
+      "neu": 0,
+      "neg": 0,
+      "total": 4,
+      "dist": {
+        "Positive": 1.0,
+        "Neutral": 0.0,
+        "Negative": 0.0
+      }
+    },
+    "Camera": {
+      "pos": 2,
+      "neu": 1,
+      "neg": 0,
+      "total": 3,
+      "dist": {
+        "Positive": 0.6667,
+        "Neutral": 0.3333,
+        "Negative": 0.0
+      }
+    },
+    "Functions": {
+      "pos": 2,
+      "neu": 0,
+      "neg": 1,
+      "total": 3,
+      "dist": {
+        "Positive": 0.6667,
+        "Neutral": 0.0,
+        "Negative": 0.3333
+      }
+    },
+    "Settings": {
+      "pos": 0,
+      "neu": 2,
+      "neg": 1,
+      "total": 3,
+      "dist": {
+        "Positive": 0.0,
+        "Neutral": 0.6667,
+        "Negative": 0.3333
+      }
+    },
+    "Weight": {
+      "pos": 2,
+      "neu": 1,
+      "neg": 0,
+      "total": 3,
+      "dist": {
+        "Positive": 0.6667,
+        "Neutral": 0.3333,
+        "Negative": 0.0
+      }
+    },
+    "LED Sensor": {
+      "pos": 0,
+      "neu": 3,
+      "neg": 0,
+      "total": 3,
+      "dist": {
+        "Positive": 0.0,
+        "Neutral": 1.0,
+        "Negative": 0.0
+      }
+    },
+    "Smart Features": {
+      "pos": 2,
+      "neu": 1,
+      "neg": 0,
+      "total": 3,
+      "dist": {
+        "Positive": 0.6667,
+        "Neutral": 0.3333,
+        "Negative": 0.0
+      }
+    },
+    "Easy to Use": {
+      "pos": 1,
+      "neu": 1,
+      "neg": 0,
+      "total": 2,
+      "dist": {
+        "Positive": 0.5,
+        "Neutral": 0.5,
+        "Negative": 0.0
+      }
+    },
+    "connectivity": {
+      "pos": 1,
+      "neu": 1,
+      "neg": 0,
+      "total": 2,
+      "dist": {
+        "Positive": 0.5,
+        "Neutral": 0.5,
+        "Negative": 0.0
+      }
+    },
+    "Colour": {
+      "pos": 0,
+      "neu": 1,
+      "neg": 1,
+      "total": 2,
+      "dist": {
+        "Positive": 0.0,
+        "Neutral": 0.5,
+        "Negative": 0.5
+      }
+    },
+    "Water Proof": {
+      "pos": 1,
+      "neu": 0,
+      "neg": 1,
+      "total": 2,
+      "dist": {
+        "Positive": 0.5,
+        "Neutral": 0.0,
+        "Negative": 0.5
+      }
+    },
+    "Listening": {
+      "pos": 1,
+      "neu": 0,
+      "neg": 0,
+      "total": 1,
+      "dist": {
+        "Positive": 1.0,
+        "Neutral": 0.0,
+        "Negative": 0.0
+      }
+    },
+    "Temp sensor": {
+      "pos": 1,
+      "neu": 0,
+      "neg": 0,
+      "total": 1,
+      "dist": {
+        "Positive": 1.0,
+        "Neutral": 0.0,
+        "Negative": 0.0
+      }
+    },
+    "Color": {
+      "pos": 1,
+      "neu": 0,
+      "neg": 0,
+      "total": 1,
+      "dist": {
+        "Positive": 1.0,
+        "Neutral": 0.0,
+        "Negative": 0.0
+      }
+    },
+    "Accessibility": {
+      "pos": 1,
+      "neu": 0,
+      "neg": 0,
+      "total": 1,
+      "dist": {
+        "Positive": 1.0,
+        "Neutral": 0.0,
+        "Negative": 0.0
+      }
+    },
+    "Life Span": {
+      "pos": 0,
+      "neu": 0,
+      "neg": 1,
+      "total": 1,
+      "dist": {
+        "Positive": 0.0,
+        "Neutral": 0.0,
+        "Negative": 1.0
+      }
+    },
+    "communication": {
+      "pos": 0,
+      "neu": 0,
+      "neg": 1,
+      "total": 1,
+      "dist": {
+        "Positive": 0.0,
+        "Neutral": 0.0,
+        "Negative": 1.0
+      }
+    },
+    "build quality": {
+      "pos": 1,
+      "neu": 0,
+      "neg": 0,
+      "total": 1,
+      "dist": {
+        "Positive": 1.0,
+        "Neutral": 0.0,
+        "Negative": 0.0
+      }
+    },
+    "Delivery": {
+      "pos": 1,
+      "neu": 0,
+      "neg": 0,
+      "total": 1,
+      "dist": {
+        "Positive": 1.0,
+        "Neutral": 0.0,
+        "Negative": 0.0
+      }
+    },
+    "Alarm": {
+      "pos": 0,
+      "neu": 0,
+      "neg": 1,
+      "total": 1,
+      "dist": {
+        "Positive": 0.0,
+        "Neutral": 0.0,
+        "Negative": 1.0
+      }
+    },
+    "Sensor": {
+      "pos": 0,
+      "neu": 1,
+      "neg": 0,
+      "total": 1,
+      "dist": {
+        "Positive": 0.0,
+        "Neutral": 1.0,
+        "Negative": 0.0
+      }
+    },
+    "onfiguration": {
+      "pos": 1,
+      "neu": 0,
+      "neg": 0,
+      "total": 1,
+      "dist": {
+        "Positive": 1.0,
+        "Neutral": 0.0,
+        "Negative": 0.0
+      }
+    },
+    "Reminder": {
+      "pos": 1,
+      "neu": 0,
+      "neg": 0,
+      "total": 1,
+      "dist": {
+        "Positive": 1.0,
+        "Neutral": 0.0,
+        "Negative": 0.0
+      }
+    },
+    "Alaram": {
+      "pos": 1,
+      "neu": 0,
+      "neg": 0,
+      "total": 1,
+      "dist": {
+        "Positive": 1.0,
+        "Neutral": 0.0,
+        "Negative": 0.0
+      }
+    },
+    "Cutomisation": {
+      "pos": 0,
+      "neu": 1,
+      "neg": 0,
+      "total": 1,
+      "dist": {
+        "Positive": 0.0,
+        "Neutral": 1.0,
+        "Negative": 0.0
+      }
+    },
+    "Multi-Purpose": {
+      "pos": 1,
+      "neu": 0,
+      "neg": 0,
+      "total": 1,
+      "dist": {
+        "Positive": 1.0,
+        "Neutral": 0.0,
+        "Negative": 0.0
+      }
+    },
+    "Qaulaity": {
+      "pos": 1,
+      "neu": 0,
+      "neg": 0,
+      "total": 1,
+      "dist": {
+        "Positive": 1.0,
+        "Neutral": 0.0,
+        "Negative": 0.0
+      }
+    },
+    "Features": {
+      "pos": 0,
+      "neu": 1,
+      "neg": 0,
+      "total": 1,
+      "dist": {
+        "Positive": 0.0,
+        "Neutral": 1.0,
+        "Negative": 0.0
+      }
+    },
+    "Over heating": {
+      "pos": 0,
+      "neu": 0,
+      "neg": 1,
+      "total": 1,
+      "dist": {
+        "Positive": 0.0,
+        "Neutral": 0.0,
+        "Negative": 1.0
+      }
+    },
+    "Storage": {
+      "pos": 0,
+      "neu": 0,
+      "neg": 1,
+      "total": 1,
+      "dist": {
+        "Positive": 0.0,
+        "Neutral": 0.0,
+        "Negative": 1.0
+      }
+    },
+    "Malfunctioning": {
+      "pos": 0,
+      "neu": 1,
+      "neg": 0,
+      "total": 1,
+      "dist": {
+        "Positive": 0.0,
+        "Neutral": 1.0,
+        "Negative": 0.0
+      }
+    },
+    "Complex": {
+      "pos": 0,
+      "neu": 1,
+      "neg": 0,
+      "total": 1,
+      "dist": {
+        "Positive": 0.0,
+        "Neutral": 1.0,
+        "Negative": 0.0
+      }
+    },
+    "complicated": {
+      "pos": 0,
+      "neu": 1,
+      "neg": 0,
+      "total": 1,
+      "dist": {
+        "Positive": 0.0,
+        "Neutral": 1.0,
+        "Negative": 0.0
+      }
+    },
+    "Damaged": {
+      "pos": 0,
+      "neu": 0,
+      "neg": 1,
+      "total": 1,
+      "dist": {
+        "Positive": 0.0,
+        "Neutral": 0.0,
+        "Negative": 1.0
+      }
+    },
+    "Build Quality": {
+      "pos": 0,
+      "neu": 0,
+      "neg": 1,
+      "total": 1,
+      "dist": {
+        "Positive": 0.0,
+        "Neutral": 0.0,
+        "Negative": 1.0
+      }
+    },
+    "Range": {
+      "pos": 0,
+      "neu": 0,
+      "neg": 1,
+      "total": 1,
+      "dist": {
+        "Positive": 0.0,
+        "Neutral": 0.0,
+        "Negative": 1.0
+      }
+    },
+    "Uncomfortable": {
+      "pos": 0,
+      "neu": 1,
+      "neg": 0,
+      "total": 1,
+      "dist": {
+        "Positive": 0.0,
+        "Neutral": 1.0,
+        "Negative": 0.0
+      }
+    },
+    "Warranty": {
+      "pos": 0,
+      "neu": 1,
+      "neg": 0,
+      "total": 1,
+      "dist": {
+        "Positive": 0.0,
+        "Neutral": 1.0,
+        "Negative": 0.0
+      }
+    }
+  },
+  "groups": {
+    "Connectivity": {
+      "count": 238,
+      "asp_list": [
+        "Connectivity"
+      ],
+      "total_sentiment": {
+        "pos": 29,
+        "neu": 82,
+        "neg": 127,
+        "dist": {
+          "Positive": 0.1218,
+          "Neutral": 0.3445,
+          "Negative": 0.5336
+        }
+      },
+      "aspect_sentiment": {
+        "Connectivity": {
+          "pos": 29,
+          "neu": 82,
+          "neg": 127,
+          "dist": {
+            "Positive": 0.1218,
+            "Neutral": 0.3445,
+            "Negative": 0.5336
+          }
+        }
+      }
+    },
+    "Clock": {
+      "count": 176,
+      "asp_list": [
+        "Clock"
+      ],
+      "total_sentiment": {
+        "pos": 102,
+        "neu": 48,
+        "neg": 26,
+        "dist": {
+          "Positive": 0.5795,
+          "Neutral": 0.2727,
+          "Negative": 0.1477
+        }
+      },
+      "aspect_sentiment": {
+        "Clock": {
+          "pos": 102,
+          "neu": 48,
+          "neg": 26,
+          "dist": {
+            "Positive": 0.5795,
+            "Neutral": 0.2727,
+            "Negative": 0.1477
+          }
+        }
+      }
+    },
+    "Sound": {
+      "count": 156,
+      "asp_list": [
+        "Sound"
+      ],
+      "total_sentiment": {
+        "pos": 72,
+        "neu": 62,
+        "neg": 22,
+        "dist": {
+          "Positive": 0.4615,
+          "Neutral": 0.3974,
+          "Negative": 0.141
+        }
+      },
+      "aspect_sentiment": {
+        "Sound": {
+          "pos": 72,
+          "neu": 62,
+          "neg": 22,
+          "dist": {
+            "Positive": 0.4615,
+            "Neutral": 0.3974,
+            "Negative": 0.141
+          }
+        }
+      }
+    },
+    "Durability": {
+      "count": 147,
+      "asp_list": [
+        "Durability"
+      ],
+      "total_sentiment": {
+        "pos": 12,
+        "neu": 29,
+        "neg": 106,
+        "dist": {
+          "Positive": 0.0816,
+          "Neutral": 0.1973,
+          "Negative": 0.7211
+        }
+      },
+      "aspect_sentiment": {
+        "Durability": {
+          "pos": 12,
+          "neu": 29,
+          "neg": 106,
+          "dist": {
+            "Positive": 0.0816,
+            "Neutral": 0.1973,
+            "Negative": 0.7211
+          }
+        }
+      }
+    },
+    "Price": {
+      "count": 131,
+      "asp_list": [
+        "Price"
+      ],
+      "total_sentiment": {
+        "pos": 54,
+        "neu": 55,
+        "neg": 22,
+        "dist": {
+          "Positive": 0.4122,
+          "Neutral": 0.4198,
+          "Negative": 0.1679
+        }
+      },
+      "aspect_sentiment": {
+        "Price": {
+          "pos": 54,
+          "neu": 55,
+          "neg": 22,
+          "dist": {
+            "Positive": 0.4122,
+            "Neutral": 0.4198,
+            "Negative": 0.1679
+          }
+        }
+      }
+    },
+    "Configuration": {
+      "count": 106,
+      "asp_list": [
+        "Configuration"
+      ],
+      "total_sentiment": {
+        "pos": 56,
+        "neu": 28,
+        "neg": 22,
+        "dist": {
+          "Positive": 0.5283,
+          "Neutral": 0.2642,
+          "Negative": 0.2075
+        }
+      },
+      "aspect_sentiment": {
+        "Configuration": {
+          "pos": 56,
+          "neu": 28,
+          "neg": 22,
+          "dist": {
+            "Positive": 0.5283,
+            "Neutral": 0.2642,
+            "Negative": 0.2075
+          }
+        }
+      }
+    },
+    "Smart Assistant": {
+      "count": 100,
+      "asp_list": [
+        "Smart Assistant"
+      ],
+      "total_sentiment": {
+        "pos": 42,
+        "neu": 33,
+        "neg": 25,
+        "dist": {
+          "Positive": 0.42,
+          "Neutral": 0.33,
+          "Negative": 0.25
+        }
+      },
+      "aspect_sentiment": {
+        "Smart Assistant": {
+          "pos": 42,
+          "neu": 33,
+          "neg": 25,
+          "dist": {
+            "Positive": 0.42,
+            "Neutral": 0.33,
+            "Negative": 0.25
+          }
+        }
+      }
+    },
+    "compatability": {
+      "count": 80,
+      "asp_list": [
+        "compatability"
+      ],
+      "total_sentiment": {
+        "pos": 6,
+        "neu": 39,
+        "neg": 35,
+        "dist": {
+          "Positive": 0.075,
+          "Neutral": 0.4875,
+          "Negative": 0.4375
+        }
+      },
+      "aspect_sentiment": {
+        "compatability": {
+          "pos": 6,
+          "neu": 39,
+          "neg": 35,
+          "dist": {
+            "Positive": 0.075,
+            "Neutral": 0.4875,
+            "Negative": 0.4375
+          }
+        }
+      }
+    },
+    "Display": {
+      "count": 77,
+      "asp_list": [
+        "Display"
+      ],
+      "total_sentiment": {
+        "pos": 45,
+        "neu": 19,
+        "neg": 13,
+        "dist": {
+          "Positive": 0.5844,
+          "Neutral": 0.2468,
+          "Negative": 0.1688
+        }
+      },
+      "aspect_sentiment": {
+        "Display": {
+          "pos": 45,
+          "neu": 19,
+          "neg": 13,
+          "dist": {
+            "Positive": 0.5844,
+            "Neutral": 0.2468,
+            "Negative": 0.1688
+          }
+        }
+      }
+    },
+    "Charging": {
+      "count": 61,
+      "asp_list": [
+        "Charging"
+      ],
+      "total_sentiment": {
+        "pos": 9,
+        "neu": 16,
+        "neg": 36,
+        "dist": {
+          "Positive": 0.1475,
+          "Neutral": 0.2623,
+          "Negative": 0.5902
+        }
+      },
+      "aspect_sentiment": {
+        "Charging": {
+          "pos": 9,
+          "neu": 16,
+          "neg": 36,
+          "dist": {
+            "Positive": 0.1475,
+            "Neutral": 0.2623,
+            "Negative": 0.5902
+          }
+        }
+      }
+    },
+    "Defective": {
+      "count": 60,
+      "asp_list": [
+        "Defective"
+      ],
+      "total_sentiment": {
+        "pos": 1,
+        "neu": 7,
+        "neg": 52,
+        "dist": {
+          "Positive": 0.0167,
+          "Neutral": 0.1167,
+          "Negative": 0.8667
+        }
+      },
+      "aspect_sentiment": {
+        "Defective": {
+          "pos": 1,
+          "neu": 7,
+          "neg": 52,
+          "dist": {
+            "Positive": 0.0167,
+            "Neutral": 0.1167,
+            "Negative": 0.8667
+          }
+        }
+      }
+    },
+    "Size": {
+      "count": 60,
+      "asp_list": [
+        "Size"
+      ],
+      "total_sentiment": {
+        "pos": 19,
+        "neu": 31,
+        "neg": 10,
+        "dist": {
+          "Positive": 0.3167,
+          "Neutral": 0.5167,
+          "Negative": 0.1667
+        }
+      },
+      "aspect_sentiment": {
+        "Size": {
+          "pos": 19,
+          "neu": 31,
+          "neg": 10,
+          "dist": {
+            "Positive": 0.3167,
+            "Neutral": 0.5167,
+            "Negative": 0.1667
+          }
+        }
+      }
+    },
+    "Temperature": {
+      "count": 45,
+      "asp_list": [
+        "Temperature"
+      ],
+      "total_sentiment": {
+        "pos": 10,
+        "neu": 17,
+        "neg": 18,
+        "dist": {
+          "Positive": 0.2222,
+          "Neutral": 0.3778,
+          "Negative": 0.4
+        }
+      },
+      "aspect_sentiment": {
+        "Temperature": {
+          "pos": 10,
+          "neu": 17,
+          "neg": 18,
+          "dist": {
+            "Positive": 0.2222,
+            "Neutral": 0.3778,
+            "Negative": 0.4
+          }
+        }
+      }
+    },
+    "Battery": {
+      "count": 33,
+      "asp_list": [
+        "Battery"
+      ],
+      "total_sentiment": {
+        "pos": 1,
+        "neu": 19,
+        "neg": 13,
+        "dist": {
+          "Positive": 0.0303,
+          "Neutral": 0.5758,
+          "Negative": 0.3939
+        }
+      },
+      "aspect_sentiment": {
+        "Battery": {
+          "pos": 1,
+          "neu": 19,
+          "neg": 13,
+          "dist": {
+            "Positive": 0.0303,
+            "Neutral": 0.5758,
+            "Negative": 0.3939
+          }
+        }
+      }
+    }
+  },
+  "co_occurrence": {
+    "Connectivity": {
+      "total": 403,
+      "co_aspects": {
+        "Sound": {
+          "count": 36,
+          "ratio": 0.0893
+        },
+        "Clock": {
+          "count": 30,
+          "ratio": 0.0744
+        },
+        "Smart Assistant": {
+          "count": 22,
+          "ratio": 0.0546
+        },
+        "Price": {
+          "count": 19,
+          "ratio": 0.0471
+        },
+        "Display": {
+          "count": 19,
+          "ratio": 0.0471
+        },
+        "Battery": {
+          "count": 16,
+          "ratio": 0.0397
+        },
+        "Configuration": {
+          "count": 13,
+          "ratio": 0.0323
+        },
+        "Durability": {
+          "count": 13,
+          "ratio": 0.0323
+        },
+        "Charging": {
+          "count": 9,
+          "ratio": 0.0223
+        },
+        "Size": {
+          "count": 5,
+          "ratio": 0.0124
+        },
+        "Interface": {
+          "count": 4,
+          "ratio": 0.0099
+        },
+        "Applications": {
+          "count": 4,
+          "ratio": 0.0099
+        },
+        "Microphone": {
+          "count": 3,
+          "ratio": 0.0074
+        },
+        "Convenience": {
+          "count": 2,
+          "ratio": 0.005
+        },
+        "Performance": {
+          "count": 2,
+          "ratio": 0.005
+        },
+        "Defective": {
+          "count": 2,
+          "ratio": 0.005
+        },
+        "Quality": {
+          "count": 2,
+          "ratio": 0.005
+        },
+        "Temperature": {
+          "count": 1,
+          "ratio": 0.0025
+        },
+        "communication": {
+          "count": 1,
+          "ratio": 0.0025
+        },
+        "multi-tasking": {
+          "count": 1,
+          "ratio": 0.0025
+        },
+        "compatability": {
+          "count": 1,
+          "ratio": 0.0025
+        },
+        "Camera": {
+          "count": 1,
+          "ratio": 0.0025
+        },
+        "Sleep Tracking": {
+          "count": 1,
+          "ratio": 0.0025
+        },
+        "LED Sensor": {
+          "count": 1,
+          "ratio": 0.0025
+        },
+        "Design": {
+          "count": 1,
+          "ratio": 0.0025
+        },
+        "Functionality": {
+          "count": 1,
+          "ratio": 0.0025
+        },
+        "Speakers": {
+          "count": 1,
+          "ratio": 0.0025
+        }
+      }
+    },
+    "Sound": {
+      "total": 334,
+      "co_aspects": {
+        "Connectivity": {
+          "count": 36,
+          "ratio": 0.1078
+        },
+        "Clock": {
+          "count": 33,
+          "ratio": 0.0988
+        },
+        "Display": {
+          "count": 32,
+          "ratio": 0.0958
+        },
+        "Smart Assistant": {
+          "count": 28,
+          "ratio": 0.0838
+        },
+        "Price": {
+          "count": 24,
+          "ratio": 0.0719
+        },
+        "Configuration": {
+          "count": 22,
+          "ratio": 0.0659
+        },
+        "Size": {
+          "count": 15,
+          "ratio": 0.0449
+        },
+        "Performance": {
+          "count": 7,
+          "ratio": 0.021
+        },
+        "Battery": {
+          "count": 7,
+          "ratio": 0.021
+        },
+        "Charging": {
+          "count": 7,
+          "ratio": 0.021
+        },
+        "Microphone": {
+          "count": 6,
+          "ratio": 0.018
+        },
+        "Interface": {
+          "count": 6,
+          "ratio": 0.018
+        },
+        "Design": {
+          "count": 5,
+          "ratio": 0.015
+        },
+        "Durability": {
+          "count": 5,
+          "ratio": 0.015
+        },
+        "Applications": {
+          "count": 3,
+          "ratio": 0.009
+        },
+        "Temperature": {
+          "count": 2,
+          "ratio": 0.006
+        },
+        "camera": {
+          "count": 2,
+          "ratio": 0.006
+        },
+        "Listening": {
+          "count": 1,
+          "ratio": 0.003
+        },
+        "Temp sensor": {
+          "count": 1,
+          "ratio": 0.003
+        },
+        "compatability": {
+          "count": 1,
+          "ratio": 0.003
+        },
+        "multi-tasking": {
+          "count": 1,
+          "ratio": 0.003
+        },
+        "Quality": {
+          "count": 1,
+          "ratio": 0.003
+        }
+      }
+    },
+    "Clock": {
+      "total": 298,
+      "co_aspects": {
+        "Smart Assistant": {
+          "count": 35,
+          "ratio": 0.1174
+        },
+        "Sound": {
+          "count": 32,
+          "ratio": 0.1074
+        },
+        "Connectivity": {
+          "count": 30,
+          "ratio": 0.1007
+        },
+        "Price": {
+          "count": 27,
+          "ratio": 0.0906
+        },
+        "Configuration": {
+          "count": 13,
+          "ratio": 0.0436
+        },
+        "Display": {
+          "count": 4,
+          "ratio": 0.0134
+        },
+        "Battery": {
+          "count": 4,
+          "ratio": 0.0134
+        },
+        "Temperature": {
+          "count": 3,
+          "ratio": 0.0101
+        },
+        "multi-tasking": {
+          "count": 2,
+          "ratio": 0.0067
+        },
+        "Performance": {
+          "count": 2,
+          "ratio": 0.0067
+        },
+        "Microphone": {
+          "count": 2,
+          "ratio": 0.0067
+        },
+        "Design": {
+          "count": 1,
+          "ratio": 0.0034
+        },
+        "Functionality": {
+          "count": 1,
+          "ratio": 0.0034
+        },
+        "onfiguration": {
+          "count": 1,
+          "ratio": 0.0034
+        },
+        "Cutomisation": {
+          "count": 1,
+          "ratio": 0.0034
+        }
+      }
+    },
+    "Price": {
+      "total": 234,
+      "co_aspects": {
+        "Clock": {
+          "count": 27,
+          "ratio": 0.1154
+        },
+        "Sound": {
+          "count": 24,
+          "ratio": 0.1026
+        },
+        "Connectivity": {
+          "count": 19,
+          "ratio": 0.0812
+        },
+        "Configuration": {
+          "count": 17,
+          "ratio": 0.0726
+        },
+        "Display": {
+          "count": 16,
+          "ratio": 0.0684
+        },
+        "Smart Assistant": {
+          "count": 12,
+          "ratio": 0.0513
+        },
+        "Battery": {
+          "count": 5,
+          "ratio": 0.0214
+        },
+        "Performance": {
+          "count": 3,
+          "ratio": 0.0128
+        },
+        "Size": {
+          "count": 3,
+          "ratio": 0.0128
+        },
+        "Temperature": {
+          "count": 3,
+          "ratio": 0.0128
+        },
+        "multi-tasking": {
+          "count": 1,
+          "ratio": 0.0043
+        },
+        "compatability": {
+          "count": 1,
+          "ratio": 0.0043
+        },
+        "Applications": {
+          "count": 1,
+          "ratio": 0.0043
+        },
+        "Interface": {
+          "count": 1,
+          "ratio": 0.0043
+        },
+        "onfiguration": {
+          "count": 1,
+          "ratio": 0.0043
+        },
+        "Quality": {
+          "count": 1,
+          "ratio": 0.0043
+        },
+        "Functionality": {
+          "count": 1,
+          "ratio": 0.0043
+        },
+        "Microphone": {
+          "count": 1,
+          "ratio": 0.0043
+        },
+        "Durability": {
+          "count": 1,
+          "ratio": 0.0043
+        }
+      }
+    },
+    "Smart Assistant": {
+      "total": 230,
+      "co_aspects": {
+        "Clock": {
+          "count": 36,
+          "ratio": 0.1565
+        },
+        "Sound": {
+          "count": 28,
+          "ratio": 0.1217
+        },
+        "Connectivity": {
+          "count": 22,
+          "ratio": 0.0957
+        },
+        "Configuration": {
+          "count": 14,
+          "ratio": 0.0609
+        },
+        "Price": {
+          "count": 12,
+          "ratio": 0.0522
+        },
+        "Display": {
+          "count": 10,
+          "ratio": 0.0435
+        },
+        "Applications": {
+          "count": 5,
+          "ratio": 0.0217
+        },
+        "Convenience": {
+          "count": 5,
+          "ratio": 0.0217
+        },
+        "Design": {
+          "count": 4,
+          "ratio": 0.0174
+        },
+        "Charging": {
+          "count": 4,
+          "ratio": 0.0174
+        },
+        "Battery": {
+          "count": 3,
+          "ratio": 0.013
+        },
+        "Size": {
+          "count": 2,
+          "ratio": 0.0087
+        },
+        "compatability": {
+          "count": 2,
+          "ratio": 0.0087
+        },
+        "Interface": {
+          "count": 2,
+          "ratio": 0.0087
+        },
+        "Performance": {
+          "count": 2,
+          "ratio": 0.0087
+        },
+        "Microphone": {
+          "count": 2,
+          "ratio": 0.0087
+        },
+        "Camera": {
+          "count": 1,
+          "ratio": 0.0043
+        },
+        "multi-tasking": {
+          "count": 1,
+          "ratio": 0.0043
+        },
+        "Quality": {
+          "count": 1,
+          "ratio": 0.0043
+        },
+        "Durability": {
+          "count": 1,
+          "ratio": 0.0043
+        },
+        "Temperature": {
+          "count": 1,
+          "ratio": 0.0043
+        },
+        "Reliability": {
+          "count": 1,
+          "ratio": 0.0043
+        },
+        "cost effectiveness": {
+          "count": 1,
+          "ratio": 0.0043
+        },
+        "Energy Saving": {
+          "count": 1,
+          "ratio": 0.0043
+        }
+      }
+    },
+    "Display": {
+      "total": 191,
+      "co_aspects": {
+        "Sound": {
+          "count": 32,
+          "ratio": 0.1675
+        },
+        "Connectivity": {
+          "count": 19,
+          "ratio": 0.0995
+        },
+        "Price": {
+          "count": 16,
+          "ratio": 0.0838
+        },
+        "Size": {
+          "count": 16,
+          "ratio": 0.0838
+        },
+        "Configuration": {
+          "count": 13,
+          "ratio": 0.0681
+        },
+        "Smart Assistant": {
+          "count": 10,
+          "ratio": 0.0524
+        },
+        "Interface": {
+          "count": 10,
+          "ratio": 0.0524
+        },
+        "Performance": {
+          "count": 6,
+          "ratio": 0.0314
+        },
+        "Applications": {
+          "count": 6,
+          "ratio": 0.0314
+        },
+        "Clock": {
+          "count": 4,
+          "ratio": 0.0209
+        },
+        "Charging": {
+          "count": 4,
+          "ratio": 0.0209
+        },
+        "Quality": {
+          "count": 4,
+          "ratio": 0.0209
+        },
+        "Durability": {
+          "count": 3,
+          "ratio": 0.0157
+        },
+        "Remote": {
+          "count": 3,
+          "ratio": 0.0157
+        },
+        "multi-tasking": {
+          "count": 1,
+          "ratio": 0.0052
+        },
+        "Design": {
+          "count": 1,
+          "ratio": 0.0052
+        },
+        "Battery": {
+          "count": 1,
+          "ratio": 0.0052
+        },
+        "Microphone": {
+          "count": 1,
+          "ratio": 0.0052
+        },
+        "Smart Features": {
+          "count": 1,
+          "ratio": 0.0052
+        },
+        "connectivity": {
+          "count": 1,
+          "ratio": 0.0052
+        }
+      }
+    },
+    "Configuration": {
+      "total": 190,
+      "co_aspects": {
+        "Sound": {
+          "count": 22,
+          "ratio": 0.1158
+        },
+        "Price": {
+          "count": 17,
+          "ratio": 0.0895
+        },
+        "Smart Assistant": {
+          "count": 14,
+          "ratio": 0.0737
+        },
+        "Connectivity": {
+          "count": 13,
+          "ratio": 0.0684
+        },
+        "Display": {
+          "count": 13,
+          "ratio": 0.0684
+        },
+        "Clock": {
+          "count": 13,
+          "ratio": 0.0684
+        },
+        "Convenience": {
+          "count": 7,
+          "ratio": 0.0368
+        },
+        "Size": {
+          "count": 6,
+          "ratio": 0.0316
+        },
+        "Interface": {
+          "count": 3,
+          "ratio": 0.0158
+        },
+        "cost effectiveness": {
+          "count": 2,
+          "ratio": 0.0105
+        },
+        "compatability": {
+          "count": 1,
+          "ratio": 0.0053
+        },
+        "multi-tasking": {
+          "count": 1,
+          "ratio": 0.0053
+        },
+        "Applications": {
+          "count": 1,
+          "ratio": 0.0053
+        },
+        "Design": {
+          "count": 1,
+          "ratio": 0.0053
+        },
+        "Quality": {
+          "count": 1,
+          "ratio": 0.0053
+        },
+        "connectivity": {
+          "count": 1,
+          "ratio": 0.0053
+        },
+        "Weight": {
+          "count": 1,
+          "ratio": 0.0053
+        }
+      }
+    },
+    "Durability": {
+      "total": 186,
+      "co_aspects": {
+        "Connectivity": {
+          "count": 13,
+          "ratio": 0.0699
+        },
+        "Charging": {
+          "count": 7,
+          "ratio": 0.0376
+        },
+        "Sound": {
+          "count": 5,
+          "ratio": 0.0269
+        },
+        "Size": {
+          "count": 3,
+          "ratio": 0.0161
+        },
+        "Display": {
+          "count": 3,
+          "ratio": 0.0161
+        },
+        "Microphone": {
+          "count": 3,
+          "ratio": 0.0161
+        },
+        "Defective": {
+          "count": 1,
+          "ratio": 0.0054
+        },
+        "Interface": {
+          "count": 1,
+          "ratio": 0.0054
+        },
+        "Smart Assistant": {
+          "count": 1,
+          "ratio": 0.0054
+        },
+        "cost effectiveness": {
+          "count": 1,
+          "ratio": 0.0054
+        },
+        "compatability": {
+          "count": 1,
+          "ratio": 0.0054
+        },
+        "Price": {
+          "count": 1,
+          "ratio": 0.0054
+        }
+      }
+    },
+    "Size": {
+      "total": 117,
+      "co_aspects": {
+        "Display": {
+          "count": 16,
+          "ratio": 0.1368
+        },
+        "Sound": {
+          "count": 15,
+          "ratio": 0.1282
+        },
+        "Configuration": {
+          "count": 6,
+          "ratio": 0.0513
+        },
+        "Connectivity": {
+          "count": 5,
+          "ratio": 0.0427
+        },
+        "Microphone": {
+          "count": 5,
+          "ratio": 0.0427
+        },
+        "Quality": {
+          "count": 4,
+          "ratio": 0.0342
+        },
+        "Interface": {
+          "count": 3,
+          "ratio": 0.0256
+        },
+        "Price": {
+          "count": 3,
+          "ratio": 0.0256
+        },
+        "Durability": {
+          "count": 3,
+          "ratio": 0.0256
+        },
+        "Smart Assistant": {
+          "count": 2,
+          "ratio": 0.0171
+        },
+        "compatability": {
+          "count": 2,
+          "ratio": 0.0171
+        },
+        "Remote": {
+          "count": 2,
+          "ratio": 0.0171
+        },
+        "Charging": {
+          "count": 2,
+          "ratio": 0.0171
+        },
+        "Design": {
+          "count": 1,
+          "ratio": 0.0085
+        },
+        "Speakers": {
+          "count": 1,
+          "ratio": 0.0085
+        },
+        "Battery": {
+          "count": 1,
+          "ratio": 0.0085
+        },
+        "Build Quality": {
+          "count": 1,
+          "ratio": 0.0085
+        }
+      }
+    },
+    "Charging": {
+      "total": 98,
+      "co_aspects": {
+        "Connectivity": {
+          "count": 9,
+          "ratio": 0.0918
+        },
+        "Durability": {
+          "count": 7,
+          "ratio": 0.0714
+        },
+        "Sound": {
+          "count": 7,
+          "ratio": 0.0714
+        },
+        "Display": {
+          "count": 4,
+          "ratio": 0.0408
+        },
+        "Smart Assistant": {
+          "count": 4,
+          "ratio": 0.0408
+        },
+        "Quality": {
+          "count": 3,
+          "ratio": 0.0306
+        },
+        "compatability": {
+          "count": 2,
+          "ratio": 0.0204
+        },
+        "Size": {
+          "count": 2,
+          "ratio": 0.0204
+        },
+        "Interface": {
+          "count": 1,
+          "ratio": 0.0102
+        },
+        "Defective": {
+          "count": 1,
+          "ratio": 0.0102
+        }
+      }
+    },
+    "compatability": {
+      "total": 93,
+      "co_aspects": {
+        "Smart Assistant": {
+          "count": 2,
+          "ratio": 0.0215
+        },
+        "Size": {
+          "count": 2,
+          "ratio": 0.0215
+        },
+        "Charging": {
+          "count": 2,
+          "ratio": 0.0215
+        },
+        "Configuration": {
+          "count": 1,
+          "ratio": 0.0108
+        },
+        "Sound": {
+          "count": 1,
+          "ratio": 0.0108
+        },
+        "Price": {
+          "count": 1,
+          "ratio": 0.0108
+        },
+        "Interface": {
+          "count": 1,
+          "ratio": 0.0108
+        },
+        "Connectivity": {
+          "count": 1,
+          "ratio": 0.0108
+        },
+        "Design": {
+          "count": 1,
+          "ratio": 0.0108
+        },
+        "Durability": {
+          "count": 1,
+          "ratio": 0.0108
+        }
+      }
+    },
+    "Battery": {
+      "total": 69,
+      "co_aspects": {
+        "Connectivity": {
+          "count": 16,
+          "ratio": 0.2319
+        },
+        "Sound": {
+          "count": 7,
+          "ratio": 0.1014
+        },
+        "Price": {
+          "count": 5,
+          "ratio": 0.0725
+        },
+        "Clock": {
+          "count": 4,
+          "ratio": 0.058
+        },
+        "Smart Assistant": {
+          "count": 3,
+          "ratio": 0.0435
+        },
+        "Temperature": {
+          "count": 2,
+          "ratio": 0.029
+        },
+        "multi-tasking": {
+          "count": 1,
+          "ratio": 0.0145
+        },
+        "Display": {
+          "count": 1,
+          "ratio": 0.0145
+        },
+        "Applications": {
+          "count": 1,
+          "ratio": 0.0145
+        },
+        "Microphone": {
+          "count": 1,
+          "ratio": 0.0145
+        },
+        "Size": {
+          "count": 1,
+          "ratio": 0.0145
+        }
+      }
+    },
+    "Defective": {
+      "total": 65,
+      "co_aspects": {
+        "Connectivity": {
+          "count": 2,
+          "ratio": 0.0308
+        },
+        "Durability": {
+          "count": 1,
+          "ratio": 0.0154
+        },
+        "Quality": {
+          "count": 1,
+          "ratio": 0.0154
+        },
+        "Charging": {
+          "count": 1,
+          "ratio": 0.0154
+        }
+      }
+    },
+    "Temperature": {
+      "total": 55,
+      "co_aspects": {
+        "Clock": {
+          "count": 3,
+          "ratio": 0.0545
+        },
+        "Price": {
+          "count": 3,
+          "ratio": 0.0545
+        },
+        "Sound": {
+          "count": 2,
+          "ratio": 0.0364
+        },
+        "Battery": {
+          "count": 2,
+          "ratio": 0.0364
+        },
+        "Connectivity": {
+          "count": 1,
+          "ratio": 0.0182
+        },
+        "Smart Assistant": {
+          "count": 1,
+          "ratio": 0.0182
+        }
+      }
+    },
+    "Performance": {
+      "total": 50,
+      "co_aspects": {
+        "Sound": {
+          "count": 7,
+          "ratio": 0.14
+        },
+        "Display": {
+          "count": 6,
+          "ratio": 0.12
+        },
+        "Applications": {
+          "count": 4,
+          "ratio": 0.08
+        },
+        "Price": {
+          "count": 3,
+          "ratio": 0.06
+        },
+        "multi-tasking": {
+          "count": 2,
+          "ratio": 0.04
+        },
+        "Clock": {
+          "count": 2,
+          "ratio": 0.04
+        },
+        "Smart Assistant": {
+          "count": 2,
+          "ratio": 0.04
+        },
+        "Connectivity": {
+          "count": 2,
+          "ratio": 0.04
+        },
+        "Reliability": {
+          "count": 1,
+          "ratio": 0.02
+        },
+        "Design": {
+          "count": 1,
+          "ratio": 0.02
+        },
+        "camera": {
+          "count": 1,
+          "ratio": 0.02
+        },
+        "Interface": {
+          "count": 1,
+          "ratio": 0.02
+        }
+      }
+    },
+    "Applications": {
+      "total": 49,
+      "co_aspects": {
+        "Display": {
+          "count": 6,
+          "ratio": 0.1224
+        },
+        "Smart Assistant": {
+          "count": 5,
+          "ratio": 0.102
+        },
+        "Performance": {
+          "count": 4,
+          "ratio": 0.0816
+        },
+        "Connectivity": {
+          "count": 4,
+          "ratio": 0.0816
+        },
+        "Interface": {
+          "count": 3,
+          "ratio": 0.0612
+        },
+        "Sound": {
+          "count": 3,
+          "ratio": 0.0612
+        },
+        "Sleep Tracking": {
+          "count": 2,
+          "ratio": 0.0408
+        },
+        "Remote": {
+          "count": 2,
+          "ratio": 0.0408
+        },
+        "Quality": {
+          "count": 2,
+          "ratio": 0.0408
+        },
+        "Battery": {
+          "count": 1,
+          "ratio": 0.0204
+        },
+        "Price": {
+          "count": 1,
+          "ratio": 0.0204
+        },
+        "Storage": {
+          "count": 1,
+          "ratio": 0.0204
+        },
+        "Configuration": {
+          "count": 1,
+          "ratio": 0.0204
+        }
+      }
+    },
+    "Quality": {
+      "total": 48,
+      "co_aspects": {
+        "Display": {
+          "count": 4,
+          "ratio": 0.0833
+        },
+        "Size": {
+          "count": 4,
+          "ratio": 0.0833
+        },
+        "Charging": {
+          "count": 3,
+          "ratio": 0.0625
+        },
+        "Connectivity": {
+          "count": 2,
+          "ratio": 0.0417
+        },
+        "Applications": {
+          "count": 2,
+          "ratio": 0.0417
+        },
+        "Smart Assistant": {
+          "count": 1,
+          "ratio": 0.0208
+        },
+        "Price": {
+          "count": 1,
+          "ratio": 0.0208
+        },
+        "Configuration": {
+          "count": 1,
+          "ratio": 0.0208
+        },
+        "connectivity": {
+          "count": 1,
+          "ratio": 0.0208
+        },
+        "Sound": {
+          "count": 1,
+          "ratio": 0.0208
+        },
+        "Volume": {
+          "count": 1,
+          "ratio": 0.0208
+        },
+        "Defective": {
+          "count": 1,
+          "ratio": 0.0208
+        },
+        "Microphone": {
+          "count": 1,
+          "ratio": 0.0208
+        }
+      }
+    },
+    "Interface": {
+      "total": 46,
+      "co_aspects": {
+        "Display": {
+          "count": 10,
+          "ratio": 0.2174
+        },
+        "Sound": {
+          "count": 6,
+          "ratio": 0.1304
+        },
+        "Connectivity": {
+          "count": 4,
+          "ratio": 0.087
+        },
+        "Applications": {
+          "count": 3,
+          "ratio": 0.0652
+        },
+        "Size": {
+          "count": 3,
+          "ratio": 0.0652
+        },
+        "Configuration": {
+          "count": 3,
+          "ratio": 0.0652
+        },
+        "Smart Assistant": {
+          "count": 2,
+          "ratio": 0.0435
+        },
+        "Charging": {
+          "count": 1,
+          "ratio": 0.0217
+        },
+        "compatability": {
+          "count": 1,
+          "ratio": 0.0217
+        },
+        "Performance": {
+          "count": 1,
+          "ratio": 0.0217
+        },
+        "Price": {
+          "count": 1,
+          "ratio": 0.0217
+        },
+        "Remote": {
+          "count": 1,
+          "ratio": 0.0217
+        },
+        "Durability": {
+          "count": 1,
+          "ratio": 0.0217
+        },
+        "Reliability": {
+          "count": 1,
+          "ratio": 0.0217
+        },
+        "Design": {
+          "count": 1,
+          "ratio": 0.0217
+        }
+      }
+    },
+    "Convenience": {
+      "total": 35,
+      "co_aspects": {
+        "Configuration": {
+          "count": 7,
+          "ratio": 0.2
+        },
+        "Smart Assistant": {
+          "count": 5,
+          "ratio": 0.1429
+        },
+        "cost effectiveness": {
+          "count": 4,
+          "ratio": 0.1143
+        },
+        "Connectivity": {
+          "count": 2,
+          "ratio": 0.0571
+        },
+        "Design": {
+          "count": 2,
+          "ratio": 0.0571
+        }
+      }
+    },
+    "Microphone": {
+      "total": 30,
+      "co_aspects": {
+        "Sound": {
+          "count": 6,
+          "ratio": 0.2
+        },
+        "Size": {
+          "count": 5,
+          "ratio": 0.1667
+        },
+        "Connectivity": {
+          "count": 3,
+          "ratio": 0.1
+        },
+        "Durability": {
+          "count": 3,
+          "ratio": 0.1
+        },
+        "Smart Assistant": {
+          "count": 2,
+          "ratio": 0.0667
+        },
+        "Clock": {
+          "count": 2,
+          "ratio": 0.0667
+        },
+        "Display": {
+          "count": 1,
+          "ratio": 0.0333
+        },
+        "Price": {
+          "count": 1,
+          "ratio": 0.0333
+        },
+        "Battery": {
+          "count": 1,
+          "ratio": 0.0333
+        },
+        "Quality": {
+          "count": 1,
+          "ratio": 0.0333
+        },
+        "Volume": {
+          "count": 1,
+          "ratio": 0.0333
+        }
+      }
+    }
+  }
+}

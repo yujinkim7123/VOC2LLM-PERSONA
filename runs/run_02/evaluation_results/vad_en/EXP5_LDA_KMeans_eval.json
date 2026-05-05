@@ -1,0 +1,193 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP5_LDA_KMeans",
+  "method": "LDA_KMEANS",
+  "lang": "en",
+  "judge": {
+    "judge_matrix": [
+      [
+        0.36,
+        0.22,
+        0.5,
+        0.06
+      ],
+      [
+        0.24,
+        0.06,
+        0.0,
+        0.18
+      ],
+      [
+        0.06,
+        0.54,
+        0.3,
+        0.0
+      ],
+      [
+        0.28,
+        0.06,
+        0.0,
+        0.62
+      ]
+    ],
+    "best_mapping": [
+      {
+        "gen_name": "Quality-Conscious Bargain Hunter",
+        "gt_name": "The Practical Value Seeker",
+        "keyword_alignment": 0.7,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.5,
+        "matching_score": 0.5,
+        "validity_score": 0.7,
+        "reasoning": "Generated lacks focused utility, sentiment slightly misaligned, some domain trace.",
+        "success": true
+      },
+      {
+        "gen_name": "Optimistic Early Adopter",
+        "gt_name": "The Wireless Audio Pursuer",
+        "keyword_alignment": 0.3,
+        "value_alignment": 0.3,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.24,
+        "validity_score": 0.7,
+        "reasoning": "Keywords and values misaligned, focus differs; sentiment off.",
+        "success": false
+      },
+      {
+        "gen_name": "Practical Problem Solver",
+        "gt_name": "The Smart Home Integrator",
+        "keyword_alignment": 0.3,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.7,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.7,
+        "matching_score": 0.54,
+        "validity_score": 0.5,
+        "reasoning": "Partial match; lacks focus on smart assistants and full domain relevance.",
+        "success": true
+      },
+      {
+        "gen_name": "Disappointed Apple Enthusiast",
+        "gt_name": "The Disillusioned Early Adopter",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.7,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.7,
+        "matching_score": 0.62,
+        "validity_score": 0.7,
+        "reasoning": "Keywords partially aligned; values and pains mostly, behavior differs.",
+        "success": true
+      }
+    ],
+    "matching_score": 0.475,
+    "validity_score": 0.65,
+    "mean_all_matching": 0.2175,
+    "dim_averages": {
+      "keyword_alignment": 0.45,
+      "value_alignment": 0.5,
+      "pain_alignment": 0.55,
+      "behavioral_alignment": 0.4,
+      "sentiment_alignment": 0.475
+    },
+    "n_success": 3,
+    "mapping_success_rate": 0.75
+  },
+  "topic_sim_result": {
+    "topic_sim": 0.384,
+    "pair_details": [
+      {
+        "gen_name": "Quality-Conscious Bargain Hunter",
+        "gt_name": "The Practical Value Seeker",
+        "gen_aspects": [
+          "sound",
+          "quality",
+          "price",
+          "google",
+          "smart"
+        ],
+        "gt_aspects": [
+          "Price",
+          "Clock",
+          "Configuration",
+          "Convenience",
+          "Smart Assistant"
+        ],
+        "topic_sim": 0.452
+      },
+      {
+        "gen_name": "Optimistic Early Adopter",
+        "gt_name": "The Wireless Audio Pursuer",
+        "gen_aspects": [
+          "sound",
+          "battery",
+          "quality",
+          "work",
+          "airpod"
+        ],
+        "gt_aspects": [
+          "Sound",
+          "Connectivity",
+          "Price",
+          "Configuration",
+          "Size"
+        ],
+        "topic_sim": 0.452
+      },
+      {
+        "gen_name": "Practical Problem Solver",
+        "gt_name": "The Smart Home Integrator",
+        "gen_aspects": [
+          "thermostat",
+          "google",
+          "set",
+          "home",
+          "wifi"
+        ],
+        "gt_aspects": [
+          "Smart Assistant",
+          "Clock",
+          "Connectivity",
+          "Configuration",
+          "Convenience"
+        ],
+        "topic_sim": 0.3741
+      },
+      {
+        "gen_name": "Disappointed Apple Enthusiast",
+        "gt_name": "The Disillusioned Early Adopter",
+        "gen_aspects": [
+          "work",
+          "return",
+          "apple",
+          "airpod",
+          "buy"
+        ],
+        "gt_aspects": [
+          "Durability",
+          "Defective",
+          "Charging",
+          "Connectivity",
+          "Quality"
+        ],
+        "topic_sim": 0.2579
+      }
+    ]
+  },
+  "summary": {
+    "matching_score": 0.475,
+    "validity_score": 0.65,
+    "topic_sim": 0.384,
+    "dim_averages": {
+      "keyword_alignment": 0.45,
+      "value_alignment": 0.5,
+      "pain_alignment": 0.55,
+      "behavioral_alignment": 0.4,
+      "sentiment_alignment": 0.475
+    }
+  }
+}

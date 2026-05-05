@@ -1,0 +1,114 @@
+{
+  "exp_id": "EXP-4",
+  "method": "SNA_LDA",
+  "file": "vad_en",
+  "lang": "en",
+  "n_docs": 2370,
+  "n_communities": 10,
+  "n_communities_with_lda": 6,
+  "coherence_cv": 0.5827,
+  "community_results": {
+    "community_0": {
+      "n_docs": 160,
+      "k_inner": 2,
+      "topic_words": [
+        "music",
+        "play",
+        "alexa",
+        "want",
+        "echo",
+        "work",
+        "well",
+        "amazon",
+        "home",
+        "item"
+      ]
+    },
+    "community_1": {
+      "n_docs": 820,
+      "k_inner": 2,
+      "topic_words": [
+        "great",
+        "good",
+        "sound",
+        "work",
+        "quality",
+        "like",
+        "love",
+        "clock",
+        "need",
+        "product"
+      ]
+    },
+    "community_2": {
+      "n_docs": 387,
+      "k_inner": 2,
+      "topic_words": [
+        "clock",
+        "charge",
+        "smart",
+        "alarm",
+        "work",
+        "phone",
+        "great",
+        "light",
+        "screen",
+        "lenovo"
+      ]
+    },
+    "community_3": {
+      "n_docs": 283,
+      "k_inner": 2,
+      "topic_words": [
+        "nest",
+        "google",
+        "thermostat",
+        "home",
+        "unit",
+        "year",
+        "support",
+        "buy",
+        "device",
+        "instal"
+      ]
+    },
+    "community_4": {
+      "n_docs": 564,
+      "k_inner": 2,
+      "topic_words": [
+        "work",
+        "buy",
+        "month",
+        "time",
+        "return",
+        "stop",
+        "connect",
+        "issue",
+        "new",
+        "good"
+      ]
+    },
+    "community_5": {
+      "n_docs": 148,
+      "k_inner": 2,
+      "topic_words": [
+        "thermostat",
+        "nest",
+        "work",
+        "learn",
+        "temperature",
+        "house",
+        "good",
+        "heat",
+        "set",
+        "buy"
+      ]
+    }
+  },
+  "used_params": {
+    "lda_passes": 30,
+    "lda_no_below": 1,
+    "lda_no_above": 0.9
+  },
+  "paper_ref": "Austin et al. (COLING 2022) / Blei et al. (2003) / Grid-Search Tuned"
+}

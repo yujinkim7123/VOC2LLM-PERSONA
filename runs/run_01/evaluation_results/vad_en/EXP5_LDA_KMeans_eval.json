@@ -1,0 +1,193 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP5_LDA_KMeans",
+  "method": "LDA_KMEANS",
+  "lang": "en",
+  "judge": {
+    "judge_matrix": [
+      [
+        0.26,
+        0.26,
+        0.24,
+        0.0
+      ],
+      [
+        0.12,
+        0.54,
+        0.42,
+        0.12
+      ],
+      [
+        0.32,
+        0.2,
+        0.14,
+        0.18
+      ],
+      [
+        0.28,
+        0.06,
+        0.24,
+        0.46
+      ]
+    ],
+    "best_mapping": [
+      {
+        "gen_name": "Quality-Conscious Smart Buyer",
+        "gt_name": "The Practical Value Seeker",
+        "keyword_alignment": 0.3,
+        "value_alignment": 0.0,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.3,
+        "matching_score": 0.24,
+        "validity_score": 0.7,
+        "reasoning": "Generated persona focuses on sound and quality, not clock or utility.",
+        "success": false
+      },
+      {
+        "gen_name": "Practical Feature-Seeker",
+        "gt_name": "The Smart Home Integrator",
+        "keyword_alignment": 0.3,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.7,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.7,
+        "matching_score": 0.54,
+        "validity_score": 0.7,
+        "reasoning": "Smart home theme present; lacks key aspects like voice control.",
+        "success": true
+      },
+      {
+        "gen_name": "Sound and Battery Advocate",
+        "gt_name": "The Wireless Audio Pursuer",
+        "keyword_alignment": 0.3,
+        "value_alignment": 0.3,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.32,
+        "validity_score": 0.5,
+        "reasoning": "Generated persona diverges on sentiment and lacks focus on wireless connections.",
+        "success": false
+      },
+      {
+        "gen_name": "Apprehensive Early Adopter",
+        "gt_name": "The Disillusioned Early Adopter",
+        "keyword_alignment": 0.3,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.5,
+        "matching_score": 0.46,
+        "validity_score": 0.7,
+        "reasoning": "Generated persona lacks specificity in device failures and sentiment.",
+        "success": false
+      }
+    ],
+    "matching_score": 0.39,
+    "validity_score": 0.65,
+    "mean_all_matching": 0.24,
+    "dim_averages": {
+      "keyword_alignment": 0.3,
+      "value_alignment": 0.325,
+      "pain_alignment": 0.5,
+      "behavioral_alignment": 0.45,
+      "sentiment_alignment": 0.375
+    },
+    "n_success": 1,
+    "mapping_success_rate": 0.25
+  },
+  "topic_sim_result": {
+    "topic_sim": 0.3935,
+    "pair_details": [
+      {
+        "gen_name": "Quality-Conscious Smart Buyer",
+        "gt_name": "The Practical Value Seeker",
+        "gen_aspects": [
+          "sound",
+          "quality",
+          "google",
+          "smart",
+          "price"
+        ],
+        "gt_aspects": [
+          "Price",
+          "Clock",
+          "Configuration",
+          "Convenience",
+          "Smart Assistant"
+        ],
+        "topic_sim": 0.452
+      },
+      {
+        "gen_name": "Practical Feature-Seeker",
+        "gt_name": "The Smart Home Integrator",
+        "gen_aspects": [
+          "thermostat",
+          "work",
+          "google",
+          "home",
+          "set"
+        ],
+        "gt_aspects": [
+          "Smart Assistant",
+          "Clock",
+          "Connectivity",
+          "Configuration",
+          "Convenience"
+        ],
+        "topic_sim": 0.3565
+      },
+      {
+        "gen_name": "Sound and Battery Advocate",
+        "gt_name": "The Wireless Audio Pursuer",
+        "gen_aspects": [
+          "sound",
+          "battery",
+          "charge",
+          "good",
+          "ear"
+        ],
+        "gt_aspects": [
+          "Sound",
+          "Connectivity",
+          "Price",
+          "Configuration",
+          "Size"
+        ],
+        "topic_sim": 0.4923
+      },
+      {
+        "gen_name": "Apprehensive Early Adopter",
+        "gt_name": "The Disillusioned Early Adopter",
+        "gen_aspects": [
+          "work",
+          "stop",
+          "return",
+          "buy",
+          "month"
+        ],
+        "gt_aspects": [
+          "Durability",
+          "Defective",
+          "Charging",
+          "Connectivity",
+          "Quality"
+        ],
+        "topic_sim": 0.2732
+      }
+    ]
+  },
+  "summary": {
+    "matching_score": 0.39,
+    "validity_score": 0.65,
+    "topic_sim": 0.3935,
+    "dim_averages": {
+      "keyword_alignment": 0.3,
+      "value_alignment": 0.325,
+      "pain_alignment": 0.5,
+      "behavioral_alignment": 0.45,
+      "sentiment_alignment": 0.375
+    }
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP7_Full",
+  "method": "SNA_LDA_KMEANS",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_docs": 868,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Style-Conscious Evaluator",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP7_Full",
+      "keywords": [
+        "beautiful",
+        "premium",
+        "design",
+        "match",
+        "quality"
+      ],
+      "core_value": "They value aesthetically pleasing designs and premium quality in home appliances.",
+      "description": "This consumer pays close attention to the look and feel of appliances, seeking products that not only perform well but also enhance the visual aesthetic of their home. They are likely to spend considerable time evaluating different designs before making a purchase.",
+      "motivation": "They are driven by a desire to create a stylish home environment with high-quality appliances that meet their design standards.",
+      "pain_points": "They may become frustrated if the appliance doesn't match the advertised design or quality.",
+      "quote": "I'm always on the lookout for beautifully designed appliances that complement my home's interior.",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Keywords like 'beautiful', 'premium', and 'quality' indicate a positive sentiment, while 'match' and neutral words suggest a small portion of neutrality."
+      },
+      "top_aspects": [
+        "design",
+        "quality",
+        "beautiful",
+        "premium",
+        "match"
+      ],
+      "co_aspects": {
+        "design": [
+          "beautiful",
+          "premium",
+          "match"
+        ],
+        "quality": [
+          "premium",
+          "design"
+        ],
+        "beautiful": [
+          "premium",
+          "design",
+          "match"
+        ],
+        "premium": [
+          "beautiful",
+          "design",
+          "quality"
+        ],
+        "match": [
+          "beautiful",
+          "design"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Practical Value Seeker",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP7_Full",
+      "keywords": [
+        "price",
+        "performance",
+        "buy",
+        "quality",
+        "standard"
+      ],
+      "core_value": "They prioritize a good balance of price and performance in their purchases.",
+      "description": "This consumer is meticulous about getting the most for their money, ensuring that their purchases meet performance expectations without breaking the bank. They often compare different options to find the best deal.",
+      "motivation": "Driven by practicality and budget considerations, they seek out appliances that offer reliable performance at an affordable price.",
+      "pain_points": "May feel disappointed if an appliance doesn't live up to their performance expectations or if they perceive it as not worth the price.",
+      "quote": "I always look for the best price-performance ratio when buying appliances.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Keywords like 'price', 'performance', and 'quality' denote a positive sentiment towards value, with partial neutrality attributed to terms like 'buy' and 'standard'."
+      },
+      "top_aspects": [
+        "price",
+        "performance",
+        "quality",
+        "buy",
+        "standard"
+      ],
+      "co_aspects": {
+        "price": [
+          "performance",
+          "quality",
+          "buy",
+          "standard"
+        ],
+        "performance": [
+          "price",
+          "buy",
+          "quality"
+        ],
+        "quality": [
+          "price",
+          "performance"
+        ],
+        "buy": [
+          "price",
+          "performance"
+        ],
+        "standard": [
+          "price",
+          "performance"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Feature Enthusiast",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP7_Full",
+      "keywords": [
+        "product",
+        "spec",
+        "feature",
+        "setup",
+        "use"
+      ],
+      "core_value": "They are interested in the advanced features and specifications that products offer.",
+      "description": "These consumers are technically inclined and appreciate appliances with innovative features. They spend time understanding the specifications and capabilities of the product before making a purchase.",
+      "motivation": "Attracted to cutting-edge technology and advanced functionalities, they look for appliances that offer the latest specs and ease of use.",
+      "pain_points": "Can become frustrated if the features are not as described or if technical setup turns out to be complicated.",
+      "quote": "I love exploring the new features and specs of the latest home appliances.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.4,
+        "Negative": 0.1,
+        "_inference_note": "There's a slight positive bias from 'feature', 'spec', and 'use', with 'setup' being neutral and mundane, offering a broader technical review context."
+      },
+      "top_aspects": [
+        "feature",
+        "spec",
+        "product",
+        "setup",
+        "use"
+      ],
+      "co_aspects": {
+        "feature": [
+          "spec",
+          "product",
+          "use"
+        ],
+        "spec": [
+          "feature",
+          "product"
+        ],
+        "product": [
+          "feature",
+          "setup"
+        ],
+        "setup": [
+          "product",
+          "use"
+        ],
+        "use": [
+          "product",
+          "setup"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Support-Oriented Wary Buyer",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP7_Full",
+      "keywords": [
+        "warranty",
+        "support",
+        "issue",
+        "repair",
+        "service"
+      ],
+      "core_value": "This consumer emphasizes post-purchase support and peace of mind.",
+      "description": "They are cautious buyers who focus on the support and warranty services provided after purchasing a product. Their buying decisions are influenced by assurance of reliable customer service in case of any issues.",
+      "motivation": "Concerned about long-term usability and potential repairs, they look for products with strong warranties and consistent customer support.",
+      "pain_points": "Customer dissatisfaction arises when warranty conditions are unclear or customer support is inadequate.",
+      "quote": "Having a robust warranty and good customer support is vital when purchasing home appliances.",
+      "sentiment_ratio": {
+        "Positive": 0.3,
+        "Neutral": 0.3,
+        "Negative": 0.4,
+        "_inference_note": "Words like 'warranty' and 'support' tend to neutral, while 'issue', 'repair', and 'service' imply apprehensive or negative sentiment linked to concerns."
+      },
+      "top_aspects": [
+        "warranty",
+        "support",
+        "issue",
+        "repair",
+        "service"
+      ],
+      "co_aspects": {
+        "warranty": [
+          "support",
+          "issue",
+          "repair"
+        ],
+        "support": [
+          "warranty",
+          "issue",
+          "service"
+        ],
+        "issue": [
+          "warranty",
+          "support",
+          "repair"
+        ],
+        "repair": [
+          "warranty",
+          "issue"
+        ],
+        "service": [
+          "support"
+        ]
+      }
+    }
+  ]
+}

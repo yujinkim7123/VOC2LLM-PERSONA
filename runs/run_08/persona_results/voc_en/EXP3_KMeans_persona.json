@@ -1,0 +1,183 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP3_KMeans",
+  "method": "KMEANS_TFIDF",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_docs": 965,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Budget-Conscious Performance Seeker",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP3_KMeans",
+      "keywords": [
+        "price",
+        "pay",
+        "performance",
+        "cost",
+        "buy",
+        "budget",
+        "charge"
+      ],
+      "core_value": "This consumer segment values high performance at a reasonable price.",
+      "description": "They are practical buyers who weigh the cost against performance, often searching for the best deals and budget-friendly options. They focus on getting the best value for their money.",
+      "motivation": "They are driven by the need to find appliances that perform well without breaking the bank.",
+      "pain_points": "They may feel frustrated if they perceive a product as overpriced or if the performance does not meet the expected standards for the price.",
+      "quote": "I always look for appliances that give me the best performance without costing too much.",
+      "sentiment_ratio": {
+        "Positive": 0.4,
+        "Neutral": 0.4,
+        "Negative": 0.2,
+        "_inference_note": "Positive sentiment inferred from 'performance' and 'buy'; negatives from 'high' and 'charge' suggesting concern about costs; neutral from words like 'price', 'cost'."
+      },
+      "top_aspects": [
+        "price",
+        "performance",
+        "cost",
+        "budget",
+        "buy"
+      ],
+      "co_aspects": {
+        "price": [
+          "pay",
+          "performance",
+          "cost"
+        ],
+        "performance": [
+          "buy",
+          "cost"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Analytical Specification Scrutineer",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP3_KMeans",
+      "keywords": [
+        "spec",
+        "measure",
+        "price",
+        "advertise",
+        "standard",
+        "benchmark",
+        "actual"
+      ],
+      "core_value": "This consumer values transparency and accuracy in product specifications.",
+      "description": "They are detail-oriented and critical thinkers who extensively analyze product specifications and compare advertised claims versus actual performance.",
+      "motivation": "They are motivated by the need to confirm that what is being promised in product specifications aligns with real-world performance.",
+      "pain_points": "They can become disillusioned if they find discrepancies between advertised specifications and the actual capabilities of the product.",
+      "quote": "I need to ensure what I read on the box matches what I get in real use.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.5,
+        "Negative": 0.3,
+        "_inference_note": "Negative sentiment from 'advertise', 'actual' suggesting skepticism; neutral from 'spec', 'measure', 'price'; slight positive inferred from 'benchmark'."
+      },
+      "top_aspects": [
+        "spec",
+        "price",
+        "measure",
+        "advertise",
+        "standard"
+      ],
+      "co_aspects": {
+        "spec": [
+          "measure",
+          "advertise"
+        ],
+        "measure": [
+          "benchmark",
+          "actual"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Aesthetic-Driven Homemaker",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP3_KMeans",
+      "keywords": [
+        "color",
+        "pretty",
+        "look",
+        "design",
+        "put",
+        "setup",
+        "choose"
+      ],
+      "core_value": "They highly value the visual and design aspects of appliances.",
+      "description": "This persona is visually-oriented, prioritizing the aesthetics of their home. They are keen on choosing appliances that match or enhance their home's decor.",
+      "motivation": "Their purchase decisions are driven by the desire to complement their home’s aesthetics and express personal style.",
+      "pain_points": "They may be frustrated if the appliance’s appearance or design quality does not meet expectations.",
+      "quote": "It's important that my appliances look as good as they perform.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Positive sentiment from 'pretty', 'beautiful', 'design'; slight negatives from 'setup' challenges; neutral from 'choose', 'buy'."
+      },
+      "top_aspects": [
+        "color",
+        "design",
+        "look",
+        "setup",
+        "choose"
+      ],
+      "co_aspects": {
+        "color": [
+          "look",
+          "design"
+        ],
+        "design": [
+          "choose",
+          "buy"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Service-Oriented Brand Loyalist",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP3_KMeans",
+      "keywords": [
+        "service",
+        "brand",
+        "trust",
+        "warranty",
+        "app",
+        "support",
+        "defect"
+      ],
+      "core_value": "Trust in brand reputation and reliable customer service are critical to this segment.",
+      "description": "They are committed to brands they trust and put a premium on the customer service and support available post-purchase.",
+      "motivation": "Brand loyalty and after-sales service assurance are pivotal in their purchasing decision.",
+      "pain_points": "They experience frustration primarily with service issues and defects that go unresolved.",
+      "quote": "For me, a good brand and reliable service make all the difference.",
+      "sentiment_ratio": {
+        "Positive": 0.3,
+        "Neutral": 0.4,
+        "Negative": 0.3,
+        "_inference_note": "Positive inferred from 'trust', 'brand'; negatives from 'issue', 'defect'; neutral from 'support', 'service'."
+      },
+      "top_aspects": [
+        "service",
+        "brand",
+        "trust",
+        "warranty",
+        "support"
+      ],
+      "co_aspects": {
+        "service": [
+          "brand",
+          "support"
+        ],
+        "brand": [
+          "trust",
+          "warranty"
+        ]
+      }
+    }
+  ]
+}

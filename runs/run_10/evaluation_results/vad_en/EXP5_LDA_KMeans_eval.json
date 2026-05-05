@@ -1,0 +1,193 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP5_LDA_KMeans",
+  "method": "LDA_KMEANS",
+  "lang": "en",
+  "judge": {
+    "judge_matrix": [
+      [
+        0.0,
+        0.64,
+        0.22,
+        0.12
+      ],
+      [
+        0.32,
+        0.14,
+        0.06,
+        0.06
+      ],
+      [
+        0.48,
+        0.12,
+        0.0,
+        0.0
+      ],
+      [
+        0.22,
+        0.06,
+        0.5,
+        0.06
+      ]
+    ],
+    "best_mapping": [
+      {
+        "gen_name": "Tech-Savvy Home Integrator",
+        "gt_name": "The Smart Home Integrator",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 1.0,
+        "matching_score": 0.64,
+        "validity_score": 0.7,
+        "reasoning": "Generated persona partially covers domain topics; sentiment matches well.",
+        "success": true
+      },
+      {
+        "gen_name": "Active Lifestyle Ear-Fitters",
+        "gt_name": "The Disillusioned Early Adopter",
+        "keyword_alignment": 0.0,
+        "value_alignment": 0.0,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.0,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.06,
+        "validity_score": 0.3,
+        "reasoning": "Generated persona focuses on fit, not durability or defects from domain topics.",
+        "success": false
+      },
+      {
+        "gen_name": "Sound Quality Enthusiasts",
+        "gt_name": "The Wireless Audio Pursuer",
+        "keyword_alignment": 0.7,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.48,
+        "validity_score": 0.7,
+        "reasoning": "Keywords and values mostly align. Sentiments diverge significantly.",
+        "success": false
+      },
+      {
+        "gen_name": "Budget-Conscious Value Seekers",
+        "gt_name": "The Practical Value Seeker",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.5,
+        "matching_score": 0.5,
+        "validity_score": 0.7,
+        "reasoning": "Keywords partially align; value is simplified; pain lacks detail; behavior aligns partially.",
+        "success": true
+      }
+    ],
+    "matching_score": 0.42,
+    "validity_score": 0.6,
+    "mean_all_matching": 0.1875,
+    "dim_averages": {
+      "keyword_alignment": 0.425,
+      "value_alignment": 0.525,
+      "pain_alignment": 0.4,
+      "behavioral_alignment": 0.375,
+      "sentiment_alignment": 0.375
+    },
+    "n_success": 2,
+    "mapping_success_rate": 0.5
+  },
+  "topic_sim_result": {
+    "topic_sim": 0.4152,
+    "pair_details": [
+      {
+        "gen_name": "Tech-Savvy Home Integrator",
+        "gt_name": "The Smart Home Integrator",
+        "gen_aspects": [
+          "thermostat",
+          "charge",
+          "nest",
+          "work",
+          "google"
+        ],
+        "gt_aspects": [
+          "Smart Assistant",
+          "Clock",
+          "Connectivity",
+          "Configuration",
+          "Convenience"
+        ],
+        "topic_sim": 0.3417
+      },
+      {
+        "gen_name": "Active Lifestyle Ear-Fitters",
+        "gt_name": "The Disillusioned Early Adopter",
+        "gen_aspects": [
+          "ear",
+          "headphone",
+          "fit",
+          "connect",
+          "earpod"
+        ],
+        "gt_aspects": [
+          "Durability",
+          "Defective",
+          "Charging",
+          "Connectivity",
+          "Quality"
+        ],
+        "topic_sim": 0.323
+      },
+      {
+        "gen_name": "Sound Quality Enthusiasts",
+        "gt_name": "The Wireless Audio Pursuer",
+        "gen_aspects": [
+          "sound",
+          "music",
+          "play",
+          "quality",
+          "speaker"
+        ],
+        "gt_aspects": [
+          "Sound",
+          "Connectivity",
+          "Price",
+          "Configuration",
+          "Size"
+        ],
+        "topic_sim": 0.5201
+      },
+      {
+        "gen_name": "Budget-Conscious Value Seekers",
+        "gt_name": "The Practical Value Seeker",
+        "gen_aspects": [
+          "quality",
+          "price",
+          "sound",
+          "samsung",
+          "purchase"
+        ],
+        "gt_aspects": [
+          "Price",
+          "Clock",
+          "Configuration",
+          "Convenience",
+          "Smart Assistant"
+        ],
+        "topic_sim": 0.4758
+      }
+    ]
+  },
+  "summary": {
+    "matching_score": 0.42,
+    "validity_score": 0.6,
+    "topic_sim": 0.4152,
+    "dim_averages": {
+      "keyword_alignment": 0.425,
+      "value_alignment": 0.525,
+      "pain_alignment": 0.4,
+      "behavioral_alignment": 0.375,
+      "sentiment_alignment": 0.375
+    }
+  }
+}

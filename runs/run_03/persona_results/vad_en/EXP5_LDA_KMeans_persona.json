@@ -1,0 +1,207 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP5_LDA_KMeans",
+  "method": "LDA_KMEANS",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2370,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Google-Smart Sound Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP5_LDA_KMeans",
+      "keywords": [
+        "great",
+        "clock",
+        "good",
+        "love",
+        "smart",
+        "google",
+        "sound"
+      ],
+      "core_value": "They value excellent sound quality and smart integration with Google products.",
+      "description": "This persona is typically very enthusiastic about their smart speaker or display, frequently praising its great sound quality and smart features. They are likely loyal to the Google ecosystem.",
+      "motivation": "They are driven by a desire for high-quality sound and seamless integration with their Google devices.",
+      "pain_points": "Limited, as they tend to focus more on the positives of the device.",
+      "quote": "I love the sound quality of my Google smart speaker; it's just great!",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Keywords like 'great', 'good', 'love', and 'smart' indicate a primarily positive sentiment."
+      },
+      "top_aspects": [
+        "sound",
+        "quality",
+        "smart",
+        "google",
+        "work"
+      ],
+      "co_aspects": {
+        "sound": [
+          "quality",
+          "smart",
+          "google"
+        ],
+        "quality": [
+          "sound",
+          "smart",
+          "google"
+        ],
+        "smart": [
+          "sound",
+          "quality",
+          "google"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Practical Battery-Conscious User",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP5_LDA_KMeans",
+      "keywords": [
+        "airpod",
+        "charge",
+        "battery",
+        "good",
+        "sound",
+        "quality"
+      ],
+      "core_value": "They prioritize practical features like battery life and sound quality.",
+      "description": "This consumer is practical and values devices that offer good battery life and sound quality. They frequently discuss charging and the performance of their devices with a focus on practicality.",
+      "motivation": "Their purchase decisions are heavily influenced by battery performance and sound quality.",
+      "pain_points": "Concerns about battery life and charging efficiency can be a frustration.",
+      "quote": "The sound quality is good, but I'm always checking the battery life on my AirPods.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.3,
+        "Negative": 0.2,
+        "_inference_note": "The mix of 'good', alongside concerns like 'charge' and 'battery', suggest a balanced but slightly positive outlook."
+      },
+      "top_aspects": [
+        "airpod",
+        "battery",
+        "charge",
+        "sound",
+        "quality"
+      ],
+      "co_aspects": {
+        "battery": [
+          "charge",
+          "airpod",
+          "sound"
+        ],
+        "charge": [
+          "battery",
+          "airpod",
+          "sound"
+        ],
+        "sound": [
+          "quality",
+          "battery",
+          "charge"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Apple Loyalty Dissenter",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP5_LDA_KMeans",
+      "keywords": [
+        "work",
+        "stop",
+        "return",
+        "buy",
+        "month",
+        "apple"
+      ],
+      "core_value": "While they initially buy for brand loyalty, issues can cause significant dissatisfaction.",
+      "description": "This persona often purchases Apple products out of brand loyalty but becomes frustrated with performance issues, leading to potential returns.",
+      "motivation": "Initial brand loyalty towards Apple attracts them, but expectations sometimes fall short.",
+      "pain_points": "Product malfunctions and the need to return products are significant frustrations.",
+      "quote": "I was disappointed when my Apple speaker stopped working after just a couple of months and had to be returned.",
+      "sentiment_ratio": {
+        "Positive": 0.1,
+        "Neutral": 0.2,
+        "Negative": 0.7,
+        "_inference_note": "Frequent use of 'stop', 'return', and 'disappointed' indicates a predominantly negative sentiment."
+      },
+      "top_aspects": [
+        "apple",
+        "work",
+        "return",
+        "month",
+        "buy"
+      ],
+      "co_aspects": {
+        "apple": [
+          "work",
+          "return",
+          "buy"
+        ],
+        "return": [
+          "apple",
+          "work",
+          "month"
+        ],
+        "work": [
+          "apple",
+          "return",
+          "month"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Tech-Savvy Home Automator",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP5_LDA_KMeans",
+      "keywords": [
+        "thermostat",
+        "nest",
+        "set",
+        "home",
+        "easy",
+        "google"
+      ],
+      "core_value": "Ease of use and home automation efficiency are paramount.",
+      "description": "These users are tech-savvy and focused on automating their homes. They appreciate devices that easily integrate into their home automation systems, like a Nest thermostat.",
+      "motivation": "They are primarily driven by the ease of integrating smart devices like a Google Nest into their home systems.",
+      "pain_points": "Occasional difficulties with device setup can be frustrating.",
+      "quote": "Setting up my Nest thermostat was easy, and it works seamlessly with my Google Home.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Words like 'easy', 'home', and 'set' suggest a predominantly positive sentiment with some neutral practicality."
+      },
+      "top_aspects": [
+        "thermostat",
+        "nest",
+        "google",
+        "home",
+        "easy"
+      ],
+      "co_aspects": {
+        "nest": [
+          "thermostat",
+          "google",
+          "home"
+        ],
+        "home": [
+          "nest",
+          "set",
+          "easy"
+        ],
+        "easy": [
+          "nest",
+          "home",
+          "google"
+        ]
+      }
+    }
+  ]
+}

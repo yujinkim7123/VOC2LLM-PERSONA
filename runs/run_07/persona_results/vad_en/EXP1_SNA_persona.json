@@ -1,0 +1,190 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP1_SNA",
+  "method": "SNA_LOUVAIN",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2370,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Music-Loving Alexa Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP1_SNA",
+      "keywords": [
+        "music",
+        "want",
+        "play",
+        "echo",
+        "alexa",
+        "amazon",
+        "listen"
+      ],
+      "core_value": "Seamless music streaming and smart command integration.",
+      "description": "This consumer is focused on using their device primarily for music and leveraging Alexa for voice commands. They are likely an Amazon Echo user who enjoys the convenience of asking Alexa to play music.",
+      "motivation": "The ability to easily listen to music and pair with existing Amazon services.",
+      "pain_points": "Limited music services support or issues with Alexa understanding commands.",
+      "quote": "I love how easily I can ask Alexa to play my favorite songs.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Keywords like 'love', 'listen', and 'play' suggest enthusiasm and satisfaction, offset by neutral words like 'want'."
+      },
+      "top_aspects": [
+        "music",
+        "alexa",
+        "echo",
+        "amazon",
+        "play"
+      ],
+      "co_aspects": {
+        "music": [
+          "want",
+          "play",
+          "echo"
+        ],
+        "alexa": [
+          "ask",
+          "hear",
+          "listen"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Quality-Seeking Gadget Collector",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP1_SNA",
+      "keywords": [
+        "great",
+        "good",
+        "sound",
+        "quality",
+        "product",
+        "use",
+        "easy"
+      ],
+      "core_value": "High quality and ease of use in tech gadgets.",
+      "description": "This persona values high-quality products that are easy to use. They focus on sound quality and overall satisfaction with the device's performance.",
+      "motivation": "Purchasing gadgets that offer superior sound and straightforward usability.",
+      "pain_points": "Devices that don't live up to high quality or ease of use expectations.",
+      "quote": "The sound quality from this device is outstanding and it's so easy to use.",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Positive words like 'great', 'good', 'sound', and 'quality' outweigh the neutral 'use'."
+      },
+      "top_aspects": [
+        "sound",
+        "quality",
+        "use",
+        "product",
+        "easy"
+      ],
+      "co_aspects": {
+        "sound": [
+          "quality",
+          "great",
+          "easy"
+        ],
+        "product": [
+          "use",
+          "good",
+          "love"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Visually-Oriented Tech User",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP1_SNA",
+      "keywords": [
+        "clock",
+        "smart",
+        "phone",
+        "screen",
+        "light",
+        "alarm",
+        "display"
+      ],
+      "core_value": "Integration of smart devices for enhanced visual and functional capabilities.",
+      "description": "This consumer loves visually dynamic devices, integrating smart features with usability. They focus on the device's screen and display quality, using them for both functional and aesthetic purposes.",
+      "motivation": "Seeking smart devices with excellent screen displays and multiple functionalities.",
+      "pain_points": "Screens that lack brightness or clarity, reducing usability.",
+      "quote": "The screen is bright and detailed, perfect for my needs.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.4,
+        "Negative": 0.1,
+        "_inference_note": "Neutral words like 'smart', 'screen', and 'display' are prevalent, with some positive signals from 'nice' and 'feature'."
+      },
+      "top_aspects": [
+        "screen",
+        "display",
+        "smart",
+        "phone",
+        "alarm"
+      ],
+      "co_aspects": {
+        "screen": [
+          "light",
+          "clock",
+          "alarm"
+        ],
+        "display": [
+          "feature",
+          "nice",
+          "smart"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Practical Smart Home Manager",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP1_SNA",
+      "keywords": [
+        "google",
+        "nest",
+        "home",
+        "hub",
+        "app",
+        "control",
+        "device"
+      ],
+      "core_value": "Effortless control and integration of smart home capabilities.",
+      "description": "This consumer uses their smart device primarily for controlling and integrating with their smart home setup. They value the convenience and connectivity provided by Google Nest and similar platforms.",
+      "motivation": "Streamlining home control through reliable smart devices.",
+      "pain_points": "Integration issues or connectivity problems with other smart home devices.",
+      "quote": "The Google Home Hub makes managing my devices so simple.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Positive signals from 'control', 'device', 'home', and 'hub', balanced by neutral terms like 'use' and 'app'."
+      },
+      "top_aspects": [
+        "home",
+        "hub",
+        "app",
+        "control",
+        "device"
+      ],
+      "co_aspects": {
+        "home": [
+          "google",
+          "nest",
+          "hub"
+        ],
+        "control": [
+          "device",
+          "app",
+          "hub"
+        ]
+      }
+    }
+  ]
+}

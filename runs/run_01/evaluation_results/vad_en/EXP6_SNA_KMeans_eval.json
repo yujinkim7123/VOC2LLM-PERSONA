@@ -1,0 +1,193 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP6_SNA_KMeans",
+  "method": "SNA_KMEANS",
+  "lang": "en",
+  "judge": {
+    "judge_matrix": [
+      [
+        0.64,
+        0.46,
+        0.24,
+        0.5
+      ],
+      [
+        0.0,
+        0.68,
+        0.2,
+        0.0
+      ],
+      [
+        0.36,
+        0.0,
+        0.28,
+        0.0
+      ],
+      [
+        0.06,
+        0.28,
+        0.46,
+        0.0
+      ]
+    ],
+    "best_mapping": [
+      {
+        "gen_name": "Connectivity-Focused Skeptic",
+        "gt_name": "The Disillusioned Early Adopter",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.3,
+        "matching_score": 0.5,
+        "validity_score": 1.0,
+        "reasoning": "Generated persona has partial overlap; grounded in domain topics.",
+        "success": true
+      },
+      {
+        "gen_name": "Tech-Savvy Smart Home Enthusiast",
+        "gt_name": "The Smart Home Integrator",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.7,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 1.0,
+        "matching_score": 0.68,
+        "validity_score": 0.7,
+        "reasoning": "Core ideas match, with some deviation in keywords and specifics.",
+        "success": true
+      },
+      {
+        "gen_name": "Sound Quality Seeker",
+        "gt_name": "The Wireless Audio Pursuer",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.36,
+        "validity_score": 0.7,
+        "reasoning": "Keyword overlap is partial; sentiment misaligned; grounded in domain topics.",
+        "success": false
+      },
+      {
+        "gen_name": "Time-Conscious Multi-Tasker",
+        "gt_name": "The Practical Value Seeker",
+        "keyword_alignment": 0.7,
+        "value_alignment": 0.3,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.3,
+        "matching_score": 0.46,
+        "validity_score": 0.7,
+        "reasoning": "Keywords mostly align; value, behavior differ. Sentiment skewed positive.",
+        "success": false
+      }
+    ],
+    "matching_score": 0.5,
+    "validity_score": 0.775,
+    "mean_all_matching": 0.26,
+    "dim_averages": {
+      "keyword_alignment": 0.55,
+      "value_alignment": 0.55,
+      "pain_alignment": 0.5,
+      "behavioral_alignment": 0.5,
+      "sentiment_alignment": 0.4
+    },
+    "n_success": 2,
+    "mapping_success_rate": 0.5
+  },
+  "topic_sim_result": {
+    "topic_sim": 0.4478,
+    "pair_details": [
+      {
+        "gen_name": "Connectivity-Focused Skeptic",
+        "gt_name": "The Disillusioned Early Adopter",
+        "gen_aspects": [
+          "work",
+          "buy",
+          "connect",
+          "return",
+          "issue"
+        ],
+        "gt_aspects": [
+          "Durability",
+          "Defective",
+          "Charging",
+          "Connectivity",
+          "Quality"
+        ],
+        "topic_sim": 0.3698
+      },
+      {
+        "gen_name": "Tech-Savvy Smart Home Enthusiast",
+        "gt_name": "The Smart Home Integrator",
+        "gen_aspects": [
+          "nest",
+          "thermostat",
+          "google",
+          "hub",
+          "home"
+        ],
+        "gt_aspects": [
+          "Smart Assistant",
+          "Clock",
+          "Connectivity",
+          "Configuration",
+          "Convenience"
+        ],
+        "topic_sim": 0.3248
+      },
+      {
+        "gen_name": "Sound Quality Seeker",
+        "gt_name": "The Wireless Audio Pursuer",
+        "gen_aspects": [
+          "sound",
+          "quality",
+          "price",
+          "picture",
+          "product"
+        ],
+        "gt_aspects": [
+          "Sound",
+          "Connectivity",
+          "Price",
+          "Configuration",
+          "Size"
+        ],
+        "topic_sim": 0.5934
+      },
+      {
+        "gen_name": "Time-Conscious Multi-Tasker",
+        "gt_name": "The Practical Value Seeker",
+        "gen_aspects": [
+          "clock",
+          "smart",
+          "alarm",
+          "phone",
+          "charge"
+        ],
+        "gt_aspects": [
+          "Price",
+          "Clock",
+          "Configuration",
+          "Convenience",
+          "Smart Assistant"
+        ],
+        "topic_sim": 0.5034
+      }
+    ]
+  },
+  "summary": {
+    "matching_score": 0.5,
+    "validity_score": 0.775,
+    "topic_sim": 0.4478,
+    "dim_averages": {
+      "keyword_alignment": 0.55,
+      "value_alignment": 0.55,
+      "pain_alignment": 0.5,
+      "behavioral_alignment": 0.5,
+      "sentiment_alignment": 0.4
+    }
+  }
+}

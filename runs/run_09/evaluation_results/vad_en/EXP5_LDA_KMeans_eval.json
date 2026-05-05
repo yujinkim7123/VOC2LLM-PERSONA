@@ -1,0 +1,193 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP5_LDA_KMeans",
+  "method": "LDA_KMEANS",
+  "lang": "en",
+  "judge": {
+    "judge_matrix": [
+      [
+        0.5,
+        0.2,
+        0.06,
+        0.0
+      ],
+      [
+        0.32,
+        0.62,
+        0.2,
+        0.06
+      ],
+      [
+        0.22,
+        0.06,
+        0.42,
+        0.0
+      ],
+      [
+        0.22,
+        0.22,
+        0.3,
+        0.62
+      ]
+    ],
+    "best_mapping": [
+      {
+        "gen_name": "Audio Enthusiast",
+        "gt_name": "The Wireless Audio Pursuer",
+        "keyword_alignment": 0.7,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.3,
+        "matching_score": 0.5,
+        "validity_score": 0.7,
+        "reasoning": "Keywords and value partially match; sentiment direction differs.",
+        "success": true
+      },
+      {
+        "gen_name": "Tech-Savvy Smart Home Integrator",
+        "gt_name": "The Smart Home Integrator",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.7,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.7,
+        "matching_score": 0.62,
+        "validity_score": 0.7,
+        "reasoning": "Keywords differ in focus, but values and pain points partially align.",
+        "success": true
+      },
+      {
+        "gen_name": "Practical Budget Buyer",
+        "gt_name": "The Practical Value Seeker",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.3,
+        "matching_score": 0.42,
+        "validity_score": 0.5,
+        "reasoning": "Missing clock/alarm focus, generic keywords, vague values.",
+        "success": false
+      },
+      {
+        "gen_name": "Frustrated Tech Adopter",
+        "gt_name": "The Disillusioned Early Adopter",
+        "keyword_alignment": 0.7,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.7,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.7,
+        "matching_score": 0.62,
+        "validity_score": 0.7,
+        "reasoning": "Keywords and sentiment mostly align, but values and behavior partially do.",
+        "success": true
+      }
+    ],
+    "matching_score": 0.54,
+    "validity_score": 0.65,
+    "mean_all_matching": 0.2512,
+    "dim_averages": {
+      "keyword_alignment": 0.6,
+      "value_alignment": 0.55,
+      "pain_alignment": 0.55,
+      "behavioral_alignment": 0.5,
+      "sentiment_alignment": 0.5
+    },
+    "n_success": 3,
+    "mapping_success_rate": 0.75
+  },
+  "topic_sim_result": {
+    "topic_sim": 0.4004,
+    "pair_details": [
+      {
+        "gen_name": "Audio Enthusiast",
+        "gt_name": "The Wireless Audio Pursuer",
+        "gen_aspects": [
+          "sound",
+          "music",
+          "quality",
+          "echo",
+          "speaker"
+        ],
+        "gt_aspects": [
+          "Sound",
+          "Connectivity",
+          "Price",
+          "Configuration",
+          "Size"
+        ],
+        "topic_sim": 0.5215
+      },
+      {
+        "gen_name": "Tech-Savvy Smart Home Integrator",
+        "gt_name": "The Smart Home Integrator",
+        "gen_aspects": [
+          "thermostat",
+          "nest",
+          "google",
+          "wireless",
+          "support"
+        ],
+        "gt_aspects": [
+          "Smart Assistant",
+          "Clock",
+          "Connectivity",
+          "Configuration",
+          "Convenience"
+        ],
+        "topic_sim": 0.343
+      },
+      {
+        "gen_name": "Practical Budget Buyer",
+        "gt_name": "The Practical Value Seeker",
+        "gen_aspects": [
+          "quality",
+          "great",
+          "price",
+          "buy",
+          "purchase"
+        ],
+        "gt_aspects": [
+          "Price",
+          "Clock",
+          "Configuration",
+          "Convenience",
+          "Smart Assistant"
+        ],
+        "topic_sim": 0.479
+      },
+      {
+        "gen_name": "Frustrated Tech Adopter",
+        "gt_name": "The Disillusioned Early Adopter",
+        "gen_aspects": [
+          "work",
+          "buy",
+          "return",
+          "stop",
+          "apple"
+        ],
+        "gt_aspects": [
+          "Durability",
+          "Defective",
+          "Charging",
+          "Connectivity",
+          "Quality"
+        ],
+        "topic_sim": 0.258
+      }
+    ]
+  },
+  "summary": {
+    "matching_score": 0.54,
+    "validity_score": 0.65,
+    "topic_sim": 0.4004,
+    "dim_averages": {
+      "keyword_alignment": 0.6,
+      "value_alignment": 0.55,
+      "pain_alignment": 0.55,
+      "behavioral_alignment": 0.5,
+      "sentiment_alignment": 0.5
+    }
+  }
+}

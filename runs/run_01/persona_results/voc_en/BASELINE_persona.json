@@ -1,0 +1,182 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "BASELINE",
+  "method": "LLM_STANDALONE",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_docs": null,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "High-Tech Enthusiast",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_BASELINE",
+      "keywords": [
+        "innovation",
+        "smart",
+        "features",
+        "latest",
+        "technology",
+        "connectivity",
+        "control"
+      ],
+      "core_value": "They prioritize the latest features and technological innovations in their home appliances.",
+      "description": "This consumer is always on the lookout for the newest and most advanced home appliances. They enjoy experimenting with smart features and integrating their devices with smart home setups. Often tech-savvy, they are quick to adopt new technologies.",
+      "motivation": "Their primary motivation is owning cutting-edge products that enhance convenience and efficiency in their home life.",
+      "pain_points": "Frustrations typically arise when new technologies don’t work seamlessly or have compatibility issues.",
+      "quote": "I love having appliances that I can control from my phone. The more high-tech, the better!",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Typically positive about innovative features but occasionally frustrated by glitches in new technologies."
+      },
+      "top_aspects": [
+        "innovation",
+        "smart features",
+        "connectivity",
+        "app control",
+        "latest models"
+      ],
+      "co_aspects": {
+        "innovation": [
+          "smart features",
+          "latest models"
+        ],
+        "connectivity": [
+          "app control",
+          "smart features"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Budget-Conscious Buyer",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_BASELINE",
+      "keywords": [
+        "price",
+        "value",
+        "affordable",
+        "cost-effective",
+        "budget",
+        "discount",
+        "deal"
+      ],
+      "core_value": "They value affordability and getting the best value for their money.",
+      "description": "This segment focuses on finding home appliances that fit their budget without sacrificing too much on quality. They often compare prices and look for the best deals or discounts available.",
+      "motivation": "Their decisions are driven by the need to maintain financial prudence and maximizing savings.",
+      "pain_points": "They are frustrated when products don't meet expectations despite high cost-effectiveness or when hidden costs arise.",
+      "quote": "I always shop around for the best price, and prefer appliances that offer good value without breaking the bank.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.4,
+        "Negative": 0.1,
+        "_inference_note": "Generally satisfied when finding deals but neutral about performance due to budget constraints."
+      },
+      "top_aspects": [
+        "price",
+        "value",
+        "affordable",
+        "deal",
+        "quality"
+      ],
+      "co_aspects": {
+        "price": [
+          "value",
+          "affordable"
+        ],
+        "deal": [
+          "price",
+          "discount"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Eco-Conscious Consumer",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_BASELINE",
+      "keywords": [
+        "energy-efficient",
+        "sustainability",
+        "eco-friendly",
+        "green",
+        "reduce",
+        "impact",
+        "conservation"
+      ],
+      "core_value": "They prioritize sustainability and reducing their carbon footprint in their purchase decisions.",
+      "description": "Eco-conscious consumers are driven by the desire to make environmentally friendly choices in the appliances they buy. They seek products that are energy-efficient and have minimal environmental impact.",
+      "motivation": "The motivation is to contribute positively to the environment while still enjoying modern conveniences.",
+      "pain_points": "Frustrations occur when eco-friendly options come at a high cost or when actual efficiency doesn't match marketing claims.",
+      "quote": "It's important to me that my appliances are not only efficient but also have a minimal impact on the environment.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "They feel positive about contributing to the environment but sometimes disappointed by higher costs or inefficiencies."
+      },
+      "top_aspects": [
+        "energy-efficient",
+        "sustainability",
+        "eco-friendly",
+        "green",
+        "impact"
+      ],
+      "co_aspects": {
+        "energy-efficient": [
+          "sustainability",
+          "eco-friendly"
+        ],
+        "sustainability": [
+          "green",
+          "impact"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Reliability-Seeking Homeowner",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_BASELINE",
+      "keywords": [
+        "durability",
+        "long-lasting",
+        "reliable",
+        "dependable",
+        "warranty",
+        "repair",
+        "quality"
+      ],
+      "core_value": "They seek long-term reliability and durability in their home appliances.",
+      "description": "This segment values products that promise longevity and dependability. They often invest in brands known for quality and solid warranties, avoiding frequent replacements.",
+      "motivation": "Motivated by the desire for products that provide peace of mind and consistent performance over time.",
+      "pain_points": "They are frustrated by products that do not last as expected or require frequent repairs.",
+      "quote": "I need an appliance that I can trust to perform year after year without needing constant maintenance.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Positive about durable products but concerned about reliability in some brands."
+      },
+      "top_aspects": [
+        "durability",
+        "reliable",
+        "quality",
+        "warranty",
+        "repair"
+      ],
+      "co_aspects": {
+        "durability": [
+          "reliable",
+          "warranty"
+        ],
+        "reliable": [
+          "quality",
+          "repair"
+        ]
+      }
+    }
+  ]
+}

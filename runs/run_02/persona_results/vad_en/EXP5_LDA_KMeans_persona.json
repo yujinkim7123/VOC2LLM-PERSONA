@@ -1,0 +1,234 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP5_LDA_KMeans",
+  "method": "LDA_KMEANS",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2370,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Quality-Conscious Bargain Hunter",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP5_LDA_KMeans",
+      "keywords": [
+        "great",
+        "clock",
+        "good",
+        "work",
+        "love",
+        "smart",
+        "google",
+        "sound",
+        "quality",
+        "price"
+      ],
+      "core_value": "They value high quality and great functionality at an affordable price.",
+      "description": "These consumers prioritize products that deliver excellent performance and sound quality. They usually appreciate good deals and value for money.",
+      "motivation": "Their purchasing decisions are driven by the need to get the best performance at a reasonable price.",
+      "pain_points": "They may be frustrated by products that don’t deliver on the promise of quality.",
+      "quote": "I love the sound quality and the great price of this smart device!",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Keywords like 'great', 'good', 'love', and 'quality' indicate positive sentiment, while 'price' as neutral and no apparent strong negative terms."
+      },
+      "top_aspects": [
+        "sound",
+        "quality",
+        "price",
+        "google",
+        "smart"
+      ],
+      "co_aspects": {
+        "sound": [
+          "quality",
+          "price"
+        ],
+        "quality": [
+          "sound",
+          "price"
+        ],
+        "price": [
+          "quality",
+          "google"
+        ],
+        "google": [
+          "smart",
+          "sound"
+        ],
+        "smart": [
+          "google"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Optimistic Early Adopter",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP5_LDA_KMeans",
+      "keywords": [
+        "airpod",
+        "charge",
+        "ear",
+        "work",
+        "good",
+        "sound",
+        "buy",
+        "battery",
+        "case",
+        "quality"
+      ],
+      "core_value": "They are excited about new tech and enjoy discovering devices with good sound and functionality.",
+      "description": "Enthusiastic and eager to try out new devices, this group values features that enhance their daily tech experience, such as sound quality and battery life.",
+      "motivation": "Their excitement about innovative tech features drives their purchases.",
+      "pain_points": "Battery performance can sometimes be a letdown for them.",
+      "quote": "The sound on these is great, and I like how long they last on a charge!",
+      "sentiment_ratio": {
+        "Positive": 0.65,
+        "Neutral": 0.3,
+        "Negative": 0.05,
+        "_inference_note": "Positive sentiment is inferred from 'good', 'sound', and 'quality', with 'charge' and 'battery' being more neutral and slightly negative."
+      },
+      "top_aspects": [
+        "sound",
+        "battery",
+        "quality",
+        "work",
+        "airpod"
+      ],
+      "co_aspects": {
+        "sound": [
+          "battery",
+          "quality"
+        ],
+        "battery": [
+          "sound",
+          "work"
+        ],
+        "quality": [
+          "sound"
+        ],
+        "work": [
+          "battery"
+        ],
+        "airpod": [
+          "charge"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Practical Problem Solver",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP5_LDA_KMeans",
+      "keywords": [
+        "thermostat",
+        "nest",
+        "work",
+        "google",
+        "set",
+        "buy",
+        "home",
+        "easy",
+        "wifi",
+        "unit"
+      ],
+      "core_value": "They value devices that simplify home management and integrate easily with existing systems.",
+      "description": "This segment seeks devices that simplify daily tasks, focusing on ease of use and integration with existing home ecosystems, such as thermostats and smart home devices.",
+      "motivation": "They are driven by the desire to easily manage their home environments through technology.",
+      "pain_points": "Complex setup processes or connectivity issues can be a source of frustration.",
+      "quote": "Setting up the Nest thermostat was super easy with Google Home!",
+      "sentiment_ratio": {
+        "Positive": 0.55,
+        "Neutral": 0.35,
+        "Negative": 0.1,
+        "_inference_note": "Keywords like 'easy', 'work', and 'google' suggest some positivity, with 'set' and 'wifi' indicating practical/neutral and potential negatives from 'unit'."
+      },
+      "top_aspects": [
+        "thermostat",
+        "google",
+        "set",
+        "home",
+        "wifi"
+      ],
+      "co_aspects": {
+        "thermostat": [
+          "google",
+          "set"
+        ],
+        "google": [
+          "set",
+          "home"
+        ],
+        "set": [
+          "home",
+          "wifi"
+        ],
+        "home": [
+          "wifi"
+        ],
+        "wifi": [
+          "google"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Disappointed Apple Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP5_LDA_KMeans",
+      "keywords": [
+        "work",
+        "stop",
+        "return",
+        "buy",
+        "month",
+        "apple",
+        "pod",
+        "time",
+        "airpod",
+        "week"
+      ],
+      "core_value": "They desire consistent performance and reliability from their Apple products.",
+      "description": "Committed to Apple products, this group experiences frustration when devices do not perform reliably over time, leading to potential returns.",
+      "motivation": "Having a seamless and reliable user experience across all Apple devices is paramount for them.",
+      "pain_points": "Experiencing device failures and the inconvenience of returns can be highly frustrating.",
+      "quote": "After a month, my AirPods just stopped working. Considering a return.",
+      "sentiment_ratio": {
+        "Positive": 0.1,
+        "Neutral": 0.3,
+        "Negative": 0.6,
+        "_inference_note": "The presence of 'stop', 'return', and 'problematic' signals strong negative sentiment, with 'buy' and 'time' as neutral components."
+      },
+      "top_aspects": [
+        "work",
+        "return",
+        "apple",
+        "airpod",
+        "buy"
+      ],
+      "co_aspects": {
+        "work": [
+          "return",
+          "apple"
+        ],
+        "return": [
+          "apple",
+          "airpod"
+        ],
+        "apple": [
+          "airpod"
+        ],
+        "airpod": [
+          "work",
+          "return"
+        ],
+        "buy": [
+          "work"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP2_LDA",
+  "method": "LDA",
+  "lang": "en",
+  "judge": {
+    "judge_matrix": [
+      [
+        0.24,
+        0.22,
+        0.06,
+        0.62
+      ],
+      [
+        0.28,
+        0.14,
+        0.14,
+        0.06
+      ],
+      [
+        0.12,
+        0.32,
+        0.46,
+        0.0
+      ],
+      [
+        0.06,
+        0.54,
+        0.22,
+        0.12
+      ]
+    ],
+    "best_mapping": [
+      {
+        "gen_name": "Disappointed Tech Enthusiast",
+        "gt_name": "The Disillusioned Early Adopter",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.7,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.7,
+        "matching_score": 0.62,
+        "validity_score": 0.7,
+        "reasoning": "Reasonable alignment with the domain, but lacks precise grounding.",
+        "success": true
+      },
+      {
+        "gen_name": "Practical Sound Seeker",
+        "gt_name": "The Wireless Audio Pursuer",
+        "keyword_alignment": 0.3,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.28,
+        "validity_score": 0.7,
+        "reasoning": "Generated persona is partially grounded in domain topics, lacks alignment with reference persona's emphasis on connectivity and seamless experience.",
+        "success": false
+      },
+      {
+        "gen_name": "Value-Conscious Gadget Lover",
+        "gt_name": "The Practical Value Seeker",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.3,
+        "matching_score": 0.46,
+        "validity_score": 0.7,
+        "reasoning": "Generated persona lacks focus on everyday utility and has overly positive sentiment.",
+        "success": false
+      },
+      {
+        "gen_name": "Smart Home Simplifier",
+        "gt_name": "The Smart Home Integrator",
+        "keyword_alignment": 0.3,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.7,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.7,
+        "matching_score": 0.54,
+        "validity_score": 0.7,
+        "reasoning": "Partial overlap in topics; alignment weak in behaviors and keywords.",
+        "success": true
+      }
+    ],
+    "matching_score": 0.475,
+    "validity_score": 0.7,
+    "mean_all_matching": 0.225,
+    "dim_averages": {
+      "keyword_alignment": 0.4,
+      "value_alignment": 0.6,
+      "pain_alignment": 0.55,
+      "behavioral_alignment": 0.4,
+      "sentiment_alignment": 0.425
+    },
+    "n_success": 2,
+    "mapping_success_rate": 0.5
+  },
+  "topic_sim_result": {
+    "topic_sim": 0.3714,
+    "pair_details": [
+      {
+        "gen_name": "Disappointed Tech Enthusiast",
+        "gt_name": "The Disillusioned Early Adopter",
+        "gen_aspects": [
+          "work",
+          "stop",
+          "return",
+          "buy",
+          "month"
+        ],
+        "gt_aspects": [
+          "Durability",
+          "Defective",
+          "Charging",
+          "Connectivity",
+          "Quality"
+        ],
+        "topic_sim": 0.2732
+      },
+      {
+        "gen_name": "Practical Sound Seeker",
+        "gt_name": "The Wireless Audio Pursuer",
+        "gen_aspects": [
+          "airpod",
+          "charge",
+          "ear",
+          "work",
+          "sound"
+        ],
+        "gt_aspects": [
+          "Sound",
+          "Connectivity",
+          "Price",
+          "Configuration",
+          "Size"
+        ],
+        "topic_sim": 0.4765
+      },
+      {
+        "gen_name": "Value-Conscious Gadget Lover",
+        "gt_name": "The Practical Value Seeker",
+        "gen_aspects": [
+          "great",
+          "clock",
+          "good",
+          "work",
+          "google"
+        ],
+        "gt_aspects": [
+          "Price",
+          "Clock",
+          "Configuration",
+          "Convenience",
+          "Smart Assistant"
+        ],
+        "topic_sim": 0.3725
+      },
+      {
+        "gen_name": "Smart Home Simplifier",
+        "gt_name": "The Smart Home Integrator",
+        "gen_aspects": [
+          "thermostat",
+          "nest",
+          "work",
+          "google",
+          "set"
+        ],
+        "gt_aspects": [
+          "Smart Assistant",
+          "Clock",
+          "Connectivity",
+          "Configuration",
+          "Convenience"
+        ],
+        "topic_sim": 0.3633
+      }
+    ]
+  },
+  "summary": {
+    "matching_score": 0.475,
+    "validity_score": 0.7,
+    "topic_sim": 0.3714,
+    "dim_averages": {
+      "keyword_alignment": 0.4,
+      "value_alignment": 0.6,
+      "pain_alignment": 0.55,
+      "behavioral_alignment": 0.4,
+      "sentiment_alignment": 0.425
+    }
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP6_SNA_KMeans",
+  "method": "SNA_KMEANS",
+  "lang": "en",
+  "judge": {
+    "judge_matrix": [
+      [
+        0.12,
+        0.46,
+        0.5,
+        0.06
+      ],
+      [
+        0.0,
+        0.58,
+        0.14,
+        0.06
+      ],
+      [
+        0.28,
+        0.22,
+        0.32,
+        0.68
+      ],
+      [
+        0.32,
+        0.06,
+        0.12,
+        0.0
+      ]
+    ],
+    "best_mapping": [
+      {
+        "gen_name": "Practical Tech Enthusiast",
+        "gt_name": "The Practical Value Seeker",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.3,
+        "pain_alignment": 0.7,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.5,
+        "matching_score": 0.5,
+        "validity_score": 0.7,
+        "reasoning": "Generated persona is partially aligned but focuses more on integration.",
+        "success": true
+      },
+      {
+        "gen_name": "Smart Home Integrator",
+        "gt_name": "The Smart Home Integrator",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.7,
+        "matching_score": 0.58,
+        "validity_score": 0.7,
+        "reasoning": "Generated overlaps partially on keywords, values, and sentiment; lacks specificity.",
+        "success": true
+      },
+      {
+        "gen_name": "Disappointed Early Adopter",
+        "gt_name": "The Disillusioned Early Adopter",
+        "keyword_alignment": 0.5,
+        "value_alignment": 1.0,
+        "pain_alignment": 0.7,
+        "behavioral_alignment": 0.7,
+        "sentiment_alignment": 0.5,
+        "matching_score": 0.68,
+        "validity_score": 0.7,
+        "reasoning": "Some domain topics present, but lacks specific references to full keywords.",
+        "success": true
+      },
+      {
+        "gen_name": "Aesthetic Sound Seeker",
+        "gt_name": "The Wireless Audio Pursuer",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.3,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.32,
+        "validity_score": 0.7,
+        "reasoning": "Partially matches topics; sentiment and values diverge significantly.",
+        "success": false
+      }
+    ],
+    "matching_score": 0.52,
+    "validity_score": 0.7,
+    "mean_all_matching": 0.245,
+    "dim_averages": {
+      "keyword_alignment": 0.5,
+      "value_alignment": 0.575,
+      "pain_alignment": 0.55,
+      "behavioral_alignment": 0.55,
+      "sentiment_alignment": 0.425
+    },
+    "n_success": 3,
+    "mapping_success_rate": 0.75
+  },
+  "topic_sim_result": {
+    "topic_sim": 0.4183,
+    "pair_details": [
+      {
+        "gen_name": "Practical Tech Enthusiast",
+        "gt_name": "The Practical Value Seeker",
+        "gen_aspects": [
+          "charge",
+          "buy",
+          "time",
+          "easy",
+          "set"
+        ],
+        "gt_aspects": [
+          "Price",
+          "Clock",
+          "Configuration",
+          "Convenience",
+          "Smart Assistant"
+        ],
+        "topic_sim": 0.457
+      },
+      {
+        "gen_name": "Smart Home Integrator",
+        "gt_name": "The Smart Home Integrator",
+        "gen_aspects": [
+          "thermostat",
+          "nest",
+          "work",
+          "easy",
+          "buy"
+        ],
+        "gt_aspects": [
+          "Smart Assistant",
+          "Clock",
+          "Connectivity",
+          "Configuration",
+          "Convenience"
+        ],
+        "topic_sim": 0.3444
+      },
+      {
+        "gen_name": "Disappointed Early Adopter",
+        "gt_name": "The Disillusioned Early Adopter",
+        "gen_aspects": [
+          "work",
+          "stop",
+          "month",
+          "buy",
+          "issue"
+        ],
+        "gt_aspects": [
+          "Durability",
+          "Defective",
+          "Charging",
+          "Connectivity",
+          "Quality"
+        ],
+        "topic_sim": 0.3025
+      },
+      {
+        "gen_name": "Aesthetic Sound Seeker",
+        "gt_name": "The Wireless Audio Pursuer",
+        "gen_aspects": [
+          "good",
+          "sound",
+          "quality",
+          "great",
+          "price"
+        ],
+        "gt_aspects": [
+          "Sound",
+          "Connectivity",
+          "Price",
+          "Configuration",
+          "Size"
+        ],
+        "topic_sim": 0.5694
+      }
+    ]
+  },
+  "summary": {
+    "matching_score": 0.52,
+    "validity_score": 0.7,
+    "topic_sim": 0.4183,
+    "dim_averages": {
+      "keyword_alignment": 0.5,
+      "value_alignment": 0.575,
+      "pain_alignment": 0.55,
+      "behavioral_alignment": 0.55,
+      "sentiment_alignment": 0.425
+    }
+  }
+}

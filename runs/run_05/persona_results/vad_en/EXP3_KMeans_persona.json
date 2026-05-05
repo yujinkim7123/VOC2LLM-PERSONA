@@ -1,0 +1,195 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP3_KMeans",
+  "method": "KMEANS_TFIDF",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2370,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Quality-Conscious Audio Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP3_KMeans",
+      "keywords": [
+        "great",
+        "good",
+        "sound",
+        "quality",
+        "love",
+        "price",
+        "product"
+      ],
+      "core_value": "This segment values high-quality sound and visual performance at a good price.",
+      "description": "These consumers are primarily focused on the quality of the sound and picture of their devices. They appreciate products that offer great value and often express love for the Samsung brand, indicating brand loyalty.",
+      "motivation": "The pursuit of clear sound quality and visual excellence at a price they find reasonable drives their purchases.",
+      "pain_points": "They may be frustrated when the product doesn't meet their high expectations for sound or picture quality.",
+      "quote": "I love the sound quality of this product, it's truly great for the price!",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Keywords like 'great', 'good', 'quality', 'love' indicate positive sentiment, whereas 'price' and 'product' were more neutral."
+      },
+      "top_aspects": [
+        "sound",
+        "quality",
+        "price",
+        "picture",
+        "product"
+      ],
+      "co_aspects": {
+        "sound": [
+          "quality",
+          "great",
+          "good"
+        ],
+        "quality": [
+          "sound",
+          "picture",
+          "price"
+        ],
+        "price": [
+          "quality",
+          "great",
+          "good"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Functional Gadget Seeker",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP3_KMeans",
+      "keywords": [
+        "clock",
+        "smart",
+        "great",
+        "alarm",
+        "charge",
+        "wireless",
+        "work"
+      ],
+      "core_value": "This segment values multifunctionality and the latest smart features in their devices.",
+      "description": "These consumers prioritize smart capabilities and seamless integration with their lifestyle. They appreciate products that offer convenience and flexibility, like alarm functionalities and wireless charging.",
+      "motivation": "The need for advanced smart features that make daily routines easier and more efficient motivates their purchase decisions.",
+      "pain_points": "They might feel disappointed if the smart features don't work as seamlessly as expected or if setup is complicated.",
+      "quote": "The smart alarm and wireless charging features are exactly what I needed for my daily routine.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.4,
+        "Negative": 0.1,
+        "_inference_note": "Positive signals include 'great', 'smart', 'love'. Neutral signals include 'clock', 'alarm', 'work'. Negative signals are minimal but implied in potential usability issues."
+      },
+      "top_aspects": [
+        "clock",
+        "smart",
+        "alarm",
+        "charge",
+        "wireless"
+      ],
+      "co_aspects": {
+        "clock": [
+          "smart",
+          "alarm",
+          "charge"
+        ],
+        "smart": [
+          "clock",
+          "alarm",
+          "work"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Tech-Savvy Problem Solver",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP3_KMeans",
+      "keywords": [
+        "work",
+        "buy",
+        "charge",
+        "return",
+        "stop",
+        "month",
+        "product"
+      ],
+      "core_value": "This segment values functionality but is quick to notice and address product issues.",
+      "description": "These consumers are quick to identify and resolve product issues, often mentioning returns or problems encountered over time. They are pragmatic and detail-focused.",
+      "motivation": "They seek reliable and durable products, often willing to return items that don't meet their standards quickly.",
+      "pain_points": "They are easily frustrated by products that stop working or require returns, indicating a need for reliability.",
+      "quote": "I've had to return this product after just a few months due to charging issues.",
+      "sentiment_ratio": {
+        "Positive": 0.1,
+        "Neutral": 0.3,
+        "Negative": 0.6,
+        "_inference_note": "Keywords like 'return', 'stop', 'product' indicate negative sentiment, 'buy', 'charge', 'work' are more factual and neutral."
+      },
+      "top_aspects": [
+        "work",
+        "buy",
+        "charge",
+        "return",
+        "stop"
+      ],
+      "co_aspects": {
+        "work": [
+          "buy",
+          "return",
+          "charge"
+        ],
+        "charge": [
+          "buy",
+          "return",
+          "work"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Connected Home Manager",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP3_KMeans",
+      "keywords": [
+        "nest",
+        "thermostat",
+        "google",
+        "hub",
+        "home",
+        "camera",
+        "use"
+      ],
+      "core_value": "This segment values interconnected home systems that enhance their living environment.",
+      "description": "Consumers in this group focus on creating a cohesive smart home environment using products like Google Nest. They enjoy integrating devices to enhance their home automation experience.",
+      "motivation": "They are driven by the desire for an interconnected and automated home that works effortlessly together.",
+      "pain_points": "They may encounter issues when devices do not integrate well, causing disruptions to their smart home ecosystem.",
+      "quote": "I love how seamlessly the Nest and other Google products work together around my home.",
+      "sentiment_ratio": {
+        "Positive": 0.4,
+        "Neutral": 0.5,
+        "Negative": 0.1,
+        "_inference_note": "Positive sentiment inferred from 'great', 'hub', 'home'. Neutral from 'google', 'camera', 'use'. Negative is minimal due to lack of explicit complaints."
+      },
+      "top_aspects": [
+        "nest",
+        "thermostat",
+        "google",
+        "hub",
+        "home"
+      ],
+      "co_aspects": {
+        "nest": [
+          "thermostat",
+          "google",
+          "hub"
+        ],
+        "google": [
+          "nest",
+          "thermostat",
+          "home"
+        ]
+      }
+    }
+  ]
+}

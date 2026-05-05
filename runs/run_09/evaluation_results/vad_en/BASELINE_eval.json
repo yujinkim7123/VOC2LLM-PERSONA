@@ -1,0 +1,193 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "BASELINE",
+  "method": "LLM_STANDALONE",
+  "lang": "en",
+  "judge": {
+    "judge_matrix": [
+      [
+        0.12,
+        0.64,
+        0.18,
+        0.06
+      ],
+      [
+        0.0,
+        0.46,
+        0.34,
+        0.0
+      ],
+      [
+        0.06,
+        0.2,
+        0.1,
+        0.0
+      ],
+      [
+        0.06,
+        0.06,
+        0.54,
+        0.0
+      ]
+    ],
+    "best_mapping": [
+      {
+        "gen_name": "Tech Enthusiast Early Adopter",
+        "gt_name": "The Smart Home Integrator",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.5,
+        "pain_alignment": 1.0,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.7,
+        "matching_score": 0.64,
+        "validity_score": 1.0,
+        "reasoning": "Partial keyword and value alignment; pain points match well; valid topics.",
+        "success": true
+      },
+      {
+        "gen_name": "Practical Family Organizer",
+        "gt_name": "The Disillusioned Early Adopter",
+        "keyword_alignment": 0.0,
+        "value_alignment": 0.0,
+        "pain_alignment": 0.0,
+        "behavioral_alignment": 0.0,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.0,
+        "validity_score": 0.5,
+        "reasoning": "No overlap with REFERENCE. Some DOMAIN TOPICS present e.g., voice commands.",
+        "success": false
+      },
+      {
+        "gen_name": "Privacy-Conscious Minimalist",
+        "gt_name": "The Wireless Audio Pursuer",
+        "keyword_alignment": 0.0,
+        "value_alignment": 0.0,
+        "pain_alignment": 0.0,
+        "behavioral_alignment": 0.0,
+        "sentiment_alignment": 0.3,
+        "matching_score": 0.06,
+        "validity_score": 0.0,
+        "reasoning": "Generated persona is unrelated to domain topics, differing in all aspects.",
+        "success": false
+      },
+      {
+        "gen_name": "Budget-Conscious Value Seeker",
+        "gt_name": "The Practical Value Seeker",
+        "keyword_alignment": 0.7,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.7,
+        "matching_score": 0.54,
+        "validity_score": 0.7,
+        "reasoning": "Keywords mostly align, but pain points and core value are less specific.",
+        "success": true
+      }
+    ],
+    "matching_score": 0.31,
+    "validity_score": 0.55,
+    "mean_all_matching": 0.1763,
+    "dim_averages": {
+      "keyword_alignment": 0.3,
+      "value_alignment": 0.25,
+      "pain_alignment": 0.325,
+      "behavioral_alignment": 0.25,
+      "sentiment_alignment": 0.425
+    },
+    "n_success": 2,
+    "mapping_success_rate": 0.5
+  },
+  "topic_sim_result": {
+    "topic_sim": 0.3778,
+    "pair_details": [
+      {
+        "gen_name": "Tech Enthusiast Early Adopter",
+        "gt_name": "The Smart Home Integrator",
+        "gen_aspects": [
+          "functionality",
+          "integration",
+          "features",
+          "updates",
+          "smart home"
+        ],
+        "gt_aspects": [
+          "Smart Assistant",
+          "Clock",
+          "Connectivity",
+          "Configuration",
+          "Convenience"
+        ],
+        "topic_sim": 0.4853
+      },
+      {
+        "gen_name": "Practical Family Organizer",
+        "gt_name": "The Disillusioned Early Adopter",
+        "gen_aspects": [
+          "reminders",
+          "scheduling",
+          "family",
+          "tasks",
+          "voice commands"
+        ],
+        "gt_aspects": [
+          "Durability",
+          "Defective",
+          "Charging",
+          "Connectivity",
+          "Quality"
+        ],
+        "topic_sim": 0.2884
+      },
+      {
+        "gen_name": "Privacy-Conscious Minimalist",
+        "gt_name": "The Wireless Audio Pursuer",
+        "gen_aspects": [
+          "privacy",
+          "data security",
+          "minimal features",
+          "trust",
+          "basic functions"
+        ],
+        "gt_aspects": [
+          "Sound",
+          "Connectivity",
+          "Price",
+          "Configuration",
+          "Size"
+        ],
+        "topic_sim": 0.3011
+      },
+      {
+        "gen_name": "Budget-Conscious Value Seeker",
+        "gt_name": "The Practical Value Seeker",
+        "gen_aspects": [
+          "affordable",
+          "value",
+          "basic features",
+          "cost",
+          "economical"
+        ],
+        "gt_aspects": [
+          "Price",
+          "Clock",
+          "Configuration",
+          "Convenience",
+          "Smart Assistant"
+        ],
+        "topic_sim": 0.4364
+      }
+    ]
+  },
+  "summary": {
+    "matching_score": 0.31,
+    "validity_score": 0.55,
+    "topic_sim": 0.3778,
+    "dim_averages": {
+      "keyword_alignment": 0.3,
+      "value_alignment": 0.25,
+      "pain_alignment": 0.325,
+      "behavioral_alignment": 0.25,
+      "sentiment_alignment": 0.425
+    }
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP7_Full",
+  "method": "SNA_LDA_KMEANS",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_docs": 868,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Quality-Conscious Practical Buyer",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP7_Full",
+      "keywords": [
+        "quality",
+        "repair",
+        "get",
+        "defect",
+        "service",
+        "issue",
+        "warranty"
+      ],
+      "core_value": "This consumer values the reliability and longevity of home appliances.",
+      "description": "These consumers are meticulous and detail-oriented, frequently discussing product quality and potential defects. They are engaged in ensuring their purchases meet high standards and often focus on warranty and repair services.",
+      "motivation": "They are driven by the need for dependable products that justify their investment over time.",
+      "pain_points": "Issues with product defects and repair difficulties disappoint them.",
+      "quote": "I prioritize buying appliances with good quality and robust warranty plans.",
+      "sentiment_ratio": {
+        "Positive": 0.3,
+        "Neutral": 0.2,
+        "Negative": 0.5,
+        "_inference_note": "Keywords like 'quality', 'service', and 'warranty' are positive, while 'defect', 'repair', and 'issue' are negative, leading to a negative sentiment leaning."
+      },
+      "top_aspects": [
+        "quality",
+        "repair",
+        "defect",
+        "warranty",
+        "service"
+      ],
+      "co_aspects": {
+        "quality": [
+          "repair",
+          "defect",
+          "warranty"
+        ],
+        "service": [
+          "quality",
+          "repair",
+          "warranty"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Efficiency-Seeking Modern User",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP7_Full",
+      "keywords": [
+        "setup",
+        "design",
+        "display",
+        "app",
+        "performance",
+        "brand",
+        "modern"
+      ],
+      "core_value": "This consumer values state-of-the-art design and efficient usability in their home appliances.",
+      "description": "These consumers are tech-savvy and prefer appliances with modern features and efficient performance. They often mention design, functionality, and brand reputation.",
+      "motivation": "They are motivated by the desire to integrate cutting-edge technology and efficient design into their lifestyle.",
+      "pain_points": "Complex setup processes and underperformance are irritants for them.",
+      "quote": "I love appliances that are easy to set up and have excellent performance.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Keywords like 'setup', 'design', 'performance', and 'modern' suggest positivity, while 'underperformance' signals mild negativity."
+      },
+      "top_aspects": [
+        "setup",
+        "design",
+        "display",
+        "app",
+        "performance"
+      ],
+      "co_aspects": {
+        "design": [
+          "setup",
+          "display",
+          "brand"
+        ],
+        "performance": [
+          "design",
+          "app",
+          "modern"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Value-Oriented Budget Shopper",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP7_Full",
+      "keywords": [
+        "price",
+        "buy",
+        "deal",
+        "cost",
+        "option",
+        "pay",
+        "buy"
+      ],
+      "core_value": "This consumer focuses on getting the best value for money spent.",
+      "description": "These consumers are very price-sensitive and are always on the lookout for the best deals. They frequently compare prices and consider the cost-effectiveness of options before making purchases.",
+      "motivation": "They are driven by the need to maximize their budget while acquiring desired products.",
+      "pain_points": "Overpriced items or inferior quality of cheaper options can be frustrating for them.",
+      "quote": "I'm always looking for the best price deals on appliances.",
+      "sentiment_ratio": {
+        "Positive": 0.4,
+        "Neutral": 0.4,
+        "Negative": 0.2,
+        "_inference_note": "Keywords like 'deal' and 'option' have positive implications, while 'price' and 'cost' indicate careful consideration and some concern, maintaining a balance of neutral sentiment."
+      },
+      "top_aspects": [
+        "price",
+        "deal",
+        "buy",
+        "option",
+        "cost"
+      ],
+      "co_aspects": {
+        "price": [
+          "deal",
+          "buy",
+          "cost"
+        ],
+        "buy": [
+          "option",
+          "price",
+          "deal"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Stylish Aesthetic Enthusiast",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP7_Full",
+      "keywords": [
+        "beautiful",
+        "design",
+        "color",
+        "look",
+        "style",
+        "feel",
+        "match"
+      ],
+      "core_value": "This consumer places importance on the aesthetic integration of appliances into their home environment.",
+      "description": "These consumers appreciate products that are both functional and visually appealing. They are inclined towards appliances that complement their home's aesthetic and focus heavily on design and color.",
+      "motivation": "They are motivated by a desire to enhance their living space with beautiful and stylish appliances.",
+      "pain_points": "Unattractive design or poor color options can dissuade them from making a purchase.",
+      "quote": "I prefer appliances that look stylish and fit well with my home decor.",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Keywords such as 'beautiful', 'style', and 'design' create a positive sentiment, with minimal negative signals."
+      },
+      "top_aspects": [
+        "beautiful",
+        "design",
+        "color",
+        "style",
+        "look"
+      ],
+      "co_aspects": {
+        "design": [
+          "beautiful",
+          "color",
+          "style"
+        ],
+        "color": [
+          "style",
+          "look",
+          "match"
+        ]
+      }
+    }
+  ]
+}

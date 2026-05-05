@@ -1,0 +1,193 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP6_SNA_KMeans",
+  "method": "SNA_KMEANS",
+  "lang": "en",
+  "judge": {
+    "judge_matrix": [
+      [
+        0.54,
+        0.22,
+        0.28,
+        0.5
+      ],
+      [
+        0.06,
+        0.66,
+        0.12,
+        0.0
+      ],
+      [
+        0.36,
+        0.1,
+        0.28,
+        0.0
+      ],
+      [
+        0.18,
+        0.4,
+        0.46,
+        0.0
+      ]
+    ],
+    "best_mapping": [
+      {
+        "gen_name": "Connectivity-Frustrated Pragmatist",
+        "gt_name": "The Disillusioned Early Adopter",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.3,
+        "matching_score": 0.5,
+        "validity_score": 1.0,
+        "reasoning": "Keywords and sentiments differ, partially aligned values and pains, valid topics.",
+        "success": true
+      },
+      {
+        "gen_name": "Home Automation Enthusiast",
+        "gt_name": "The Smart Home Integrator",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.7,
+        "behavioral_alignment": 0.7,
+        "sentiment_alignment": 0.7,
+        "matching_score": 0.66,
+        "validity_score": 0.7,
+        "reasoning": "Generated persona partially covers keywords. Core values align. Pain points recognized.",
+        "success": true
+      },
+      {
+        "gen_name": "Quality-Conscious Audiophile",
+        "gt_name": "The Wireless Audio Pursuer",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.36,
+        "validity_score": 0.7,
+        "reasoning": "Generated lacks wireless/connectivity focus; sentiment ratio differs greatly.",
+        "success": false
+      },
+      {
+        "gen_name": "Feature-Seeking Gadget Lover",
+        "gt_name": "The Practical Value Seeker",
+        "keyword_alignment": 0.7,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.3,
+        "matching_score": 0.46,
+        "validity_score": 0.7,
+        "reasoning": "Generated aligns on topics like clock and alarm but diverges on value and sentiment.",
+        "success": false
+      }
+    ],
+    "matching_score": 0.495,
+    "validity_score": 0.775,
+    "mean_all_matching": 0.26,
+    "dim_averages": {
+      "keyword_alignment": 0.55,
+      "value_alignment": 0.6,
+      "pain_alignment": 0.45,
+      "behavioral_alignment": 0.55,
+      "sentiment_alignment": 0.325
+    },
+    "n_success": 2,
+    "mapping_success_rate": 0.5
+  },
+  "topic_sim_result": {
+    "topic_sim": 0.3942,
+    "pair_details": [
+      {
+        "gen_name": "Connectivity-Frustrated Pragmatist",
+        "gt_name": "The Disillusioned Early Adopter",
+        "gen_aspects": [
+          "work",
+          "buy",
+          "month",
+          "charge",
+          "issue"
+        ],
+        "gt_aspects": [
+          "Durability",
+          "Defective",
+          "Charging",
+          "Connectivity",
+          "Quality"
+        ],
+        "topic_sim": 0.3729
+      },
+      {
+        "gen_name": "Home Automation Enthusiast",
+        "gt_name": "The Smart Home Integrator",
+        "gen_aspects": [
+          "nest",
+          "thermostat",
+          "google",
+          "hub",
+          "work"
+        ],
+        "gt_aspects": [
+          "Smart Assistant",
+          "Clock",
+          "Connectivity",
+          "Configuration",
+          "Convenience"
+        ],
+        "topic_sim": 0.3261
+      },
+      {
+        "gen_name": "Quality-Conscious Audiophile",
+        "gt_name": "The Wireless Audio Pursuer",
+        "gen_aspects": [
+          "great",
+          "good",
+          "sound",
+          "quality",
+          "love"
+        ],
+        "gt_aspects": [
+          "Sound",
+          "Connectivity",
+          "Price",
+          "Configuration",
+          "Size"
+        ],
+        "topic_sim": 0.4517
+      },
+      {
+        "gen_name": "Feature-Seeking Gadget Lover",
+        "gt_name": "The Practical Value Seeker",
+        "gen_aspects": [
+          "clock",
+          "smart",
+          "great",
+          "alarm",
+          "google"
+        ],
+        "gt_aspects": [
+          "Price",
+          "Clock",
+          "Configuration",
+          "Convenience",
+          "Smart Assistant"
+        ],
+        "topic_sim": 0.4263
+      }
+    ]
+  },
+  "summary": {
+    "matching_score": 0.495,
+    "validity_score": 0.775,
+    "topic_sim": 0.3942,
+    "dim_averages": {
+      "keyword_alignment": 0.55,
+      "value_alignment": 0.6,
+      "pain_alignment": 0.45,
+      "behavioral_alignment": 0.55,
+      "sentiment_alignment": 0.325
+    }
+  }
+}

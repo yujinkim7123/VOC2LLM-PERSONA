@@ -1,0 +1,168 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP_RAW",
+  "method": "RAW_REVIEW_INJECTION",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_reviews_injected": 200,
+  "run_seed": 84,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Deal-Driven Bargain Hunters",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP_RAW",
+      "keywords": [
+        "price",
+        "deal",
+        "cheaper",
+        "discount",
+        "bargain",
+        "sale",
+        "budget"
+      ],
+      "core_value": "Finding the best deal and maximizing value for money.",
+      "description": "These consumers are primarily motivated by getting the best possible price for products. They are highly sensitive to price changes and discounts, often waiting for sales or hunting for deals to make their purchases.",
+      "motivation": "To obtain products at the lowest possible cost while still meeting their basic needs.",
+      "pain_points": "False advertising about prices, unexpected additional costs, and ineffective price matching.",
+      "quote": "I caught a lightning deal and got 40% off, making it one of my best purchases this year!",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.2,
+        "Negative": 0.2,
+        "_inference_note": "Mainly positive due to satisfaction with bargains and deals, with occasional negative sentiment due to misleading pricing information."
+      },
+      "top_aspects": [
+        "price",
+        "deal",
+        "quality",
+        "discount",
+        "purchase"
+      ],
+      "co_aspects": {
+        "price": [
+          "deal",
+          "discount",
+          "bargain"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Quality-Conscious Spec Checkers",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP_RAW",
+      "keywords": [
+        "specs",
+        "performance",
+        "accuracy",
+        "benchmark",
+        "test",
+        "specifications"
+      ],
+      "core_value": "Ensuring product performance matches advertised specifications.",
+      "description": "This group of consumers is focused on the technical performance of products. They meticulously check specifications and performance metrics to ensure they align with what’s advertised before making a purchase decision.",
+      "motivation": "To ensure they're getting a product that performs exactly as promised, avoiding false claims.",
+      "pain_points": "Products not meeting advertised specifications, misleading specs, and performance discrepancies.",
+      "quote": "Benchmarks showed less than half the advertised read speed. It's a cheap drive but lying about specs crosses a line.",
+      "sentiment_ratio": {
+        "Positive": 0.3,
+        "Neutral": 0.3,
+        "Negative": 0.4,
+        "_inference_note": "Many reviews are critical due to products not meeting specifications. Positive sentiment arises when products do meet expectations as advertised."
+      },
+      "top_aspects": [
+        "specs",
+        "performance",
+        "accuracy",
+        "test",
+        "speed"
+      ],
+      "co_aspects": {
+        "specs": [
+          "performance",
+          "accuracy",
+          "speed"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Design-Sensitive Aesthetic Seekers",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP_RAW",
+      "keywords": [
+        "design",
+        "aesthetic",
+        "color",
+        "style",
+        "interior",
+        "appearance"
+      ],
+      "core_value": "Products should enhance visual appeal and align with personal style.",
+      "description": "These consumers prioritize the visual and design aspects of a product, seeking items that complement their aesthetic preferences and home decor.",
+      "motivation": "To find aesthetically pleasing products that match their personal style and aesthetics.",
+      "pain_points": "Design discrepancies, products not matching photos or color expectations, and style-related functional annoyances.",
+      "quote": "The color looks nothing like the product photos. I ordered white, received something closer to yellowish beige.",
+      "sentiment_ratio": {
+        "Positive": 0.4,
+        "Neutral": 0.3,
+        "Negative": 0.3,
+        "_inference_note": "Mixed sentiment with design elements. Positive when style is as expected, negative when there's a mismatch or item degrades."
+      },
+      "top_aspects": [
+        "design",
+        "aesthetic",
+        "color",
+        "style",
+        "appearance"
+      ],
+      "co_aspects": {
+        "design": [
+          "color",
+          "style",
+          "appearance"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Performance Demanding Tech Enthusiasts",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP_RAW",
+      "keywords": [
+        "app",
+        "function",
+        "performance",
+        "tech",
+        "setup",
+        "control"
+      ],
+      "core_value": "Products must be technologically advanced and perform effectively.",
+      "description": "These consumers seek high-performance and technologically advanced products that are reliable and have precise control functionalities. They value being able to customize their tech setup.",
+      "motivation": "To own the latest technology with high performance and robust functionalities.",
+      "pain_points": "Complicated setups, technical glitches, and tech features not functioning as expected.",
+      "quote": "Three apps and two accounts just to turn on a light bulb. Setup time alone wiped out any savings.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.2,
+        "Negative": 0.3,
+        "_inference_note": "Positive when tech meets robust features and is user-friendly; negative when setup is cumbersome or functionality fails."
+      },
+      "top_aspects": [
+        "app",
+        "performance",
+        "setup",
+        "function",
+        "control"
+      ],
+      "co_aspects": {
+        "app": [
+          "setup",
+          "function",
+          "control"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "exp_id": "EXP-4",
+  "method": "SNA_LDA",
+  "file": "voc_en",
+  "lang": "en",
+  "n_docs": 965,
+  "n_communities": 12,
+  "n_communities_with_lda": 8,
+  "coherence_cv": 0.4885,
+  "community_results": {
+    "community_0": {
+      "n_docs": 168,
+      "k_inner": 2,
+      "topic_words": [
+        "price",
+        "pay",
+        "month",
+        "cost",
+        "premium",
+        "buy",
+        "cheap",
+        "service",
+        "color",
+        "drop"
+      ]
+    },
+    "community_1": {
+      "n_docs": 184,
+      "k_inner": 2,
+      "topic_words": [
+        "service",
+        "brand",
+        "trust",
+        "product",
+        "get",
+        "buy",
+        "defect",
+        "quality",
+        "repair",
+        "time"
+      ]
+    },
+    "community_2": {
+      "n_docs": 180,
+      "k_inner": 2,
+      "topic_words": [
+        "color",
+        "buy",
+        "choose",
+        "match",
+        "real",
+        "look",
+        "photo",
+        "price",
+        "beautiful",
+        "carry"
+      ]
+    },
+    "community_3": {
+      "n_docs": 161,
+      "k_inner": 2,
+      "topic_words": [
+        "charge",
+        "look",
+        "setup",
+        "cable",
+        "pretty",
+        "color",
+        "display",
+        "use",
+        "like",
+        "want"
+      ]
+    },
+    "community_4": {
+      "n_docs": 146,
+      "k_inner": 2,
+      "topic_words": [
+        "price",
+        "spec",
+        "output",
+        "base",
+        "actual",
+        "efficiency",
+        "performance",
+        "measure",
+        "capacity",
+        "buy"
+      ]
+    },
+    "community_5": {
+      "n_docs": 97,
+      "k_inner": 2,
+      "topic_words": [
+        "time",
+        "app",
+        "case",
+        "open",
+        "color",
+        "performance",
+        "adjustment",
+        "datum",
+        "health",
+        "mean"
+      ]
+    },
+    "community_6": {
+      "n_docs": 16,
+      "k_inner": 1,
+      "topic_words": [
+        "heart",
+        "polling",
+        "sensor",
+        "datum",
+        "actual",
+        "frame",
+        "reading",
+        "compare",
+        "performance",
+        "error"
+      ]
+    },
+    "community_9": {
+      "n_docs": 5,
+      "k_inner": 1,
+      "topic_words": [
+        "alert",
+        "give",
+        "drive",
+        "app",
+        "health",
+        "trust",
+        "anomaly",
+        "diagnostic",
+        "send",
+        "bad"
+      ]
+    }
+  },
+  "used_params": {
+    "lda_passes": 30,
+    "lda_no_below": 2,
+    "lda_no_above": 0.9
+  },
+  "paper_ref": "Austin et al. (COLING 2022) / Blei et al. (2003) / Grid-Search Tuned"
+}

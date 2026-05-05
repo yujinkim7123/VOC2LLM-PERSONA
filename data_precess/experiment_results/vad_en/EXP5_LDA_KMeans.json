@@ -1,0 +1,171 @@
+{
+  "exp_id": "EXP-5",
+  "method": "LDA_KMEANS",
+  "file": "vad_en",
+  "lang": "en",
+  "n_docs": 2370,
+  "k": 6,
+  "silhouette_mean": 0.6841,
+  "silhouette_std": 0.0,
+  "coherence_cv": 0.5297,
+  "cluster_distribution": {
+    "0": 76,
+    "1": 520,
+    "2": 780,
+    "3": 476,
+    "4": 252,
+    "5": 266
+  },
+  "cluster_topic_dist": {
+    "cluster_0": {
+      "n_docs": 76,
+      "dominant_topic": 1,
+      "topic_dist": [
+        0.0361,
+        0.6883,
+        0.019,
+        0.1422,
+        0.0567,
+        0.0577
+      ]
+    },
+    "cluster_1": {
+      "n_docs": 520,
+      "dominant_topic": 0,
+      "topic_dist": [
+        0.6842,
+        0.0173,
+        0.0426,
+        0.1058,
+        0.1153,
+        0.0348
+      ]
+    },
+    "cluster_2": {
+      "n_docs": 780,
+      "dominant_topic": 4,
+      "topic_dist": [
+        0.0999,
+        0.0155,
+        0.0439,
+        0.0597,
+        0.7221,
+        0.0589
+      ]
+    },
+    "cluster_3": {
+      "n_docs": 476,
+      "dominant_topic": 3,
+      "topic_dist": [
+        0.0668,
+        0.0299,
+        0.0265,
+        0.7881,
+        0.0468,
+        0.0419
+      ]
+    },
+    "cluster_4": {
+      "n_docs": 252,
+      "dominant_topic": 5,
+      "topic_dist": [
+        0.0476,
+        0.023,
+        0.0358,
+        0.0946,
+        0.0969,
+        0.7021
+      ]
+    },
+    "cluster_5": {
+      "n_docs": 266,
+      "dominant_topic": 2,
+      "topic_dist": [
+        0.0582,
+        0.0273,
+        0.5828,
+        0.101,
+        0.1619,
+        0.0688
+      ]
+    }
+  },
+  "lda_topic_words": {
+    "topic_0": [
+      "thermostat",
+      "charge",
+      "nest",
+      "work",
+      "google",
+      "clock",
+      "support",
+      "phone",
+      "wireless",
+      "issue"
+    ],
+    "topic_1": [
+      "ear",
+      "stay",
+      "fall",
+      "headphone",
+      "phone",
+      "lose",
+      "fit",
+      "connect",
+      "great",
+      "earpod"
+    ],
+    "topic_2": [
+      "sound",
+      "music",
+      "like",
+      "play",
+      "quality",
+      "echo",
+      "speaker",
+      "want",
+      "time",
+      "thing"
+    ],
+    "topic_3": [
+      "work",
+      "airpod",
+      "buy",
+      "charge",
+      "apple",
+      "return",
+      "stop",
+      "good",
+      "month",
+      "product"
+    ],
+    "topic_4": [
+      "great",
+      "clock",
+      "google",
+      "work",
+      "smart",
+      "good",
+      "easy",
+      "love",
+      "hub",
+      "use"
+    ],
+    "topic_5": [
+      "quality",
+      "great",
+      "good",
+      "price",
+      "sound",
+      "samsung",
+      "picture",
+      "buy",
+      "perfect",
+      "purchase"
+    ]
+  },
+  "used_params": {
+    "k": 6
+  },
+  "paper_ref": "Scientific Reports(2025) / Blei(2003) / MacQueen(1967) / Grid-Search Tuned"
+}

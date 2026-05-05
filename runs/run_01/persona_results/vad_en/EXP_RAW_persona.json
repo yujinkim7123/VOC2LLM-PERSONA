@@ -1,0 +1,168 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP_RAW",
+  "method": "RAW_REVIEW_INJECTION",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_reviews_injected": 200,
+  "run_seed": 49,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Tech-Integrated Home Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP_RAW",
+      "keywords": [
+        "easy to set up",
+        "control",
+        "hub",
+        "Google Nest Hub",
+        "smart home"
+      ],
+      "core_value": "Seamless integration within the home ecosystem.",
+      "description": "These consumers enjoy creating smart home setups that integrate multiple devices. They appreciate ease of setup and the ability to control various home features from a central hub.",
+      "motivation": "To have a smart home where multiple devices work harmoniously together and can be controlled easily.",
+      "pain_points": "Connectivity issues and app compatibility problems can be frustrating, especially when newly integrated devices do not mesh well with existing setups.",
+      "quote": "I love that I can control everything from my hub. It makes managing my home so much simpler!",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.25,
+        "Negative": 0.15,
+        "_inference_note": "These reviews generally express satisfaction with integration and control features, though some mention occasional connectivity hassles."
+      },
+      "top_aspects": [
+        "integration",
+        "control",
+        "setup",
+        "Google Nest",
+        "compatibility"
+      ],
+      "co_aspects": {
+        "integration": [
+          "control",
+          "setup",
+          "compatibility"
+        ],
+        "control": [
+          "setup",
+          "compatibility",
+          "features"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Frustrated Quality Seeker",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP_RAW",
+      "keywords": [
+        "defective",
+        "return",
+        "customer service",
+        "warranty",
+        "troubleshooting"
+      ],
+      "core_value": "Reliable quality and robust customer support.",
+      "description": "This segment is disappointed with the quality and longevity of the products. They often face defective devices and poor customer service experiences, which impact their satisfaction.",
+      "motivation": "To own high-quality devices that operate seamlessly without the need for frequent support or returns.",
+      "pain_points": "Device failures and unsatisfactory customer service responses lead to frustration and decreased brand trust.",
+      "quote": "I thought since it's a well-known brand, the product would be good, but I was wrong. Returning it after endless support calls.",
+      "sentiment_ratio": {
+        "Positive": 0.1,
+        "Neutral": 0.2,
+        "Negative": 0.7,
+        "_inference_note": "Negative sentiment dominates due to repeated mentions of defects and poor customer service."
+      },
+      "top_aspects": [
+        "quality",
+        "customer service",
+        "warranty",
+        "troubleshooting",
+        "reliability"
+      ],
+      "co_aspects": {
+        "quality": [
+          "customer service",
+          "warranty",
+          "reliability"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Budget-Driven Casual User",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP_RAW",
+      "keywords": [
+        "affordable",
+        "good price",
+        "deal",
+        "sound quality",
+        "basic needs"
+      ],
+      "core_value": "Affordable solutions that meet basic needs.",
+      "description": "These consumers are primarily motivated by price and look for deals. They are satisfied when their basic expectations regarding quality and functionality are met.",
+      "motivation": "To find budget-friendly products that effectively meet basic entertainment or smart home needs.",
+      "pain_points": "Limited features and occasional connectivity issues can be annoying, but they are less of a concern if the price is right.",
+      "quote": "Great sound and device for the price. Exactly what I needed without breaking the bank.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.4,
+        "Negative": 0.1,
+        "_inference_note": "Reviews mostly highlight acceptable quality within budget constraints, with minor complaints."
+      },
+      "top_aspects": [
+        "price",
+        "quality",
+        "features",
+        "sound",
+        "value"
+      ],
+      "co_aspects": {
+        "price": [
+          "quality",
+          "value",
+          "features"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Indecisive Innovator",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP_RAW",
+      "keywords": [
+        "innovation",
+        "expectations",
+        "limitations",
+        "new features",
+        "upgrade"
+      ],
+      "core_value": "Cutting-edge technology with comprehensive new features.",
+      "description": "These consumers seek the latest innovations but often find themselves disappointed by unmet expectations and limitations in new models.",
+      "motivation": "To own the latest technology with advanced features that outperform older models.",
+      "pain_points": "Feature constraints and missing expected functionalities can lead to dissatisfaction despite the allure of innovation.",
+      "quote": "I bought this expecting it to have all the latest features, but it's no different than the earlier versions.",
+      "sentiment_ratio": {
+        "Positive": 0.3,
+        "Neutral": 0.2,
+        "Negative": 0.5,
+        "_inference_note": "Excitement about new features is balanced by frustration over limited improvements and missing functionalities."
+      },
+      "top_aspects": [
+        "innovation",
+        "features",
+        "expectations",
+        "upgrade",
+        "limitations"
+      ],
+      "co_aspects": {
+        "innovation": [
+          "features",
+          "upgrade",
+          "limitations"
+        ]
+      }
+    }
+  ]
+}

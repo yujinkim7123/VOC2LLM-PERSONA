@@ -1,0 +1,191 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP_RAW",
+  "method": "RAW_REVIEW_INJECTION",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_reviews_injected": 200,
+  "run_seed": 70,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Price Conscious Bargain Hunters",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP_RAW",
+      "keywords": [
+        "price",
+        "budget",
+        "cheap",
+        "deal",
+        "low cost"
+      ],
+      "core_value": "Seeking maximum value for the lowest possible price.",
+      "description": "These consumers meticulously seek out the best deals and are willing to compromise on premium features if a product offers a strong performance-to-cost ratio. They often compare pricing and specifications closely, ensuring they receive the best value for their money.",
+      "motivation": "To acquire products that perform adequately at the lowest possible price, often leveraging discounts or special deals.",
+      "pain_points": "Unexpected price increases during checkout and misleading product specifications.",
+      "quote": "I got this capacity at this price and it looks way more premium than it costs.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.2,
+        "Negative": 0.2,
+        "_inference_note": "Many reviews focus on the positive aspect of price value, though some frustrations with price changes and misleading specs are noted."
+      },
+      "top_aspects": [
+        "price",
+        "performance",
+        "specifications",
+        "value",
+        "design"
+      ],
+      "co_aspects": {
+        "price": [
+          "specifications",
+          "value"
+        ],
+        "performance": [
+          "specifications",
+          "value"
+        ],
+        "design": [
+          "performance",
+          "value"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Aesthetic Enthusiasts",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP_RAW",
+      "keywords": [
+        "design",
+        "appearance",
+        "aesthetic",
+        "color",
+        "style"
+      ],
+      "core_value": "Products must integrate aesthetically into their environment.",
+      "description": "These consumers prioritize the visual appeal and design cohesiveness of products. They often select items that enhance the visual coherence of their space, sometimes at the expense of functionality.",
+      "motivation": "To acquire products that harmonize with their home decor and personal style, making aesthetics a key purchasing criterion.",
+      "pain_points": "Color mismatches and design elements that don't meet expectations upon arrival.",
+      "quote": "Fabric exterior fits right in with my home decor.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.3,
+        "Negative": 0.2,
+        "_inference_note": "Positive sentiment derives from product appearance and matching aesthetics, while negative signals arise from color discrepancies and design flaws."
+      },
+      "top_aspects": [
+        "design",
+        "color",
+        "appearance",
+        "style",
+        "integration"
+      ],
+      "co_aspects": {
+        "design": [
+          "appearance",
+          "color"
+        ],
+        "style": [
+          "color",
+          "design"
+        ],
+        "appearance": [
+          "integration",
+          "design"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Quality Assurance Seekers",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP_RAW",
+      "keywords": [
+        "specs",
+        "performance",
+        "quality",
+        "durability",
+        "reliability"
+      ],
+      "core_value": "Ensuring product claims match real-world performance and durability.",
+      "description": "These consumers are focused on verifying that products perform as advertised and that build quality translates into lasting durability. They are often concerned with technical specifications and real-world benchmarks.",
+      "motivation": "To ensure that technical claims are met and that products provide long-term value without compromising performance.",
+      "pain_points": "Inaccurate specifications and premature wear or failure of products.",
+      "quote": "Benchmarks showed less than half the advertised read speed.",
+      "sentiment_ratio": {
+        "Positive": 0.4,
+        "Neutral": 0.3,
+        "Negative": 0.3,
+        "_inference_note": "Mixed reviews with equal attention to positive recognition of accurate specs and complaints about discrepancies and poor durability."
+      },
+      "top_aspects": [
+        "performance",
+        "specs",
+        "quality",
+        "durability",
+        "reliability"
+      ],
+      "co_aspects": {
+        "performance": [
+          "quality",
+          "specs"
+        ],
+        "quality": [
+          "durability",
+          "reliability"
+        ],
+        "specs": [
+          "performance",
+          "quality"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Reliable Service Seekers",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP_RAW",
+      "keywords": [
+        "AS",
+        "service",
+        "customer support",
+        "warranty",
+        "response"
+      ],
+      "core_value": "Dependable post-purchase support and transparent warranty policies.",
+      "description": "These consumers place a high value on robust customer service and the reliability of after-sales support. Their purchase decisions are heavily influenced by the perceived effectiveness and accessibility of service options.",
+      "motivation": "To ensure peace of mind through reliable and accessible after-sales service and clearly defined warranty terms.",
+      "pain_points": "Inconsistent service experiences and confusion around warranty terms and conditions.",
+      "quote": "Official AS center's nationwide presence justifies the price for the peace of mind it offers.",
+      "sentiment_ratio": {
+        "Positive": 0.3,
+        "Neutral": 0.2,
+        "Negative": 0.5,
+        "_inference_note": "The negative sentiment is largely around poor service and warranty issues, while positive signals arise from satisfactory service experiences."
+      },
+      "top_aspects": [
+        "service",
+        "warranty",
+        "customer support",
+        "response",
+        "support"
+      ],
+      "co_aspects": {
+        "service": [
+          "warranty",
+          "customer support"
+        ],
+        "warranty": [
+          "service",
+          "response"
+        ],
+        "customer support": [
+          "service",
+          "response"
+        ]
+      }
+    }
+  ]
+}

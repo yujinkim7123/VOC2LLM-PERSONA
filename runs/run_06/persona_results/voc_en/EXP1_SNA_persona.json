@@ -1,0 +1,166 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP1_SNA",
+  "method": "SNA_LOUVAIN",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_docs": 965,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Price-Sensitive Value Seeker",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP1_SNA",
+      "keywords": [
+        "price",
+        "pay",
+        "premium",
+        "cost",
+        "expensive"
+      ],
+      "core_value": "This consumer segment values affordability and cost-effectiveness most.",
+      "description": "These consumers are particularly focused on the price and cost associated with home appliances. They look for value in their purchases, often comparing prices and seeking affordable options.",
+      "motivation": "They are driven by getting the best possible deal and ensuring that their purchase does not exceed their budget.",
+      "pain_points": "High prices and unexpected costs frustrate them, as they are keenly aware of their financial constraints.",
+      "quote": "I just can't justify how expensive this is compared to similar options.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.4,
+        "Negative": 0.4,
+        "_inference_note": "Words like 'expensive', 'cost', and 'premium' suggest a focus on high prices, indicating mixed to negative sentiment."
+      },
+      "top_aspects": [
+        "price",
+        "pay",
+        "premium",
+        "cost",
+        "expensive"
+      ],
+      "co_aspects": {
+        "price": [
+          "pay",
+          "premium",
+          "cost",
+          "expensive"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Quality-Focused Brand Loyalist",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP1_SNA",
+      "keywords": [
+        "service",
+        "brand",
+        "trust",
+        "quality",
+        "repair"
+      ],
+      "core_value": "This consumer segment places a high priority on the quality and reliability of products.",
+      "description": "These consumers are brand-conscious, favoring well-established names that are synonymous with high quality. They rely on trusted brands to ensure durable and reliable products.",
+      "motivation": "Their purchase decisions are driven by the desire to invest in products that promise quality management and customer support.",
+      "pain_points": "Experiencing defects or needing repairs is a major source of dissatisfaction, as it undermines their trust in the brand.",
+      "quote": "I only buy from brands I trust implicitly, and this one hasn't let me down.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.3,
+        "Negative": 0.2,
+        "_inference_note": "Positive sentiment from 'trust', 'quality'; negative from 'repair' and 'defect'."
+      },
+      "top_aspects": [
+        "service",
+        "brand",
+        "trust",
+        "quality",
+        "repair"
+      ],
+      "co_aspects": {
+        "brand": [
+          "trust",
+          "quality",
+          "repair",
+          "defect"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Design-Conscious Aesthetic Enthusiast",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP1_SNA",
+      "keywords": [
+        "pretty",
+        "look",
+        "design",
+        "make",
+        "display"
+      ],
+      "core_value": "This group values aesthetics and design elegance in home appliances.",
+      "description": "These consumers are driven by the visual appeal and design of products, seeking items that enhance the look of their environment.",
+      "motivation": "They are motivated by the desire to own appliances that not only perform well but also look stylish and attractive in their homes.",
+      "pain_points": "A lack of appealing design options or unattractive aesthetics is a major disappointment.",
+      "quote": "This appliance looks great in my kitchen and fits perfectly with my décor.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Keywords like 'pretty', 'look', and 'design' signal strong positive sentiment."
+      },
+      "top_aspects": [
+        "pretty",
+        "look",
+        "design",
+        "make",
+        "display"
+      ],
+      "co_aspects": {
+        "design": [
+          "pretty",
+          "look",
+          "make",
+          "display"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Tech-Savvy Performance Enthusiast",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP1_SNA",
+      "keywords": [
+        "spec",
+        "performance",
+        "actual",
+        "measurement",
+        "efficiency"
+      ],
+      "core_value": "Performance and technical specifications are paramount to this segment.",
+      "description": "These consumers are highly invested in the technical details and performance metrics of appliances, often seeking the latest advancements.",
+      "motivation": "Their primary drive is to ensure they have top-performing appliances that meet high efficiency standards.",
+      "pain_points": "Devices that fail to meet promised specifications or lack in performance can lead to dissatisfaction.",
+      "quote": "I'm always looking for appliances with top-notch specs and performance levels.",
+      "sentiment_ratio": {
+        "Positive": 0.4,
+        "Neutral": 0.5,
+        "Negative": 0.1,
+        "_inference_note": "While 'performance' and 'efficiency' indicate positive, 'actual' and 'measurement' are neutral, as they are factual."
+      },
+      "top_aspects": [
+        "spec",
+        "performance",
+        "actual",
+        "measurement",
+        "efficiency"
+      ],
+      "co_aspects": {
+        "performance": [
+          "spec",
+          "actual",
+          "measurement",
+          "efficiency"
+        ]
+      }
+    }
+  ]
+}

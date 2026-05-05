@@ -1,0 +1,193 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "BASELINE",
+  "method": "LLM_STANDALONE",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_docs": null,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Efficiency-Seeking Homemaker",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_BASELINE",
+      "keywords": [
+        "energy-saving",
+        "convenient",
+        "durable",
+        "quiet",
+        "cost-effective"
+      ],
+      "core_value": "This consumer values efficiency and convenience in their home appliances.",
+      "description": "This consumer is often a busy homemaker who looks for appliances that save both time and energy. They prefer products that are reliable and require minimal maintenance.",
+      "motivation": "Purchasing decisions are driven by the need to streamline household tasks while keeping energy costs low.",
+      "pain_points": "Frustrations arise from appliances that are noisy or have high energy consumption.",
+      "quote": "I need a dishwasher that's quiet and doesn't spike my energy bills.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Consumers value efficiency and convenience, leading to positive sentiments. Minor frustrations from energy costs and noise contribute to neutral and negative sentiments."
+      },
+      "top_aspects": [
+        "energy efficiency",
+        "noise level",
+        "durability",
+        "convenience",
+        "maintenance"
+      ],
+      "co_aspects": {
+        "energy efficiency": [
+          "cost-effectiveness",
+          "convenience",
+          "noise level"
+        ],
+        "noise level": [
+          "durability",
+          "convenience"
+        ],
+        "durability": [
+          "energy efficiency",
+          "maintenance"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Tech-Savvy Enthusiast",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_BASELINE",
+      "keywords": [
+        "smart features",
+        "connectivity",
+        "innovative",
+        "user-friendly",
+        "high-tech"
+      ],
+      "core_value": "This consumer values the latest technology and smart features in home appliances.",
+      "description": "This persona is someone who embraces the latest in home tech, eagerly seeking appliances with advanced features that can integrate with their smart home setup.",
+      "motivation": "A desire for cutting-edge technology and seamless connectivity drives their purchasing decisions.",
+      "pain_points": "They are frustrated with outdated products and those that lack smart features or reliable connectivity.",
+      "quote": "I'm always looking for the smartest gadget to add to my home setup.",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Enthusiasm for smart features and technology leads to mainly positive sentiments. Neutral and negative sentiments come from limitations in technology or connectivity issues."
+      },
+      "top_aspects": [
+        "smart technology",
+        "connectivity",
+        "user interface",
+        "innovation",
+        "integration"
+      ],
+      "co_aspects": {
+        "smart technology": [
+          "innovation",
+          "connectivity",
+          "integration"
+        ],
+        "connectivity": [
+          "user interface",
+          "innovation"
+        ],
+        "user interface": [
+          "smart technology",
+          "connectivity"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Price-Conscious Pragmatist",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_BASELINE",
+      "keywords": [
+        "affordable",
+        "value for money",
+        "basic features",
+        "reliable",
+        "budget"
+      ],
+      "core_value": "This consumer prioritizes affordability and value in their purchasing decisions.",
+      "description": "Typically on a tight budget, this consumer seeks out appliances that are affordable yet reliable, often foregoing extra features for cost savings.",
+      "motivation": "Their primary motivation is to find the best value for their limited budget, with a focus on reliability over luxury.",
+      "pain_points": "Frustrations stem from overpriced products and those that fail to deliver expected reliability.",
+      "quote": "I just want a washing machine that does the job without breaking the bank.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.4,
+        "Negative": 0.1,
+        "_inference_note": "Satisfaction comes from affordability and reliability, but neutral sentiments arise from trade-offs in features. Negative sentiments are low given prioritization of value."
+      },
+      "top_aspects": [
+        "price",
+        "reliability",
+        "value for money",
+        "basic features",
+        "durability"
+      ],
+      "co_aspects": {
+        "price": [
+          "value for money",
+          "basic features",
+          "reliability"
+        ],
+        "reliability": [
+          "durability",
+          "value for money"
+        ],
+        "value for money": [
+          "price",
+          "basic features"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Eco-Conscious Minimalist",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_BASELINE",
+      "keywords": [
+        "sustainable",
+        "minimal design",
+        "eco-friendly",
+        "low impact",
+        "efficient"
+      ],
+      "core_value": "This consumer emphasizes sustainability and minimalism in their appliance choices.",
+      "description": "This persona is deeply concerned with environmental impact and seeks appliances that are both eco-friendly and minimalistic in design.",
+      "motivation": "A drive towards reducing environmental footprint and embracing simplicity fuels their decisions.",
+      "pain_points": "Frustrations occur when products claim to be eco-friendly without truly delivering, or when minimal designs sacrifice essential functionality.",
+      "quote": "I prefer appliances that are kind to the planet and don't clutter my home.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Positivity is due to the growing availability of eco-friendly products. Neutral and negative sentiments arise when environmental claims are exaggerated."
+      },
+      "top_aspects": [
+        "sustainability",
+        "design",
+        "environmental impact",
+        "efficiency",
+        "functionality"
+      ],
+      "co_aspects": {
+        "sustainability": [
+          "environmental impact",
+          "efficiency"
+        ],
+        "design": [
+          "efficiency",
+          "functionality"
+        ],
+        "environmental impact": [
+          "sustainability",
+          "design"
+        ]
+      }
+    }
+  ]
+}

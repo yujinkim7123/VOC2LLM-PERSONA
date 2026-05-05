@@ -1,0 +1,188 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP6_SNA_KMeans",
+  "method": "SNA_KMEANS",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2138,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Practical Troubleshooter",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "work",
+        "buy",
+        "month",
+        "charge",
+        "stop",
+        "return",
+        "connect"
+      ],
+      "core_value": "Functionality and reliability are paramount.",
+      "description": "This consumer is focused on troubleshooting and the functional reliability of products. They have experienced issues with connectivity and charge, leading them to return items.",
+      "motivation": "Driven by the need for a dependable device that works seamlessly without frequent disruptions.",
+      "pain_points": "Frequent connectivity issues and charging problems frustrate this consumer.",
+      "quote": "After a month, the device stopped working and I had to return it.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.3,
+        "Negative": 0.5,
+        "_inference_note": "Keywords like 'work' and 'good' are positive; 'stop', 'return', 'issue' are negative."
+      },
+      "top_aspects": [
+        "work",
+        "buy",
+        "charge",
+        "connect",
+        "return"
+      ],
+      "co_aspects": {
+        "work": [
+          "buy",
+          "month",
+          "charge"
+        ],
+        "buy": [
+          "work",
+          "month",
+          "stop"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Tech-Savvy Home Integrator",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "nest",
+        "thermostat",
+        "google",
+        "hub",
+        "home",
+        "great"
+      ],
+      "core_value": "Seamless smart home integration is key.",
+      "description": "This persona thrives on integrating smart technology within their home environment, prioritizing devices like thermostats and hubs for cohesive functionality.",
+      "motivation": "Excited by the prospect of integrating smart home devices with existing systems for a futuristic living space.",
+      "pain_points": "Compatibility and too few integration features present occasional challenges.",
+      "quote": "It's great how the Google hub works with my Nest thermostat at home.",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Words like 'great', 'use', 'work' suggest positivity towards smart home integration."
+      },
+      "top_aspects": [
+        "nest",
+        "thermostat",
+        "google",
+        "hub",
+        "home"
+      ],
+      "co_aspects": {
+        "nest": [
+          "thermostat",
+          "google",
+          "hub"
+        ],
+        "thermostat": [
+          "nest",
+          "home",
+          "google"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Quality-Conscious Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "great",
+        "good",
+        "sound",
+        "quality",
+        "love",
+        "price",
+        "picture"
+      ],
+      "core_value": "Excellence in sound and picture quality matters most.",
+      "description": "These consumers are enthusiasts for high-quality sound and visuals. They seek devices that enhance entertainment experiences at a reasonable price.",
+      "motivation": "The desire for an immersive auditory and visual experience drives their choices.",
+      "pain_points": "Price sensitivity when it comes to high-quality options is a concern.",
+      "quote": "I love the sound and picture quality; it's great for the price I paid.",
+      "sentiment_ratio": {
+        "Positive": 0.8,
+        "Neutral": 0.15,
+        "Negative": 0.05,
+        "_inference_note": "Keywords like 'great', 'good', 'love', 'quality' signal strong positivity."
+      },
+      "top_aspects": [
+        "sound",
+        "quality",
+        "price",
+        "picture",
+        "product"
+      ],
+      "co_aspects": {
+        "sound": [
+          "quality",
+          "great",
+          "love"
+        ],
+        "quality": [
+          "sound",
+          "picture",
+          "price"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Efficient Lifestyle Seeker",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "clock",
+        "smart",
+        "alarm",
+        "charge",
+        "phone",
+        "great"
+      ],
+      "core_value": "Streamlining daily routines is highly valued.",
+      "description": "This consumer segment focuses on smart devices that simplify and enhance daily life, with a particular interest in time management features like clocks and alarms.",
+      "motivation": "Driven by a need for efficiency and seamless integration of technology into everyday life activities.",
+      "pain_points": "Occasional charging issues disrupt their otherwise seamless experience.",
+      "quote": "This smart clock is great! It helps keep me organized but sometimes the battery doesn't last.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Words like 'great', 'smart', 'love' are positive, while 'charge' indicates occasional issues."
+      },
+      "top_aspects": [
+        "clock",
+        "smart",
+        "alarm",
+        "charge",
+        "phone"
+      ],
+      "co_aspects": {
+        "clock": [
+          "smart",
+          "alarm",
+          "good"
+        ],
+        "smart": [
+          "clock",
+          "phone",
+          "great"
+        ]
+      }
+    }
+  ]
+}

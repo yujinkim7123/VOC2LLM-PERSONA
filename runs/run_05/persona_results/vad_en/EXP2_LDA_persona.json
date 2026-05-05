@@ -1,0 +1,247 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP2_LDA",
+  "method": "LDA",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2370,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Disappointed Tech Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP2_LDA",
+      "keywords": [
+        "work",
+        "stop",
+        "return",
+        "buy",
+        "month",
+        "apple",
+        "pod"
+      ],
+      "core_value": "This consumer values consistent functionality and reliability in their tech products.",
+      "description": "They are early adopters who enjoy trying new technology but are quick to return or stop using products if they underperform. They might invest in brands like Apple with particular expectations of quality.",
+      "motivation": "Their purchase decisions are driven by brand reputation and functionality promises.",
+      "pain_points": "Their biggest frustration is products failing to work as expected or stopping after a short period, leading to returns.",
+      "quote": "I was really excited to try this Apple product, but it stopped working after just a month.",
+      "sentiment_ratio": {
+        "Positive": 0.1,
+        "Neutral": 0.3,
+        "Negative": 0.6,
+        "_inference_note": "Negative sentiment is inferred from 'stop', 'return', and 'month', while words like 'buy' and 'time' indicate neutral consumer actions."
+      },
+      "top_aspects": [
+        "work",
+        "stop",
+        "return",
+        "buy",
+        "month"
+      ],
+      "co_aspects": {
+        "work": [
+          "stop",
+          "return",
+          "buy"
+        ],
+        "stop": [
+          "work",
+          "return",
+          "buy"
+        ],
+        "return": [
+          "work",
+          "stop",
+          "month"
+        ],
+        "buy": [
+          "work",
+          "stop",
+          "apple"
+        ],
+        "month": [
+          "work",
+          "return"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Practical Sound Seeker",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP2_LDA",
+      "keywords": [
+        "airpod",
+        "charge",
+        "ear",
+        "work",
+        "good",
+        "sound"
+      ],
+      "core_value": "Sound quality and practical use are essential to this consumer.",
+      "description": "They are practical users who prioritize sound quality and functionality in products they frequently use, like AirPods. They appreciate products that work well under various conditions and need to rely on easy charging solutions.",
+      "motivation": "They are motivated by the promise of high-quality sound and seamless usability during daily activities.",
+      "pain_points": "Unexpected battery drain or charging issues frustrate them.",
+      "quote": "These AirPods have an excellent sound, but I need to charge them more often than I'd like.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.3,
+        "Negative": 0.2,
+        "_inference_note": "Positive sentiment from 'good', 'sound', 'quality'; neutral from 'work', 'charge'; minor negative from 'issue'."
+      },
+      "top_aspects": [
+        "airpod",
+        "charge",
+        "ear",
+        "work",
+        "sound"
+      ],
+      "co_aspects": {
+        "airpod": [
+          "charge",
+          "ear",
+          "work"
+        ],
+        "charge": [
+          "airpod",
+          "work",
+          "sound"
+        ],
+        "ear": [
+          "airpod",
+          "good",
+          "sound"
+        ],
+        "work": [
+          "airpod",
+          "charge",
+          "sound"
+        ],
+        "sound": [
+          "airpod",
+          "charge",
+          "good"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Value-Conscious Gadget Lover",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP2_LDA",
+      "keywords": [
+        "great",
+        "clock",
+        "good",
+        "work",
+        "love",
+        "smart",
+        "google"
+      ],
+      "core_value": "Finding exceptional value in technology purchases is crucial for this consumer.",
+      "description": "They are tech enthusiasts who enjoy using smart gadgets and are always on the lookout for products that offer excellent value for their price.",
+      "motivation": "Their decisions are driven by a desire to own high-quality, innovative technology without overspending.",
+      "pain_points": "They become frustrated with products that don't meet their value expectations.",
+      "quote": "I love how this device doubles as a smart clock, offering great value!",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Positive sentiment inferred from 'great', 'love', and 'smart'; neutral from factual terms like 'work', 'clock'."
+      },
+      "top_aspects": [
+        "great",
+        "clock",
+        "good",
+        "work",
+        "google"
+      ],
+      "co_aspects": {
+        "great": [
+          "clock",
+          "good",
+          "work"
+        ],
+        "clock": [
+          "great",
+          "good",
+          "smart"
+        ],
+        "good": [
+          "great",
+          "clock",
+          "work"
+        ],
+        "work": [
+          "good",
+          "great",
+          "google"
+        ],
+        "google": [
+          "great",
+          "work",
+          "smart"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Smart Home Simplifier",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP2_LDA",
+      "keywords": [
+        "thermostat",
+        "nest",
+        "work",
+        "google",
+        "set",
+        "buy"
+      ],
+      "core_value": "Simplifying home management through smart technology is important to this consumer.",
+      "description": "They are homeowners or renters who use smart devices to modernize and simplify their home management. Devices that integrate well with others like Nest thermostats are preferred.",
+      "motivation": "Their purchase decisions are driven by the ease of integration with existing smart home systems and the simplicity of setup.",
+      "pain_points": "Connectivity and integration issues with other systems can be a source of frustration.",
+      "quote": "Setting up the Nest thermostat was easy, and now my home is more efficient.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Positive sentiment from 'easy', 'work', 'home'; neutral from 'set', 'buy'."
+      },
+      "top_aspects": [
+        "thermostat",
+        "nest",
+        "work",
+        "google",
+        "set"
+      ],
+      "co_aspects": {
+        "thermostat": [
+          "nest",
+          "work",
+          "set"
+        ],
+        "nest": [
+          "thermostat",
+          "work",
+          "google"
+        ],
+        "work": [
+          "thermostat",
+          "nest",
+          "google"
+        ],
+        "google": [
+          "nest",
+          "work",
+          "set"
+        ],
+        "set": [
+          "thermostat",
+          "google",
+          "buy"
+        ]
+      }
+    }
+  ]
+}

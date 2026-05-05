@@ -1,0 +1,182 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP2_LDA",
+  "method": "LDA",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_docs": 965,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Warranty-Cautious Consumer",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP2_LDA",
+      "keywords": [
+        "warranty",
+        "service",
+        "brand",
+        "app",
+        "spec"
+      ],
+      "core_value": "This consumer values the assurance of long-term support and reliability.",
+      "description": "This persona seeks products that come with robust warranty services and reliable after-sales support. They are likely to scrutinize the terms and conditions of warranties and evaluate the reputation of the brand for service.",
+      "motivation": "They want peace of mind that their purchase will be protected for a long period.",
+      "pain_points": "They may experience frustration with unclear warranty terms or poor service.",
+      "quote": "The warranty period is crucial to me, and I look at service reviews before committing to buy.",
+      "sentiment_ratio": {
+        "Positive": 0.3,
+        "Neutral": 0.5,
+        "Negative": 0.2,
+        "_inference_note": "Keywords like 'warranty', 'brand', and 'service' are mostly neutral, 'long' is slightly positive, while 'service' (in the context of complaints) is negative."
+      },
+      "top_aspects": [
+        "warranty",
+        "service",
+        "brand",
+        "app",
+        "spec"
+      ],
+      "co_aspects": {
+        "warranty": [
+          "service",
+          "brand",
+          "app"
+        ],
+        "service": [
+          "warranty",
+          "brand",
+          "spec"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Aesthetic-Oriented Shopper",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP2_LDA",
+      "keywords": [
+        "color",
+        "pretty",
+        "look",
+        "buy",
+        "design"
+      ],
+      "core_value": "This consumer values how products visually fit into their lifestyle.",
+      "description": "This persona places a high emphasis on the aesthetics and design of home appliances. They prioritize style and color when shopping for new products, aiming for items that enhance the visual appeal of their space.",
+      "motivation": "They are driven by the desire to create a visually pleasing home environment.",
+      "pain_points": "They can feel dissatisfied if the product does not match their expectations of beauty or if it's not available in the desired color.",
+      "quote": "I bought it because it looks fantastic in my kitchen and matches the décor perfectly.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Positive words like 'pretty' and 'beautiful' dominate, with 'buy' being neutral, and potential frustration from 'want' (if unmet)."
+      },
+      "top_aspects": [
+        "color",
+        "pretty",
+        "look",
+        "buy",
+        "design"
+      ],
+      "co_aspects": {
+        "color": [
+          "pretty",
+          "look",
+          "design"
+        ],
+        "look": [
+          "color",
+          "design",
+          "pretty"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Budget-Conscious Evaluator",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP2_LDA",
+      "keywords": [
+        "price",
+        "spec",
+        "buy",
+        "service",
+        "performance"
+      ],
+      "core_value": "This consumer values getting the most value for their money.",
+      "description": "This persona assesses products based on their price-to-performance ratio. They evaluate specifications thoroughly and are likely to compare different brands and models before making a purchase.",
+      "motivation": "They aim to achieve the best balance of features and affordability.",
+      "pain_points": "They can feel disappointed if the performance does not meet the expectations set by the price or spec.",
+      "quote": "I always compare prices and specs to ensure I'm getting the best deal possible.",
+      "sentiment_ratio": {
+        "Positive": 0.3,
+        "Neutral": 0.5,
+        "Negative": 0.2,
+        "_inference_note": "Natural words such as 'price' and 'spec' are predominantly neutral, but paired with 'performance' suggests some positive value; 'cost' might indicate a concern over pricing."
+      },
+      "top_aspects": [
+        "price",
+        "spec",
+        "buy",
+        "service",
+        "performance"
+      ],
+      "co_aspects": {
+        "price": [
+          "spec",
+          "performance",
+          "brand"
+        ],
+        "spec": [
+          "price",
+          "performance",
+          "buy"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Service-Dependent User",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP2_LDA",
+      "keywords": [
+        "service",
+        "exchange",
+        "trust",
+        "defect",
+        "issue"
+      ],
+      "core_value": "This consumer values responsive and reliable customer support.",
+      "description": "This persona is highly concerned with the service experience. They are attentive to how brands handle defects or issues and prioritize companies that offer quick and effective responses.",
+      "motivation": "They seek security in knowing any product issue will be addressed promptly.",
+      "pain_points": "They feel anxious about potential product issues and are frustrated by poor service response or lengthy exchange processes.",
+      "quote": "I need a brand I can trust to resolve any problems quickly and fairly.",
+      "sentiment_ratio": {
+        "Positive": 0.1,
+        "Neutral": 0.3,
+        "Negative": 0.6,
+        "_inference_note": "Highly negative sentiment due to words like 'defect', 'issue', and 'exchange', indicating dissatisfaction; 'trust' is potentially neutral."
+      },
+      "top_aspects": [
+        "service",
+        "exchange",
+        "trust",
+        "defect",
+        "issue"
+      ],
+      "co_aspects": {
+        "service": [
+          "exchange",
+          "trust",
+          "defect"
+        ],
+        "defect": [
+          "service",
+          "exchange",
+          "trust"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP_RAW",
+  "method": "RAW_REVIEW_INJECTION",
+  "lang": "en",
+  "n_reviews_injected": 200,
+  "judge": {
+    "judge_matrix": [
+      [
+        0.2,
+        0.54,
+        0.18,
+        0.0
+      ],
+      [
+        0.12,
+        0.16,
+        0.58,
+        0.12
+      ],
+      [
+        0.32,
+        0.22,
+        0.18,
+        0.46
+      ],
+      [
+        0.18,
+        0.16,
+        0.18,
+        0.0
+      ]
+    ],
+    "best_mapping": [
+      {
+        "gen_name": "Tech Savvy Integrator",
+        "gt_name": "The Smart Home Integrator",
+        "keyword_alignment": 0.3,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.7,
+        "matching_score": 0.54,
+        "validity_score": 0.7,
+        "reasoning": "Generated persona partially covers topics but differs in specifics.",
+        "success": true
+      },
+      {
+        "gen_name": "Practical Value Seeker",
+        "gt_name": "The Practical Value Seeker",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.7,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.7,
+        "matching_score": 0.58,
+        "validity_score": 0.7,
+        "reasoning": "Some alignment, lacks specificity on alarms and utility focus.",
+        "success": true
+      },
+      {
+        "gen_name": "Frustrated Functionality Chaser",
+        "gt_name": "The Disillusioned Early Adopter",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.3,
+        "matching_score": 0.46,
+        "validity_score": 0.7,
+        "reasoning": "Partial overlap in keywords; sentiment and behavior differ.",
+        "success": false
+      },
+      {
+        "gen_name": "Design Enthusiast",
+        "gt_name": "The Wireless Audio Pursuer",
+        "keyword_alignment": 0.3,
+        "value_alignment": 0.0,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.18,
+        "validity_score": 0.5,
+        "reasoning": "Generated persona focuses on design, not audio; low thematic overlap.",
+        "success": false
+      }
+    ],
+    "matching_score": 0.44,
+    "validity_score": 0.65,
+    "mean_all_matching": 0.225,
+    "dim_averages": {
+      "keyword_alignment": 0.4,
+      "value_alignment": 0.475,
+      "pain_alignment": 0.5,
+      "behavioral_alignment": 0.4,
+      "sentiment_alignment": 0.425
+    },
+    "n_success": 2,
+    "mapping_success_rate": 0.5
+  },
+  "topic_sim_result": {
+    "topic_sim": 0.4938,
+    "pair_details": [
+      {
+        "gen_name": "Tech Savvy Integrator",
+        "gt_name": "The Smart Home Integrator",
+        "gen_aspects": [
+          "installation",
+          "interface",
+          "integration",
+          "connectivity",
+          "Google Home"
+        ],
+        "gt_aspects": [
+          "Smart Assistant",
+          "Clock",
+          "Connectivity",
+          "Configuration",
+          "Convenience"
+        ],
+        "topic_sim": 0.5788
+      },
+      {
+        "gen_name": "Practical Value Seeker",
+        "gt_name": "The Practical Value Seeker",
+        "gen_aspects": [
+          "price",
+          "quality",
+          "value",
+          "functionality",
+          "affordable"
+        ],
+        "gt_aspects": [
+          "Price",
+          "Clock",
+          "Configuration",
+          "Convenience",
+          "Smart Assistant"
+        ],
+        "topic_sim": 0.5218
+      },
+      {
+        "gen_name": "Frustrated Functionality Chaser",
+        "gt_name": "The Disillusioned Early Adopter",
+        "gen_aspects": [
+          "connectivity",
+          "customer support",
+          "troubleshooting",
+          "functionality",
+          "reliability"
+        ],
+        "gt_aspects": [
+          "Durability",
+          "Defective",
+          "Charging",
+          "Connectivity",
+          "Quality"
+        ],
+        "topic_sim": 0.5117
+      },
+      {
+        "gen_name": "Design Enthusiast",
+        "gt_name": "The Wireless Audio Pursuer",
+        "gen_aspects": [
+          "design",
+          "aesthetic",
+          "style",
+          "modern",
+          "sleek"
+        ],
+        "gt_aspects": [
+          "Sound",
+          "Connectivity",
+          "Price",
+          "Configuration",
+          "Size"
+        ],
+        "topic_sim": 0.3628
+      }
+    ]
+  },
+  "summary": {
+    "matching_score": 0.44,
+    "validity_score": 0.65,
+    "topic_sim": 0.4938,
+    "dim_averages": {
+      "keyword_alignment": 0.4,
+      "value_alignment": 0.475,
+      "pain_alignment": 0.5,
+      "behavioral_alignment": 0.4,
+      "sentiment_alignment": 0.425
+    }
+  }
+}

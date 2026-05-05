@@ -1,0 +1,167 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP4_SNA_LDA",
+  "method": "SNA_LDA",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_docs": 965,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Value-Focused Shopper",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP4_SNA_LDA",
+      "keywords": [
+        "price",
+        "pay",
+        "month",
+        "cost",
+        "premium",
+        "cheap"
+      ],
+      "core_value": "This consumer segment prioritizes finding the best value for money.",
+      "description": "Value-Focused Shoppers are meticulous about scrutinizing the price and cost-effectiveness of appliances over time. They are likely to compare various products to identify the most economical choice that still meets their quality standards.",
+      "motivation": "To secure a high-quality product at a lower price for long-term savings.",
+      "pain_points": "Frustrations arise when products are overpriced relative to their perceived worth or when there are unexpected costs.",
+      "quote": "I need to be sure that what I'm paying is worth it over the months.",
+      "sentiment_ratio": {
+        "Positive": 0.1,
+        "Neutral": 0.7,
+        "Negative": 0.2,
+        "_inference_note": "Keywords 'cheap' and 'premium' suggest interest in cost with mostly neutral, analytical tone; slight negativity cues from 'drop' and 'cost.'"
+      },
+      "top_aspects": [
+        "price",
+        "cost",
+        "pay",
+        "cheap",
+        "premium"
+      ],
+      "co_aspects": {
+        "price": [
+          "pay",
+          "cost",
+          "cheap",
+          "premium"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Quality Assurance Seeker",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP4_SNA_LDA",
+      "keywords": [
+        "service",
+        "brand",
+        "trust",
+        "defect",
+        "quality",
+        "repair"
+      ],
+      "core_value": "This segment seeks assurance of quality and reliable after-sales service.",
+      "description": "Quality Assurance Seekers focus on the trustworthiness of brands, often relying on their past experiences. They value effective customer service and are attentive to the product's longevity and repair policies.",
+      "motivation": "To invest in reliable brands and ensure future support in case of defects or issues.",
+      "pain_points": "Dissatisfaction stems from defective products and inadequate repair services.",
+      "quote": "I trust brands with good service and repair options if something goes wrong.",
+      "sentiment_ratio": {
+        "Positive": 0.3,
+        "Neutral": 0.4,
+        "Negative": 0.3,
+        "_inference_note": "'Trust' and 'quality' carry positive sentiment, while 'defect' and 'repair' lean negative; 'service' is mixed but crucial."
+      },
+      "top_aspects": [
+        "service",
+        "brand",
+        "trust",
+        "defect",
+        "quality"
+      ],
+      "co_aspects": {
+        "service": [
+          "trust",
+          "repair",
+          "quality"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Aesthetic Enthusiast",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP4_SNA_LDA",
+      "keywords": [
+        "color",
+        "choose",
+        "match",
+        "look",
+        "beautiful",
+        "real"
+      ],
+      "core_value": "Aesthetic Enthusiasts prioritize the visual appeal and style compatibility of their appliances.",
+      "description": "These consumers are driven by the desire to have appliances that enhance the look of their living space. They often match appliances with home decor and prioritize design features like color and style.",
+      "motivation": "To find appliances that not only function well but also contribute to the visual aesthetics of their home.",
+      "pain_points": "Frustrations occur when the actual product look doesn't match promotional photos.",
+      "quote": "I want appliances that are both functional and add beauty to my home.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Positively loaded with 'beautiful', 'look', 'match'; slight negativity from 'real' indicating deviations."
+      },
+      "top_aspects": [
+        "color",
+        "choose",
+        "match",
+        "look",
+        "beautiful"
+      ],
+      "co_aspects": {
+        "color": [
+          "look",
+          "match",
+          "beautiful"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Tech-Savvy Analyst",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP4_SNA_LDA",
+      "keywords": [
+        "heart",
+        "sensor",
+        "datum",
+        "actual",
+        "reading",
+        "performance"
+      ],
+      "core_value": "The Tech-Savvy Analyst prioritizes technical precision and data-driven insights from appliances.",
+      "description": "These consumers focus on the technical performance of appliances, paying close attention to metrics and output readings. They value data accuracy and technology integration in their purchasing decisions.",
+      "motivation": "To have appliances that offer precise data and enhanced technological capabilities.",
+      "pain_points": "Issues arise from discrepancies in data or sensor inaccuracies.",
+      "quote": "Data and performance metrics need to meet real-world usage expectations.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.6,
+        "Negative": 0.2,
+        "_inference_note": "Technical terms like 'sensor', 'performance' suggest neutrality with slight positivity; negativity from terms like 'error'."
+      },
+      "top_aspects": [
+        "heart",
+        "sensor",
+        "datum",
+        "reading",
+        "performance"
+      ],
+      "co_aspects": {
+        "sensor": [
+          "datum",
+          "performance",
+          "error"
+        ]
+      }
+    }
+  ]
+}

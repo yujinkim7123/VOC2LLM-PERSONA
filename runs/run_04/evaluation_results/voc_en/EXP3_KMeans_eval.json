@@ -1,0 +1,193 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP3_KMeans",
+  "method": "KMEANS_TFIDF",
+  "lang": "en",
+  "judge": {
+    "judge_matrix": [
+      [
+        0.58,
+        0.36,
+        0.06,
+        0.06
+      ],
+      [
+        0.12,
+        0.62,
+        0.06,
+        0.06
+      ],
+      [
+        0.0,
+        0.0,
+        0.54,
+        0.06
+      ],
+      [
+        0.1,
+        0.12,
+        0.0,
+        0.66
+      ]
+    ],
+    "best_mapping": [
+      {
+        "gen_name": "Cost-Conscious Value Seeker",
+        "gt_name": "Price-Sensitive Bargain Hunter",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.7,
+        "behavioral_alignment": 0.7,
+        "sentiment_alignment": 0.3,
+        "matching_score": 0.58,
+        "validity_score": 0.7,
+        "reasoning": "Some alignment in value/pain but sentiment and keywords differ.",
+        "success": true
+      },
+      {
+        "gen_name": "Accuracy-Oriented Specification Reviewer",
+        "gt_name": "Performance-Focused Spec Evaluator",
+        "keyword_alignment": 0.7,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.7,
+        "behavioral_alignment": 0.7,
+        "sentiment_alignment": 0.3,
+        "matching_score": 0.62,
+        "validity_score": 1.0,
+        "reasoning": "Alignment mostly there; sentiment direction differs greatly.",
+        "success": true
+      },
+      {
+        "gen_name": "Aesthetic-Focused Trend Enthusiast",
+        "gt_name": "Design-Driven Aesthetic Consumer",
+        "keyword_alignment": 0.7,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.3,
+        "matching_score": 0.54,
+        "validity_score": 0.7,
+        "reasoning": "Overlap in design focus, but lacks emphasis on negative experiences and shipping issues.",
+        "success": true
+      },
+      {
+        "gen_name": "Brand-Loyal Trust Seeker",
+        "gt_name": "Trust-Seeking After-Service Prioritizer",
+        "keyword_alignment": 0.7,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.7,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.7,
+        "matching_score": 0.66,
+        "validity_score": 1.0,
+        "reasoning": "Generated persona is mostly aligned and well grounded in domain topics.",
+        "success": true
+      }
+    ],
+    "matching_score": 0.6,
+    "validity_score": 0.85,
+    "mean_all_matching": 0.2125,
+    "dim_averages": {
+      "keyword_alignment": 0.65,
+      "value_alignment": 0.7,
+      "pain_alignment": 0.65,
+      "behavioral_alignment": 0.6,
+      "sentiment_alignment": 0.4
+    },
+    "n_success": 4,
+    "mapping_success_rate": 1.0
+  },
+  "topic_sim_result": {
+    "topic_sim": 0.411,
+    "pair_details": [
+      {
+        "gen_name": "Cost-Conscious Value Seeker",
+        "gt_name": "Price-Sensitive Bargain Hunter",
+        "gen_aspects": [
+          "price",
+          "performance",
+          "cost",
+          "buy",
+          "budget"
+        ],
+        "gt_aspects": [
+          "Price/Cost",
+          "Performance/Specs",
+          "Design/Appearance",
+          "Shipping/Service",
+          "Ease of Use"
+        ],
+        "topic_sim": 0.5078
+      },
+      {
+        "gen_name": "Accuracy-Oriented Specification Reviewer",
+        "gt_name": "Performance-Focused Spec Evaluator",
+        "gen_aspects": [
+          "spec",
+          "measure",
+          "price",
+          "advertise",
+          "benchmark"
+        ],
+        "gt_aspects": [
+          "Performance/Specs",
+          "Ease of Use",
+          "Design/Appearance",
+          "Shipping/Service",
+          "Price/Cost"
+        ],
+        "topic_sim": 0.3867
+      },
+      {
+        "gen_name": "Aesthetic-Focused Trend Enthusiast",
+        "gt_name": "Design-Driven Aesthetic Consumer",
+        "gen_aspects": [
+          "color",
+          "pretty",
+          "look",
+          "design",
+          "buy"
+        ],
+        "gt_aspects": [
+          "Design/Appearance",
+          "Ease of Use",
+          "Price/Cost",
+          "Shipping/Service",
+          "Performance/Specs"
+        ],
+        "topic_sim": 0.4129
+      },
+      {
+        "gen_name": "Brand-Loyal Trust Seeker",
+        "gt_name": "Trust-Seeking After-Service Prioritizer",
+        "gen_aspects": [
+          "service",
+          "brand",
+          "trust",
+          "warranty",
+          "support"
+        ],
+        "gt_aspects": [
+          "Shipping/Service",
+          "Price/Cost",
+          "Ease of Use",
+          "Performance/Specs",
+          "Design/Appearance"
+        ],
+        "topic_sim": 0.3366
+      }
+    ]
+  },
+  "summary": {
+    "matching_score": 0.6,
+    "validity_score": 0.85,
+    "topic_sim": 0.411,
+    "dim_averages": {
+      "keyword_alignment": 0.65,
+      "value_alignment": 0.7,
+      "pain_alignment": 0.65,
+      "behavioral_alignment": 0.6,
+      "sentiment_alignment": 0.4
+    }
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "BASELINE",
+  "method": "LLM_STANDALONE",
+  "lang": "en",
+  "judge": {
+    "judge_matrix": [
+      [
+        0.24,
+        0.22,
+        0.0,
+        0.06
+      ],
+      [
+        0.0,
+        0.16,
+        0.0,
+        0.0
+      ],
+      [
+        0.36,
+        0.12,
+        0.06,
+        0.0
+      ],
+      [
+        0.06,
+        0.1,
+        0.44,
+        0.12
+      ]
+    ],
+    "best_mapping": [
+      {
+        "gen_name": "Efficient Home Manager",
+        "gt_name": "Trust-Seeking After-Service Prioritizer",
+        "keyword_alignment": 0.0,
+        "value_alignment": 0.0,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.0,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.06,
+        "validity_score": 0.5,
+        "reasoning": "Generated persona lacks alignment with trust-focused after-sales priorities.",
+        "success": false
+      },
+      {
+        "gen_name": "Tech Enthusiast",
+        "gt_name": "Performance-Focused Spec Evaluator",
+        "keyword_alignment": 0.0,
+        "value_alignment": 0.0,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.0,
+        "sentiment_alignment": 0.5,
+        "matching_score": 0.16,
+        "validity_score": 0.3,
+        "reasoning": "Generated persona lacks alignment with performance focus and specs-related keywords.",
+        "success": false
+      },
+      {
+        "gen_name": "Budget-Conscious Buyer",
+        "gt_name": "Price-Sensitive Bargain Hunter",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.36,
+        "validity_score": 0.7,
+        "reasoning": "Different sentiment, partial keyword overlap, valid on price topic.",
+        "success": false
+      },
+      {
+        "gen_name": "Design-Conscious Homeowner",
+        "gt_name": "Design-Driven Aesthetic Consumer",
+        "keyword_alignment": 0.7,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.44,
+        "validity_score": 0.7,
+        "reasoning": "Keywords and values aligned; pain points and sentiment misaligned.",
+        "success": false
+      }
+    ],
+    "matching_score": 0.255,
+    "validity_score": 0.55,
+    "mean_all_matching": 0.1213,
+    "dim_averages": {
+      "keyword_alignment": 0.3,
+      "value_alignment": 0.3,
+      "pain_alignment": 0.3,
+      "behavioral_alignment": 0.25,
+      "sentiment_alignment": 0.125
+    },
+    "n_success": 0,
+    "mapping_success_rate": 0.0
+  },
+  "topic_sim_result": {
+    "topic_sim": 0.431,
+    "pair_details": [
+      {
+        "gen_name": "Efficient Home Manager",
+        "gt_name": "Trust-Seeking After-Service Prioritizer",
+        "gen_aspects": [
+          "efficiency",
+          "durability",
+          "usability",
+          "cost",
+          "practicality"
+        ],
+        "gt_aspects": [
+          "Shipping/Service",
+          "Price/Cost",
+          "Ease of Use",
+          "Performance/Specs",
+          "Design/Appearance"
+        ],
+        "topic_sim": 0.4923
+      },
+      {
+        "gen_name": "Tech Enthusiast",
+        "gt_name": "Performance-Focused Spec Evaluator",
+        "gen_aspects": [
+          "technology",
+          "integration",
+          "innovation",
+          "features",
+          "compatibility"
+        ],
+        "gt_aspects": [
+          "Performance/Specs",
+          "Ease of Use",
+          "Design/Appearance",
+          "Shipping/Service",
+          "Price/Cost"
+        ],
+        "topic_sim": 0.3553
+      },
+      {
+        "gen_name": "Budget-Conscious Buyer",
+        "gt_name": "Price-Sensitive Bargain Hunter",
+        "gen_aspects": [
+          "cost",
+          "value",
+          "basic features",
+          "affordability",
+          "discount"
+        ],
+        "gt_aspects": [
+          "Price/Cost",
+          "Performance/Specs",
+          "Design/Appearance",
+          "Shipping/Service",
+          "Ease of Use"
+        ],
+        "topic_sim": 0.4483
+      },
+      {
+        "gen_name": "Design-Conscious Homeowner",
+        "gt_name": "Design-Driven Aesthetic Consumer",
+        "gen_aspects": [
+          "design",
+          "style",
+          "aesthetics",
+          "appearance",
+          "modernity"
+        ],
+        "gt_aspects": [
+          "Design/Appearance",
+          "Ease of Use",
+          "Price/Cost",
+          "Shipping/Service",
+          "Performance/Specs"
+        ],
+        "topic_sim": 0.4281
+      }
+    ]
+  },
+  "summary": {
+    "matching_score": 0.255,
+    "validity_score": 0.55,
+    "topic_sim": 0.431,
+    "dim_averages": {
+      "keyword_alignment": 0.3,
+      "value_alignment": 0.3,
+      "pain_alignment": 0.3,
+      "behavioral_alignment": 0.25,
+      "sentiment_alignment": 0.125
+    }
+  }
+}

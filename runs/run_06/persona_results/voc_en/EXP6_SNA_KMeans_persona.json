@@ -1,0 +1,229 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP6_SNA_KMeans",
+  "method": "SNA_KMEANS",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_docs": 868,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Performance-Oriented Metrics Enthusiast",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "spec",
+        "measure",
+        "price",
+        "performance",
+        "standard"
+      ],
+      "core_value": "This persona values precise specifications and performance metrics.",
+      "description": "These consumers are meticulous and heavily focus on measurable characteristics. They often discuss how closely products match their advertised standards and performance expectations.",
+      "motivation": "They are driven by a need for high-performing, well-priced appliances that align closely with their advertised specs.",
+      "pain_points": "They get frustrated when products underperform or fail to match the detailed specifications provided.",
+      "quote": "I bought this model because the specs promised excellent performance, but it didn't match my expectations.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.5,
+        "Negative": 0.3,
+        "_inference_note": "Neutral signals from 'measure', 'standard'; slight positivity from 'performance'; negative from expectations in 'spec'."
+      },
+      "top_aspects": [
+        "spec",
+        "performance",
+        "price",
+        "measure",
+        "standard"
+      ],
+      "co_aspects": {
+        "spec": [
+          "measure",
+          "price",
+          "performance"
+        ],
+        "measure": [
+          "spec",
+          "standard"
+        ],
+        "price": [
+          "spec",
+          "buy"
+        ],
+        "performance": [
+          "spec",
+          "standard"
+        ],
+        "standard": [
+          "spec",
+          "measure"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Aesthetic-Focused Style Seeker",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "color",
+        "buy",
+        "choose",
+        "pretty",
+        "look"
+      ],
+      "core_value": "This persona values the visual appeal and aesthetics of home appliances.",
+      "description": "These consumers prioritize style and design. They often focus on how appliances complement their living spaces.",
+      "motivation": "They are motivated by products that enhance the appearance of their home, paying special attention to color and design harmony.",
+      "pain_points": "Disappointment arises when the actual product appearance doesn't align with their aesthetic expectations.",
+      "quote": "The appliance looks stunning in my kitchen and blends perfectly with the decor.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Positive sentiment is denoted by 'pretty', 'choose', 'look'; neutral from 'buy', 'arrive'."
+      },
+      "top_aspects": [
+        "color",
+        "choose",
+        "look",
+        "pretty",
+        "setup"
+      ],
+      "co_aspects": {
+        "color": [
+          "buy",
+          "choose",
+          "look"
+        ],
+        "choose": [
+          "color",
+          "look",
+          "want"
+        ],
+        "look": [
+          "color",
+          "choose",
+          "pretty"
+        ],
+        "pretty": [
+          "color",
+          "look"
+        ],
+        "setup": [
+          "color",
+          "match"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Brand-Loyal Support Seeker",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "service",
+        "brand",
+        "trust",
+        "warranty",
+        "repair"
+      ],
+      "core_value": "This persona values reliable customer support and brand trustworthiness.",
+      "description": "These consumers emphasize trust and support from well-known brands. They focus on warranties and reliable repair services when purchasing.",
+      "motivation": "They are driven by the expectation of long-term reliability and support from established brands.",
+      "pain_points": "They are frustrated by inadequate service support or when warranties are not honored.",
+      "quote": "I stick with this brand because I trust their service and warranty coverage.",
+      "sentiment_ratio": {
+        "Positive": 0.4,
+        "Neutral": 0.4,
+        "Negative": 0.2,
+        "_inference_note": "Positive sentiment comes from 'trust', 'brand'; neutral from 'product', 'time'; slightly negative from 'repair', 'defect'"
+      },
+      "top_aspects": [
+        "service",
+        "brand",
+        "trust",
+        "warranty",
+        "repair"
+      ],
+      "co_aspects": {
+        "service": [
+          "brand",
+          "warranty"
+        ],
+        "brand": [
+          "service",
+          "trust",
+          "warranty"
+        ],
+        "trust": [
+          "brand",
+          "warranty"
+        ],
+        "warranty": [
+          "service",
+          "brand",
+          "repair"
+        ],
+        "repair": [
+          "warranty",
+          "service"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Cost-Conscious Practical Buyer",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "price",
+        "design",
+        "buy",
+        "look",
+        "charge"
+      ],
+      "core_value": "This persona values balanced pricing and practical design features.",
+      "description": "These consumers focus on the balance between cost and functionality, preferring designs that don't compromise their budgets.",
+      "motivation": "Driven by the need for affordable products that meet practical requirements without excessive expenditure.",
+      "pain_points": "High prices or additional charges beyond initial expectations frustrate them.",
+      "quote": "I went with this model because it offered the best design for its price.",
+      "sentiment_ratio": {
+        "Positive": 0.3,
+        "Neutral": 0.5,
+        "Negative": 0.2,
+        "_inference_note": "Slightly positive from 'design', 'buy'; neutral from 'price', 'look'; negative inferred from 'charge'."
+      },
+      "top_aspects": [
+        "price",
+        "design",
+        "buy",
+        "look",
+        "performance"
+      ],
+      "co_aspects": {
+        "price": [
+          "design",
+          "buy",
+          "charge"
+        ],
+        "design": [
+          "price",
+          "look"
+        ],
+        "buy": [
+          "price",
+          "design"
+        ],
+        "look": [
+          "design",
+          "price"
+        ],
+        "charge": [
+          "price",
+          "performance"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP4_SNA_LDA",
+  "method": "SNA_LDA",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_docs": 965,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Price-Conscious Buyer",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP4_SNA_LDA",
+      "keywords": [
+        "price",
+        "pay",
+        "month",
+        "cost",
+        "premium",
+        "buy",
+        "cheap"
+      ],
+      "core_value": "This consumer segment values affordable pricing and considers costs carefully.",
+      "description": "These buyers are highly attentive to the cost of products and are always on the lookout for bargains or cost-effective solutions. They often balance between paying a premium for perceived quality and the desire to save money.",
+      "motivation": "They are primarily driven by deals and competitive pricing, seeking good value for their investment.",
+      "pain_points": "They are frustrated by high prices and concerns about overpaying for low-value offerings.",
+      "quote": "I always look for the best price and don't want to spend more than necessary.",
+      "sentiment_ratio": {
+        "Positive": 0.1,
+        "Neutral": 0.7,
+        "Negative": 0.2,
+        "_inference_note": "Neutral focus on cost-related words like 'price', 'pay', 'month', with slightly negative words such as 'drop' and 'cheap' implying dissatisfaction with value."
+      },
+      "top_aspects": [
+        "price",
+        "pay",
+        "month",
+        "cost",
+        "premium"
+      ],
+      "co_aspects": {
+        "price": [
+          "pay",
+          "month",
+          "cost"
+        ],
+        "pay": [
+          "price",
+          "month"
+        ],
+        "month": [
+          "price",
+          "pay"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Brand-Conscious Quality Seeker",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP4_SNA_LDA",
+      "keywords": [
+        "service",
+        "brand",
+        "trust",
+        "product",
+        "get",
+        "defect",
+        "repair"
+      ],
+      "core_value": "This consumer segment places a high value on brand trust and service quality.",
+      "description": "These consumers are focused on the trustworthiness of brands and the quality of both products and services. They tend to be loyal to brands they trust and are concerned about potential defects.",
+      "motivation": "Brand reputation and reliability drive their purchase decisions, seeking to avoid issues with defects and trust problems.",
+      "pain_points": "They are deeply concerned with defects in products and inefficiencies in service and repair processes.",
+      "quote": "I choose brands I trust to avoid the hassle of repairs and poor service.",
+      "sentiment_ratio": {
+        "Positive": 0.3,
+        "Neutral": 0.4,
+        "Negative": 0.3,
+        "_inference_note": "A balanced sentiment with positive focus on 'trust' and 'quality', neutral mentions of 'brand' and 'product', and negative 'defect' and 'repair'."
+      },
+      "top_aspects": [
+        "service",
+        "brand",
+        "trust",
+        "product",
+        "defect"
+      ],
+      "co_aspects": {
+        "service": [
+          "brand",
+          "trust"
+        ],
+        "brand": [
+          "service",
+          "product"
+        ],
+        "trust": [
+          "service",
+          "brand"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Aesthetic-Focused Shopper",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP4_SNA_LDA",
+      "keywords": [
+        "color",
+        "buy",
+        "choose",
+        "match",
+        "look",
+        "beautiful",
+        "photo"
+      ],
+      "core_value": "This consumer segment is primarily focused on the aesthetic appeal of products.",
+      "description": "They are particularly interested in how products look and whether they fit well with their personal style or home decor. The visual aspect is a major driver in their purchase decision.",
+      "motivation": "Their purchase decisions are driven by visual appeal and the desire to find products that complement their aesthetic preferences.",
+      "pain_points": "Inaccurate product representations in photos can lead to disappointment if the real product doesn't match expectations.",
+      "quote": "It's important that the product looks good and matches my decor; visuals are everything.",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Positive keywords like 'beautiful' and 'match', neutral focus on 'color' and 'choose', with low negativity from 'photo'."
+      },
+      "top_aspects": [
+        "color",
+        "buy",
+        "choose",
+        "match",
+        "look"
+      ],
+      "co_aspects": {
+        "color": [
+          "buy",
+          "choose"
+        ],
+        "choose": [
+          "color",
+          "match"
+        ],
+        "match": [
+          "color",
+          "look"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Tech-Savvy Performance Evaluator",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP4_SNA_LDA",
+      "keywords": [
+        "charge",
+        "cable",
+        "setup",
+        "color",
+        "display",
+        "use",
+        "want"
+      ],
+      "core_value": "This consumer segment values high performance and technical specifications.",
+      "description": "This group is focused on the technical aspects and performance of products. They frequently explore setup processes and how products meet their specific needs.",
+      "motivation": "Their decisions are influenced by the product's technological features and ease of integration into their tech ecosystem.",
+      "pain_points": "Complex setups and poor display quality can lead to frustration.",
+      "quote": "I look for products with great performance and easy setup; it's all about efficiency for me.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.4,
+        "Negative": 0.1,
+        "_inference_note": "Positive feedback with words like 'use' and 'want', neutral with 'charge' and 'display', minimal negativity from 'setup'."
+      },
+      "top_aspects": [
+        "charge",
+        "cable",
+        "setup",
+        "color",
+        "display"
+      ],
+      "co_aspects": {
+        "charge": [
+          "cable",
+          "display"
+        ],
+        "setup": [
+          "cable",
+          "display"
+        ],
+        "display": [
+          "charge",
+          "setup"
+        ]
+      }
+    }
+  ]
+}

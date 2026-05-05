@@ -1,0 +1,178 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "BASELINE",
+  "method": "LLM_STANDALONE",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_docs": null,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Efficiency-Seeking Minimalist",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_BASELINE",
+      "keywords": [
+        "efficient",
+        "space-saving",
+        "sleek design",
+        "easy to use",
+        "compact"
+      ],
+      "core_value": "This consumer values simplicity and functionality in their home appliances.",
+      "description": "This persona prefers sleek, compact appliances that do not complicate their living space. They are attracted to minimalist designs and products that provide maximum efficiency with minimum input.",
+      "motivation": "They are driven by the desire to streamline their living environment and invest in appliances that require less maintenance and fit neatly into smaller spaces.",
+      "pain_points": "They are frustrated by bulky, complex machines that take up too much space or require extensive set-up instructions.",
+      "quote": "I love how this appliance saves space and looks great in my tidy kitchen!",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Consumers in this category are generally satisfied with efficiency and design, but could be neutral to negative regarding complexity of use."
+      },
+      "top_aspects": [
+        "design",
+        "size",
+        "functionality",
+        "maintenance",
+        "setup"
+      ],
+      "co_aspects": {
+        "design": [
+          "size",
+          "functionality"
+        ],
+        "size": [
+          "design",
+          "maintenance"
+        ],
+        "functionality": [
+          "setup",
+          "maintenance"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Tech-Savvy Enthusiast",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_BASELINE",
+      "keywords": [
+        "smart features",
+        "connectivity",
+        "high-tech",
+        "updates",
+        "integration"
+      ],
+      "core_value": "This consumer values cutting-edge technology and seamless connectivity in their appliances.",
+      "description": "This persona embraces modern technology and seeks out appliances that integrate with their smart home ecosystem. They enjoy experimenting with the latest gadgets that offer connectivity and automation.",
+      "motivation": "Their purchasing decisions are driven by the desire to have the latest technology that enhances convenience and connectivity in their daily lives.",
+      "pain_points": "They are frustrated by inconsistent updates, connectivity issues, and a lack of compatibility with other smart devices.",
+      "quote": "It's amazing how this appliance connects effortlessly to my home network and updates without hassle!",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.3,
+        "Negative": 0.2,
+        "_inference_note": "Tech-focused consumers are generally positive about innovation, have neutral feelings when it's satisfactory, but express frustration when compatibility issues arise."
+      },
+      "top_aspects": [
+        "technology",
+        "connectivity",
+        "updates",
+        "automation",
+        "compatibility"
+      ],
+      "co_aspects": {
+        "technology": [
+          "connectivity",
+          "updates"
+        ],
+        "connectivity": [
+          "compatibility",
+          "automation"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Family-Focused Practical Buyer",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_BASELINE",
+      "keywords": [
+        "durability",
+        "large capacity",
+        "energy-efficient",
+        "safety",
+        "user-friendly"
+      ],
+      "core_value": "This consumer values durability and family-friendly features in appliances.",
+      "description": "This persona prioritizes appliances that can withstand heavy use, are safe for kids, and help manage household tasks efficiently. They often have a larger family and focus on value and utility.",
+      "motivation": "Efficiency in managing household chores and ensuring safety for their family are primary motivators.",
+      "pain_points": "They are frustrated by appliances that don't perform well under frequent use or have unreliable safety features.",
+      "quote": "I need appliances that can handle the daily hustle yet are safe and easy for my kids to use.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.2,
+        "Negative": 0.2,
+        "_inference_note": "Family-focused consumers lean towards positive sentiments due to durability and safety, but concerns about long-term efficacy lead to neutrality or negativity."
+      },
+      "top_aspects": [
+        "durability",
+        "capacity",
+        "energy efficiency",
+        "safety",
+        "usability"
+      ],
+      "co_aspects": {
+        "durability": [
+          "capacity",
+          "energy efficiency"
+        ],
+        "safety": [
+          "usability",
+          "capacity"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Bargain-Hunting Value Shopper",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_BASELINE",
+      "keywords": [
+        "affordable",
+        "value for money",
+        "basic features",
+        "discounts",
+        "cost-effective"
+      ],
+      "core_value": "This consumer values affordability and basic functionality in appliances.",
+      "description": "This persona is budget-conscious and prioritizes finding appliances that offer good value for money. They are less concerned with extra features and more focused on finding reliable products within their budget.",
+      "motivation": "They are driven by affordability and the perception of getting the most for their money.",
+      "pain_points": "They are frustrated by overpaying for unnecessary features and the lack of long-term reliability in cheaper products.",
+      "quote": "I prefer to invest in appliances that do the job without burning a hole in my pocket.",
+      "sentiment_ratio": {
+        "Positive": 0.4,
+        "Neutral": 0.4,
+        "Negative": 0.2,
+        "_inference_note": "Value shoppers often feel neutral as they trade off features for price, but positivity arises from savings, and negativity when quality sacrifices are evident."
+      },
+      "top_aspects": [
+        "price",
+        "reliability",
+        "features",
+        "value",
+        "durability"
+      ],
+      "co_aspects": {
+        "price": [
+          "value",
+          "features"
+        ],
+        "reliability": [
+          "durability",
+          "value"
+        ]
+      }
+    }
+  ]
+}

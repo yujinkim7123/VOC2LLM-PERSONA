@@ -1,0 +1,193 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP5_LDA_KMeans",
+  "method": "LDA_KMEANS",
+  "lang": "en",
+  "judge": {
+    "judge_matrix": [
+      [
+        0.5,
+        0.46,
+        0.12,
+        0.22
+      ],
+      [
+        0.0,
+        0.0,
+        0.48,
+        0.06
+      ],
+      [
+        0.0,
+        0.12,
+        0.0,
+        0.54
+      ],
+      [
+        0.18,
+        0.18,
+        0.36,
+        0.4
+      ]
+    ],
+    "best_mapping": [
+      {
+        "gen_name": "Price-Conscious Evaluator",
+        "gt_name": "Price-Sensitive Bargain Hunter",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.7,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.3,
+        "matching_score": 0.5,
+        "validity_score": 0.7,
+        "reasoning": "Keywords and value misalign; mixed pain points; sentiment direction off.",
+        "success": true
+      },
+      {
+        "gen_name": "Aesthetic Enthusiast",
+        "gt_name": "Design-Driven Aesthetic Consumer",
+        "keyword_alignment": 0.7,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.7,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.48,
+        "validity_score": 0.7,
+        "reasoning": "Keywords align mostly, sentiment and behavior diverge significantly.",
+        "success": false
+      },
+      {
+        "gen_name": "Warranty-Conscious Pragmatist",
+        "gt_name": "Trust-Seeking After-Service Prioritizer",
+        "keyword_alignment": 0.7,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.7,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.3,
+        "matching_score": 0.54,
+        "validity_score": 1.0,
+        "reasoning": "Keywords and pain points align well, but sentiment and values diverge.",
+        "success": true
+      },
+      {
+        "gen_name": "Skeptical Quality Inspector",
+        "gt_name": "Performance-Focused Spec Evaluator",
+        "keyword_alignment": 0.0,
+        "value_alignment": 0.0,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.3,
+        "matching_score": 0.18,
+        "validity_score": 0.5,
+        "reasoning": "Persona focuses on quality/service, lacks spec focus from domain topics.",
+        "success": false
+      }
+    ],
+    "matching_score": 0.425,
+    "validity_score": 0.725,
+    "mean_all_matching": 0.2263,
+    "dim_averages": {
+      "keyword_alignment": 0.475,
+      "value_alignment": 0.375,
+      "pain_alignment": 0.6,
+      "behavioral_alignment": 0.45,
+      "sentiment_alignment": 0.225
+    },
+    "n_success": 2,
+    "mapping_success_rate": 0.5
+  },
+  "topic_sim_result": {
+    "topic_sim": 0.4009,
+    "pair_details": [
+      {
+        "gen_name": "Price-Conscious Evaluator",
+        "gt_name": "Price-Sensitive Bargain Hunter",
+        "gen_aspects": [
+          "price",
+          "spec",
+          "buy",
+          "service",
+          "performance"
+        ],
+        "gt_aspects": [
+          "Price/Cost",
+          "Performance/Specs",
+          "Design/Appearance",
+          "Shipping/Service",
+          "Ease of Use"
+        ],
+        "topic_sim": 0.4914
+      },
+      {
+        "gen_name": "Aesthetic Enthusiast",
+        "gt_name": "Design-Driven Aesthetic Consumer",
+        "gen_aspects": [
+          "color",
+          "pretty",
+          "look",
+          "design",
+          "beautiful"
+        ],
+        "gt_aspects": [
+          "Design/Appearance",
+          "Ease of Use",
+          "Price/Cost",
+          "Shipping/Service",
+          "Performance/Specs"
+        ],
+        "topic_sim": 0.4228
+      },
+      {
+        "gen_name": "Warranty-Conscious Pragmatist",
+        "gt_name": "Trust-Seeking After-Service Prioritizer",
+        "gen_aspects": [
+          "warranty",
+          "service",
+          "brand",
+          "material",
+          "long"
+        ],
+        "gt_aspects": [
+          "Shipping/Service",
+          "Price/Cost",
+          "Ease of Use",
+          "Performance/Specs",
+          "Design/Appearance"
+        ],
+        "topic_sim": 0.333
+      },
+      {
+        "gen_name": "Skeptical Quality Inspector",
+        "gt_name": "Performance-Focused Spec Evaluator",
+        "gen_aspects": [
+          "service",
+          "exchange",
+          "defect",
+          "issue",
+          "request"
+        ],
+        "gt_aspects": [
+          "Performance/Specs",
+          "Ease of Use",
+          "Design/Appearance",
+          "Shipping/Service",
+          "Price/Cost"
+        ],
+        "topic_sim": 0.3564
+      }
+    ]
+  },
+  "summary": {
+    "matching_score": 0.425,
+    "validity_score": 0.725,
+    "topic_sim": 0.4009,
+    "dim_averages": {
+      "keyword_alignment": 0.475,
+      "value_alignment": 0.375,
+      "pain_alignment": 0.6,
+      "behavioral_alignment": 0.45,
+      "sentiment_alignment": 0.225
+    }
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP4_SNA_LDA",
+  "method": "SNA_LDA",
+  "lang": "en",
+  "judge": {
+    "judge_matrix": [
+      [
+        0.36,
+        0.32,
+        0.1,
+        0.0
+      ],
+      [
+        0.36,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.06,
+        0.58,
+        0.26,
+        0.0
+      ],
+      [
+        0.26,
+        0.18,
+        0.34,
+        0.54
+      ]
+    ],
+    "best_mapping": [
+      {
+        "gen_name": "Music-Enthusiast Alexa User",
+        "gt_name": "The Practical Value Seeker",
+        "keyword_alignment": 0.0,
+        "value_alignment": 0.0,
+        "pain_alignment": 0.0,
+        "behavioral_alignment": 0.0,
+        "sentiment_alignment": 0.5,
+        "matching_score": 0.1,
+        "validity_score": 0.5,
+        "reasoning": "Generated persona focuses on music, lacks alignment with reference utility and price themes.",
+        "success": false
+      },
+      {
+        "gen_name": "Sound Quality Seekers",
+        "gt_name": "The Wireless Audio Pursuer",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.36,
+        "validity_score": 0.7,
+        "reasoning": "Misalignment in sentiment and pain points; domain partially covered.",
+        "success": false
+      },
+      {
+        "gen_name": "Smart Tech Home Integrators",
+        "gt_name": "The Smart Home Integrator",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.7,
+        "matching_score": 0.58,
+        "validity_score": 0.7,
+        "reasoning": "Keywords lack alignment; values slightly differ; weak pain point match.",
+        "success": true
+      },
+      {
+        "gen_name": "Practical Buyers with Performance Focus",
+        "gt_name": "The Disillusioned Early Adopter",
+        "keyword_alignment": 0.3,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.7,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.5,
+        "matching_score": 0.54,
+        "validity_score": 0.7,
+        "reasoning": "Partial alignment in values and pains, but keywords differ widely.",
+        "success": true
+      }
+    ],
+    "matching_score": 0.395,
+    "validity_score": 0.65,
+    "mean_all_matching": 0.21,
+    "dim_averages": {
+      "keyword_alignment": 0.325,
+      "value_alignment": 0.475,
+      "pain_alignment": 0.375,
+      "behavioral_alignment": 0.375,
+      "sentiment_alignment": 0.425
+    },
+    "n_success": 2,
+    "mapping_success_rate": 0.5
+  },
+  "topic_sim_result": {
+    "topic_sim": 0.3619,
+    "pair_details": [
+      {
+        "gen_name": "Music-Enthusiast Alexa User",
+        "gt_name": "The Practical Value Seeker",
+        "gen_aspects": [
+          "music",
+          "alexa",
+          "play",
+          "echo",
+          "amazon"
+        ],
+        "gt_aspects": [
+          "Price",
+          "Clock",
+          "Configuration",
+          "Convenience",
+          "Smart Assistant"
+        ],
+        "topic_sim": 0.3341
+      },
+      {
+        "gen_name": "Sound Quality Seekers",
+        "gt_name": "The Wireless Audio Pursuer",
+        "gen_aspects": [
+          "sound",
+          "quality",
+          "great",
+          "work",
+          "product"
+        ],
+        "gt_aspects": [
+          "Sound",
+          "Connectivity",
+          "Price",
+          "Configuration",
+          "Size"
+        ],
+        "topic_sim": 0.4637
+      },
+      {
+        "gen_name": "Smart Tech Home Integrators",
+        "gt_name": "The Smart Home Integrator",
+        "gen_aspects": [
+          "google",
+          "nest",
+          "home",
+          "device",
+          "instal"
+        ],
+        "gt_aspects": [
+          "Smart Assistant",
+          "Clock",
+          "Connectivity",
+          "Configuration",
+          "Convenience"
+        ],
+        "topic_sim": 0.3331
+      },
+      {
+        "gen_name": "Practical Buyers with Performance Focus",
+        "gt_name": "The Disillusioned Early Adopter",
+        "gen_aspects": [
+          "work",
+          "return",
+          "issue",
+          "time",
+          "buy"
+        ],
+        "gt_aspects": [
+          "Durability",
+          "Defective",
+          "Charging",
+          "Connectivity",
+          "Quality"
+        ],
+        "topic_sim": 0.3167
+      }
+    ]
+  },
+  "summary": {
+    "matching_score": 0.395,
+    "validity_score": 0.65,
+    "topic_sim": 0.3619,
+    "dim_averages": {
+      "keyword_alignment": 0.325,
+      "value_alignment": 0.475,
+      "pain_alignment": 0.375,
+      "behavioral_alignment": 0.375,
+      "sentiment_alignment": 0.425
+    }
+  }
+}

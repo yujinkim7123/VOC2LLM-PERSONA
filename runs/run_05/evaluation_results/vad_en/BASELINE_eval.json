@@ -1,0 +1,193 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "BASELINE",
+  "method": "LLM_STANDALONE",
+  "lang": "en",
+  "judge": {
+    "judge_matrix": [
+      [
+        0.28,
+        0.54,
+        0.16,
+        0.0
+      ],
+      [
+        0.06,
+        0.46,
+        0.46,
+        0.06
+      ],
+      [
+        0.18,
+        0.2,
+        0.68,
+        0.0
+      ],
+      [
+        0.0,
+        0.12,
+        0.0,
+        0.0
+      ]
+    ],
+    "best_mapping": [
+      {
+        "gen_name": "Tech Enthusiast Seeker",
+        "gt_name": "The Wireless Audio Pursuer",
+        "keyword_alignment": 0.3,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.28,
+        "validity_score": 0.7,
+        "reasoning": "Generated persona lacks sound emphasis, misaligned tech focus.",
+        "success": false
+      },
+      {
+        "gen_name": "Practical Family User",
+        "gt_name": "The Smart Home Integrator",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.3,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.7,
+        "matching_score": 0.46,
+        "validity_score": 0.7,
+        "reasoning": "Generated lacks specific smart home focus and integration issues.",
+        "success": false
+      },
+      {
+        "gen_name": "Value-Conscious Skeptic",
+        "gt_name": "The Practical Value Seeker",
+        "keyword_alignment": 0.7,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 1.0,
+        "matching_score": 0.68,
+        "validity_score": 0.8,
+        "reasoning": "Mostly aligns on sentiment and keywords; utility aspects mismatch.",
+        "success": true
+      },
+      {
+        "gen_name": "Privacy-Conscious Retreat",
+        "gt_name": "The Disillusioned Early Adopter",
+        "keyword_alignment": 0.0,
+        "value_alignment": 0.0,
+        "pain_alignment": 0.0,
+        "behavioral_alignment": 0.0,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.0,
+        "validity_score": 0.0,
+        "reasoning": "Generated persona is unrelated to domain topics and reference persona.",
+        "success": false
+      }
+    ],
+    "matching_score": 0.355,
+    "validity_score": 0.55,
+    "mean_all_matching": 0.2,
+    "dim_averages": {
+      "keyword_alignment": 0.375,
+      "value_alignment": 0.375,
+      "pain_alignment": 0.275,
+      "behavioral_alignment": 0.325,
+      "sentiment_alignment": 0.425
+    },
+    "n_success": 1,
+    "mapping_success_rate": 0.25
+  },
+  "topic_sim_result": {
+    "topic_sim": 0.4443,
+    "pair_details": [
+      {
+        "gen_name": "Tech Enthusiast Seeker",
+        "gt_name": "The Wireless Audio Pursuer",
+        "gen_aspects": [
+          "innovation",
+          "features",
+          "integration",
+          "ecosystem",
+          "functionality"
+        ],
+        "gt_aspects": [
+          "Sound",
+          "Connectivity",
+          "Price",
+          "Configuration",
+          "Size"
+        ],
+        "topic_sim": 0.4188
+      },
+      {
+        "gen_name": "Practical Family User",
+        "gt_name": "The Smart Home Integrator",
+        "gen_aspects": [
+          "convenience",
+          "routine",
+          "simplicity",
+          "family",
+          "reliability"
+        ],
+        "gt_aspects": [
+          "Smart Assistant",
+          "Clock",
+          "Connectivity",
+          "Configuration",
+          "Convenience"
+        ],
+        "topic_sim": 0.5223
+      },
+      {
+        "gen_name": "Value-Conscious Skeptic",
+        "gt_name": "The Practical Value Seeker",
+        "gen_aspects": [
+          "cost-effective",
+          "value",
+          "price",
+          "basic",
+          "essential"
+        ],
+        "gt_aspects": [
+          "Price",
+          "Clock",
+          "Configuration",
+          "Convenience",
+          "Smart Assistant"
+        ],
+        "topic_sim": 0.5197
+      },
+      {
+        "gen_name": "Privacy-Conscious Retreat",
+        "gt_name": "The Disillusioned Early Adopter",
+        "gen_aspects": [
+          "privacy",
+          "security",
+          "control",
+          "settings",
+          "data"
+        ],
+        "gt_aspects": [
+          "Durability",
+          "Defective",
+          "Charging",
+          "Connectivity",
+          "Quality"
+        ],
+        "topic_sim": 0.3164
+      }
+    ]
+  },
+  "summary": {
+    "matching_score": 0.355,
+    "validity_score": 0.55,
+    "topic_sim": 0.4443,
+    "dim_averages": {
+      "keyword_alignment": 0.375,
+      "value_alignment": 0.375,
+      "pain_alignment": 0.275,
+      "behavioral_alignment": 0.325,
+      "sentiment_alignment": 0.425
+    }
+  }
+}

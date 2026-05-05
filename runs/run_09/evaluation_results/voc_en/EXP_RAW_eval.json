@@ -1,0 +1,194 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP_RAW",
+  "method": "RAW_REVIEW_INJECTION",
+  "lang": "en",
+  "n_reviews_injected": 200,
+  "judge": {
+    "judge_matrix": [
+      [
+        0.46,
+        0.0,
+        0.06,
+        0.12
+      ],
+      [
+        0.0,
+        0.0,
+        0.52,
+        0.0
+      ],
+      [
+        0.3,
+        0.58,
+        0.1,
+        0.28
+      ],
+      [
+        0.0,
+        0.06,
+        0.06,
+        0.32
+      ]
+    ],
+    "best_mapping": [
+      {
+        "gen_name": "Budget-Conscious Bulk Buyer",
+        "gt_name": "Price-Sensitive Bargain Hunter",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.5,
+        "matching_score": 0.46,
+        "validity_score": 0.7,
+        "reasoning": "Keywords and values partially match; focus differs on bulk vs. price.",
+        "success": false
+      },
+      {
+        "gen_name": "Design-Oriented Aesthetic Lover",
+        "gt_name": "Design-Driven Aesthetic Consumer",
+        "keyword_alignment": 0.7,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.7,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.52,
+        "validity_score": 0.7,
+        "reasoning": "Keywords and values mostly align; pain points and sentiment differ.",
+        "success": true
+      },
+      {
+        "gen_name": "Performance-Focused Tech Enthusiast",
+        "gt_name": "Performance-Focused Spec Evaluator",
+        "keyword_alignment": 0.7,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.7,
+        "behavioral_alignment": 0.7,
+        "sentiment_alignment": 0.3,
+        "matching_score": 0.58,
+        "validity_score": 1.0,
+        "reasoning": "Mostly aligned, some differences in sentiment and value emphasis.",
+        "success": true
+      },
+      {
+        "gen_name": "Service-Oriented Hassle-Free Shopper",
+        "gt_name": "Trust-Seeking After-Service Prioritizer",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.32,
+        "validity_score": 0.5,
+        "reasoning": "Generated persona diverges significantly in sentiment and behavior focus.",
+        "success": false
+      }
+    ],
+    "matching_score": 0.47,
+    "validity_score": 0.725,
+    "mean_all_matching": 0.1788,
+    "dim_averages": {
+      "keyword_alignment": 0.6,
+      "value_alignment": 0.55,
+      "pain_alignment": 0.5,
+      "behavioral_alignment": 0.5,
+      "sentiment_alignment": 0.2
+    },
+    "n_success": 2,
+    "mapping_success_rate": 0.5
+  },
+  "topic_sim_result": {
+    "topic_sim": 0.4276,
+    "pair_details": [
+      {
+        "gen_name": "Budget-Conscious Bulk Buyer",
+        "gt_name": "Price-Sensitive Bargain Hunter",
+        "gen_aspects": [
+          "price",
+          "reliability",
+          "cost",
+          "bulk purchase",
+          "replacement"
+        ],
+        "gt_aspects": [
+          "Price/Cost",
+          "Performance/Specs",
+          "Design/Appearance",
+          "Shipping/Service",
+          "Ease of Use"
+        ],
+        "topic_sim": 0.4381
+      },
+      {
+        "gen_name": "Design-Oriented Aesthetic Lover",
+        "gt_name": "Design-Driven Aesthetic Consumer",
+        "gen_aspects": [
+          "design",
+          "color",
+          "appearance",
+          "compatibility",
+          "setup"
+        ],
+        "gt_aspects": [
+          "Design/Appearance",
+          "Ease of Use",
+          "Price/Cost",
+          "Shipping/Service",
+          "Performance/Specs"
+        ],
+        "topic_sim": 0.4462
+      },
+      {
+        "gen_name": "Performance-Focused Tech Enthusiast",
+        "gt_name": "Performance-Focused Spec Evaluator",
+        "gen_aspects": [
+          "performance",
+          "reliability",
+          "accuracy",
+          "specifications",
+          "efficiency"
+        ],
+        "gt_aspects": [
+          "Performance/Specs",
+          "Ease of Use",
+          "Design/Appearance",
+          "Shipping/Service",
+          "Price/Cost"
+        ],
+        "topic_sim": 0.4528
+      },
+      {
+        "gen_name": "Service-Oriented Hassle-Free Shopper",
+        "gt_name": "Trust-Seeking After-Service Prioritizer",
+        "gen_aspects": [
+          "customer service",
+          "exchange",
+          "support",
+          "return",
+          "hassle-free"
+        ],
+        "gt_aspects": [
+          "Shipping/Service",
+          "Price/Cost",
+          "Ease of Use",
+          "Performance/Specs",
+          "Design/Appearance"
+        ],
+        "topic_sim": 0.3734
+      }
+    ]
+  },
+  "summary": {
+    "matching_score": 0.47,
+    "validity_score": 0.725,
+    "topic_sim": 0.4276,
+    "dim_averages": {
+      "keyword_alignment": 0.6,
+      "value_alignment": 0.55,
+      "pain_alignment": 0.5,
+      "behavioral_alignment": 0.5,
+      "sentiment_alignment": 0.2
+    }
+  }
+}

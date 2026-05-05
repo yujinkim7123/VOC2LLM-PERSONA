@@ -1,0 +1,207 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP5_LDA_KMeans",
+  "method": "LDA_KMEANS",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2370,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Comfort-Driven Music Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP5_LDA_KMeans",
+      "keywords": [
+        "sound",
+        "music",
+        "like",
+        "play",
+        "quality",
+        "echo",
+        "speaker"
+      ],
+      "core_value": "This consumer values high-quality sound and an enjoyable music experience.",
+      "description": "Driven by a love of music, these consumers prioritize audio quality in smart devices. They look for products that enhance their listening experience.",
+      "motivation": "Their main drive is to find a device that offers exceptional sound quality for playing music.",
+      "pain_points": "Limited by products that don't meet their audio expectations or fail to deliver clear sound quality.",
+      "quote": "I just want a speaker that plays my music perfectly with great sound quality.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Keywords like 'sound', 'music', 'quality', 'great', and 'play' indicate a focus on positive sound experiences. Negative is minimal with words like 'want'."
+      },
+      "top_aspects": [
+        "sound",
+        "music",
+        "quality",
+        "echo",
+        "speaker"
+      ],
+      "co_aspects": {
+        "sound": [
+          "music",
+          "quality",
+          "speaker"
+        ],
+        "music": [
+          "sound",
+          "quality",
+          "play"
+        ],
+        "quality": [
+          "sound",
+          "music",
+          "speaker"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Frustrated Connectivity Seeker",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP5_LDA_KMeans",
+      "keywords": [
+        "thermostat",
+        "charge",
+        "nest",
+        "work",
+        "google",
+        "issue"
+      ],
+      "core_value": "This segment values seamless connectivity and integration with smart home devices.",
+      "description": "These consumers often face challenges with device integration and connectivity. They're familiar with smart technology but experience frustration with inconsistent connectivity.",
+      "motivation": "They need a reliable solution for connecting multiple smart home devices without issues.",
+      "pain_points": "Frequent connectivity issues and unreliable system integration cause significant frustration.",
+      "quote": "I often encounter issues trying to connect my devices smoothly.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.4,
+        "Negative": 0.4,
+        "_inference_note": "Keywords like 'work', 'issue', and 'google' suggest neutral to negative experiences, particularly with connectivity and integration problems."
+      },
+      "top_aspects": [
+        "thermostat",
+        "charge",
+        "nest",
+        "work",
+        "google"
+      ],
+      "co_aspects": {
+        "thermostat": [
+          "charge",
+          "nest",
+          "google"
+        ],
+        "charge": [
+          "thermostat",
+          "nest",
+          "google"
+        ],
+        "nest": [
+          "charge",
+          "thermostat",
+          "google"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Convenience-Oriented Gadget Lover",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP5_LDA_KMeans",
+      "keywords": [
+        "great",
+        "clock",
+        "google",
+        "smart",
+        "hub",
+        "use"
+      ],
+      "core_value": "These consumers appreciate ease of use and versatile functionality in smart devices.",
+      "description": "This group enjoys gadgets that simplify daily tasks and appreciate smart features. They seek devices that are both functional and fun to use.",
+      "motivation": "They are motivated by convenience and the ability to manage routines seamlessly with smart devices.",
+      "pain_points": "Complex setups or unintuitive interfaces can dampen their enthusiasm.",
+      "quote": "I love using my smart hub for everything from setting alarms to streaming music.",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Keywords 'great', 'smart', 'good', 'easy', and 'love' have strong positive valence, showing satisfaction with the product’s convenience."
+      },
+      "top_aspects": [
+        "great",
+        "google",
+        "smart",
+        "hub",
+        "use"
+      ],
+      "co_aspects": {
+        "great": [
+          "google",
+          "smart",
+          "use"
+        ],
+        "google": [
+          "great",
+          "smart",
+          "hub"
+        ],
+        "smart": [
+          "great",
+          "google",
+          "hub"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Value-Conscious Shopper",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP5_LDA_KMeans",
+      "keywords": [
+        "quality",
+        "great",
+        "good",
+        "price",
+        "buy",
+        "purchase"
+      ],
+      "core_value": "This segment focuses on getting the best value for their money, balancing price with functionality.",
+      "description": "These shoppers are meticulous about their purchases, seeking the best balance of cost and quality. They often compare options to ensure they are getting a good deal.",
+      "motivation": "Driven by finding high-quality products without breaking the bank.",
+      "pain_points": "Overpaying or not feeling a purchase was worth the expense.",
+      "quote": "I’m always on the lookout for great quality at a reasonable price.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.4,
+        "Negative": 0.1,
+        "_inference_note": "Positive sentiment signaled by 'great', 'good', 'quality', with neutral tones from 'price', 'buy' indicating evaluative considerations."
+      },
+      "top_aspects": [
+        "quality",
+        "great",
+        "price",
+        "buy",
+        "purchase"
+      ],
+      "co_aspects": {
+        "quality": [
+          "great",
+          "price",
+          "buy"
+        ],
+        "great": [
+          "quality",
+          "price",
+          "purchase"
+        ],
+        "price": [
+          "quality",
+          "great",
+          "buy"
+        ]
+      }
+    }
+  ]
+}

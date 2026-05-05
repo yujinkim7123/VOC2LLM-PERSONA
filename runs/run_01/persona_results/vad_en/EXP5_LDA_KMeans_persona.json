@@ -1,0 +1,238 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP5_LDA_KMeans",
+  "method": "LDA_KMEANS",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2370,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Quality-Conscious Smart Buyer",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP5_LDA_KMeans",
+      "keywords": [
+        "great",
+        "clock",
+        "good",
+        "work",
+        "love",
+        "smart",
+        "google"
+      ],
+      "core_value": "This consumer values high-quality sound and performance in smart devices at a great price.",
+      "description": "They are tech-savvy individuals who prioritize purchasing devices that deliver superior sound quality and great functionality. They seek products that are well-integrated with smart home ecosystems.",
+      "motivation": "They are driven by the desire for high-quality audio experiences and compatibility within their smart home setups.",
+      "pain_points": "Occasional concerns about price fairness may frustrate them.",
+      "quote": "I love how great the sound quality is, and it's perfect for my smart home needs.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "The predominant use of positive words like 'great', 'love', and 'good' indicates strong satisfaction, with a minor presence of neutral words."
+      },
+      "top_aspects": [
+        "sound",
+        "quality",
+        "google",
+        "smart",
+        "price"
+      ],
+      "co_aspects": {
+        "sound": [
+          "quality",
+          "google",
+          "smart"
+        ],
+        "quality": [
+          "sound",
+          "google",
+          "price"
+        ],
+        "google": [
+          "sound",
+          "quality",
+          "smart"
+        ],
+        "smart": [
+          "sound",
+          "google"
+        ],
+        "price": [
+          "quality"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Practical Feature-Seeker",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP5_LDA_KMeans",
+      "keywords": [
+        "thermostat",
+        "nest",
+        "work",
+        "google",
+        "set",
+        "buy",
+        "home"
+      ],
+      "core_value": "This consumer values the ability to integrate practical features like thermostats into their smart home.",
+      "description": "These users focus on practical features and how well products like smart thermostats function within their existing setups. They value ease of use and reliable integration.",
+      "motivation": "They are driven by the need for products that work seamlessly within their home environment and offer convenience.",
+      "pain_points": "Any difficulty in setup or connectivity issues could be potential frustrations.",
+      "quote": "The thermostat works great with Google and makes home management so easy!",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.35,
+        "Negative": 0.15,
+        "_inference_note": "Positive words such as 'work', 'easy', and keywords like 'buy' echo satisfaction. Some neutral keywords present a straightforward user experience focus."
+      },
+      "top_aspects": [
+        "thermostat",
+        "work",
+        "google",
+        "home",
+        "set"
+      ],
+      "co_aspects": {
+        "thermostat": [
+          "work",
+          "google"
+        ],
+        "work": [
+          "thermostat",
+          "google",
+          "home"
+        ],
+        "google": [
+          "thermostat",
+          "work",
+          "home"
+        ],
+        "home": [
+          "work",
+          "google"
+        ],
+        "set": [
+          "work",
+          "google"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Sound and Battery Advocate",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP5_LDA_KMeans",
+      "keywords": [
+        "airpod",
+        "charge",
+        "ear",
+        "work",
+        "good",
+        "sound",
+        "battery"
+      ],
+      "core_value": "This consumer values sound quality and battery life greatly.",
+      "description": "They are focused on the technical and practical aspects of their audio devices, prioritizing sound clarity and ensuring their devices have long-lasting battery life.",
+      "motivation": "They seek reliable products that enhance their listening experience and are resilient for prolonged use.",
+      "pain_points": "Chargers or cases that jeopardize battery performance can be irritating.",
+      "quote": "The sound is excellent and the battery lasts long enough for my daily use.",
+      "sentiment_ratio": {
+        "Positive": 0.55,
+        "Neutral": 0.35,
+        "Negative": 0.1,
+        "_inference_note": "Positive sentiment shown in words like 'good' and 'sound'; balanced by neutral terms reflecting practical use concerns."
+      },
+      "top_aspects": [
+        "sound",
+        "battery",
+        "charge",
+        "good",
+        "ear"
+      ],
+      "co_aspects": {
+        "sound": [
+          "battery",
+          "work",
+          "good"
+        ],
+        "battery": [
+          "sound",
+          "charge",
+          "work"
+        ],
+        "charge": [
+          "battery",
+          "ear"
+        ],
+        "good": [
+          "sound",
+          "work"
+        ],
+        "ear": [
+          "charge"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Apprehensive Early Adopter",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP5_LDA_KMeans",
+      "keywords": [
+        "work",
+        "stop",
+        "return",
+        "buy",
+        "month",
+        "apple",
+        "pod",
+        "time"
+      ],
+      "core_value": "Cautious about reliability and durability of tech gadgets.",
+      "description": "These consumers are anxious about technology performance, particularly concerned with functionality over time. They are enthusiastic but wary of products failing to meet expectations.",
+      "motivation": "They want reliable products but are quick to voice concerns if performance does not match initial promises.",
+      "pain_points": "Frequent functional issues or returns frustrate these users.",
+      "quote": "It worked wonderfully at first, but then issues started after a few months.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.3,
+        "Negative": 0.5,
+        "_inference_note": "Negative signals dominate with words like 'stop', 'return'; with neutral words indicating observation and experience tracking."
+      },
+      "top_aspects": [
+        "work",
+        "stop",
+        "return",
+        "buy",
+        "month"
+      ],
+      "co_aspects": {
+        "work": [
+          "stop",
+          "return",
+          "buy"
+        ],
+        "stop": [
+          "work",
+          "return"
+        ],
+        "return": [
+          "work",
+          "stop",
+          "buy"
+        ],
+        "buy": [
+          "work",
+          "return"
+        ],
+        "month": [
+          "work",
+          "buy"
+        ]
+      }
+    }
+  ]
+}

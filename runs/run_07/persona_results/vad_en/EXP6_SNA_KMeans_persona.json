@@ -1,0 +1,247 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP6_SNA_KMeans",
+  "method": "SNA_KMEANS",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2138,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Effortless Utility Seeker",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "charge",
+        "buy",
+        "time",
+        "easy",
+        "set",
+        "product",
+        "use"
+      ],
+      "core_value": "This consumer values ease of use and simplicity in their devices.",
+      "description": "They are practical users looking for a product that is easy to set up and use effectively. They appreciate when a device works seamlessly without much hassle.",
+      "motivation": "Their purchase decisions are driven by the need for a straightforward and hassle-free user experience.",
+      "pain_points": "Complex setup procedures or features that are not user-friendly frustrate them.",
+      "quote": "I just want a smart device that is easy to set up and works without constant tinkering.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Keywords like 'easy', 'love', and 'good' suggest a positive sentiment, while 'charge' indicates a possible pain point but is mostly neutral in this context."
+      },
+      "top_aspects": [
+        "charge",
+        "buy",
+        "time",
+        "easy",
+        "set"
+      ],
+      "co_aspects": {
+        "charge": [
+          "buy",
+          "time",
+          "easy"
+        ],
+        "buy": [
+          "charge",
+          "time",
+          "use"
+        ],
+        "time": [
+          "buy",
+          "set",
+          "use"
+        ],
+        "easy": [
+          "set",
+          "use",
+          "product"
+        ],
+        "set": [
+          "easy",
+          "use",
+          "like"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Smart Home Integrator",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "thermostat",
+        "nest",
+        "work",
+        "easy",
+        "buy",
+        "google"
+      ],
+      "core_value": "They appreciate seamless integration of smart home devices.",
+      "description": "These users are focused on creating a cohesive smart home environment. They value devices that work well with existing systems and enhance their living spaces.",
+      "motivation": "Their primary concern is how well the device integrates with other smart technologies and its ease of setup.",
+      "pain_points": "Incompatibility with other devices or complex setup routines are major concerns.",
+      "quote": "I need a smart thermostat that integrates easily with my Nest setup and enhances my smart home experience.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.4,
+        "Negative": 0.1,
+        "_inference_note": "The presence of 'easy', 'work', and 'good' indicates a generally positive sentiment with some neutral aspects like 'buy' and 'thermostat'."
+      },
+      "top_aspects": [
+        "thermostat",
+        "nest",
+        "work",
+        "easy",
+        "buy"
+      ],
+      "co_aspects": {
+        "thermostat": [
+          "nest",
+          "work",
+          "easy"
+        ],
+        "nest": [
+          "thermostat",
+          "work",
+          "google"
+        ],
+        "work": [
+          "thermostat",
+          "easy",
+          "google"
+        ],
+        "easy": [
+          "thermostat",
+          "work",
+          "home"
+        ],
+        "buy": [
+          "thermostat",
+          "google",
+          "good"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Alarm-Dependent Technophile",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "clock",
+        "smart",
+        "great",
+        "alarm",
+        "charge",
+        "phone"
+      ],
+      "core_value": "They highly value the integration of smart alarms in daily routines.",
+      "description": "These consumers rely on smart tech to organize and enhance their routines. They appreciate products that integrate advanced alarm functionalities.",
+      "motivation": "Their buying decisions are influenced by how effectively a device integrates alarms with other smart features.",
+      "pain_points": "Battery issues or alarm malfunctions are critical pain points.",
+      "quote": "I rely on a smart device that has a reliable alarm feature to start my day and manage reminders.",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "'Great', 'smart', and 'love' signal positivity, with 'charge' hinting at minor issues but mainly positive context around alarm and clock."
+      },
+      "top_aspects": [
+        "clock",
+        "smart",
+        "great",
+        "alarm",
+        "charge"
+      ],
+      "co_aspects": {
+        "clock": [
+          "smart",
+          "alarm",
+          "phone"
+        ],
+        "smart": [
+          "clock",
+          "great",
+          "alarm"
+        ],
+        "great": [
+          "clock",
+          "smart",
+          "alarm"
+        ],
+        "alarm": [
+          "clock",
+          "smart",
+          "phone"
+        ],
+        "charge": [
+          "clock",
+          "great",
+          "alarm"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Audiophile Bargain Hunter",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "good",
+        "sound",
+        "quality",
+        "great",
+        "price",
+        "picture"
+      ],
+      "core_value": "They prioritize high-quality audio at a reasonable price.",
+      "description": "This group seeks smart devices that offer superior audio quality while being budget-friendly. They are discerning about sound quality but also cost-conscious.",
+      "motivation": "A balance between audio performance and value for money drives their purchasing behavior.",
+      "pain_points": "Poor sound quality or overrated pricing are significant frustrations.",
+      "quote": "I’m looking for a smart speaker with excellent sound that doesn’t break the bank.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Words like 'great', 'love', and 'quality' suggest a positive sentiment. 'Price' and 'sound' are treated as neutral; they can imply budget awareness without negative connotation unless specified."
+      },
+      "top_aspects": [
+        "good",
+        "sound",
+        "quality",
+        "great",
+        "price"
+      ],
+      "co_aspects": {
+        "good": [
+          "sound",
+          "quality",
+          "great"
+        ],
+        "sound": [
+          "good",
+          "quality",
+          "price"
+        ],
+        "quality": [
+          "good",
+          "sound",
+          "great"
+        ],
+        "great": [
+          "good",
+          "quality",
+          "price"
+        ],
+        "price": [
+          "good",
+          "sound",
+          "quality"
+        ]
+      }
+    }
+  ]
+}

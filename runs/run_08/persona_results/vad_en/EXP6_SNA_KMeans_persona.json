@@ -1,0 +1,243 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP6_SNA_KMeans",
+  "method": "SNA_KMEANS",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2138,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Practical Tech Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "charge",
+        "buy",
+        "time",
+        "easy",
+        "set",
+        "product"
+      ],
+      "core_value": "Seamless integration and easy setup of devices.",
+      "description": "This group values the practical aspect of their devices, focusing on how easy they are to set up and use effectively. They appreciate products that are charged quickly and available when needed.",
+      "motivation": "Driven by a need for efficiency and seamless integration of technology in their daily life.",
+      "pain_points": "Any complication or difficulty in setting up the device is a source of frustration.",
+      "quote": "I love how easy it is to set up my device and start using it right away.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Most keywords are positive like 'love', 'good', and 'easy', with few neutral terms and minimal negative signals."
+      },
+      "top_aspects": [
+        "charge",
+        "buy",
+        "time",
+        "easy",
+        "set"
+      ],
+      "co_aspects": {
+        "charge": [
+          "buy",
+          "time",
+          "easy"
+        ],
+        "buy": [
+          "charge",
+          "easy",
+          "set"
+        ],
+        "time": [
+          "charge",
+          "easy",
+          "use"
+        ],
+        "easy": [
+          "charge",
+          "buy",
+          "use"
+        ],
+        "set": [
+          "buy",
+          "easy",
+          "use"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Smart Home Integrator",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "thermostat",
+        "nest",
+        "work",
+        "easy",
+        "buy"
+      ],
+      "core_value": "Creating a cohesive smart home ecosystem.",
+      "description": "These consumers are focused on building a smart home environment. They value devices that work well with others in their existing system, particularly well-known brands like 'Nest'.",
+      "motivation": "They are motivated by the desire to improve their home environment with smart technology.",
+      "pain_points": "Compatibility issues or products not meeting smart home integration expectations can be disappointing.",
+      "quote": "The thermostat setup was easy and integrates perfectly with my other smart devices.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.4,
+        "Negative": 0.1,
+        "_inference_note": "Keywords such as 'good', 'easy', and 'smart' imply positive feelings, with an acknowledgment of neutral experiences."
+      },
+      "top_aspects": [
+        "thermostat",
+        "nest",
+        "work",
+        "easy",
+        "buy"
+      ],
+      "co_aspects": {
+        "thermostat": [
+          "nest",
+          "work",
+          "easy"
+        ],
+        "nest": [
+          "thermostat",
+          "work",
+          "google"
+        ],
+        "work": [
+          "thermostat",
+          "nest",
+          "easy"
+        ],
+        "easy": [
+          "thermostat",
+          "work",
+          "buy"
+        ],
+        "buy": [
+          "thermostat",
+          "easy",
+          "google"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Disappointed Early Adopter",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "work",
+        "stop",
+        "month",
+        "buy",
+        "issue"
+      ],
+      "core_value": "Reliability of products over time.",
+      "description": "This group initially embraces new technology but quickly becomes disillusioned with products that exhibit reliability issues after short usage.",
+      "motivation": "They are excited by new technology but demand reliability and longevity from their devices.",
+      "pain_points": "Frequent technical issues and devices that fail after a few months frustrate them.",
+      "quote": "After just a month, the device stopped working, which was really disappointing.",
+      "sentiment_ratio": {
+        "Positive": 0.1,
+        "Neutral": 0.4,
+        "Negative": 0.5,
+        "_inference_note": "Keywords like 'stop', 'issue', and 'return' highlight predominant negative sentiments."
+      },
+      "top_aspects": [
+        "work",
+        "stop",
+        "month",
+        "buy",
+        "issue"
+      ],
+      "co_aspects": {
+        "work": [
+          "buy",
+          "month",
+          "issue"
+        ],
+        "stop": [
+          "work",
+          "buy",
+          "issue"
+        ],
+        "month": [
+          "work",
+          "stop",
+          "issue"
+        ],
+        "buy": [
+          "work",
+          "stop",
+          "month"
+        ],
+        "issue": [
+          "work",
+          "stop",
+          "month"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Aesthetic Sound Seeker",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "good",
+        "sound",
+        "quality",
+        "great",
+        "price"
+      ],
+      "core_value": "High-quality sound and visual aesthetics at a reasonable price.",
+      "description": "These consumers place great importance on the auditory and visual experience. They seek out devices that provide excellent sound quality and are visually pleasing.",
+      "motivation": "They are driven by the desire for an enhanced media experience that both sounds and looks great.",
+      "pain_points": "Overpriced products that do not deliver on quality expectations frustrate them.",
+      "quote": "The sound quality is great, and the price makes it a fantastic deal.",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Overwhelmingly positive keywords like 'great', 'quality', and 'good' suggest a generally positive sentiment."
+      },
+      "top_aspects": [
+        "good",
+        "sound",
+        "quality",
+        "great",
+        "price"
+      ],
+      "co_aspects": {
+        "good": [
+          "sound",
+          "quality",
+          "great"
+        ],
+        "sound": [
+          "good",
+          "quality",
+          "price"
+        ],
+        "quality": [
+          "good",
+          "sound",
+          "price"
+        ],
+        "great": [
+          "good",
+          "sound",
+          "quality"
+        ],
+        "price": [
+          "sound",
+          "quality",
+          "great"
+        ]
+      }
+    }
+  ]
+}

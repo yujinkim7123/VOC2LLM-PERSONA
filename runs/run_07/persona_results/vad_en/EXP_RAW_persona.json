@@ -1,0 +1,159 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP_RAW",
+  "method": "RAW_REVIEW_INJECTION",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_reviews_injected": 200,
+  "run_seed": 91,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Frustrated Tech Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP_RAW",
+      "keywords": [
+        "Google Nest",
+        "Wi-Fi issues",
+        "support",
+        "functionality",
+        "disconnected"
+      ],
+      "core_value": "A seamless and reliable smart home experience.",
+      "description": "These consumers are tech-savvy individuals who value innovation but are often left frustrated due to frequent connectivity and functionality issues with their smart devices. They have high expectations but are disappointed by recurring technical glitches.",
+      "motivation": "The desire for a smart living environment that integrates seamlessly with their existing tech ecosystem.",
+      "pain_points": "Frequent technical issues like Wi-Fi disconnection and inadequate customer support lead to dissatisfaction.",
+      "quote": "The device works great when it actually stays connected, but I'm constantly battling with Wi-Fi issues and poor support.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.2,
+        "Negative": 0.6,
+        "_inference_note": "There is prevalent frustration and disappointment in reviews, with many negative comments on the device's connectivity and support but some acknowledgment of potential and occasional proper functioning."
+      },
+      "top_aspects": [
+        "connectivity",
+        "support",
+        "functionality",
+        "Wi-Fi",
+        "reliability"
+      ],
+      "co_aspects": {
+        "Wi-Fi": [
+          "support",
+          "functionality"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Practical Value Seeker",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP_RAW",
+      "keywords": [
+        "price",
+        "features",
+        "easy setup",
+        "value",
+        "functionality"
+      ],
+      "core_value": "Good value for money with functional benefits.",
+      "description": "These consumers prioritize practical benefits and ease of use over cutting-edge technology. They appreciate straightforward setup and reliable basic features.",
+      "motivation": "Finding products that offer useful features at a compelling price point.",
+      "pain_points": "Occasional feature limitations, such as missing functionalities or slight technical inconveniences.",
+      "quote": "I love that it's easy to use and does what I need it to do, especially for the price I paid.",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "The majority of reviews express positive sentiments regarding value and functionality, with only minor complaints about specific missing features."
+      },
+      "top_aspects": [
+        "ease of use",
+        "setup",
+        "value",
+        "features",
+        "price"
+      ],
+      "co_aspects": {
+        "price": [
+          "features",
+          "ease of use"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Style and Aesthetics Lover",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP_RAW",
+      "keywords": [
+        "design",
+        "screen",
+        "sleek",
+        "display",
+        "speaker"
+      ],
+      "core_value": "Aesthetic appeal and pleasing design in tech products.",
+      "description": "These consumers are drawn to products that not only function well but also enhance the visual appeal of their living spaces. They often focus on design, display quality, and the overall look of the device.",
+      "motivation": "Enhancing home decor with stylish technology that's both functional and visually pleasing.",
+      "pain_points": "Occasional frustrations with functional limitations despite the aesthetic appeal.",
+      "quote": "The design is beautiful, and it looks great in my living room, but I sometimes wish it had better functionality.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Consumers appreciate design and style with positive sentiments primarily focused on aesthetics; minimal negative feedback relates only to expanded functionality."
+      },
+      "top_aspects": [
+        "design",
+        "screen",
+        "appearance",
+        "aesthetics",
+        "display"
+      ],
+      "co_aspects": {
+        "screen": [
+          "design",
+          "display"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Skeptical Feature-Driven Buyer",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP_RAW",
+      "keywords": [
+        "features",
+        "expectation",
+        "disappointment",
+        "functionality",
+        "incompatibility"
+      ],
+      "core_value": "Optimizing device functionality through feature-rich experiences.",
+      "description": "These consumers focus heavily on product features and are often initially excited about prospective functionalities but frequently encounter disappointment when the product does not perform as promised.",
+      "motivation": "Finding devices that offer the latest features and meet high expectations for performance.",
+      "pain_points": "Disappointment from unmet expectations and feature failures, sometimes leading to returns or replacements.",
+      "quote": "Started with high hopes for all the features, but ended up being disappointed as they did not work as expected.",
+      "sentiment_ratio": {
+        "Positive": 0.3,
+        "Neutral": 0.2,
+        "Negative": 0.5,
+        "_inference_note": "Excitement and hope are evident in initial stages; however, negative sentiments dominate due to frequent disappointment in actual versus promised functionality."
+      },
+      "top_aspects": [
+        "features",
+        "performance",
+        "expectation",
+        "quality",
+        "reliability"
+      ],
+      "co_aspects": {
+        "features": [
+          "performance",
+          "quality"
+        ]
+      }
+    }
+  ]
+}

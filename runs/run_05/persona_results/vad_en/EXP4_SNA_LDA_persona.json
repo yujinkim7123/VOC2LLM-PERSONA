@@ -1,0 +1,242 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP4_SNA_LDA",
+  "method": "SNA_LDA",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2370,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Music-Focused Alexa User",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP4_SNA_LDA",
+      "keywords": [
+        "music",
+        "play",
+        "alexa",
+        "echo",
+        "home"
+      ],
+      "core_value": "This segment values seamless music playback and integration with their home devices.",
+      "description": "These users primarily use their smart devices to play music through Alexa-enabled products. They appreciate easy integration with their home systems and the ability to control their environment via voice commands.",
+      "motivation": "Their purchase decisions are driven by the desire for convenience in controlling home audio and other connected devices effortlessly.",
+      "pain_points": "They may encounter occasional issues with device connectivity or integration with other systems.",
+      "quote": "I love using Alexa to play my favorite music throughout my home.",
+      "sentiment_ratio": {
+        "Positive": 0.4,
+        "Neutral": 0.4,
+        "Negative": 0.2,
+        "_inference_note": "Presence of terms like 'work well' and 'want' suggest mixed experiences, with positive use cases ('alexa', 'music') and potential concerns about functionality ('home', 'work')."
+      },
+      "top_aspects": [
+        "music",
+        "alexa",
+        "echo",
+        "home",
+        "work"
+      ],
+      "co_aspects": {
+        "music": [
+          "alexa",
+          "play",
+          "echo"
+        ],
+        "alexa": [
+          "echo",
+          "home",
+          "play"
+        ],
+        "echo": [
+          "music",
+          "home",
+          "play"
+        ],
+        "home": [
+          "alexa",
+          "echo",
+          "work"
+        ],
+        "work": [
+          "music",
+          "echo",
+          "home"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Sound Quality Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP4_SNA_LDA",
+      "keywords": [
+        "great",
+        "sound",
+        "quality",
+        "product",
+        "love"
+      ],
+      "core_value": "Sound quality and product excellence are paramount for this consumer segment.",
+      "description": "These consumers are audiophiles who highly value the sound quality of their smart speakers and displays. They often praise the product's sound performance and have a strong brand loyalty.",
+      "motivation": "The immersive audio experience and superior sound quality are key motivators for these buyers.",
+      "pain_points": "They may be sensitive to any dips in sound performance or when products do not meet the expected audio standards.",
+      "quote": "The sound quality of this product is just fantastic; I absolutely love it!",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Words like 'great', 'good', 'sound', 'quality' are strongly positive, indicating satisfaction with the product's audio performance."
+      },
+      "top_aspects": [
+        "sound",
+        "quality",
+        "product",
+        "love",
+        "good"
+      ],
+      "co_aspects": {
+        "sound": [
+          "quality",
+          "product",
+          "great"
+        ],
+        "quality": [
+          "sound",
+          "product",
+          "good"
+        ],
+        "product": [
+          "sound",
+          "quality",
+          "love"
+        ],
+        "love": [
+          "great",
+          "sound",
+          "quality"
+        ],
+        "good": [
+          "sound",
+          "quality",
+          "product"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Smart Home Integration Seeker",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP4_SNA_LDA",
+      "keywords": [
+        "nest",
+        "google",
+        "thermostat",
+        "home",
+        "device"
+      ],
+      "core_value": "Integration with other smart home devices is this segment's top priority.",
+      "description": "These users focus on compatibility and integration of their smart devices with existing home ecosystems, particularly Google-enabled products.",
+      "motivation": "The ability to create a seamless smart home environment with compatible devices is their main purchase driver.",
+      "pain_points": "They might struggle with compatibility issues or require additional support for installation and configuration.",
+      "quote": "Having my Google devices work together seamlessly makes managing my home a breeze.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.3,
+        "Negative": 0.2,
+        "_inference_note": "Terms like 'support', 'buy', 'install' suggest positive integration experiences but also hint at potential difficulties."
+      },
+      "top_aspects": [
+        "nest",
+        "google",
+        "thermostat",
+        "home",
+        "device"
+      ],
+      "co_aspects": {
+        "nest": [
+          "google",
+          "thermostat",
+          "home"
+        ],
+        "google": [
+          "nest",
+          "device",
+          "home"
+        ],
+        "thermostat": [
+          "google",
+          "nest",
+          "device"
+        ],
+        "home": [
+          "nest",
+          "google",
+          "device"
+        ],
+        "device": [
+          "nest",
+          "home",
+          "thermostat"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Pragmatic User with Connectivity Concerns",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP4_SNA_LDA",
+      "keywords": [
+        "work",
+        "return",
+        "connect",
+        "issue",
+        "stop"
+      ],
+      "core_value": "Reliability and ongoing performance are crucial for these consumers.",
+      "description": "These consumers generally use their devices regularly but are often challenged by connectivity issues and device performance inconsistency.",
+      "motivation": "While they appreciate the initial functionality, ongoing issues and the need for reliable operation influence their views and purchase decisions.",
+      "pain_points": "Frequent connectivity problems and the inconvenience of dealing with returns and exchanges are major sources of frustration.",
+      "quote": "The device worked well initially but started having connection issues, and I’m considering returning it.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.3,
+        "Negative": 0.5,
+        "_inference_note": "Presence of negative keywords like 'return', 'connect', 'issue', and 'stop' indicate significant frustration with device performance."
+      },
+      "top_aspects": [
+        "work",
+        "return",
+        "connect",
+        "issue",
+        "stop"
+      ],
+      "co_aspects": {
+        "work": [
+          "return",
+          "connect",
+          "issue"
+        ],
+        "return": [
+          "connect",
+          "issue",
+          "stop"
+        ],
+        "connect": [
+          "work",
+          "return",
+          "issue"
+        ],
+        "issue": [
+          "return",
+          "connect",
+          "stop"
+        ],
+        "stop": [
+          "connect",
+          "issue",
+          "work"
+        ]
+      }
+    }
+  ]
+}

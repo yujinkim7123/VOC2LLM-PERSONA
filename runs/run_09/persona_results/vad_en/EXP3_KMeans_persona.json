@@ -1,0 +1,166 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP3_KMeans",
+  "method": "KMEANS_TFIDF",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2370,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Home Automation Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP3_KMeans",
+      "keywords": [
+        "thermostat",
+        "nest",
+        "work",
+        "learn",
+        "easy",
+        "install"
+      ],
+      "core_value": "Seamless integration with smart home systems and ease of use.",
+      "description": "These users emphasize the importance of smart home devices, focusing on products like thermostats that enhance home automation. They prioritize straightforward installation and functionality that aligns well with Google's ecosystem.",
+      "motivation": "To create a convenient and efficient home environment through reliable smart devices.",
+      "pain_points": "Devices that are difficult to install or do not integrate well with other smart home systems.",
+      "quote": "Installing the Nest thermostat was a breeze, and it works perfectly with my Google Home.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Positive sentiment from 'easy', 'learn', 'great'; neutral from 'work', 'install'; slight negative from 'buy' as potential cost concern."
+      },
+      "top_aspects": [
+        "thermostat",
+        "nest",
+        "work",
+        "learn",
+        "install"
+      ],
+      "co_aspects": {
+        "thermostat": [
+          "nest",
+          "work",
+          "learn"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Quality-Conscious Audio-Visual Lover",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP3_KMeans",
+      "keywords": [
+        "great",
+        "sound",
+        "quality",
+        "love",
+        "price",
+        "samsung"
+      ],
+      "core_value": "Excellent audio-visual quality at a fair price.",
+      "description": "This persona is focused on the sound and picture quality of their smart devices, often highlighting brands like Samsung. They value products that offer great performance for the price.",
+      "motivation": "To enjoy superior entertainment experiences with clarity and crisp sound.",
+      "pain_points": "Sub-par sound or picture quality, or devices that do not live up to the brand's reputation.",
+      "quote": "The sound quality on this Samsung speaker is incredible for the price.",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Positive from 'great', 'love', 'perfect'; neutral sentiment from 'price', 'quality'; slight negative inferred from generic product comparisons."
+      },
+      "top_aspects": [
+        "sound",
+        "quality",
+        "price",
+        "picture",
+        "samsung"
+      ],
+      "co_aspects": {
+        "sound": [
+          "quality",
+          "love",
+          "price"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Smart Alarm Clock Advocate",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP3_KMeans",
+      "keywords": [
+        "clock",
+        "smart",
+        "alarm",
+        "charge",
+        "wireless",
+        "lenovo"
+      ],
+      "core_value": "Multifunctional devices that simplify morning routines.",
+      "description": "These individuals prioritize devices that serve multiple functions, such as smart alarm clocks that charge devices wirelessly and seamlessly integrate into a daily routine.",
+      "motivation": "To streamline wake-up routines and minimize clutter with multifunctional gadgets.",
+      "pain_points": "Charging capabilities that fail or require additional accessories.",
+      "quote": "My Lenovo smart clock charges my phone wirelessly every night—it's brilliant!",
+      "sentiment_ratio": {
+        "Positive": 0.65,
+        "Neutral": 0.25,
+        "Negative": 0.1,
+        "_inference_note": "Positive sentiment from 'great', 'love', 'wireless'; neutral from 'smart', 'alarm'; slight negative inferred from 'charge' regarding reliability concerns."
+      },
+      "top_aspects": [
+        "clock",
+        "smart",
+        "alarm",
+        "wireless",
+        "charge"
+      ],
+      "co_aspects": {
+        "clock": [
+          "smart",
+          "alarm",
+          "wireless"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Cautious Tech Buyer",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP3_KMeans",
+      "keywords": [
+        "work",
+        "stop",
+        "month",
+        "week",
+        "return",
+        "buy"
+      ],
+      "core_value": "Reliability and longevity in tech purchases.",
+      "description": "These buyers approach technology purchases carefully, often worrying about the longevity and reliability of their devices. They are driven by concerns over devices working consistently over time.",
+      "motivation": "To invest in devices that perform reliably over a long period without needing returns or replacements.",
+      "pain_points": "Products that stop working after a short period or require frequent returns.",
+      "quote": "I want a device that lasts more than a few months without issues.",
+      "sentiment_ratio": {
+        "Positive": 0.1,
+        "Neutral": 0.3,
+        "Negative": 0.6,
+        "_inference_note": "Negative sentiment from 'stop', 'return', 'month'; neutral from 'work', 'buy'; very slight positive inferred from 'good', 'great' in context of expectations."
+      },
+      "top_aspects": [
+        "work",
+        "stop",
+        "month",
+        "week",
+        "return"
+      ],
+      "co_aspects": {
+        "work": [
+          "stop",
+          "month",
+          "return"
+        ]
+      }
+    }
+  ]
+}

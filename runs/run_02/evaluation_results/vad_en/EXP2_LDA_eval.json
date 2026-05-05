@@ -1,0 +1,193 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP2_LDA",
+  "method": "LDA",
+  "lang": "en",
+  "judge": {
+    "judge_matrix": [
+      [
+        0.18,
+        0.22,
+        0.12,
+        0.58
+      ],
+      [
+        0.4,
+        0.2,
+        0.06,
+        0.22
+      ],
+      [
+        0.22,
+        0.32,
+        0.5,
+        0.0
+      ],
+      [
+        0.06,
+        0.5,
+        0.24,
+        0.0
+      ]
+    ],
+    "best_mapping": [
+      {
+        "gen_name": "Frustrated Early Adopter",
+        "gt_name": "The Disillusioned Early Adopter",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.7,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.7,
+        "matching_score": 0.58,
+        "validity_score": 0.7,
+        "reasoning": "Generated attributes partially overlap with reference, but lack specific durability focus.",
+        "success": true
+      },
+      {
+        "gen_name": "Sound Quality Enthusiast",
+        "gt_name": "The Wireless Audio Pursuer",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.4,
+        "validity_score": 1.0,
+        "reasoning": "Generated keywords diverge; pain points differ; sentiments misaligned.",
+        "success": false
+      },
+      {
+        "gen_name": "Value-Conscious Smart Home Admirer",
+        "gt_name": "The Practical Value Seeker",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.5,
+        "matching_score": 0.5,
+        "validity_score": 1.0,
+        "reasoning": "Some alignment in values; keywords partially matched; sentiment off.",
+        "success": true
+      },
+      {
+        "gen_name": "Tech-Savvy Home Manager",
+        "gt_name": "The Smart Home Integrator",
+        "keyword_alignment": 0.3,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.7,
+        "matching_score": 0.5,
+        "validity_score": 0.7,
+        "reasoning": "Keywords differ; partial value and pain match. Slightly valid grounding.",
+        "success": true
+      }
+    ],
+    "matching_score": 0.495,
+    "validity_score": 0.85,
+    "mean_all_matching": 0.2388,
+    "dim_averages": {
+      "keyword_alignment": 0.45,
+      "value_alignment": 0.6,
+      "pain_alignment": 0.45,
+      "behavioral_alignment": 0.5,
+      "sentiment_alignment": 0.475
+    },
+    "n_success": 3,
+    "mapping_success_rate": 0.75
+  },
+  "topic_sim_result": {
+    "topic_sim": 0.3502,
+    "pair_details": [
+      {
+        "gen_name": "Frustrated Early Adopter",
+        "gt_name": "The Disillusioned Early Adopter",
+        "gen_aspects": [
+          "work",
+          "stop",
+          "return",
+          "buy",
+          "apple"
+        ],
+        "gt_aspects": [
+          "Durability",
+          "Defective",
+          "Charging",
+          "Connectivity",
+          "Quality"
+        ],
+        "topic_sim": 0.258
+      },
+      {
+        "gen_name": "Sound Quality Enthusiast",
+        "gt_name": "The Wireless Audio Pursuer",
+        "gen_aspects": [
+          "airpod",
+          "charge",
+          "ear",
+          "work",
+          "good"
+        ],
+        "gt_aspects": [
+          "Sound",
+          "Connectivity",
+          "Price",
+          "Configuration",
+          "Size"
+        ],
+        "topic_sim": 0.3753
+      },
+      {
+        "gen_name": "Value-Conscious Smart Home Admirer",
+        "gt_name": "The Practical Value Seeker",
+        "gen_aspects": [
+          "great",
+          "clock",
+          "good",
+          "work",
+          "smart"
+        ],
+        "gt_aspects": [
+          "Price",
+          "Clock",
+          "Configuration",
+          "Convenience",
+          "Smart Assistant"
+        ],
+        "topic_sim": 0.4042
+      },
+      {
+        "gen_name": "Tech-Savvy Home Manager",
+        "gt_name": "The Smart Home Integrator",
+        "gen_aspects": [
+          "thermostat",
+          "nest",
+          "work",
+          "google",
+          "set"
+        ],
+        "gt_aspects": [
+          "Smart Assistant",
+          "Clock",
+          "Connectivity",
+          "Configuration",
+          "Convenience"
+        ],
+        "topic_sim": 0.3633
+      }
+    ]
+  },
+  "summary": {
+    "matching_score": 0.495,
+    "validity_score": 0.85,
+    "topic_sim": 0.3502,
+    "dim_averages": {
+      "keyword_alignment": 0.45,
+      "value_alignment": 0.6,
+      "pain_alignment": 0.45,
+      "behavioral_alignment": 0.5,
+      "sentiment_alignment": 0.475
+    }
+  }
+}

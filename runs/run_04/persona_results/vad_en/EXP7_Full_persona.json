@@ -1,0 +1,178 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP7_Full",
+  "method": "SNA_LDA_KMEANS",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2138,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Quality-Conscious Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP7_Full",
+      "keywords": [
+        "quality",
+        "easy",
+        "music",
+        "alarm",
+        "love",
+        "device",
+        "good"
+      ],
+      "core_value": "This consumer values high-quality, easy-to-use devices that enhance their daily life.",
+      "description": "These consumers are tech enthusiasts who appreciate smart devices that are both functional and of high quality. They enjoy using features like music and alarm functions and express affection toward their devices.",
+      "motivation": "They are driven by a desire to own leading technology that is reliable and enhances daily routines.",
+      "pain_points": "They get frustrated when the device setup is not straightforward or when the quality does not meet their standards.",
+      "quote": "I love how easy it is to use this device and the quality is just top-notch!",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Keywords like 'love', 'good', 'easy', and 'quality' indicate positive sentiment, with minor complaints about setup leading to a small negative sentiment."
+      },
+      "top_aspects": [
+        "quality",
+        "easy",
+        "music",
+        "alarm",
+        "device"
+      ],
+      "co_aspects": {
+        "quality": [
+          "easy",
+          "device"
+        ],
+        "music": [
+          "alarm"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Value-Seeking Pragmatist",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP7_Full",
+      "keywords": [
+        "price",
+        "purchase",
+        "great",
+        "feature",
+        "set",
+        "home",
+        "thermostat"
+      ],
+      "core_value": "They prioritize cost-effectiveness and practical features in their device purchases.",
+      "description": "These users are pragmatic buyers looking for good deals. They focus on the price and practical features that support their daily functions, such as smart home integration and thermostat control.",
+      "motivation": "Their decisions are driven by the need to balance value with functionality, ensuring good purchase decisions.",
+      "pain_points": "Overpricing or lacking certain practical features can lead to dissatisfaction for them.",
+      "quote": "The features are great for the price, and it fits well into my home's setup.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "The presence of 'great', 'home', and 'thermostat' shows positive sentiment, with some neutral mentions of 'price' and 'set', and minor negatives about pricing."
+      },
+      "top_aspects": [
+        "price",
+        "purchase",
+        "feature",
+        "home",
+        "thermostat"
+      ],
+      "co_aspects": {
+        "price": [
+          "purchase",
+          "feature"
+        ],
+        "home": [
+          "thermostat"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Functionality-Focused User",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP7_Full",
+      "keywords": [
+        "work",
+        "problem",
+        "issue",
+        "connect",
+        "support",
+        "app",
+        "device"
+      ],
+      "core_value": "They value reliable, functional devices that work seamlessly without issues.",
+      "description": "These consumers use their devices primarily for their practical functionalities. They often face connectivity issues and rely heavily on support and app features.",
+      "motivation": "Driven by the need for seamless connectivity and reliable performance in their day-to-day activities.",
+      "pain_points": "Connectivity problems and the need for frequent support solutions can hinder their satisfaction.",
+      "quote": "When the device works well, it's perfect, but connectivity issues can be frustrating.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.4,
+        "Negative": 0.4,
+        "_inference_note": "The presence of 'problem', 'issue', and 'connect' indicate significant negative sentiment, balanced by neutral work-related mentions."
+      },
+      "top_aspects": [
+        "work",
+        "problem",
+        "issue",
+        "connect",
+        "support"
+      ],
+      "co_aspects": {
+        "work": [
+          "problem",
+          "connect"
+        ],
+        "issue": [
+          "support"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Visual Gadget Lover",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP7_Full",
+      "keywords": [
+        "screen",
+        "display",
+        "picture",
+        "look",
+        "smart",
+        "good",
+        "time"
+      ],
+      "core_value": "They appreciate aesthetically pleasing devices with impressive visual displays.",
+      "description": "These consumers are drawn to devices with high-quality screens and design. They value the aesthetic and visual clarity, often focusing on the display aspects.",
+      "motivation": "The desire for visually appealing gadgets with smart features influences their purchases.",
+      "pain_points": "A poor-quality display or unsatisfactory visual design can diminish their interest.",
+      "quote": "The display is amazing and it looks great on my shelf!",
+      "sentiment_ratio": {
+        "Positive": 0.8,
+        "Neutral": 0.1,
+        "Negative": 0.1,
+        "_inference_note": "Keywords such as 'amazing', 'great', and 'good' strongly indicate positive sentiment with some minor complaints about 'look'."
+      },
+      "top_aspects": [
+        "screen",
+        "display",
+        "picture",
+        "look",
+        "smart"
+      ],
+      "co_aspects": {
+        "screen": [
+          "display",
+          "picture"
+        ],
+        "look": [
+          "smart"
+        ]
+      }
+    }
+  ]
+}

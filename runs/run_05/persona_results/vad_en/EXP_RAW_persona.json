@@ -1,0 +1,176 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP_RAW",
+  "method": "RAW_REVIEW_INJECTION",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_reviews_injected": 200,
+  "run_seed": 77,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Quality Seeker",
+      "category": "Smart Speakers & Displays",
+      "data_source": "vad_en_EXP_RAW",
+      "keywords": [
+        "amazing sound",
+        "impressive features",
+        "update firmware",
+        "connects flawlessly",
+        "easy installation"
+      ],
+      "core_value": "Prioritizes sound quality and seamless integration into existing ecosystems.",
+      "description": "These consumers are primarily focused on enhancing their audio experience with products that seamlessly integrate with their existing smart home setups. They often mention advanced sound features and ease of use.",
+      "motivation": "Motivated by a desire for high-quality audio and impressive device functionality within a smart home ecosystem.",
+      "pain_points": "Frustrations stem from products not living up to their sound quality expectations or connectivity promises.",
+      "quote": "The sound quality is outstanding and it works great at parties.",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "These reviews are full of praise for sound quality and integration but occasionally mention minor setup issues."
+      },
+      "top_aspects": [
+        "sound quality",
+        "ease of use",
+        "connectivity",
+        "features",
+        "installation"
+      ],
+      "co_aspects": {
+        "sound quality": [
+          "features",
+          "connectivity",
+          "installation"
+        ],
+        "features": [
+          "connectivity",
+          "ease of use"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Cautious Critics",
+      "category": "Smart Speakers & Displays",
+      "data_source": "vad_en_EXP_RAW",
+      "keywords": [
+        "user-friendly",
+        "expectations",
+        "functionality",
+        "design flaw",
+        "sound issues"
+      ],
+      "core_value": "Seeks value in functionality and ease of use, but often finds shortcomings.",
+      "description": "These users are skeptical and cautious, quick to point out device flaws or areas that do not meet their expectations. They value usability and are particularly vocal about design and sound discrepancies.",
+      "motivation": "They seek devices that are intuitive and meet their performance expectations without compromises.",
+      "pain_points": "Common issues include non-intuitive interfaces, unexplained features, and disappointing sound quality.",
+      "quote": "I was expecting more from the sound, it was muddy and lacked crispness.",
+      "sentiment_ratio": {
+        "Positive": 0.3,
+        "Neutral": 0.3,
+        "Negative": 0.4,
+        "_inference_note": "The tone is generally critical, with an emphasis on disappointing features or design flaws."
+      },
+      "top_aspects": [
+        "functionality",
+        "usability",
+        "sound issues",
+        "design",
+        "interface"
+      ],
+      "co_aspects": {
+        "functionality": [
+          "usability",
+          "interface"
+        ],
+        "design": [
+          "usability",
+          "sound issues"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Discount Devotees",
+      "category": "Smart Speakers & Displays",
+      "data_source": "vad_en_EXP_RAW",
+      "keywords": [
+        "great deal",
+        "on sale",
+        "value for money",
+        "affordable",
+        "recommend"
+      ],
+      "core_value": "Focuses on getting the best possible value for money with discounted or sale items.",
+      "description": "These consumers are deal-oriented, often purchasing products on sale and emphasizing value over top-tier quality or features. They are willing to compromise some aspects for lower cost.",
+      "motivation": "Driven by cost-effectiveness and the desire to maximize value from discounted purchases.",
+      "pain_points": "May experience issues related to functionality but often see these as trade-offs for reduced price.",
+      "quote": "Perfect gift for $29 on sale, bought 3 of them for Christmas.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Reviews often highlight satisfaction related to cost savings, with limited negative feedback."
+      },
+      "top_aspects": [
+        "value for money",
+        "deals",
+        "affordability",
+        "recommendation",
+        "functionality"
+      ],
+      "co_aspects": {
+        "value for money": [
+          "deals",
+          "affordability"
+        ],
+        "recommendation": [
+          "deals",
+          "affordability"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Techie Troubleshooters",
+      "category": "Smart Speakers & Displays",
+      "data_source": "vad_en_EXP_RAW",
+      "keywords": [
+        "connectivity issues",
+        "troubleshooting",
+        "tech support",
+        "setup difficulties",
+        "glitches"
+      ],
+      "core_value": "Desires advanced technological capabilities but often encounters and reports product glitches.",
+      "description": "These tech-savvy users encounter frequent connectivity and technical issues and are often actively involved in troubleshooting and seeking solutions. They expect advanced tech capabilities but are often met with technical difficulties.",
+      "motivation": "Driven by a love for technology and a desire to optimize device functionality despite frequent struggles.",
+      "pain_points": "They experience persistent technical and connectivity issues that hinder device performance.",
+      "quote": "The hub is not working well with my next front door camera. It freezes and goes offline.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.4,
+        "Negative": 0.4,
+        "_inference_note": "Reviews highlight multiple technical issues and frustrations, suggesting deep-seated dissatisfaction."
+      },
+      "top_aspects": [
+        "connectivity",
+        "troubleshooting",
+        "tech support",
+        "setup",
+        "glitches"
+      ],
+      "co_aspects": {
+        "connectivity": [
+          "troubleshooting",
+          "glitches"
+        ],
+        "setup": [
+          "troubleshooting",
+          "tech support"
+        ]
+      }
+    }
+  ]
+}

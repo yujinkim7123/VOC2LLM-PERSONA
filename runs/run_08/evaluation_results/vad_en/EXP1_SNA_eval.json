@@ -1,0 +1,193 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP1_SNA",
+  "method": "SNA_LOUVAIN",
+  "lang": "en",
+  "judge": {
+    "judge_matrix": [
+      [
+        0.32,
+        0.12,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.54,
+        0.12,
+        0.0
+      ],
+      [
+        0.06,
+        0.46,
+        0.68,
+        0.06
+      ],
+      [
+        0.54,
+        0.28,
+        0.46,
+        0.38
+      ]
+    ],
+    "best_mapping": [
+      {
+        "gen_name": "Music Enthusiast Alexa User",
+        "gt_name": "The Wireless Audio Pursuer",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.32,
+        "validity_score": 0.7,
+        "reasoning": "Keywords partially overlap; core value and pain points differ; sentiment misaligned.",
+        "success": false
+      },
+      {
+        "gen_name": "Tech-Savvy Device Adopter",
+        "gt_name": "The Smart Home Integrator",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.7,
+        "matching_score": 0.54,
+        "validity_score": 0.7,
+        "reasoning": "Partial alignment with keywords, values; weak behavioral match.",
+        "success": true
+      },
+      {
+        "gen_name": "Pragmatic Clock User",
+        "gt_name": "The Practical Value Seeker",
+        "keyword_alignment": 0.7,
+        "value_alignment": 0.5,
+        "pain_alignment": 1.0,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.7,
+        "matching_score": 0.68,
+        "validity_score": 1.0,
+        "reasoning": "Keywords and pain aligned, values and sentiment partially match.",
+        "success": true
+      },
+      {
+        "gen_name": "Value-Conscious Buyer With Issues",
+        "gt_name": "The Disillusioned Early Adopter",
+        "keyword_alignment": 0.3,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.3,
+        "matching_score": 0.38,
+        "validity_score": 0.7,
+        "reasoning": "Generated content mostly misses key reference themes and sentiment ratio.",
+        "success": false
+      }
+    ],
+    "matching_score": 0.48,
+    "validity_score": 0.775,
+    "mean_all_matching": 0.2513,
+    "dim_averages": {
+      "keyword_alignment": 0.5,
+      "value_alignment": 0.6,
+      "pain_alignment": 0.525,
+      "behavioral_alignment": 0.35,
+      "sentiment_alignment": 0.425
+    },
+    "n_success": 2,
+    "mapping_success_rate": 0.5
+  },
+  "topic_sim_result": {
+    "topic_sim": 0.3902,
+    "pair_details": [
+      {
+        "gen_name": "Music Enthusiast Alexa User",
+        "gt_name": "The Wireless Audio Pursuer",
+        "gen_aspects": [
+          "music",
+          "alexa",
+          "amazon",
+          "play",
+          "listen"
+        ],
+        "gt_aspects": [
+          "Sound",
+          "Connectivity",
+          "Price",
+          "Configuration",
+          "Size"
+        ],
+        "topic_sim": 0.3602
+      },
+      {
+        "gen_name": "Tech-Savvy Device Adopter",
+        "gt_name": "The Smart Home Integrator",
+        "gen_aspects": [
+          "google",
+          "nest",
+          "home",
+          "device",
+          "app"
+        ],
+        "gt_aspects": [
+          "Smart Assistant",
+          "Clock",
+          "Connectivity",
+          "Configuration",
+          "Convenience"
+        ],
+        "topic_sim": 0.3436
+      },
+      {
+        "gen_name": "Pragmatic Clock User",
+        "gt_name": "The Practical Value Seeker",
+        "gen_aspects": [
+          "clock",
+          "smart",
+          "screen",
+          "alarm",
+          "display"
+        ],
+        "gt_aspects": [
+          "Price",
+          "Clock",
+          "Configuration",
+          "Convenience",
+          "Smart Assistant"
+        ],
+        "topic_sim": 0.4737
+      },
+      {
+        "gen_name": "Value-Conscious Buyer With Issues",
+        "gt_name": "The Disillusioned Early Adopter",
+        "gen_aspects": [
+          "work",
+          "connect",
+          "issue",
+          "purchase",
+          "return"
+        ],
+        "gt_aspects": [
+          "Durability",
+          "Defective",
+          "Charging",
+          "Connectivity",
+          "Quality"
+        ],
+        "topic_sim": 0.3832
+      }
+    ]
+  },
+  "summary": {
+    "matching_score": 0.48,
+    "validity_score": 0.775,
+    "topic_sim": 0.3902,
+    "dim_averages": {
+      "keyword_alignment": 0.5,
+      "value_alignment": 0.6,
+      "pain_alignment": 0.525,
+      "behavioral_alignment": 0.35,
+      "sentiment_alignment": 0.425
+    }
+  }
+}

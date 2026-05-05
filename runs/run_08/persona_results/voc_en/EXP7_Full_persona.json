@@ -1,0 +1,210 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP7_Full",
+  "method": "SNA_LDA_KMEANS",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_docs": 868,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Performance-Driven Enthusiast",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP7_Full",
+      "keywords": [
+        "performance",
+        "quality",
+        "premium",
+        "buy",
+        "trust",
+        "review",
+        "experience"
+      ],
+      "core_value": "This consumer segment values high performance and quality in home appliances.",
+      "description": "They are detail-oriented buyers who focus on the performance aspects of the products they purchase. Their reviews often highlight quality, trust in the brand, and a premium user experience.",
+      "motivation": "Their primary motive for purchasing is to obtain a high-performing and reliable product that justifies the premium price.",
+      "pain_points": "They may experience frustration if the product fails to meet advertised performance standards.",
+      "quote": "I bought this because I trust the brand, and I am delighted with the performance and quality!",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.25,
+        "Negative": 0.05,
+        "_inference_note": "Keywords like 'performance', 'quality', 'premium', and 'trust' suggest strong positive sentiment. 'Buy', 'review', and 'experience' are neutral, and there's minimal negative signal."
+      },
+      "top_aspects": [
+        "performance",
+        "quality",
+        "premium",
+        "trust",
+        "experience"
+      ],
+      "co_aspects": {
+        "performance": [
+          "quality",
+          "premium",
+          "trust"
+        ],
+        "premium": [
+          "quality",
+          "performance",
+          "trust"
+        ],
+        "trust": [
+          "quality",
+          "performance",
+          "premium"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Value-Seeking Practical Buyer",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP7_Full",
+      "keywords": [
+        "price",
+        "buy",
+        "use",
+        "product",
+        "want",
+        "choose",
+        "standard"
+      ],
+      "core_value": "This segment focuses on getting good value for money and practical use.",
+      "description": "These consumers are practical buyers who place importance on the price and utility of a product. They carefully evaluate the cost-to-benefit ratio before making a purchase decision.",
+      "motivation": "Their main motivation is to purchase a product that balances cost with practical features and quality.",
+      "pain_points": "They can be frustrated if the product does not live up to their expectations of value for money.",
+      "quote": "I'm looking for a good product that meets my needs without breaking the bank.",
+      "sentiment_ratio": {
+        "Positive": 0.4,
+        "Neutral": 0.5,
+        "Negative": 0.1,
+        "_inference_note": "Neutral terms like 'price', 'buy', 'use', and 'product' dominate, with some positive signals from 'want' and 'choose', and little negativity."
+      },
+      "top_aspects": [
+        "price",
+        "product",
+        "use",
+        "choose",
+        "standard"
+      ],
+      "co_aspects": {
+        "price": [
+          "buy",
+          "use",
+          "product"
+        ],
+        "choose": [
+          "price",
+          "standard",
+          "product"
+        ],
+        "product": [
+          "price",
+          "use",
+          "choose"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Design-Focused Aesthetic Shopper",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP7_Full",
+      "keywords": [
+        "design",
+        "color",
+        "look",
+        "pretty",
+        "brand",
+        "beautiful",
+        "feel"
+      ],
+      "core_value": "This segment prioritizes the aesthetic appeal and design of home appliances.",
+      "description": "These are consumers who appreciate style and design. Their purchasing decisions are heavily influenced by how aesthetically pleasing a product is.",
+      "motivation": "They are driven by the desire to have elegantly designed appliances that enhance the visual appeal of their homes.",
+      "pain_points": "They may be disappointed if promised design elements are not reflected in the actual product.",
+      "quote": "I love the way this looks in my kitchen; it's as beautiful as it is functional!",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Strong positive sentiment with words like 'design', 'pretty', 'beautiful', and 'look'. Neutral sentiment present in 'color' and 'brand'."
+      },
+      "top_aspects": [
+        "design",
+        "color",
+        "look",
+        "brand",
+        "feel"
+      ],
+      "co_aspects": {
+        "design": [
+          "color",
+          "look",
+          "brand"
+        ],
+        "look": [
+          "design",
+          "pretty",
+          "color"
+        ],
+        "brand": [
+          "design",
+          "color",
+          "look"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Technical Detail-Oriented Analyst",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP7_Full",
+      "keywords": [
+        "spec",
+        "measure",
+        "file",
+        "datum",
+        "repair",
+        "measurement",
+        "issue"
+      ],
+      "core_value": "This consumer segment values technical specifications and details in products.",
+      "description": "They are methodical and interested in the technical specifications of products. They often delve into the finer details like measurements and repairs.",
+      "motivation": "Their motivation is to own appliances that have precise specifications and meet their technical requirements.",
+      "pain_points": "Issues with measurements and technical details not matching their expectations can lead to dissatisfaction.",
+      "quote": "I choose products based on detailed specifications and accurate measurements; any deviation is a dealbreaker.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.5,
+        "Negative": 0.3,
+        "_inference_note": "Neutral sentiment prevalent with words like 'spec', 'measure', and 'datum', balanced by some negative sentiment from 'issue' and 'repair'."
+      },
+      "top_aspects": [
+        "spec",
+        "measure",
+        "repair",
+        "datum",
+        "issue"
+      ],
+      "co_aspects": {
+        "spec": [
+          "measure",
+          "datum",
+          "repair"
+        ],
+        "measure": [
+          "spec",
+          "datum",
+          "issue"
+        ],
+        "repair": [
+          "spec",
+          "issue",
+          "measure"
+        ]
+      }
+    }
+  ]
+}

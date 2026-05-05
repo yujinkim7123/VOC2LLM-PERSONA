@@ -1,0 +1,179 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP_RAW",
+  "method": "RAW_REVIEW_INJECTION",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_reviews_injected": 200,
+  "run_seed": 56,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Frustrated Set-up Challengers",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP_RAW",
+      "keywords": [
+        "setup",
+        "difficult",
+        "frustrating",
+        "trouble",
+        "problem"
+      ],
+      "core_value": "They value ease of setup and user-friendly interfaces.",
+      "description": "These are users who struggle with setting up their new virtual assistant devices, often leading to dissatisfaction and frustration. They expect seamless integration and clear instructions but often face technical hurdles.",
+      "motivation": "They are looking for smart devices that are straightforward to set up and easy to integrate into their existing smart home systems.",
+      "pain_points": "Frequently encounter problems during the setup process, lack of clear instructions, and inadequate customer support.",
+      "quote": "Why must it be so difficult? I am a retired IT specialist and understand technical things but this is AWFUL.",
+      "sentiment_ratio": {
+        "Positive": 0.0,
+        "Neutral": 0.2,
+        "Negative": 0.8,
+        "_inference_note": "The reviews indicate high frustration and complaints about setup difficulties, reflecting a predominantly negative sentiment."
+      },
+      "top_aspects": [
+        "setup",
+        "instructions",
+        "support",
+        "integration",
+        "compatibility"
+      ],
+      "co_aspects": {
+        "setup": [
+          "instructions",
+          "support",
+          "integration"
+        ],
+        "support": [
+          "instructions",
+          "compatibility"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Sound Enthusiasts",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP_RAW",
+      "keywords": [
+        "sound quality",
+        "music",
+        "audio",
+        "volume",
+        "listening"
+      ],
+      "core_value": "They prioritize superior sound quality in their virtual assistant devices.",
+      "description": "These consumers predominantly focus on the audio performance of their devices. They often discuss sound clarity, bass, and the device's volume capabilities.",
+      "motivation": "Their main focus is on using the device for music and other audio experiences, demanding high-quality sound output.",
+      "pain_points": "Disappointment with inconsistent sound quality or volume issues.",
+      "quote": "The sound is great and it connected easily so far. I turned the volume all the way and could hear it when I walked outside my front door.",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Predominantly positive sentiment with praise for sound quality, although some mention of volume issues indicates slight negativity."
+      },
+      "top_aspects": [
+        "sound quality",
+        "audio",
+        "volume",
+        "music",
+        "listening"
+      ],
+      "co_aspects": {
+        "sound quality": [
+          "music",
+          "audio",
+          "volume"
+        ],
+        "audio": [
+          "volume",
+          "music"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Display Fanatics",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP_RAW",
+      "keywords": [
+        "screen",
+        "display",
+        "picture",
+        "visual",
+        "quality"
+      ],
+      "core_value": "They appreciate devices with high-quality displays and visual capabilities.",
+      "description": "These users are inclined towards visual aesthetics and the screen quality of their virtual assistant devices, often using them for media viewing and in-room decoration.",
+      "motivation": "They seek devices that provide an enjoyable visual experience, appreciating clear and vibrant displays.",
+      "pain_points": "Issues with screen fragility or reliance on being plugged in to function.",
+      "quote": "The Google Nest Hub is amazing. You can watch a picture frame of your favorite photos, listen to music, watch Netflix and listen to the news.",
+      "sentiment_ratio": {
+        "Positive": 0.65,
+        "Neutral": 0.25,
+        "Negative": 0.1,
+        "_inference_note": "Largely positive with admiration for display quality and aesthetics, but some concerns about durability and practicality."
+      },
+      "top_aspects": [
+        "screen",
+        "display",
+        "picture",
+        "quality",
+        "visual"
+      ],
+      "co_aspects": {
+        "screen": [
+          "display",
+          "picture",
+          "quality"
+        ],
+        "display": [
+          "visual",
+          "quality"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Tech Value Seekers",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP_RAW",
+      "keywords": [
+        "price",
+        "value",
+        "cost",
+        "budget",
+        "affordable"
+      ],
+      "core_value": "They emphasize getting the most value for their money with cost-effective technology solutions.",
+      "description": "These buyers are primarily motivated by the affordability and perceived value of their devices, often comparing prices and features before purchase.",
+      "motivation": "They are budget-conscious consumers looking for cost savings without sacrificing essential features.",
+      "pain_points": "Lack of functionality or unexpected issues that require spending more money than planned.",
+      "quote": "It's worth it y'all. It's big. I actually thought it was a medium size but it's large. The sound is great and it connected easily so far.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Mainly positive with emphasis on value and affordability, though some worry about feature limitations."
+      },
+      "top_aspects": [
+        "price",
+        "value",
+        "affordable",
+        "budget",
+        "cost"
+      ],
+      "co_aspects": {
+        "price": [
+          "value",
+          "cost",
+          "budget"
+        ],
+        "affordable": [
+          "value",
+          "cost"
+        ]
+      }
+    }
+  ]
+}

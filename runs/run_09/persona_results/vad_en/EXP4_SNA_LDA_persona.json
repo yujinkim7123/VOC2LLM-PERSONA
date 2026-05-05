@@ -1,0 +1,206 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP4_SNA_LDA",
+  "method": "SNA_LDA",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2370,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Music-Lover Amazon User",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP4_SNA_LDA",
+      "keywords": [
+        "music",
+        "play",
+        "alexa",
+        "echo",
+        "amazon",
+        "home"
+      ],
+      "core_value": "This consumer values a seamless music experience with Alexa at home.",
+      "description": "This persona is an avid music lover who uses Alexa to play music and control their smart home environment. They likely have a preference for Amazon products and enjoy integrating them into their daily routines.",
+      "motivation": "The need for a reliable smart assistant that enhances their home entertainment experience.",
+      "pain_points": "Potential frustrations could include Alexa not responding to play commands accurately.",
+      "quote": "I love using Alexa to play my favorite tunes while working around the house.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Positive from 'well', 'work', 'want'; some Neutral keywords like 'music', 'play' and slight Negative thinking from 'item'."
+      },
+      "top_aspects": [
+        "music",
+        "play",
+        "alexa",
+        "echo",
+        "amazon"
+      ],
+      "co_aspects": {
+        "music": [
+          "play",
+          "alexa",
+          "home"
+        ],
+        "alexa": [
+          "play",
+          "echo",
+          "work"
+        ],
+        "echo": [
+          "amazon",
+          "home",
+          "well"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Sound Quality Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP4_SNA_LDA",
+      "keywords": [
+        "great",
+        "good",
+        "sound",
+        "quality",
+        "love",
+        "product"
+      ],
+      "core_value": "This consumer values high-quality audio performance from their devices.",
+      "description": "This persona prioritizes sound quality in their smart speakers and appreciates products that deliver clear and robust audio. They are likely to have great things to say about a product with excellent sound output.",
+      "motivation": "A desire for exceptional audio experiences from their smart devices.",
+      "pain_points": "Poor sound quality and inferior performance compared to expectations.",
+      "quote": "The sound quality is fantastic, and I love having it in every room.",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Positive heavily backed by 'great', 'good', 'love'; Neutral with 'work', 'need'; slight Negative implied by a lack of explicit dissatisfaction terms."
+      },
+      "top_aspects": [
+        "sound",
+        "quality",
+        "great",
+        "good",
+        "love"
+      ],
+      "co_aspects": {
+        "sound": [
+          "quality",
+          "great",
+          "love"
+        ],
+        "quality": [
+          "sound",
+          "product",
+          "good"
+        ],
+        "love": [
+          "great",
+          "sound",
+          "quality"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Smart Clock Seeker",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP4_SNA_LDA",
+      "keywords": [
+        "clock",
+        "charge",
+        "alarm",
+        "screen",
+        "smart",
+        "light"
+      ],
+      "core_value": "This consumer is on the lookout for a multifunctional smart clock that enhances daily routine.",
+      "description": "This persona seeks a smart clock with additional features like alarms and display screens. They are drawn to products that offer convenience in monitoring time and additional smart capabilities.",
+      "motivation": "The desire to have a reliable alarm clock that also integrates smart device functionalities.",
+      "pain_points": "Incompatibility or issues with device synchronization or charging.",
+      "quote": "I needed a smart clock that also displays easy-to-read notifications.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.4,
+        "Negative": 0.1,
+        "_inference_note": "Positive indicated by 'great', 'smart'; Neutral with 'clock', 'alarm', 'screen'; slight Negative with potential 'charge' issues."
+      },
+      "top_aspects": [
+        "clock",
+        "charge",
+        "alarm",
+        "screen",
+        "smart"
+      ],
+      "co_aspects": {
+        "clock": [
+          "alarm",
+          "smart",
+          "screen"
+        ],
+        "screen": [
+          "light",
+          "smart",
+          "clock"
+        ],
+        "alarm": [
+          "clock",
+          "screen",
+          "charge"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Disappointed Troubleshooter",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP4_SNA_LDA",
+      "keywords": [
+        "work",
+        "buy",
+        "return",
+        "stop",
+        "connect",
+        "issue"
+      ],
+      "core_value": "This consumer is seeking reliable connectivity and consistent device performance.",
+      "description": "This persona is likely frustrated with inconsistent performance and connectivity issues, resulting in returns or exchanges. They value stability and reliability in their smart devices.",
+      "motivation": "Ensuring their device works consistently without interruptions.",
+      "pain_points": "Connectivity problems and frequent device malfunctions.",
+      "quote": "I've had to return it due to constant connectivity issues.",
+      "sentiment_ratio": {
+        "Positive": 0.1,
+        "Neutral": 0.3,
+        "Negative": 0.6,
+        "_inference_note": "Negative sentiment is clear from 'return', 'stop', 'issue'; some Neutral with 'work', 'buy'; few Positive if any are hinted."
+      },
+      "top_aspects": [
+        "work",
+        "buy",
+        "return",
+        "stop",
+        "connect"
+      ],
+      "co_aspects": {
+        "return": [
+          "stop",
+          "issue",
+          "connect"
+        ],
+        "work": [
+          "connect",
+          "buy",
+          "return"
+        ],
+        "connect": [
+          "stop",
+          "issue",
+          "work"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP3_KMeans",
+  "method": "KMEANS_TFIDF",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2370,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Efficient Home Integrator",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP3_KMeans",
+      "keywords": [
+        "thermostat",
+        "nest",
+        "work",
+        "learn",
+        "easy",
+        "install",
+        "google"
+      ],
+      "core_value": "This consumer values seamless and efficient integration of smart home devices.",
+      "description": "These consumers are tech-savvy individuals who prioritize the ease of installation and smart learning capabilities of virtual assistant devices to integrate seamlessly with their home systems.",
+      "motivation": "They are driven by the desire to enhance home comfort and energy efficiency through technology.",
+      "pain_points": "They may encounter issues if the setup is not straightforward or doesn't work as advertised.",
+      "quote": "Installing the Nest thermostat was super easy and it works great with my Google Home!",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Predominantly positive words like 'easy', 'work', 'google' with minor neutral terms like 'install'."
+      },
+      "top_aspects": [
+        "thermostat",
+        "nest",
+        "work",
+        "learn",
+        "install"
+      ],
+      "co_aspects": {
+        "thermostat": [
+          "nest",
+          "work",
+          "learn"
+        ],
+        "nest": [
+          "thermostat",
+          "google",
+          "install"
+        ],
+        "work": [
+          "nest",
+          "learn",
+          "google"
+        ],
+        "learn": [
+          "thermostat",
+          "work",
+          "easy"
+        ],
+        "install": [
+          "easy",
+          "buy",
+          "nest"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Quality and Value Seeker",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP3_KMeans",
+      "keywords": [
+        "great",
+        "sound",
+        "quality",
+        "love",
+        "price",
+        "picture",
+        "samsung"
+      ],
+      "core_value": "This consumer segment values high-quality audio-visual experiences at a great price.",
+      "description": "These consumers focus on obtaining the best sound and picture quality in virtual assistant devices, emphasizing brands like Samsung.",
+      "motivation": "Their motivation centers on enjoying excellent audio-visual performance for the price they pay.",
+      "pain_points": "Any discrepancy between promised quality and actual performance leads to dissatisfaction.",
+      "quote": "The sound quality on my Samsung speaker is perfect, especially for the price!",
+      "sentiment_ratio": {
+        "Positive": 0.8,
+        "Neutral": 0.2,
+        "Negative": 0.0,
+        "_inference_note": "The presence of overwhelmingly positive keywords like 'great', 'quality', and 'love' indicate high satisfaction."
+      },
+      "top_aspects": [
+        "sound",
+        "quality",
+        "picture",
+        "samsung",
+        "price"
+      ],
+      "co_aspects": {
+        "sound": [
+          "quality",
+          "great",
+          "love"
+        ],
+        "quality": [
+          "sound",
+          "picture",
+          "great"
+        ],
+        "picture": [
+          "quality",
+          "samsung",
+          "great"
+        ],
+        "samsung": [
+          "great",
+          "sound",
+          "quality"
+        ],
+        "price": [
+          "great",
+          "quality",
+          "love"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Connected Gadget Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP3_KMeans",
+      "keywords": [
+        "clock",
+        "smart",
+        "alarm",
+        "wireless",
+        "lenovo",
+        "charger",
+        "google"
+      ],
+      "core_value": "This consumer values the convenience and novelty of interconnected smart gadgets.",
+      "description": "These consumers enjoy exploring innovative smart products and appreciate features like wireless charging and alarm integration.",
+      "motivation": "They are driven by the convenience of integrating multiple functionalities into one device.",
+      "pain_points": "Integration issues or lack of intuitive controls can detract from their experience.",
+      "quote": "My Lenovo smart clock with Google integration is perfect for keeping my mornings on track!",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.3,
+        "Negative": 0.0,
+        "_inference_note": "The presence of positive keywords like 'great', 'smart', and 'love' show a generally positive sentiment."
+      },
+      "top_aspects": [
+        "clock",
+        "smart",
+        "alarm",
+        "wireless",
+        "charger"
+      ],
+      "co_aspects": {
+        "clock": [
+          "smart",
+          "alarm",
+          "google"
+        ],
+        "smart": [
+          "clock",
+          "alarm",
+          "wireless"
+        ],
+        "alarm": [
+          "smart",
+          "clock",
+          "charger"
+        ],
+        "wireless": [
+          "charger",
+          "smart",
+          "lenovo"
+        ],
+        "charger": [
+          "wireless",
+          "smart",
+          "google"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Pragmatic Device User",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP3_KMeans",
+      "keywords": [
+        "work",
+        "stop",
+        "month",
+        "week",
+        "return",
+        "good",
+        "great",
+        "fine"
+      ],
+      "core_value": "This consumer segment values reliability and longevity in their devices.",
+      "description": "These consumers have a practical approach and emphasize consistent performance over time.",
+      "motivation": "Their primary concern is the device's ability to perform reliably over an extended period.",
+      "pain_points": "Experiencing device failures or malfunctions after a short time leads to frustration and returns.",
+      "quote": "The device was great when it worked, but it stopped after a few months, leading me to return it.",
+      "sentiment_ratio": {
+        "Positive": 0.3,
+        "Neutral": 0.3,
+        "Negative": 0.4,
+        "_inference_note": "Keywords like 'return', 'stop', and time-related terms like 'week' and 'month' indicate negative sentiment, balanced with some positivity like 'good' and 'great'."
+      },
+      "top_aspects": [
+        "work",
+        "stop",
+        "month",
+        "week",
+        "return"
+      ],
+      "co_aspects": {
+        "work": [
+          "stop",
+          "good",
+          "great"
+        ],
+        "stop": [
+          "work",
+          "return",
+          "month"
+        ],
+        "month": [
+          "week",
+          "work",
+          "return"
+        ],
+        "week": [
+          "month",
+          "stop",
+          "fine"
+        ],
+        "return": [
+          "stop",
+          "work",
+          "month"
+        ]
+      }
+    }
+  ]
+}

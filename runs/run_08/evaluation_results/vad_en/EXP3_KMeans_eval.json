@@ -1,0 +1,193 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP3_KMeans",
+  "method": "KMEANS_TFIDF",
+  "lang": "en",
+  "judge": {
+    "judge_matrix": [
+      [
+        0.06,
+        0.58,
+        0.26,
+        0.0
+      ],
+      [
+        0.36,
+        0.06,
+        0.18,
+        0.0
+      ],
+      [
+        0.32,
+        0.42,
+        0.42,
+        0.06
+      ],
+      [
+        0.22,
+        0.18,
+        0.38,
+        0.54
+      ]
+    ],
+    "best_mapping": [
+      {
+        "gen_name": "Home Automation Enthusiast",
+        "gt_name": "The Smart Home Integrator",
+        "keyword_alignment": 0.3,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.7,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.7,
+        "matching_score": 0.58,
+        "validity_score": 0.7,
+        "reasoning": "Keywords differ; values, pain points, and sentiment partly align; decent grounding.",
+        "success": true
+      },
+      {
+        "gen_name": "Audiophile Bargain Hunter",
+        "gt_name": "The Wireless Audio Pursuer",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.36,
+        "validity_score": 0.7,
+        "reasoning": "Generated focus on price causes weak alignment in pains and behavior.",
+        "success": false
+      },
+      {
+        "gen_name": "Smart Productivity Seeker",
+        "gt_name": "The Practical Value Seeker",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.3,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.7,
+        "matching_score": 0.42,
+        "validity_score": 0.7,
+        "reasoning": "Misalignment in values, pain points, and behavior; partial keyword and sentiment match.",
+        "success": false
+      },
+      {
+        "gen_name": "Budget-Conscious Reviewer",
+        "gt_name": "The Disillusioned Early Adopter",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.7,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.3,
+        "matching_score": 0.54,
+        "validity_score": 0.7,
+        "reasoning": "Keywords partially match; core values and pain points mostly align.",
+        "success": true
+      }
+    ],
+    "matching_score": 0.475,
+    "validity_score": 0.7,
+    "mean_all_matching": 0.2525,
+    "dim_averages": {
+      "keyword_alignment": 0.45,
+      "value_alignment": 0.6,
+      "pain_alignment": 0.5,
+      "behavioral_alignment": 0.4,
+      "sentiment_alignment": 0.425
+    },
+    "n_success": 2,
+    "mapping_success_rate": 0.5
+  },
+  "topic_sim_result": {
+    "topic_sim": 0.4047,
+    "pair_details": [
+      {
+        "gen_name": "Home Automation Enthusiast",
+        "gt_name": "The Smart Home Integrator",
+        "gen_aspects": [
+          "thermostat",
+          "nest",
+          "google",
+          "install",
+          "work"
+        ],
+        "gt_aspects": [
+          "Smart Assistant",
+          "Clock",
+          "Connectivity",
+          "Configuration",
+          "Convenience"
+        ],
+        "topic_sim": 0.3482
+      },
+      {
+        "gen_name": "Audiophile Bargain Hunter",
+        "gt_name": "The Wireless Audio Pursuer",
+        "gen_aspects": [
+          "great",
+          "sound",
+          "quality",
+          "price",
+          "samsung"
+        ],
+        "gt_aspects": [
+          "Sound",
+          "Connectivity",
+          "Price",
+          "Configuration",
+          "Size"
+        ],
+        "topic_sim": 0.5378
+      },
+      {
+        "gen_name": "Smart Productivity Seeker",
+        "gt_name": "The Practical Value Seeker",
+        "gen_aspects": [
+          "clock",
+          "smart",
+          "alarm",
+          "wireless",
+          "lenovo"
+        ],
+        "gt_aspects": [
+          "Price",
+          "Clock",
+          "Configuration",
+          "Convenience",
+          "Smart Assistant"
+        ],
+        "topic_sim": 0.4269
+      },
+      {
+        "gen_name": "Budget-Conscious Reviewer",
+        "gt_name": "The Disillusioned Early Adopter",
+        "gen_aspects": [
+          "work",
+          "stop",
+          "return",
+          "good",
+          "great"
+        ],
+        "gt_aspects": [
+          "Durability",
+          "Defective",
+          "Charging",
+          "Connectivity",
+          "Quality"
+        ],
+        "topic_sim": 0.3058
+      }
+    ]
+  },
+  "summary": {
+    "matching_score": 0.475,
+    "validity_score": 0.7,
+    "topic_sim": 0.4047,
+    "dim_averages": {
+      "keyword_alignment": 0.45,
+      "value_alignment": 0.6,
+      "pain_alignment": 0.5,
+      "behavioral_alignment": 0.4,
+      "sentiment_alignment": 0.425
+    }
+  }
+}

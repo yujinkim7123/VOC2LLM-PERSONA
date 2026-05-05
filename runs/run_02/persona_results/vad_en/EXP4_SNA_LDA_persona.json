@@ -1,0 +1,183 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP4_SNA_LDA",
+  "method": "SNA_LDA",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2370,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Music Enthusiast Amazon User",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP4_SNA_LDA",
+      "keywords": [
+        "music",
+        "play",
+        "alexa",
+        "echo",
+        "work",
+        "amazon",
+        "home"
+      ],
+      "core_value": "This consumer values seamless integration of music services with virtual assistants.",
+      "description": "This persona frequently uses their virtual assistant for music and entertainment purposes, primarily using Alexa with their Echo device. They enjoy how well it works within their home setup and appreciate Amazon's services.",
+      "motivation": "They are motivated by the convenience of voice-activated music playback and the variety of entertainment options available through their device.",
+      "pain_points": "Issues with device compatibility or setting up multiple devices could be frustrating.",
+      "quote": "I love using Alexa to play my favorite songs throughout the house!",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Positive sentiment inferred from 'well', 'want', 'work'; neutral from 'play', 'home'; minor negative inferred from absence of complaints."
+      },
+      "top_aspects": [
+        "music",
+        "play",
+        "alexa",
+        "echo",
+        "amazon"
+      ],
+      "co_aspects": {
+        "music": [
+          "play",
+          "alexa"
+        ],
+        "alexa": [
+          "amazon",
+          "home"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Quality-Focused Sound Lover",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP4_SNA_LDA",
+      "keywords": [
+        "great",
+        "good",
+        "sound",
+        "work",
+        "quality",
+        "love",
+        "clock"
+      ],
+      "core_value": "This consumer segment prioritizes high-quality sound output from their smart devices.",
+      "description": "These users are enthused about the audio quality of their device, frequently noting how great the sound is. They love products that meet their high standards of audio fidelity and enjoy additional features like clocks.",
+      "motivation": "Their purchase decisions are driven by superior sound quality and additional functionality that enhances everyday use.",
+      "pain_points": "Potential pain points include dissatisfaction with products that don't meet sound quality expectations.",
+      "quote": "The sound quality is fantastic, just what I was hoping for!",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Positive signals from 'great', 'good', 'love'; neutral from 'work', 'like'; minimal negative implied through lack of specific complaints."
+      },
+      "top_aspects": [
+        "great",
+        "sound",
+        "quality",
+        "work",
+        "product"
+      ],
+      "co_aspects": {
+        "sound": [
+          "quality",
+          "love"
+        ],
+        "quality": [
+          "great",
+          "product"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Tech-Savvy Home Automator",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP4_SNA_LDA",
+      "keywords": [
+        "nest",
+        "google",
+        "thermostat",
+        "home",
+        "unit",
+        "support",
+        "instal"
+      ],
+      "core_value": "They value integrating smart technology into their home for improved convenience and efficiency.",
+      "description": "This persona involves tech-savvy consumers who invest in smart thermostats and home automation systems. They are familiar with brands like Nest and Google and often install these units themselves.",
+      "motivation": "They are driven by the desire to enhance their home's efficiency and control it via smart technology.",
+      "pain_points": "Potential issues can arise with device support or installation, which can be frustrating for those less familiar with the systems.",
+      "quote": "I've transformed my home into a smart hub with the Nest thermostat and Google support!",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.4,
+        "Negative": 0.1,
+        "_inference_note": "Positive from 'buy', 'support'; neutral from 'unit', 'home'; small negative from 'instal' suggesting some setup challenges."
+      },
+      "top_aspects": [
+        "nest",
+        "google",
+        "thermostat",
+        "home",
+        "unit"
+      ],
+      "co_aspects": {
+        "nest": [
+          "google",
+          "support"
+        ],
+        "thermostat": [
+          "home",
+          "instal"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Frustrated Reliant Buyer",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP4_SNA_LDA",
+      "keywords": [
+        "work",
+        "buy",
+        "month",
+        "time",
+        "return",
+        "stop",
+        "connect",
+        "issue"
+      ],
+      "core_value": "This segment values reliability and consistent performance from their devices.",
+      "description": "These consumers often experience technical issues with their devices, leading to a reliance on returns and exchanges. They emphasize consistent functionality and express frustration when devices stop working.",
+      "motivation": "They are motivated by reliable performance and are quick to address malfunctions through returns.",
+      "pain_points": "Frequent issues with connectivity and device functionality cause significant frustration and inconvenience.",
+      "quote": "I'm tired of returning products that stop working after just a few months!",
+      "sentiment_ratio": {
+        "Positive": 0.1,
+        "Neutral": 0.4,
+        "Negative": 0.5,
+        "_inference_note": "Negative sentiment indicated by 'return', 'stop', 'issue'; neutral suggested by 'work', 'buy'; very little positive presence."
+      },
+      "top_aspects": [
+        "work",
+        "buy",
+        "return",
+        "connect",
+        "issue"
+      ],
+      "co_aspects": {
+        "return": [
+          "issue",
+          "stop"
+        ],
+        "connect": [
+          "work",
+          "issue"
+        ]
+      }
+    }
+  ]
+}

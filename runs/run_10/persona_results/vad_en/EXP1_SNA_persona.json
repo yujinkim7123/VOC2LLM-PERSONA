@@ -1,0 +1,232 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP1_SNA",
+  "method": "SNA_LOUVAIN",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2370,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Music Enthusiast Alexa User",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP1_SNA",
+      "keywords": [
+        "music",
+        "want",
+        "play",
+        "echo",
+        "alexa",
+        "amazon",
+        "listen"
+      ],
+      "core_value": "This consumer values seamless music integration in their smart home setup.",
+      "description": "These users are deeply integrated into the Amazon ecosystem and love using Alexa to play music effortlessly. They're likely to focus on Alexa's ability to enhance their music experience at home.",
+      "motivation": "They are driven by a desire for easy access to music and the ability to control playback through voice commands.",
+      "pain_points": "They may get frustrated if music playback controls are not responsive or if Alexa cannot understand their requests.",
+      "quote": "I love using Alexa to play my favorite songs on Echo anytime!",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Positive signals like 'want', 'play', 'love' outweigh the few negative or neutral signals."
+      },
+      "top_aspects": [
+        "music",
+        "play",
+        "alexa",
+        "amazon",
+        "listen"
+      ],
+      "co_aspects": {
+        "music": [
+          "play",
+          "alexa",
+          "amazon"
+        ],
+        "play": [
+          "music",
+          "echo"
+        ],
+        "alexa": [
+          "amazon",
+          "listen"
+        ],
+        "amazon": [
+          "music",
+          "echo"
+        ],
+        "listen": [
+          "alexa",
+          "play"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Sound Quality Appreciator",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP1_SNA",
+      "keywords": [
+        "great",
+        "sound",
+        "quality",
+        "product",
+        "love",
+        "use",
+        "good"
+      ],
+      "core_value": "This persona highly values superior sound quality in their smart device.",
+      "description": "This group is focused on the audio performance of their virtual assistant devices. They seek products that provide excellent sound quality and are easy to use.",
+      "motivation": "They are motivated by a passion for high-quality audio for an enriched listening experience.",
+      "pain_points": "They might face disappointment if the product doesn't live up to their sound quality expectations.",
+      "quote": "The sound quality is great, and it's so easy to use!",
+      "sentiment_ratio": {
+        "Positive": 0.8,
+        "Neutral": 0.15,
+        "Negative": 0.05,
+        "_inference_note": "Keywords like 'great', 'sound', 'quality', and 'love' dominate the sentiment, indicating high positivity."
+      },
+      "top_aspects": [
+        "sound",
+        "quality",
+        "easy",
+        "product",
+        "love"
+      ],
+      "co_aspects": {
+        "sound": [
+          "quality",
+          "product",
+          "use"
+        ],
+        "quality": [
+          "sound",
+          "great"
+        ],
+        "product": [
+          "love",
+          "good"
+        ],
+        "love": [
+          "product"
+        ],
+        "easy": [
+          "sound",
+          "use"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Smart Device Integration Seeker",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP1_SNA",
+      "keywords": [
+        "google",
+        "nest",
+        "home",
+        "device",
+        "hub",
+        "app",
+        "camera"
+      ],
+      "core_value": "Integration and connectivity within the smart home are paramount for this consumer.",
+      "description": "These users are tech enthusiasts who focus on integrating their smart devices smoothly with Google home systems. They value the convenience and control offered by centralized hubs.",
+      "motivation": "They are driven by the urge to create a seamless smart home environment with cohesive device interaction.",
+      "pain_points": "Any connectivity issues or incompatibility with the Google ecosystem can be a major frustration.",
+      "quote": "Having all my devices connected through Google Home makes life so much easier!",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Positive signals from 'google', 'nest', and 'home' suggest satisfaction, tempered by potential connectivity issues."
+      },
+      "top_aspects": [
+        "google",
+        "nest",
+        "device",
+        "home",
+        "hub"
+      ],
+      "co_aspects": {
+        "google": [
+          "nest",
+          "home",
+          "hub"
+        ],
+        "nest": [
+          "google",
+          "device"
+        ],
+        "device": [
+          "app",
+          "camera"
+        ],
+        "home": [
+          "device",
+          "app"
+        ],
+        "hub": [
+          "google",
+          "home"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Practical Buyer with Connection Troubles",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP1_SNA",
+      "keywords": [
+        "work",
+        "buy",
+        "issue",
+        "connect",
+        "get",
+        "purchase",
+        "return"
+      ],
+      "core_value": "This persona values reliability and seamless connectivity in their smart devices.",
+      "description": "These consumers approach smart device purchases with practicality, often encountering issues with connectivity or device performance.",
+      "motivation": "They are motivated by the expectation of reliable and trouble-free functioning of purchased devices.",
+      "pain_points": "Frequent connectivity issues or device malfunctions lead to dissatisfaction and returns.",
+      "quote": "I often face issues with connectivity, which can be quite frustrating.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.3,
+        "Negative": 0.5,
+        "_inference_note": "Negative signals like 'issue', 'connect', 'return' indicate prevalent connectivity problems and frustrations."
+      },
+      "top_aspects": [
+        "work",
+        "buy",
+        "issue",
+        "connect",
+        "return"
+      ],
+      "co_aspects": {
+        "work": [
+          "issue",
+          "connect"
+        ],
+        "buy": [
+          "purchase",
+          "return"
+        ],
+        "issue": [
+          "connect",
+          "get"
+        ],
+        "connect": [
+          "issue",
+          "work"
+        ],
+        "return": [
+          "buy",
+          "get"
+        ]
+      }
+    }
+  ]
+}

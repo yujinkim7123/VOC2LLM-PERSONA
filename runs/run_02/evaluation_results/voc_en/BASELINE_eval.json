@@ -1,0 +1,193 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "BASELINE",
+  "method": "LLM_STANDALONE",
+  "lang": "en",
+  "judge": {
+    "judge_matrix": [
+      [
+        0.06,
+        0.28,
+        0.24,
+        0.0
+      ],
+      [
+        0.0,
+        0.06,
+        0.0,
+        0.0
+      ],
+      [
+        0.12,
+        0.06,
+        0.0,
+        0.18
+      ],
+      [
+        0.5,
+        0.2,
+        0.06,
+        0.18
+      ]
+    ],
+    "best_mapping": [
+      {
+        "gen_name": "Efficiency-Seeking Minimalist",
+        "gt_name": "Design-Driven Aesthetic Consumer",
+        "keyword_alignment": 0.3,
+        "value_alignment": 0.3,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.24,
+        "validity_score": 0.5,
+        "reasoning": "Generated persona focuses on efficiency, not aesthetics; weak domain grounding.",
+        "success": false
+      },
+      {
+        "gen_name": "Tech-Savvy Enthusiast",
+        "gt_name": "Performance-Focused Spec Evaluator",
+        "keyword_alignment": 0.0,
+        "value_alignment": 0.0,
+        "pain_alignment": 0.0,
+        "behavioral_alignment": 0.0,
+        "sentiment_alignment": 0.3,
+        "matching_score": 0.06,
+        "validity_score": 0.3,
+        "reasoning": "Personas diverge significantly in focus and topics; minimal overlap.",
+        "success": false
+      },
+      {
+        "gen_name": "Family-Focused Practical Buyer",
+        "gt_name": "Trust-Seeking After-Service Prioritizer",
+        "keyword_alignment": 0.3,
+        "value_alignment": 0.0,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.18,
+        "validity_score": 0.5,
+        "reasoning": "Keywords mismatch, different values; weak pain/behavior alignment.",
+        "success": false
+      },
+      {
+        "gen_name": "Bargain-Hunting Value Shopper",
+        "gt_name": "Price-Sensitive Bargain Hunter",
+        "keyword_alignment": 0.7,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.3,
+        "matching_score": 0.5,
+        "validity_score": 1.0,
+        "reasoning": "Sentiment, pain points differ; validity strong but values vary.",
+        "success": true
+      }
+    ],
+    "matching_score": 0.245,
+    "validity_score": 0.575,
+    "mean_all_matching": 0.1212,
+    "dim_averages": {
+      "keyword_alignment": 0.325,
+      "value_alignment": 0.2,
+      "pain_alignment": 0.275,
+      "behavioral_alignment": 0.275,
+      "sentiment_alignment": 0.15
+    },
+    "n_success": 1,
+    "mapping_success_rate": 0.25
+  },
+  "topic_sim_result": {
+    "topic_sim": 0.3962,
+    "pair_details": [
+      {
+        "gen_name": "Efficiency-Seeking Minimalist",
+        "gt_name": "Design-Driven Aesthetic Consumer",
+        "gen_aspects": [
+          "design",
+          "size",
+          "functionality",
+          "maintenance",
+          "setup"
+        ],
+        "gt_aspects": [
+          "Design/Appearance",
+          "Ease of Use",
+          "Price/Cost",
+          "Shipping/Service",
+          "Performance/Specs"
+        ],
+        "topic_sim": 0.377
+      },
+      {
+        "gen_name": "Tech-Savvy Enthusiast",
+        "gt_name": "Performance-Focused Spec Evaluator",
+        "gen_aspects": [
+          "technology",
+          "connectivity",
+          "updates",
+          "automation",
+          "compatibility"
+        ],
+        "gt_aspects": [
+          "Performance/Specs",
+          "Ease of Use",
+          "Design/Appearance",
+          "Shipping/Service",
+          "Price/Cost"
+        ],
+        "topic_sim": 0.3479
+      },
+      {
+        "gen_name": "Family-Focused Practical Buyer",
+        "gt_name": "Trust-Seeking After-Service Prioritizer",
+        "gen_aspects": [
+          "durability",
+          "capacity",
+          "energy efficiency",
+          "safety",
+          "usability"
+        ],
+        "gt_aspects": [
+          "Shipping/Service",
+          "Price/Cost",
+          "Ease of Use",
+          "Performance/Specs",
+          "Design/Appearance"
+        ],
+        "topic_sim": 0.4078
+      },
+      {
+        "gen_name": "Bargain-Hunting Value Shopper",
+        "gt_name": "Price-Sensitive Bargain Hunter",
+        "gen_aspects": [
+          "price",
+          "reliability",
+          "features",
+          "value",
+          "durability"
+        ],
+        "gt_aspects": [
+          "Price/Cost",
+          "Performance/Specs",
+          "Design/Appearance",
+          "Shipping/Service",
+          "Ease of Use"
+        ],
+        "topic_sim": 0.4521
+      }
+    ]
+  },
+  "summary": {
+    "matching_score": 0.245,
+    "validity_score": 0.575,
+    "topic_sim": 0.3962,
+    "dim_averages": {
+      "keyword_alignment": 0.325,
+      "value_alignment": 0.2,
+      "pain_alignment": 0.275,
+      "behavioral_alignment": 0.275,
+      "sentiment_alignment": 0.15
+    }
+  }
+}

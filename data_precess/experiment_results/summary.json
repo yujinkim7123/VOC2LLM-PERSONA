@@ -1,0 +1,120 @@
+{
+  "voc_en": {
+    "k_used": 4,
+    "EXP-1": {
+      "method": "SNA_LOUVAIN",
+      "k": null,
+      "coherence_cv": 0.6173,
+      "modularity": 0.4062,
+      "silhouette": null,
+      "n_docs": 965
+    },
+    "EXP-2": {
+      "method": "LDA",
+      "k": 4,
+      "coherence_cv": 0.4881,
+      "modularity": null,
+      "silhouette": null,
+      "n_docs": 965
+    },
+    "EXP-3": {
+      "method": "KMEANS_TFIDF",
+      "k": 4,
+      "coherence_cv": 0.5126,
+      "modularity": null,
+      "silhouette": 0.0486,
+      "n_docs": 965
+    },
+    "EXP-4": {
+      "method": "SNA_LDA",
+      "k": null,
+      "coherence_cv": 0.4885,
+      "modularity": null,
+      "silhouette": null,
+      "n_docs": 965
+    },
+    "EXP-5": {
+      "method": "LDA_KMEANS",
+      "k": 4,
+      "coherence_cv": 0.4881,
+      "modularity": null,
+      "silhouette": 0.8422,
+      "n_docs": 965
+    },
+    "EXP-6": {
+      "method": "SNA_KMEANS",
+      "k": 4,
+      "coherence_cv": 0.4245,
+      "modularity": null,
+      "silhouette": 0.1263,
+      "n_docs": 868
+    },
+    "EXP-7": {
+      "method": "SNA_LDA_KMEANS",
+      "k": 4,
+      "coherence_cv": 0.4869,
+      "modularity": null,
+      "silhouette": 0.7593,
+      "n_docs": 868
+    }
+  },
+  "vad_en": {
+    "k_used": 6,
+    "EXP-1": {
+      "method": "SNA_LOUVAIN",
+      "k": null,
+      "coherence_cv": 0.7514,
+      "modularity": 0.2114,
+      "silhouette": null,
+      "n_docs": 2370
+    },
+    "EXP-2": {
+      "method": "LDA",
+      "k": 6,
+      "coherence_cv": 0.5297,
+      "modularity": null,
+      "silhouette": null,
+      "n_docs": 2370
+    },
+    "EXP-3": {
+      "method": "KMEANS_TFIDF",
+      "k": 6,
+      "coherence_cv": 0.6051,
+      "modularity": null,
+      "silhouette": 0.0474,
+      "n_docs": 2370
+    },
+    "EXP-4": {
+      "method": "SNA_LDA",
+      "k": null,
+      "coherence_cv": 0.5827,
+      "modularity": null,
+      "silhouette": null,
+      "n_docs": 2370
+    },
+    "EXP-5": {
+      "method": "LDA_KMEANS",
+      "k": 6,
+      "coherence_cv": 0.5297,
+      "modularity": null,
+      "silhouette": 0.6841,
+      "n_docs": 2370
+    },
+    "EXP-6": {
+      "method": "SNA_KMEANS",
+      "k": 6,
+      "coherence_cv": 0.4799,
+      "modularity": null,
+      "silhouette": 0.1129,
+      "n_docs": 2138
+    },
+    "EXP-7": {
+      "method": "SNA_LDA_KMEANS",
+      "k": 6,
+      "coherence_cv": 0.535,
+      "modularity": null,
+      "silhouette": 0.6317,
+      "n_docs": 2138
+    }
+  }
+}

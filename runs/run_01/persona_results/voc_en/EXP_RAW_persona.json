@@ -1,0 +1,183 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP_RAW",
+  "method": "RAW_REVIEW_INJECTION",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_reviews_injected": 200,
+  "run_seed": 49,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Practical Value Seeker",
+      "category": "Home Appliance",
+      "data_source": "voc_en_EXP_RAW",
+      "keywords": [
+        "price",
+        "quality",
+        "value",
+        "coupon",
+        "bulk discount"
+      ],
+      "core_value": "Finding the best balance between cost and functionality.",
+      "description": "This segment is driven by getting the most out of their money, often comparing prices across platforms or leveraging bulk deals. They are satisfied when they discover products that perform well for a fraction of the cost, even bypassing brand names in favor of generic alternatives.",
+      "motivation": "The motivation is to save money while still obtaining products that meet their quality expectations. They prioritize cost-efficiency and are keen on deal-hunting.",
+      "pain_points": "Disillusionment when a so-called sale is not genuine or when a product marketed for its affordability turns out to be under-performing.",
+      "quote": "Got this during a flash sale and couldn’t be happier with the value it provides.",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Overall satisfaction with phrases like 'happy', 'best value', along with few negative points about fake sales."
+      },
+      "top_aspects": [
+        "price",
+        "performance",
+        "quality",
+        "discount",
+        "bulk"
+      ],
+      "co_aspects": {
+        "price": [
+          "value",
+          "quality"
+        ],
+        "discount": [
+          "price",
+          "bulk"
+        ],
+        "performance": [
+          "quality",
+          "cost-efficiency"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Design Connoisseur",
+      "category": "Home Appliance",
+      "data_source": "voc_en_EXP_RAW",
+      "keywords": [
+        "design",
+        "color",
+        "aesthetics",
+        "style",
+        "premium"
+      ],
+      "core_value": "Placing aesthetics and design at the forefront of purchasing decisions.",
+      "description": "This persona is captivated by the visual and stylistic elements of a product. They are willing to pay extra for items that not only function well but also serve as design statements in their homes.",
+      "motivation": "The drive to ensure their personal environment is beautiful and cohesive, often seeking unique or limited edition designs.",
+      "pain_points": "Disappointment when the practical performance doesn’t match the aesthetics, such as poor functionality or unexpected quality issues.",
+      "quote": "The design is stunning, and it fits perfectly with my room setup. Worth every penny for the aesthetics alone.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.2,
+        "Negative": 0.2,
+        "_inference_note": "Mixture of satisfaction from design with occasional frustration over non-matching performance or unexpected wear."
+      },
+      "top_aspects": [
+        "design",
+        "color",
+        "aesthetics",
+        "premium",
+        "style"
+      ],
+      "co_aspects": {
+        "design": [
+          "aesthetics",
+          "style"
+        ],
+        "color": [
+          "design",
+          "aesthetics"
+        ],
+        "premium": [
+          "design",
+          "style"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Performance Perfectionist",
+      "category": "Home Appliance",
+      "data_source": "voc_en_EXP_RAW",
+      "keywords": [
+        "performance",
+        "reliability",
+        "quality",
+        "specifications",
+        "benchmark"
+      ],
+      "core_value": "Ensuring products deliver on advertised performance metrics.",
+      "description": "This group scrutinizes technical performance and reliability. They expect products to meet or exceed technical specifications and frequently test capabilities against advertised features.",
+      "motivation": "Achievement of high precision in product performance, often involving testing and verifying technical claims.",
+      "pain_points": "Frustration when actual performance doesn't match advertised specifications, leading to returns or exchanges.",
+      "quote": "I tested it under multiple conditions to validate the specs, and it lived up to the advertised performance.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.1,
+        "Negative": 0.4,
+        "_inference_note": "Sentiment sways depending on product's ability to meet technical claims; high dissatisfaction when not met."
+      },
+      "top_aspects": [
+        "performance",
+        "quality",
+        "specifications",
+        "reliability",
+        "testing"
+      ],
+      "co_aspects": {
+        "performance": [
+          "specifications",
+          "reliability"
+        ],
+        "specifications": [
+          "quality",
+          "testing"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Brand Loyalty & Assurance Seeker",
+      "category": "Home Appliance",
+      "data_source": "voc_en_EXP_RAW",
+      "keywords": [
+        "warranty",
+        "service",
+        "returns",
+        "brand",
+        "assurance"
+      ],
+      "core_value": "Seeking peace of mind through brand reputation and post-purchase support.",
+      "description": "Valuing service and support highly, this group tends to gravitate towards brands with strong reputations for customer service, warranties, and easy returns.",
+      "motivation": "Motivated by brand trust and the assurance of support services to handle potential issues.",
+      "pain_points": "Dissatisfaction arises when post-purchase services fail to meet needs or when service level expectations set by the brand are not met.",
+      "quote": "I bought from this brand because I've always had great support when things go wrong.",
+      "sentiment_ratio": {
+        "Positive": 0.4,
+        "Neutral": 0.2,
+        "Negative": 0.4,
+        "_inference_note": "Balance between satisfaction with brand services and dissatisfaction when service support doesn't meet expectations."
+      },
+      "top_aspects": [
+        "warranty",
+        "service",
+        "support",
+        "returns",
+        "brand"
+      ],
+      "co_aspects": {
+        "warranty": [
+          "service",
+          "support"
+        ],
+        "brand": [
+          "trust",
+          "assurance"
+        ]
+      }
+    }
+  ]
+}

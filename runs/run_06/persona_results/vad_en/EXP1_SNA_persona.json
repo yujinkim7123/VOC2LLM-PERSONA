@@ -1,0 +1,194 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP1_SNA",
+  "method": "SNA_LOUVAIN",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2370,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Music-Loving Amazon Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP1_SNA",
+      "keywords": [
+        "music",
+        "want",
+        "play",
+        "echo",
+        "alexa",
+        "listen"
+      ],
+      "core_value": "They value a seamless music experience with smart assistant integration.",
+      "description": "These consumers are dedicated music lovers who primarily use their smart speakers for playing and controlling their music playlists. They are deeply integrated with Amazon's ecosystem and rely on Alexa for an enhanced auditory experience.",
+      "motivation": "They are driven by the desire to have instant access to their favorite music and easy voice commands through Amazon Echo devices.",
+      "pain_points": "They may encounter issues with song requests not being recognized correctly or limitations in available music services.",
+      "quote": "I love using Alexa to play my favorite playlists on demand.",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "The presence of 'love', 'want', and 'play' indicate strong positive feelings, with minor potential issues from 'ask' and 'hear' if requests aren't fulfilled."
+      },
+      "top_aspects": [
+        "music",
+        "alexa",
+        "amazon",
+        "echo",
+        "play"
+      ],
+      "co_aspects": {
+        "music": [
+          "alexa",
+          "play"
+        ],
+        "alexa": [
+          "echo",
+          "amazon"
+        ],
+        "echo": [
+          "amazon",
+          "play"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Quality-Conscious Gadget Lover",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP1_SNA",
+      "keywords": [
+        "great",
+        "sound",
+        "product",
+        "use",
+        "love",
+        "quality"
+      ],
+      "core_value": "These consumers prioritize high-quality products with outstanding sound performance.",
+      "description": "They are tech enthusiasts who enjoy exploring the latest gadgets and seek products that offer the best sound quality and user satisfaction.",
+      "motivation": "Their main drive is to find high-performing devices that enhance their listening experience.",
+      "pain_points": "Occasional discrepancies in sound expectations versus actual performance may occur.",
+      "quote": "The sound quality is fantastic, I can't stop using it for all my audio needs.",
+      "sentiment_ratio": {
+        "Positive": 0.8,
+        "Neutral": 0.15,
+        "Negative": 0.05,
+        "_inference_note": "'great', 'love', and 'quality' denote a highly positive sentiment with few neutral or negative words present."
+      },
+      "top_aspects": [
+        "sound",
+        "product",
+        "quality",
+        "use",
+        "love"
+      ],
+      "co_aspects": {
+        "sound": [
+          "product",
+          "love"
+        ],
+        "quality": [
+          "sound",
+          "product"
+        ],
+        "use": [
+          "love",
+          "quality"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Tech-Savvy Home Automator",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP1_SNA",
+      "keywords": [
+        "google",
+        "nest",
+        "home",
+        "device",
+        "control",
+        "app"
+      ],
+      "core_value": "They value interconnected devices that offer smart home automation.",
+      "description": "These consumers are tech savvy and prioritize integrating smart devices for cohesive home automation. They frequently use apps to control various aspects of their home environment.",
+      "motivation": "Their purchases are motivated by the desire for efficient and smart home management solutions.",
+      "pain_points": "Integration issues or app malfunctions can cause significant frustration.",
+      "quote": "I love how I can control my entire home using my Google Nest devices.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Words like 'home' and 'control' are positive, with some neutral references like 'device' and minor negative signals from 'app' if there are control issues."
+      },
+      "top_aspects": [
+        "google",
+        "nest",
+        "home",
+        "device",
+        "control"
+      ],
+      "co_aspects": {
+        "google": [
+          "nest",
+          "app"
+        ],
+        "nest": [
+          "device",
+          "home"
+        ],
+        "control": [
+          "home",
+          "app"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Pragmatic Fixer",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP1_SNA",
+      "keywords": [
+        "work",
+        "issue",
+        "connect",
+        "get",
+        "return",
+        "buy"
+      ],
+      "core_value": "They prioritize function and reliability over just features.",
+      "description": "This segment focuses on ensuring their products work as intended. They are practical and are quick to return or replace devices that don't meet their expectations.",
+      "motivation": "Reliability and ease of problem resolution drive their purchase decisions.",
+      "pain_points": "Connectivity issues and product defects causing the need for returns are major frustrations.",
+      "quote": "I just want my devices to work reliably without constantly needing to fix issues.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.3,
+        "Negative": 0.5,
+        "_inference_note": "The presence of 'issue', 'return', and 'connect' indicate significant negative sentiment, tempered slightly by neutral usage terms like 'get' and 'buy'."
+      },
+      "top_aspects": [
+        "work",
+        "issue",
+        "connect",
+        "return",
+        "buy"
+      ],
+      "co_aspects": {
+        "work": [
+          "issue",
+          "connect"
+        ],
+        "connect": [
+          "issue",
+          "return"
+        ],
+        "return": [
+          "issue",
+          "buy"
+        ]
+      }
+    }
+  ]
+}

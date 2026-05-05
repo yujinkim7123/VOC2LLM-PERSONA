@@ -1,0 +1,153 @@
+{
+  "exp_id": "EXP-7",
+  "method": "SNA_LDA_KMEANS",
+  "file": "vad_en",
+  "lang": "en",
+  "n_docs": 2138,
+  "n_docs_original": 2370,
+  "k": 6,
+  "sna_filter_keywords": [
+    "love",
+    "phone",
+    "well",
+    "month",
+    "thermostat",
+    "device",
+    "nest",
+    "picture",
+    "day",
+    "light",
+    "stop",
+    "get",
+    "like",
+    "set",
+    "great",
+    "want",
+    "work",
+    "time",
+    "issue",
+    "feature",
+    "charge",
+    "smart",
+    "home",
+    "support",
+    "easy",
+    "turn",
+    "good",
+    "display",
+    "google",
+    "connect",
+    "purchase",
+    "year",
+    "new",
+    "price",
+    "alarm",
+    "buy",
+    "need",
+    "product",
+    "problem",
+    "nice",
+    "quality",
+    "music",
+    "hub",
+    "screen",
+    "look",
+    "return",
+    "sound",
+    "clock",
+    "use",
+    "app"
+  ],
+  "silhouette_mean": 0.6317,
+  "silhouette_std": 0.0002,
+  "coherence_cv": 0.535,
+  "cluster_distribution": {
+    "0": 397,
+    "1": 478,
+    "2": 415,
+    "3": 445,
+    "4": 92,
+    "5": 311
+  },
+  "cluster_topic_dist": {
+    "cluster_0": {
+      "n_docs": 397,
+      "dominant_topic": 3,
+      "topic_dist": [
+        0.0569,
+        0.0515,
+        0.0767,
+        0.7228,
+        0.0318,
+        0.0604
+      ]
+    },
+    "cluster_1": {
+      "n_docs": 478,
+      "dominant_topic": 1,
+      "topic_dist": [
+        0.044,
+        0.6681,
+        0.073,
+        0.107,
+        0.0482,
+        0.0597
+      ]
+    },
+    "cluster_2": {
+      "n_docs": 415,
+      "dominant_topic": 2,
+      "topic_dist": [
+        0.0423,
+        0.0771,
+        0.6682,
+        0.1042,
+        0.03,
+        0.0782
+      ]
+    },
+    "cluster_3": {
+      "n_docs": 445,
+      "dominant_topic": 0,
+      "topic_dist": [
+        0.5915,
+        0.0678,
+        0.0625,
+        0.149,
+        0.0281,
+        0.1011
+      ]
+    },
+    "cluster_4": {
+      "n_docs": 92,
+      "dominant_topic": 4,
+      "topic_dist": [
+        0.0444,
+        0.0761,
+        0.0906,
+        0.1829,
+        0.5456,
+        0.0604
+      ]
+    },
+    "cluster_5": {
+      "n_docs": 311,
+      "dominant_topic": 5,
+      "topic_dist": [
+        0.0687,
+        0.0808,
+        0.1277,
+        0.1483,
+        0.0293,
+        0.5453
+      ]
+    }
+  },
+  "used_params": {
+    "k": 6,
+    "lda_passes": 30,
+    "lda_no_below": 1,
+    "lda_no_above": 0.9
+  },
+  "paper_ref": "Scientific Reports(2025) / Blondel(2008) / Blei(2003) / MacQueen(1967) / Grid-Search Tuned"
+}

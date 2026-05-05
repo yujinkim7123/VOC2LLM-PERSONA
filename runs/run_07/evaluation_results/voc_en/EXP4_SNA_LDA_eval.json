@@ -1,0 +1,193 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP4_SNA_LDA",
+  "method": "SNA_LDA",
+  "lang": "en",
+  "judge": {
+    "judge_matrix": [
+      [
+        0.5,
+        0.06,
+        0.12,
+        0.24
+      ],
+      [
+        0.0,
+        0.0,
+        0.48,
+        0.0
+      ],
+      [
+        0.0,
+        0.12,
+        0.06,
+        0.0
+      ],
+      [
+        0.14,
+        0.32,
+        0.06,
+        0.06
+      ]
+    ],
+    "best_mapping": [
+      {
+        "gen_name": "Price-Conscious Value Seeker",
+        "gt_name": "Price-Sensitive Bargain Hunter",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.3,
+        "matching_score": 0.5,
+        "validity_score": 0.7,
+        "reasoning": "Some overlap in price focus, but sentiment and pain points differ.",
+        "success": true
+      },
+      {
+        "gen_name": "Aesthetically-Driven Decorator",
+        "gt_name": "Design-Driven Aesthetic Consumer",
+        "keyword_alignment": 0.7,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.7,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.48,
+        "validity_score": 0.7,
+        "reasoning": "Generated persona has mismatched sentiment and lacks complete alignment in key areas.",
+        "success": false
+      },
+      {
+        "gen_name": "Tech-Savvy Setup Enthusiast",
+        "gt_name": "Trust-Seeking After-Service Prioritizer",
+        "keyword_alignment": 0.0,
+        "value_alignment": 0.0,
+        "pain_alignment": 0.0,
+        "behavioral_alignment": 0.0,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.0,
+        "validity_score": 0.5,
+        "reasoning": "Generated persona lacks alignment with domain topics, focus differs.",
+        "success": false
+      },
+      {
+        "gen_name": "Health-Conscious Data Analyzer",
+        "gt_name": "Performance-Focused Spec Evaluator",
+        "keyword_alignment": 0.3,
+        "value_alignment": 0.0,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.7,
+        "matching_score": 0.32,
+        "validity_score": 0.3,
+        "reasoning": "Generated persona is off-topic, lacks alignment with domain topics.",
+        "success": false
+      }
+    ],
+    "matching_score": 0.325,
+    "validity_score": 0.55,
+    "mean_all_matching": 0.135,
+    "dim_averages": {
+      "keyword_alignment": 0.375,
+      "value_alignment": 0.35,
+      "pain_alignment": 0.275,
+      "behavioral_alignment": 0.375,
+      "sentiment_alignment": 0.25
+    },
+    "n_success": 1,
+    "mapping_success_rate": 0.25
+  },
+  "topic_sim_result": {
+    "topic_sim": 0.3718,
+    "pair_details": [
+      {
+        "gen_name": "Price-Conscious Value Seeker",
+        "gt_name": "Price-Sensitive Bargain Hunter",
+        "gen_aspects": [
+          "price",
+          "service",
+          "cost",
+          "buy",
+          "premium"
+        ],
+        "gt_aspects": [
+          "Price/Cost",
+          "Performance/Specs",
+          "Design/Appearance",
+          "Shipping/Service",
+          "Ease of Use"
+        ],
+        "topic_sim": 0.4934
+      },
+      {
+        "gen_name": "Aesthetically-Driven Decorator",
+        "gt_name": "Design-Driven Aesthetic Consumer",
+        "gen_aspects": [
+          "color",
+          "buy",
+          "choose",
+          "match",
+          "beautiful"
+        ],
+        "gt_aspects": [
+          "Design/Appearance",
+          "Ease of Use",
+          "Price/Cost",
+          "Shipping/Service",
+          "Performance/Specs"
+        ],
+        "topic_sim": 0.3174
+      },
+      {
+        "gen_name": "Tech-Savvy Setup Enthusiast",
+        "gt_name": "Trust-Seeking After-Service Prioritizer",
+        "gen_aspects": [
+          "charge",
+          "setup",
+          "display",
+          "use",
+          "cable"
+        ],
+        "gt_aspects": [
+          "Shipping/Service",
+          "Price/Cost",
+          "Ease of Use",
+          "Performance/Specs",
+          "Design/Appearance"
+        ],
+        "topic_sim": 0.3521
+      },
+      {
+        "gen_name": "Health-Conscious Data Analyzer",
+        "gt_name": "Performance-Focused Spec Evaluator",
+        "gen_aspects": [
+          "health",
+          "app",
+          "datum",
+          "performance",
+          "sensor"
+        ],
+        "gt_aspects": [
+          "Performance/Specs",
+          "Ease of Use",
+          "Design/Appearance",
+          "Shipping/Service",
+          "Price/Cost"
+        ],
+        "topic_sim": 0.3244
+      }
+    ]
+  },
+  "summary": {
+    "matching_score": 0.325,
+    "validity_score": 0.55,
+    "topic_sim": 0.3718,
+    "dim_averages": {
+      "keyword_alignment": 0.375,
+      "value_alignment": 0.35,
+      "pain_alignment": 0.275,
+      "behavioral_alignment": 0.375,
+      "sentiment_alignment": 0.25
+    }
+  }
+}

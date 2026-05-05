@@ -1,0 +1,200 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP1_SNA",
+  "method": "SNA_LOUVAIN",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2370,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Music Enthusiast Alexa User",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP1_SNA",
+      "keywords": [
+        "music",
+        "want",
+        "play",
+        "echo",
+        "alexa",
+        "amazon",
+        "listen"
+      ],
+      "core_value": "This consumer segment values seamless music streaming with Alexa.",
+      "description": "These consumers are deeply integrated with Alexa and Amazon's ecosystem, using their devices primarily as smart speakers for playing music and other audio content.",
+      "motivation": "They are motivated by the desire to easily listen to their favorite music on demand.",
+      "pain_points": "Occasional difficulty with voice recognition or music selection.",
+      "quote": "I just tell Alexa to play my favorite tunes, and it’s like having a personal DJ.",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "The presence of words like 'want', 'play', 'like', and 'listen' primarily signals a positive engagement with music features."
+      },
+      "top_aspects": [
+        "music",
+        "alexa",
+        "amazon",
+        "play",
+        "listen"
+      ],
+      "co_aspects": {
+        "music": [
+          "alexa",
+          "play",
+          "listen"
+        ],
+        "alexa": [
+          "amazon",
+          "echo"
+        ],
+        "echo": [
+          "music",
+          "amazon"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Tech-Savvy Device Adopter",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP1_SNA",
+      "keywords": [
+        "google",
+        "nest",
+        "home",
+        "device",
+        "hub",
+        "app",
+        "control"
+      ],
+      "core_value": "These users value integration and control over their smart home environment.",
+      "description": "As individuals deeply involved in smart home setups, they rely on Google and Nest devices for connectivity and home automation.",
+      "motivation": "They seek an efficient and cohesive control of their household through technology.",
+      "pain_points": "Occasional technical difficulties with device integration and app performance.",
+      "quote": "I love being able to manage all my devices from a single app.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Words like 'control', 'home', and 'hub' indicate functionality and integration, suggesting overall satisfaction with minor app-related complaints."
+      },
+      "top_aspects": [
+        "google",
+        "nest",
+        "home",
+        "device",
+        "app"
+      ],
+      "co_aspects": {
+        "google": [
+          "nest",
+          "home",
+          "device"
+        ],
+        "nest": [
+          "app",
+          "control"
+        ],
+        "home": [
+          "hub",
+          "device"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Pragmatic Clock User",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP1_SNA",
+      "keywords": [
+        "clock",
+        "charge",
+        "smart",
+        "screen",
+        "alarm",
+        "light",
+        "display"
+      ],
+      "core_value": "This segment values practical functionality in everyday devices like clocks with smart features.",
+      "description": "They use their devices to keep track of time and manage their daily schedules, appreciating added smart features like alarms and customizable displays.",
+      "motivation": "Driven by the need for reliable daily time management and multi-functionality.",
+      "pain_points": "Frustrated when smart features malfunction or are difficult to configure.",
+      "quote": "The smart clock not only wakes me up but also syncs with my phone calendar.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.4,
+        "Negative": 0.1,
+        "_inference_note": "Keywords like 'smart', 'alarm', and 'display' suggest satisfaction with practicality, with minor complaints about ease of use."
+      },
+      "top_aspects": [
+        "clock",
+        "smart",
+        "screen",
+        "alarm",
+        "display"
+      ],
+      "co_aspects": {
+        "clock": [
+          "alarm",
+          "smart"
+        ],
+        "screen": [
+          "display",
+          "light"
+        ],
+        "smart": [
+          "charge",
+          "feature"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Value-Conscious Buyer With Issues",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP1_SNA",
+      "keywords": [
+        "work",
+        "buy",
+        "time",
+        "issue",
+        "connect",
+        "purchase",
+        "return"
+      ],
+      "core_value": "This segment is focused on getting value for their money and reliable device performance.",
+      "description": "They tend to scrutinize purchases and expect high functionality; however, they have encountered device connection or performance problems.",
+      "motivation": "They are motivated by the desire to make cost-effective technology purchases.",
+      "pain_points": "Frequent challenges with connectivity and customer support issues lead to dissatisfaction.",
+      "quote": "Initially impressed, but connectivity issues have been frustrating.",
+      "sentiment_ratio": {
+        "Positive": 0.3,
+        "Neutral": 0.2,
+        "Negative": 0.5,
+        "_inference_note": "The presence of 'issue', 'connect', and 'return' indicates significant frustration with the device, outweighing positive purchase intentions."
+      },
+      "top_aspects": [
+        "work",
+        "connect",
+        "issue",
+        "purchase",
+        "return"
+      ],
+      "co_aspects": {
+        "work": [
+          "time",
+          "connect"
+        ],
+        "issue": [
+          "return",
+          "purchase"
+        ],
+        "connect": [
+          "issue",
+          "get"
+        ]
+      }
+    }
+  ]
+}

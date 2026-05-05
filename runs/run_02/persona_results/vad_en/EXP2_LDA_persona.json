@@ -1,0 +1,247 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP2_LDA",
+  "method": "LDA",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2370,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Frustrated Early Adopter",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP2_LDA",
+      "keywords": [
+        "work",
+        "stop",
+        "return",
+        "buy",
+        "month",
+        "apple",
+        "pods"
+      ],
+      "core_value": "They value cutting-edge technology but are disheartened by reliability issues.",
+      "description": "This consumer loves to try new tech products as soon as they come out, often purchasing them right away. However, they have faced reliability issues, leading to returns or exchanges.",
+      "motivation": "Their drive is to stay updated with the latest technology, looking to integrate advanced features into their daily lives.",
+      "pain_points": "Frequent malfunctions or breakdowns frustrate them, leading to returns and disappointment.",
+      "quote": "I can't believe this broke again, I returned it after just a month!",
+      "sentiment_ratio": {
+        "Positive": 0.1,
+        "Neutral": 0.3,
+        "Negative": 0.6,
+        "_inference_note": "Words like 'stop', 'return', and 'month' suggest negative sentiment due to product failures, overshadowing the neutral 'buy' and 'time'."
+      },
+      "top_aspects": [
+        "work",
+        "stop",
+        "return",
+        "buy",
+        "apple"
+      ],
+      "co_aspects": {
+        "work": [
+          "stop",
+          "return",
+          "apple"
+        ],
+        "stop": [
+          "work",
+          "return",
+          "month"
+        ],
+        "return": [
+          "stop",
+          "buy",
+          "apple"
+        ],
+        "buy": [
+          "return",
+          "apple",
+          "pods"
+        ],
+        "apple": [
+          "return",
+          "buy",
+          "pods"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Sound Quality Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP2_LDA",
+      "keywords": [
+        "airpod",
+        "charge",
+        "ear",
+        "work",
+        "good",
+        "sound"
+      ],
+      "core_value": "This persona prioritizes excellent sound quality and seamless performance.",
+      "description": "These users are keen on sound quality and expect their devices to deliver consistently high-quality audio. They frequently discuss product performance and reliability.",
+      "motivation": "Their purchase is driven by the need for reliable sound devices that offer good battery life and comfort.",
+      "pain_points": "Issues with charging and battery life might disrupt their listening experience.",
+      "quote": "When the sound is good and the battery lasts, I'm happy with my AirPods.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "The presence of words like 'good', 'quality', and 'sound' indicate positive sentiment, with minor neutral issues like 'charge'."
+      },
+      "top_aspects": [
+        "airpod",
+        "charge",
+        "ear",
+        "work",
+        "good"
+      ],
+      "co_aspects": {
+        "airpod": [
+          "charge",
+          "ear",
+          "sound"
+        ],
+        "charge": [
+          "airpod",
+          "work",
+          "good"
+        ],
+        "ear": [
+          "airpod",
+          "sound",
+          "quality"
+        ],
+        "work": [
+          "airpod",
+          "good",
+          "battery"
+        ],
+        "good": [
+          "airpod",
+          "sound",
+          "charge"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Value-Conscious Smart Home Admirer",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP2_LDA",
+      "keywords": [
+        "great",
+        "clock",
+        "good",
+        "work",
+        "love",
+        "smart"
+      ],
+      "core_value": "They seek a balance between smart functionality and price.",
+      "description": "These consumers appreciate smart functionalities and are content with devices providing good performance at reasonable prices. They focus heavily on value-for-money.",
+      "motivation": "They are motivated by the integration of smart features that enhance their daily routine without breaking the bank.",
+      "pain_points": "They may experience occasional dissatisfaction if the value is not perceived as commensurate with the price.",
+      "quote": "I love how smart this device is for the price I paid!",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Positive words like 'great', 'good', 'love', and 'smart' dominate, with neutral mentions of 'price'."
+      },
+      "top_aspects": [
+        "great",
+        "clock",
+        "good",
+        "work",
+        "smart"
+      ],
+      "co_aspects": {
+        "great": [
+          "smart",
+          "good",
+          "price"
+        ],
+        "clock": [
+          "good",
+          "smart",
+          "price"
+        ],
+        "good": [
+          "clock",
+          "smart",
+          "work"
+        ],
+        "work": [
+          "good",
+          "love",
+          "smart"
+        ],
+        "smart": [
+          "great",
+          "good",
+          "love"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Tech-Savvy Home Manager",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP2_LDA",
+      "keywords": [
+        "thermostat",
+        "nest",
+        "work",
+        "google",
+        "set",
+        "buy"
+      ],
+      "core_value": "Efficient home management through tech integration.",
+      "description": "This group is focused on integrating smart devices like thermostats into their homes for better management and ease of control.",
+      "motivation": "They're motivated by the ability to control and manage home environments efficiently using innovative tech.",
+      "pain_points": "Complex setup procedures or integration challenges might deter them.",
+      "quote": "Having a Google Nest has made managing my home's temperature much easier!",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.4,
+        "Negative": 0.1,
+        "_inference_note": "Balanced keywords with 'work', 'buy', and 'set' signaling neutral, and 'easy' indicating positivity towards functionality."
+      },
+      "top_aspects": [
+        "thermostat",
+        "nest",
+        "work",
+        "google",
+        "set"
+      ],
+      "co_aspects": {
+        "thermostat": [
+          "nest",
+          "google",
+          "set"
+        ],
+        "nest": [
+          "thermostat",
+          "google",
+          "work"
+        ],
+        "work": [
+          "nest",
+          "google",
+          "buy"
+        ],
+        "google": [
+          "thermostat",
+          "nest",
+          "set"
+        ],
+        "set": [
+          "google",
+          "buy",
+          "home"
+        ]
+      }
+    }
+  ]
+}

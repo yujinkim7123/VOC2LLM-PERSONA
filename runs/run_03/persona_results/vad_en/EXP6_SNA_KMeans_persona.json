@@ -1,0 +1,226 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP6_SNA_KMeans",
+  "method": "SNA_KMEANS",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2138,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Connectivity-Frustrated Pragmatist",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "work",
+        "buy",
+        "month",
+        "charge",
+        "stop"
+      ],
+      "core_value": "Reliability and seamless connectivity are critical for these consumers.",
+      "description": "These consumers prioritize devices that work without hiccups and offer hassle-free functionality over extended periods. They are pragmatic in their approach, focusing on long-term reliability.",
+      "motivation": "They are driven by the desire for a device that functions reliably and meets ongoing needs without requiring frequent returns or dealing with issues.",
+      "pain_points": "Frequent connection issues and the need to return faulty products are their chief frustrations.",
+      "quote": "The device just doesn't stay connected, and I find myself having to return it every couple of months.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.3,
+        "Negative": 0.5,
+        "_inference_note": "Words like 'work', 'connect', and 'issue' suggest negative sentiment while 'buy', 'month' are neutral. 'Good' indicates slight positive sentiment."
+      },
+      "top_aspects": [
+        "work",
+        "buy",
+        "month",
+        "charge",
+        "issue"
+      ],
+      "co_aspects": {
+        "work": [
+          "buy",
+          "month",
+          "charge"
+        ],
+        "buy": [
+          "work",
+          "month"
+        ],
+        "month": [
+          "work",
+          "buy"
+        ],
+        "charge": [
+          "work"
+        ],
+        "issue": [
+          "work"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Home Automation Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "nest",
+        "thermostat",
+        "google",
+        "hub",
+        "work"
+      ],
+      "core_value": "Enhancing home automation capabilities with smart integrations is vital to them.",
+      "description": "These consumers are keen on transforming their homes into smart environments, integrating devices like thermostats and hubs to maximize efficiency and comfort.",
+      "motivation": "The ability to integrate multiple Google devices and create a seamless automation solution drives their purchases.",
+      "pain_points": "Limited compatibility and integration issues between smart devices can lead to dissatisfaction.",
+      "quote": "Integrating the thermostat with other Google devices has made my home smarter and more efficient.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Positive words like 'great', 'home', and 'work' dominate, with 'buy' and 'product' as neutral."
+      },
+      "top_aspects": [
+        "nest",
+        "thermostat",
+        "google",
+        "hub",
+        "work"
+      ],
+      "co_aspects": {
+        "nest": [
+          "thermostat",
+          "google",
+          "hub"
+        ],
+        "thermostat": [
+          "nest",
+          "google",
+          "hub"
+        ],
+        "google": [
+          "nest",
+          "thermostat",
+          "hub"
+        ],
+        "hub": [
+          "nest",
+          "thermostat",
+          "google"
+        ],
+        "work": [
+          "home"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Quality-Conscious Audiophile",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "great",
+        "good",
+        "sound",
+        "quality",
+        "love"
+      ],
+      "core_value": "Superior sound quality and value for money are essential for their satisfaction.",
+      "description": "These consumers value devices that offer excellent sound quality and aesthetic appeal at a fair price. They express satisfaction when these aspects are met.",
+      "motivation": "Their decision is heavily influenced by sound quality and the perceived value of the device.",
+      "pain_points": "Compromises on sound quality or an unappealing price point can deter their satisfaction.",
+      "quote": "The sound quality is impressive, and it feels like I got a fantastic deal.",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Keywords like 'great', 'good', 'sound', 'quality', and 'love' are predominantly positive."
+      },
+      "top_aspects": [
+        "great",
+        "good",
+        "sound",
+        "quality",
+        "love"
+      ],
+      "co_aspects": {
+        "great": [
+          "good",
+          "sound",
+          "quality"
+        ],
+        "good": [
+          "great",
+          "sound",
+          "quality"
+        ],
+        "sound": [
+          "great",
+          "good",
+          "quality"
+        ],
+        "quality": [
+          "great",
+          "good",
+          "sound"
+        ],
+        "love": [
+          "great"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Feature-Seeking Gadget Lover",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "clock",
+        "smart",
+        "great",
+        "alarm",
+        "google"
+      ],
+      "core_value": "The blend of smart features and basic functionalities in devices excites them.",
+      "description": "This group is drawn to products with diverse functionalities, such as smart alarms and connectivity with phones, appreciating both basic and advanced features.",
+      "motivation": "They are motivated by a combination of smart technology and utility in everyday life.",
+      "pain_points": "A lack of seamless integration between features can diminish the user experience.",
+      "quote": "I love how the smart alarm features work with my phone, making mornings easier.",
+      "sentiment_ratio": {
+        "Positive": 0.65,
+        "Neutral": 0.25,
+        "Negative": 0.1,
+        "_inference_note": "Positive sentiment indicated by 'great', 'smart', 'love', 'google', and 'alarm'."
+      },
+      "top_aspects": [
+        "clock",
+        "smart",
+        "great",
+        "alarm",
+        "google"
+      ],
+      "co_aspects": {
+        "clock": [
+          "smart",
+          "alarm"
+        ],
+        "smart": [
+          "clock",
+          "alarm",
+          "google"
+        ],
+        "great": [
+          "smart"
+        ],
+        "alarm": [
+          "smart",
+          "clock"
+        ],
+        "google": [
+          "smart"
+        ]
+      }
+    }
+  ]
+}

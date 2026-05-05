@@ -1,0 +1,113 @@
+{
+  "exp_id": "EXP-5",
+  "method": "LDA_KMEANS",
+  "file": "voc_en",
+  "lang": "en",
+  "n_docs": 965,
+  "k": 4,
+  "silhouette_mean": 0.8422,
+  "silhouette_std": 0.0001,
+  "coherence_cv": 0.4881,
+  "cluster_distribution": {
+    "0": 353,
+    "1": 192,
+    "2": 303,
+    "3": 117
+  },
+  "cluster_topic_dist": {
+    "cluster_0": {
+      "n_docs": 353,
+      "dominant_topic": 2,
+      "topic_dist": [
+        0.0483,
+        0.0546,
+        0.8596,
+        0.0374
+      ]
+    },
+    "cluster_1": {
+      "n_docs": 192,
+      "dominant_topic": 0,
+      "topic_dist": [
+        0.8059,
+        0.0569,
+        0.1152,
+        0.0219
+      ]
+    },
+    "cluster_2": {
+      "n_docs": 303,
+      "dominant_topic": 1,
+      "topic_dist": [
+        0.0406,
+        0.8878,
+        0.059,
+        0.0126
+      ]
+    },
+    "cluster_3": {
+      "n_docs": 117,
+      "dominant_topic": 3,
+      "topic_dist": [
+        0.0353,
+        0.0415,
+        0.0544,
+        0.8688
+      ]
+    }
+  },
+  "lda_topic_words": {
+    "topic_0": [
+      "service",
+      "exchange",
+      "trust",
+      "defect",
+      "brand",
+      "issue",
+      "request",
+      "measurement",
+      "piece",
+      "product"
+    ],
+    "topic_1": [
+      "color",
+      "pretty",
+      "look",
+      "buy",
+      "want",
+      "design",
+      "setup",
+      "choose",
+      "make",
+      "beautiful"
+    ],
+    "topic_2": [
+      "price",
+      "spec",
+      "buy",
+      "service",
+      "performance",
+      "pay",
+      "cost",
+      "brand",
+      "product",
+      "month"
+    ],
+    "topic_3": [
+      "warranty",
+      "service",
+      "brand",
+      "app",
+      "spec",
+      "use",
+      "material",
+      "period",
+      "long",
+      "product"
+    ]
+  },
+  "used_params": {
+    "k": 4
+  },
+  "paper_ref": "Scientific Reports(2025) / Blei(2003) / MacQueen(1967) / Grid-Search Tuned"
+}

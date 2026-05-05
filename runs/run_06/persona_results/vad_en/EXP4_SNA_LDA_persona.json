@@ -1,0 +1,182 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP4_SNA_LDA",
+  "method": "SNA_LDA",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2370,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Music-Loving Practical User",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP4_SNA_LDA",
+      "keywords": [
+        "music",
+        "play",
+        "alexa",
+        "echo",
+        "amazon"
+      ],
+      "core_value": "Enjoyment of hands-free music streaming and voice assistant interaction.",
+      "description": "These users focus on using their smart speakers primarily for playing music and interacting with Alexa. They appreciate when the device integrates seamlessly into their home setup.",
+      "motivation": "Desire to have easy access to music and smart home integration to streamline daily tasks.",
+      "pain_points": "When the device doesn’t work well with their music preferences or has connectivity issues.",
+      "quote": "I love using Alexa to play my favorite playlists while cooking.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Keywords like 'music', 'play', 'well', and 'amazon' are positive, indicating satisfaction. 'Want' and 'work' have neutral connotations."
+      },
+      "top_aspects": [
+        "music",
+        "alexa",
+        "echo",
+        "amazon",
+        "home"
+      ],
+      "co_aspects": {
+        "music": [
+          "play",
+          "alexa",
+          "echo"
+        ],
+        "alexa": [
+          "echo",
+          "amazon",
+          "home"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Sound Quality Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP4_SNA_LDA",
+      "keywords": [
+        "great",
+        "sound",
+        "quality",
+        "love",
+        "product"
+      ],
+      "core_value": "Exceptional audio performance and product satisfaction.",
+      "description": "This segment is particularly focused on the audio quality of the device. They often express their satisfaction with the sound and tend to appreciate products that offer both quality and functionality.",
+      "motivation": "The need for high-quality sound for enjoying music or media.",
+      "pain_points": "Potential dissatisfaction if the sound does not meet their high expectations.",
+      "quote": "The sound quality is just fantastic, couldn't be happier!",
+      "sentiment_ratio": {
+        "Positive": 0.8,
+        "Neutral": 0.2,
+        "Negative": 0.0,
+        "_inference_note": "Strong positive signals are evident in words like 'great', 'sound', 'quality', 'love'. 'Work' and 'product' imply neutrality."
+      },
+      "top_aspects": [
+        "sound",
+        "quality",
+        "great",
+        "good",
+        "product"
+      ],
+      "co_aspects": {
+        "sound": [
+          "quality",
+          "great",
+          "love"
+        ],
+        "quality": [
+          "sound",
+          "great",
+          "love"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Clock-and-Charge Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP4_SNA_LDA",
+      "keywords": [
+        "clock",
+        "charge",
+        "smart",
+        "alarm",
+        "light"
+      ],
+      "core_value": "Focus on multifunctional use like time display and device charging.",
+      "description": "This group values the combined functionalities of a smart device that acts like a clock and a charger. Their interest is in how these features help simplify their routines.",
+      "motivation": "A device that combines several daily utilities into a single smart solution.",
+      "pain_points": "Issues with multiple functions working simultaneously may cause frustration.",
+      "quote": "Having a smart device that charges my phone and acts as a clock in one is fantastic.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.4,
+        "Negative": 0.1,
+        "_inference_note": "Positivity from 'great' and integration aspects ('smart', 'light'). Neutrality from 'clock', 'charge'. Slight negativity if multiple functions don't work well."
+      },
+      "top_aspects": [
+        "clock",
+        "charge",
+        "smart",
+        "alarm",
+        "light"
+      ],
+      "co_aspects": {
+        "clock": [
+          "charge",
+          "smart",
+          "alarm"
+        ],
+        "charge": [
+          "smart",
+          "alarm",
+          "light"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Tech-Savvy Google Home User",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP4_SNA_LDA",
+      "keywords": [
+        "nest",
+        "google",
+        "thermostat",
+        "home",
+        "support"
+      ],
+      "core_value": "Integration of smart home devices focusing on efficiency and technology.",
+      "description": "These consumers are invested in Google’s ecosystem, particularly focusing on smart home devices like Nest. They value support and advanced features.",
+      "motivation": "Desire for an interconnected smart home environment that enhances living convenience.",
+      "pain_points": "Frustrations arise if the devices lack integration or if customer support fails.",
+      "quote": "Integrating my Nest with Google Home has streamlined my home automation.",
+      "sentiment_ratio": {
+        "Positive": 0.4,
+        "Neutral": 0.5,
+        "Negative": 0.1,
+        "_inference_note": "Positivity indicated by 'google', 'support', 'device'. Neutrality from words like 'home', 'thermostat'. Minor negativity if support is lacking."
+      },
+      "top_aspects": [
+        "nest",
+        "google",
+        "thermostat",
+        "home",
+        "support"
+      ],
+      "co_aspects": {
+        "nest": [
+          "google",
+          "thermostat",
+          "home"
+        ],
+        "google": [
+          "nest",
+          "thermostat",
+          "support"
+        ]
+      }
+    }
+  ]
+}

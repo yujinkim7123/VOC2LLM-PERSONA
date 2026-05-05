@@ -1,0 +1,226 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "BASELINE",
+  "method": "LLM_STANDALONE",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_docs": null,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Efficiency-Seeking Tech Enthusiast",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_BASELINE",
+      "keywords": [
+        "smart",
+        "energy saving",
+        "remote control",
+        "integration",
+        "automated"
+      ],
+      "core_value": "This consumer values high-tech features and energy efficiency in home appliances.",
+      "description": "These consumers are tech-savvy individuals who thrive on integrating the latest home technology into their living spaces. They are keen on smart appliances that can be operated remotely and often share reviews online to discuss automation.",
+      "motivation": "Driven by the need for cutting-edge technology that optimizes day-to-day tasks and reduces their carbon footprint.",
+      "pain_points": "Frustrations arise when smart integrations are complicated or when the product's long-term benefits do not align with initial promises.",
+      "quote": "I love how my smart fridge seamlessly integrates with my home system, but the initial setup was quite challenging.",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Tech enthusiasts are usually excited by new features but may face initial setup challenges."
+      },
+      "top_aspects": [
+        "smart",
+        "energy saving",
+        "integration",
+        "remote control",
+        "automated"
+      ],
+      "co_aspects": {
+        "smart": [
+          "integration",
+          "remote control",
+          "automated"
+        ],
+        "energy saving": [
+          "smart",
+          "integration"
+        ],
+        "integration": [
+          "smart",
+          "remote control"
+        ],
+        "remote control": [
+          "smart",
+          "integration"
+        ],
+        "automated": [
+          "smart",
+          "remote control",
+          "integration"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Cost-Conscious Homemaker",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_BASELINE",
+      "keywords": [
+        "affordable",
+        "durable",
+        "basic features",
+        "value",
+        "budget"
+      ],
+      "core_value": "Reliability and cost-effectiveness are most important to this consumer segment.",
+      "description": "This group consists primarily of homemakers focused on finding durable products at an affordable price. They prioritize products with basic, necessary features over more expensive high-tech options.",
+      "motivation": "Purchasing decisions are driven by long-term savings and the reliability of the product.",
+      "pain_points": "They are frequently concerned about the longevity of affordable products and potential hidden costs.",
+      "quote": "I need an appliance that's not only budget-friendly but also reliable for daily use.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.4,
+        "Negative": 0.1,
+        "_inference_note": "Generally satisfied with cost-saving purchases but wary of future durability issues."
+      },
+      "top_aspects": [
+        "affordable",
+        "durable",
+        "basic features",
+        "value",
+        "budget"
+      ],
+      "co_aspects": {
+        "affordable": [
+          "value",
+          "durable"
+        ],
+        "durable": [
+          "affordable",
+          "value"
+        ],
+        "basic features": [
+          "affordable",
+          "budget"
+        ],
+        "value": [
+          "affordable",
+          "durable"
+        ],
+        "budget": [
+          "affordable",
+          "basic features"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Style-Conscious Urban Dweller",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_BASELINE",
+      "keywords": [
+        "design",
+        "aesthetic",
+        "modern",
+        "compact",
+        "innovation"
+      ],
+      "core_value": "Aesthetic appeal and modern design guide this consumer's purchasing decisions.",
+      "description": "These are urban residents living in stylish, often compact spaces, who value the look and feel of their appliances as much as their functionality. They are drawn to sleek designs that match their modern interiors.",
+      "motivation": "Purchases are influenced by how well a product complements their living space and expresses their personal style.",
+      "pain_points": "Dissatisfaction occurs when appliances do not perform as well as they look.",
+      "quote": "The design is fantastic, but it needs to match that with functionality.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Appreciate design and style but can be critical if performance doesn't meet expectations."
+      },
+      "top_aspects": [
+        "design",
+        "modern",
+        "compact",
+        "aesthetic",
+        "innovation"
+      ],
+      "co_aspects": {
+        "design": [
+          "aesthetic",
+          "modern"
+        ],
+        "aesthetic": [
+          "design",
+          "modern",
+          "compact"
+        ],
+        "modern": [
+          "design",
+          "aesthetic",
+          "innovation"
+        ],
+        "compact": [
+          "aesthetic",
+          "modern"
+        ],
+        "innovation": [
+          "design",
+          "modern"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Eco-Conscious Minimalist",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_BASELINE",
+      "keywords": [
+        "eco-friendly",
+        "minimalist",
+        "sustainable",
+        "energy-efficient",
+        "green"
+      ],
+      "core_value": "Environmental impact and minimalism are paramount for these consumers.",
+      "description": "This segment prefers products that are not only energy-efficient but are manufactured sustainably. They often adopt a minimalist lifestyle to reduce their carbon footprint, opting for fewer, more purposeful purchases.",
+      "motivation": "Their buying decisions are driven by sustainability metrics and the minimal impact a product will have on the environment.",
+      "pain_points": "Frustrations emerge when eco-friendly claims are misleading or when sustainable products are not available.",
+      "quote": "Every appliance I buy needs to be sustainable all the way from production to disposal.",
+      "sentiment_ratio": {
+        "Positive": 0.65,
+        "Neutral": 0.25,
+        "Negative": 0.1,
+        "_inference_note": "Generally positive but vigilant about authenticity in sustainability claims."
+      },
+      "top_aspects": [
+        "eco-friendly",
+        "energy-efficient",
+        "sustainable",
+        "minimalist",
+        "green"
+      ],
+      "co_aspects": {
+        "eco-friendly": [
+          "sustainable",
+          "energy-efficient"
+        ],
+        "minimalist": [
+          "eco-friendly",
+          "sustainable"
+        ],
+        "sustainable": [
+          "eco-friendly",
+          "energy-efficient"
+        ],
+        "energy-efficient": [
+          "eco-friendly",
+          "sustainable"
+        ],
+        "green": [
+          "eco-friendly",
+          "sustainable"
+        ]
+      }
+    }
+  ]
+}

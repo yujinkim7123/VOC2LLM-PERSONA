@@ -1,0 +1,197 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP_RAW",
+  "method": "RAW_REVIEW_INJECTION",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_reviews_injected": 200,
+  "run_seed": 56,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Price-Conscious Bargain Seekers",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP_RAW",
+      "keywords": [
+        "budget",
+        "cheap",
+        "price",
+        "deal",
+        "discount",
+        "coupon",
+        "promotions"
+      ],
+      "core_value": "Minimizing cost and maximizing value for money.",
+      "description": "These consumers are driven by the desire to get the best deal possible. They often leverage discounts, coupons, and compare prices across marketplaces to ensure they get products at the lowest cost. They're willing to wait or hunt for the right deal.",
+      "motivation": "Strong motivation to purchase products when significantly discounted or when offered promotions that exceed other available options.",
+      "pain_points": "Potential disappointment if a product's quality matches its low cost or if perceived savings are offset by frequent replacements.",
+      "quote": "I found a coupon stacked on top of an already discounted price. That’s the kind of deal I wait months for.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "While primarily positive about discounts and deals, a smaller portion express concerns over quality matching the price."
+      },
+      "top_aspects": [
+        "price",
+        "deal",
+        "discount",
+        "promotion",
+        "value"
+      ],
+      "co_aspects": {
+        "price": [
+          "discount",
+          "deal",
+          "promotion"
+        ],
+        "discount": [
+          "value",
+          "deal"
+        ],
+        "deal": [
+          "price",
+          "promotion"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Quality-Driven Realists",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP_RAW",
+      "keywords": [
+        "build quality",
+        "reliable",
+        "consistency",
+        "failure",
+        "performance",
+        "durability"
+      ],
+      "core_value": "Reliability and durability in everyday use.",
+      "description": "These consumers prioritize durability and reliability in their home appliances. They often scrutinize build quality and performance standards to ensure that products will stand the test of time.",
+      "motivation": "Driven by the need for products that perform reliably without frequent issues or failures.",
+      "pain_points": "Frustrations arise from components that wear out quickly or products that malfunction, contradicting the expected lifespan.",
+      "quote": "The plastic casing cracked just from plugging in cables a normal number of times. Incredibly fragile build for something you interact with daily.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.3,
+        "Negative": 0.5,
+        "_inference_note": "More negative sentiment due to issues with product durability and unreliability."
+      },
+      "top_aspects": [
+        "build quality",
+        "performance",
+        "durability",
+        "reliability",
+        "design"
+      ],
+      "co_aspects": {
+        "build quality": [
+          "reliability",
+          "durability"
+        ],
+        "performance": [
+          "reliability",
+          "durability"
+        ],
+        "durability": [
+          "build quality",
+          "reliability"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Functional Tech Explorers",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP_RAW",
+      "keywords": [
+        "specs",
+        "features",
+        "functionality",
+        "performance",
+        "hardware",
+        "compatibility"
+      ],
+      "core_value": "Optimal performance and specifications at a reasonable cost.",
+      "description": "Functional Tech Explorers are interested in getting the most out of devices through technical specs and capabilities. They frequently test and verify specs, often using benchmarks and other objective tools.",
+      "motivation": "Driven to maximize utility by purchasing products with proven specifications and functionality.",
+      "pain_points": "Encounter frustration if products do not meet advertised specifications or performance drops significantly.",
+      "quote": "I timed the charge cycle and it came out nearly identical to the official spec sheet.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.3,
+        "Negative": 0.2,
+        "_inference_note": "Balanced sentiment with a focus on specs and proven performance, though they report disappointment if expectations aren't met."
+      },
+      "top_aspects": [
+        "specs",
+        "features",
+        "performance",
+        "compatibility",
+        "hardware"
+      ],
+      "co_aspects": {
+        "performance": [
+          "specs",
+          "features"
+        ],
+        "specs": [
+          "hardware",
+          "compatibility"
+        ],
+        "features": [
+          "performance",
+          "compatibility"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Aesthetic Enthusiasts",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP_RAW",
+      "keywords": [
+        "design",
+        "color",
+        "aesthetic",
+        "style",
+        "appearance",
+        "visuals"
+      ],
+      "core_value": "Stylish design that enhances their living environment.",
+      "description": "These consumers often select products for their visual appeal, ensuring that they complement their interior design or personal style. They value aesthetics as much as function.",
+      "motivation": "The purchase decision is often driven by the visual appeal and how well the product fits into the overall aesthetic of an environment.",
+      "pain_points": "Encounter dissatisfaction if the product's appearance doesn't match expectations or if aesthetic qualities do not translate well into the actual settings.",
+      "quote": "The RGB lighting looks impressive in demo videos but the actual colors are washed out and dim compared to what's shown.",
+      "sentiment_ratio": {
+        "Positive": 0.4,
+        "Neutral": 0.3,
+        "Negative": 0.3,
+        "_inference_note": "Mixed sentiment with a focus on aesthetic disappointment when appearances don't meet expectations."
+      },
+      "top_aspects": [
+        "design",
+        "color",
+        "appearance",
+        "style",
+        "visuals"
+      ],
+      "co_aspects": {
+        "design": [
+          "appearance",
+          "style"
+        ],
+        "color": [
+          "appearance",
+          "design"
+        ],
+        "visuals": [
+          "aesthetic",
+          "appearance"
+        ]
+      }
+    }
+  ]
+}

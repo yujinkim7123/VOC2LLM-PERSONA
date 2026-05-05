@@ -1,0 +1,226 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP7_Full",
+  "method": "SNA_LDA_KMEANS",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2138,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Feature-Focused Advanced User",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP7_Full",
+      "keywords": [
+        "device",
+        "feature",
+        "smart",
+        "home",
+        "set",
+        "connect"
+      ],
+      "core_value": "This segment values advanced features and integration capabilities.",
+      "description": "These consumers are tech-savvy individuals who deeply engage with the advanced features of their smart devices and appreciate when they integrate smoothly into their home ecosystems.",
+      "motivation": "They are driven by a desire to enhance their home’s efficiency and enjoy exploring new capabilities that smart tools offer.",
+      "pain_points": "They are often frustrated by connectivity issues and when features don’t work as promised.",
+      "quote": "I love how the device fits into my smart home system, but connectivity can be a hassle sometimes.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.3,
+        "Negative": 0.2,
+        "_inference_note": "Positive sentiment inferred from words like 'love' and 'smart'; negative inferred from 'issue' and 'problem'; neutral from factual descriptors like 'device' and 'feature'."
+      },
+      "top_aspects": [
+        "device",
+        "feature",
+        "smart",
+        "home",
+        "connect"
+      ],
+      "co_aspects": {
+        "device": [
+          "feature",
+          "smart",
+          "connect"
+        ],
+        "feature": [
+          "smart",
+          "home",
+          "connect"
+        ],
+        "smart": [
+          "home",
+          "feature"
+        ],
+        "home": [
+          "smart",
+          "connect"
+        ],
+        "connect": [
+          "device",
+          "feature"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Convenience-Seeking Everyday User",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP7_Full",
+      "keywords": [
+        "easy",
+        "use",
+        "set",
+        "time",
+        "work",
+        "want"
+      ],
+      "core_value": "These users prioritize ease of use and quick setup in their devices.",
+      "description": "These consumers look for virtual assistants that are easy to set up and operate. They frequently use basic functions to simplify their daily routines.",
+      "motivation": "Their main drive is to have a device that saves them time and effort in everyday tasks.",
+      "pain_points": "They dislike complex setups and when tasks are not straightforward.",
+      "quote": "I wanted something easy to use right out of the box, but setting it up took longer than I expected.",
+      "sentiment_ratio": {
+        "Positive": 0.4,
+        "Neutral": 0.4,
+        "Negative": 0.2,
+        "_inference_note": "Positive signals come from 'easy', 'work'; negative signals from setup difficulties; neutral inferred from 'use', 'set' as factual descriptions."
+      },
+      "top_aspects": [
+        "easy",
+        "use",
+        "set",
+        "time",
+        "work"
+      ],
+      "co_aspects": {
+        "easy": [
+          "use",
+          "set"
+        ],
+        "use": [
+          "easy",
+          "set"
+        ],
+        "set": [
+          "use",
+          "time"
+        ],
+        "time": [
+          "work",
+          "use"
+        ],
+        "work": [
+          "time",
+          "use"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Aesthetic-Value Conscious Buyer",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP7_Full",
+      "keywords": [
+        "picture",
+        "display",
+        "look",
+        "screen",
+        "nice"
+      ],
+      "core_value": "They value devices that complement their home decor with good design and visual elements.",
+      "description": "These consumers are conscious of the aesthetics of their devices and how they fit visually within their home environment.",
+      "motivation": "They are motivated by a desire to have a visually appealing device that also functions well.",
+      "pain_points": "They are frustrated if the device's design or display quality does not meet their expectations.",
+      "quote": "The display looks nice, but it doesn’t quite match the rest of my décor as I hoped.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Positive sentiment inferred from words like 'nice' and 'look'; neutral from 'display' and 'screen'; minor negatives if visual expectations are unmet."
+      },
+      "top_aspects": [
+        "picture",
+        "display",
+        "look",
+        "screen",
+        "nice"
+      ],
+      "co_aspects": {
+        "picture": [
+          "display",
+          "look"
+        ],
+        "display": [
+          "screen",
+          "nice"
+        ],
+        "look": [
+          "nice",
+          "picture"
+        ],
+        "screen": [
+          "display",
+          "nice"
+        ],
+        "nice": [
+          "look",
+          "screen"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Critically Pragmatic User",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP7_Full",
+      "keywords": [
+        "problem",
+        "return",
+        "issue",
+        "support",
+        "purchase"
+      ],
+      "core_value": "This group values reliability and effective customer support above features.",
+      "description": "These consumers are practical and often critical, voicing their dissatisfaction when devices do not meet standards or if support is lacking.",
+      "motivation": "Their primary motivation is to obtain a device that works flawlessly and is backed by strong customer support.",
+      "pain_points": "They are extremely frustrated with product issues and poor support services.",
+      "quote": "I had to return it twice because of persistent issues, and support wasn’t very helpful.",
+      "sentiment_ratio": {
+        "Positive": 0.1,
+        "Neutral": 0.3,
+        "Negative": 0.6,
+        "_inference_note": "Negative sentiment inferred from 'problem', 'return', 'issue'; neutral from 'purchase', 'support' in transactional contexts; low positives as incidents are resolved."
+      },
+      "top_aspects": [
+        "problem",
+        "return",
+        "issue",
+        "support",
+        "purchase"
+      ],
+      "co_aspects": {
+        "problem": [
+          "issue",
+          "return"
+        ],
+        "return": [
+          "issue",
+          "support"
+        ],
+        "issue": [
+          "problem",
+          "return"
+        ],
+        "support": [
+          "issue",
+          "purchase"
+        ],
+        "purchase": [
+          "support",
+          "return"
+        ]
+      }
+    }
+  ]
+}

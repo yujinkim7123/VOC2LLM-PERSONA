@@ -1,0 +1,211 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP3_KMeans",
+  "method": "KMEANS_TFIDF",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2370,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Smart Home Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP3_KMeans",
+      "keywords": [
+        "thermostat",
+        "nest",
+        "work",
+        "learn",
+        "easy",
+        "install",
+        "google"
+      ],
+      "core_value": "Integration of smart devices for a seamless home experience.",
+      "description": "This consumer is keen on transforming their home into a smart ecosystem, prioritizing usability and integration of devices like smart thermostats.",
+      "motivation": "They are driven by the desire for a more efficient home environment through the adoption of smart technology.",
+      "pain_points": "Complex installation processes or poor integration with other devices can be frustrating.",
+      "quote": "I'm looking for something that just works seamlessly with the rest of my smart devices at home.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.4,
+        "Negative": 0.1,
+        "_inference_note": "Positive: 'easy', 'learn', 'install'; Neutral: 'work', 'buy'; Negative: minimal negative signals."
+      },
+      "top_aspects": [
+        "thermostat",
+        "nest",
+        "work",
+        "learn",
+        "install"
+      ],
+      "co_aspects": {
+        "thermostat": [
+          "nest",
+          "work",
+          "learn"
+        ],
+        "nest": [
+          "work",
+          "learn",
+          "install"
+        ],
+        "work": [
+          "learn",
+          "google",
+          "home"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Audiophile Bargain Hunter",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP3_KMeans",
+      "keywords": [
+        "great",
+        "sound",
+        "quality",
+        "love",
+        "price",
+        "picture",
+        "samsung"
+      ],
+      "core_value": "Excellent audio-visual experience at a competitive price.",
+      "description": "This consumer avidly searches for devices that offer high-quality sound and visuals without breaking the bank, valuing both performance and value.",
+      "motivation": "They are motivated by the pursuit of premium audio-visual experiences without the premium price tag.",
+      "pain_points": "Disappointment arises if the product does not meet sound or picture quality expectations.",
+      "quote": "I want to enjoy high-quality sound but still need to stick to my budget.",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.3,
+        "Negative": 0.0,
+        "_inference_note": "Positive: 'great', 'quality', 'love', 'perfect'; Neutral: 'price', 'picture'."
+      },
+      "top_aspects": [
+        "great",
+        "sound",
+        "quality",
+        "love",
+        "price"
+      ],
+      "co_aspects": {
+        "great": [
+          "sound",
+          "quality",
+          "love"
+        ],
+        "sound": [
+          "quality",
+          "samsung",
+          "price"
+        ],
+        "quality": [
+          "love",
+          "picture",
+          "samsung"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Pragmatic Clock User",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP3_KMeans",
+      "keywords": [
+        "clock",
+        "smart",
+        "alarm",
+        "charge",
+        "lenovo",
+        "google",
+        "love"
+      ],
+      "core_value": "A reliable smart clock with additional functionality.",
+      "description": "This consumer values the multifunctional aspect of smart clocks, using them as both a practical tool and an additional smart device feature.",
+      "motivation": "Efficiently managing their routine with a smart clock that offers more than just timekeeping.",
+      "pain_points": "Charging issues or inadequate performance can disrupt this consumer's routines.",
+      "quote": "I like having both a clock and a smart device in one package, it's convenient.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Positive: 'great', 'love'; Neutral: 'smart', 'alarm', 'charge'; Negative: minor implicit issues may exist."
+      },
+      "top_aspects": [
+        "clock",
+        "smart",
+        "alarm",
+        "charge",
+        "lenovo"
+      ],
+      "co_aspects": {
+        "clock": [
+          "smart",
+          "alarm",
+          "charge"
+        ],
+        "smart": [
+          "alarm",
+          "lenovo",
+          "google"
+        ],
+        "alarm": [
+          "charge",
+          "google",
+          "love"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Skeptical Returner",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP3_KMeans",
+      "keywords": [
+        "work",
+        "stop",
+        "month",
+        "return",
+        "week",
+        "good",
+        "fine",
+        "buy"
+      ],
+      "core_value": "Long-term reliability and consistent performance.",
+      "description": "This consumer is cautious about their purchase, often ending up returning products that don't prove reliable over time.",
+      "motivation": "Seeking assurance of product durability and performance consistency.",
+      "pain_points": "Devices that stop working within a few months prompt returns and frustration.",
+      "quote": "It's disappointing when something works for a month and then breaks; I end up returning it.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.4,
+        "Negative": 0.4,
+        "_inference_note": "Positive: 'good', 'fine'; Neutral: 'work', 'buy'; Negative: 'stop', 'return', 'month'."
+      },
+      "top_aspects": [
+        "work",
+        "stop",
+        "month",
+        "return",
+        "buy"
+      ],
+      "co_aspects": {
+        "work": [
+          "stop",
+          "month",
+          "return"
+        ],
+        "stop": [
+          "return",
+          "week",
+          "day"
+        ],
+        "return": [
+          "good",
+          "buy",
+          "fine"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "exp_id": "EXP-2",
+  "method": "LDA",
+  "file": "voc_en",
+  "lang": "en",
+  "n_docs": 965,
+  "n_topics": 4,
+  "coherence_cv": 0.4881,
+  "coherence_mean": 0.4138,
+  "coherence_std": 0.0436,
+  "perplexity": -6.5259,
+  "perplexity_mean": -6.5492,
+  "topic_words": {
+    "topic_0": [
+      "service",
+      "exchange",
+      "trust",
+      "defect",
+      "brand",
+      "issue",
+      "request",
+      "measurement",
+      "piece",
+      "product"
+    ],
+    "topic_1": [
+      "color",
+      "pretty",
+      "look",
+      "buy",
+      "want",
+      "design",
+      "setup",
+      "choose",
+      "make",
+      "beautiful"
+    ],
+    "topic_2": [
+      "price",
+      "spec",
+      "buy",
+      "service",
+      "performance",
+      "pay",
+      "cost",
+      "brand",
+      "product",
+      "month"
+    ],
+    "topic_3": [
+      "warranty",
+      "service",
+      "brand",
+      "app",
+      "spec",
+      "use",
+      "material",
+      "period",
+      "long",
+      "product"
+    ]
+  },
+  "used_params": {
+    "k": 4,
+    "passes": 30,
+    "no_below": 2,
+    "no_above": 0.9
+  },
+  "paper_ref": "Blei, Ng & Jordan (2003) / Röder et al. (2015) / Grid-Search Tuned"
+}

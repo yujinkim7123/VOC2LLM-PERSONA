@@ -1,0 +1,187 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP1_SNA",
+  "method": "SNA_LOUVAIN",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2370,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Music Enthusiast Alexa User",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP1_SNA",
+      "keywords": [
+        "music",
+        "want",
+        "play",
+        "echo",
+        "alexa",
+        "amazon",
+        "listen"
+      ],
+      "core_value": "Seamless music streaming experience.",
+      "description": "This consumer is someone who frequently uses Alexa devices to play music and values the convenience of voice commands for this purpose.",
+      "motivation": "Having an easy and reliable way to play and control music via voice commands.",
+      "pain_points": "Occasional misunderstandings of commands or limitations in streaming music services.",
+      "quote": "I love using my Alexa to play music throughout my home.",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.3,
+        "Negative": 0.0,
+        "_inference_note": "Keywords like 'love', 'want', 'play', and 'listen' suggest a positive experience with using Alexa for music."
+      },
+      "top_aspects": [
+        "music",
+        "play",
+        "echo",
+        "alexa",
+        "amazon"
+      ],
+      "co_aspects": {
+        "music": [
+          "want",
+          "play",
+          "echo"
+        ],
+        "alexa": [
+          "echo",
+          "amazon",
+          "listen"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Quality-Savvy User",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP1_SNA",
+      "keywords": [
+        "great",
+        "good",
+        "sound",
+        "product",
+        "use",
+        "quality"
+      ],
+      "core_value": "High-quality sound and ease of use.",
+      "description": "This consumer appreciates high-quality audio and overall product reliability. They tend to praise the quality of the product's sound output.",
+      "motivation": "Obtaining a device that delivers excellent sound quality and is easy to use.",
+      "pain_points": "Disappointment if the sound quality does not meet their high expectations.",
+      "quote": "The sound quality is amazing, and it's so easy to use.",
+      "sentiment_ratio": {
+        "Positive": 0.8,
+        "Neutral": 0.2,
+        "Negative": 0.0,
+        "_inference_note": "Keywords such as 'great', 'good', 'sound', and 'quality' signal a positive sentiment towards product audio and usability."
+      },
+      "top_aspects": [
+        "great",
+        "sound",
+        "product",
+        "use",
+        "quality"
+      ],
+      "co_aspects": {
+        "great": [
+          "good",
+          "sound",
+          "use"
+        ],
+        "sound": [
+          "product",
+          "quality",
+          "use"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Smart Home Integrator",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP1_SNA",
+      "keywords": [
+        "google",
+        "nest",
+        "home",
+        "device",
+        "hub",
+        "app"
+      ],
+      "core_value": "Integration and control of smart home systems.",
+      "description": "This consumer focuses on integrating smart devices into their home, using Google's ecosystem to manage various aspects of their smart home.",
+      "motivation": "Building a cohesive smart home environment with centralized control.",
+      "pain_points": "Compatibility issues with other devices or complexities in integration.",
+      "quote": "Google devices keep my smart home connected and easy to control.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.4,
+        "Negative": 0.0,
+        "_inference_note": "Keywords like 'device', 'home', 'hub', and 'google' indicate a focus on smart home integration, with a generally positive impression."
+      },
+      "top_aspects": [
+        "google",
+        "nest",
+        "home",
+        "device",
+        "hub"
+      ],
+      "co_aspects": {
+        "google": [
+          "nest",
+          "home",
+          "device"
+        ],
+        "home": [
+          "device",
+          "hub",
+          "app"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Practical Troubleshooter",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP1_SNA",
+      "keywords": [
+        "work",
+        "buy",
+        "time",
+        "issue",
+        "connect",
+        "purchase"
+      ],
+      "core_value": "Reliability and functionality over time.",
+      "description": "This consumer values practical and reliable purchases. They often encounter and address issues post-purchase.",
+      "motivation": "Finding a device that works consistently without regular issues.",
+      "pain_points": "Connectivity problems and functional issues that necessitate troubleshooting or returns.",
+      "quote": "I expect my devices to work smoothly and am quick to notice any issues.",
+      "sentiment_ratio": {
+        "Positive": 0.3,
+        "Neutral": 0.3,
+        "Negative": 0.4,
+        "_inference_note": "Keywords indicate both positive ('work', 'buy') and negative ('issue', 'return') sentiments, leaning towards frustrations with issues and returns."
+      },
+      "top_aspects": [
+        "work",
+        "issue",
+        "connect",
+        "purchase",
+        "return"
+      ],
+      "co_aspects": {
+        "work": [
+          "time",
+          "connect",
+          "issue"
+        ],
+        "issue": [
+          "connect",
+          "purchase",
+          "return"
+        ]
+      }
+    }
+  ]
+}

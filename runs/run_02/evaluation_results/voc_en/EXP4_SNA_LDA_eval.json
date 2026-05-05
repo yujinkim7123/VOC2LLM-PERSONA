@@ -1,0 +1,193 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP4_SNA_LDA",
+  "method": "SNA_LDA",
+  "lang": "en",
+  "judge": {
+    "judge_matrix": [
+      [
+        0.4,
+        0.24,
+        0.18,
+        0.22
+      ],
+      [
+        0.06,
+        0.32,
+        0.06,
+        0.42
+      ],
+      [
+        0.0,
+        0.0,
+        0.52,
+        0.0
+      ],
+      [
+        0.06,
+        0.38,
+        0.0,
+        0.06
+      ]
+    ],
+    "best_mapping": [
+      {
+        "gen_name": "Budget-Conscious Shopper",
+        "gt_name": "Price-Sensitive Bargain Hunter",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.4,
+        "validity_score": 0.7,
+        "reasoning": "Sentiment is off; keywords and behavior less aligned, some validity.",
+        "success": false
+      },
+      {
+        "gen_name": "Brand Loyal Quality Seeker",
+        "gt_name": "Trust-Seeking After-Service Prioritizer",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.3,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.3,
+        "matching_score": 0.42,
+        "validity_score": 0.7,
+        "reasoning": "Keywords partially overlap; core values differ; sentiment off.",
+        "success": false
+      },
+      {
+        "gen_name": "Aesthetic-Focused Buyer",
+        "gt_name": "Design-Driven Aesthetic Consumer",
+        "keyword_alignment": 0.7,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.7,
+        "sentiment_alignment": 0.0,
+        "matching_score": 0.52,
+        "validity_score": 1.0,
+        "reasoning": "Keywords match partially, sentiment direction off, grounded in design topics.",
+        "success": true
+      },
+      {
+        "gen_name": "Performance and Tech Enthusiast",
+        "gt_name": "Performance-Focused Spec Evaluator",
+        "keyword_alignment": 0.3,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.3,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.3,
+        "matching_score": 0.38,
+        "validity_score": 0.5,
+        "reasoning": "Generated persona is partially aligned; lacks focus on domain-specific terms.",
+        "success": false
+      }
+    ],
+    "matching_score": 0.43,
+    "validity_score": 0.725,
+    "mean_all_matching": 0.1825,
+    "dim_averages": {
+      "keyword_alignment": 0.5,
+      "value_alignment": 0.55,
+      "pain_alignment": 0.45,
+      "behavioral_alignment": 0.5,
+      "sentiment_alignment": 0.15
+    },
+    "n_success": 1,
+    "mapping_success_rate": 0.25
+  },
+  "topic_sim_result": {
+    "topic_sim": 0.3574,
+    "pair_details": [
+      {
+        "gen_name": "Budget-Conscious Shopper",
+        "gt_name": "Price-Sensitive Bargain Hunter",
+        "gen_aspects": [
+          "price",
+          "pay",
+          "month",
+          "cost",
+          "cheap"
+        ],
+        "gt_aspects": [
+          "Price/Cost",
+          "Performance/Specs",
+          "Design/Appearance",
+          "Shipping/Service",
+          "Ease of Use"
+        ],
+        "topic_sim": 0.4539
+      },
+      {
+        "gen_name": "Brand Loyal Quality Seeker",
+        "gt_name": "Trust-Seeking After-Service Prioritizer",
+        "gen_aspects": [
+          "service",
+          "brand",
+          "trust",
+          "quality",
+          "repair"
+        ],
+        "gt_aspects": [
+          "Shipping/Service",
+          "Price/Cost",
+          "Ease of Use",
+          "Performance/Specs",
+          "Design/Appearance"
+        ],
+        "topic_sim": 0.3289
+      },
+      {
+        "gen_name": "Aesthetic-Focused Buyer",
+        "gt_name": "Design-Driven Aesthetic Consumer",
+        "gen_aspects": [
+          "color",
+          "buy",
+          "choose",
+          "match",
+          "real"
+        ],
+        "gt_aspects": [
+          "Design/Appearance",
+          "Ease of Use",
+          "Price/Cost",
+          "Shipping/Service",
+          "Performance/Specs"
+        ],
+        "topic_sim": 0.2948
+      },
+      {
+        "gen_name": "Performance and Tech Enthusiast",
+        "gt_name": "Performance-Focused Spec Evaluator",
+        "gen_aspects": [
+          "charge",
+          "setup",
+          "cable",
+          "display",
+          "use"
+        ],
+        "gt_aspects": [
+          "Performance/Specs",
+          "Ease of Use",
+          "Design/Appearance",
+          "Shipping/Service",
+          "Price/Cost"
+        ],
+        "topic_sim": 0.3521
+      }
+    ]
+  },
+  "summary": {
+    "matching_score": 0.43,
+    "validity_score": 0.725,
+    "topic_sim": 0.3574,
+    "dim_averages": {
+      "keyword_alignment": 0.5,
+      "value_alignment": 0.55,
+      "pain_alignment": 0.45,
+      "behavioral_alignment": 0.5,
+      "sentiment_alignment": 0.15
+    }
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP5_LDA_KMeans",
+  "method": "LDA_KMEANS",
+  "lang": "en",
+  "judge": {
+    "judge_matrix": [
+      [
+        0.54,
+        0.06,
+        0.06,
+        0.0
+      ],
+      [
+        0.32,
+        0.5,
+        0.16,
+        0.12
+      ],
+      [
+        0.24,
+        0.2,
+        0.46,
+        0.0
+      ],
+      [
+        0.16,
+        0.06,
+        0.12,
+        0.38
+      ]
+    ],
+    "best_mapping": [
+      {
+        "gen_name": "Audio Enthusiast Sound Lover",
+        "gt_name": "The Wireless Audio Pursuer",
+        "keyword_alignment": 0.7,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.3,
+        "matching_score": 0.54,
+        "validity_score": 0.7,
+        "reasoning": "Keywords and sound focus align, but sentiment and pain differ.",
+        "success": true
+      },
+      {
+        "gen_name": "Smart Home Integrator",
+        "gt_name": "The Smart Home Integrator",
+        "keyword_alignment": 0.3,
+        "value_alignment": 0.7,
+        "pain_alignment": 0.7,
+        "behavioral_alignment": 0.5,
+        "sentiment_alignment": 0.3,
+        "matching_score": 0.5,
+        "validity_score": 0.7,
+        "reasoning": "Keywords mismatch; core values similar; partial pain/behavioral aligns, sentiment misaligned.",
+        "success": true
+      },
+      {
+        "gen_name": "Value-Conscious Picture Viewer",
+        "gt_name": "The Practical Value Seeker",
+        "keyword_alignment": 0.3,
+        "value_alignment": 0.5,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.7,
+        "matching_score": 0.46,
+        "validity_score": 0.5,
+        "reasoning": "Generated mismatch in themes, partial relation to price-value domain.",
+        "success": false
+      },
+      {
+        "gen_name": "Return-Wary Early Adopter",
+        "gt_name": "The Disillusioned Early Adopter",
+        "keyword_alignment": 0.5,
+        "value_alignment": 0.3,
+        "pain_alignment": 0.5,
+        "behavioral_alignment": 0.3,
+        "sentiment_alignment": 0.3,
+        "matching_score": 0.38,
+        "validity_score": 0.7,
+        "reasoning": "Keywords and pain points partially overlap; reliability core value misaligned.",
+        "success": false
+      }
+    ],
+    "matching_score": 0.47,
+    "validity_score": 0.65,
+    "mean_all_matching": 0.2112,
+    "dim_averages": {
+      "keyword_alignment": 0.45,
+      "value_alignment": 0.55,
+      "pain_alignment": 0.55,
+      "behavioral_alignment": 0.4,
+      "sentiment_alignment": 0.4
+    },
+    "n_success": 2,
+    "mapping_success_rate": 0.5
+  },
+  "topic_sim_result": {
+    "topic_sim": 0.4041,
+    "pair_details": [
+      {
+        "gen_name": "Audio Enthusiast Sound Lover",
+        "gt_name": "The Wireless Audio Pursuer",
+        "gen_aspects": [
+          "sound",
+          "music",
+          "quality",
+          "speaker",
+          "play"
+        ],
+        "gt_aspects": [
+          "Sound",
+          "Connectivity",
+          "Price",
+          "Configuration",
+          "Size"
+        ],
+        "topic_sim": 0.5201
+      },
+      {
+        "gen_name": "Smart Home Integrator",
+        "gt_name": "The Smart Home Integrator",
+        "gen_aspects": [
+          "thermostat",
+          "nest",
+          "work",
+          "google",
+          "issue"
+        ],
+        "gt_aspects": [
+          "Smart Assistant",
+          "Clock",
+          "Connectivity",
+          "Configuration",
+          "Convenience"
+        ],
+        "topic_sim": 0.3331
+      },
+      {
+        "gen_name": "Value-Conscious Picture Viewer",
+        "gt_name": "The Practical Value Seeker",
+        "gen_aspects": [
+          "quality",
+          "price",
+          "sound",
+          "picture",
+          "samsung"
+        ],
+        "gt_aspects": [
+          "Price",
+          "Clock",
+          "Configuration",
+          "Convenience",
+          "Smart Assistant"
+        ],
+        "topic_sim": 0.4349
+      },
+      {
+        "gen_name": "Return-Wary Early Adopter",
+        "gt_name": "The Disillusioned Early Adopter",
+        "gen_aspects": [
+          "work",
+          "buy",
+          "charge",
+          "apple",
+          "return"
+        ],
+        "gt_aspects": [
+          "Durability",
+          "Defective",
+          "Charging",
+          "Connectivity",
+          "Quality"
+        ],
+        "topic_sim": 0.3284
+      }
+    ]
+  },
+  "summary": {
+    "matching_score": 0.47,
+    "validity_score": 0.65,
+    "topic_sim": 0.4041,
+    "dim_averages": {
+      "keyword_alignment": 0.45,
+      "value_alignment": 0.55,
+      "pain_alignment": 0.55,
+      "behavioral_alignment": 0.4,
+      "sentiment_alignment": 0.4
+    }
+  }
+}

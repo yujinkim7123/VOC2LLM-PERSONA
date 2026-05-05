@@ -1,0 +1,242 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP3_KMeans",
+  "method": "KMEANS_TFIDF",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2370,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Tech-Savvy Learner",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP3_KMeans",
+      "keywords": [
+        "thermostat",
+        "nest",
+        "work",
+        "learn",
+        "easy"
+      ],
+      "core_value": "This consumer values the ease of setup and smart functionality of their devices.",
+      "description": "The Tech-Savvy Learner enjoys exploring new technologies like smart thermostats and appreciates seamless integration with their smart home system. They prefer products that are easy to install and learn.",
+      "motivation": "They are driven by the desire to create a more efficient and smart living environment through user-friendly devices.",
+      "pain_points": "Complex installation processes and steep learning curves are frustrating.",
+      "quote": "I love how easy it was to set up my Nest thermostat and integrate it with Google Home.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.4,
+        "Negative": 0.1,
+        "_inference_note": "Keywords like 'easy', 'work', and 'learn' indicate a positive experience, with minimal negative signals."
+      },
+      "top_aspects": [
+        "thermostat",
+        "nest",
+        "work",
+        "learn",
+        "easy"
+      ],
+      "co_aspects": {
+        "thermostat": [
+          "nest",
+          "work",
+          "learn"
+        ],
+        "nest": [
+          "thermostat",
+          "work",
+          "google"
+        ],
+        "work": [
+          "thermostat",
+          "nest",
+          "easy"
+        ],
+        "learn": [
+          "thermostat",
+          "work",
+          "install"
+        ],
+        "easy": [
+          "work",
+          "instal",
+          "buy"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Value-Conscious Audiophile",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP3_KMeans",
+      "keywords": [
+        "great",
+        "good",
+        "sound",
+        "quality",
+        "love"
+      ],
+      "core_value": "This segment values high sound quality at an affordable price.",
+      "description": "The Value-Conscious Audiophile looks for devices that offer superior sound quality without breaking the bank. They often compare products to ensure they are getting the best deal.",
+      "motivation": "They are motivated by the desire to enjoy high-quality audio experiences at a reasonable cost.",
+      "pain_points": "Subpar audio quality or overpriced products cause dissatisfaction.",
+      "quote": "I love the sound quality of this speaker. It's perfect for the price!",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "'Great', 'good', and 'love' are strong positive indicators, dominating the sentiment. 'Price' suggests a neutral to slightly positive context due to its association with value."
+      },
+      "top_aspects": [
+        "great",
+        "sound",
+        "quality",
+        "love",
+        "price"
+      ],
+      "co_aspects": {
+        "great": [
+          "good",
+          "sound",
+          "quality"
+        ],
+        "sound": [
+          "quality",
+          "love",
+          "price"
+        ],
+        "quality": [
+          "sound",
+          "love",
+          "price"
+        ],
+        "love": [
+          "great",
+          "sound",
+          "quality"
+        ],
+        "price": [
+          "sound",
+          "quality",
+          "love"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Multifunctional Gadget Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP3_KMeans",
+      "keywords": [
+        "clock",
+        "smart",
+        "alarm",
+        "great",
+        "charge"
+      ],
+      "core_value": "This consumer segment values versatility in their smart devices.",
+      "description": "Multifunctional Gadget Enthusiasts are drawn to devices that offer various functionalities, such as smart clocks that integrate alarms and wireless charging.",
+      "motivation": "They seek products that conveniently combine multiple features into one device.",
+      "pain_points": "Limited functionality or lack of integration capabilities frustrate them.",
+      "quote": "I love my Lenovo smart clock; it charges my phone and wakes me up every morning.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "The presence of 'great', 'love', and 'smart' suggests a positive sentiment, with 'alarm' and 'charge' being neutral terms indicating multifunctionality."
+      },
+      "top_aspects": [
+        "clock",
+        "smart",
+        "alarm",
+        "great",
+        "charge"
+      ],
+      "co_aspects": {
+        "clock": [
+          "smart",
+          "alarm",
+          "charge"
+        ],
+        "smart": [
+          "clock",
+          "alarm",
+          "great"
+        ],
+        "alarm": [
+          "clock",
+          "smart",
+          "charge"
+        ],
+        "great": [
+          "clock",
+          "smart",
+          "alarm"
+        ],
+        "charge": [
+          "clock",
+          "smart",
+          "alarm"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Cautious Shopper",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP3_KMeans",
+      "keywords": [
+        "work",
+        "stop",
+        "month",
+        "buy",
+        "return"
+      ],
+      "core_value": "This segment prioritizes reliability and longevity in their purchases.",
+      "description": "The Cautious Shopper is concerned about the durability and continuous functionality of their smart devices. They are wary of products that require frequent returns.",
+      "motivation": "Their main drive is to avoid the inconvenience of product failure and the hassle of returning items.",
+      "pain_points": "Devices that stop working shortly after purchase are a major concern.",
+      "quote": "I was disappointed when my speaker stopped working after just a few months.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.4,
+        "Negative": 0.4,
+        "_inference_note": "Keywords such as 'stop', 'return', and 'month' indicate significant negative sentiment, tempered by 'work' which appears neutral."
+      },
+      "top_aspects": [
+        "work",
+        "stop",
+        "month",
+        "buy",
+        "return"
+      ],
+      "co_aspects": {
+        "work": [
+          "stop",
+          "month",
+          "return"
+        ],
+        "stop": [
+          "work",
+          "month",
+          "return"
+        ],
+        "month": [
+          "work",
+          "stop",
+          "buy"
+        ],
+        "buy": [
+          "work",
+          "month",
+          "return"
+        ],
+        "return": [
+          "work",
+          "stop",
+          "month"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP2_LDA",
+  "method": "LDA",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2370,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Practical Returner",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP2_LDA",
+      "keywords": [
+        "work",
+        "stop",
+        "return",
+        "buy",
+        "month"
+      ],
+      "core_value": "They value reliable and functional devices.",
+      "description": "This consumer frequently encounters issues with their devices, leading them to return products that do not meet their standards of functionality and reliability.",
+      "motivation": "They are driven by the need for a device that works consistently without needing frequent replacements or returns.",
+      "pain_points": "Frustration with products that stop working soon after purchase.",
+      "quote": "I had to return it after just a month because it stopped working.",
+      "sentiment_ratio": {
+        "Positive": 0.0,
+        "Neutral": 0.4,
+        "Negative": 0.6,
+        "_inference_note": "Keywords like 'stop', 'return', and 'month' indicate a negative sentiment due to issues with reliability, while 'buy' and 'work' are neutral."
+      },
+      "top_aspects": [
+        "work",
+        "stop",
+        "return",
+        "buy",
+        "month"
+      ],
+      "co_aspects": {
+        "work": [
+          "stop",
+          "return",
+          "month"
+        ],
+        "stop": [
+          "return",
+          "buy",
+          "month"
+        ],
+        "return": [
+          "stop",
+          "buy",
+          "month"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Feature-Savvy Listener",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP2_LDA",
+      "keywords": [
+        "airpod",
+        "charge",
+        "ear",
+        "work",
+        "good"
+      ],
+      "core_value": "They appreciate high-quality sound and good battery life.",
+      "description": "This consumer focuses on the features related to audio quality and battery performance, seeking out devices that excel in these areas.",
+      "motivation": "They want devices that offer excellent sound quality and long-lasting battery life.",
+      "pain_points": "Poor charging capabilities and sound quality frustrate them.",
+      "quote": "The sound is good, but I wish the battery would last longer.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Positive sentiment is inferred from 'good', 'sound', and 'quality', with minor negative sentiment from concerns about 'charge' and neutral from 'ear', 'work'."
+      },
+      "top_aspects": [
+        "airpod",
+        "charge",
+        "ear",
+        "work",
+        "good"
+      ],
+      "co_aspects": {
+        "airpod": [
+          "charge",
+          "ear",
+          "work"
+        ],
+        "charge": [
+          "airpod",
+          "ear",
+          "quality"
+        ],
+        "ear": [
+          "airpod",
+          "work",
+          "good"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Tech Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP2_LDA",
+      "keywords": [
+        "great",
+        "clock",
+        "smart",
+        "google",
+        "love"
+      ],
+      "core_value": "They value innovative technology that enhances their lifestyle.",
+      "description": "This consumer is enthusiastic about smart technology and often praises devices that integrate well with their daily routines.",
+      "motivation": "They are attracted to devices that offer smart features and the ability to simplify tasks.",
+      "pain_points": "They get frustrated when compatibility with other smart devices is not seamless.",
+      "quote": "I love how this smart display fits seamlessly into my home.",
+      "sentiment_ratio": {
+        "Positive": 0.8,
+        "Neutral": 0.2,
+        "Negative": 0.0,
+        "_inference_note": "Strong positive sentiment from 'great', 'love', and 'smart', with neutral from 'clock', 'google'."
+      },
+      "top_aspects": [
+        "great",
+        "clock",
+        "smart",
+        "google",
+        "love"
+      ],
+      "co_aspects": {
+        "great": [
+          "clock",
+          "smart",
+          "google"
+        ],
+        "clock": [
+          "great",
+          "smart",
+          "quality"
+        ],
+        "smart": [
+          "great",
+          "google",
+          "quality"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Home Automation Novice",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP2_LDA",
+      "keywords": [
+        "thermostat",
+        "nest",
+        "set",
+        "home",
+        "easy"
+      ],
+      "core_value": "They value ease of use when integrating smart home technology.",
+      "description": "This consumer is new to home automation and appreciates products that are easy to integrate and control.",
+      "motivation": "They seek devices that offer straightforward setup and simple functionality.",
+      "pain_points": "Complex setup processes and compatibility issues can be challenging.",
+      "quote": "Setting up the thermostat was easy and fits perfectly into my home setup.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.5,
+        "Negative": 0.0,
+        "_inference_note": "Positive sentiment from 'easy' and 'home'; neutral from 'thermostat', 'set', reflecting practical aspects of use."
+      },
+      "top_aspects": [
+        "thermostat",
+        "nest",
+        "set",
+        "home",
+        "easy"
+      ],
+      "co_aspects": {
+        "thermostat": [
+          "nest",
+          "set",
+          "easy"
+        ],
+        "nest": [
+          "thermostat",
+          "home",
+          "wifi"
+        ],
+        "set": [
+          "thermostat",
+          "home",
+          "easy"
+        ]
+      }
+    }
+  ]
+}

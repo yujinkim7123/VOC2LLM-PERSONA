@@ -1,0 +1,28 @@
+[
+  {
+    "file_key": "voc_en",
+    "exp_id": "EXP_RAW",
+    "matching_mean": 0.5245,
+    "matching_std": 0.052,
+    "matching_n": 10,
+    "validity_mean": 0.775,
+    "validity_std": 0.0548,
+    "validity_n": 10,
+    "topic_sim_mean": 0.4272,
+    "topic_sim_std": 0.0169,
+    "topic_sim_n": 10
+  },
+  {
+    "file_key": "vad_en",
+    "exp_id": "EXP_RAW",
+    "matching_mean": 0.4205,
+    "matching_std": 0.059,
+    "matching_n": 10,
+    "validity_mean": 0.68,
+    "validity_std": 0.0589,
+    "validity_n": 10,
+    "topic_sim_mean": 0.4869,
+    "topic_sim_std": 0.0211,
+    "topic_sim_n": 10
+  }
+]

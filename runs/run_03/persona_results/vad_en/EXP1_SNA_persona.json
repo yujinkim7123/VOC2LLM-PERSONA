@@ -1,0 +1,197 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP1_SNA",
+  "method": "SNA_LOUVAIN",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2370,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Music-Loving Alexa User",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP1_SNA",
+      "keywords": [
+        "music",
+        "want",
+        "play",
+        "echo",
+        "alexa",
+        "amazon",
+        "listen"
+      ],
+      "core_value": "They value a seamless music streaming experience with their virtual assistant.",
+      "description": "This consumer is deeply engaged with music and enjoys using their Alexa-enabled device for listening. They frequently interact with the virtual assistant to play their favorite songs.",
+      "motivation": "The ability to play music on demand and control it via voice commands is a key driver for this persona.",
+      "pain_points": "Occasional issues with song recognition or streaming service integration could be frustrating.",
+      "quote": "I love how easily I can ask Alexa to play my favorite tunes anytime!",
+      "sentiment_ratio": {
+        "Positive": 0.8,
+        "Neutral": 0.2,
+        "Negative": 0.0,
+        "_inference_note": "Mainly positive signals like 'want', 'play', 'listen', with no strong negatives present."
+      },
+      "top_aspects": [
+        "music",
+        "play",
+        "echo",
+        "alexa",
+        "amazon"
+      ],
+      "co_aspects": {
+        "music": [
+          "want",
+          "play",
+          "alexa"
+        ],
+        "echo": [
+          "amazon",
+          "listen"
+        ],
+        "alexa": [
+          "amazon",
+          "ask"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Quality-Conscious Gadget Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP1_SNA",
+      "keywords": [
+        "great",
+        "good",
+        "sound",
+        "product",
+        "use",
+        "like",
+        "quality"
+      ],
+      "core_value": "They prioritize high-quality sound and product reliability.",
+      "description": "These users are impressed by the sound quality of the smart speaker and generally happy with their purchase. They appreciate good design and utility.",
+      "motivation": "A high-quality audio experience and substantial product utility are their main purchase drivers.",
+      "pain_points": "Potential issues with sound distortion could be a concern if the product doesn't meet advertised quality.",
+      "quote": "The sound on this smart speaker is fantastic, and it's a breeze to use.",
+      "sentiment_ratio": {
+        "Positive": 0.9,
+        "Neutral": 0.1,
+        "Negative": 0.0,
+        "_inference_note": "Keywords like 'great', 'good', 'quality' indicate strong positive sentiment."
+      },
+      "top_aspects": [
+        "sound",
+        "product",
+        "use",
+        "like",
+        "quality"
+      ],
+      "co_aspects": {
+        "sound": [
+          "great",
+          "quality"
+        ],
+        "product": [
+          "use",
+          "like"
+        ],
+        "quality": [
+          "good",
+          "love"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Frustrated Tech User",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP1_SNA",
+      "keywords": [
+        "work",
+        "issue",
+        "connect",
+        "purchase",
+        "return",
+        "new"
+      ],
+      "core_value": "They need reliable products that work as intended.",
+      "description": "This persona often encounters connectivity and operational issues with their device, leading to frustration. They are sensitive to product reliability and quality.",
+      "motivation": "A desire for a hassle-free technology experience drives their expectations.",
+      "pain_points": "Frequent connectivity problems and issues with initial setup are highly frustrating for them.",
+      "quote": "I'm really disappointed with how often I have issues connecting my device.",
+      "sentiment_ratio": {
+        "Positive": 0.1,
+        "Neutral": 0.2,
+        "Negative": 0.7,
+        "_inference_note": "Negative signals like 'issue', 'problem', 'return' outweigh any positive mentions."
+      },
+      "top_aspects": [
+        "issue",
+        "connect",
+        "purchase",
+        "return",
+        "new"
+      ],
+      "co_aspects": {
+        "issue": [
+          "connect",
+          "return"
+        ],
+        "purchase": [
+          "issue",
+          "return"
+        ],
+        "connect": [
+          "problem",
+          "return"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Functionality-Focused Smart Home Owner",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP1_SNA",
+      "keywords": [
+        "thermostat",
+        "set",
+        "turn",
+        "house",
+        "temperature",
+        "system"
+      ],
+      "core_value": "They value technological integration for home management.",
+      "description": "These consumers appreciate smart home technology for enhancing their home environment, particularly those with thermostats and temperature control features.",
+      "motivation": "The ability to integrate and control home systems via smart technology is a strong motivator.",
+      "pain_points": "Complex setups or system incompatibility can be challenging.",
+      "quote": "I love being able to control my home's temperature with just a voice command.",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.3,
+        "Negative": 0.0,
+        "_inference_note": "Positive sentiments from utility-focused words like 'set', 'turn', 'temperature'; no negatives noted."
+      },
+      "top_aspects": [
+        "thermostat",
+        "set",
+        "turn",
+        "house",
+        "temperature"
+      ],
+      "co_aspects": {
+        "thermostat": [
+          "set",
+          "temperature"
+        ],
+        "set": [
+          "turn",
+          "temperature"
+        ],
+        "house": [
+          "system",
+          "temperature"
+        ]
+      }
+    }
+  ]
+}

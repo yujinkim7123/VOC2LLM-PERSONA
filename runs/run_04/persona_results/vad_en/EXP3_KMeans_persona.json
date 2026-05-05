@@ -1,0 +1,270 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP3_KMeans",
+  "method": "KMEANS_TFIDF",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2370,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Sound-Loving Value Hunter",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP3_KMeans",
+      "keywords": [
+        "great",
+        "good",
+        "sound",
+        "quality",
+        "love",
+        "price",
+        "samsung"
+      ],
+      "core_value": "This consumer values high sound quality at a good price.",
+      "description": "They are tech enthusiasts looking for products that offer good sound quality and are reasonably priced. They are familiar with brands like Samsung and appreciate the ease of use.",
+      "motivation": "Their decisions are driven by a balance between value and quality, particularly in sound and picture quality.",
+      "pain_points": "They may feel frustrated if the product does not meet their expectations on sound quality.",
+      "quote": "I love the sound quality of this Samsung smart speaker, and the price was just right!",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.3,
+        "Negative": 0.0,
+        "_inference_note": "Keywords like 'great', 'good', 'sound', 'quality', 'love', and 'price' indicate a positive sentiment, with a focus on quality and value."
+      },
+      "top_aspects": [
+        "sound",
+        "quality",
+        "price",
+        "product",
+        "samsung"
+      ],
+      "co_aspects": {
+        "sound": [
+          "quality",
+          "price",
+          "product",
+          "samsung"
+        ],
+        "quality": [
+          "sound",
+          "price",
+          "product",
+          "samsung"
+        ],
+        "price": [
+          "sound",
+          "quality",
+          "product",
+          "samsung"
+        ],
+        "product": [
+          "sound",
+          "quality",
+          "price",
+          "samsung"
+        ],
+        "samsung": [
+          "sound",
+          "quality",
+          "price",
+          "product"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Time-Conscious Gadgeteer",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP3_KMeans",
+      "keywords": [
+        "clock",
+        "smart",
+        "great",
+        "alarm",
+        "charge",
+        "google",
+        "lenovo"
+      ],
+      "core_value": "This consumer values smart features that help manage time efficiently.",
+      "description": "They are focused on integrating smart features into their daily routine to improve efficiency. They use smart clocks for both their functional and aesthetic qualities.",
+      "motivation": "They are motivated by the desire for multi-functional devices that provide both utility and ease of use.",
+      "pain_points": "They may experience issues if the device's features do not integrate smoothly with their daily routine or if charging is cumbersome.",
+      "quote": "The alarm and smart features of this Google-enabled clock keep me on schedule and it's a great addition to my tech setup!",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.4,
+        "Negative": 0.0,
+        "_inference_note": "The use of words like 'great', 'smart', 'alarm', and 'love' indicate a positive sentiment, highlighting efficiency and feature integration."
+      },
+      "top_aspects": [
+        "clock",
+        "smart",
+        "alarm",
+        "google",
+        "charge"
+      ],
+      "co_aspects": {
+        "clock": [
+          "smart",
+          "alarm",
+          "google",
+          "charge"
+        ],
+        "smart": [
+          "clock",
+          "alarm",
+          "google",
+          "charge"
+        ],
+        "alarm": [
+          "clock",
+          "smart",
+          "google",
+          "charge"
+        ],
+        "google": [
+          "clock",
+          "smart",
+          "alarm",
+          "charge"
+        ],
+        "charge": [
+          "clock",
+          "smart",
+          "alarm",
+          "google"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Frustrated Functional Seeker",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP3_KMeans",
+      "keywords": [
+        "work",
+        "buy",
+        "charge",
+        "stop",
+        "return",
+        "product",
+        "month"
+      ],
+      "core_value": "This consumer seeks reliability and consistent performance from their devices.",
+      "description": "They are practical consumers who prioritize functionality and durability. They often face issues with product reliability, leading to returns.",
+      "motivation": "Reliability and consistent performance are their key motivators, as interruptions in device functionality are unacceptable.",
+      "pain_points": "They are highly frustrated by devices that fail to work consistently and require returns or replacements.",
+      "quote": "I bought this product hoping it would work seamlessly, but it stopped working after a month, leading to a frustrating return process.",
+      "sentiment_ratio": {
+        "Positive": 0.1,
+        "Neutral": 0.3,
+        "Negative": 0.6,
+        "_inference_note": "Negative sentiment is indicated by keywords like 'stop', 'return', and 'month', reflecting dissatisfaction with product reliability."
+      },
+      "top_aspects": [
+        "work",
+        "charge",
+        "return",
+        "product",
+        "buy"
+      ],
+      "co_aspects": {
+        "work": [
+          "charge",
+          "return",
+          "product",
+          "buy"
+        ],
+        "charge": [
+          "work",
+          "return",
+          "product",
+          "buy"
+        ],
+        "return": [
+          "work",
+          "charge",
+          "product",
+          "buy"
+        ],
+        "product": [
+          "work",
+          "charge",
+          "return",
+          "buy"
+        ],
+        "buy": [
+          "work",
+          "charge",
+          "return",
+          "product"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Home Automation Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP3_KMeans",
+      "keywords": [
+        "nest",
+        "thermostat",
+        "google",
+        "hub",
+        "camera",
+        "home",
+        "use"
+      ],
+      "core_value": "This consumer values integrated home automation that simplifies daily life.",
+      "description": "They are early adopters of smart home technologies, seeking to centralize control of various home functions through devices like Google Nest.",
+      "motivation": "Streamlining home management and increasing convenience motivate their purchases.",
+      "pain_points": "Integration issues with existing home technology setups can be a source of frustration.",
+      "quote": "With the Nest hub, controlling everything with Google is easy, but sometimes integrating new devices takes time.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.4,
+        "Negative": 0.1,
+        "_inference_note": "Keywords like 'great', 'home', 'hub', and 'use' indicate a positive sentiment focused on convenience and integration, with minor frustration in 'use'."
+      },
+      "top_aspects": [
+        "nest",
+        "thermostat",
+        "google",
+        "hub",
+        "home"
+      ],
+      "co_aspects": {
+        "nest": [
+          "thermostat",
+          "google",
+          "hub",
+          "home"
+        ],
+        "thermostat": [
+          "nest",
+          "google",
+          "hub",
+          "home"
+        ],
+        "google": [
+          "nest",
+          "thermostat",
+          "hub",
+          "home"
+        ],
+        "hub": [
+          "nest",
+          "thermostat",
+          "google",
+          "home"
+        ],
+        "home": [
+          "nest",
+          "thermostat",
+          "google",
+          "hub"
+        ]
+      }
+    }
+  ]
+}

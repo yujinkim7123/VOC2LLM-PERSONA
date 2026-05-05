@@ -1,0 +1,242 @@
+{
+  "file_key": "vad_en",
+  "exp_id": "EXP4_SNA_LDA",
+  "method": "SNA_LDA",
+  "lang": "en",
+  "domain": "Virtual Assistant Devices — smart speakers and displays (English reviews)",
+  "n_docs": 2370,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Music-Centric Home Enthusiast",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP4_SNA_LDA",
+      "keywords": [
+        "music",
+        "play",
+        "alexa",
+        "want",
+        "echo"
+      ],
+      "core_value": "This consumer values seamless music integration in their home environment.",
+      "description": "This consumer often uses their virtual assistant device for playing music and controlling their home environment with ease. They are tech-savvy and appreciate the convenience Amazon's Echo and Alexa provide.",
+      "motivation": "They are driven by a desire for high-quality sound and easy command over music and other smart home functions.",
+      "pain_points": "Occasional connectivity issues or setup complexities frustrate their user experience.",
+      "quote": "I love using Alexa to play my favorite tunes and control my Echo throughout the house!",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Positive sentiment driven by 'music', 'play', 'well', and 'home'. Some potential issues inferred from 'want'."
+      },
+      "top_aspects": [
+        "music",
+        "alexa",
+        "echo",
+        "home",
+        "play"
+      ],
+      "co_aspects": {
+        "music": [
+          "play",
+          "alexa",
+          "echo"
+        ],
+        "alexa": [
+          "echo",
+          "home",
+          "play"
+        ],
+        "echo": [
+          "home",
+          "alexa",
+          "music"
+        ],
+        "home": [
+          "alexa",
+          "music",
+          "play"
+        ],
+        "play": [
+          "music",
+          "alexa",
+          "home"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Sound Quality Seeker",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP4_SNA_LDA",
+      "keywords": [
+        "great",
+        "good",
+        "sound",
+        "work",
+        "quality"
+      ],
+      "core_value": "High-quality sound is this consumer's top priority.",
+      "description": "This consumer is focused on obtaining excellent sound quality and reliability from their device, praising products that meet their high standards.",
+      "motivation": "They want a device that delivers superior sound performance, enriching their listening experience.",
+      "pain_points": "Subpar sound quality or device failures would be a major disappointment to them.",
+      "quote": "The sound quality on this product is just fantastic—it was a great purchase!",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "Strong positive words like 'great', 'good', and 'sound'. Minor negatives implied in potential unmet needs from 'need'."
+      },
+      "top_aspects": [
+        "sound",
+        "quality",
+        "great",
+        "product",
+        "love"
+      ],
+      "co_aspects": {
+        "sound": [
+          "quality",
+          "great",
+          "good"
+        ],
+        "quality": [
+          "sound",
+          "great",
+          "product"
+        ],
+        "great": [
+          "sound",
+          "quality",
+          "good"
+        ],
+        "product": [
+          "great",
+          "sound",
+          "quality"
+        ],
+        "love": [
+          "good",
+          "sound",
+          "great"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Tech-Savvy Gadget Collector",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP4_SNA_LDA",
+      "keywords": [
+        "clock",
+        "charge",
+        "smart",
+        "alarm",
+        "work"
+      ],
+      "core_value": "This persona values multifunctionality and smart technology.",
+      "description": "This consumer appreciates gadgets that combine functionality, like clocks with smart features, and values devices that integrate with their tech-centric lifestyle.",
+      "motivation": "They are driven by the allure of smart technology that simplifies everyday tasks with multifunctional capabilities.",
+      "pain_points": "Insufficient device integration and functionality issues dampen their experience.",
+      "quote": "I love that this smart clock integrates easily and charges my phone while I sleep.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.4,
+        "Negative": 0.1,
+        "_inference_note": "Positive aspects inferred from 'smart', 'great', and 'work'. Neutral words include 'phone', 'screen', and 'light'."
+      },
+      "top_aspects": [
+        "clock",
+        "charge",
+        "smart",
+        "alarm",
+        "screen"
+      ],
+      "co_aspects": {
+        "clock": [
+          "charge",
+          "smart",
+          "alarm"
+        ],
+        "charge": [
+          "clock",
+          "smart",
+          "phone"
+        ],
+        "smart": [
+          "clock",
+          "charge",
+          "alarm"
+        ],
+        "alarm": [
+          "clock",
+          "smart",
+          "phone"
+        ],
+        "screen": [
+          "clock",
+          "charge",
+          "smart"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Pragmatic Problem Solver",
+      "category": "Virtual Assistant Devices",
+      "data_source": "vad_en_EXP4_SNA_LDA",
+      "keywords": [
+        "work",
+        "buy",
+        "month",
+        "time",
+        "return"
+      ],
+      "core_value": "Reliability and customer service are crucial to this consumer.",
+      "description": "This consumer values a reliable device and responsive customer service. They are pragmatic and often choose function over form, focusing on the practicality of their purchases.",
+      "motivation": "They want a reliable, well-supported device that doesn't necessitate frequent replacements or returns.",
+      "pain_points": "Encountering connectivity issues and dealing with returns is highly frustrating for them.",
+      "quote": "The product worked well for a month, but after issues arose, I had to return it.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.4,
+        "Negative": 0.4,
+        "_inference_note": "Negative signals from 'return', 'stop', and 'issue'. Neutral from 'work', 'buy', and 'month'. Minor positives inferred from 'good'."
+      },
+      "top_aspects": [
+        "work",
+        "buy",
+        "time",
+        "return",
+        "issue"
+      ],
+      "co_aspects": {
+        "work": [
+          "buy",
+          "time",
+          "return"
+        ],
+        "buy": [
+          "work",
+          "month",
+          "return"
+        ],
+        "time": [
+          "work",
+          "month",
+          "stop"
+        ],
+        "return": [
+          "issue",
+          "work",
+          "buy"
+        ],
+        "issue": [
+          "return",
+          "stop",
+          "connect"
+        ]
+      }
+    }
+  ]
+}

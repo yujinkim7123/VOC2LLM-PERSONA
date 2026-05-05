@@ -1,0 +1,242 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP6_SNA_KMeans",
+  "method": "SNA_KMEANS",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_docs": 868,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Value-Conscious Specification Shopper",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "spec",
+        "measure",
+        "price",
+        "measurement",
+        "performance"
+      ],
+      "core_value": "This consumer segment values getting the most value for their money by thoroughly evaluating product specifications and performance.",
+      "description": "These consumers are highly focused on the technical specifications and performance standards of products. They compare measurements and match them against their expectations before making a purchase.",
+      "motivation": "Driven by the need to match product specs with their specific requirements while ensuring they get a good deal.",
+      "pain_points": "They get frustrated if product specifications do not match the actual performance or if it seems overpriced.",
+      "quote": "I always check if the actual performance matches the specifications before buying.",
+      "sentiment_ratio": {
+        "Positive": 0.2,
+        "Neutral": 0.5,
+        "Negative": 0.3,
+        "_inference_note": "Positive words like 'performance' and 'price' suggest satisfaction with cost-performance balance, neutral words like 'measurement' and 'specification' reflect objective evaluation, and negative signals appear from 'actual' and 'match' when expectations aren't met."
+      },
+      "top_aspects": [
+        "spec",
+        "measure",
+        "price",
+        "performance",
+        "standard"
+      ],
+      "co_aspects": {
+        "spec": [
+          "measure",
+          "price",
+          "performance"
+        ],
+        "measure": [
+          "spec",
+          "performance",
+          "price"
+        ],
+        "price": [
+          "spec",
+          "performance",
+          "measure"
+        ],
+        "performance": [
+          "spec",
+          "measure",
+          "price"
+        ],
+        "standard": [
+          "spec",
+          "performance",
+          "measure"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Aesthetic-Focused Home Decorator",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "color",
+        "buy",
+        "choose",
+        "want",
+        "pretty",
+        "match"
+      ],
+      "core_value": "This consumer group prioritizes the aesthetic appeal and how well a product fits into their home decor.",
+      "description": "These consumers are focused on the appearance of home products, ensuring they complement their existing decor. They are likely to choose products based on color and style.",
+      "motivation": "The primary drive is to select products that enhance the visual appeal of their living spaces.",
+      "pain_points": "Frustration arises if the product does not look as expected or fails to match other decor elements.",
+      "quote": "I always look for something pretty that matches my home's color scheme.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.3,
+        "Negative": 0.2,
+        "_inference_note": "Positive signals are driven by 'pretty', 'choose' and 'want', neutral comes from 'buy' and 'match', negative is minor, seen in when the 'color' or 'match' doesn't align expectations."
+      },
+      "top_aspects": [
+        "color",
+        "choose",
+        "want",
+        "pretty",
+        "match"
+      ],
+      "co_aspects": {
+        "color": [
+          "choose",
+          "pretty",
+          "match"
+        ],
+        "choose": [
+          "color",
+          "pretty",
+          "match"
+        ],
+        "want": [
+          "pretty",
+          "color"
+        ],
+        "pretty": [
+          "color",
+          "choose",
+          "match"
+        ],
+        "match": [
+          "color",
+          "choose",
+          "pretty"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Brand-Trusting Warranty Seeker",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "service",
+        "brand",
+        "trust",
+        "warranty",
+        "repair"
+      ],
+      "core_value": "This group values the reliability and trustworthiness of well-known brands, especially regarding service and warranties.",
+      "description": "These consumers prioritize brands they can trust and are highly attentive to the service and warranty offerings tied to the products they buy.",
+      "motivation": "Their purchase decisions are driven by brand trust and the assurance of good after-sales service.",
+      "pain_points": "Issues arise when service is inadequate, or warranties are not honored as expected.",
+      "quote": "I only buy from brands I trust and ensure there's a good warranty.",
+      "sentiment_ratio": {
+        "Positive": 0.4,
+        "Neutral": 0.4,
+        "Negative": 0.2,
+        "_inference_note": "Positive signals stem from 'trust', 'service' and 'warranty', while neutral reflects brand 'product' and 'time', negative arises from 'repair' and 'defect'."
+      },
+      "top_aspects": [
+        "service",
+        "brand",
+        "trust",
+        "warranty",
+        "repair"
+      ],
+      "co_aspects": {
+        "service": [
+          "brand",
+          "trust",
+          "warranty"
+        ],
+        "brand": [
+          "service",
+          "trust",
+          "repair"
+        ],
+        "trust": [
+          "service",
+          "brand",
+          "warranty"
+        ],
+        "warranty": [
+          "service",
+          "trust",
+          "repair"
+        ],
+        "repair": [
+          "service",
+          "brand",
+          "warranty"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Design-Minded Pragmatic Buyer",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP6_SNA_KMeans",
+      "keywords": [
+        "price",
+        "design",
+        "buy",
+        "look",
+        "performance"
+      ],
+      "core_value": "This segment values the balance between functional design and cost.",
+      "description": "These consumers are pragmatic buyers who seek products with great design at a reasonable price, without sacrificing performance.",
+      "motivation": "They are driven by the desire to own visually appealing products without compromising on their budget or performance needs.",
+      "pain_points": "Pain occurs if a product’s performance doesn't live up to its aesthetic or if it's overpriced.",
+      "quote": "I need something that both looks good and works well without breaking the bank.",
+      "sentiment_ratio": {
+        "Positive": 0.3,
+        "Neutral": 0.5,
+        "Negative": 0.2,
+        "_inference_note": "Positive stems from 'performance', 'buy', and 'look', neutral words include 'use' and 'price', negative sentiments are hinted by the challenge of 'pay' and unsettled 'charge'."
+      },
+      "top_aspects": [
+        "price",
+        "design",
+        "look",
+        "performance",
+        "buy"
+      ],
+      "co_aspects": {
+        "price": [
+          "design",
+          "look",
+          "performance"
+        ],
+        "design": [
+          "price",
+          "look",
+          "performance"
+        ],
+        "look": [
+          "design",
+          "price",
+          "performance"
+        ],
+        "performance": [
+          "design",
+          "price",
+          "look"
+        ],
+        "buy": [
+          "design",
+          "look",
+          "performance"
+        ]
+      }
+    }
+  ]
+}

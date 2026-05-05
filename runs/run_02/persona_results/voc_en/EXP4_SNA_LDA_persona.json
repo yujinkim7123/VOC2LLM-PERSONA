@@ -1,0 +1,187 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP4_SNA_LDA",
+  "method": "SNA_LDA",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_docs": 965,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Budget-Conscious Shopper",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP4_SNA_LDA",
+      "keywords": [
+        "price",
+        "pay",
+        "month",
+        "cost",
+        "cheap",
+        "service",
+        "color"
+      ],
+      "core_value": "This consumer segment values affordable pricing above all.",
+      "description": "These consumers are primarily focused on the cost of the product and are actively looking for deals. They are budget-conscious and prefer to pay attention to the overall expenses, including service and the visual appeal such as color.",
+      "motivation": "Their main motivation is finding a balance between cost and required features or aesthetics.",
+      "pain_points": "Unexpected expenses or unanticipated costs associated with services are frustrating for them.",
+      "quote": "I love it when I find a great deal that fits my budget and looks nice too!",
+      "sentiment_ratio": {
+        "Positive": 0.4,
+        "Neutral": 0.5,
+        "Negative": 0.1,
+        "_inference_note": "Positive signals from 'cheap', 'color'; Neutral signals from 'month', 'cost'; Negative signals minimal but present in terms of cost concerns."
+      },
+      "top_aspects": [
+        "price",
+        "pay",
+        "month",
+        "cost",
+        "cheap"
+      ],
+      "co_aspects": {
+        "price": [
+          "pay",
+          "month",
+          "cost"
+        ],
+        "cost": [
+          "pay",
+          "service",
+          "color"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Brand Loyal Quality Seeker",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP4_SNA_LDA",
+      "keywords": [
+        "service",
+        "brand",
+        "trust",
+        "product",
+        "quality",
+        "repair"
+      ],
+      "core_value": "This consumer segment values trust and quality in well-known brands.",
+      "description": "These consumers stay loyal to brands they trust. They emphasize product quality and effective customer service that includes repair options.",
+      "motivation": "Driven by brand trust and product quality, they want reliable products.",
+      "pain_points": "Dealing with product defects and needing repairs negatively impacts their perception.",
+      "quote": "I always choose brands I trust because I know I can rely on their quality and service.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.2,
+        "Negative": 0.3,
+        "_inference_note": "Positive indicated by 'trust', 'quality'; Neutral from general 'product', 'service'; Negative reflected in 'defect', 'repair'."
+      },
+      "top_aspects": [
+        "service",
+        "brand",
+        "trust",
+        "quality",
+        "repair"
+      ],
+      "co_aspects": {
+        "service": [
+          "brand",
+          "product",
+          "quality"
+        ],
+        "brand": [
+          "trust",
+          "quality",
+          "defect"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Aesthetic-Focused Buyer",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP4_SNA_LDA",
+      "keywords": [
+        "color",
+        "buy",
+        "choose",
+        "match",
+        "real",
+        "beautiful"
+      ],
+      "core_value": "This consumer segment values aesthetics and design in products.",
+      "description": "These buyers are primarily concerned with how products look and fit into their home decor. They make purchasing decisions based on how well a product's design matches their aesthetic preferences.",
+      "motivation": "Driven by the need for harmony between product appearance and home decor. They want what looks good.",
+      "pain_points": "When products don't meet their visual expectations in real life.",
+      "quote": "I always choose products that look great and complement my home style perfectly.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.3,
+        "Negative": 0.1,
+        "_inference_note": "Positive signals strongly from 'choose', 'beautiful'; Neutral from 'buy', 'match'; Minimal negative impact."
+      },
+      "top_aspects": [
+        "color",
+        "buy",
+        "choose",
+        "match",
+        "real"
+      ],
+      "co_aspects": {
+        "color": [
+          "buy",
+          "choose",
+          "match"
+        ],
+        "buy": [
+          "color",
+          "real",
+          "beautiful"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Performance and Tech Enthusiast",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP4_SNA_LDA",
+      "keywords": [
+        "charge",
+        "setup",
+        "cable",
+        "display",
+        "use",
+        "want"
+      ],
+      "core_value": "These consumers value technology and high performance in products.",
+      "description": "This group consists of tech enthusiasts who prioritize technical specifications and performance. They are very attentive to setup processes and product features.",
+      "motivation": "Driven by a desire for high efficiency and cutting-edge technology in appliances.",
+      "pain_points": "Frustration arises when the technological features do not meet their high expectations.",
+      "quote": "I look for the latest technology with high performance to simplify my daily tasks.",
+      "sentiment_ratio": {
+        "Positive": 0.3,
+        "Neutral": 0.6,
+        "Negative": 0.1,
+        "_inference_note": "Neutral mostly from process words like 'setup', 'use'; Positive for 'want', desire-based purchases; Low negative from minor setup issues."
+      },
+      "top_aspects": [
+        "charge",
+        "setup",
+        "cable",
+        "display",
+        "use"
+      ],
+      "co_aspects": {
+        "charge": [
+          "setup",
+          "cable",
+          "display"
+        ],
+        "setup": [
+          "cable",
+          "display",
+          "use"
+        ]
+      }
+    }
+  ]
+}

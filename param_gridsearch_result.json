@@ -1,0 +1,969 @@
+{
+  "meta": {
+    "voc_en_n_docs": 965,
+    "vad_en_n_docs": 2370,
+    "k_voc": 4,
+    "k_vad": {
+      "best_lda_coherence_k": 6,
+      "best_lda_coherence_cv": 0.5323,
+      "elbow_lda_k": 4,
+      "best_kmeans_sil_k": 10,
+      "best_kmeans_sil": 0.0294
+    },
+    "note_voc": "K=4 — Top-Down 도메인 설계 결정 (Salminen et al., 2022)",
+    "note_vad": "K=? — Bottom-Up 귀납 탐색 (LDA Coherence + KMeans Silhouette)"
+  },
+  "step1_sna_grid": {
+    "voc_en": [
+      {
+        "window": 2,
+        "min_freq": 2,
+        "coherence_cv": 0.4262,
+        "kept_edges": 3702,
+        "total_edges": 19847,
+        "n_communities": 24
+      },
+      {
+        "window": 2,
+        "min_freq": 3,
+        "coherence_cv": 0.5053,
+        "kept_edges": 1360,
+        "total_edges": 19847,
+        "n_communities": 27
+      },
+      {
+        "window": 2,
+        "min_freq": 5,
+        "coherence_cv": 0.4512,
+        "kept_edges": 401,
+        "total_edges": 19847,
+        "n_communities": 23
+      },
+      {
+        "window": 2,
+        "min_freq": 7,
+        "coherence_cv": 0.5706,
+        "kept_edges": 175,
+        "total_edges": 19847,
+        "n_communities": 19
+      },
+      {
+        "window": 2,
+        "min_freq": 10,
+        "coherence_cv": 0.5332,
+        "kept_edges": 72,
+        "total_edges": 19847,
+        "n_communities": 14
+      },
+      {
+        "window": 3,
+        "min_freq": 2,
+        "coherence_cv": 0.3704,
+        "kept_edges": 5667,
+        "total_edges": 27918,
+        "n_communities": 12
+      },
+      {
+        "window": 3,
+        "min_freq": 3,
+        "coherence_cv": 0.5345,
+        "kept_edges": 2085,
+        "total_edges": 27918,
+        "n_communities": 21
+      },
+      {
+        "window": 3,
+        "min_freq": 5,
+        "coherence_cv": 0.4976,
+        "kept_edges": 620,
+        "total_edges": 27918,
+        "n_communities": 15
+      },
+      {
+        "window": 3,
+        "min_freq": 7,
+        "coherence_cv": 0.5582,
+        "kept_edges": 288,
+        "total_edges": 27918,
+        "n_communities": 20
+      },
+      {
+        "window": 3,
+        "min_freq": 10,
+        "coherence_cv": 0.5479,
+        "kept_edges": 117,
+        "total_edges": 27918,
+        "n_communities": 11
+      },
+      {
+        "window": 5,
+        "min_freq": 2,
+        "coherence_cv": 0.4419,
+        "kept_edges": 9419,
+        "total_edges": 40447,
+        "n_communities": 10
+      },
+      {
+        "window": 5,
+        "min_freq": 3,
+        "coherence_cv": 0.4901,
+        "kept_edges": 3776,
+        "total_edges": 40447,
+        "n_communities": 15
+      },
+      {
+        "window": 5,
+        "min_freq": 5,
+        "coherence_cv": 0.5805,
+        "kept_edges": 1217,
+        "total_edges": 40447,
+        "n_communities": 15
+      },
+      {
+        "window": 5,
+        "min_freq": 7,
+        "coherence_cv": 0.5345,
+        "kept_edges": 549,
+        "total_edges": 40447,
+        "n_communities": 12
+      },
+      {
+        "window": 5,
+        "min_freq": 10,
+        "coherence_cv": 0.6092,
+        "kept_edges": 224,
+        "total_edges": 40447,
+        "n_communities": 13
+      },
+      {
+        "window": 7,
+        "min_freq": 2,
+        "coherence_cv": 0.4573,
+        "kept_edges": 12664,
+        "total_edges": 49452,
+        "n_communities": 9
+      },
+      {
+        "window": 7,
+        "min_freq": 3,
+        "coherence_cv": 0.5117,
+        "kept_edges": 5338,
+        "total_edges": 49452,
+        "n_communities": 11
+      },
+      {
+        "window": 7,
+        "min_freq": 5,
+        "coherence_cv": 0.6108,
+        "kept_edges": 1817,
+        "total_edges": 49452,
+        "n_communities": 12
+      },
+      {
+        "window": 7,
+        "min_freq": 7,
+        "coherence_cv": 0.5317,
+        "kept_edges": 835,
+        "total_edges": 49452,
+        "n_communities": 14
+      },
+      {
+        "window": 7,
+        "min_freq": 10,
+        "coherence_cv": 0.5355,
+        "kept_edges": 359,
+        "total_edges": 49452,
+        "n_communities": 11
+      },
+      {
+        "window": 10,
+        "min_freq": 2,
+        "coherence_cv": 0.486,
+        "kept_edges": 16205,
+        "total_edges": 58304,
+        "n_communities": 8
+      },
+      {
+        "window": 10,
+        "min_freq": 3,
+        "coherence_cv": 0.5787,
+        "kept_edges": 7043,
+        "total_edges": 58304,
+        "n_communities": 11
+      },
+      {
+        "window": 10,
+        "min_freq": 5,
+        "coherence_cv": 0.5714,
+        "kept_edges": 2513,
+        "total_edges": 58304,
+        "n_communities": 10
+      },
+      {
+        "window": 10,
+        "min_freq": 7,
+        "coherence_cv": 0.5475,
+        "kept_edges": 1248,
+        "total_edges": 58304,
+        "n_communities": 9
+      },
+      {
+        "window": 10,
+        "min_freq": 10,
+        "coherence_cv": 0.5987,
+        "kept_edges": 549,
+        "total_edges": 58304,
+        "n_communities": 9
+      }
+    ],
+    "vad_en": [
+      {
+        "window": 2,
+        "min_freq": 2,
+        "coherence_cv": 0.5914,
+        "kept_edges": 11535,
+        "total_edges": 51242,
+        "n_communities": 17
+      },
+      {
+        "window": 2,
+        "min_freq": 3,
+        "coherence_cv": 0.5725,
+        "kept_edges": 5174,
+        "total_edges": 51242,
+        "n_communities": 20
+      },
+      {
+        "window": 2,
+        "min_freq": 5,
+        "coherence_cv": 0.6166,
+        "kept_edges": 2094,
+        "total_edges": 51242,
+        "n_communities": 18
+      },
+      {
+        "window": 2,
+        "min_freq": 7,
+        "coherence_cv": 0.6028,
+        "kept_edges": 1149,
+        "total_edges": 51242,
+        "n_communities": 24
+      },
+      {
+        "window": 2,
+        "min_freq": 10,
+        "coherence_cv": 0.5252,
+        "kept_edges": 577,
+        "total_edges": 51242,
+        "n_communities": 22
+      },
+      {
+        "window": 3,
+        "min_freq": 2,
+        "coherence_cv": 0.5417,
+        "kept_edges": 17605,
+        "total_edges": 70515,
+        "n_communities": 9
+      },
+      {
+        "window": 3,
+        "min_freq": 3,
+        "coherence_cv": 0.5404,
+        "kept_edges": 8145,
+        "total_edges": 70515,
+        "n_communities": 14
+      },
+      {
+        "window": 3,
+        "min_freq": 5,
+        "coherence_cv": 0.6236,
+        "kept_edges": 3323,
+        "total_edges": 70515,
+        "n_communities": 16
+      },
+      {
+        "window": 3,
+        "min_freq": 7,
+        "coherence_cv": 0.6043,
+        "kept_edges": 1875,
+        "total_edges": 70515,
+        "n_communities": 16
+      },
+      {
+        "window": 3,
+        "min_freq": 10,
+        "coherence_cv": 0.5368,
+        "kept_edges": 1030,
+        "total_edges": 70515,
+        "n_communities": 16
+      },
+      {
+        "window": 5,
+        "min_freq": 2,
+        "coherence_cv": 0.587,
+        "kept_edges": 28713,
+        "total_edges": 101511,
+        "n_communities": 11
+      },
+      {
+        "window": 5,
+        "min_freq": 3,
+        "coherence_cv": 0.5735,
+        "kept_edges": 13928,
+        "total_edges": 101511,
+        "n_communities": 10
+      },
+      {
+        "window": 5,
+        "min_freq": 5,
+        "coherence_cv": 0.6003,
+        "kept_edges": 5910,
+        "total_edges": 101511,
+        "n_communities": 14
+      },
+      {
+        "window": 5,
+        "min_freq": 7,
+        "coherence_cv": 0.5916,
+        "kept_edges": 3380,
+        "total_edges": 101511,
+        "n_communities": 12
+      },
+      {
+        "window": 5,
+        "min_freq": 10,
+        "coherence_cv": 0.5702,
+        "kept_edges": 1890,
+        "total_edges": 101511,
+        "n_communities": 15
+      },
+      {
+        "window": 7,
+        "min_freq": 2,
+        "coherence_cv": 0.5967,
+        "kept_edges": 38510,
+        "total_edges": 125424,
+        "n_communities": 9
+      },
+      {
+        "window": 7,
+        "min_freq": 3,
+        "coherence_cv": 0.5604,
+        "kept_edges": 19025,
+        "total_edges": 125424,
+        "n_communities": 8
+      },
+      {
+        "window": 7,
+        "min_freq": 5,
+        "coherence_cv": 0.6228,
+        "kept_edges": 8316,
+        "total_edges": 125424,
+        "n_communities": 12
+      },
+      {
+        "window": 7,
+        "min_freq": 7,
+        "coherence_cv": 0.6065,
+        "kept_edges": 4865,
+        "total_edges": 125424,
+        "n_communities": 9
+      },
+      {
+        "window": 7,
+        "min_freq": 10,
+        "coherence_cv": 0.6065,
+        "kept_edges": 2735,
+        "total_edges": 125424,
+        "n_communities": 14
+      },
+      {
+        "window": 10,
+        "min_freq": 2,
+        "coherence_cv": 0.5588,
+        "kept_edges": 50803,
+        "total_edges": 152989,
+        "n_communities": 7
+      },
+      {
+        "window": 10,
+        "min_freq": 3,
+        "coherence_cv": 0.5909,
+        "kept_edges": 25748,
+        "total_edges": 152989,
+        "n_communities": 7
+      },
+      {
+        "window": 10,
+        "min_freq": 5,
+        "coherence_cv": 0.7238,
+        "kept_edges": 11517,
+        "total_edges": 152989,
+        "n_communities": 9
+      },
+      {
+        "window": 10,
+        "min_freq": 7,
+        "coherence_cv": 0.656,
+        "kept_edges": 6817,
+        "total_edges": 152989,
+        "n_communities": 9
+      },
+      {
+        "window": 10,
+        "min_freq": 10,
+        "coherence_cv": 0.6093,
+        "kept_edges": 3925,
+        "total_edges": 152989,
+        "n_communities": 7
+      }
+    ]
+  },
+  "step2_kmeans_grid": {
+    "voc_en": [
+      {
+        "max_features": 200,
+        "actual_vocab": 200,
+        "silhouette": 0.0476,
+        "silhouette_std": 0.0013
+      },
+      {
+        "max_features": 500,
+        "actual_vocab": 500,
+        "silhouette": 0.0286,
+        "silhouette_std": 0.0011
+      },
+      {
+        "max_features": 1000,
+        "actual_vocab": 1000,
+        "silhouette": 0.0224,
+        "silhouette_std": 0.001
+      },
+      {
+        "max_features": 2000,
+        "actual_vocab": 1319,
+        "silhouette": 0.0206,
+        "silhouette_std": 0.0005
+      },
+      {
+        "max_features": 5000,
+        "actual_vocab": 1319,
+        "silhouette": 0.0206,
+        "silhouette_std": 0.0005
+      }
+    ],
+    "vad_en": [
+      {
+        "max_features": 200,
+        "actual_vocab": 200,
+        "silhouette": 0.0419,
+        "silhouette_std": 0.0002
+      },
+      {
+        "max_features": 500,
+        "actual_vocab": 500,
+        "silhouette": 0.0279,
+        "silhouette_std": 0.0005
+      },
+      {
+        "max_features": 1000,
+        "actual_vocab": 1000,
+        "silhouette": 0.0223,
+        "silhouette_std": 0.0007
+      },
+      {
+        "max_features": 2000,
+        "actual_vocab": 1980,
+        "silhouette": 0.0194,
+        "silhouette_std": 0.0001
+      },
+      {
+        "max_features": 5000,
+        "actual_vocab": 1980,
+        "silhouette": 0.0194,
+        "silhouette_std": 0.0001
+      }
+    ]
+  },
+  "step3_coverage": {
+    "voc_en": [
+      {
+        "top_n": 20,
+        "actual_n": 20,
+        "pct_vocab": 2.53,
+        "coverage": 0.9119,
+        "marginal_gain": 0.9119,
+        "covered_docs": 880,
+        "total_docs": 965,
+        "total_vocab": 792
+      },
+      {
+        "top_n": 50,
+        "actual_n": 50,
+        "pct_vocab": 6.31,
+        "coverage": 0.9845,
+        "marginal_gain": 0.0726,
+        "covered_docs": 950,
+        "total_docs": 965,
+        "total_vocab": 792
+      },
+      {
+        "top_n": 100,
+        "actual_n": 100,
+        "pct_vocab": 12.63,
+        "coverage": 0.9959,
+        "marginal_gain": 0.0114,
+        "covered_docs": 961,
+        "total_docs": 965,
+        "total_vocab": 792
+      },
+      {
+        "top_n": 200,
+        "actual_n": 200,
+        "pct_vocab": 25.25,
+        "coverage": 1.0,
+        "marginal_gain": 0.0041,
+        "covered_docs": 965,
+        "total_docs": 965,
+        "total_vocab": 792
+      },
+      {
+        "top_n": 500,
+        "actual_n": 500,
+        "pct_vocab": 63.13,
+        "coverage": 1.0,
+        "marginal_gain": 0.0,
+        "covered_docs": 965,
+        "total_docs": 965,
+        "total_vocab": 792
+      }
+    ],
+    "vad_en": [
+      {
+        "top_n": 20,
+        "actual_n": 20,
+        "pct_vocab": 1.57,
+        "coverage": 0.916,
+        "marginal_gain": 0.916,
+        "covered_docs": 2171,
+        "total_docs": 2370,
+        "total_vocab": 1271
+      },
+      {
+        "top_n": 50,
+        "actual_n": 50,
+        "pct_vocab": 3.93,
+        "coverage": 0.9738,
+        "marginal_gain": 0.0578,
+        "covered_docs": 2308,
+        "total_docs": 2370,
+        "total_vocab": 1271
+      },
+      {
+        "top_n": 100,
+        "actual_n": 100,
+        "pct_vocab": 7.87,
+        "coverage": 0.989,
+        "marginal_gain": 0.0152,
+        "covered_docs": 2344,
+        "total_docs": 2370,
+        "total_vocab": 1271
+      },
+      {
+        "top_n": 200,
+        "actual_n": 200,
+        "pct_vocab": 15.74,
+        "coverage": 0.9962,
+        "marginal_gain": 0.0072,
+        "covered_docs": 2361,
+        "total_docs": 2370,
+        "total_vocab": 1271
+      },
+      {
+        "top_n": 500,
+        "actual_n": 500,
+        "pct_vocab": 39.34,
+        "coverage": 0.9996,
+        "marginal_gain": 0.0034,
+        "covered_docs": 2369,
+        "total_docs": 2370,
+        "total_vocab": 1271
+      }
+    ]
+  },
+  "step4_lda_grid": {
+    "voc_en": {
+      "passes": [
+        {
+          "passes": 5,
+          "coherence_cv": 0.3564,
+          "perplexity": -6.6176,
+          "vocab": 1319
+        },
+        {
+          "passes": 10,
+          "coherence_cv": 0.4041,
+          "perplexity": -6.5852,
+          "vocab": 1319
+        },
+        {
+          "passes": 15,
+          "coherence_cv": 0.4236,
+          "perplexity": -6.5705,
+          "vocab": 1319
+        },
+        {
+          "passes": 20,
+          "coherence_cv": 0.4297,
+          "perplexity": -6.5605,
+          "vocab": 1319
+        },
+        {
+          "passes": 30,
+          "coherence_cv": 0.4413,
+          "perplexity": -6.5448,
+          "vocab": 1319
+        }
+      ],
+      "no_below": [
+        {
+          "no_below": 1,
+          "coherence_cv": 0.3422,
+          "perplexity": -6.8621,
+          "vocab": 2078
+        },
+        {
+          "no_below": 2,
+          "coherence_cv": 0.4041,
+          "perplexity": -6.5852,
+          "vocab": 1319
+        },
+        {
+          "no_below": 3,
+          "coherence_cv": 0.389,
+          "perplexity": -6.3796,
+          "vocab": 981
+        },
+        {
+          "no_below": 5,
+          "coherence_cv": 0.3898,
+          "perplexity": -6.0758,
+          "vocab": 664
+        }
+      ],
+      "no_above": [
+        {
+          "no_above": 0.7,
+          "coherence_cv": 0.4041,
+          "perplexity": -6.5852,
+          "vocab": 1319
+        },
+        {
+          "no_above": 0.8,
+          "coherence_cv": 0.4041,
+          "perplexity": -6.5852,
+          "vocab": 1319
+        },
+        {
+          "no_above": 0.9,
+          "coherence_cv": 0.4041,
+          "perplexity": -6.5852,
+          "vocab": 1319
+        },
+        {
+          "no_above": 0.95,
+          "coherence_cv": 0.4041,
+          "perplexity": -6.5852,
+          "vocab": 1319
+        }
+      ]
+    },
+    "vad_en": {
+      "passes": [
+        {
+          "passes": 5,
+          "coherence_cv": 0.4868,
+          "perplexity": -6.5555,
+          "vocab": 1980
+        },
+        {
+          "passes": 10,
+          "coherence_cv": 0.5022,
+          "perplexity": -6.5286,
+          "vocab": 1980
+        },
+        {
+          "passes": 15,
+          "coherence_cv": 0.498,
+          "perplexity": -6.5205,
+          "vocab": 1980
+        },
+        {
+          "passes": 20,
+          "coherence_cv": 0.5048,
+          "perplexity": -6.5162,
+          "vocab": 1980
+        },
+        {
+          "passes": 30,
+          "coherence_cv": 0.5088,
+          "perplexity": -6.512,
+          "vocab": 1980
+        }
+      ],
+      "no_below": [
+        {
+          "no_below": 1,
+          "coherence_cv": 0.5048,
+          "perplexity": -6.8046,
+          "vocab": 3793
+        },
+        {
+          "no_below": 2,
+          "coherence_cv": 0.5022,
+          "perplexity": -6.5286,
+          "vocab": 1980
+        },
+        {
+          "no_below": 3,
+          "coherence_cv": 0.4891,
+          "perplexity": -6.3903,
+          "vocab": 1504
+        },
+        {
+          "no_below": 5,
+          "coherence_cv": 0.4761,
+          "perplexity": -6.238,
+          "vocab": 1090
+        }
+      ],
+      "no_above": [
+        {
+          "no_above": 0.7,
+          "coherence_cv": 0.5022,
+          "perplexity": -6.5286,
+          "vocab": 1980
+        },
+        {
+          "no_above": 0.8,
+          "coherence_cv": 0.5022,
+          "perplexity": -6.5286,
+          "vocab": 1980
+        },
+        {
+          "no_above": 0.9,
+          "coherence_cv": 0.5022,
+          "perplexity": -6.5286,
+          "vocab": 1980
+        },
+        {
+          "no_above": 0.95,
+          "coherence_cv": 0.5022,
+          "perplexity": -6.5286,
+          "vocab": 1980
+        }
+      ]
+    }
+  },
+  "step5_nruns_stability": {
+    "voc_en": [
+      {
+        "n_runs": 3,
+        "mean": 0.4041,
+        "std": 0.0197,
+        "stable": false
+      },
+      {
+        "n_runs": 5,
+        "mean": 0.3919,
+        "std": 0.0216,
+        "stable": false
+      },
+      {
+        "n_runs": 10,
+        "mean": 0.3779,
+        "std": 0.0363,
+        "stable": false
+      },
+      {
+        "n_runs": 15,
+        "mean": 0.3743,
+        "std": 0.0498,
+        "stable": false
+      },
+      {
+        "n_runs": 20,
+        "mean": 0.3712,
+        "std": 0.0547,
+        "stable": false
+      }
+    ],
+    "vad_en": [
+      {
+        "n_runs": 3,
+        "mean": 0.5022,
+        "std": 0.0198,
+        "stable": false
+      },
+      {
+        "n_runs": 5,
+        "mean": 0.5087,
+        "std": 0.0182,
+        "stable": false
+      },
+      {
+        "n_runs": 10,
+        "mean": 0.4931,
+        "std": 0.0251,
+        "stable": false
+      },
+      {
+        "n_runs": 15,
+        "mean": 0.4894,
+        "std": 0.0234,
+        "stable": false
+      },
+      {
+        "n_runs": 20,
+        "mean": 0.4864,
+        "std": 0.0232,
+        "stable": false
+      }
+    ]
+  },
+  "step6_vad_k_search": {
+    "target_dataset": "vad_en",
+    "k_range": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "lda_params_used": {
+      "passes": 30,
+      "no_below": 2,
+      "no_above": 0.9,
+      "n_seeds": 5
+    },
+    "kmeans_params_used": {
+      "tfidf_feats": 1000,
+      "n_seeds": 5
+    },
+    "lda_k_search": [
+      {
+        "k": 2,
+        "coherence_cv": 0.4643,
+        "perplexity": -6.4639,
+        "vocab": 1980
+      },
+      {
+        "k": 3,
+        "coherence_cv": 0.4992,
+        "perplexity": -6.4864,
+        "vocab": 1980
+      },
+      {
+        "k": 4,
+        "coherence_cv": 0.5179,
+        "perplexity": -6.4974,
+        "vocab": 1980
+      },
+      {
+        "k": 5,
+        "coherence_cv": 0.5204,
+        "perplexity": -6.5237,
+        "vocab": 1980
+      },
+      {
+        "k": 6,
+        "coherence_cv": 0.5323,
+        "perplexity": -6.5519,
+        "vocab": 1980
+      },
+      {
+        "k": 7,
+        "coherence_cv": 0.5205,
+        "perplexity": -6.5861,
+        "vocab": 1980
+      },
+      {
+        "k": 8,
+        "coherence_cv": 0.5275,
+        "perplexity": -6.5926,
+        "vocab": 1980
+      },
+      {
+        "k": 9,
+        "coherence_cv": 0.5263,
+        "perplexity": -6.6095,
+        "vocab": 1980
+      },
+      {
+        "k": 10,
+        "coherence_cv": 0.5091,
+        "perplexity": -6.6331,
+        "vocab": 1980
+      }
+    ],
+    "kmeans_k_search": [
+      {
+        "k": 2,
+        "silhouette": 0.0155,
+        "silhouette_std": 0.0023
+      },
+      {
+        "k": 3,
+        "silhouette": 0.0186,
+        "silhouette_std": 0.0001
+      },
+      {
+        "k": 4,
+        "silhouette": 0.0225,
+        "silhouette_std": 0.0006
+      },
+      {
+        "k": 5,
+        "silhouette": 0.0243,
+        "silhouette_std": 0.0006
+      },
+      {
+        "k": 6,
+        "silhouette": 0.0257,
+        "silhouette_std": 0.0004
+      },
+      {
+        "k": 7,
+        "silhouette": 0.0266,
+        "silhouette_std": 0.0006
+      },
+      {
+        "k": 8,
+        "silhouette": 0.0263,
+        "silhouette_std": 0.0017
+      },
+      {
+        "k": 9,
+        "silhouette": 0.0279,
+        "silhouette_std": 0.0008
+      },
+      {
+        "k": 10,
+        "silhouette": 0.0294,
+        "silhouette_std": 0.0016
+      }
+    ],
+    "summary": {
+      "best_lda_coherence_k": 6,
+      "best_lda_coherence_cv": 0.5323,
+      "elbow_lda_k": 4,
+      "best_kmeans_sil_k": 10,
+      "best_kmeans_sil": 0.0294
+    },
+    "rationale": "vad_en은 Bottom-Up 데이터로, 사전 K 가정 없이 데이터에서 귀납적으로 최적 K를 결정. LDA Coherence C_v 엘보우 + KMeans Silhouette 동시 평가."
+  }
+}

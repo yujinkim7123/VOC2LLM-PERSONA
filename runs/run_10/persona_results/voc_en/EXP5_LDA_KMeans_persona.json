@@ -1,0 +1,223 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP5_LDA_KMeans",
+  "method": "LDA_KMEANS",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_docs": 965,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Price-Conscious Evaluator",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP5_LDA_KMeans",
+      "keywords": [
+        "price",
+        "spec",
+        "buy",
+        "service",
+        "performance"
+      ],
+      "core_value": "This consumer segment values cost-effectiveness and product performance.",
+      "description": "These consumers carefully evaluate products based on price and specifications, ensuring they receive good service and performance for their money. They are pragmatic and seek reliable brands that deliver consistent quality.",
+      "motivation": "Their primary motivation is to find products that offer the best value for their investment with reliable service.",
+      "pain_points": "Concerns include insufficient performance relative to price and subpar service experiences.",
+      "quote": "I want to make sure I'm getting the best value for my money, and the performance should match the specs.",
+      "sentiment_ratio": {
+        "Positive": 0.3,
+        "Neutral": 0.5,
+        "Negative": 0.2,
+        "_inference_note": "The keywords 'price', 'performance', and 'spec' suggest a neutral focus on evaluation, while 'service' implies concern, and 'brand' adds a positive expectation."
+      },
+      "top_aspects": [
+        "price",
+        "spec",
+        "buy",
+        "service",
+        "performance"
+      ],
+      "co_aspects": {
+        "price": [
+          "spec",
+          "buy",
+          "service"
+        ],
+        "spec": [
+          "price",
+          "performance"
+        ],
+        "buy": [
+          "price",
+          "service"
+        ],
+        "service": [
+          "price",
+          "buy"
+        ],
+        "performance": [
+          "spec",
+          "price"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Aesthetic Enthusiast",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP5_LDA_KMeans",
+      "keywords": [
+        "color",
+        "pretty",
+        "look",
+        "design",
+        "beautiful"
+      ],
+      "core_value": "They prioritize aesthetic appeal and unique design.",
+      "description": "Driven by visual appeal, these consumers focus on the design and aesthetics of home appliances. They often choose products that fit beautifully within their personal style and home decor.",
+      "motivation": "A strong desire for visually appealing products that enhance the beauty of their space.",
+      "pain_points": "Disappointment arises if the product does not match the advertised appearance or if the design is not practical.",
+      "quote": "I want my appliances to not only work well but also look stunning in my home.",
+      "sentiment_ratio": {
+        "Positive": 0.7,
+        "Neutral": 0.2,
+        "Negative": 0.1,
+        "_inference_note": "The keywords 'pretty', 'look', and 'beautiful' carry a strong positive sentiment with minimal negatives."
+      },
+      "top_aspects": [
+        "color",
+        "pretty",
+        "look",
+        "design",
+        "beautiful"
+      ],
+      "co_aspects": {
+        "color": [
+          "pretty",
+          "design"
+        ],
+        "design": [
+          "color",
+          "look"
+        ],
+        "look": [
+          "design",
+          "pretty"
+        ],
+        "pretty": [
+          "color",
+          "beautiful"
+        ],
+        "beautiful": [
+          "look",
+          "design"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Warranty-Conscious Pragmatist",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP5_LDA_KMeans",
+      "keywords": [
+        "warranty",
+        "service",
+        "brand",
+        "material",
+        "long"
+      ],
+      "core_value": "They prioritize durable products with solid warranties.",
+      "description": "These consumers are practical and detail-oriented, with a focus on long-term product reliability and warranty support. They prefer trusted brands that offer extended coverage and assured service.",
+      "motivation": "Their main drive is to ensure lasting performance and peace of mind through comprehensive warranty and service.",
+      "pain_points": "Frustration stems from inadequate warranty terms or lack of reliable service.",
+      "quote": "A good warranty tells me the brand stands behind its products, which is crucial for me.",
+      "sentiment_ratio": {
+        "Positive": 0.4,
+        "Neutral": 0.4,
+        "Negative": 0.2,
+        "_inference_note": "Keywords like 'warranty' and 'brand' suggest a neutral to positive focus on reliability and trust, while 'service' and 'material' highlight expectations of longevity."
+      },
+      "top_aspects": [
+        "warranty",
+        "service",
+        "brand",
+        "material",
+        "long"
+      ],
+      "co_aspects": {
+        "warranty": [
+          "service",
+          "brand"
+        ],
+        "service": [
+          "warranty",
+          "long"
+        ],
+        "brand": [
+          "warranty",
+          "material"
+        ],
+        "material": [
+          "brand",
+          "long"
+        ],
+        "long": [
+          "service",
+          "material"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Skeptical Quality Inspector",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP5_LDA_KMeans",
+      "keywords": [
+        "service",
+        "exchange",
+        "defect",
+        "issue",
+        "request"
+      ],
+      "core_value": "They value transparency and quality assurance.",
+      "description": "This group is highly attentive to product quality and potential defects. They often question the brand's quality control and actively seek resolutions for issues.",
+      "motivation": "Their goal is to obtain high-quality products that meet advertised standards without defects.",
+      "pain_points": "They are particularly frustrated by defects and poor service response to their concerns.",
+      "quote": "I expect a product to be free from defects, and any issues should be addressed promptly by service.",
+      "sentiment_ratio": {
+        "Positive": 0.1,
+        "Neutral": 0.3,
+        "Negative": 0.6,
+        "_inference_note": "'Defect', 'issue', and 'request' imply significant negative sentiment, with little positivity except for 'service' assistance expectations."
+      },
+      "top_aspects": [
+        "service",
+        "exchange",
+        "defect",
+        "issue",
+        "request"
+      ],
+      "co_aspects": {
+        "service": [
+          "exchange",
+          "defect"
+        ],
+        "exchange": [
+          "service",
+          "issue"
+        ],
+        "defect": [
+          "service",
+          "request"
+        ],
+        "issue": [
+          "exchange",
+          "defect"
+        ],
+        "request": [
+          "defect",
+          "issue"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "file_key": "voc_en",
+  "exp_id": "EXP_RAW",
+  "method": "RAW_REVIEW_INJECTION",
+  "lang": "en",
+  "domain": "Home Appliance Products (English reviews, synthetic VOC)",
+  "n_reviews_injected": 200,
+  "run_seed": 91,
+  "generated_personas": [
+    {
+      "persona_id": "P1",
+      "persona_name": "Budget Buyer",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP_RAW",
+      "keywords": [
+        "budget",
+        "price",
+        "value",
+        "cheap",
+        "discount",
+        "savings",
+        "deal"
+      ],
+      "core_value": "Finding the best value for money without compromising on performance.",
+      "description": "These consumers are always on the lookout for the best deals and discounts, often prioritizing price over brand recognition. They frequently mention budget-friendly options and express satisfaction when products perform well for the cost.",
+      "motivation": "The primary motivation is to maximize savings while ensuring satisfactory product performance.",
+      "pain_points": "Frustrated by poor quality and hidden costs (like slow shipping or difficult returns) nullifying initial savings.",
+      "quote": "I saved a lot with this budget option, and it performs just as well as more expensive brands.",
+      "sentiment_ratio": {
+        "Positive": 0.6,
+        "Neutral": 0.1,
+        "Negative": 0.3,
+        "_inference_note": "Overall positive tone when finding deals, but with frequent complaints about unexpected quality issues and costs."
+      },
+      "top_aspects": [
+        "price",
+        "quality",
+        "shipping",
+        "return",
+        "brand"
+      ],
+      "co_aspects": {
+        "price": [
+          "quality",
+          "shipping",
+          "return"
+        ],
+        "quality": [
+          "price",
+          "brand"
+        ]
+      }
+    },
+    {
+      "persona_id": "P2",
+      "persona_name": "Quality Seeker",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP_RAW",
+      "keywords": [
+        "quality",
+        "performance",
+        "specs",
+        "reliability",
+        "durability"
+      ],
+      "core_value": "An uncompromising focus on product quality and reliability.",
+      "description": "This segment is characterized by its intense focus on product quality and technical specifications. They evaluate products meticulously, often benchmarking them against advertised specs and expectations.",
+      "motivation": "Driven by the need to ensure products meet high quality and performance standards as advertised.",
+      "pain_points": "Disappointment arises from products not living up to advertised specifications or having technical issues.",
+      "quote": "I expected performance matching advertised specs, but I was let down.",
+      "sentiment_ratio": {
+        "Positive": 0.3,
+        "Neutral": 0.2,
+        "Negative": 0.5,
+        "_inference_note": "Many negative reviews result from products failing to meet expectations and specifications."
+      },
+      "top_aspects": [
+        "quality",
+        "specs",
+        "performance",
+        "testing",
+        "durability"
+      ],
+      "co_aspects": {
+        "quality": [
+          "specs",
+          "performance"
+        ],
+        "performance": [
+          "quality",
+          "testing"
+        ]
+      }
+    },
+    {
+      "persona_id": "P3",
+      "persona_name": "Service-Oriented Shopper",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP_RAW",
+      "keywords": [
+        "AS",
+        "support",
+        "return",
+        "refund",
+        "service"
+      ],
+      "core_value": "Prioritizes excellent customer service and seamless post-purchase support.",
+      "description": "These consumers value after-sales service as much as, if not more than, the products themselves. They often recount experiences with customer support, both praising prompt service and criticizing poor experiences.",
+      "motivation": "Ensuring that they have reliable and responsive support should any issues arise with their purchase.",
+      "pain_points": "Frustration with slow responses, unhelpful chatbots, and inconsistent service policies undermine trust in the brand.",
+      "quote": "The product was fine, but the customer service experience left a lot to be desired.",
+      "sentiment_ratio": {
+        "Positive": 0.4,
+        "Neutral": 0.2,
+        "Negative": 0.4,
+        "_inference_note": "Mixed reviews with similar amounts of satisfaction and dissatisfaction, mostly related to service quality."
+      },
+      "top_aspects": [
+        "service",
+        "AS",
+        "support",
+        "return",
+        "refund"
+      ],
+      "co_aspects": {
+        "service": [
+          "AS",
+          "support"
+        ],
+        "return": [
+          "refund",
+          "support"
+        ]
+      }
+    },
+    {
+      "persona_id": "P4",
+      "persona_name": "Design Enthusiast",
+      "category": "Home Appliance Products",
+      "data_source": "voc_en_EXP_RAW",
+      "keywords": [
+        "design",
+        "color",
+        "style",
+        "aesthetic",
+        "appearance"
+      ],
+      "core_value": "Aesthetic appeal and design are critical factors in the purchasing decision.",
+      "description": "These consumers prioritize design and aesthetic appeal over other aspects. They are willing to pay a premium for products that fit their style and enhance their living space.",
+      "motivation": "Creating a visually pleasing environment with products that match their personal aesthetic and design preferences.",
+      "pain_points": "Issues arise from discrepancies between the expected and actual appearance and aesthetic-related functionality.",
+      "quote": "I bought this because it looked perfect for my setup, but the actual color didn't match the picture.",
+      "sentiment_ratio": {
+        "Positive": 0.5,
+        "Neutral": 0.1,
+        "Negative": 0.4,
+        "_inference_note": "While generally positive, dissatisfaction occurs when the product's appearance doesn't meet expectations."
+      },
+      "top_aspects": [
+        "design",
+        "color",
+        "appearance",
+        "aesthetic",
+        "style"
+      ],
+      "co_aspects": {
+        "design": [
+          "color",
+          "style"
+        ],
+        "appearance": [
+          "aesthetic",
+          "design"
+        ]
+      }
+    }
+  ]
+}
