@@ -8,7 +8,7 @@ dimension 집계 전용 — API 호출 없음(무료), 기존 mini 채점 결과
 import os, json
 import numpy as np
 
-BASE_DIR = r"C:\Users\User\OneDrive\바탕 화면\대학원\캡스톤\runs"
+BASE_DIR = r""
 EVAL_SUBDIR = "evaluation_results_mini"
 N_RUNS = 20
 
