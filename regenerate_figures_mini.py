@@ -37,9 +37,9 @@ import numpy as np
 # =================================================================
 # 0. 경로 설정 — 본인 환경에 맞게 수정
 # =================================================================
-FINAL_TABLE_MINI = r"C:\Users\User\OneDrive\바탕 화면\대학원\캡스톤\runs\statistics\final_table3_mini.json"
-DIM_TABLE_MINI   = r"C:\Users\User\OneDrive\바탕 화면\대학원\캡스톤\runs\statistics\dim_table2_mini.json"
-OUT_DIR          = r"C:\Users\User\OneDrive\바탕 화면\대학원\캡스톤\figures_mini"
+FINAL_TABLE_MINI = r""
+DIM_TABLE_MINI   = r""
+OUT_DIR          = r""
 
 os.makedirs(OUT_DIR, exist_ok=True)
 
